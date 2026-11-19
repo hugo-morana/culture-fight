@@ -8,10 +8,41 @@ enum Regles {
     static let degatsMin = 5
     static let jaugeMax = 3
 
+    /// Bonus de vitesse sur la contre-attaque : moins de 3 s « Éclair », moins de 7 s « Rapide ».
+    static let seuilEclair: Double = 3
+    static let seuilRapide: Double = 7
+
     /// D = max(5, Attaque × (1 + 0,1 × (Difficulté − 1)) − Défense)
     static func degats(attaque: Int, difficulte: Int, defense: Int) -> Int {
         let brut = Double(attaque) * (1 + 0.1 * Double(difficulte - 1))
         return max(degatsMin, Int(brut.rounded()) - defense)
+    }
+}
+
+/// Rapidité d'une bonne réponse.
+enum Vitesse: Sendable {
+    case eclair, rapide, normale
+
+    init(secondes: Double) {
+        if secondes < Regles.seuilEclair { self = .eclair }
+        else if secondes < Regles.seuilRapide { self = .rapide }
+        else { self = .normale }
+    }
+
+    var multiplicateurContre: Double {
+        switch self {
+        case .eclair: return 1.5
+        case .rapide: return 1.25
+        case .normale: return 1
+        }
+    }
+
+    var libelle: String? {
+        switch self {
+        case .eclair: return "Éclair ! Contre-attaque +50 %"
+        case .rapide: return "Rapide ! Contre-attaque +25 %"
+        case .normale: return nil
+        }
     }
 }
 
@@ -21,6 +52,8 @@ struct ResultatTour: Sendable {
     let reponse: Int?
     let correct: Bool
     let affinite: Affinite
+    /// Rapidité de la réponse (comptée seulement si elle est bonne).
+    let vitesse: Vitesse
     let attaquantNom: String
     let defenseurNom: String
     let defenseurEstJoueur: Bool
@@ -71,11 +104,13 @@ struct Combat: Sendable {
     }
 
     /// Applique la réponse du défenseur (nil = temps écoulé) et passe au tour suivant.
-    mutating func resoudre(question: Question, affinite: Affinite, reponse: Int?) -> ResultatTour {
+    /// - Parameter secondes: temps mis pour répondre.
+    mutating func resoudre(question: Question, affinite: Affinite, reponse: Int?, secondes: Double) -> ResultatTour {
         let a = attaquant, d = defenseur
         let ia = camps[a].indexActif, id = camps[d].indexActif
         let att = camps[a].actif, def = camps[d].actif
         let correct = reponse == question.bonneReponse
+        let vitesse = correct ? Vitesse(secondes: secondes) : .normale
 
         var degatsDefenseur = 0
         var degatsContre = 0
@@ -88,7 +123,7 @@ struct Combat: Sendable {
                                      difficulte: question.difficulte,
                                      defense: att.modele.defense)
             degatsContre = max(Regles.degatsMin,
-                               Int((Double(base) * 0.5 * affinite.multiplicateurContre).rounded()))
+                               Int((Double(base) * 0.5 * affinite.multiplicateurContre * vitesse.multiplicateurContre).rounded()))
             camps[a].combattants[ia].pv -= degatsContre
 
             camps[d].combattants[id].jauge += 1
@@ -125,6 +160,7 @@ struct Combat: Sendable {
                             reponse: reponse,
                             correct: correct,
                             affinite: affinite,
+                            vitesse: vitesse,
                             attaquantNom: att.modele.nom,
                             defenseurNom: def.modele.nom,
                             defenseurEstJoueur: d == 0,

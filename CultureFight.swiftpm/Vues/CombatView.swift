@@ -206,6 +206,9 @@ struct VueResultat: View {
             Divider()
 
             if resultat.correct {
+                if let libelle = resultat.vitesse.libelle {
+                    ligne(libelle, "bolt.horizontal.fill")
+                }
                 ligne("Contre-attaque : \(resultat.attaquantNom) perd \(resultat.degatsContre) PV", "arrow.uturn.backward")
                 if resultat.jaugeRemplie {
                     ligne("Jauge de Savoir pleine : \(resultat.defenseurNom) fera double dégâts à sa prochaine attaque", "bolt.fill")

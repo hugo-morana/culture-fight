@@ -22,6 +22,7 @@ final class CombatController {
 
     let ia: IAAdverse
     @ObservationIgnored private var tache: Task<Void, Never>?
+    @ObservationIgnored private var debutQuestion = Date()
 
     init(equipeJoueur: [ModeleCombattant], equipeIA: [ModeleCombattant], ia: IAAdverse) {
         self.ia = ia
@@ -78,8 +79,9 @@ final class CombatController {
         let reponseIA: Int? = combat.camps[combat.defenseur].estIA
             ? ia.repondre(question: tirage.question, affinite: tirage.affinite, retires: tirage.retires)
             : nil
-        let delaiIA = ia.delaiReponse()
+        let delaiIA = min(ia.delaiReponse(), tempsTotal - 0.5)
         let debut = Date()
+        debutQuestion = debut
 
         tache = Task { [weak self] in
             while !Task.isCancelled {
@@ -101,7 +103,9 @@ final class CombatController {
 
     private func valider(_ reponse: Int?) {
         guard case .question = phase, let question else { return }
-        let resultat = combat.resoudre(question: question, affinite: affinite, reponse: reponse)
+        let secondes = Date().timeIntervalSince(debutQuestion)
+        let resultat = combat.resoudre(question: question, affinite: affinite,
+                                       reponse: reponse, secondes: secondes)
         phase = .resultat(resultat)
     }
 

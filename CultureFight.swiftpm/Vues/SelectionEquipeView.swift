@@ -6,6 +6,8 @@ struct SelectionEquipeView: View {
 
     @State private var choisis: [String] = []
     @State private var niveau: IAAdverse.Niveau = .moyen
+    /// Un exemple de question par combattant, tiré une seule fois à l'ouverture.
+    @State private var exemples: [String: String] = [:]
 
     private var equipe: [ModeleCombattant] {
         choisis.compactMap { id in Catalogue.prototype.first { $0.id == id } }
@@ -19,7 +21,9 @@ struct SelectionEquipeView: View {
                         Button {
                             basculer(modele.id)
                         } label: {
-                            LigneCombattant(modele: modele, choisi: choisis.contains(modele.id))
+                            LigneCombattant(modele: modele,
+                                            exemple: exemples[modele.id],
+                                            choisi: choisis.contains(modele.id))
                         }
                         .buttonStyle(.plain)
                     }
@@ -39,6 +43,12 @@ struct SelectionEquipeView: View {
                 }
             }
             .navigationTitle("Ton équipe")
+            .onAppear {
+                guard exemples.isEmpty else { return }
+                for modele in Catalogue.prototype {
+                    exemples[modele.id] = modele.exempleDeQuestion()
+                }
+            }
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Button("Retour", action: retour)
@@ -73,12 +83,13 @@ struct SelectionEquipeView: View {
 
 struct LigneCombattant: View {
     let modele: ModeleCombattant
+    let exemple: String?
     let choisi: Bool
 
     var body: some View {
-        HStack(spacing: 12) {
+        HStack(alignment: .top, spacing: 12) {
             Avatar(modele: modele, taille: 44)
-            VStack(alignment: .leading, spacing: 2) {
+            VStack(alignment: .leading, spacing: 4) {
                 Text(modele.nom).font(.headline)
                 Text("\(modele.style) · \(modele.specialite.nom)")
                     .font(.subheadline)
@@ -86,6 +97,19 @@ struct LigneCombattant: View {
                 Text("\(modele.rarete.rawValue) · PV \(modele.pvMax) · Att \(modele.attaque) · Déf \(modele.defense)")
                     .font(.caption)
                     .foregroundStyle(.secondary)
+                Text(modele.apparence)
+                    .font(.caption)
+                    .italic()
+                    .fixedSize(horizontal: false, vertical: true)
+                Text("Questions : \(modele.questions)")
+                    .font(.caption)
+                    .fixedSize(horizontal: false, vertical: true)
+                if let exemple {
+                    Text("Exemple : « \(exemple) »")
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(modele.specialite.couleur)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
             }
             Spacer()
             Image(systemName: choisi ? "checkmark.circle.fill" : "circle")

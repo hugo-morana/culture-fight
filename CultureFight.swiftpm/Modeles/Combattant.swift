@@ -20,7 +20,14 @@ struct ModeleCombattant: Identifiable, Sendable {
     /// Difficulté des questions qu'il pose (1 à 5).
     let difficulte: Int
     let apparence: String
+    /// Sur quoi portent ses questions, affiché dans le choix de l'équipe.
+    let questions: String
     let generateur: any GenerateurQuestions
+
+    /// Une question tirée au hasard, pour montrer le genre de questions posées.
+    func exempleDeQuestion() -> String {
+        generateur.generer(difficulte: difficulte, exclues: []).enonce
+    }
 
     var initiales: String {
         String(nom.prefix(2)).uppercased()

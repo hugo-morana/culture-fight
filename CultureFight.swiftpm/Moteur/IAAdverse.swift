@@ -36,9 +36,14 @@ struct IAAdverse: Sendable {
         return fausses.randomElement() ?? question.bonneReponse
     }
 
-    /// Temps de réflexion affiché, en secondes.
+    /// Temps de réflexion, en secondes : plus l'IA est forte, plus elle répond vite
+    /// (et plus elle profite du bonus de vitesse).
     func delaiReponse() -> Double {
-        Double.random(in: 2.0...6.0)
+        switch niveau {
+        case .facile: return Double.random(in: 6.0...12.0)
+        case .moyen: return Double.random(in: 4.0...9.0)
+        case .difficile: return Double.random(in: 2.0...6.0)
+        }
     }
 
     func choisirEquipe(parmi catalogue: [ModeleCombattant]) -> [ModeleCombattant] {
