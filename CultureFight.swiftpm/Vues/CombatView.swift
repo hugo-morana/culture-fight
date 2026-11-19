@@ -7,17 +7,43 @@ struct CombatView: View {
 
     @State private var confirmerAbandon = false
 
+    /// Identité de ce qui est affiché au centre : change à chaque question, résultat ou fin.
+    private var clePhase: String {
+        switch controleur.phase {
+        case .attente: return "attente"
+        case .question: return "question-\(controleur.combat.tour)"
+        case .resultat: return "resultat-\(controleur.combat.tour)"
+        case .fin: return "fin"
+        }
+    }
+
     var body: some View {
         VStack(spacing: 12) {
             entete
-            CarteCamp(camp: controleur.combat.camps[1], estEnHaut: true)
+            CarteCamp(camp: controleur.combat.camps[1],
+                      impacts: controleur.impacts[1],
+                      variation: controleur.variations[1])
             ScrollView {
-                zoneCentrale
-                    .padding(.vertical, 4)
+                ZStack {
+                    zoneCentrale
+                        .id(clePhase)
+                        .transition(.asymmetric(
+                            insertion: .scale(scale: 0.9).combined(with: .opacity).combined(with: .offset(y: 20)),
+                            removal: .opacity.combined(with: .scale(scale: 1.05))))
+                }
+                .animation(.spring(duration: 0.45, bounce: 0.3), value: clePhase)
+                .padding(.vertical, 4)
             }
-            CarteCamp(camp: controleur.combat.camps[0], estEnHaut: false)
+            CarteCamp(camp: controleur.combat.camps[0],
+                      impacts: controleur.impacts[0],
+                      variation: controleur.variations[0])
         }
         .padding()
+        .overlay {
+            if controleur.estFini && controleur.estVictoire {
+                Confettis().ignoresSafeArea()
+            }
+        }
         .task { controleur.demarrer() }
         .confirmationDialog("Abandonner le combat ?", isPresented: $confirmerAbandon, titleVisibility: .visible) {
             Button("Abandonner", role: .destructive) {
@@ -34,6 +60,8 @@ struct CombatView: View {
             Text("Tour \(min(controleur.combat.tour + 1, Regles.toursMax))/\(Regles.toursMax)")
                 .font(.subheadline.monospacedDigit())
                 .foregroundStyle(.secondary)
+                .contentTransition(.numericText(value: Double(controleur.combat.tour)))
+                .animation(.snappy, value: controleur.combat.tour)
             Spacer()
             if !controleur.estFini {
                 Button("Abandonner") { confirmerAbandon = true }
@@ -63,6 +91,7 @@ struct CombatView: View {
             VueResultat(resultat: resultat, continuer: { controleur.continuer() })
         case .fin:
             VueFin(titre: controleur.titreFin,
+                   victoire: controleur.estVictoire,
                    pieces: controleur.piecesGagnees,
                    rejouer: rejouer,
                    accueil: accueil)
@@ -74,62 +103,93 @@ struct CombatView: View {
 
 struct CarteCamp: View {
     let camp: Camp
-    let estEnHaut: Bool
+    /// Augmente à chaque fois que les PV du camp changent.
+    let impacts: Int
+    /// Dernière variation de PV (négative : dégâts, positive : soin).
+    let variation: Int
 
     var body: some View {
         let actif = camp.actif
         VStack(alignment: .leading, spacing: 8) {
-            HStack(spacing: 12) {
-                Avatar(modele: actif.modele, taille: 64)
-                VStack(alignment: .leading, spacing: 4) {
-                    HStack {
-                        Text(actif.modele.nom).font(.headline)
-                        Spacer()
-                        Text("\(actif.pv)/\(actif.modele.pvMax) PV")
-                            .font(.subheadline.monospacedDigit())
-                    }
-                    BarrePV(pv: actif.pv, pvMax: actif.modele.pvMax)
-                    HStack(spacing: 6) {
-                        Text("\(actif.modele.style) · \(actif.modele.specialite.nom)")
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-                        Spacer()
-                        if actif.bouclier > 0 {
-                            Image(systemName: "shield.fill")
-                                .font(.caption)
-                                .foregroundStyle(.cyan)
+            ZStack {
+                HStack(spacing: 12) {
+                    Avatar(modele: actif.modele, taille: 64)
+                    VStack(alignment: .leading, spacing: 4) {
+                        HStack {
+                            Text(actif.modele.nom).font(.headline)
+                            Spacer()
+                            Text("\(actif.pv)/\(actif.modele.pvMax) PV")
+                                .font(.subheadline.monospacedDigit())
+                                .contentTransition(.numericText(value: Double(actif.pv)))
+                                .animation(.snappy(duration: 0.5), value: actif.pv)
                         }
-                        jauge(actif)
+                        BarrePV(pv: actif.pv, pvMax: actif.modele.pvMax)
+                        HStack(spacing: 6) {
+                            Text("\(actif.modele.style) · \(actif.modele.specialite.nom)")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                            Spacer()
+                            if actif.bouclier > 0 {
+                                Image(systemName: "shield.fill")
+                                    .font(.caption)
+                                    .foregroundStyle(.cyan)
+                                    .symbolEffect(.pulse)
+                                    .transition(.scale.combined(with: .opacity))
+                            }
+                            jauge(actif)
+                        }
                     }
                 }
+                .id(actif.id)
+                .transition(.asymmetric(
+                    insertion: .move(edge: .trailing).combined(with: .opacity),
+                    removal: .move(edge: .leading).combined(with: .opacity)))
             }
+            .animation(.spring(duration: 0.5, bounce: 0.3), value: actif.id)
+            .animation(.spring(duration: 0.4), value: actif.bouclier > 0)
+
             HStack(spacing: 6) {
                 Text(camp.nom).font(.caption.bold())
                 ForEach(camp.combattants) { c in
                     Circle()
                         .fill(c.estKO ? Color.gray.opacity(0.4) : c.modele.specialite.couleur)
                         .frame(width: 10, height: 10)
+                        .scaleEffect(c.id == actif.id ? 1.3 : 1)
                         .overlay(Circle().stroke(Color.white, lineWidth: c.id == actif.id ? 2 : 0))
+                        .animation(.spring(duration: 0.4, bounce: 0.5), value: actif.id)
                 }
             }
         }
         .padding(12)
         .background(RoundedRectangle(cornerRadius: 14).fill(Color.white.opacity(0.06)))
+        .modifier(EffetImpact(declencheur: impacts, variation: variation))
+        .overlay(alignment: .topTrailing) {
+            ChiffreEnvole(declencheur: impacts, variation: variation)
+                .padding(.trailing, 28)
+                .padding(.top, 4)
+        }
     }
 
-    /// Jauge de Savoir : 3 cases, ou un éclair quand la capacité est prête.
+    /// Jauge de Savoir : 3 cases, ou un éclair qui pulse quand la capacité est prête.
     @ViewBuilder
     private func jauge(_ c: CombattantEnJeu) -> some View {
         if c.capacitePrete {
-            Label("Prêt", systemImage: "bolt.fill")
-                .font(.caption2.bold())
-                .foregroundStyle(.yellow)
+            HStack(spacing: 3) {
+                Image(systemName: "bolt.fill")
+                    .symbolEffect(.pulse)
+                Text("Prêt")
+            }
+            .font(.caption2.bold())
+            .foregroundStyle(.yellow)
+            .transition(.scale.combined(with: .opacity))
         } else {
             HStack(spacing: 3) {
                 ForEach(0..<Regles.jaugeMax, id: \.self) { i in
                     RoundedRectangle(cornerRadius: 2)
                         .fill(i < c.jauge ? Color.yellow : Color.white.opacity(0.15))
                         .frame(width: 12, height: 6)
+                        .scaleEffect(y: i < c.jauge ? 1.25 : 1)
+                        .animation(.spring(duration: 0.35, bounce: 0.6), value: c.jauge)
                 }
             }
         }
@@ -149,6 +209,11 @@ struct VueQuestion: View {
     let joueurRepond: Bool
     let repondre: (Int) -> Void
 
+    @State private var apparu = false
+
+    private var urgence: Bool { tempsRestant < 5 }
+    private var secondes: Int { Int(tempsRestant.rounded(.up)) }
+
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("\(attaquant.nom) attaque · \(question.specialite.nom)")
@@ -164,11 +229,25 @@ struct VueQuestion: View {
                     .font(.caption2)
                     .foregroundStyle(.red)
             }
-            ProgressView(value: max(0, tempsRestant), total: tempsTotal)
-                .tint(tempsRestant < 5 ? Color.red : Color.orange)
+            HStack(spacing: 8) {
+                Image(systemName: "timer")
+                    .foregroundStyle(urgence ? Color.red : Color.orange)
+                    .symbolEffect(.pulse, isActive: urgence)
+                ProgressView(value: max(0, tempsRestant), total: tempsTotal)
+                    .tint(urgence ? Color.red : Color.orange)
+                Text("\(secondes)")
+                    .font(.subheadline.monospacedDigit().bold())
+                    .foregroundStyle(urgence ? Color.red : Color.primary)
+                    .contentTransition(.numericText(countsDown: true))
+                    .animation(.snappy, value: secondes)
+                    .frame(width: 26, alignment: .trailing)
+            }
             Text(question.enonce)
                 .font(.title3.bold())
                 .fixedSize(horizontal: false, vertical: true)
+                .scaleEffect(apparu ? 1 : 0.92, anchor: .leading)
+                .opacity(apparu ? 1 : 0)
+                .animation(.spring(duration: 0.4, bounce: 0.3), value: apparu)
             ForEach(question.choix.indices, id: \.self) { i in
                 Button {
                     repondre(i)
@@ -179,14 +258,21 @@ struct VueQuestion: View {
                 }
                 .buttonStyle(.bordered)
                 .disabled(!joueurRepond || retires.contains(i))
-                .opacity(retires.contains(i) ? 0.25 : 1)
+                .opacity(apparu ? (retires.contains(i) ? 0.25 : 1) : 0)
+                .offset(y: apparu ? 0 : 24)
+                .animation(.spring(duration: 0.45, bounce: 0.35).delay(0.08 + Double(i) * 0.07), value: apparu)
             }
             if !joueurRepond {
-                Label("L'adversaire réfléchit…", systemImage: "hourglass")
-                    .font(.footnote)
-                    .foregroundStyle(.secondary)
+                HStack(spacing: 6) {
+                    Image(systemName: "brain.head.profile")
+                        .symbolEffect(.pulse)
+                    Text("L'adversaire réfléchit…")
+                }
+                .font(.footnote)
+                .foregroundStyle(.secondary)
             }
         }
+        .onAppear { apparu = true }
     }
 }
 
@@ -196,50 +282,91 @@ struct VueResultat: View {
     let resultat: ResultatTour
     let continuer: () -> Void
 
+    @State private var apparu = false
+
     private var titre: String {
         if resultat.reponse == nil { return "Temps écoulé !" }
         return resultat.correct ? "Bonne réponse !" : "Mauvaise réponse"
     }
 
+    private var icone: String {
+        if resultat.reponse == nil { return "timer" }
+        return resultat.correct ? "checkmark.seal.fill" : "xmark.octagon.fill"
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text(titre)
-                .font(.title2.bold())
-                .foregroundStyle(resultat.correct ? Color.green : Color.red)
+            HStack(spacing: 10) {
+                Image(systemName: icone)
+                    .font(.title)
+                    .symbolEffect(.bounce, value: apparu)
+                Text(titre)
+                    .font(.title2.bold())
+            }
+            .foregroundStyle(resultat.correct ? Color.green : Color.red)
+            .overlay {
+                if resultat.vitesse == .eclair {
+                    Etincelles(couleur: .yellow)
+                        .frame(width: 320, height: 220)
+                }
+            }
+
             Text(resultat.question.enonce)
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
-            Text("Réponse : \(resultat.question.texteBonneReponse)")
-                .font(.headline)
+
+            ForEach(resultat.question.choix.indices, id: \.self) { i in
+                let bonne = i == resultat.question.bonneReponse
+                let choisie = i == resultat.reponse
+                HStack(spacing: 8) {
+                    Image(systemName: bonne ? "checkmark.circle.fill" : (choisie ? "xmark.circle.fill" : "circle"))
+                        .foregroundStyle(bonne ? Color.green : (choisie ? Color.red : Color.secondary))
+                    Text(resultat.question.choix[i])
+                        .font(.subheadline.weight(bonne ? .bold : .regular))
+                    Spacer()
+                }
+                .padding(.vertical, 6)
+                .padding(.horizontal, 10)
+                .background(RoundedRectangle(cornerRadius: 8)
+                    .fill(bonne ? Color.green.opacity(0.22) : (choisie ? Color.red.opacity(0.22) : Color.white.opacity(0.05))))
+                .scaleEffect(bonne && apparu ? 1.02 : 1)
+                .animation(.spring(duration: 0.5, bounce: 0.5).delay(0.15), value: apparu)
+            }
+
             Text(resultat.question.explication)
                 .font(.callout)
                 .fixedSize(horizontal: false, vertical: true)
 
             Divider()
 
-            if resultat.correct {
-                if let effet = resultat.effetVitesse {
-                    ligne(effet, "bolt.horizontal.fill")
+            VStack(alignment: .leading, spacing: 8) {
+                if resultat.correct {
+                    if let effet = resultat.effetVitesse {
+                        ligne(effet, "bolt.horizontal.fill")
+                    }
+                    ligne("Contre-attaque : \(resultat.attaquantNom) perd \(resultat.degatsContre) PV", "arrow.uturn.backward")
+                    if resultat.jaugeRemplie {
+                        ligne("Jauge de Savoir pleine : \(resultat.defenseurNom) fera double dégâts à sa prochaine attaque", "bolt.fill")
+                    }
+                } else {
+                    ligne("\(resultat.defenseurNom) perd \(resultat.degatsDefenseur) PV", "burst.fill")
+                    if resultat.degatsAbsorbes > 0 {
+                        ligne("Bouclier : \(resultat.degatsAbsorbes) PV absorbés", "shield.fill")
+                    }
+                    if resultat.capaciteUtilisee {
+                        ligne("Capacité spéciale : dégâts doublés", "bolt.fill")
+                    }
                 }
-                ligne("Contre-attaque : \(resultat.attaquantNom) perd \(resultat.degatsContre) PV", "arrow.uturn.backward")
-                if resultat.jaugeRemplie {
-                    ligne("Jauge de Savoir pleine : \(resultat.defenseurNom) fera double dégâts à sa prochaine attaque", "bolt.fill")
+                if resultat.koDefenseur {
+                    ligne("\(resultat.defenseurNom) est K.O. !", "xmark.octagon.fill")
                 }
-            } else {
-                ligne("\(resultat.defenseurNom) perd \(resultat.degatsDefenseur) PV", "burst.fill")
-                if resultat.degatsAbsorbes > 0 {
-                    ligne("Bouclier : \(resultat.degatsAbsorbes) PV absorbés", "shield.fill")
-                }
-                if resultat.capaciteUtilisee {
-                    ligne("Capacité spéciale : dégâts doublés", "bolt.fill")
+                if resultat.koAttaquant {
+                    ligne("\(resultat.attaquantNom) est K.O. !", "xmark.octagon.fill")
                 }
             }
-            if resultat.koDefenseur {
-                ligne("\(resultat.defenseurNom) est K.O. !", "xmark.octagon.fill")
-            }
-            if resultat.koAttaquant {
-                ligne("\(resultat.attaquantNom) est K.O. !", "xmark.octagon.fill")
-            }
+            .opacity(apparu ? 1 : 0)
+            .offset(y: apparu ? 0 : 12)
+            .animation(.easeOut(duration: 0.4).delay(0.25), value: apparu)
 
             Button(action: continuer) {
                 Text("Suivant")
@@ -251,6 +378,8 @@ struct VueResultat: View {
             .tint(.orange)
             .padding(.top, 6)
         }
+        .sensoryFeedback(resultat.correct ? .success : .error, trigger: apparu)
+        .onAppear { apparu = true }
     }
 
     private func ligne(_ texte: String, _ icone: String) -> some View {
@@ -264,17 +393,29 @@ struct VueResultat: View {
 
 struct VueFin: View {
     let titre: String
+    let victoire: Bool
     let pieces: Int
     let rejouer: () -> Void
     let accueil: () -> Void
 
+    @State private var apparu = false
+    @State private var piecesAffichees = 0
+
     var body: some View {
         VStack(spacing: 16) {
+            Image(systemName: victoire ? "trophy.fill" : "flag.fill")
+                .font(.system(size: 64))
+                .foregroundStyle(victoire ? Color.yellow : Color.secondary)
+                .symbolEffect(.bounce, value: apparu)
             Text(titre)
                 .font(.largeTitle.bold())
-            Label("+\(pieces) Pièces", systemImage: "dollarsign.circle.fill")
-                .font(.title3)
+                .scaleEffect(apparu ? 1 : 0.3)
+                .opacity(apparu ? 1 : 0)
+                .animation(.spring(duration: 0.6, bounce: 0.5), value: apparu)
+            Label("+\(piecesAffichees) Pièces", systemImage: "dollarsign.circle.fill")
+                .font(.title3.monospacedDigit())
                 .foregroundStyle(.yellow)
+                .contentTransition(.numericText(value: Double(piecesAffichees)))
             Button(action: rejouer) {
                 Text("Rejouer").font(.headline).frame(maxWidth: .infinity)
             }
@@ -285,5 +426,12 @@ struct VueFin: View {
         }
         .frame(maxWidth: .infinity)
         .padding(.vertical, 24)
+        .sensoryFeedback(victoire ? .success : .warning, trigger: apparu)
+        .onAppear {
+            apparu = true
+            withAnimation(.easeOut(duration: 1.2).delay(0.3)) {
+                piecesAffichees = pieces
+            }
+        }
     }
 }

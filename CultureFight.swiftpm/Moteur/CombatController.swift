@@ -19,6 +19,11 @@ final class CombatController {
     private(set) var retires: Set<Int> = []
     private(set) var tempsTotal: Double = Regles.tempsReponse
     private(set) var tempsRestant: Double = Regles.tempsReponse
+    /// Compteur par camp, augmenté à chaque fois que ses PV changent (déclenche les animations).
+    private(set) var impacts: [Int] = [0, 0]
+    /// Dernière variation de PV de chaque camp : négative pour des dégâts, positive pour un soin.
+    private(set) var variations: [Int] = [0, 0]
+
     /// Secondes retirées par l'effet « Pression » pour la question en cours.
     private(set) var malusTemps: Double = 0
 
@@ -107,10 +112,29 @@ final class CombatController {
     private func valider(_ reponse: Int?) {
         guard case .question = phase, let question else { return }
         let secondes = Date().timeIntervalSince(debutQuestion)
+        let avant = combat.camps.map { pvActifs($0) }
         let resultat = combat.resoudre(question: question, affinite: affinite,
                                        reponse: reponse, secondes: secondes)
+        for camp in combat.camps.indices {
+            let delta = pvActifs(combat.camps[camp], apres: avant[camp].index) - avant[camp].pv
+            if delta != 0 {
+                variations[camp] = delta
+                impacts[camp] += 1
+            }
+        }
         phase = .resultat(resultat)
     }
+
+    /// PV du combattant actif d'un camp (ou de celui d'un index donné), pour mesurer ce qu'il a gagné ou perdu.
+    private func pvActifs(_ camp: Camp) -> (index: Int, pv: Int) {
+        (camp.indexActif, camp.actif.pv)
+    }
+
+    private func pvActifs(_ camp: Camp, apres index: Int) -> Int {
+        camp.combattants[index].pv
+    }
+
+    var estVictoire: Bool { combat.vainqueur == 0 }
 
     // MARK: - Fin de combat
 

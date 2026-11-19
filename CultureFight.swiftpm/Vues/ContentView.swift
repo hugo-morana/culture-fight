@@ -46,7 +46,17 @@ struct AccueilView: View {
     let combattre: () -> Void
     let collection: () -> Void
 
+    @State private var apparu = false
+
     var body: some View {
+        ZStack {
+            FondAnime()
+            contenu
+        }
+        .onAppear { apparu = true }
+    }
+
+    private var contenu: some View {
         VStack(spacing: 24) {
             Spacer()
             if let logo = Illustrations.partage.ressource("logo", type: "png") {
@@ -54,6 +64,16 @@ struct AccueilView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(maxWidth: 360)
+                    .phaseAnimator([false, true]) { vue, haut in
+                        vue
+                            .offset(y: haut ? -8 : 8)
+                            .shadow(color: Color.blue.opacity(haut ? 0.9 : 0.35), radius: haut ? 28 : 10)
+                    } animation: { _ in
+                        .easeInOut(duration: 2.2)
+                    }
+                    .scaleEffect(apparu ? 1 : 0.6)
+                    .opacity(apparu ? 1 : 0)
+                    .animation(.spring(duration: 0.8, bounce: 0.4), value: apparu)
             } else {
                 Text("Culture Fight")
                     .font(.largeTitle.bold())
@@ -61,6 +81,8 @@ struct AccueilView: View {
             Text("Ton savoir est ton arme.")
                 .font(.title3)
                 .foregroundStyle(.secondary)
+                .opacity(apparu ? 1 : 0)
+                .animation(.easeOut(duration: 0.8).delay(0.4), value: apparu)
             Spacer()
             Button(action: combattre) {
                 Text("Combattre")
@@ -70,6 +92,9 @@ struct AccueilView: View {
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
             .tint(.orange)
+            .offset(y: apparu ? 0 : 60)
+            .opacity(apparu ? 1 : 0)
+            .animation(.spring(duration: 0.6, bounce: 0.35).delay(0.5), value: apparu)
             Button(action: collection) {
                 Text("Ma collection")
                     .font(.title3.bold())
@@ -77,6 +102,9 @@ struct AccueilView: View {
             }
             .buttonStyle(.bordered)
             .controlSize(.large)
+            .offset(y: apparu ? 0 : 60)
+            .opacity(apparu ? 1 : 0)
+            .animation(.spring(duration: 0.6, bounce: 0.35).delay(0.62), value: apparu)
             Text("Prototype · \(Catalogue.prototype.count) combattants · combat contre l'IA")
                 .font(.footnote)
                 .foregroundStyle(.secondary)

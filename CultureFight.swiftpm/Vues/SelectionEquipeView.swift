@@ -58,6 +58,7 @@ struct SelectionEquipeView: View {
                 }
             }
             .navigationTitle("Ton équipe")
+            .sensoryFeedback(.selection, trigger: choisis)
             .onAppear {
                 guard exemples.isEmpty else { return }
                 for modele in Catalogue.prototype {
@@ -134,6 +135,8 @@ struct LigneCombattant: View {
             Image(systemName: choisi ? "checkmark.circle.fill" : "circle")
                 .font(.title2)
                 .foregroundStyle(choisi ? Color.orange : Color.secondary)
+                .contentTransition(.symbolEffect(.replace))
+                .symbolEffect(.bounce, value: choisi)
         }
         .contentShape(Rectangle())
         .padding(.vertical, 4)

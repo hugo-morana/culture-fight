@@ -5,6 +5,7 @@ struct CollectionView: View {
     let retour: () -> Void
 
     @State private var detail: ModeleCombattant?
+    @Namespace private var zoom
     private let colonnes = [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)]
 
     private var domaines: [String] {
@@ -29,8 +30,15 @@ struct CollectionView: View {
                                     detail = modele
                                 } label: {
                                     CarteCollection(modele: modele)
+                                        .modifier(SourceZoom(id: modele.id, espace: zoom))
                                 }
                                 .buttonStyle(.plain)
+                                .scrollTransition(.interactive, axis: .vertical) { carte, phase in
+                                    carte
+                                        .scaleEffect(phase.isIdentity ? 1 : 0.86)
+                                        .opacity(phase.isIdentity ? 1 : 0.55)
+                                        .rotation3DEffect(.degrees(phase.value * -22), axis: (x: 1, y: 0, z: 0))
+                                }
                             }
                         }
                     }
@@ -45,6 +53,7 @@ struct CollectionView: View {
             }
             .sheet(item: $detail) { modele in
                 FicheCombattantView(modele: modele)
+                    .modifier(TransitionZoom(id: modele.id, espace: zoom))
             }
         }
     }
@@ -123,6 +132,12 @@ struct FicheCombattantView: View {
                         .overlay(alignment: .top) { IllustrationCombattant(modele: modele, taille: 80) }
                         .clipShape(RoundedRectangle(cornerRadius: 16))
                         .overlay(RoundedRectangle(cornerRadius: 16).stroke(Color.blue.opacity(0.85), lineWidth: 2))
+                        .shadow(color: modele.specialite.couleur.opacity(0.6), radius: 16)
+                        .modifier(Holographique())
+                    Text("Incline la carte avec le doigt")
+                        .font(.caption2)
+                        .foregroundStyle(.secondary)
+                        .frame(maxWidth: .infinity)
 
                     VStack(alignment: .leading, spacing: 4) {
                         Text(modele.nom).font(.largeTitle.bold())
