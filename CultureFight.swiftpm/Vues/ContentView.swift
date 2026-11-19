@@ -61,7 +61,7 @@ struct AccueilView: View {
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
             .tint(.orange)
-            Text("Prototype · 6 combattants · combat contre l'IA")
+            Text("Prototype · 9 combattants · combat contre l'IA")
                 .font(.footnote)
                 .foregroundStyle(.secondary)
         }

@@ -104,6 +104,10 @@ struct LigneCombattant: View {
                 Text("Questions : \(modele.questions)")
                     .font(.caption)
                     .fixedSize(horizontal: false, vertical: true)
+                Text("Bonus de vitesse (\(modele.familleStyle.effetVitesse.nom)) : \(modele.familleStyle.effetVitesse.description)")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
                 if let exemple {
                     Text("Exemple : « \(exemple) »")
                         .font(.caption.weight(.semibold))

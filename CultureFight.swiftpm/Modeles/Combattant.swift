@@ -12,6 +12,8 @@ struct ModeleCombattant: Identifiable, Sendable {
     let id: String
     let nom: String
     let style: String
+    /// Famille de styles : décide de l'effet du bonus de vitesse.
+    let familleStyle: FamilleStyle
     let specialite: Specialite
     let rarete: Rarete
     let pvMax: Int
@@ -43,6 +45,8 @@ struct CombattantEnJeu: Identifiable, Sendable {
     var jauge: Int = 0
     /// Jauge pleine : sa prochaine attaque réussie fera double dégâts.
     var capacitePrete: Bool = false
+    /// Part des dégâts absorbée à la prochaine erreur (effet « Bouclier »), 0 si aucun.
+    var bouclier: Double = 0
 
     init(modele: ModeleCombattant) {
         self.modele = modele

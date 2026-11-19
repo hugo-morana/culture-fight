@@ -19,6 +19,8 @@ final class CombatController {
     private(set) var retires: Set<Int> = []
     private(set) var tempsTotal: Double = Regles.tempsReponse
     private(set) var tempsRestant: Double = Regles.tempsReponse
+    /// Secondes retirées par l'effet « Pression » pour la question en cours.
+    private(set) var malusTemps: Double = 0
 
     let ia: IAAdverse
     @ObservationIgnored private var tache: Task<Void, Never>?
@@ -72,7 +74,8 @@ final class CombatController {
         question = tirage.question
         affinite = tirage.affinite
         retires = tirage.retires
-        tempsTotal = Regles.tempsReponse + tirage.affinite.bonusTemps
+        malusTemps = combat.consommerMalusTemps()
+        tempsTotal = max(Regles.tempsMin, Regles.tempsReponse + tirage.affinite.bonusTemps - malusTemps)
         tempsRestant = tempsTotal
         phase = .question
 

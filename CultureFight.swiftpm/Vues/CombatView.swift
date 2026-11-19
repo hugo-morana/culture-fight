@@ -55,6 +55,7 @@ struct CombatView: View {
                             retires: controleur.retires,
                             tempsRestant: controleur.tempsRestant,
                             tempsTotal: controleur.tempsTotal,
+                            malusTemps: controleur.malusTemps,
                             joueurRepond: controleur.joueurRepond,
                             repondre: { controleur.repondre($0) })
             }
@@ -93,6 +94,11 @@ struct CarteCamp: View {
                             .font(.caption)
                             .foregroundStyle(.secondary)
                         Spacer()
+                        if actif.bouclier > 0 {
+                            Image(systemName: "shield.fill")
+                                .font(.caption)
+                                .foregroundStyle(.cyan)
+                        }
                         jauge(actif)
                     }
                 }
@@ -139,6 +145,7 @@ struct VueQuestion: View {
     let retires: Set<Int>
     let tempsRestant: Double
     let tempsTotal: Double
+    let malusTemps: Double
     let joueurRepond: Bool
     let repondre: (Int) -> Void
 
@@ -151,6 +158,11 @@ struct VueQuestion: View {
                 Text(libelle)
                     .font(.caption2)
                     .foregroundStyle(.yellow)
+            }
+            if malusTemps > 0 {
+                Text("Pression : \(Int(malusTemps)) s de moins pour répondre")
+                    .font(.caption2)
+                    .foregroundStyle(.red)
             }
             ProgressView(value: max(0, tempsRestant), total: tempsTotal)
                 .tint(tempsRestant < 5 ? Color.red : Color.orange)
@@ -206,8 +218,8 @@ struct VueResultat: View {
             Divider()
 
             if resultat.correct {
-                if let libelle = resultat.vitesse.libelle {
-                    ligne(libelle, "bolt.horizontal.fill")
+                if let effet = resultat.effetVitesse {
+                    ligne(effet, "bolt.horizontal.fill")
                 }
                 ligne("Contre-attaque : \(resultat.attaquantNom) perd \(resultat.degatsContre) PV", "arrow.uturn.backward")
                 if resultat.jaugeRemplie {
@@ -215,6 +227,9 @@ struct VueResultat: View {
                 }
             } else {
                 ligne("\(resultat.defenseurNom) perd \(resultat.degatsDefenseur) PV", "burst.fill")
+                if resultat.degatsAbsorbes > 0 {
+                    ligne("Bouclier : \(resultat.degatsAbsorbes) PV absorbés", "shield.fill")
+                }
                 if resultat.capaciteUtilisee {
                     ligne("Capacité spéciale : dégâts doublés", "bolt.fill")
                 }
