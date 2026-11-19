@@ -7,22 +7,9 @@ struct FondAnime: View {
     var body: some View {
         if #available(iOS 18.0, *) {
             TimelineView(.animation) { contexte in
-                let t = contexte.date.timeIntervalSinceReferenceDate
-                MeshGradient(
-                    width: 3, height: 3,
-                    points: [
-                        [0, 0], [Float(0.5 + 0.15 * sin(t * 0.4)), 0], [1, 0],
-                        [0, Float(0.5 + 0.12 * cos(t * 0.5))],
-                        [Float(0.5 + 0.22 * sin(t * 0.6)), Float(0.5 + 0.22 * cos(t * 0.45))],
-                        [1, Float(0.5 + 0.12 * sin(t * 0.55))],
-                        [0, 1], [Float(0.5 + 0.15 * cos(t * 0.35)), 1], [1, 1],
-                    ],
-                    colors: [
-                        Color(red: 0.03, green: 0.05, blue: 0.18), Color(red: 0.05, green: 0.12, blue: 0.40), Color(red: 0.03, green: 0.05, blue: 0.18),
-                        Color(red: 0.10, green: 0.05, blue: 0.30), Color(red: 0.95, green: 0.55, blue: 0.10).opacity(0.55), Color(red: 0.05, green: 0.15, blue: 0.45),
-                        Color(red: 0.02, green: 0.03, blue: 0.12), Color(red: 0.12, green: 0.06, blue: 0.32), Color(red: 0.02, green: 0.03, blue: 0.12),
-                    ]
-                )
+                MeshGradient(width: 3, height: 3,
+                             points: Self.points(t: contexte.date.timeIntervalSinceReferenceDate),
+                             colors: Self.couleurs)
             }
             .ignoresSafeArea()
         } else {
@@ -31,6 +18,32 @@ struct FondAnime: View {
                 .ignoresSafeArea()
         }
     }
+
+    /// Les 9 points du maillage ; ceux du milieu et des bords bougent lentement.
+    private static func points(t: Double) -> [SIMD2<Float>] {
+        func f(_ x: Double) -> Float { Float(x) }
+        let haut: SIMD2<Float> = [f(0.5 + 0.15 * sin(t * 0.4)), 0]
+        let gauche: SIMD2<Float> = [0, f(0.5 + 0.12 * cos(t * 0.5))]
+        let centre: SIMD2<Float> = [f(0.5 + 0.22 * sin(t * 0.6)), f(0.5 + 0.22 * cos(t * 0.45))]
+        let droite: SIMD2<Float> = [1, f(0.5 + 0.12 * sin(t * 0.55))]
+        let bas: SIMD2<Float> = [f(0.5 + 0.15 * cos(t * 0.35)), 1]
+        let coins: [SIMD2<Float>] = [[0, 0], [1, 0], [0, 1], [1, 1]]
+        return [coins[0], haut, coins[1], gauche, centre, droite, coins[2], bas, coins[3]]
+    }
+
+    private static let nuit = Color(red: 0.03, green: 0.05, blue: 0.18)
+    private static let bleu = Color(red: 0.05, green: 0.12, blue: 0.40)
+    private static let violet = Color(red: 0.10, green: 0.05, blue: 0.30)
+    private static let lueur = Color(red: 0.95, green: 0.55, blue: 0.10).opacity(0.55)
+    private static let bleuClair = Color(red: 0.05, green: 0.15, blue: 0.45)
+    private static let encre = Color(red: 0.02, green: 0.03, blue: 0.12)
+    private static let pourpre = Color(red: 0.12, green: 0.06, blue: 0.32)
+
+    private static let couleurs: [Color] = [
+        nuit, bleu, nuit,
+        violet, lueur, bleuClair,
+        encre, pourpre, encre,
+    ]
 }
 
 // MARK: - Particules
