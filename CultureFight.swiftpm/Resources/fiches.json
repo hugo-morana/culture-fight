@@ -1,0 +1,2071 @@
+[
+ {
+  "id": "cetaces",
+  "relations": [
+   {
+    "modele": "Quel cétacé correspond à cette description : « {x} » ?",
+    "inverse": "Quelle description correspond à cet animal : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "Plus grand animal ayant jamais existé",
+      "Baleine bleue"
+     ],
+     [
+      "Défense torsadée, surnommé la licorne des mers",
+      "Narval"
+     ],
+     [
+      "Plus grand cétacé à dents, grand plongeur des abysses",
+      "Cachalot"
+     ],
+     [
+      "Cétacé blanc de l'Arctique, surnommé le canari des mers",
+      "Béluga"
+     ],
+     [
+      "Célèbre pour ses chants et ses très longues nageoires pectorales",
+      "Baleine à bosse"
+     ],
+     [
+      "Prédateur noir et blanc qui chasse en groupe",
+      "Orque"
+     ],
+     [
+      "Dauphin d'eau douce rose d'Amérique du Sud",
+      "Dauphin de l'Amazone"
+     ],
+     [
+      "Plus petit cétacé, gravement menacé dans le golfe de Californie",
+      "Vaquita"
+     ],
+     [
+      "Dauphin à bec court, le plus connu des côtes et des aquariums",
+      "Grand dauphin"
+     ],
+     [
+      "Migre chaque année entre l'Arctique et la Basse-Californie",
+      "Baleine grise"
+     ],
+     [
+      "Deuxième plus grand animal du monde",
+      "Rorqual commun"
+     ],
+     [
+      "Petit cétacé côtier sans bec, cousin du dauphin",
+      "Marsouin commun"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Comment s'appelle le petit de la baleine ?",
+    "bonne": "Baleineau",
+    "faux": [
+     "Baleinon",
+     "Baleinet",
+     "Cétaçon"
+    ],
+    "explication": "Le petit de la baleine est le baleineau."
+   },
+   {
+    "enonce": "Par où respire un cétacé ?",
+    "bonne": "Par son évent",
+    "faux": [
+     "Par des branchies",
+     "Par sa bouche uniquement",
+     "Par sa peau"
+    ],
+    "explication": "Les cétacés sont des mammifères : ils respirent de l'air par l'évent, sur le dessus de la tête."
+   },
+   {
+    "enonce": "Que filtrent les baleines à fanons pour se nourrir ?",
+    "bonne": "Du krill et du plancton",
+    "faux": [
+     "Des algues",
+     "Du sable",
+     "De l'eau douce"
+    ],
+    "explication": "Les fanons filtrent l'eau pour retenir le krill et le petit plancton."
+   },
+   {
+    "enonce": "Les cétacés sont-ils des poissons ?",
+    "bonne": "Non, des mammifères",
+    "faux": [
+     "Oui, des poissons",
+     "Non, des reptiles",
+     "Non, des amphibiens"
+    ],
+    "explication": "Les cétacés sont des mammifères marins : ils allaitent leurs petits et respirent de l'air."
+   },
+   {
+    "enonce": "Comment les dauphins repèrent-ils leurs proies dans l'eau trouble ?",
+    "bonne": "Par écholocation",
+    "faux": [
+     "Par l'odorat",
+     "Grâce à la lumière",
+     "Par magnétisme"
+    ],
+    "explication": "Les dauphins émettent des clics et écoutent l'écho : c'est l'écholocation."
+   }
+  ]
+ },
+ {
+  "id": "arbres",
+  "relations": [
+   {
+    "modele": "Quel arbre produit ce fruit : {x} ?",
+    "inverse": "Quel est le fruit de cet arbre : {y} ?",
+    "explication": "Le fruit appelé {x} vient de cet arbre : {y}.",
+    "paires": [
+     [
+      "le gland",
+      "Chêne"
+     ],
+     [
+      "la faîne",
+      "Hêtre"
+     ],
+     [
+      "le marron",
+      "Marronnier"
+     ],
+     [
+      "la châtaigne",
+      "Châtaignier"
+     ],
+     [
+      "la samare double, qui tournoie comme un hélicoptère",
+      "Érable"
+     ],
+     [
+      "la pomme de pin",
+      "Pin"
+     ],
+     [
+      "la noix",
+      "Noyer"
+     ],
+     [
+      "la noisette",
+      "Noisetier"
+     ],
+     [
+      "l'olive",
+      "Olivier"
+     ],
+     [
+      "la figue",
+      "Figuier"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Quel conifère perd ses aiguilles en hiver ?",
+    "bonne": "Mélèze",
+    "faux": [
+     "Sapin",
+     "Épicéa",
+     "Pin"
+    ],
+    "explication": "Le mélèze est l'un des rares conifères qui perdent leurs aiguilles en automne."
+   },
+   {
+    "enonce": "Quel arbre a une écorce blanche qui se détache en fines bandes ?",
+    "bonne": "Bouleau",
+    "faux": [
+     "Platane",
+     "Hêtre",
+     "Saule"
+    ],
+    "explication": "L'écorce blanche du bouleau se détache en fines bandes."
+   },
+   {
+    "enonce": "Quel arbre a une écorce qui se détache en grandes plaques, souvent planté le long des routes ?",
+    "bonne": "Platane",
+    "faux": [
+     "Bouleau",
+     "Chêne",
+     "Peuplier"
+    ],
+    "explication": "Le platane perd son écorce par plaques, ce qui lui donne un tronc tacheté."
+   },
+   {
+    "enonce": "Quel arbre des places de village donne des fleurs utilisées en tisane ?",
+    "bonne": "Tilleul",
+    "faux": [
+     "Érable",
+     "Frêne",
+     "Orme"
+    ],
+    "explication": "Les fleurs de tilleul servent à faire une tisane apaisante."
+   },
+   {
+    "enonce": "Quel arbre au bord de l'eau a de longues branches tombantes ?",
+    "bonne": "Saule pleureur",
+    "faux": [
+     "Peuplier",
+     "Bouleau",
+     "Aulne"
+    ],
+    "explication": "Le saule pleureur pousse près de l'eau, ses branches retombent jusqu'au sol."
+   },
+   {
+    "enonce": "Quel arbre d'Europe peut vivre plus de 2 000 ans et a des aiguilles toxiques ?",
+    "bonne": "If",
+    "faux": [
+     "Sapin",
+     "Cèdre",
+     "Pin"
+    ],
+    "explication": "L'if est très longévif ; presque toutes ses parties sont toxiques, sauf la chair rouge de ses baies."
+   },
+   {
+    "enonce": "Quelle feuille figure sur le drapeau du Canada ?",
+    "bonne": "Érable",
+    "faux": [
+     "Chêne",
+     "Platane",
+     "Bouleau"
+    ],
+    "explication": "La feuille d'érable est le symbole du Canada."
+   }
+  ]
+ },
+ {
+  "id": "fleurs",
+  "relations": [
+   {
+    "modele": "De quel pays cette plante est-elle un symbole : {x} ?",
+    "inverse": "Quelle plante est un symbole de ce pays : {y} ?",
+    "explication": "{x} est un symbole de ce pays : {y}.",
+    "paires": [
+     [
+      "la tulipe",
+      "Pays-Bas"
+     ],
+     [
+      "la rose",
+      "Angleterre"
+     ],
+     [
+      "le chardon",
+      "Écosse"
+     ],
+     [
+      "la fleur de lys",
+      "France"
+     ],
+     [
+      "la fleur de cerisier",
+      "Japon"
+     ],
+     [
+      "le lotus",
+      "Inde"
+     ],
+     [
+      "l'edelweiss",
+      "Suisse"
+     ],
+     [
+      "le trèfle",
+      "Irlande"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Quelle fleur offre-t-on le 1er mai en France ?",
+    "bonne": "Muguet",
+    "faux": [
+     "Rose",
+     "Tulipe",
+     "Jonquille"
+    ],
+    "explication": "Le 1er mai, on offre un brin de muguet, censé porter bonheur."
+   },
+   {
+    "enonce": "Quelle fleur dépose-t-on traditionnellement sur les tombes à la Toussaint ?",
+    "bonne": "Chrysanthème",
+    "faux": [
+     "Tournesol",
+     "Lilas",
+     "Glaïeul"
+    ],
+    "explication": "En France, le chrysanthème est la fleur de la Toussaint."
+   },
+   {
+    "enonce": "Quelle fleur rouge est le symbole du souvenir des soldats de 14-18 au Royaume-Uni ?",
+    "bonne": "Coquelicot",
+    "faux": [
+     "Bleuet",
+     "Rose",
+     "Tulipe"
+    ],
+    "explication": "Le coquelicot rappelle les champs de bataille des Flandres. En France, c'est le bleuet."
+   },
+   {
+    "enonce": "Quelle épice est faite avec les pistils d'une fleur, le crocus ?",
+    "bonne": "Safran",
+    "faux": [
+     "Vanille",
+     "Cannelle",
+     "Muscade"
+    ],
+    "explication": "Le safran est formé des pistils séchés du crocus, récoltés à la main."
+   },
+   {
+    "enonce": "La vanille est le fruit de quelle famille de fleurs ?",
+    "bonne": "Orchidées",
+    "faux": [
+     "Roses",
+     "Lys",
+     "Tulipes"
+    ],
+    "explication": "La vanille est la gousse d'une orchidée grimpante."
+   },
+   {
+    "enonce": "Quelle plante violette est cultivée en Provence pour son parfum ?",
+    "bonne": "Lavande",
+    "faux": [
+     "Bruyère",
+     "Lilas",
+     "Violette"
+    ],
+    "explication": "La lavande est cultivée sur les plateaux de Provence pour les parfums et les savons."
+   },
+   {
+    "enonce": "Quelle grande fleur jaune donne des graines dont on fait de l'huile ?",
+    "bonne": "Tournesol",
+    "faux": [
+     "Colza",
+     "Pissenlit",
+     "Souci"
+    ],
+    "explication": "Les graines de tournesol donnent l'huile de tournesol."
+   }
+  ]
+ },
+ {
+  "id": "champignons",
+  "relations": [
+   {
+    "modele": "Quel champignon correspond à cette description : « {x} » ?",
+    "inverse": "Quelle description correspond à ce champignon : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "Responsable de la plupart des empoisonnements mortels en Europe",
+      "Amanite phalloïde"
+     ],
+     [
+      "Chapeau rouge à points blancs, le champignon des contes",
+      "Amanite tue-mouches"
+     ],
+     [
+      "Pousse sous terre, très recherché dans le Périgord",
+      "Truffe noire"
+     ],
+     [
+      "Gros pied et chapeau brun, roi des sous-bois",
+      "Cèpe de Bordeaux"
+     ],
+     [
+      "Jaune orangé en forme d'entonnoir, aussi appelé chanterelle",
+      "Girolle"
+     ],
+     [
+      "Le champignon cultivé le plus vendu",
+      "Champignon de Paris"
+     ],
+     [
+      "Chapeau alvéolé comme une éponge, cueilli au printemps",
+      "Morille"
+     ],
+     [
+      "Noir en forme d'entonnoir, au nom inquiétant mais comestible",
+      "Trompette de la mort"
+     ],
+     [
+      "Pousse en touffes sur le bois, très facile à cultiver",
+      "Pleurote"
+     ],
+     [
+      "Grand chapeau écailleux sur un long pied, aussi appelé coulemelle",
+      "Lépiote élevée"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Quel champignon microscopique fait lever le pain ?",
+    "bonne": "La levure",
+    "faux": [
+     "La moisissure",
+     "La truffe",
+     "Le mycélium"
+    ],
+    "explication": "La levure est un champignon : elle fait lever la pâte et fermenter la bière."
+   },
+   {
+    "enonce": "Quel antibiotique a été découvert grâce à une moisissure ?",
+    "bonne": "La pénicilline",
+    "faux": [
+     "L'aspirine",
+     "La morphine",
+     "L'insuline"
+    ],
+    "explication": "Alexander Fleming a découvert la pénicilline en 1928 grâce à la moisissure Penicillium."
+   },
+   {
+    "enonce": "Comment s'appelle le réseau de filaments souterrains d'un champignon ?",
+    "bonne": "Le mycélium",
+    "faux": [
+     "Le pollen",
+     "Le rhizome",
+     "La sève"
+    ],
+    "explication": "Le mycélium est la partie principale du champignon ; ce qu'on cueille n'en est que le fruit."
+   },
+   {
+    "enonce": "À quel règne appartiennent les champignons ?",
+    "bonne": "Un règne à part, les Fungi",
+    "faux": [
+     "Les végétaux",
+     "Les animaux",
+     "Les bactéries"
+    ],
+    "explication": "Les champignons forment leur propre règne : ils ne font pas de photosynthèse."
+   },
+   {
+    "enonce": "Quel fromage doit ses veines bleues à un champignon ?",
+    "bonne": "Le roquefort",
+    "faux": [
+     "Le comté",
+     "Le camembert",
+     "La mozzarella"
+    ],
+    "explication": "Les veines du roquefort viennent du champignon Penicillium roqueforti."
+   }
+  ]
+ },
+ {
+  "id": "rapaces",
+  "relations": [
+   {
+    "modele": "Quel rapace correspond à cette description : « {x} » ?",
+    "inverse": "Quelle description correspond à ce rapace : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "Le plus rapide, plus de 300 km/h en piqué",
+      "Faucon pèlerin"
+     ],
+     [
+      "Nocturne au visage blanc en forme de cœur",
+      "Effraie des clochers"
+     ],
+     [
+      "Grand rapace nocturne aux aigrettes en forme d'oreilles",
+      "Grand-duc d'Europe"
+     ],
+     [
+      "Emblème des États-Unis, à tête blanche",
+      "Pygargue à tête blanche"
+     ],
+     [
+      "Fait du surplace au-dessus des champs pour repérer les campagnols",
+      "Faucon crécerelle"
+     ],
+     [
+      "Vautour des montagnes qui brise les os pour en manger la moelle",
+      "Gypaète barbu"
+     ],
+     [
+      "Pêcheur qui plonge pattes en avant pour attraper les poissons",
+      "Balbuzard pêcheur"
+     ],
+     [
+      "Grand aigle des montagnes, présent sur de nombreux blasons",
+      "Aigle royal"
+     ],
+     [
+      "Plus grand oiseau volant d'Amérique du Sud",
+      "Condor des Andes"
+     ],
+     [
+      "Petite chouette symbole d'Athéna et de la sagesse",
+      "Chevêche d'Athéna"
+     ],
+     [
+      "Roux à la queue fourchue, souvent vu au-dessus des campagnes",
+      "Milan royal"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Comment s'appellent les griffes des rapaces ?",
+    "bonne": "Les serres",
+    "faux": [
+     "Les ergots",
+     "Les sabots",
+     "Les rémiges"
+    ],
+    "explication": "Les rapaces saisissent leurs proies avec leurs serres."
+   },
+   {
+    "enonce": "Comment appelle-t-on la boulette d'os et de poils recrachée par une chouette ?",
+    "bonne": "Une pelote de réjection",
+    "faux": [
+     "Une fiente",
+     "Un jabot",
+     "Un nid"
+    ],
+    "explication": "Les rapaces recrachent les parties non digérées de leurs proies sous forme de pelotes de réjection."
+   },
+   {
+    "enonce": "Comment s'appelle la chasse avec des rapaces dressés ?",
+    "bonne": "La fauconnerie",
+    "faux": [
+     "La vénerie",
+     "La pêche",
+     "L'aviculture"
+    ],
+    "explication": "La fauconnerie consiste à chasser avec des rapaces dressés."
+   }
+  ]
+ },
+ {
+  "id": "felins",
+  "relations": [
+   {
+    "modele": "Quel félin correspond à cette description : « {x} » ?",
+    "inverse": "Quelle description correspond à ce félin : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "Le plus grand félin du monde",
+      "Tigre"
+     ],
+     [
+      "Le plus rapide, plus de 100 km/h en pointe",
+      "Guépard"
+     ],
+     [
+      "Le seul félin qui vit en groupe",
+      "Lion"
+     ],
+     [
+      "Félin d'Amérique du Sud à la morsure redoutable",
+      "Jaguar"
+     ],
+     [
+      "Vit dans les montagnes d'Asie centrale, longue queue épaisse",
+      "Panthère des neiges"
+     ],
+     [
+      "Félin d'Amérique aux nombreux noms, dont couguar",
+      "Puma"
+     ],
+     [
+      "Félin d'Europe aux oreilles terminées par des pinceaux",
+      "Lynx"
+     ],
+     [
+      "Félin tacheté d'Afrique et d'Asie, souvent appelé panthère",
+      "Léopard"
+     ],
+     [
+      "Petit félin des forêts d'Europe, qui ressemble à un gros chat tigré",
+      "Chat forestier"
+     ],
+     [
+      "Félin d'Afrique aux grandes oreilles et aux longues pattes",
+      "Serval"
+     ],
+     [
+      "Félin aux oreilles noires et pointues, grand sauteur",
+      "Caracal"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Comment s'appelle le petit du lion ?",
+    "bonne": "Le lionceau",
+    "faux": [
+     "Le lionnet",
+     "Le lionçon",
+     "Le louveteau"
+    ],
+    "explication": "Le petit du lion est le lionceau."
+   },
+   {
+    "enonce": "Comment s'appelle le cri du lion ?",
+    "bonne": "Le rugissement",
+    "faux": [
+     "Le barrissement",
+     "Le brame",
+     "Le hurlement"
+    ],
+    "explication": "Le lion rugit."
+   },
+   {
+    "enonce": "Quel félin ne peut pas rentrer complètement ses griffes ?",
+    "bonne": "Le guépard",
+    "faux": [
+     "Le lion",
+     "Le tigre",
+     "Le chat"
+    ],
+    "explication": "Le guépard garde ses griffes sorties, qui l'aident à accrocher le sol quand il court."
+   },
+   {
+    "enonce": "Quel félin aime l'eau et nage très bien ?",
+    "bonne": "Le tigre",
+    "faux": [
+     "Le guépard",
+     "Le lynx",
+     "Le chat domestique"
+    ],
+    "explication": "Contrairement à beaucoup de félins, le tigre aime l'eau et nage facilement."
+   }
+  ]
+ },
+ {
+  "id": "primates",
+  "relations": [
+   {
+    "modele": "Quel primate correspond à cette description : « {x} » ?",
+    "inverse": "Quelle description correspond à ce primate : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "Le plus grand primate vivant",
+      "Gorille"
+     ],
+     [
+      "Grand singe d'Afrique qui fabrique et utilise des outils",
+      "Chimpanzé"
+     ],
+     [
+      "Grand singe roux de Bornéo et de Sumatra",
+      "Orang-outan"
+     ],
+     [
+      "Cousin pacifique du chimpanzé, vit au Congo",
+      "Bonobo"
+     ],
+     [
+      "Lémurien de Madagascar à la queue annelée noir et blanc",
+      "Maki catta"
+     ],
+     [
+      "Singe d'Amérique au cri très puissant",
+      "Singe hurleur"
+     ],
+     [
+      "Le seul singe sauvage d'Europe, à Gibraltar",
+      "Magot"
+     ],
+     [
+      "Singe qui se baigne dans les sources chaudes du Japon",
+      "Macaque japonais"
+     ],
+     [
+      "Singe de Bornéo au nez énorme",
+      "Nasique"
+     ],
+     [
+      "Singe au visage rouge et bleu",
+      "Mandrill"
+     ],
+     [
+      "Petit primate nocturne d'Asie aux yeux énormes",
+      "Tarsier"
+     ],
+     [
+      "Singe aux très longs bras qui se balance de branche en branche",
+      "Gibbon"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Quelle primatologue a étudié les chimpanzés en Tanzanie pendant des décennies ?",
+    "bonne": "Jane Goodall",
+    "faux": [
+     "Dian Fossey",
+     "Marie Curie",
+     "Rachel Carson"
+    ],
+    "explication": "Jane Goodall a observé les chimpanzés de Gombe, en Tanzanie, à partir de 1960."
+   },
+   {
+    "enonce": "Quelle primatologue a consacré sa vie aux gorilles des montagnes du Rwanda ?",
+    "bonne": "Dian Fossey",
+    "faux": [
+     "Jane Goodall",
+     "Biruté Galdikas",
+     "Jane Austen"
+    ],
+    "explication": "Dian Fossey a étudié et protégé les gorilles des montagnes au Rwanda."
+   },
+   {
+    "enonce": "Combien de chromosomes a un chimpanzé ?",
+    "bonne": "48",
+    "faux": [
+     "46",
+     "44",
+     "52"
+    ],
+    "explication": "Le chimpanzé a 48 chromosomes ; l'être humain en a 46."
+   },
+   {
+    "enonce": "Les grands singes (gorille, chimpanzé, orang-outan) ont-ils une queue ?",
+    "bonne": "Non, aucun",
+    "faux": [
+     "Oui, tous",
+     "Seulement le gorille",
+     "Seulement les jeunes"
+    ],
+    "explication": "Les grands singes, comme l'humain, n'ont pas de queue."
+   }
+  ]
+ },
+ {
+  "id": "insectes",
+  "relations": [],
+  "questions": [
+   {
+    "enonce": "Combien de pattes a un insecte ?",
+    "bonne": "6",
+    "faux": [
+     "8",
+     "4",
+     "10"
+    ],
+    "explication": "Tous les insectes ont 6 pattes."
+   },
+   {
+    "enonce": "Combien de pattes a une araignée ?",
+    "bonne": "8",
+    "faux": [
+     "6",
+     "10",
+     "12"
+    ],
+    "explication": "L'araignée a 8 pattes : ce n'est pas un insecte, mais un arachnide."
+   },
+   {
+    "enonce": "En combien de parties se divise le corps d'un insecte ?",
+    "bonne": "3",
+    "faux": [
+     "2",
+     "4",
+     "5"
+    ],
+    "explication": "Le corps d'un insecte se divise en tête, thorax et abdomen."
+   },
+   {
+    "enonce": "Quel insecte produit le miel ?",
+    "bonne": "L'abeille",
+    "faux": [
+     "La guêpe",
+     "Le bourdon",
+     "La fourmi"
+    ],
+    "explication": "Les abeilles fabriquent le miel à partir du nectar des fleurs."
+   },
+   {
+    "enonce": "Comment s'appelle la larve du papillon ?",
+    "bonne": "La chenille",
+    "faux": [
+     "L'asticot",
+     "La nymphe",
+     "Le têtard"
+    ],
+    "explication": "Le papillon passe par le stade de chenille, puis de chrysalide."
+   },
+   {
+    "enonce": "Comment s'appelle la larve de la mouche ?",
+    "bonne": "L'asticot",
+    "faux": [
+     "La chenille",
+     "Le ver blanc",
+     "La larve d'or"
+    ],
+    "explication": "La larve de la mouche est l'asticot."
+   },
+   {
+    "enonce": "Quel insecte femelle dévore parfois le mâle après l'accouplement ?",
+    "bonne": "La mante religieuse",
+    "faux": [
+     "La coccinelle",
+     "La libellule",
+     "Le grillon"
+    ],
+    "explication": "La femelle mante religieuse mange parfois le mâle pendant ou après l'accouplement."
+   },
+   {
+    "enonce": "Quel insecte produit de la lumière ?",
+    "bonne": "Le ver luisant",
+    "faux": [
+     "Le scarabée",
+     "La cigale",
+     "Le criquet"
+    ],
+    "explication": "Le ver luisant (une luciole) produit de la lumière par bioluminescence."
+   },
+   {
+    "enonce": "Quel insecte transmet le paludisme ?",
+    "bonne": "Le moustique",
+    "faux": [
+     "La mouche tsé-tsé",
+     "La puce",
+     "La punaise"
+    ],
+    "explication": "Le paludisme est transmis par la piqûre de certains moustiques, les anophèles."
+   },
+   {
+    "enonce": "Quel papillon migre chaque année du Canada jusqu'au Mexique ?",
+    "bonne": "Le monarque",
+    "faux": [
+     "Le machaon",
+     "Le paon-du-jour",
+     "La piéride"
+    ],
+    "explication": "Les monarques parcourent des milliers de kilomètres pour hiverner au Mexique."
+   },
+   {
+    "enonce": "Quelle chenille fabrique la soie ?",
+    "bonne": "Le ver à soie",
+    "faux": [
+     "La chenille processionnaire",
+     "Le ver de terre",
+     "Le ver luisant"
+    ],
+    "explication": "Le ver à soie, chenille du bombyx du mûrier, tisse son cocon en fil de soie."
+   },
+   {
+    "enonce": "Quel scarabée fait rouler des boules d'excréments ?",
+    "bonne": "Le bousier",
+    "faux": [
+     "Le hanneton",
+     "La coccinelle",
+     "Le charançon"
+    ],
+    "explication": "Le bousier roule des boules de bouse pour s'en nourrir et y pondre."
+   },
+   {
+    "enonce": "Combien d'ailes a une mouche ?",
+    "bonne": "2",
+    "faux": [
+     "4",
+     "6",
+     "0"
+    ],
+    "explication": "La mouche n'a qu'une paire d'ailes ; la seconde est réduite à de petits balanciers."
+   },
+   {
+    "enonce": "Quel insecte chante dans les pins de Provence en été ?",
+    "bonne": "La cigale",
+    "faux": [
+     "Le grillon",
+     "La sauterelle",
+     "Le bourdon"
+    ],
+    "explication": "Le mâle cigale chante en faisant vibrer des membranes de son abdomen."
+   },
+   {
+    "enonce": "Quel insecte construit des termitières ?",
+    "bonne": "Le termite",
+    "faux": [
+     "La fourmi rouge",
+     "La guêpe",
+     "L'abeille"
+    ],
+    "explication": "Les termites bâtissent des termitières qui peuvent dépasser plusieurs mètres de haut."
+   }
+  ]
+ },
+ {
+  "id": "reptiles",
+  "relations": [
+   {
+    "modele": "Quel reptile correspond à cette description : « {x} » ?",
+    "inverse": "Quelle description correspond à ce reptile : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "Le plus grand reptile vivant, il vit aussi en eau salée",
+      "Crocodile marin"
+     ],
+     [
+      "Lézard qui change de couleur et bouge ses yeux indépendamment",
+      "Caméléon"
+     ],
+     [
+      "Le plus grand lézard du monde, en Indonésie",
+      "Dragon de Komodo"
+     ],
+     [
+      "Le plus long serpent du monde",
+      "Python réticulé"
+     ],
+     [
+      "Le serpent le plus lourd, dans les fleuves d'Amérique du Sud",
+      "Anaconda vert"
+     ],
+     [
+      "Serpent venimeux qui se dresse en déployant une collerette",
+      "Cobra"
+     ],
+     [
+      "La plus grande tortue marine, grande mangeuse de méduses",
+      "Tortue luth"
+     ],
+     [
+      "Cousin du crocodile en Amérique, au museau large et arrondi",
+      "Alligator"
+     ],
+     [
+      "Lézard qui grimpe aux murs et aux plafonds grâce à ses doigts",
+      "Gecko"
+     ],
+     [
+      "Tortue géante des îles Galápagos",
+      "Tortue des Galápagos"
+     ],
+     [
+      "Serpent venimeux de France, à la pupille verticale",
+      "Vipère"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Les reptiles produisent-ils leur propre chaleur corporelle ?",
+    "bonne": "Non, ils dépendent de l'extérieur",
+    "faux": [
+     "Oui, comme les mammifères",
+     "Oui, seulement la nuit",
+     "Seulement les tortues"
+    ],
+    "explication": "Les reptiles sont ectothermes : ils se chauffent au soleil."
+   },
+   {
+    "enonce": "Que peut perdre un lézard pour échapper à un prédateur ?",
+    "bonne": "Sa queue",
+    "faux": [
+     "Ses pattes",
+     "Sa peau",
+     "Ses yeux"
+    ],
+    "explication": "Le lézard peut abandonner sa queue, qui repousse ensuite."
+   },
+   {
+    "enonce": "Avec quoi un serpent capte-t-il les odeurs ?",
+    "bonne": "Sa langue fourchue",
+    "faux": [
+     "Ses narines seulement",
+     "Ses écailles",
+     "Ses yeux"
+    ],
+    "explication": "Le serpent sort sa langue pour capter les odeurs et les porter à un organe dans son palais."
+   },
+   {
+    "enonce": "Comment s'appelle l'opération où un serpent change de peau ?",
+    "bonne": "La mue",
+    "faux": [
+     "La ponte",
+     "L'hibernation",
+     "La métamorphose"
+    ],
+    "explication": "Le serpent mue plusieurs fois par an et laisse sa vieille peau derrière lui."
+   }
+  ]
+ },
+ {
+  "id": "dinosaures",
+  "relations": [
+   {
+    "modele": "Quel animal préhistorique correspond à cette description : « {x} » ?",
+    "inverse": "Quelle description correspond à cet animal : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "Grand carnivore du Crétacé aux bras minuscules",
+      "Tyrannosaure"
+     ],
+     [
+      "Herbivore à trois cornes et à collerette",
+      "Tricératops"
+     ],
+     [
+      "Herbivore à plaques sur le dos et à queue pointue",
+      "Stégosaure"
+     ],
+     [
+      "Herbivore géant au très long cou, du Jurassique",
+      "Diplodocus"
+     ],
+     [
+      "Petit carnivore rapide à griffe en forme de faucille",
+      "Vélociraptor"
+     ],
+     [
+      "Herbivore à bec de canard et à longue crête tubulaire",
+      "Parasaurolophus"
+     ],
+     [
+      "Herbivore cuirassé à queue en massue",
+      "Ankylosaure"
+     ],
+     [
+      "Grand carnivore à voile sur le dos, mangeur de poissons",
+      "Spinosaure"
+     ],
+     [
+      "Grand carnivore du Jurassique, bien avant le tyrannosaure",
+      "Allosaure"
+     ],
+     [
+      "Dinosaure à plumes de Bavière, proche des premiers oiseaux",
+      "Archéoptéryx"
+     ],
+     [
+      "Herbivore au crâne en dôme très épais",
+      "Pachycéphalosaure"
+     ],
+     [
+      "Reptile volant à crête, qui n'est pas un dinosaure",
+      "Ptéranodon"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Il y a combien de temps les dinosaures (sauf les oiseaux) ont-ils disparu ?",
+    "bonne": "Environ 66 millions d'années",
+    "faux": [
+     "Environ 6 millions d'années",
+     "Environ 660 000 ans",
+     "Environ 1 milliard d'années"
+    ],
+    "explication": "Les dinosaures non aviens ont disparu il y a environ 66 millions d'années."
+   },
+   {
+    "enonce": "Quelle est la cause principale retenue pour leur extinction ?",
+    "bonne": "La chute d'un astéroïde géant",
+    "faux": [
+     "Une épidémie",
+     "Une glaciation brutale",
+     "La chasse par les humains"
+    ],
+    "explication": "La chute d'un astéroïde au Mexique (cratère de Chicxulub) est la cause principale retenue."
+   },
+   {
+    "enonce": "Quels animaux actuels descendent des dinosaures ?",
+    "bonne": "Les oiseaux",
+    "faux": [
+     "Les lézards",
+     "Les crocodiles",
+     "Les tortues"
+    ],
+    "explication": "Les oiseaux sont des dinosaures à plumes qui ont survécu."
+   },
+   {
+    "enonce": "Comment s'appelle le scientifique qui étudie les fossiles ?",
+    "bonne": "Le paléontologue",
+    "faux": [
+     "L'archéologue",
+     "Le géologue",
+     "L'anthropologue"
+    ],
+    "explication": "Le paléontologue étudie les êtres vivants disparus à partir des fossiles."
+   }
+  ]
+ },
+ {
+  "id": "eres-geologiques",
+  "relations": [],
+  "questions": [
+   {
+    "enonce": "Dans quelle ère ont vécu les dinosaures ?",
+    "bonne": "Le Mésozoïque",
+    "faux": [
+     "Le Paléozoïque",
+     "Le Cénozoïque",
+     "Le Précambrien"
+    ],
+    "explication": "Les dinosaures ont vécu au Mésozoïque, aussi appelé ère secondaire."
+   },
+   {
+    "enonce": "Quelles sont les trois périodes du Mésozoïque, dans l'ordre ?",
+    "bonne": "Trias, Jurassique, Crétacé",
+    "faux": [
+     "Jurassique, Trias, Crétacé",
+     "Crétacé, Jurassique, Trias",
+     "Trias, Crétacé, Jurassique"
+    ],
+    "explication": "Le Mésozoïque se divise en Trias, Jurassique puis Crétacé."
+   },
+   {
+    "enonce": "Quelle période vient après le Jurassique ?",
+    "bonne": "Le Crétacé",
+    "faux": [
+     "Le Trias",
+     "Le Permien",
+     "Le Carbonifère"
+    ],
+    "explication": "Le Crétacé suit le Jurassique et se termine avec l'extinction des dinosaures."
+   },
+   {
+    "enonce": "Dans quelle ère vivons-nous ?",
+    "bonne": "Le Cénozoïque",
+    "faux": [
+     "Le Mésozoïque",
+     "Le Paléozoïque",
+     "Le Jurassique"
+    ],
+    "explication": "Nous vivons dans le Cénozoïque, l'ère des mammifères, commencée il y a 66 millions d'années."
+   },
+   {
+    "enonce": "Quel est l'âge de la Terre ?",
+    "bonne": "Environ 4,5 milliards d'années",
+    "faux": [
+     "Environ 6 000 ans",
+     "Environ 450 millions d'années",
+     "Environ 45 milliards d'années"
+    ],
+    "explication": "La Terre s'est formée il y a environ 4,5 milliards d'années."
+   },
+   {
+    "enonce": "Quelle ère a vu foisonner les trilobites dans les mers ?",
+    "bonne": "Le Paléozoïque",
+    "faux": [
+     "Le Mésozoïque",
+     "Le Cénozoïque",
+     "Le Quaternaire"
+    ],
+    "explication": "Les trilobites ont peuplé les mers pendant tout le Paléozoïque, ou ère primaire."
+   },
+   {
+    "enonce": "Pendant quelle période les forêts géantes ont-elles formé le charbon ?",
+    "bonne": "Le Carbonifère",
+    "faux": [
+     "Le Crétacé",
+     "Le Trias",
+     "Le Pléistocène"
+    ],
+    "explication": "Le Carbonifère doit son nom au charbon issu de ses immenses forêts."
+   },
+   {
+    "enonce": "Comment s'appelle le supercontinent qui regroupait toutes les terres ?",
+    "bonne": "La Pangée",
+    "faux": [
+     "La Gondwanie",
+     "L'Atlantide",
+     "La Laurasie"
+    ],
+    "explication": "La Pangée regroupait presque toutes les terres avant de se fragmenter au Mésozoïque."
+   },
+   {
+    "enonce": "À la fin de quelle période a eu lieu la plus grande extinction de l'histoire ?",
+    "bonne": "Le Permien",
+    "faux": [
+     "Le Crétacé",
+     "Le Jurassique",
+     "Le Dévonien"
+    ],
+    "explication": "L'extinction de la fin du Permien a fait disparaître la grande majorité des espèces marines."
+   },
+   {
+    "enonce": "Quel massif a donné son nom au Jurassique ?",
+    "bonne": "Le Jura",
+    "faux": [
+     "Les Alpes",
+     "Les Pyrénées",
+     "Le Massif central"
+    ],
+    "explication": "Le Jurassique doit son nom aux roches du massif du Jura."
+   },
+   {
+    "enonce": "Quel fossile en spirale est typique de l'ère secondaire ?",
+    "bonne": "L'ammonite",
+    "faux": [
+     "Le trilobite",
+     "Le mammouth",
+     "Le corail"
+    ],
+    "explication": "Les ammonites, mollusques à coquille en spirale, ont disparu avec les dinosaures."
+   },
+   {
+    "enonce": "À quelle époque vivaient les mammouths laineux ?",
+    "bonne": "Le Pléistocène",
+    "faux": [
+     "Le Jurassique",
+     "Le Crétacé",
+     "Le Trias"
+    ],
+    "explication": "Les mammouths laineux vivaient au Pléistocène, l'époque des grandes glaciations."
+   }
+  ]
+ },
+ {
+  "id": "os",
+  "relations": [
+   {
+    "modele": "Où se trouve cet os : {x} ?",
+    "inverse": "Quel os se trouve à cet endroit : {y} ?",
+    "explication": "Cet os, {x}, se trouve à cet endroit : {y}.",
+    "paires": [
+     [
+      "le fémur",
+      "la cuisse"
+     ],
+     [
+      "le tibia",
+      "la jambe"
+     ],
+     [
+      "le radius",
+      "l'avant-bras"
+     ],
+     [
+      "l'humérus",
+      "le bras"
+     ],
+     [
+      "la rotule",
+      "le genou"
+     ],
+     [
+      "l'omoplate",
+      "l'épaule"
+     ],
+     [
+      "le sternum",
+      "le thorax"
+     ],
+     [
+      "la mandibule",
+      "la mâchoire"
+     ],
+     [
+      "l'étrier",
+      "l'oreille"
+     ],
+     [
+      "les phalanges",
+      "les doigts"
+     ],
+     [
+      "le calcanéum",
+      "le talon"
+     ],
+     [
+      "les vertèbres",
+      "le dos"
+     ],
+     [
+      "le pariétal",
+      "le crâne"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Combien d'os compte le squelette d'un adulte ?",
+    "bonne": "206",
+    "faux": [
+     "186",
+     "226",
+     "306"
+    ],
+    "explication": "Un adulte a 206 os ; un nouveau-né en a davantage, qui se soudent en grandissant."
+   },
+   {
+    "enonce": "Quel est l'os le plus long du corps humain ?",
+    "bonne": "Le fémur",
+    "faux": [
+     "Le tibia",
+     "L'humérus",
+     "La colonne vertébrale"
+    ],
+    "explication": "Le fémur, l'os de la cuisse, est le plus long et le plus solide."
+   },
+   {
+    "enonce": "Quel est le plus petit os du corps humain ?",
+    "bonne": "L'étrier",
+    "faux": [
+     "La phalange du petit orteil",
+     "Le coccyx",
+     "La rotule"
+    ],
+    "explication": "L'étrier, dans l'oreille moyenne, mesure environ 3 millimètres."
+   },
+   {
+    "enonce": "Combien de paires de côtes a l'être humain ?",
+    "bonne": "12",
+    "faux": [
+     "10",
+     "14",
+     "24"
+    ],
+    "explication": "L'être humain a 12 paires de côtes, soit 24 côtes."
+   },
+   {
+    "enonce": "Quel minéral rend les os solides ?",
+    "bonne": "Le calcium",
+    "faux": [
+     "Le fer",
+     "Le sodium",
+     "Le zinc"
+    ],
+    "explication": "Les os sont riches en calcium, sous forme de phosphate de calcium."
+   }
+  ]
+ },
+ {
+  "id": "organes",
+  "relations": [
+   {
+    "modele": "Quel organe a ce rôle : {x} ?",
+    "inverse": "Quel est le rôle de cet organe : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "pomper le sang dans tout le corps",
+      "Le cœur"
+     ],
+     [
+      "filtrer le sang et produire l'urine",
+      "Les reins"
+     ],
+     [
+      "faire passer l'oxygène de l'air dans le sang",
+      "Les poumons"
+     ],
+     [
+      "produire la bile et stocker des réserves",
+      "Le foie"
+     ],
+     [
+      "produire l'insuline",
+      "Le pancréas"
+     ],
+     [
+      "absorber les nutriments des aliments digérés",
+      "L'intestin grêle"
+     ],
+     [
+      "stocker l'urine",
+      "La vessie"
+     ],
+     [
+      "broyer et digérer les aliments avec des sucs acides",
+      "L'estomac"
+     ],
+     [
+      "protéger le corps du milieu extérieur",
+      "La peau"
+     ],
+     [
+      "commander le corps et penser",
+      "Le cerveau"
+     ],
+     [
+      "stocker la bile entre les repas",
+      "La vésicule biliaire"
+     ],
+     [
+      "filtrer le sang et aider les défenses immunitaires",
+      "La rate"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Combien de cavités compte le cœur humain ?",
+    "bonne": "4",
+    "faux": [
+     "2",
+     "3",
+     "6"
+    ],
+    "explication": "Le cœur a deux oreillettes et deux ventricules."
+   },
+   {
+    "enonce": "Quel est le plus gros organe à l'intérieur du corps ?",
+    "bonne": "Le foie",
+    "faux": [
+     "Le cerveau",
+     "Les poumons",
+     "L'estomac"
+    ],
+    "explication": "Le foie pèse environ 1,5 kg chez l'adulte."
+   },
+   {
+    "enonce": "Quel organe peut repousser après qu'on en a retiré une partie ?",
+    "bonne": "Le foie",
+    "faux": [
+     "Le cœur",
+     "Le cerveau",
+     "Le rein"
+    ],
+    "explication": "Le foie peut se régénérer et retrouver sa taille après une ablation partielle."
+   },
+   {
+    "enonce": "Comment s'appellent les petits sacs des poumons où l'oxygène passe dans le sang ?",
+    "bonne": "Les alvéoles",
+    "faux": [
+     "Les bronches",
+     "Les villosités",
+     "Les capillaires"
+    ],
+    "explication": "Les alvéoles pulmonaires, très nombreuses, font passer l'oxygène dans le sang."
+   },
+   {
+    "enonce": "Quel est l'organe le plus étendu du corps ?",
+    "bonne": "La peau",
+    "faux": [
+     "L'intestin grêle",
+     "Le foie",
+     "Les poumons"
+    ],
+    "explication": "La peau couvre près de 2 m² chez l'adulte."
+   }
+  ]
+ },
+ {
+  "id": "muscles",
+  "relations": [
+   {
+    "modele": "Où se trouve ce muscle : {x} ?",
+    "inverse": "Quel muscle se trouve à cet endroit : {y} ?",
+    "explication": "{x} se trouve à cet endroit : {y}.",
+    "paires": [
+     [
+      "le biceps",
+      "l'avant du bras"
+     ],
+     [
+      "le triceps",
+      "l'arrière du bras"
+     ],
+     [
+      "le quadriceps",
+      "l'avant de la cuisse"
+     ],
+     [
+      "les ischio-jambiers",
+      "l'arrière de la cuisse"
+     ],
+     [
+      "le deltoïde",
+      "l'épaule"
+     ],
+     [
+      "le grand pectoral",
+      "la poitrine"
+     ],
+     [
+      "le grand droit",
+      "le ventre"
+     ],
+     [
+      "le grand fessier",
+      "les fesses"
+     ],
+     [
+      "le diaphragme",
+      "sous les poumons"
+     ],
+     [
+      "le masséter",
+      "la mâchoire"
+     ],
+     [
+      "le trapèze",
+      "le haut du dos et la nuque"
+     ],
+     [
+      "le myocarde",
+      "le cœur"
+     ],
+     [
+      "le gastrocnémien",
+      "le mollet"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Quel est le plus gros muscle du corps ?",
+    "bonne": "Le grand fessier",
+    "faux": [
+     "Le biceps",
+     "Le quadriceps",
+     "Le grand pectoral"
+    ],
+    "explication": "Le grand fessier est le muscle le plus volumineux du corps."
+   },
+   {
+    "enonce": "Quel muscle fait respirer ?",
+    "bonne": "Le diaphragme",
+    "faux": [
+     "Le grand pectoral",
+     "Le trapèze",
+     "Le grand droit"
+    ],
+    "explication": "En se contractant, le diaphragme fait entrer l'air dans les poumons."
+   },
+   {
+    "enonce": "Quel tendon relie le mollet au talon ?",
+    "bonne": "Le tendon d'Achille",
+    "faux": [
+     "Le tendon rotulien",
+     "Le ligament croisé",
+     "Le ménisque"
+    ],
+    "explication": "Le tendon d'Achille est le plus gros tendon du corps."
+   },
+   {
+    "enonce": "Combien de muscles compte environ le corps humain ?",
+    "bonne": "Plus de 600",
+    "faux": [
+     "Une centaine",
+     "Environ 250",
+     "Plus de 5 000"
+    ],
+    "explication": "Le corps humain compte plus de 600 muscles."
+   },
+   {
+    "enonce": "Quel muscle travaille sans jamais s'arrêter ?",
+    "bonne": "Le myocarde",
+    "faux": [
+     "Le diaphragme",
+     "Le biceps",
+     "Le masséter"
+    ],
+    "explication": "Le myocarde, le muscle du cœur, se contracte sans arrêt toute la vie."
+   }
+  ]
+ },
+ {
+  "id": "volcans",
+  "relations": [
+   {
+    "modele": "Dans quel pays se trouve le volcan {x} ?",
+    "inverse": null,
+    "explication": "Le volcan {x} se trouve dans ce pays : {y}.",
+    "paires": [
+     [
+      "Etna",
+      "Italie"
+     ],
+     [
+      "Vésuve",
+      "Italie"
+     ],
+     [
+      "Stromboli",
+      "Italie"
+     ],
+     [
+      "Piton de la Fournaise",
+      "France (La Réunion)"
+     ],
+     [
+      "Montagne Pelée",
+      "France (Martinique)"
+     ],
+     [
+      "Kīlauea",
+      "États-Unis (Hawaï)"
+     ],
+     [
+      "Mont Saint Helens",
+      "États-Unis"
+     ],
+     [
+      "Mont Fuji",
+      "Japon"
+     ],
+     [
+      "Eyjafjallajökull",
+      "Islande"
+     ],
+     [
+      "Hekla",
+      "Islande"
+     ],
+     [
+      "Krakatoa",
+      "Indonésie"
+     ],
+     [
+      "Merapi",
+      "Indonésie"
+     ],
+     [
+      "Popocatépetl",
+      "Mexique"
+     ],
+     [
+      "Erebus",
+      "Antarctique"
+     ],
+     [
+      "Nyiragongo",
+      "République démocratique du Congo"
+     ],
+     [
+      "Pinatubo",
+      "Philippines"
+     ],
+     [
+      "Cotopaxi",
+      "Équateur"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Quelle ville romaine a été ensevelie par le Vésuve en 79 ?",
+    "bonne": "Pompéi",
+    "faux": [
+     "Rome",
+     "Naples",
+     "Ostie"
+    ],
+    "explication": "L'éruption du Vésuve en 79 a enseveli Pompéi et Herculanum."
+   },
+   {
+    "enonce": "Comment appelle-t-on la roche en fusion sous la surface ?",
+    "bonne": "Le magma",
+    "faux": [
+     "La lave",
+     "Le basalte",
+     "La cendre"
+    ],
+    "explication": "Sous la surface, c'est du magma ; une fois sorti du volcan, on parle de lave."
+   },
+   {
+    "enonce": "Comment s'appelle l'alignement de volcans autour du Pacifique ?",
+    "bonne": "La ceinture de feu",
+    "faux": [
+     "La dorsale atlantique",
+     "La couronne volcanique",
+     "L'arc de cendres"
+    ],
+    "explication": "La ceinture de feu du Pacifique regroupe la majorité des volcans actifs du monde."
+   },
+   {
+    "enonce": "Quelle ville la montagne Pelée a-t-elle détruite en 1902 ?",
+    "bonne": "Saint-Pierre",
+    "faux": [
+     "Fort-de-France",
+     "Pointe-à-Pitre",
+     "Cayenne"
+    ],
+    "explication": "L'éruption de la montagne Pelée a détruit Saint-Pierre, en Martinique, en 1902."
+   },
+   {
+    "enonce": "Quel volcan islandais a bloqué le trafic aérien européen en 2010 ?",
+    "bonne": "Eyjafjallajökull",
+    "faux": [
+     "Hekla",
+     "Etna",
+     "Stromboli"
+    ],
+    "explication": "Le nuage de cendres de l'Eyjafjallajökull a cloué au sol des milliers d'avions en avril 2010."
+   }
+  ]
+ },
+ {
+  "id": "seismes",
+  "relations": [
+   {
+    "modele": "En quelle année a eu lieu le grand séisme de {x} ?",
+    "inverse": "Quel grand séisme a eu lieu en {y} ?",
+    "explication": "Le séisme de {x} a eu lieu en {y}.",
+    "paires": [
+     [
+      "Lisbonne",
+      "1755"
+     ],
+     [
+      "San Francisco",
+      "1906"
+     ],
+     [
+      "Messine",
+      "1908"
+     ],
+     [
+      "Valdivia (Chili)",
+      "1960"
+     ],
+     [
+      "l'Alaska",
+      "1964"
+     ],
+     [
+      "Kobe",
+      "1995"
+     ],
+     [
+      "Sumatra, suivi d'un tsunami",
+      "2004"
+     ],
+     [
+      "Haïti",
+      "2010"
+     ],
+     [
+      "Tōhoku (Japon)",
+      "2011"
+     ],
+     [
+      "Turquie et Syrie",
+      "2023"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Quel appareil enregistre les séismes ?",
+    "bonne": "Le sismographe",
+    "faux": [
+     "Le baromètre",
+     "L'anémomètre",
+     "Le pluviomètre"
+    ],
+    "explication": "Le sismographe enregistre les mouvements du sol."
+   },
+   {
+    "enonce": "Comment s'appelle le point de la surface situé au-dessus du foyer d'un séisme ?",
+    "bonne": "L'épicentre",
+    "faux": [
+     "L'hypocentre",
+     "La faille",
+     "Le cratère"
+    ],
+    "explication": "Le foyer est en profondeur ; l'épicentre est le point de la surface juste au-dessus."
+   },
+   {
+    "enonce": "Quel est le séisme le plus puissant jamais enregistré ?",
+    "bonne": "Valdivia (Chili), 1960",
+    "faux": [
+     "Tōhoku (Japon), 2011",
+     "San Francisco, 1906",
+     "Lisbonne, 1755"
+    ],
+    "explication": "Le séisme de Valdivia, en 1960, a atteint une magnitude de 9,5."
+   },
+   {
+    "enonce": "Comment s'appelle la vague géante provoquée par un séisme sous-marin ?",
+    "bonne": "Un tsunami",
+    "faux": [
+     "Un mascaret",
+     "Une lame de fond",
+     "Un raz de marée solaire"
+    ],
+    "explication": "Un séisme sous la mer peut déplacer d'énormes masses d'eau et provoquer un tsunami."
+   },
+   {
+    "enonce": "Quelle centrale nucléaire a été frappée par le tsunami de 2011 ?",
+    "bonne": "Fukushima",
+    "faux": [
+     "Tchernobyl",
+     "Three Mile Island",
+     "Flamanville"
+    ],
+    "explication": "Le tsunami du 11 mars 2011 a provoqué l'accident nucléaire de Fukushima."
+   },
+   {
+    "enonce": "Comment s'appellent les grandes pièces qui forment la croûte terrestre ?",
+    "bonne": "Les plaques tectoniques",
+    "faux": [
+     "Les strates",
+     "Les dorsales",
+     "Les continents flottants"
+    ],
+    "explication": "La plupart des séismes se produisent à la frontière des plaques tectoniques."
+   }
+  ]
+ },
+ {
+  "id": "fleuves-europe",
+  "relations": [
+   {
+    "modele": "Quelle ville le fleuve {x} traverse-t-il ?",
+    "inverse": "Quel fleuve traverse {y} ?",
+    "explication": "{x} traverse {y}.",
+    "paires": [
+     [
+      "la Seine",
+      "Paris"
+     ],
+     [
+      "la Tamise",
+      "Londres"
+     ],
+     [
+      "le Tibre",
+      "Rome"
+     ],
+     [
+      "le Danube",
+      "Budapest"
+     ],
+     [
+      "le Tage",
+      "Lisbonne"
+     ],
+     [
+      "le Rhin",
+      "Cologne"
+     ],
+     [
+      "l'Elbe",
+      "Dresde"
+     ],
+     [
+      "la Vistule",
+      "Varsovie"
+     ],
+     [
+      "le Guadalquivir",
+      "Séville"
+     ],
+     [
+      "l'Arno",
+      "Florence"
+     ],
+     [
+      "la Garonne",
+      "Bordeaux"
+     ],
+     [
+      "la Loire",
+      "Nantes"
+     ]
+    ]
+   },
+   {
+    "modele": "Dans quelle mer se jette le fleuve {x} ?",
+    "inverse": null,
+    "explication": "{x} se jette dans {y}.",
+    "paires": [
+     [
+      "la Seine",
+      "la Manche"
+     ],
+     [
+      "la Loire",
+      "l'océan Atlantique"
+     ],
+     [
+      "le Rhône",
+      "la mer Méditerranée"
+     ],
+     [
+      "le Rhin",
+      "la mer du Nord"
+     ],
+     [
+      "le Danube",
+      "la mer Noire"
+     ],
+     [
+      "la Volga",
+      "la mer Caspienne"
+     ],
+     [
+      "le Pô",
+      "la mer Adriatique"
+     ],
+     [
+      "la Vistule",
+      "la mer Baltique"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Quel est le plus long fleuve d'Europe ?",
+    "bonne": "La Volga",
+    "faux": [
+     "Le Danube",
+     "Le Rhin",
+     "La Loire"
+    ],
+    "explication": "La Volga, en Russie, mesure environ 3 500 km."
+   },
+   {
+    "enonce": "Quel est le plus long fleuve de France ?",
+    "bonne": "La Loire",
+    "faux": [
+     "La Seine",
+     "Le Rhône",
+     "La Garonne"
+    ],
+    "explication": "La Loire mesure environ 1 000 km."
+   },
+   {
+    "enonce": "Combien de capitales le Danube traverse-t-il ?",
+    "bonne": "4",
+    "faux": [
+     "2",
+     "3",
+     "6"
+    ],
+    "explication": "Le Danube traverse Vienne, Bratislava, Budapest et Belgrade."
+   },
+   {
+    "enonce": "Quel fleuve forme une partie de la frontière entre la France et l'Allemagne ?",
+    "bonne": "Le Rhin",
+    "faux": [
+     "La Moselle",
+     "Le Danube",
+     "La Meuse"
+    ],
+    "explication": "Le Rhin sépare l'Alsace de l'Allemagne."
+   }
+  ]
+ },
+ {
+  "id": "peintres-renaissance",
+  "relations": [
+   {
+    "modele": "Qui a peint « {x} » ?",
+    "inverse": null,
+    "explication": "« {x} » est une œuvre de {y}.",
+    "paires": [
+     [
+      "La Joconde",
+      "Léonard de Vinci"
+     ],
+     [
+      "La Cène",
+      "Léonard de Vinci"
+     ],
+     [
+      "La Naissance de Vénus",
+      "Sandro Botticelli"
+     ],
+     [
+      "Le Printemps",
+      "Sandro Botticelli"
+     ],
+     [
+      "La Création d'Adam",
+      "Michel-Ange"
+     ],
+     [
+      "L'École d'Athènes",
+      "Raphaël"
+     ],
+     [
+      "La Vénus d'Urbino",
+      "Titien"
+     ],
+     [
+      "Le Jardin des délices",
+      "Jérôme Bosch"
+     ],
+     [
+      "Les Époux Arnolfini",
+      "Jan van Eyck"
+     ],
+     [
+      "Les Ambassadeurs",
+      "Hans Holbein le Jeune"
+     ],
+     [
+      "Les Chasseurs dans la neige",
+      "Pieter Bruegel l'Ancien"
+     ],
+     [
+      "Autoportrait à la fourrure",
+      "Albrecht Dürer"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Dans quelle ville est née la Renaissance italienne ?",
+    "bonne": "Florence",
+    "faux": [
+     "Rome",
+     "Venise",
+     "Milan"
+    ],
+    "explication": "La Renaissance est née à Florence au XVe siècle."
+   },
+   {
+    "enonce": "Dans quel musée est exposée La Joconde ?",
+    "bonne": "Le Louvre",
+    "faux": [
+     "Les Offices",
+     "Le Prado",
+     "Le Vatican"
+    ],
+    "explication": "La Joconde est exposée au musée du Louvre, à Paris."
+   },
+   {
+    "enonce": "Quelle famille de banquiers florentins a protégé les artistes de la Renaissance ?",
+    "bonne": "Les Médicis",
+    "faux": [
+     "Les Borgia",
+     "Les Sforza",
+     "Les Habsbourg"
+    ],
+    "explication": "Les Médicis ont financé de nombreux artistes, dont Botticelli et Michel-Ange."
+   },
+   {
+    "enonce": "Quelle chapelle Michel-Ange a-t-il décorée de fresques sur son plafond ?",
+    "bonne": "La chapelle Sixtine",
+    "faux": [
+     "La chapelle royale",
+     "La Sainte-Chapelle",
+     "La chapelle des Médicis"
+    ],
+    "explication": "Michel-Ange a peint le plafond de la chapelle Sixtine, au Vatican, de 1508 à 1512."
+   },
+   {
+    "enonce": "Dans quel pays Léonard de Vinci est-il mort ?",
+    "bonne": "La France",
+    "faux": [
+     "L'Italie",
+     "L'Espagne",
+     "La Suisse"
+    ],
+    "explication": "Léonard de Vinci est mort en 1519 au Clos Lucé, près d'Amboise, invité par François Ier."
+   }
+  ]
+ }
+]

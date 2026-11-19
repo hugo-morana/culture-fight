@@ -9,6 +9,15 @@ struct SelectionEquipeView: View {
     /// Un exemple de question par combattant, tiré une seule fois à l'ouverture.
     @State private var exemples: [String: String] = [:]
 
+    /// Les domaines du catalogue, dans l'ordre où ils apparaissent.
+    private var domaines: [String] {
+        var vus: [String] = []
+        for modele in Catalogue.prototype where !vus.contains(modele.specialite.domaine) {
+            vus.append(modele.specialite.domaine)
+        }
+        return vus
+    }
+
     private var equipe: [ModeleCombattant] {
         choisis.compactMap { id in Catalogue.prototype.first { $0.id == id } }
     }
@@ -17,18 +26,24 @@ struct SelectionEquipeView: View {
         NavigationStack {
             List {
                 Section {
-                    ForEach(Catalogue.prototype) { modele in
-                        Button {
-                            basculer(modele.id)
-                        } label: {
-                            LigneCombattant(modele: modele,
-                                            exemple: exemples[modele.id],
-                                            choisi: choisis.contains(modele.id))
+                    Text("Choisis \(Regles.tailleEquipe) combattants parmi \(Catalogue.prototype.count) (\(choisis.count)/\(Regles.tailleEquipe))")
+                        .font(.subheadline.bold())
+                }
+                ForEach(domaines, id: \.self) { domaine in
+                    Section {
+                        ForEach(Catalogue.prototype.filter { $0.specialite.domaine == domaine }) { modele in
+                            Button {
+                                basculer(modele.id)
+                            } label: {
+                                LigneCombattant(modele: modele,
+                                                exemple: exemples[modele.id],
+                                                choisi: choisis.contains(modele.id))
+                            }
+                            .buttonStyle(.plain)
                         }
-                        .buttonStyle(.plain)
+                    } header: {
+                        Text(domaine)
                     }
-                } header: {
-                    Text("Choisis \(Regles.tailleEquipe) combattants (\(choisis.count)/\(Regles.tailleEquipe))")
                 }
 
                 Section {

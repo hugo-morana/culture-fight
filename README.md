@@ -40,6 +40,12 @@ iOS 17 minimum.
 | Iodiateur | Halogènes | Nom, symbole, numéro atomique |
 | Afrodecapitator | Capitales d'Afrique | Pays ↔ capitale, 54 pays |
 
+## Combattants à fiche
+
+18 combattants (Orquebusier, Druidérable, Golemagma, Da Vincible…) tirent leurs questions de
+`Resources/fiches.json`, généré par `outils/fiches.py`. Pour modifier ou ajouter des questions :
+éditer `outils/fiches.py`, puis lancer `python3 outils/fiches.py` (le script vérifie chaque fiche).
+
 ## Équilibrage
 
 Les valeurs sont dans `Regles` (`Moteur/Combat.swift`) et dans les fiches de `Catalogue.swift`.
