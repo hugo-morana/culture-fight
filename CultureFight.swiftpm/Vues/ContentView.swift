@@ -15,6 +15,7 @@ struct ContentView: View {
     enum Ecran {
         case accueil
         case selection
+        case collection
         case combat(CombatController)
     }
 
@@ -23,7 +24,9 @@ struct ContentView: View {
     var body: some View {
         switch ecran {
         case .accueil:
-            AccueilView { ecran = .selection }
+            AccueilView(combattre: { ecran = .selection }, collection: { ecran = .collection })
+        case .collection:
+            CollectionView(retour: { ecran = .accueil })
         case .selection:
             SelectionEquipeView(retour: { ecran = .accueil }) { equipe, niveau in
                 let ia = IAAdverse(niveau: niveau)
@@ -41,15 +44,20 @@ struct ContentView: View {
 
 struct AccueilView: View {
     let combattre: () -> Void
+    let collection: () -> Void
 
     var body: some View {
         VStack(spacing: 24) {
             Spacer()
-            Image(systemName: "bolt.shield.fill")
-                .font(.system(size: 72))
-                .foregroundStyle(.orange)
-            Text("Culture Fight")
-                .font(.largeTitle.bold())
+            if let logo = Illustrations.partage.ressource("logo", type: "png") {
+                Image(uiImage: logo)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(maxWidth: 360)
+            } else {
+                Text("Culture Fight")
+                    .font(.largeTitle.bold())
+            }
             Text("Ton savoir est ton arme.")
                 .font(.title3)
                 .foregroundStyle(.secondary)
@@ -62,6 +70,13 @@ struct AccueilView: View {
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
             .tint(.orange)
+            Button(action: collection) {
+                Text("Ma collection")
+                    .font(.title3.bold())
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.bordered)
+            .controlSize(.large)
             Text("Prototype · \(Catalogue.prototype.count) combattants · combat contre l'IA")
                 .font(.footnote)
                 .foregroundStyle(.secondary)
@@ -96,12 +111,17 @@ final class Illustrations: @unchecked Sendable {
     private let cache = NSCache<NSString, UIImage>()
 
     func image(pour id: String) -> UIImage? {
-        if let image = cache.object(forKey: id as NSString) { return image }
-        let nom = "combattant-\(id)"
-        let url = Bundle.module.url(forResource: nom, withExtension: "jpg")
-            ?? Bundle.main.url(forResource: nom, withExtension: "jpg")
+        ressource("combattant-\(id)", type: "jpg")
+    }
+
+    /// Une image des ressources de l'app (illustration, logo…), gardée en cache.
+    func ressource(_ nom: String, type ext: String) -> UIImage? {
+        let cle = "\(nom).\(ext)" as NSString
+        if let image = cache.object(forKey: cle) { return image }
+        let url = Bundle.module.url(forResource: nom, withExtension: ext)
+            ?? Bundle.main.url(forResource: nom, withExtension: ext)
         guard let url, let data = try? Data(contentsOf: url), let image = UIImage(data: data) else { return nil }
-        cache.setObject(image, forKey: id as NSString)
+        cache.setObject(image, forKey: cle)
         return image
     }
 }

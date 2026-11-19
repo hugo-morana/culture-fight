@@ -213,5 +213,17 @@ enum Catalogue {
                specialite: "Fleuves d'Europe", famille: "Fleuves", domaine: "Terre", fiche: "fleuves-europe",
                apparence: "Centurion à l'armure ruisselante, casque à cimier en forme de vague, bouclier gravé de la carte des fleuves d'Europe.",
                questions: "Fleuves d'Europe : les villes qu'ils traversent et les mers où ils se jettent."),
+        aFiche(id: "amazone-infernale", nom: "Amazone Infernale", style: "Amazone", familleStyle: .tireurs,
+               specialite: "Fleuves du monde", famille: "Fleuves", domaine: "Terre", fiche: "fleuves-monde",
+               apparence: "Guerrière amazone au visage peint de vert, coiffe de plumes de perroquet, arc de jungle, anaconda enroulé autour du bras.",
+               questions: "Grands fleuves du monde : leur continent, les villes qu'ils traversent et leurs records."),
+        aFiche(id: "krakenlac", nom: "Krakenlac", style: "Kraken", familleStyle: .creatures,
+               specialite: "Lacs", famille: "Lacs", domaine: "Terre", fiche: "lacs",
+               apparence: "Kraken d'eau douce vert algue, tentacules couverts de nénuphars, béret écossais et canne à pêche.",
+               questions: "Lacs du monde : où ils se trouvent, et leurs records."),
+        aFiche(id: "flibustlantique", nom: "Flibustlantique", style: "Flibustier", familleStyle: .tireurs,
+               specialite: "Océans et mers", famille: "Océans et mers", domaine: "Terre", fiche: "oceans-mers",
+               apparence: "Flibustier aux cheveux en vagues et à la barbe d'écume, veste brodée d'une carte des océans, sabre en espadon, dauphin sur l'épaule.",
+               questions: "Océans et mers : les villes qu'ils bordent, détroits, canaux et records."),
     ]
 }

@@ -1957,6 +1957,515 @@
   ]
  },
  {
+  "id": "fleuves-monde",
+  "relations": [
+   {
+    "modele": "Sur quel continent coule le fleuve {x} ?",
+    "inverse": null,
+    "explication": "{x} coule en {y}.",
+    "paires": [
+     [
+      "Amazone",
+      "Amérique du Sud"
+     ],
+     [
+      "Nil",
+      "Afrique"
+     ],
+     [
+      "Mississippi",
+      "Amérique du Nord"
+     ],
+     [
+      "Yangzi Jiang",
+      "Asie"
+     ],
+     [
+      "Gange",
+      "Asie"
+     ],
+     [
+      "Mékong",
+      "Asie"
+     ],
+     [
+      "Congo",
+      "Afrique"
+     ],
+     [
+      "Niger",
+      "Afrique"
+     ],
+     [
+      "Zambèze",
+      "Afrique"
+     ],
+     [
+      "Murray",
+      "Océanie"
+     ],
+     [
+      "Volga",
+      "Europe"
+     ],
+     [
+      "Paraná",
+      "Amérique du Sud"
+     ],
+     [
+      "Orénoque",
+      "Amérique du Sud"
+     ],
+     [
+      "Saint-Laurent",
+      "Amérique du Nord"
+     ],
+     [
+      "Yukon",
+      "Amérique du Nord"
+     ],
+     [
+      "Indus",
+      "Asie"
+     ]
+    ]
+   },
+   {
+    "modele": "Quelle ville le fleuve {x} traverse-t-il ?",
+    "inverse": "Quel fleuve traverse {y} ?",
+    "explication": "{x} traverse {y}.",
+    "paires": [
+     [
+      "le Nil",
+      "Le Caire"
+     ],
+     [
+      "l'Amazone",
+      "Iquitos"
+     ],
+     [
+      "le Mississippi",
+      "La Nouvelle-Orléans"
+     ],
+     [
+      "le Gange",
+      "Varanasi"
+     ],
+     [
+      "le Yangzi Jiang",
+      "Wuhan"
+     ],
+     [
+      "l'Hudson",
+      "New York"
+     ],
+     [
+      "le Saint-Laurent",
+      "Québec"
+     ],
+     [
+      "le Mékong",
+      "Phnom Penh"
+     ],
+     [
+      "le Congo",
+      "Kinshasa"
+     ],
+     [
+      "le Niger",
+      "Bamako"
+     ],
+     [
+      "le Tigre",
+      "Bagdad"
+     ],
+     [
+      "la Chao Phraya",
+      "Bangkok"
+     ],
+     [
+      "le Potomac",
+      "Washington"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Quel fleuve a le plus grand débit du monde ?",
+    "bonne": "L'Amazone",
+    "faux": [
+     "Le Nil",
+     "Le Congo",
+     "Le Mississippi"
+    ],
+    "explication": "L'Amazone déverse à lui seul environ un cinquième de l'eau douce qui arrive dans les océans."
+   },
+   {
+    "enonce": "Quel est le plus long fleuve d'Asie ?",
+    "bonne": "Le Yangzi Jiang",
+    "faux": [
+     "Le Gange",
+     "Le Mékong",
+     "L'Indus"
+    ],
+    "explication": "Le Yangzi Jiang, en Chine, mesure environ 6 300 km."
+   },
+   {
+    "enonce": "Quel est le plus long fleuve d'Afrique ?",
+    "bonne": "Le Nil",
+    "faux": [
+     "Le Congo",
+     "Le Niger",
+     "Le Zambèze"
+    ],
+    "explication": "Le Nil mesure environ 6 700 km."
+   },
+   {
+    "enonce": "Quel fleuve est sacré pour les hindous ?",
+    "bonne": "Le Gange",
+    "faux": [
+     "L'Indus",
+     "Le Mékong",
+     "Le Brahmapoutre"
+    ],
+    "explication": "Les hindous viennent se purifier dans le Gange, notamment à Varanasi."
+   },
+   {
+    "enonce": "Quel fleuve a creusé le Grand Canyon ?",
+    "bonne": "Le Colorado",
+    "faux": [
+     "Le Mississippi",
+     "Le Missouri",
+     "Le Rio Grande"
+    ],
+    "explication": "Le Colorado a creusé le Grand Canyon pendant des millions d'années."
+   },
+   {
+    "enonce": "Sur quel fleuve se trouvent les chutes Victoria ?",
+    "bonne": "Le Zambèze",
+    "faux": [
+     "Le Nil",
+     "Le Congo",
+     "Le Niger"
+    ],
+    "explication": "Les chutes Victoria, entre la Zambie et le Zimbabwe, sont sur le Zambèze."
+   },
+   {
+    "enonce": "Quel fleuve traverse le plus de pays au monde ?",
+    "bonne": "Le Danube",
+    "faux": [
+     "Le Nil",
+     "L'Amazone",
+     "Le Rhin"
+    ],
+    "explication": "Le Danube traverse 10 pays, de l'Allemagne à l'Ukraine."
+   }
+  ]
+ },
+ {
+  "id": "lacs",
+  "relations": [
+   {
+    "modele": "Dans quel(s) pays se trouve le lac {x} ?",
+    "inverse": null,
+    "explication": "Le lac {x} se trouve dans ce(s) pays : {y}.",
+    "paires": [
+     [
+      "Titicaca",
+      "Pérou et Bolivie"
+     ],
+     [
+      "Baïkal",
+      "Russie"
+     ],
+     [
+      "Léman",
+      "Suisse et France"
+     ],
+     [
+      "Loch Ness",
+      "Écosse"
+     ],
+     [
+      "Victoria",
+      "Ouganda, Kenya et Tanzanie"
+     ],
+     [
+      "Supérieur",
+      "États-Unis et Canada"
+     ],
+     [
+      "Michigan",
+      "États-Unis"
+     ],
+     [
+      "Balaton",
+      "Hongrie"
+     ],
+     [
+      "de Garde",
+      "Italie"
+     ],
+     [
+      "de Côme",
+      "Italie"
+     ],
+     [
+      "de Constance",
+      "Allemagne, Suisse et Autriche"
+     ],
+     [
+      "d'Annecy",
+      "France"
+     ],
+     [
+      "Tchad",
+      "Tchad, Cameroun, Niger et Nigeria"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Quel est le lac le plus profond du monde ?",
+    "bonne": "Le Baïkal",
+    "faux": [
+     "Le Tanganyika",
+     "Le lac Supérieur",
+     "Le Titicaca"
+    ],
+    "explication": "Le lac Baïkal, en Sibérie, dépasse 1 600 m de profondeur."
+   },
+   {
+    "enonce": "Quel est le plus grand lac d'eau douce du monde par sa superficie ?",
+    "bonne": "Le lac Supérieur",
+    "faux": [
+     "Le lac Victoria",
+     "Le Baïkal",
+     "Le lac Michigan"
+    ],
+    "explication": "Le lac Supérieur, entre les États-Unis et le Canada, couvre environ 82 000 km²."
+   },
+   {
+    "enonce": "Quelle est la plus grande étendue d'eau fermée du monde ?",
+    "bonne": "La mer Caspienne",
+    "faux": [
+     "Le lac Supérieur",
+     "La mer Morte",
+     "La mer d'Aral"
+    ],
+    "explication": "Malgré son nom, la mer Caspienne est un immense lac salé."
+   },
+   {
+    "enonce": "Quel est le plus grand lac d'Afrique ?",
+    "bonne": "Le lac Victoria",
+    "faux": [
+     "Le lac Tanganyika",
+     "Le lac Tchad",
+     "Le lac Malawi"
+    ],
+    "explication": "Le lac Victoria est partagé entre l'Ouganda, le Kenya et la Tanzanie."
+   },
+   {
+    "enonce": "Quel monstre légendaire vivrait dans un lac écossais ?",
+    "bonne": "Nessie",
+    "faux": [
+     "Le Yéti",
+     "Le Kraken",
+     "Le Bigfoot"
+    ],
+    "explication": "Nessie serait le monstre du Loch Ness ; son existence n'a jamais été prouvée."
+   },
+   {
+    "enonce": "Combien de lacs forment les Grands Lacs d'Amérique du Nord ?",
+    "bonne": "5",
+    "faux": [
+     "3",
+     "4",
+     "7"
+    ],
+    "explication": "Les cinq Grands Lacs sont le Supérieur, le Michigan, le Huron, l'Érié et l'Ontario."
+   },
+   {
+    "enonce": "Quel lac est souvent présenté comme le plus haut lac navigable du monde ?",
+    "bonne": "Le Titicaca",
+    "faux": [
+     "Le Baïkal",
+     "Le Léman",
+     "Le lac Victoria"
+    ],
+    "explication": "Le lac Titicaca est à environ 3 800 m d'altitude, entre le Pérou et la Bolivie."
+   },
+   {
+    "enonce": "Quelle part de l'eau douce liquide de surface de la planète contient le Baïkal ?",
+    "bonne": "Environ 20 %",
+    "faux": [
+     "Environ 2 %",
+     "Environ 50 %",
+     "Environ 80 %"
+    ],
+    "explication": "Le Baïkal contient à lui seul environ 20 % de l'eau douce liquide de surface du monde."
+   }
+  ]
+ },
+ {
+  "id": "oceans-mers",
+  "relations": [
+   {
+    "modele": "Quelle mer ou quel océan borde la ville de {x} ?",
+    "inverse": null,
+    "explication": "{x} est au bord de {y}.",
+    "paires": [
+     [
+      "Marseille",
+      "la mer Méditerranée"
+     ],
+     [
+      "Le Havre",
+      "la Manche"
+     ],
+     [
+      "Saint-Pétersbourg",
+      "la mer Baltique"
+     ],
+     [
+      "Odessa",
+      "la mer Noire"
+     ],
+     [
+      "Venise",
+      "la mer Adriatique"
+     ],
+     [
+      "Rotterdam",
+      "la mer du Nord"
+     ],
+     [
+      "Bakou",
+      "la mer Caspienne"
+     ],
+     [
+      "Djeddah",
+      "la mer Rouge"
+     ],
+     [
+      "Sydney",
+      "l'océan Pacifique"
+     ],
+     [
+      "Bombay",
+      "l'océan Indien"
+     ],
+     [
+      "Rio de Janeiro",
+      "l'océan Atlantique"
+     ],
+     [
+      "Vladivostok",
+      "la mer du Japon"
+     ],
+     [
+      "Le Pirée, près d'Athènes",
+      "la mer Égée"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Quel est le plus grand océan du monde ?",
+    "bonne": "Le Pacifique",
+    "faux": [
+     "L'Atlantique",
+     "L'océan Indien",
+     "L'Arctique"
+    ],
+    "explication": "Le Pacifique couvre à lui seul près d'un tiers de la surface de la Terre."
+   },
+   {
+    "enonce": "Combien y a-t-il d'océans sur Terre ?",
+    "bonne": "5",
+    "faux": [
+     "3",
+     "4",
+     "7"
+    ],
+    "explication": "Pacifique, Atlantique, Indien, Arctique et Austral."
+   },
+   {
+    "enonce": "Où se trouve le point le plus profond des océans ?",
+    "bonne": "La fosse des Mariannes",
+    "faux": [
+     "La fosse de Porto Rico",
+     "Le triangle des Bermudes",
+     "La dorsale atlantique"
+    ],
+    "explication": "La fosse des Mariannes, dans le Pacifique, dépasse 10 900 m de profondeur."
+   },
+   {
+    "enonce": "Quel océan entoure l'Antarctique ?",
+    "bonne": "L'océan Austral",
+    "faux": [
+     "L'océan Arctique",
+     "L'océan Indien",
+     "L'Atlantique"
+    ],
+    "explication": "L'océan Austral entoure le continent antarctique."
+   },
+   {
+    "enonce": "Quel détroit sépare l'Europe de l'Afrique ?",
+    "bonne": "Le détroit de Gibraltar",
+    "faux": [
+     "Le Bosphore",
+     "Le détroit de Messine",
+     "Le pas de Calais"
+    ],
+    "explication": "Le détroit de Gibraltar relie l'Atlantique à la Méditerranée."
+   },
+   {
+    "enonce": "Quel canal relie la Méditerranée à la mer Rouge ?",
+    "bonne": "Le canal de Suez",
+    "faux": [
+     "Le canal de Panama",
+     "Le canal de Corinthe",
+     "Le canal du Midi"
+    ],
+    "explication": "Le canal de Suez, en Égypte, a été inauguré en 1869."
+   },
+   {
+    "enonce": "Quel canal relie l'Atlantique au Pacifique ?",
+    "bonne": "Le canal de Panama",
+    "faux": [
+     "Le canal de Suez",
+     "Le canal de Kiel",
+     "Le détroit de Magellan"
+    ],
+    "explication": "Le canal de Panama a été ouvert en 1914."
+   },
+   {
+    "enonce": "Quel courant marin chaud adoucit le climat de l'Europe de l'Ouest ?",
+    "bonne": "Le Gulf Stream",
+    "faux": [
+     "El Niño",
+     "Le courant de Humboldt",
+     "Le courant des Canaries"
+    ],
+    "explication": "Le Gulf Stream transporte des eaux chaudes du golfe du Mexique vers l'Atlantique Nord."
+   },
+   {
+    "enonce": "Quelle part de la surface de la Terre les océans couvrent-ils ?",
+    "bonne": "Environ 70 %",
+    "faux": [
+     "Environ 50 %",
+     "Environ 30 %",
+     "Environ 90 %"
+    ],
+    "explication": "Les océans couvrent environ 71 % de la surface de la planète."
+   }
+  ]
+ },
+ {
   "id": "peintres-renaissance",
   "relations": [
    {
