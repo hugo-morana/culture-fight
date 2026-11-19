@@ -59,3 +59,8 @@ Il faut, une seule fois :
 2. Créer l'app dans App Store Connect avec l'identifiant `fr.hugomorana.culturefight`.
 
 Les journaux sont publiés sur les branches `build-log` (compilation) et `testflight-log` (envoi).
+
+## Licence
+
+Ce dépôt est public pour être compilé gratuitement par GitHub Actions, mais il **n'est pas open source** :
+tous droits réservés. Voir le fichier `LICENSE`.
