@@ -25,8 +25,11 @@ let package = Package(
                 .pad,
                 .phone
             ],
+            // iPhone : portrait seulement. iPad : toutes les orientations (exigé pour le multitâche).
             supportedInterfaceOrientations: [
                 .portrait,
+                .landscapeRight(.when(deviceFamilies: [.pad])),
+                .landscapeLeft(.when(deviceFamilies: [.pad])),
                 .portraitUpsideDown(.when(deviceFamilies: [.pad]))
             ]
         )
