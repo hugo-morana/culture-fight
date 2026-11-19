@@ -1,0 +1,828 @@
+[
+ {
+  "numero": 1,
+  "symbole": "H",
+  "nom": "Hydrogène",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 2,
+  "symbole": "He",
+  "nom": "Hélium",
+  "famille": "gaz noble",
+  "notoriete": 1
+ },
+ {
+  "numero": 3,
+  "symbole": "Li",
+  "nom": "Lithium",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 4,
+  "symbole": "Be",
+  "nom": "Béryllium",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 5,
+  "symbole": "B",
+  "nom": "Bore",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 6,
+  "symbole": "C",
+  "nom": "Carbone",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 7,
+  "symbole": "N",
+  "nom": "Azote",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 8,
+  "symbole": "O",
+  "nom": "Oxygène",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 9,
+  "symbole": "F",
+  "nom": "Fluor",
+  "famille": "halogène",
+  "notoriete": 1
+ },
+ {
+  "numero": 10,
+  "symbole": "Ne",
+  "nom": "Néon",
+  "famille": "gaz noble",
+  "notoriete": 1
+ },
+ {
+  "numero": 11,
+  "symbole": "Na",
+  "nom": "Sodium",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 12,
+  "symbole": "Mg",
+  "nom": "Magnésium",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 13,
+  "symbole": "Al",
+  "nom": "Aluminium",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 14,
+  "symbole": "Si",
+  "nom": "Silicium",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 15,
+  "symbole": "P",
+  "nom": "Phosphore",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 16,
+  "symbole": "S",
+  "nom": "Soufre",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 17,
+  "symbole": "Cl",
+  "nom": "Chlore",
+  "famille": "halogène",
+  "notoriete": 1
+ },
+ {
+  "numero": 18,
+  "symbole": "Ar",
+  "nom": "Argon",
+  "famille": "gaz noble",
+  "notoriete": 1
+ },
+ {
+  "numero": 19,
+  "symbole": "K",
+  "nom": "Potassium",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 20,
+  "symbole": "Ca",
+  "nom": "Calcium",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 21,
+  "symbole": "Sc",
+  "nom": "Scandium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 22,
+  "symbole": "Ti",
+  "nom": "Titane",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 23,
+  "symbole": "V",
+  "nom": "Vanadium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 24,
+  "symbole": "Cr",
+  "nom": "Chrome",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 25,
+  "symbole": "Mn",
+  "nom": "Manganèse",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 26,
+  "symbole": "Fe",
+  "nom": "Fer",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 27,
+  "symbole": "Co",
+  "nom": "Cobalt",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 28,
+  "symbole": "Ni",
+  "nom": "Nickel",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 29,
+  "symbole": "Cu",
+  "nom": "Cuivre",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 30,
+  "symbole": "Zn",
+  "nom": "Zinc",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 31,
+  "symbole": "Ga",
+  "nom": "Gallium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 32,
+  "symbole": "Ge",
+  "nom": "Germanium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 33,
+  "symbole": "As",
+  "nom": "Arsenic",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 34,
+  "symbole": "Se",
+  "nom": "Sélénium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 35,
+  "symbole": "Br",
+  "nom": "Brome",
+  "famille": "halogène",
+  "notoriete": 2
+ },
+ {
+  "numero": 36,
+  "symbole": "Kr",
+  "nom": "Krypton",
+  "famille": "gaz noble",
+  "notoriete": 2
+ },
+ {
+  "numero": 37,
+  "symbole": "Rb",
+  "nom": "Rubidium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 38,
+  "symbole": "Sr",
+  "nom": "Strontium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 39,
+  "symbole": "Y",
+  "nom": "Yttrium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 40,
+  "symbole": "Zr",
+  "nom": "Zirconium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 41,
+  "symbole": "Nb",
+  "nom": "Niobium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 42,
+  "symbole": "Mo",
+  "nom": "Molybdène",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 43,
+  "symbole": "Tc",
+  "nom": "Technétium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 44,
+  "symbole": "Ru",
+  "nom": "Ruthénium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 45,
+  "symbole": "Rh",
+  "nom": "Rhodium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 46,
+  "symbole": "Pd",
+  "nom": "Palladium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 47,
+  "symbole": "Ag",
+  "nom": "Argent",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 48,
+  "symbole": "Cd",
+  "nom": "Cadmium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 49,
+  "symbole": "In",
+  "nom": "Indium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 50,
+  "symbole": "Sn",
+  "nom": "Étain",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 51,
+  "symbole": "Sb",
+  "nom": "Antimoine",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 52,
+  "symbole": "Te",
+  "nom": "Tellure",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 53,
+  "symbole": "I",
+  "nom": "Iode",
+  "famille": "halogène",
+  "notoriete": 1
+ },
+ {
+  "numero": 54,
+  "symbole": "Xe",
+  "nom": "Xénon",
+  "famille": "gaz noble",
+  "notoriete": 2
+ },
+ {
+  "numero": 55,
+  "symbole": "Cs",
+  "nom": "Césium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 56,
+  "symbole": "Ba",
+  "nom": "Baryum",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 57,
+  "symbole": "La",
+  "nom": "Lanthane",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 58,
+  "symbole": "Ce",
+  "nom": "Cérium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 59,
+  "symbole": "Pr",
+  "nom": "Praséodyme",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 60,
+  "symbole": "Nd",
+  "nom": "Néodyme",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 61,
+  "symbole": "Pm",
+  "nom": "Prométhium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 62,
+  "symbole": "Sm",
+  "nom": "Samarium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 63,
+  "symbole": "Eu",
+  "nom": "Europium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 64,
+  "symbole": "Gd",
+  "nom": "Gadolinium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 65,
+  "symbole": "Tb",
+  "nom": "Terbium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 66,
+  "symbole": "Dy",
+  "nom": "Dysprosium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 67,
+  "symbole": "Ho",
+  "nom": "Holmium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 68,
+  "symbole": "Er",
+  "nom": "Erbium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 69,
+  "symbole": "Tm",
+  "nom": "Thulium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 70,
+  "symbole": "Yb",
+  "nom": "Ytterbium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 71,
+  "symbole": "Lu",
+  "nom": "Lutécium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 72,
+  "symbole": "Hf",
+  "nom": "Hafnium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 73,
+  "symbole": "Ta",
+  "nom": "Tantale",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 74,
+  "symbole": "W",
+  "nom": "Tungstène",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 75,
+  "symbole": "Re",
+  "nom": "Rhénium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 76,
+  "symbole": "Os",
+  "nom": "Osmium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 77,
+  "symbole": "Ir",
+  "nom": "Iridium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 78,
+  "symbole": "Pt",
+  "nom": "Platine",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 79,
+  "symbole": "Au",
+  "nom": "Or",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 80,
+  "symbole": "Hg",
+  "nom": "Mercure",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 81,
+  "symbole": "Tl",
+  "nom": "Thallium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 82,
+  "symbole": "Pb",
+  "nom": "Plomb",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 83,
+  "symbole": "Bi",
+  "nom": "Bismuth",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 84,
+  "symbole": "Po",
+  "nom": "Polonium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 85,
+  "symbole": "At",
+  "nom": "Astate",
+  "famille": "halogène",
+  "notoriete": 3
+ },
+ {
+  "numero": 86,
+  "symbole": "Rn",
+  "nom": "Radon",
+  "famille": "gaz noble",
+  "notoriete": 2
+ },
+ {
+  "numero": 87,
+  "symbole": "Fr",
+  "nom": "Francium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 88,
+  "symbole": "Ra",
+  "nom": "Radium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 89,
+  "symbole": "Ac",
+  "nom": "Actinium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 90,
+  "symbole": "Th",
+  "nom": "Thorium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 91,
+  "symbole": "Pa",
+  "nom": "Protactinium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 92,
+  "symbole": "U",
+  "nom": "Uranium",
+  "famille": "",
+  "notoriete": 1
+ },
+ {
+  "numero": 93,
+  "symbole": "Np",
+  "nom": "Neptunium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 94,
+  "symbole": "Pu",
+  "nom": "Plutonium",
+  "famille": "",
+  "notoriete": 2
+ },
+ {
+  "numero": 95,
+  "symbole": "Am",
+  "nom": "Américium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 96,
+  "symbole": "Cm",
+  "nom": "Curium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 97,
+  "symbole": "Bk",
+  "nom": "Berkélium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 98,
+  "symbole": "Cf",
+  "nom": "Californium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 99,
+  "symbole": "Es",
+  "nom": "Einsteinium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 100,
+  "symbole": "Fm",
+  "nom": "Fermium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 101,
+  "symbole": "Md",
+  "nom": "Mendélévium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 102,
+  "symbole": "No",
+  "nom": "Nobélium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 103,
+  "symbole": "Lr",
+  "nom": "Lawrencium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 104,
+  "symbole": "Rf",
+  "nom": "Rutherfordium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 105,
+  "symbole": "Db",
+  "nom": "Dubnium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 106,
+  "symbole": "Sg",
+  "nom": "Seaborgium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 107,
+  "symbole": "Bh",
+  "nom": "Bohrium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 108,
+  "symbole": "Hs",
+  "nom": "Hassium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 109,
+  "symbole": "Mt",
+  "nom": "Meitnérium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 110,
+  "symbole": "Ds",
+  "nom": "Darmstadtium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 111,
+  "symbole": "Rg",
+  "nom": "Roentgenium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 112,
+  "symbole": "Cn",
+  "nom": "Copernicium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 113,
+  "symbole": "Nh",
+  "nom": "Nihonium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 114,
+  "symbole": "Fl",
+  "nom": "Flérovium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 115,
+  "symbole": "Mc",
+  "nom": "Moscovium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 116,
+  "symbole": "Lv",
+  "nom": "Livermorium",
+  "famille": "",
+  "notoriete": 3
+ },
+ {
+  "numero": 117,
+  "symbole": "Ts",
+  "nom": "Tennessine",
+  "famille": "halogène",
+  "notoriete": 3
+ },
+ {
+  "numero": 118,
+  "symbole": "Og",
+  "nom": "Oganesson",
+  "famille": "gaz noble",
+  "notoriete": 3
+ }
+]

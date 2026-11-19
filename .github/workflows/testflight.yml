@@ -1,0 +1,116 @@
+name: TestFlight
+
+# À chaque modification de l'app sur la branche main : archive, signature et envoi sur TestFlight.
+# Secrets du dépôt nécessaires : ASC_KEY_ID, ASC_ISSUER_ID, ASC_KEY_P8, TEAM_ID
+# (les mêmes valeurs que pour PM Chimie). Le journal est publié sur la branche « testflight-log ».
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "CultureFight.swiftpm/**"
+      - ".github/workflows/testflight.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  testflight:
+    runs-on: macos-15-intel
+    timeout-minutes: 45
+    env:
+      ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+      ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+      ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+      TEAM_ID: ${{ secrets.TEAM_ID }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Secrets présents ?
+        id: check
+        run: |
+          if [ -z "$ASC_KEY_ID" ] || [ -z "$ASC_ISSUER_ID" ] || [ -z "$ASC_KEY_P8" ] || [ -z "$TEAM_ID" ]; then
+            echo "Secrets manquants : envoi TestFlight ignoré." | tee "$RUNNER_TEMP/build.log"
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Xcode
+        if: steps.check.outputs.ok == 'true'
+        run: |
+          sudo xcode-select -s "$(ls -d /Applications/Xcode_*.app | grep -v -i beta | sort -V | tail -1)"
+          xcodebuild -version
+
+      - name: Archive et envoi
+        if: steps.check.outputs.ok == 'true'
+        working-directory: CultureFight.swiftpm
+        run: |
+          set -o pipefail
+          KEY="$RUNNER_TEMP/AuthKey_$ASC_KEY_ID.p8"
+          # remet la clé au format PEM (retours à la ligne perdus au copier-coller, espaces, etc.)
+          printf '%s' "$ASC_KEY_P8" | python3 -c '
+          import sys, re, textwrap
+          t = sys.stdin.read()
+          t = re.sub(r"-----(BEGIN|END)[A-Z ]*-----", "", t)
+          b = re.sub(r"[^A-Za-z0-9+/=]", "", t)
+          print("-----BEGIN PRIVATE KEY-----")
+          print("\n".join(textwrap.wrap(b, 64)))
+          print("-----END PRIVATE KEY-----")
+          sys.stderr.write("clé : %d caractères base64\n" % len(b))
+          ' > "$KEY"
+          AUTH=(-allowProvisioningUpdates -authenticationKeyPath "$KEY" -authenticationKeyID "$ASC_KEY_ID" -authenticationKeyIssuerID "$ASC_ISSUER_ID")
+          # numéro de build unique à chaque envoi
+          BUILD=$(( GITHUB_RUN_NUMBER + 1 ))
+          sed -i '' "s/bundleVersion: \"[0-9]*\"/bundleVersion: \"$BUILD\"/" Package.swift
+          sed -i '' "s/teamIdentifier: \"[^\"]*\"/teamIdentifier: \"$TEAM_ID\"/" Package.swift
+          grep -n "bundleVersion\|teamIdentifier" Package.swift
+          {
+            echo "cle: $(grep -v -- ----- "$KEY" | tr -d '\n' | wc -c | tr -d ' ') caracteres base64 (200 attendus)"
+            xcodebuild archive \
+              -scheme "Culture Fight" \
+              -destination "generic/platform=iOS" \
+              -archivePath "$RUNNER_TEMP/CultureFight.xcarchive" \
+              DEVELOPMENT_TEAM="$TEAM_ID" \
+              CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=""
+            cat > "$RUNNER_TEMP/export.plist" <<PLIST
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0"><dict>
+            <key>method</key><string>app-store-connect</string>
+            <key>destination</key><string>upload</string>
+            <key>teamID</key><string>$TEAM_ID</string>
+            <key>signingStyle</key><string>automatic</string>
+            <key>manageAppVersionAndBuildNumber</key><false/>
+          </dict></plist>
+          PLIST
+            xcodebuild -exportArchive \
+              -archivePath "$RUNNER_TEMP/CultureFight.xcarchive" \
+              -exportOptionsPlist "$RUNNER_TEMP/export.plist" \
+              -exportPath "$RUNNER_TEMP/export" \
+              "${AUTH[@]}"
+          } 2>&1 | tee "$RUNNER_TEMP/build.log"
+          rm -f "$KEY"
+
+      - name: Journal (branche testflight-log)
+        if: always()
+        run: |
+          LOG="$RUNNER_TEMP/build.log"; touch "$LOG"
+          OUT="$RUNNER_TEMP/out"; mkdir -p "$OUT"
+          {
+            echo "commit: $GITHUB_SHA"
+            echo "run: $GITHUB_RUN_NUMBER"
+            echo "status: ${{ job.status }}"
+            echo
+            grep -iE "error|warning: |EXPORT|ARCHIVE|upload|Secrets|^cle:" "$LOG" | sort -u | head -300
+          } > "$OUT/errors.txt"
+          tail -300 "$LOG" > "$OUT/tail.txt"
+          cd "$OUT"
+          git init -q
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git checkout -q -b testflight-log
+          git add .
+          git commit -q -m "Journal TestFlight $GITHUB_SHA"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" testflight-log

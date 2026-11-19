@@ -1,0 +1,64 @@
+name: Compilation
+
+# Compile l'app pour le simulateur iOS à chaque modification, sans signature.
+# Le résumé des erreurs est publié sur la branche « build-log ».
+
+on:
+  push:
+    paths:
+      - "CultureFight.swiftpm/**"
+      - ".github/workflows/compilation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: macos-15-intel
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Xcode
+        run: |
+          sudo xcode-select -s "$(ls -d /Applications/Xcode_*.app | grep -v -i beta | sort -V | tail -1)"
+          xcodebuild -version
+
+      - name: Schémas
+        working-directory: CultureFight.swiftpm
+        run: xcodebuild -list
+
+      - name: Compilation (simulateur iOS)
+        working-directory: CultureFight.swiftpm
+        run: |
+          set -o pipefail
+          xcodebuild build \
+            -scheme "Culture Fight" \
+            -destination "generic/platform=iOS Simulator" \
+            -configuration Release \
+            -derivedDataPath "$RUNNER_TEMP/dd" \
+            CODE_SIGNING_ALLOWED=NO \
+            2>&1 | tee "$RUNNER_TEMP/build.log"
+
+      - name: Journal des erreurs (branche build-log)
+        if: always()
+        run: |
+          LOG="$RUNNER_TEMP/build.log"
+          touch "$LOG"
+          OUT="$RUNNER_TEMP/out"; mkdir -p "$OUT"
+          {
+            echo "commit: $GITHUB_SHA"
+            echo "status: ${{ job.status }}"
+            echo
+            grep -E "error|BUILD" "$LOG" | sort -u | head -300
+          } > "$OUT/errors.txt"
+          tail -400 "$LOG" > "$OUT/tail.txt"
+          cd "$OUT"
+          git init -q
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git checkout -q -b build-log
+          git add .
+          git commit -q -m "Journal de compilation $GITHUB_SHA"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" build-log

@@ -1,0 +1,326 @@
+[
+ {
+  "pays": "Afrique du Sud",
+  "capitale": "Pretoria",
+  "notoriete": 2,
+  "note": "Pretoria est la capitale administrative ; Le Cap est la capitale législative et Bloemfontein la capitale judiciaire."
+ },
+ {
+  "pays": "Algérie",
+  "capitale": "Alger",
+  "notoriete": 1,
+  "note": ""
+ },
+ {
+  "pays": "Angola",
+  "capitale": "Luanda",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Bénin",
+  "capitale": "Porto-Novo",
+  "notoriete": 3,
+  "note": "Porto-Novo est la capitale officielle ; le gouvernement siège à Cotonou."
+ },
+ {
+  "pays": "Botswana",
+  "capitale": "Gaborone",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Burkina Faso",
+  "capitale": "Ouagadougou",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Burundi",
+  "capitale": "Gitega",
+  "notoriete": 3,
+  "note": "Gitega est la capitale politique depuis 2019 ; Bujumbura reste la capitale économique."
+ },
+ {
+  "pays": "Cameroun",
+  "capitale": "Yaoundé",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Cap-Vert",
+  "capitale": "Praia",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Centrafrique",
+  "capitale": "Bangui",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Comores",
+  "capitale": "Moroni",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Congo",
+  "capitale": "Brazzaville",
+  "notoriete": 2,
+  "note": "Ne pas confondre avec la République démocratique du Congo, dont la capitale est Kinshasa."
+ },
+ {
+  "pays": "République démocratique du Congo",
+  "capitale": "Kinshasa",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Côte d'Ivoire",
+  "capitale": "Yamoussoukro",
+  "notoriete": 2,
+  "note": "Yamoussoukro est la capitale officielle ; Abidjan est la capitale économique."
+ },
+ {
+  "pays": "Djibouti",
+  "capitale": "Djibouti",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Égypte",
+  "capitale": "Le Caire",
+  "notoriete": 1,
+  "note": ""
+ },
+ {
+  "pays": "Érythrée",
+  "capitale": "Asmara",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Eswatini",
+  "capitale": "Mbabane",
+  "notoriete": 3,
+  "note": "Mbabane est la capitale administrative ; Lobamba est la capitale royale et législative."
+ },
+ {
+  "pays": "Éthiopie",
+  "capitale": "Addis-Abeba",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Gabon",
+  "capitale": "Libreville",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Gambie",
+  "capitale": "Banjul",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Ghana",
+  "capitale": "Accra",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Guinée",
+  "capitale": "Conakry",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Guinée-Bissau",
+  "capitale": "Bissau",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Guinée équatoriale",
+  "capitale": "Malabo",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Kenya",
+  "capitale": "Nairobi",
+  "notoriete": 1,
+  "note": ""
+ },
+ {
+  "pays": "Lesotho",
+  "capitale": "Maseru",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Liberia",
+  "capitale": "Monrovia",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Libye",
+  "capitale": "Tripoli",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Madagascar",
+  "capitale": "Antananarivo",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Malawi",
+  "capitale": "Lilongwe",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Mali",
+  "capitale": "Bamako",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Maroc",
+  "capitale": "Rabat",
+  "notoriete": 1,
+  "note": "Rabat est la capitale ; Casablanca est la plus grande ville."
+ },
+ {
+  "pays": "Maurice",
+  "capitale": "Port-Louis",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Mauritanie",
+  "capitale": "Nouakchott",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Mozambique",
+  "capitale": "Maputo",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Namibie",
+  "capitale": "Windhoek",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Niger",
+  "capitale": "Niamey",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Nigeria",
+  "capitale": "Abuja",
+  "notoriete": 2,
+  "note": "Abuja est la capitale depuis 1991 ; Lagos est la plus grande ville."
+ },
+ {
+  "pays": "Ouganda",
+  "capitale": "Kampala",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Rwanda",
+  "capitale": "Kigali",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Sao Tomé-et-Principe",
+  "capitale": "São Tomé",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Sénégal",
+  "capitale": "Dakar",
+  "notoriete": 1,
+  "note": ""
+ },
+ {
+  "pays": "Seychelles",
+  "capitale": "Victoria",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Sierra Leone",
+  "capitale": "Freetown",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Somalie",
+  "capitale": "Mogadiscio",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Soudan",
+  "capitale": "Khartoum",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Soudan du Sud",
+  "capitale": "Djouba",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Tanzanie",
+  "capitale": "Dodoma",
+  "notoriete": 3,
+  "note": "Dodoma est la capitale officielle ; Dar es Salaam est la plus grande ville."
+ },
+ {
+  "pays": "Tchad",
+  "capitale": "N'Djaména",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Togo",
+  "capitale": "Lomé",
+  "notoriete": 2,
+  "note": ""
+ },
+ {
+  "pays": "Tunisie",
+  "capitale": "Tunis",
+  "notoriete": 1,
+  "note": ""
+ },
+ {
+  "pays": "Zambie",
+  "capitale": "Lusaka",
+  "notoriete": 3,
+  "note": ""
+ },
+ {
+  "pays": "Zimbabwe",
+  "capitale": "Harare",
+  "notoriete": 3,
+  "note": ""
+ }
+]
