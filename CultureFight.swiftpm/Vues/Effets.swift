@@ -52,57 +52,74 @@ struct FondAnime: View {
 struct Etincelles: View {
     var couleur: Color = .yellow
     @State private var debut = Date()
-    private let duree = 1.2
 
     var body: some View {
         TimelineView(.animation) { contexte in
-            let t = contexte.date.timeIntervalSince(debut)
+            let t: Double = contexte.date.timeIntervalSince(debut)
             Canvas { ctx, taille in
-                guard t < duree else { return }
-                let centre = CGPoint(x: taille.width / 2, y: taille.height / 2)
-                let progression = t / duree
-                ctx.opacity = 1 - progression
-                for i in 0..<28 {
-                    let angle = Double(i) / 28 * 2 * .pi + Double(i % 3) * 0.2
-                    let distance = 16 + progression * (120 + Double(i % 4) * 25)
-                    let point = CGPoint(x: centre.x + cos(angle) * distance, y: centre.y + sin(angle) * distance)
-                    let rayon = 2 + 4 * (1 - progression)
-                    let disque = CGRect(x: point.x - rayon, y: point.y - rayon, width: 2 * rayon, height: 2 * rayon)
-                    ctx.fill(Path(ellipseIn: disque), with: .color(i % 2 == 0 ? couleur : .white))
-                }
+                Self.dessiner(&ctx, taille: taille, t: t, couleur: couleur)
             }
         }
         .allowsHitTesting(false)
+    }
+
+    private static let duree: Double = 1.2
+
+    private static func dessiner(_ ctx: inout GraphicsContext, taille: CGSize, t: Double, couleur: Color) {
+        guard t < duree else { return }
+        let cx: Double = Double(taille.width) / 2
+        let cy: Double = Double(taille.height) / 2
+        let progression: Double = t / duree
+        ctx.opacity = 1 - progression
+        for i in 0..<28 {
+            let angle: Double = Double(i) / 28 * 2 * Double.pi + Double(i % 3) * 0.2
+            let portee: Double = 120 + Double(i % 4) * 25
+            let distance: Double = 16 + progression * portee
+            let x: Double = cx + cos(angle) * distance
+            let y: Double = cy + sin(angle) * distance
+            let rayon: Double = 2 + 4 * (1 - progression)
+            let disque = CGRect(x: x - rayon, y: y - rayon, width: 2 * rayon, height: 2 * rayon)
+            let teinte: Color = i % 2 == 0 ? couleur : .white
+            ctx.fill(Path(ellipseIn: disque), with: .color(teinte))
+        }
     }
 }
 
 /// Pluie de confettis (victoire). Positions pseudo-aléatoires mais stables d'une image à l'autre.
 struct Confettis: View {
     @State private var debut = Date()
-    private let couleurs: [Color] = [.orange, .yellow, .pink, .cyan, .green, .purple]
 
     var body: some View {
         TimelineView(.animation) { contexte in
-            let t = contexte.date.timeIntervalSince(debut)
+            let t: Double = contexte.date.timeIntervalSince(debut)
             Canvas { ctx, taille in
-                let hauteur = taille.height + 40
-                for i in 0..<90 {
-                    let graine = Double(i) + 1
-                    let x = abs(sin(graine * 12.9898)) * taille.width
-                    let vitesse = 70 + abs(sin(graine * 3.7)) * 140
-                    let depart = abs(sin(graine * 7.13)) * hauteur
-                    let y = (depart + t * vitesse).truncatingRemainder(dividingBy: hauteur) - 20
-                    let derive = sin(t * 2 + graine) * 14
-                    let morceau = Path(roundedRect: CGRect(x: -5, y: -2.5, width: 10, height: 5), cornerRadius: 1.5)
-                    ctx.drawLayer { couche in
-                        couche.translateBy(x: x + derive, y: y)
-                        couche.rotate(by: .radians(t * 4 + graine))
-                        couche.fill(morceau, with: .color(couleurs[i % couleurs.count]))
-                    }
-                }
+                Self.dessiner(&ctx, taille: taille, t: t)
             }
         }
         .allowsHitTesting(false)
+    }
+
+    private static let couleurs: [Color] = [.orange, .yellow, .pink, .cyan, .green, .purple]
+    private static let morceau = Path(roundedRect: CGRect(x: -5, y: -2.5, width: 10, height: 5), cornerRadius: 1.5)
+
+    private static func dessiner(_ ctx: inout GraphicsContext, taille: CGSize, t: Double) {
+        let largeur: Double = Double(taille.width)
+        let hauteur: Double = Double(taille.height) + 40
+        for i in 0..<90 {
+            let graine: Double = Double(i) + 1
+            let x: Double = abs(sin(graine * 12.9898)) * largeur
+            let vitesse: Double = 70 + abs(sin(graine * 3.7)) * 140
+            let depart: Double = abs(sin(graine * 7.13)) * hauteur
+            let y: Double = (depart + t * vitesse).truncatingRemainder(dividingBy: hauteur) - 20
+            let derive: Double = sin(t * 2 + graine) * 14
+            let angle: Double = t * 4 + graine
+            let teinte: Color = couleurs[i % couleurs.count]
+            ctx.drawLayer { couche in
+                couche.translateBy(x: x + derive, y: y)
+                couche.rotate(by: .radians(angle))
+                couche.fill(morceau, with: .color(teinte))
+            }
+        }
     }
 }
 
