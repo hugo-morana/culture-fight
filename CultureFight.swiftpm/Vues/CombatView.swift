@@ -80,7 +80,7 @@ struct CarteCamp: View {
         let actif = camp.actif
         VStack(alignment: .leading, spacing: 8) {
             HStack(spacing: 12) {
-                Avatar(modele: actif.modele, taille: 52)
+                Avatar(modele: actif.modele, taille: 64)
                 VStack(alignment: .leading, spacing: 4) {
                     HStack {
                         Text(actif.modele.nom).font(.headline)

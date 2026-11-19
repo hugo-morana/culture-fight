@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 @main
 struct CultureFightApp: App {
@@ -89,18 +90,44 @@ extension Specialite {
     }
 }
 
+/// Illustrations des combattants (`Resources/combattant-<id>.jpg`), chargées une fois.
+final class Illustrations: @unchecked Sendable {
+    static let partage = Illustrations()
+    private let cache = NSCache<NSString, UIImage>()
+
+    func image(pour id: String) -> UIImage? {
+        if let image = cache.object(forKey: id as NSString) { return image }
+        guard let url = Bundle.module.url(forResource: "combattant-\(id)", withExtension: "jpg"),
+              let image = UIImage(contentsOfFile: url.path) else { return nil }
+        cache.setObject(image, forKey: id as NSString)
+        return image
+    }
+}
+
+/// Portrait du combattant : son illustration, ou ses initiales s'il n'en a pas encore.
 struct Avatar: View {
     let modele: ModeleCombattant
     var taille: CGFloat = 48
 
     var body: some View {
-        ZStack {
-            Circle().fill(modele.specialite.couleur.gradient)
-            Text(modele.initiales)
-                .font(.system(size: taille * 0.38, weight: .heavy, design: .rounded))
-                .foregroundStyle(.white)
+        if let image = Illustrations.partage.image(pour: modele.id) {
+            Image(uiImage: image)
+                .resizable()
+                .scaledToFill()
+                .frame(width: taille, height: taille, alignment: .top)
+                .clipped()
+                .clipShape(RoundedRectangle(cornerRadius: taille * 0.22))
+                .overlay(RoundedRectangle(cornerRadius: taille * 0.22)
+                    .stroke(modele.specialite.couleur, lineWidth: 2))
+        } else {
+            ZStack {
+                Circle().fill(modele.specialite.couleur.gradient)
+                Text(modele.initiales)
+                    .font(.system(size: taille * 0.38, weight: .heavy, design: .rounded))
+                    .foregroundStyle(.white)
+            }
+            .frame(width: taille, height: taille)
         }
-        .frame(width: taille, height: taille)
     }
 }
 

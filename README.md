@@ -64,3 +64,9 @@ Les journaux sont publiés sur les branches `build-log` (compilation) et `testfl
 
 Ce dépôt est public pour être compilé gratuitement par GitHub Actions, mais il **n'est pas open source** :
 tous droits réservés. Voir le fichier `LICENSE`.
+
+## Illustrations
+
+Les illustrations des combattants sont dans `illustrations/` (512 px de large). Celles des combattants du
+prototype sont aussi copiées dans `CultureFight.swiftpm/Resources/combattant-<id>.jpg`, d'où l'app les charge.
+Un combattant sans illustration affiche ses initiales.

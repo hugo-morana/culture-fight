@@ -88,7 +88,7 @@ struct LigneCombattant: View {
 
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
-            Avatar(modele: modele, taille: 44)
+            Avatar(modele: modele, taille: 64)
             VStack(alignment: .leading, spacing: 4) {
                 Text(modele.nom).font(.headline)
                 Text("\(modele.style) · \(modele.specialite.nom)")
