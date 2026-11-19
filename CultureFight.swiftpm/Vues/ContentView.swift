@@ -97,8 +97,10 @@ final class Illustrations: @unchecked Sendable {
 
     func image(pour id: String) -> UIImage? {
         if let image = cache.object(forKey: id as NSString) { return image }
-        guard let url = Bundle.module.url(forResource: "combattant-\(id)", withExtension: "jpg"),
-              let image = UIImage(contentsOfFile: url.path) else { return nil }
+        let nom = "combattant-\(id)"
+        let url = Bundle.module.url(forResource: nom, withExtension: "jpg")
+            ?? Bundle.main.url(forResource: nom, withExtension: "jpg")
+        guard let url, let data = try? Data(contentsOf: url), let image = UIImage(data: data) else { return nil }
         cache.setObject(image, forKey: id as NSString)
         return image
     }
