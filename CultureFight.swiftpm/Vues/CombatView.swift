@@ -103,6 +103,7 @@ struct CombatView: View {
                    bilan: controleur.bilan,
                    niveauxGagnes: controleur.niveauxGagnes,
                    niveauxCompteGagnes: controleur.niveauxCompteGagnes,
+                   historique: controleur.historique,
                    rejouer: rejouer,
                    accueil: accueil)
         }
@@ -409,11 +410,15 @@ struct VueFin: View {
     let bilan: BilanCombat
     let niveauxGagnes: [String: Int]
     let niveauxCompteGagnes: Int
+    let historique: [ResultatTour]
     let rejouer: () -> Void
     let accueil: () -> Void
 
     @State private var apparu = false
     @State private var piecesAffichees = 0
+    @State private var revue = false
+
+    private var aRefaire: Int { Revue.aRefaire(historique).count }
 
     var body: some View {
         ScrollView {
@@ -433,6 +438,7 @@ struct VueFin: View {
                     .foregroundStyle(.yellow)
                     .contentTransition(.numericText(value: Double(piecesAffichees)))
                 detailPieces
+                boutonRevue
                 experience
                 Button(action: rejouer) {
                     Text("Rejouer").font(.titre(19, relativeTo: .headline)).frame(maxWidth: .infinity)
@@ -453,6 +459,40 @@ struct VueFin: View {
                 piecesAffichees = bilan.pieces
             }
         }
+        .sheet(isPresented: $revue) {
+            RevuePartieView(historique: historique)
+        }
+    }
+
+    private var boutonRevue: some View {
+        Button {
+            revue = true
+        } label: {
+            HStack(spacing: 10) {
+                Image(systemName: "magnifyingglass.circle.fill")
+                    .font(.title2)
+                    .symbolEffect(.bounce, value: apparu)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Revue de la partie")
+                        .font(.titre(17, relativeTo: .headline))
+                    Text(aRefaire == 0
+                         ? "Précision \(Revue.precision(historique, joueur: true)) % · aucune question à refaire"
+                         : "Précision \(Revue.precision(historique, joueur: true)) % · \(aRefaire) question\(aRefaire > 1 ? "s" : "") à refaire")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+                Spacer()
+                Image(systemName: "chevron.right")
+            }
+            .padding(12)
+            .frame(maxWidth: .infinity)
+            .background(Charte.marine.opacity(0.7), in: RoundedRectangle(cornerRadius: 14))
+            .overlay(RoundedRectangle(cornerRadius: 14).stroke(Color.cyan.opacity(0.6), lineWidth: 1.5))
+        }
+        .buttonStyle(.plain)
+        .foregroundStyle(Charte.ivoire)
+        .opacity(apparu ? 1 : 0)
+        .animation(.easeOut(duration: 0.5).delay(0.8), value: apparu)
     }
 
     private var detailPieces: some View {

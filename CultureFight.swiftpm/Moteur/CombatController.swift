@@ -28,6 +28,8 @@ final class CombatController {
     private(set) var malusTemps: Double = 0
 
     let ia: IAAdverse
+    /// Tous les tours joués, pour la revue de partie en fin de combat.
+    private(set) var historique: [ResultatTour] = []
     /// Bonnes réponses données par le joueur, au total et par combattant (identifiant du modèle).
     private(set) var bonnesReponsesJoueur = 0
     private(set) var bonnesReponsesParCombattant: [String: Int] = [:]
@@ -135,6 +137,7 @@ final class CombatController {
         let defenseurID = campDefenseur.actif.modele.id
         let resultat = combat.resoudre(question: question, affinite: affinite,
                                        reponse: reponse, secondes: secondes)
+        historique.append(resultat)
         if joueurDefend && resultat.correct {
             bonnesReponsesJoueur += 1
             bonnesReponsesParCombattant[defenseurID, default: 0] += 1
