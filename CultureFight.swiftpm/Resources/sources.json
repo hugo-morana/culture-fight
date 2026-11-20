@@ -259,5 +259,544 @@
     "url": "https://fr.wikipedia.org/wiki/Halog%C3%A8ne"
    }
   ]
+ },
+ {
+  "id": "capitales-ameriques",
+  "sources": [
+   {
+    "titre": "List of national capitals",
+    "url": "https://en.wikipedia.org/wiki/List_of_national_capitals"
+   },
+   {
+    "titre": "List of capital cities by elevation",
+    "url": "https://en.wikipedia.org/wiki/List_of_capital_cities_by_elevation"
+   },
+   {
+    "titre": "List of national capitals by latitude",
+    "url": "https://en.wikipedia.org/wiki/List_of_national_capitals_by_latitude"
+   },
+   {
+    "titre": "List of cities in the Americas by year of foundation",
+    "url": "https://en.wikipedia.org/wiki/List_of_cities_in_the_Americas_by_year_of_foundation"
+   },
+   {
+    "titre": "Brasília",
+    "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia"
+   }
+  ]
+ },
+ {
+  "id": "capitales-asie",
+  "sources": [
+   {
+    "titre": "List of national capitals (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_national_capitals"
+   },
+   {
+    "titre": "Liste des capitales du monde (copie de Wikipédia en français)",
+    "url": "https://www.techno-science.net/fr/definitions/liste-des-capitales-du-monde"
+   },
+   {
+    "titre": "List of capital cities by elevation (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_capital_cities_by_elevation"
+   },
+   {
+    "titre": "List of national capitals by latitude (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_national_capitals_by_latitude"
+   },
+   {
+    "titre": "List of former national capitals (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_former_national_capitals"
+   },
+   {
+    "titre": "List of countries with multiple capitals (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_with_multiple_capitals"
+   }
+  ]
+ },
+ {
+  "id": "capitales-europe",
+  "sources": [
+   {
+    "titre": "List of national capitals (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_national_capitals"
+   },
+   {
+    "titre": "Liste des capitales du monde (copie de Wikipédia en français)",
+    "url": "https://www.techno-science.net/fr/definitions/liste-des-capitales-du-monde"
+   },
+   {
+    "titre": "List of capital cities by elevation (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_capital_cities_by_elevation"
+   },
+   {
+    "titre": "List of national capitals by latitude (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_national_capitals_by_latitude"
+   },
+   {
+    "titre": "List of former national capitals (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_former_national_capitals"
+   },
+   {
+    "titre": "Pourquoi la Suisse n'a pas de capitale (Swissinfo)",
+    "url": "https://www.swissinfo.ch/fre/la-suisse-insolite/pourquoi-la-suisse-na-pas-de-capitale/89034640"
+   }
+  ]
+ },
+ {
+  "id": "capitales-oceanie",
+  "sources": [
+   {
+    "titre": "List of sovereign states and dependent territories in Oceania",
+    "url": "https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_in_Oceania"
+   },
+   {
+    "titre": "List of national capitals",
+    "url": "https://en.wikipedia.org/wiki/List_of_national_capitals"
+   },
+   {
+    "titre": "List of national capitals by latitude",
+    "url": "https://en.wikipedia.org/wiki/List_of_national_capitals_by_latitude"
+   },
+   {
+    "titre": "Oceania",
+    "url": "https://en.wikipedia.org/wiki/Oceania"
+   }
+  ]
+ },
+ {
+  "id": "departements",
+  "sources": [
+   {
+    "titre": "Liste des départements français (copie de Wikipédia)",
+    "url": "https://areq.net/lang/fr/Liste_des_d%C3%A9partements_fran%C3%A7ais.html"
+   },
+   {
+    "titre": "Département français (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/D%C3%A9partement_fran%C3%A7ais"
+   },
+   {
+    "titre": "Departments of France (Wikipédia en anglais, copie IPFS)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Departments_of_France"
+   },
+   {
+    "titre": "Pourquoi les départements ont-ils ces numéros ? (Le Tribunal du Net)",
+    "url": "https://www.letribunaldunet.fr/insolite/pourquoi-numeros-departements-francais-origine.html"
+   }
+  ]
+ },
+ {
+  "id": "deserts",
+  "sources": [
+   {
+    "titre": "List of deserts by area",
+    "url": "https://en.wikipedia.org/wiki/List_of_deserts_by_area"
+   },
+   {
+    "titre": "Sahara",
+    "url": "https://en.wikipedia.org/wiki/Sahara"
+   },
+   {
+    "titre": "Desert",
+    "url": "https://dlab.epfl.ch/wikispeedia/wpcd/wp/d/Desert.htm"
+   },
+   {
+    "titre": "Désert (Futura)",
+    "url": "https://www.futura-sciences.com/planete/definitions/desert-desert-16017/"
+   },
+   {
+    "titre": "Atacama Desert",
+    "url": "https://en.wikipedia.org/wiki/Atacama_Desert"
+   },
+   {
+    "titre": "Namib Desert",
+    "url": "https://worddisk.com/wiki/Namib_Desert"
+   },
+   {
+    "titre": "Gobi Desert",
+    "url": "https://safekipedia.com/adventurer/wiki/Gobi_Desert"
+   },
+   {
+    "titre": "Highest temperature recorded on Earth",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Highest_temperature_recorded_on_Earth.html"
+   },
+   {
+    "titre": "Rub' al Khali",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Rub'_al_Khali"
+   },
+   {
+    "titre": "Kalahari Desert",
+    "url": "https://www.newworldencyclopedia.org/entry/Kalahari_Desert"
+   },
+   {
+    "titre": "Dromadaire",
+    "url": "https://areq.net/lang/fr/Dromadaire.html"
+   },
+   {
+    "titre": "Taklamakan Desert",
+    "url": "https://en.wikipedia.org/wiki/Taklamakan_Desert"
+   }
+  ]
+ },
+ {
+  "id": "drapeaux-afrique",
+  "sources": [
+   {
+    "titre": "Flags of Africa (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Flags_of_Africa"
+   },
+   {
+    "titre": "Flags of Africa: All 54 Country Flags and Their Meanings (africamap.net)",
+    "url": "https://africamap.net/flags"
+   },
+   {
+    "titre": "Pan-African colours (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Pan-African_colours"
+   },
+   {
+    "titre": "Flag of Mozambique (copie de Wikipédia)",
+    "url": "https://ipfs.ssi.eecc.de/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Flag_of_Mozambique.html"
+   },
+   {
+    "titre": "Flag of Libya (copie de Wikipédia simple)",
+    "url": "https://wiki.1209k.com/content/wikipedia_en_simple_all_maxi_2024-06/A/Flag_of_Libya"
+   },
+   {
+    "titre": "Flag of South Africa (Britannica)",
+    "url": "https://www.britannica.com/topic/flag-of-South-Africa"
+   }
+  ]
+ },
+ {
+  "id": "drapeaux-europe",
+  "sources": [
+   {
+    "titre": "Flags of Europe (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Flags_of_Europe"
+   },
+   {
+    "titre": "Les drapeaux européens (europa.eu, coin des enfants)",
+    "url": "https://europa.eu/kids-corner/memorygame/more/index_en.htm"
+   },
+   {
+    "titre": "Le drapeau européen (Conseil de l'Europe)",
+    "url": "https://www.coe.int/fr/web/about-us/the-european-flag"
+   },
+   {
+    "titre": "List of national flags by design (copie de Wikipédia)",
+    "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_national_flags_by_design"
+   },
+   {
+    "titre": "Flag of Denmark (copie de Wikipédia)",
+    "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Flag_of_Denmark"
+   },
+   {
+    "titre": "Symboles nationaux (ministère grec des Affaires étrangères)",
+    "url": "https://www.mfa.gr/france/fr/about-greece/government-and-politics/symboles-nationaux.html"
+   }
+  ]
+ },
+ {
+  "id": "durete-mineraux",
+  "sources": [
+   {
+    "titre": "Wikipédia – Mohs scale",
+    "url": "https://en.wikipedia.org/wiki/Mohs_scale"
+   },
+   {
+    "titre": "Techno-Science – Échelle de Mohs",
+    "url": "https://www.techno-science.net/definition/4662.html"
+   },
+   {
+    "titre": "Éducation Manitoba – Échelle de dureté de Mohs",
+    "url": "https://www.edu.gov.mb.ca/m12/frpub/ped/sn/dmo_4e/annexe_pdf/reg_4_ann_03.pdf"
+   },
+   {
+    "titre": "Wikipédia – Friedrich Mohs",
+    "url": "https://en.wikipedia.org/wiki/Friedrich_Mohs"
+   },
+   {
+    "titre": "Muséum d'histoire naturelle de Vienne – Friedrich Mohs",
+    "url": "https://www.nhm-wien.ac.at/en/research/mineralogy__petrography/history/the_naturalien_cabinet/friederich_mohs"
+   },
+   {
+    "titre": "Techno-Science – Éclat",
+    "url": "https://www.techno-science.net/fr/definitions/eclat"
+   },
+   {
+    "titre": "Lustre (mineralogy) (copie de Wikipédia)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Lustrous.html"
+   },
+   {
+    "titre": "Techno-Science – Clivage",
+    "url": "https://www.techno-science.net/fr/definitions/clivage"
+   },
+   {
+    "titre": "Amethyst Galleries – Streak",
+    "url": "https://galleries.com/minerals/property/streak.htm"
+   },
+   {
+    "titre": "Physical Geology – 2.6 Mineral Properties",
+    "url": "https://pressbooks.ccconline.org/physicalgeology/chapter/2-6-mineral-properties-physical-geology-2nd-edition/"
+   }
+  ]
+ },
+ {
+  "id": "iles",
+  "sources": [
+   {
+    "titre": "Liste d'îles par superficie (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/liste-d-iles-par-superficie"
+   },
+   {
+    "titre": "Liste des îles de France (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/liste-des-iles-de-france"
+   },
+   {
+    "titre": "List of islands of France (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_islands_of_France"
+   },
+   {
+    "titre": "Liste des îles de la mer Méditerranée (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/liste-des-iles-de-la-mer-mediterranee"
+   },
+   {
+    "titre": "List of island countries (Wikipédia)",
+    "url": "https://wiki.riteme.site/wiki/List_of_island_nations"
+   },
+   {
+    "titre": "List of archipelagos (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_archipelagos"
+   },
+   {
+    "titre": "Prison island (Wikipédia)",
+    "url": "https://iiab.live/kiwix/content/wikipedia_en_all_maxi_2023-05/A/Prison_island"
+   },
+   {
+    "titre": "Îles-prisons : Château d'If, Spinalonga, île du Diable (Figaro Nautisme)",
+    "url": "https://figaronautisme.meteoconsult.fr/actus-nautisme-lifestyle/2026-10-20/93382-chateau-d-if-spinalonga-ile-du-diable-ces-iles-prisons-paradisiaques-au-passe-terrifiant"
+   },
+   {
+    "titre": "5 mai 1821, mort de Napoléon (Hérodote)",
+    "url": "https://www.herodote.net/5_mai_1821-evenement-18210505.php?resume=1"
+   },
+   {
+    "titre": "Exile of Napoleon (History Crunch)",
+    "url": "https://historycrunch.com/?p=14297"
+   },
+   {
+    "titre": "Île de Pâques (Hérodote)",
+    "url": "https://www.herodote.net/Ile_de_Paques_Rapa_Nui_-evenement-17220405.php"
+   },
+   {
+    "titre": "Easter Island (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Easter_Island"
+   },
+   {
+    "titre": "Îles Galápagos (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/iles-galapagos"
+   }
+  ]
+ },
+ {
+  "id": "pierres-precieuses",
+  "sources": [
+   {
+    "titre": "USGS – Gemstones : mineral gemstones",
+    "url": "https://pubs.usgs.gov/gip/gemstones/mineral.html"
+   },
+   {
+    "titre": "USGS – Gemstones : organic gemstones",
+    "url": "https://pubs.usgs.gov/gip/gemstones/organic.html"
+   },
+   {
+    "titre": "Vikidia – Pierre précieuse",
+    "url": "https://fr.vikidia.org/wiki/Pierre_pr%C3%A9cieuse"
+   },
+   {
+    "titre": "Béryl (copie de Wikipédia)",
+    "url": "https://areq.net/lang/fr/B%C3%A9ryl.html"
+   },
+   {
+    "titre": "Techno-Science – Corindon",
+    "url": "https://www.techno-science.net/fr/definitions/corindon"
+   },
+   {
+    "titre": "Techno-Science – Rubis",
+    "url": "https://www.techno-science.net/fr/definitions/rubis"
+   },
+   {
+    "titre": "Techno-Science – Saphir",
+    "url": "https://www.techno-science.net/fr/definitions/saphir"
+   },
+   {
+    "titre": "Techno-Science – Diamant",
+    "url": "https://www.techno-science.net/fr/definitions/diamant"
+   },
+   {
+    "titre": "Birthstone (copie de Wikipédia)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Birthstone.html"
+   },
+   {
+    "titre": "List of famous diamonds (chemeurope, copie de Wikipédia)",
+    "url": "https://www.chemeurope.com/en/encyclopedia/List_of_famous_diamonds.html"
+   },
+   {
+    "titre": "Futura – Les diamants les plus célèbres du monde",
+    "url": "https://www.futura-sciences.com/planete/questions-reponses/terre-sont-diamants-plus-celebres-monde-21220/"
+   },
+   {
+    "titre": "Wikipédia – Hope Diamond",
+    "url": "https://en.wikipedia.org/wiki/Hope_Diamond"
+   },
+   {
+    "titre": "Wikipédia – Carat (mass)",
+    "url": "https://en.wikipedia.org/wiki/Carat_(mass)"
+   }
+  ]
+ },
+ {
+  "id": "prefectures",
+  "sources": [
+   {
+    "titre": "Liste des départements français et de leurs chefs-lieux (copie de Wikipédia)",
+    "url": "https://areq.net/lang/fr/Liste_des_d%C3%A9partements_fran%C3%A7ais.html"
+   },
+   {
+    "titre": "List of subprefectures of France (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/List_of_subprefectures_of_France"
+   },
+   {
+    "titre": "Prefectures in France (Wikipédia en anglais, copie IPFS)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Prefectures_in_France"
+   }
+  ]
+ },
+ {
+  "id": "regions-france",
+  "sources": [
+   {
+    "titre": "Regions of France (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Regions_of_France"
+   },
+   {
+    "titre": "Le nom des nouvelles grandes régions officialisé (Weka, 2016)",
+    "url": "https://www.weka.fr/actualite/?p=3294"
+   },
+   {
+    "titre": "Les nouvelles régions ont choisi leur siège (Banque des Territoires, 2016)",
+    "url": "https://www.banquedesterritoires.fr/les-nouvelles-regions-ont-choisi-leur-siege-et-les-lieux-de-reunion-des-elus"
+   },
+   {
+    "titre": "Réforme territoriale : une nouvelle carte des régions (Vie publique)",
+    "url": "https://www.vie-publique.fr/eclairage/38658-reforme-territoriale-une-nouvelle-carte-des-regions"
+   },
+   {
+    "titre": "Liste des départements français et de leurs régions (copie de Wikipédia)",
+    "url": "https://areq.net/lang/fr/Liste_des_d%C3%A9partements_fran%C3%A7ais.html"
+   }
+  ]
+ },
+ {
+  "id": "roches",
+  "sources": [
+   {
+    "titre": "Roche (Larousse, encyclopédie)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/roche/88791"
+   },
+   {
+    "titre": "Roche magmatique (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/roche-magmatique"
+   },
+   {
+    "titre": "Roche magmatique (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Roche_magmatique"
+   },
+   {
+    "titre": "Roche métamorphique (Futura Sciences)",
+    "url": "https://www.futura-sciences.com/planete/definitions/structure-terre-roche-metamorphique-1100/"
+   },
+   {
+    "titre": "Le cycle des roches (Nomad Éducation)",
+    "url": "https://www.nomadeducation.fr/revisions/bac-sciences-senegal-premiere-lb255476/le-cycle-des-roches-cybbd932"
+   },
+   {
+    "titre": "Granite (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/granite"
+   },
+   {
+    "titre": "Marbre (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/marbre"
+   },
+   {
+    "titre": "Craie (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/craie"
+   },
+   {
+    "titre": "Ardoise (Futura Sciences)",
+    "url": "https://www.futura-sciences.com/maison/definitions/maison-ardoise-10516/"
+   },
+   {
+    "titre": "Silex (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Silex"
+   },
+   {
+    "titre": "Tuffeau (Futura Sciences)",
+    "url": "https://www.futura-sciences.com/planete/definitions/terre-tuffeau-1051/"
+   },
+   {
+    "titre": "Gypse (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/gypse"
+   }
+  ]
+ },
+ {
+  "id": "sommets",
+  "sources": [
+   {
+    "titre": "Sept sommets",
+    "url": "https://areq.net/lang/fr/Sept_sommets.html"
+   },
+   {
+    "titre": "Eight-thousander",
+    "url": "https://www.doc.surf/wiki/eight-thousander"
+   },
+   {
+    "titre": "List of highest points of European countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_highest_points_of_European_countries"
+   },
+   {
+    "titre": "Liste des pays par point culminant",
+    "url": "https://www.techno-science.net/fr/definitions/liste-des-pays-par-point-culminant"
+   },
+   {
+    "titre": "Points culminants des massifs français",
+    "url": "https://www.mon-sejour-en-montagne.com/?p=15928"
+   },
+   {
+    "titre": "Mont Blanc (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Mont_Blanc"
+   },
+   {
+    "titre": "List of longest mountain chains on Earth",
+    "url": "https://wiki.riteme.site/wiki/List_of_longest_mountain_chains_on_Earth"
+   },
+   {
+    "titre": "List of mountain ranges",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/List_of_mountain_ranges"
+   },
+   {
+    "titre": "Mount Everest",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Everest.html"
+   },
+   {
+    "titre": "Cervin",
+    "url": "https://www.techno-science.net/fr/definitions/cervin"
+   },
+   {
+    "titre": "NOAA : What is the highest point on Earth?",
+    "url": "https://oceanservice.noaa.gov/facts/highestpoint.html"
+   }
+  ]
  }
 ]
