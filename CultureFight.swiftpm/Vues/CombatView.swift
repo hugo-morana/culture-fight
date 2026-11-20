@@ -4,6 +4,10 @@ struct CombatView: View {
     let controleur: CombatController
     let rejouer: () -> Void
     let accueil: () -> Void
+    /// Appelé une fois le combat terminé, pour verser les gains.
+    var termine: () -> Void = {}
+    /// Appelé quand le joueur abandonne, avant le retour à l'accueil.
+    var abandonne: () -> Void = {}
 
     @State private var confirmerAbandon = false
 
@@ -45,9 +49,13 @@ struct CombatView: View {
             }
         }
         .task { controleur.demarrer() }
+        .onChange(of: controleur.estFini) { _, fini in
+            if fini { termine() }
+        }
         .confirmationDialog("Abandonner le combat ?", isPresented: $confirmerAbandon, titleVisibility: .visible) {
             Button("Abandonner", role: .destructive) {
                 controleur.abandonner()
+                abandonne()
                 accueil()
             }
         } message: {

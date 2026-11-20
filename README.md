@@ -3,8 +3,8 @@
 Jeu iPhone et iPad de combats de culture générale : chaque combattant pose des questions de sa spécialité,
 une mauvaise réponse coûte des PV, une bonne réponse déclenche une contre-attaque.
 
-Ce dépôt contient le **prototype du combat** (phase 1 de la feuille de route) : 6 combattants,
-combat à 3 contre 3 contre une IA, sans boutique ni sauvegarde.
+Ce dépôt contient le **prototype du combat** (phase 1 de la feuille de route) : combat à 3 contre 3
+contre une IA, avec la sauvegarde du joueur (Pièces, réserve, bilan), sans boutique pour l'instant.
 
 ## Ouvrir et lancer
 
@@ -21,6 +21,7 @@ iOS 17 minimum.
 | `Package.swift` | Description de l'app (nom, identifiant, icône, orientations) |
 | `Modeles/Question.swift` | Spécialité, question, affinités entre spécialités |
 | `Modeles/Combattant.swift` | Combattant du catalogue, combattant en jeu, camp |
+| `Modeles/Sauvegarde.swift` | Sauvegarde SwiftData : joueur, réserve de combattants, gains de fin de combat |
 | `Generateurs/` | Un générateur de questions par type de spécialité (calcul, éléments, capitales) |
 | `Moteur/Catalogue.swift` | Chargement des données et les 6 combattants du prototype |
 | `Moteur/Combat.swift` | Règles du combat (`Regles`) et état d'un combat, sans interface |
@@ -70,6 +71,23 @@ contente pas de redonner la réponse :
 Leur format commun est décrit dans [`outils/FORMAT.md`](outils/FORMAT.md) et leurs sources dans
 `outils/sources.py`. `python3 outils/verifier.py` détecte les champs manquants, les doublons, les
 questions ambiguës et les jeux sans source ; la compilation dans le cloud le lance à chaque envoi.
+
+## Sauvegarde
+
+La progression est stockée sur l'appareil avec SwiftData (`Modeles/Sauvegarde.swift`) :
+
+- **`Joueur`** : Pièces, niveau de compte, combats joués, victoires, défaites, nuls, inventaire de consommables.
+- **`CombattantPossede`** : un combattant de la réserve (identifiant du catalogue, niveau, XP, équipement).
+  Le nom, la spécialité et les statistiques de base restent dans `Catalogue.swift`.
+
+Le joueur est créé au premier lancement. À la fin d'un combat, les Pièces gagnées et le résultat sont
+enregistrés une seule fois ; un abandon compte comme une défaite, sans Pièces. L'app enregistre aussi
+quand elle passe en arrière-plan. Toutes les propriétés ont une valeur par défaut, pour que SwiftData
+puisse ajouter un champ dans une version suivante sans perdre la sauvegarde.
+
+Pendant le prototype, `Sauvegarde.toutOffertPendantLePrototype` offre tout le catalogue (y compris les
+combattants ajoutés dans une version suivante). Quand la boutique arrivera, le passer à `false` : un
+nouveau joueur ne recevra plus que les 3 Communs de `Sauvegarde.reserveDeDepart`.
 
 ## Équilibrage
 

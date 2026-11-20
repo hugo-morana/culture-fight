@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftData
 import UIKit
 
 @main
@@ -10,6 +11,7 @@ struct CultureFightApp: App {
             ContentView()
                 .preferredColorScheme(.dark)
         }
+        .modelContainer(Sauvegarde.conteneur)
     }
 }
 
@@ -22,15 +24,37 @@ struct ContentView: View {
     }
 
     @State private var ecran: Ecran = .accueil
+    @State private var joueur: Joueur?
+    @Environment(\.modelContext) private var contexte
+    @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
+        Group {
+            if let joueur {
+                ecranCourant(joueur)
+            } else {
+                ProgressView()
+            }
+        }
+        .onAppear {
+            if joueur == nil { joueur = Sauvegarde.joueur(dans: contexte) }
+        }
+        .onChange(of: scenePhase) { _, phase in
+            if phase != .active { Sauvegarde.enregistrer(contexte) }
+        }
+    }
+
+    @ViewBuilder
+    private func ecranCourant(_ joueur: Joueur) -> some View {
         switch ecran {
         case .accueil:
-            AccueilView(combattre: { ecran = .selection }, collection: { ecran = .collection })
+            AccueilView(pieces: joueur.pieces,
+                        combattre: { ecran = .selection },
+                        collection: { ecran = .collection })
         case .collection:
             CollectionView(retour: { ecran = .accueil })
         case .selection:
-            SelectionEquipeView(retour: { ecran = .accueil }) { equipe, niveau in
+            SelectionEquipeView(reserve: joueur.modelesReserve, retour: { ecran = .accueil }) { equipe, niveau in
                 let ia = IAAdverse(niveau: niveau)
                 let adverse = ia.choisirEquipe(parmi: Catalogue.prototype)
                 ecran = .combat(CombatController(equipeJoueur: equipe, equipeIA: adverse, ia: ia))
@@ -38,13 +62,16 @@ struct ContentView: View {
         case .combat(let controleur):
             CombatView(controleur: controleur,
                        rejouer: { ecran = .selection },
-                       accueil: { ecran = .accueil })
+                       accueil: { ecran = .accueil },
+                       termine: { Sauvegarde.crediter(controleur, a: joueur, dans: contexte) },
+                       abandonne: { Sauvegarde.abandon(controleur, de: joueur, dans: contexte) })
                 .id(ObjectIdentifier(controleur))
         }
     }
 }
 
 struct AccueilView: View {
+    let pieces: Int
     let combattre: () -> Void
     let collection: () -> Void
 
@@ -60,6 +87,18 @@ struct AccueilView: View {
 
     private var contenu: some View {
         VStack(spacing: 24) {
+            HStack {
+                Spacer()
+                Label("\(pieces) Pièces", systemImage: "dollarsign.circle.fill")
+                    .font(.headline.monospacedDigit())
+                    .foregroundStyle(.yellow)
+                    .padding(.horizontal, 14)
+                    .padding(.vertical, 8)
+                    .background(.ultraThinMaterial, in: Capsule())
+                    .accessibilityLabel("\(pieces) Pièces")
+            }
+            .opacity(apparu ? 1 : 0)
+            .animation(.easeOut(duration: 0.6).delay(0.3), value: apparu)
             Spacer()
             if let logo = Illustrations.partage.ressource("logo", type: "png") {
                 Image(uiImage: logo)

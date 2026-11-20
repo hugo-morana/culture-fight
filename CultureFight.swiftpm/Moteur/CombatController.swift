@@ -28,6 +28,8 @@ final class CombatController {
     private(set) var malusTemps: Double = 0
 
     let ia: IAAdverse
+    /// Vrai une fois le résultat du combat enregistré dans la sauvegarde.
+    @ObservationIgnored private var gainsVerses = false
     @ObservationIgnored private var tache: Task<Void, Never>?
     @ObservationIgnored private var debutQuestion = Date()
 
@@ -65,6 +67,14 @@ final class CombatController {
 
     func abandonner() {
         tache?.cancel()
+    }
+
+    /// Note que le résultat a été enregistré. Renvoie faux s'il l'était déjà, pour ne jamais compter
+    /// deux fois le même combat.
+    func marquerGainsVerses() -> Bool {
+        guard !gainsVerses else { return false }
+        gainsVerses = true
+        return true
     }
 
     // MARK: - Déroulé

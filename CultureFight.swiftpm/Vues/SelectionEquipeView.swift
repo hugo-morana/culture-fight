@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct SelectionEquipeView: View {
+    /// Les combattants de la réserve du joueur, parmi lesquels il compose son équipe.
+    let reserve: [ModeleCombattant]
     let retour: () -> Void
     let lancer: ([ModeleCombattant], IAAdverse.Niveau) -> Void
 
@@ -12,26 +14,26 @@ struct SelectionEquipeView: View {
     /// Les domaines du catalogue, dans l'ordre où ils apparaissent.
     private var domaines: [String] {
         var vus: [String] = []
-        for modele in Catalogue.prototype where !vus.contains(modele.specialite.domaine) {
+        for modele in reserve where !vus.contains(modele.specialite.domaine) {
             vus.append(modele.specialite.domaine)
         }
         return vus
     }
 
     private var equipe: [ModeleCombattant] {
-        choisis.compactMap { id in Catalogue.prototype.first { $0.id == id } }
+        choisis.compactMap { id in reserve.first { $0.id == id } }
     }
 
     var body: some View {
         NavigationStack {
             List {
                 Section {
-                    Text("Choisis \(Regles.tailleEquipe) combattants parmi \(Catalogue.prototype.count) (\(choisis.count)/\(Regles.tailleEquipe))")
+                    Text("Choisis \(Regles.tailleEquipe) combattants parmi \(reserve.count) (\(choisis.count)/\(Regles.tailleEquipe))")
                         .font(.subheadline.bold())
                 }
                 ForEach(domaines, id: \.self) { domaine in
                     Section {
-                        ForEach(Catalogue.prototype.filter { $0.specialite.domaine == domaine }) { modele in
+                        ForEach(reserve.filter { $0.specialite.domaine == domaine }) { modele in
                             Button {
                                 basculer(modele.id)
                             } label: {
@@ -61,7 +63,7 @@ struct SelectionEquipeView: View {
             .sensoryFeedback(.selection, trigger: choisis)
             .onAppear {
                 guard exemples.isEmpty else { return }
-                for modele in Catalogue.prototype {
+                for modele in reserve {
                     exemples[modele.id] = modele.exempleDeQuestion()
                 }
             }
