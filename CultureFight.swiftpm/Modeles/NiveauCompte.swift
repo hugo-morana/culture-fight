@@ -1,10 +1,28 @@
 import SwiftUI
 
-/// Règles du niveau de compte : XP gagnée en combat, seuils et ligues.
+/// Règles du niveau de compte : XP gagnée ou perdue en combat, seuils et ligues.
+///
+/// Comme une cote Elo, l'XP de compte récompense les victoires et punit les défaites : on peut perdre
+/// un niveau (jamais en dessous du niveau 1). Battre une IA forte rapporte plus, perdre contre une IA
+/// faible coûte plus.
 enum NiveauCompte {
-    /// XP de compte : +10 par combat terminé, +20 de plus en cas de victoire (comme l'XP des combattants).
-    static let xpCombat = 10
-    static let xpVictoire = 20
+    /// XP de compte selon le résultat et le niveau de l'IA. Un abandon compte comme une défaite.
+    static func xp(vainqueur: Int?, contre ia: IAAdverse.Niveau) -> Int {
+        switch (vainqueur, ia) {
+        case (0?, .facile): return 20
+        case (0?, .moyen): return 30
+        case (0?, .difficile): return 40
+        case (1?, .facile): return -30
+        case (1?, .moyen): return -20
+        case (1?, .difficile): return -10
+        case (_, .facile): return -5
+        case (_, .moyen): return 5
+        case (_, .difficile): return 15
+        }
+    }
+
+    static func xpVictoire(contre ia: IAAdverse.Niveau) -> Int { xp(vainqueur: 0, contre: ia) }
+    static func xpDefaite(contre ia: IAAdverse.Niveau) -> Int { xp(vainqueur: 1, contre: ia) }
 
     /// XP à réunir pour passer du niveau `niveau` au suivant : 100 × niveau actuel.
     static func seuil(_ niveau: Int) -> Int { 100 * max(1, niveau) }
@@ -61,19 +79,27 @@ extension Joueur {
     var ligue: Ligue { Ligue(niveau: niveauCompte) }
     var seuilNiveauSuivant: Int { NiveauCompte.seuil(niveauCompte) }
 
-    /// Ajoute de l'XP de compte et fait monter de niveau autant de fois que nécessaire.
-    /// Renvoie le nombre de niveaux gagnés.
+    /// Ajoute (ou retire, si négative) de l'XP de compte, en montant ou en descendant de niveau autant
+    /// de fois que nécessaire. Au niveau 1, l'XP ne descend pas sous 0.
+    /// Renvoie la variation de niveau : positive pour une montée, négative pour une descente.
     @discardableResult
     func gagnerXPCompte(_ xp: Int) -> Int {
-        guard xp > 0 else { return 0 }
+        guard xp != 0 else { return 0 }
+        let avant = niveauCompte
         xpCompte += xp
-        var gagnes = 0
         while xpCompte >= NiveauCompte.seuil(niveauCompte) {
             xpCompte -= NiveauCompte.seuil(niveauCompte)
             niveauCompte += 1
-            gagnes += 1
         }
-        return gagnes
+        while xpCompte < 0 {
+            guard niveauCompte > 1 else {
+                xpCompte = 0
+                break
+            }
+            niveauCompte -= 1
+            xpCompte += NiveauCompte.seuil(niveauCompte)
+        }
+        return niveauCompte - avant
     }
 }
 

@@ -144,11 +144,12 @@ enum Sauvegarde {
         return pieces
     }
 
-    /// Un abandon compte comme une défaite, sans gain.
+    /// Un abandon compte comme une défaite, sans Pièces : il coûte l'XP de compte d'une défaite.
     static func abandon(_ controleur: CombatController, de joueur: Joueur, dans contexte: ModelContext) {
         guard controleur.marquerGainsVerses() else { return }
         joueur.combatsJoues += 1
         joueur.defaites += 1
+        controleur.niveauxCompteGagnes = joueur.gagnerXPCompte(NiveauCompte.xpDefaite(contre: controleur.ia.niveau))
         enregistrer(contexte)
     }
 

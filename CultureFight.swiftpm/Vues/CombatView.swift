@@ -59,7 +59,7 @@ struct CombatView: View {
                 accueil()
             }
         } message: {
-            Text("Un abandon compte comme une défaite, sans gain.")
+            Text("Un abandon compte comme une défaite : aucune Pièce, et tu perds de l'XP de compte.")
         }
     }
 
@@ -520,12 +520,15 @@ struct VueFin: View {
     private var experience: some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack {
-                Label("+\(bilan.xpCompte) XP de compte", systemImage: "star.circle.fill")
+                Label("\(bilan.xpCompte >= 0 ? "+" : "−")\(abs(bilan.xpCompte)) XP de compte",
+                      systemImage: bilan.xpCompte >= 0 ? "star.circle.fill" : "arrow.down.circle.fill")
                     .font(.nom(15, relativeTo: .headline))
-                    .foregroundStyle(Charte.ivoire)
+                    .foregroundStyle(bilan.xpCompte >= 0 ? Charte.ivoire : Color.red)
                 Spacer()
                 if niveauxCompteGagnes > 0 {
                     BadgeNiveau(texte: "Niveau +\(niveauxCompteGagnes)")
+                } else if niveauxCompteGagnes < 0 {
+                    BadgeNiveau(texte: "Niveau −\(-niveauxCompteGagnes)", baisse: true)
                 }
             }
             ForEach(Array(bilan.combattants.enumerated()), id: \.element.id) { index, gain in
@@ -563,16 +566,20 @@ struct VueFin: View {
 /// Pastille dorée « Niveau +1 », qui pulse.
 struct BadgeNiveau: View {
     let texte: String
+    /// Vrai pour un niveau perdu : badge rouge, flèche vers le bas.
+    var baisse = false
+
+    private var couleur: Color { baisse ? .red : Charte.or }
 
     var body: some View {
-        Label(texte, systemImage: "arrow.up.circle.fill")
+        Label(texte, systemImage: baisse ? "arrow.down.circle.fill" : "arrow.up.circle.fill")
             .font(.nom(11, relativeTo: .caption2))
-            .foregroundStyle(Charte.marine)
+            .foregroundStyle(baisse ? Color.white : Charte.marine)
             .padding(.horizontal, 8)
             .padding(.vertical, 4)
-            .background(Charte.or, in: Capsule())
+            .background(couleur, in: Capsule())
             .phaseAnimator([false, true]) { vue, fort in
-                vue.scaleEffect(fort ? 1.08 : 1).shadow(color: Charte.or.opacity(fort ? 0.8 : 0.2), radius: fort ? 8 : 2)
+                vue.scaleEffect(fort ? 1.08 : 1).shadow(color: couleur.opacity(fort ? 0.8 : 0.2), radius: fort ? 8 : 2)
             } animation: { _ in .easeInOut(duration: 0.8) }
     }
 }
