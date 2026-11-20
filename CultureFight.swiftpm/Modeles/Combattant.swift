@@ -47,10 +47,15 @@ struct CombattantEnJeu: Identifiable, Sendable {
     var capacitePrete: Bool = false
     /// Part des dégâts absorbée à la prochaine erreur (effet « Bouclier »), 0 si aucun.
     var bouclier: Double = 0
+    /// Tactique : évolution de la difficulté des questions qu'il pose.
+    var profil: ProfilDifficulte = .aleatoire
+    /// Nombre de questions déjà posées par ce combattant dans le combat.
+    var questionsPosees = 0
 
-    init(modele: ModeleCombattant) {
+    init(modele: ModeleCombattant, profil: ProfilDifficulte = .aleatoire) {
         self.modele = modele
         self.pv = modele.pvMax
+        self.profil = profil
     }
 
     var estKO: Bool { pv <= 0 }
@@ -63,10 +68,10 @@ struct Camp: Sendable {
     var combattants: [CombattantEnJeu]
     var indexActif: Int = 0
 
-    init(nom: String, estIA: Bool, equipe: [ModeleCombattant]) {
+    init(nom: String, estIA: Bool, equipe: [ModeleCombattant], profils: [String: ProfilDifficulte] = [:]) {
         self.nom = nom
         self.estIA = estIA
-        self.combattants = equipe.map { CombattantEnJeu(modele: $0) }
+        self.combattants = equipe.map { CombattantEnJeu(modele: $0, profil: profils[$0.id] ?? .aleatoire) }
     }
 
     var actif: CombattantEnJeu { combattants[indexActif] }

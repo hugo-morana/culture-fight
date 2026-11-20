@@ -66,6 +66,8 @@ final class CombattantPossede {
     var niveau: Int = 1
     var xp: Int = 0
     var equipementID: String?
+    /// Tactique : profil de difficulté des questions (`ProfilDifficulte.rawValue`).
+    var tactique: String = "aleatoire"
     var dateObtention: Date = Date()
     var joueur: Joueur?
 

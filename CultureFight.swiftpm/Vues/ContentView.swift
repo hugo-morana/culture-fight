@@ -70,7 +70,8 @@ struct ContentView: View {
             SelectionEquipeView(reserve: joueur.modelesReserve, retour: { ecran = .accueil }) { equipe, niveau in
                 let ia = IAAdverse(niveau: niveau)
                 let adverse = ia.choisirEquipe(parmi: Catalogue.prototype)
-                ecran = .combat(CombatController(equipeJoueur: equipe, equipeIA: adverse, ia: ia))
+                ecran = .combat(CombatController(equipeJoueur: equipe, equipeIA: adverse, ia: ia,
+                                                 profils: joueur.profils))
             }
         case .combat(let controleur):
             CombatView(controleur: controleur,

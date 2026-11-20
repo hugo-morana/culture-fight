@@ -44,10 +44,11 @@ final class CombatController {
     @ObservationIgnored private var tache: Task<Void, Never>?
     @ObservationIgnored private var debutQuestion = Date()
 
-    init(equipeJoueur: [ModeleCombattant], equipeIA: [ModeleCombattant], ia: IAAdverse) {
+    init(equipeJoueur: [ModeleCombattant], equipeIA: [ModeleCombattant], ia: IAAdverse,
+         profils: [String: ProfilDifficulte] = [:]) {
         self.ia = ia
         self.combat = Combat(camps: [
-            Camp(nom: "Toi", estIA: false, equipe: equipeJoueur),
+            Camp(nom: "Toi", estIA: false, equipe: equipeJoueur, profils: profils),
             Camp(nom: "IA \(ia.niveau.rawValue.lowercased())", estIA: true, equipe: equipeIA),
         ])
     }

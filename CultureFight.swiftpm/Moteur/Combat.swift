@@ -74,8 +74,9 @@ struct Combat: Sendable {
     mutating func preparerQuestion() -> (question: Question, affinite: Affinite, retires: Set<Int>) {
         let att = camps[attaquant].actif
         let def = camps[defenseur].actif
-        let question = att.modele.generateur.generer(difficulte: att.modele.difficulte,
-                                                     exclues: questionsVues)
+        let difficulte = att.profil.difficulte(base: att.modele.difficulte, rang: att.questionsPosees)
+        camps[attaquant].combattants[camps[attaquant].indexActif].questionsPosees += 1
+        let question = att.modele.generateur.generer(difficulte: difficulte, exclues: questionsVues)
         questionsVues.insert(question.id)
         let affinite = Affinite.entre(question.specialite, def.modele.specialite)
         let mauvaises = question.choix.indices.filter { $0 != question.bonneReponse }.shuffled()
