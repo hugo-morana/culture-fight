@@ -1,0 +1,134 @@
+{
+ "99": {
+  "statut": "corrigé",
+  "source": "https://www.kenhub.com/fr/library/anatomie/tibia-fr",
+  "note": "Kenhub : « os long de la jambe » ; sa face médiale est sous-cutanée, palpable sur toute sa longueur (face antéromédiale de la jambe). L'explication de la douleur d'un coup au tibia n'a pas été trouvée dans une source : retirée.",
+  "correction": {
+   "contexte": "Sa face interne, juste sous la peau, se palpe sur toute la longueur de la jambe."
+  }
+ },
+ "295": {
+  "statut": "vérifié",
+  "source": "https://dlab.epfl.ch/wikispeedia/wpcd/wp/m/Mogadishu.htm",
+  "note": "« Mogadishu lies on the historically important Indian Ocean Benadir coast »."
+ },
+ "301": {
+  "statut": "vérifié",
+  "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Archaeological_site_of_Carthage",
+  "note": "Carthage décrite comme « a depopulated suburb of Tunis », dans le Grand Tunis."
+ },
+ "537": {
+  "statut": "vérifié",
+  "source": "https://www.britannica.com/animal/Asiatic-lion",
+  "note": "« wild Asiatic lions are limited to India's Gir Protected Area » plus quelques petits habitats voisins au Gujarat : « région de la forêt de Gir » est exact."
+ },
+ "846": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Strait_of_Dover",
+  "note": "Plus courte distance 33,3 km ; le tunnel sous la Manche passe sous le détroit (45 m sous le fond en moyenne)."
+ },
+ "847": {
+  "statut": "corrigé",
+  "source": "https://www.universalis.fr/encyclopedie/precolombiens-le-peuplement-initial-des-ameriques/3-la-question-des-voies-empruntees/",
+  "note": "Universalis : la Béringie était un « pont terrestre émergé de la mer entre les deux continents [...] durant la glaciation », mais la route intérieure à pied est aujourd'hui mise en doute au profit d'une route côtière : « traversé à pied » retiré.",
+  "correction": {
+   "contexte": "Pendant la glaciation, un pont de terre, la Béringie, y reliait l'Asie et l'Amérique."
+  }
+ },
+ "849": {
+  "statut": "vérifié",
+  "source": "https://www.larousse.fr/encyclopedie/mythologie/Charybde_et_Scylla/189269",
+  "note": "« Rochers du détroit de Messine, entre l'Italie et la Sicile » ; épisode d'Ulysse chez Homère."
+ },
+ "850": {
+  "statut": "vérifié",
+  "source": "https://www.universalis.fr/encyclopedie/fernand-de-magellan/3-decouverte-du-detroit/",
+  "note": "Entrée le 21 octobre, sortie dans la mer du Sud le 28 novembre 1520, pendant le voyage 1519-1522."
+ },
+ "851": {
+  "statut": "corrigé",
+  "source": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Strait_of_Bonifacio",
+  "note": "Largeur 11 km (« une dizaine » acceptable) ; la source parle de météo, courants et hauts-fonds redoutés des marins, pas spécifiquement de vents violents.",
+  "correction": {
+   "contexte": "Ce passage d'environ 11 km est redouté des marins pour sa météo, ses courants et ses écueils."
+  }
+ },
+ "854": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Bab-el-Mandeb",
+  "note": "« Bab means 'gate' [...] while Mandeb means 'lamentation' or 'grief' » ; littéralement « Gate of Grief/Tears »."
+ },
+ "855": {
+  "statut": "vérifié",
+  "source": "https://www.livescience.com/planet-earth/rivers-oceans/drake-passage-the-most-dreaded-bit-of-ocean-on-the-globe-where-waves-reach-up-to-80-feet",
+  "note": "Entre la pointe de l'Amérique du Sud et la péninsule Antarctique ; « one of the world's most dangerous ocean crossings »."
+ },
+ "857": {
+  "statut": "vérifié",
+  "source": "https://www.britannica.com/topic/worlds-largest-islands-2228256",
+  "note": "Madagascar 4e plus grande île, « western Indian Ocean »."
+ },
+ "858": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Geology_of_Iceland",
+  "note": "« Iceland is located above the Mid-Atlantic Ridge »."
+ },
+ "859": {
+  "statut": "vérifié",
+  "source": "https://worddisk.com/wiki/Endemism_in_the_Hawaiian_Islands",
+  "note": "« the Hawaiian Islands are the most isolated group of islands on the planet »."
+ },
+ "861": {
+  "statut": "vérifié",
+  "source": "https://www.universalis.fr/encyclopedie/crete-antique/",
+  "note": "Premiers palais minoens en Crète vers 2000 av. J.-C. ; palais de Cnossos ; bassin oriental de la Méditerranée."
+ },
+ "862": {
+  "statut": "vérifié",
+  "source": "https://arhiva.e-laboratorij.carnet.hr/en.wikipedia.org/wiki/Sri_Lanka.html",
+  "note": "« formerly known as Ceylon » ; « located in the Indian Ocean » (Larousse : Ceylan jusqu'en 1972)."
+ },
+ "863": {
+  "statut": "corrigé",
+  "source": "https://www.newworldencyclopedia.org/entry/Zanzibar",
+  "note": "Archipel de l'océan Indien surnommé « Spice Islands », clou de girofle culture d'exportation clé ; mais le premier producteur mondial était surtout l'île de Pemba, pas l'île de Zanzibar elle-même.",
+  "correction": {
+   "contexte": "Son archipel, surnommé « les îles aux épices », est réputé pour ses clous de girofle."
+  }
+ },
+ "865": {
+  "statut": "vérifié",
+  "source": "https://www.larousse.fr/encyclopedie/autre-region/Tahiti/145776",
+  "note": "« Île principale de la Polynésie française et de l'archipel de la Société, dans le Pacifique »."
+ },
+ "868": {
+  "statut": "vérifié",
+  "source": "https://www.worldhistory.org/article/1678/the-megalithic-temples-of-malta/",
+  "note": "Les temples « rank amongst the oldest free-standing buildings in the world » (vers 3600-2500 av. J.-C.)."
+ },
+ "869": {
+  "statut": "vérifié",
+  "source": "https://dlab.epfl.ch/wikispeedia/wpcd/wp/r/Red_Sea.htm",
+  "note": "« one of the hottest and saltiest bodies of seawater in the world » ; pluies très faibles (0,06 m/an), évaporation excessive. Mauvaises réponses (Baltique, Manche, mer du Nord) bien moins salées."
+ },
+ "870": {
+  "statut": "vérifié",
+  "source": "https://archive.iwlearn.org/helcom.fi/environment2/nature/en_GB/salinity/index.html",
+  "note": "HELCOM : salinité de surface de ~20 PSU au Kattegat à 1-2 PSU au fond du golfe de Botnie et du golfe de Finlande. itameri.fi : beaucoup d'eau douce des fleuves (https://itameri.fi/en/nature-and-how-it-changes/characteristics-of-water/)."
+ },
+ "871": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Mariana_Trench",
+  "note": "Profondeur max connue 10 984 m ; l'Everest y serait encore sous plus de 2 km d'eau."
+ },
+ "872": {
+  "statut": "vérifié",
+  "source": "https://phys.org/news/2019-04-european-eel-spawn-km-wide.html",
+  "note": "« the only sea in the world that has no land boundaries », nommée d'après la sargasse abondante ; l'anguille européenne s'y reproduit."
+ },
+ "873": {
+  "statut": "vérifié",
+  "source": "https://noaa.gov/education/resource-collections/ocean-coasts-education-resources/tides",
+  "note": "« The Moon has the largest influence on the tides » ; la plupart des marées sont semi-diurnes (deux pleines mers par jour)."
+ }
+}

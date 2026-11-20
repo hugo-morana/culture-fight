@@ -16,12 +16,13 @@ relation (`rel`), les mauvaises réponses sont les autres réponses de la même 
 
 ## Méthode
 
-**Budget : 18 recherches WebSearch au maximum** (la limite de la session est partagée entre 10 agents).
+**Budget : 30 recherches WebSearch au maximum** (la limite de la session est partagée entre 6 agents).
 Pour tenir le budget, une recherche doit servir à plusieurs faits : chercher la page qui couvre un thème
 (article Wikipédia du sujet, liste, page de musée…), puis l'ouvrir avec WebFetch en demandant de confirmer
 ou d'infirmer toute une série de faits d'un coup. WebFetch ne compte pas dans le budget de recherches.
 
-Ne traiter que les lignes dont le `statut` est `à vérifier` ou `corrigé (logique), source à trouver`.
+Ne traiter que les lignes dont le `statut` est `à vérifier`, `incertain` ou `corrigé (logique), source à trouver`. Ce sont souvent des faits difficiles : chercher une source précise par fait. Si un fait reste introuvable, proposer une `correction` qui le retire ou le remplace par un fait vérifié (statut `corrigé`), pour qu'il ne reste rien sans source.
+Utiliser un dossier temporaire à ton nom (par exemple `/tmp/verif_<groupe>`), jamais un dossier partagé.
 La colonne `note` peut contenir des doutes relevés lors d'une première passe : les vérifier en priorité.
 Le texte à vérifier est celui des sources actuelles (`outils/`, `CultureFight.swiftpm/Resources/`), qui
 peut avoir été corrigé depuis la création du CSV.

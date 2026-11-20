@@ -1,0 +1,165 @@
+{
+ "350": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Silver ; https://wiki.riteme.site/wiki/Element_list",
+  "note": "Wikipédia : « The electrical conductivity of silver is the highest of all metals, greater even than copper » ; symbole Ag du latin argentum confirmé. Le contexte disait « le meilleur conducteur d'électricité » sans préciser parmi les métaux.",
+  "correction": {
+   "contexte": "Son symbole vient du latin argentum ; c'est le métal qui conduit le mieux l'électricité."
+  }
+ },
+ "352": {
+  "statut": "vérifié",
+  "source": "https://periodic-table.rsc.org/element/49/Indium",
+  "note": "RSC : nommé d'après « the bright indigo line in its spectrum » ; l'ITO (oxyde d'indium-étain) est « an important part of touch screens »."
+ },
+ "353": {
+  "statut": "vérifié",
+  "source": "https://periodic-table.rsc.org/element/50/tin ; https://wiki.riteme.site/wiki/Element_list",
+  "note": "RSC : « When copper was alloyed with around 5 per cent of tin it produced bronze ». Symbole Sn (stannum) déjà confirmé par la liste des éléments."
+ },
+ "354": {
+  "statut": "corrigé",
+  "source": "https://periodic-table.rsc.org/element/51/antimony ; https://wiki.riteme.site/wiki/Element_list",
+  "note": "RSC : « The Egyptians, meanwhile, used stibnite as a cosmetic, applying it as a form of mascara », appelé kuhl/khol. La source ne précise pas que c'étaient les femmes : « les Égyptiennes » remplacé. Symbole Sb (stibium) déjà confirmé.",
+  "correction": {
+   "contexte": "Son symbole vient du latin stibium ; les anciens Égyptiens s'en servaient comme khôl."
+  }
+ },
+ "356": {
+  "statut": "vérifié",
+  "source": "https://wiki.riteme.site/wiki/Iodine",
+  "note": "« iodine is required for the synthesis of thyroid hormones » ; nom du grec iodēs, « violet », « because of the colour of iodine vapour »."
+ },
+ "360": {
+  "statut": "vérifié",
+  "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/l/Lanthanide.htm",
+  "note": "« The lanthanoid series (Ln) is named after lanthanum » ; grec lanthanein, « to lie hidden »."
+ },
+ "386": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Bismuth",
+  "note": "« an iridescent oxide tarnish showing many colors from yellow to blue » ; « stair-stepped structure of bismuth crystals » (croissance plus rapide sur les bords)."
+ },
+ "392": {
+  "statut": "vérifié",
+  "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/a/Actinide.htm",
+  "note": "« The actinide series derives its name from the group 3 element actinium » ; grec aktis, aktinos, « beam or ray »."
+ },
+ "401": {
+  "statut": "vérifié",
+  "source": "https://www.sciencefocus.com/planet-earth/the-7-most-expensive-substances-ever-found-on-planet-earth ; https://wiki.riteme.site/wiki/Element_list",
+  "note": "Science Focus classe le californium 252 3e des substances les plus chères (25,6 millions de dollars le gramme). Étymologie (Californie) déjà confirmée."
+ },
+ "126": {
+  "statut": "vérifié",
+  "source": "https://www.wikiwand.com/en/articles/Hamstring_muscles",
+  "note": "Les ischio-jambiers « flex (bend) the knee » ; « During sprinting, a hamstring injury may occur », « A common running injury in several sports »."
+ },
+ "127": {
+  "statut": "vérifié",
+  "source": "https://kenhub.com/en/library/anatomy/the-deltoid-muscle",
+  "note": "Kenhub : nommé pour sa ressemblance avec la lettre grecque delta (Δ), forme à trois côtés."
+ },
+ "128": {
+  "statut": "corrigé",
+  "source": "https://Www.physio-Pedia.com/Pectoralis_major",
+  "note": "Physiopedia : « the pectoralis major adducts, medially rotates, and transversely adducts arm ». L'exemple des pompes n'est pas affirmé dans le texte des sources consultées : retiré.",
+  "correction": {
+   "contexte": "Il rapproche le bras du corps et le fait tourner vers l'intérieur."
+  }
+ },
+ "129": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Rectus_abdominis_muscle",
+  "note": "« sometimes informally referred to as the 'six-pack' » ; les intersections tendineuses divisent le muscle en segments."
+ },
+ "133": {
+  "statut": "vérifié",
+  "source": "https://www.bionity.com/en/encyclopedia/Trapezius_muscle.html",
+  "note": "« Trapezius gets its name from its trapezium-like shape » ; « The superior (upper) fibers elevate the scapula » (haussement d'épaules) ; du crâne et de la nuque au milieu du dos."
+ },
+ "728": {
+  "statut": "corrigé",
+  "source": "https://kenhub.com/en/library/anatomy/the-deltoid-muscle",
+  "note": "Réponse confirmée : la partie moyenne (acromiale) est le « principal abductor of the arm ». « Forme arrondie de l'épaule » seulement implicite dans la source (épaule « flattened rather than rounded » en cas d'atrophie) : contexte remplacé.",
+  "correction": {
+   "contexte": "Sa partie moyenne est le principal muscle qui écarte le bras du corps."
+  }
+ },
+ "731": {
+  "statut": "corrigé",
+  "source": "https://iiab.live/kiwix/content/wikipedia_en_top_maxi_2023-02/A/Latissimus_dorsi",
+  "note": "Réponse confirmée (tractions/pull-ups citées comme exercices du grand dorsal) ; nom latin « broadest [muscle] of the back ». La « forme en V » n'est pas dans la source : retirée.",
+  "correction": {
+   "contexte": "Son nom latin signifie « le plus large du dos »."
+  }
+ },
+ "732": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Rectus_abdominis_muscle",
+  "note": "Origine sur le pubis, insertion sur le processus xiphoïde (bas du sternum) et les cartilages des côtes 5 à 7 ; « responsible for flexing the lumbar spine »."
+ },
+ "171": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Guadalquivir",
+  "note": "De l'arabe al-wādī l-kabīr, « the great valley » ou « the great river » ; « flows through Córdoba and Seville »."
+ },
+ "172": {
+  "statut": "vérifié",
+  "source": "https://www.historyofbridges.com/famous-bridges/ponte-vecchio",
+  "note": "« Bridge construction was finished in 1345 » ; enjambe l'Arno au centre de Florence ; bordé de boutiques."
+ },
+ "204": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Hudson_River",
+  "note": "« It is named for Henry Hudson, an Englishman sailing for the Netherlands, who explored it in 1609 » ; coule entre Manhattan et les Palisades du New Jersey."
+ },
+ "205": {
+  "statut": "corrigé",
+  "source": "https://ressources-naturelles.canada.ca/carte-outils-publications/cartes/toponymes-canada/origine-nom-capitales-provinciales-territoriales-canada",
+  "note": "Ressources naturelles Canada : « Le nom de Québec vient d'un mot algonquin signifiant passage étroit ou détroit », désignant « le rétrécissement du fleuve Saint-Laurent en face de l'actuelle ville ». Sens confirmé ; formulation alignée sur la source.",
+  "correction": {
+   "contexte": "Le nom de Québec vient d'un mot algonquin signifiant « passage étroit », là où le fleuve se rétrécit."
+  }
+ },
+ "208": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Bamako",
+  "note": "« the capital and largest city of Mali », situé sur le Niger."
+ },
+ "209": {
+  "statut": "vérifié",
+  "source": "https://www.britannica.com/place/Tigris-Euphrates-river-system",
+  "note": "Mésopotamie, « pays entre les fleuves » délimité par le Tigre et l'Euphrate, « one of the cradles of civilization » (villes sumériennes et babyloniennes) ; Bagdad sur le Tigre."
+ },
+ "210": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Khlong",
+  "note": "« the Thai capital was crisscrossed by khlongs, and so gained the nickname Venice of the East » ; khlongs formés à partir de la Chao Phraya notamment."
+ },
+ "211": {
+  "statut": "vérifié",
+  "source": "https://www.virginiaplaces.org/boundaries/dcboundarypotomac.html",
+  "note": "La frontière District de Columbia–Virginie suit la ligne des hautes eaux sur la rive virginienne du Potomac : le fleuve sépare bien les deux (son lit appartient au District)."
+ },
+ "793": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Oder",
+  "note": "Source à Fidlův kopec, monts de l'Oder (Oderské vrchy), région d'Olomouc, Tchéquie ; forme 187 km de la frontière Pologne–Allemagne (ligne Oder-Neisse)."
+ },
+ "796": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Inn_(river)",
+  "note": "Source au lac de Lunghin (2 484 m), en Engadine, Alpes suisses ; se jette dans le Danube à Passau."
+ },
+ "805": {
+  "statut": "vérifié",
+  "source": "https://www.britannica.com/topic/The-Moldau",
+  "note": "La Moldau (Vltava), poème symphonique de Smetana, 2e des six pièces de Má vlast ; suit la rivière jusqu'à Prague."
+ },
+ "808": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Meuse",
+  "note": "La Meuse passe à Liège puis remonte vers le nord, forme une partie de la frontière belgo-néerlandaise et traverse les Pays-Bas (Maas)."
+ }
+}

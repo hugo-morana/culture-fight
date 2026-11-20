@@ -1,0 +1,135 @@
+{
+ "445": {
+  "statut": "vérifié",
+  "source": "https://mainweb.awsprod.nlm.nih.gov/exhibition/the-story-of-aspirin/index.html",
+  "note": "Salicine isolée de l'écorce de saule (Leroux 1829), acide salicylique dérivé (Piria 1838), puis acide acétylsalicylique (Gerhardt, Bayer)."
+ },
+ "448": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Ochroma",
+  "note": "Originaire du sud du Mexique au sud du Brésil ; « has a lower density than cork » ; usage pour les maquettes d'avions."
+ },
+ "450": {
+  "statut": "corrigé",
+  "source": "https://www.worldhistory.org/trans/fr/1-12913/le-chocolat-en-mesoamerique/ ; https://archaeology.org/news/2018/06/27/180627-maya-chocolate-money",
+  "note": "Monnaie de cacao attestée chez les Aztèques ; chez les Mayas classiques ce n'est qu'une hypothèse (« may have been used »).",
+  "correction": {
+   "contexte": "Les Aztèques utilisaient les fèves de cacao comme monnaie."
+  }
+ },
+ "451": {
+  "statut": "corrigé",
+  "source": "https://bo.valhor.fr/wp-content/uploads/2023/10/valhor-afsnn-cpmarchesapins.pdf",
+  "note": "En France le Nordmann fait 77,9 % des ventes de sapins naturels, l'épicéa environ 17,7 % : « souvent lui » est trompeur.",
+  "correction": {
+   "fait": "c'est le deuxième arbre le plus vendu comme sapin de Noël en France",
+   "contexte": "Il représente environ 18 % des sapins de Noël naturels vendus en France, loin derrière le sapin de Nordmann (78 %)."
+  }
+ },
+ "452": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/hevea",
+  "note": "Saignée : entaille de l'écorce, le latex coule ; le latex est transformé en caoutchouc naturel."
+ },
+ "453": {
+  "statut": "corrigé",
+  "source": "https://encycloreader.org/r/wikipedia.php?q=Ebony",
+  "note": "Touches de piano confirmées ; seules certaines espèces (macassar, mun) coulent dans l'eau.",
+  "correction": {
+   "contexte": "Certaines ébènes sont si denses qu'elles coulent dans l'eau."
+  }
+ },
+ "454": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/cedre-du-liban ; https://worldhistoryedu.com/how-did-the-phoenicians-become-great-sailors/",
+  "note": "Cèdre sur le drapeau (techno-science) ; Phéniciens construisant leurs navires en cèdre (worldhistoryedu ; livius.org confirme aussi le commerce phénicien du cèdre et des navires en cèdre)."
+ },
+ "455": {
+  "statut": "vérifié",
+  "source": "https://webcf.waybackmachine.org/web/20220118155601/https://en.wikipedia.org/wiki/Date_palm",
+  "note": "Un palmier adulte produit 70 à 140 kg par saison ; horticulture d'oasis."
+ },
+ "456": {
+  "statut": "vérifié",
+  "source": "https://www.jw.org/en/library/magazines/g20010222/The-Eucalyptus-How-Useful-Is-It/",
+  "note": "Plus de 600 espèces originaires d'Australie, croissance rapide, nourriture du koala."
+ },
+ "457": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/pin-parasol",
+  "note": "Pignons consommés ; port en parasol ; caractéristique des régions méditerranéennes."
+ },
+ "458": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/actualites/garder-ses-feuilles-ou-les-perdre-telle-est-la-question-22753",
+  "note": "Feuillage persistant vs caduc. Mauvaises réponses (Caduc, Annuel, Vivace) non correctes."
+ },
+ "459": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/questions-reponses/arbre-connaitre-age-arbre-20188/",
+  "note": "Un cerne par an ; bois initial clair au printemps, bois final plus sombre en été."
+ },
+ "460": {
+  "statut": "corrigé",
+  "source": "https://espacepourlavie.ca/les-couleurs-dautomne-des-arbres",
+  "note": "Les caroténoïdes jaunes sont révélés, mais les anthocyanes rouges se forment en automne (elles ne sont pas « laissées voir »).",
+  "correction": {
+   "contexte": "En automne, elle disparaît et laisse voir les pigments jaunes ; les pigments rouges, eux, se forment à ce moment-là."
+  }
+ },
+ "461": {
+  "statut": "corrigé",
+  "source": "https://areq.net/lang/fr/For%C3%AAt_des_Landes.html",
+  "note": "La formule exacte est « plus grande forêt artificielle d'Europe de l'Ouest » ; plantation surtout après la loi de 1857, pour fixer les dunes et assainir les marécages.",
+  "correction": {
+   "fait": "Quelle forêt française est la plus grande forêt plantée d'Europe occidentale ?",
+   "contexte": "Ses pins maritimes ont surtout été plantés après la loi de 1857, pour fixer les dunes et assainir les marécages."
+  }
+ },
+ "468": {
+  "statut": "corrigé",
+  "source": "https://www.lalibre.be/lifestyle/magazine/2021/05/01/tout-ce-que-vous-avez-toujours-voulu-savoir-sur-la-glycine-ZDIKJFFTHBEZHHRYNAG2TRG5NM/ ; https://www.techno-science.net/fr/definitions/glycine-plante",
+  "note": "Le genre existe aussi en Amérique du Nord (W. frutescens) : « originaire d'Asie » trop général. Longévité : « souvent centenaire ».",
+  "correction": {
+   "contexte": "Les glycines les plus cultivées viennent de Chine et du Japon ; elles sont souvent centenaires."
+  }
+ },
+ "470": {
+  "statut": "vérifié",
+  "source": "https://wikiwand.com/simple/Water_Lilies",
+  "note": "Environ 250 tableaux de nymphéas, peints dans son jardin de Giverny."
+ },
+ "474": {
+  "statut": "vérifié",
+  "source": "https://www.vidal.fr/parapharmacie/phytotherapie-plantes/aloes-barbadensis-vera-capensis.html",
+  "note": "Gel tiré du cœur transparent des feuilles, utilisé pour les brûlures légères."
+ },
+ "478": {
+  "statut": "vérifié",
+  "source": "https://www.larousse.fr/encyclopedie/divers/fleur/52487",
+  "note": "Étamines = pièces mâles ; pistil = pièces femelles, stigmate récepteur du pollen."
+ },
+ "479": {
+  "statut": "vérifié",
+  "source": "https://www.reflexions.uliege.be/cms/c_434952/fr/dieudonne-ntakirutimana ; https://www.fao.org/newsroom/story/Why-we-need-bees-for-a-nutritious-future/fr",
+  "note": "Abeilles pollinisateurs majeurs (guêpes, mouches, papillons mineurs) ; FAO : 3 cultures vivrières sur 4 dépendent au moins en partie des pollinisateurs."
+ },
+ "480": {
+  "statut": "vérifié",
+  "source": "https://www.larousse.fr/encyclopedie/divers/fleur/52487",
+  "note": "Corolle = pétales ; sépales généralement verts = calice."
+ },
+ "481": {
+  "statut": "vérifié",
+  "source": "https://www.larousse.fr/encyclopedie/personnage/dw/130020 ; https://www.techno-science.net/fr/definitions/paquerette",
+  "note": "Linné, suédois, auteur de la nomenclature binominale ; Bellis perennis L., 1753."
+ },
+ "489": {
+  "statut": "corrigé",
+  "source": "https://gizmodo.com/the-way-that-mushrooms-bring-the-rain-will-astound-you-1739453857",
+  "note": "Source : 30 000 spores par seconde, « up to a billion a day » ; « des milliards » non sourcé tel quel.",
+  "correction": {
+   "contexte": "Un seul champignon peut en libérer jusqu'à un milliard par jour."
+  }
+ }
+}

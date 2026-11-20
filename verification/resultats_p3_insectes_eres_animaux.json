@@ -1,0 +1,171 @@
+{
+ "71": {
+  "statut": "vérifié",
+  "source": "https://phys.org/news/2018-02-mystery-proboscis-monkey-big-nose.pdf",
+  "note": "Endémique de Bornéo ; le nez agrandi modifie la résonance des cris des mâles et sert de signal aux femelles (choix des femelles)."
+ },
+ "559": {
+  "statut": "corrigé",
+  "source": "https://www.britannica.com/print/article/550698",
+  "note": "Fourrure dorée, forêts de montagne de Chine centrale où il gèle en hiver (Britannica) ; nez aplati aux narines vers l'avant (https://animaldiversity.org/accounts/Rhinopithecus_roxellana/, 1 600 à 4 000 m). « Épaisse fourrure qui protège du froid » non confirmée telle quelle.",
+  "correction": {
+   "contexte": "Il vit dans des forêts de montagne, entre 1 600 et 4 000 m, où il gèle en hiver."
+  }
+ },
+ "561": {
+  "statut": "vérifié",
+  "source": "https://encycloreader.org/r/wikipedia.php?q=Sifaka",
+  "note": "Copie Wikipédia : le nom est une onomatopée de son cri d'alarme « shi-fak » ; au sol, sauts bipèdes de côté. Genre Propithecus confirmé (https://ielc.libguides.com/sdzg/factsheets/coquerelssifaka/taxonomy)."
+ },
+ "563": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Bald_uakari",
+  "note": "Visage rouge vif, ouest de l'Amazonie ; le rouge est signe de bonne santé (les individus atteints de paludisme sont plus pâles et moins choisis)."
+ },
+ "564": {
+  "statut": "vérifié",
+  "source": "https://web.sas.upenn.edu/seyfarth/?p=63",
+  "note": "Enregistrements Cheney et Seyfarth : cris d'alarme distincts pour le léopard, l'aigle et le serpent."
+ },
+ "566": {
+  "statut": "corrigé",
+  "source": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Indri_indri.html",
+  "note": "Copie Wikipédia : l'indri est, avec le propithèque à diadème, le plus grand lémurien vivant (or « Propithèque » est une autre réponse de la relation) ; queue rudimentaire ; chant audible jusqu'à 4 km.",
+  "correction": {
+   "fait": "L'un des deux plus grands lémuriens vivants, presque sans queue",
+   "contexte": "Ses chants puissants s'entendent jusqu'à 4 km."
+  }
+ },
+ "577": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/questions-reponses/insecte-criquet-sauterelle-grillon-differences-7597/",
+  "note": "Sauterelles (ensifères) : antennes longues et fines ; criquets : antennes courtes et épaisses ; corps souvent vert, pattes arrière musclées pour sauter."
+ },
+ "578": {
+  "statut": "corrigé",
+  "source": "https://fao.org/ag/locusts/oldsite/PDFs/DLbookFweb.pdf",
+  "note": "« Milliards d'individus » non confirmé par la FAO (seulement par une légende vidéo de Futura) ; la FAO donne des essaims jusqu'à 40 km de long et une consommation quotidienne égale à son poids. Ambiguïté avec « Sauterelle » (autre réponse de la relation, « nuée de sauterelles ») : on précise les antennes courtes (https://www.futura-sciences.com/planete/questions-reponses/insecte-criquet-sauterelle-grillon-differences-7597/).",
+  "correction": {
+   "fait": "Insecte aux antennes courtes qui forme des essaims dévastateurs en Afrique",
+   "contexte": "Un essaim peut s'étendre sur 40 km, et chaque criquet mange chaque jour à peu près son poids."
+  }
+ },
+ "580": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/definitions/zoologie-lucane-cerf-volant-12453/",
+  "note": "Plus grand coléoptère d'Europe ; les mandibules servent lors des joutes pour conquérir les femelles."
+ },
+ "583": {
+  "statut": "corrigé",
+  "source": "https://www.santevet.com/?p=35283",
+  "note": "La source donne une puce d'environ 3 mm et des bonds de 30 cm de haut (soit environ 100 fois sa taille, pas « plus de 100 fois ») ; repas de sang quotidien.",
+  "correction": {
+   "contexte": "Longue d'environ 3 mm, elle peut faire des bonds de 30 cm de haut."
+  }
+ },
+ "584": {
+  "statut": "vérifié",
+  "source": "https://www.sante.fr/comment-venir-bout-des-poux-de-tete",
+  "note": "Les lentes sont pondues à la base des cheveux et solidement attachées."
+ },
+ "585": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/questions-reponses/insectes-differencier-abeille-guepe-frelon-bourdon-19193/",
+  "note": "Guêpe rayée jaune et noir, peut utiliser son dard plusieurs fois ; l'abeille perd son dard ; seule l'abeille produit du miel."
+ },
+ "586": {
+  "statut": "vérifié",
+  "source": "https://espace-sciences.org/juniors/questions/comment-des-insectes-marchent-sur-l-eau",
+  "note": "Poils des pattes qui repoussent l'eau et s'appuient sur la surface."
+ },
+ "588": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/capricorne-des-maisons",
+  "note": "Cérambycidé ; larves creusant des galeries dans le bois ; développement larvaire de 3 à 10 ans."
+ },
+ "590": {
+  "statut": "vérifié",
+  "source": "https://www.parcduverdon.fr/sites/default/files/pnrverdon/pdf/2024_FICHE_pollinisateurs_Syrphes.pdf",
+  "note": "Diptères mimétiques des guêpes et abeilles, inoffensifs (ne piquent pas) ; vol stationnaire typique de la famille ; adultes se nourrissent sur les fleurs."
+ },
+ "591": {
+  "statut": "corrigé",
+  "source": "https://www.universalis.fr/encyclopedie/khepri/",
+  "note": "Universalis : Khépri est le soleil du matin ; le scarabée roule sa boule « imitant la course du soleil » (Plutarque). « Khépri qui fait rouler le Soleil » reformulé. Par ailleurs la description reprenait la réponse.",
+  "correction": {
+   "fait": "Bousier vénéré dans l'Égypte antique",
+   "contexte": "Il était associé à Khépri, le soleil du matin : sa boule roulée évoquait la course du Soleil."
+  }
+ },
+ "592": {
+  "statut": "vérifié",
+  "source": "https://fr.vikidia.org/wiki/Tipule",
+  "note": "Très longues pattes, ressemble à un gros moustique, ne pique pas ; larve dans le sol, se nourrit de racines."
+ },
+ "598": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/questions-reponses/abeille-ce-nest-pas-bourdon-vrai-nom-male-abeille-25805/",
+  "note": "Ouvrières femelles stériles ; faux-bourdon sans dard, n'assure pas la récolte de nourriture."
+ },
+ "595": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/bombyx-du-murier",
+  "note": "La chenille du bombyx tisse son cocon de soie puis se transforme en chrysalide à l'intérieur."
+ },
+ "602": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/questions-reponses/insecte-mites-vetements-mites-alimentaires-faire-difference-15053/",
+  "note": "Les mites sont de petits papillons de nuit ; ce sont les larves qui abîment les textiles (kératine), l'adulte ne fait que se reproduire."
+ },
+ "605": {
+  "statut": "corrigé",
+  "source": "https://www.techno-science.net/fr/definitions/basiliscus-plumifrons",
+  "note": "Course sur l'eau pour fuir les prédateurs et Amérique centrale confirmées ; la source attribue l'appui à la large surface de contact des pattes arrière (palmes dépliées) et au battement de la queue, pas à des pattes qui « frappent l'eau si vite ». Mécanisme reformulé.",
+  "correction": {
+   "contexte": "Il court sur l'eau pour fuir ses prédateurs, grâce à la large surface d'appui de ses pattes arrière."
+  }
+ },
+ "606": {
+  "statut": "corrigé",
+  "source": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Frilled_lizard.html",
+  "note": "Copie Wikipédia : nord de l'Australie et sud de la Nouvelle-Guinée ; parade d'intimidation (collerette déployée, gueule grande ouverte) pour décourager les prédateurs. Le fait de se dresser sur les pattes arrière pour effrayer n'est pas décrit (la bipédie est citée comme mode de course).",
+  "correction": {
+   "contexte": "Pour décourager ses prédateurs, il déploie sa collerette et ouvre grand la gueule."
+  }
+ },
+ "612": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/definitions/zoologie-gavial-gange-7838/",
+  "note": "Crocodilien piscivore des fleuves du nord de l'Inde, aux mâchoires longues et étroites garnies de dents fines."
+ },
+ "642": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/actualites/terre-crottes-fossiles-revelent-dinosaures-ont-regne-si-longtemps-117869/",
+  "note": "Coprolithes = excréments fossilisés, riches en indices sur la nourriture ingérée par les dinosaures."
+ },
+ "667": {
+  "statut": "vérifié",
+  "source": "https://phys.org/news/2020-11-geologist-date-earliest-earth.html",
+  "note": "Plantes apparues sur terre il y a environ 460 Ma, à l'Ordovicien (spores fossiles puis fossiles entiers de mousses, hépatiques et lichens). Le Larousse (passe précédente) place la conquête au Silurien pour les plantes vasculaires (Cooksonia) : la réponse Ordovicien vaut pour les premières plantes terrestres non vasculaires, ce que dit le contexte (« petites mousses »)."
+ },
+ "670": {
+  "statut": "vérifié",
+  "source": "https://www.discoverwildlife.com/prehistoric-life/animal-ancestors",
+  "note": "Eohippus, premier cheval, à l'Éocène inférieur (56-48 Ma) ; Indohyus, ancêtre des baleines, à l'Éocène moyen (49-45 Ma) ; l'Éocène fait partie du Paléogène."
+ },
+ "676": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/definitions/geologie-grande-oxydation-11051/",
+  "note": "Grande Oxydation vers -2,4 milliards d'années, due surtout aux cyanobactéries ; stromatolithes construits par des cyanobactéries (https://www.futura-sciences.com/planete/actualites/paleontologie-vie-produisait-peut-etre-oxygene-il-y-32-milliards-annees-60332/)."
+ },
+ "677": {
+  "statut": "vérifié",
+  "source": "https://www.studysmarter.fr/resumes/geographie/geosciences/principes-de-stratigraphie/",
+  "note": "La stratigraphie étudie l'ordre et la position des couches de roches ; les couches inférieures sont généralement plus anciennes (aussi https://www.schoolmouv.fr/cours/la-chronologie-relative-decrypter-le-temps-des-roches-par-l-observation/fiche-de-cours)."
+ },
+ "683": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/definitions/paleontologie-tigre-dents-sabre-6378/",
+  "note": "Smilodon, dit tigre à dents de sabre, aux longues canines supérieures ; Machairodontinés, lignée distincte, pas un ancêtre des tigres (Panthera)."
+ }
+}

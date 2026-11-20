@@ -50,7 +50,7 @@ FICHES = [
              ("Dauphin à bec court, le plus connu des côtes et des aquariums", "Grand dauphin"),
              ("Migre chaque année entre l'Arctique et la Basse-Californie", "Baleine grise"),
              ("Deuxième plus grand animal du monde", "Rorqual commun"),
-             ("Petit cétacé côtier sans bec, cousin du dauphin", "Marsouin commun")],
+             ("Petit cétacé sans bec des côtes européennes, cousin du dauphin", "Marsouin commun")],
             inverse="Quelle description correspond à cet animal : {y} ?"),
     ], "questions": [
         q("Comment s'appelle le petit de la baleine ?", "Baleineau", ["Baleinon", "Baleinet", "Cétaçon"],

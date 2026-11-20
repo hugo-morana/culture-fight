@@ -1,0 +1,152 @@
+{
+ "9": {
+  "statut": "vérifié",
+  "source": "https://fr.vikidia.org/wiki/Grand_dauphin ; https://www.tourismebretagne.com/selon-mes-envies/topitos/six-especes-animales-marines-a-voir-en-bretagne/",
+  "note": "Flipper était un grand dauphin (Vikidia). Tourisme Bretagne : le grand dauphin vit à l'année sur les côtes bretonnes, « deux groupes ont aussi leurs quartiers en mer d'Iroise, autour des îles Molène et Sein »."
+ },
+ "12": {
+  "statut": "corrigé",
+  "source": "https://www.ifaw.org/fr/journal/dauphins-marsouins-difference",
+  "note": "IFAW : dauphins à dents pointues et coniques, marsouins à dents plates en forme de spatules ; tête arrondie et bec court. Contexte exact. Ambiguïté : la Vaquita (autre réponse de la même relation) est aussi un marsouin, petit, côtier et sans bec ; la description doit nommer le marsouin commun sans s'appliquer à la Vaquita.",
+  "correction": {
+   "fait": "Petit cétacé sans bec des côtes européennes, cousin du dauphin"
+  }
+ },
+ "47": {
+  "statut": "vérifié",
+  "source": "https://webcf.waybackmachine.org/web/20220318053310/https://en.wikipedia.org/wiki/Osprey ; https://ofb.gouv.fr/especes/balbuzard-pecheur-pandion-haliaetus",
+  "note": "Wikipedia : « plunges feet first into the water », « sharp spicules on the underside of the toes », « outer toe is reversible », utile pour « slippery fish ». OFB : « se jette dans l'eau les serres en avant »."
+ },
+ "49": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Andean_condor",
+  "note": "« largest living land bird capable of flight », envergure max 3,3 m, « scavenger, feeding mainly on carrion », « using the heat thermals ». « Atteint 3 m » reste correct (jusqu'à 3,3 m)."
+ },
+ "51": {
+  "statut": "corrigé",
+  "source": "https://www.anigaido.com/animaux/rapaces/milan-royal ; https://www.grand-est.developpement-durable.gouv.fr/IMG/pdf/milan_royal_fiche_espece_cle5b6def.pdf",
+  "note": "Rôle de « gouvernail » non trouvé dans les sources consultées. Confirmé : longue queue fourchue en V qui le distingue des autres rapaces ; population mondiale « limitée à peu de chose près à l'Europe occidentale » (DREAL Grand Est), « avant tout une espèce européenne » (présent aussi au Maghreb).",
+  "correction": {
+   "contexte": "Sa longue queue fourchue le distingue des autres rapaces ; il ne vit presque qu'en Europe."
+  }
+ },
+ "427": {
+  "statut": "corrigé",
+  "source": "https://baleinesendirect.org/en/a-puff-of-air-that-betrays-its-presence-but-not-its-species/",
+  "note": "Baleines en direct : la forme et la hauteur du souffle varient selon l'espèce, mais dépendent aussi du vent, de la lumière et de l'activité ; on ne peut pas toujours reconnaître l'espèce de loin. Contexte nuancé.",
+  "correction": {
+   "contexte": "Sa hauteur et sa forme varient selon l'espèce et aident à la reconnaître."
+  }
+ },
+ "428": {
+  "statut": "vérifié",
+  "source": "https://www.letemps.ch/societe/lambre-gris-beau-mystere",
+  "note": "« concrétion qui se forme dans l'intestin du cachalot », repêchée à la surface de l'eau et sur les plages, utilisée en parfumerie, environ 15 000 euros le kilo."
+ },
+ "435": {
+  "statut": "vérifié",
+  "source": "https://fr.vikidia.org/wiki/Moby_Dick",
+  "note": "Publié en 1851 par Herman Melville ; « un cachalot blanc surnommé Moby Dick »."
+ },
+ "439": {
+  "statut": "vérifié",
+  "source": "https://www.larousse.fr/encyclopedie/vie-sauvage/dauphin/178157",
+  "note": "Larousse : « le petit est le delphineau » ; le lait maternel est sa seule nourriture pendant 19 mois et parfois jusqu'à 4 ans (grand dauphin)."
+ },
+ "510": {
+  "statut": "vérifié",
+  "source": "https://www.parc-naturel-chevreuse.fr/sites/default/files/2023-02/Livret_RapacesNocturnes_NDLC2014.pdf",
+  "note": "Livret Nuit de la chouette (PNR Chevreuse/LPO) : hulotte « la plus commune et la plus connue », préfère les bois et les forêts, hululement « Ouh… Hououououou »."
+ },
+ "511": {
+  "statut": "corrigé",
+  "source": "https://www.bio-scene.org/sites/default/files/fe-bbuteo-290321.pdf ; https://www.anigaido.com/animaux/rapaces/buse-variable",
+  "note": "Description confirmée (bio-scene : cri plaintif « pouvant faire penser à un miaulement », souvent posée sur les poteaux et clôtures au bord des routes). Plumage très variable d'un individu à l'autre, du brun foncé au presque blanc : confirmé. « D'où son nom » non trouvé dans les sources consultées : retiré.",
+  "correction": {
+   "contexte": "Son plumage varie beaucoup d'un individu à l'autre, du brun foncé au presque blanc."
+  }
+ },
+ "512": {
+  "statut": "vérifié",
+  "source": "https://cdnfiles2.biolovision.net/www.faune-rhone.org/userfiles/Documents/OiseauDuMois/Hobereaumai2019.pdf ; https://fr.vikidia.org/wiki/Faucon_hobereau",
+  "note": "Vikidia : proies hirondelles et libellules, chasse en vol, très rapide (30-36 cm, Vikidia dit « taille moyenne », mais plus petit que le pèlerin ; le gerfaut de la même relation n'est pas ambigu). LPO Rhône : le martinet, « dont il fait à l'occasion ses délices », chasseur « rapide et très maniable »."
+ },
+ "513": {
+  "statut": "corrigé",
+  "source": "https://www.techno-science.net/fr/definitions/circaete-jean-le-blanc",
+  "note": "Régime « principalement composé de serpents », vol stationnaire dit « vol du Saint-Esprit » : confirmés. Le serpent est avalé entier seulement s'il est petit ; les grands sont emportés. Ambiguïté avec le Serpentaire levée par « d'Europe » (Serpentaire endémique d'Afrique subsaharienne).",
+  "correction": {
+   "contexte": "Il fait du surplace et avale les petits serpents tout entiers."
+  }
+ },
+ "514": {
+  "statut": "vérifié",
+  "source": "https://www.parc-naturel-chevreuse.fr/sites/default/files/2023-02/Livret_RapacesNocturnes_NDLC2014.pdf",
+  "note": "En hiver, regroupements diurnes sur des arbres « en bandes parfois importantes (50 à 100 individus) »."
+ },
+ "515": {
+  "statut": "corrigé",
+  "source": "https://www.paca.developpement-durable.gouv.fr/IMG/pdf/monographie_busard_des_roseaux.pdf",
+  "note": "DREAL PACA : observé « en chasse au dessus des roselières », « vol à basse altitude », « les ailes relevées » ; marais d'eau douce. La généralisation à tous les busards et la forme « en V » ne sont pas dans la source : contexte recentré sur l'espèce.",
+  "correction": {
+   "contexte": "Il chasse en volant à basse altitude au-dessus des roselières, les ailes relevées."
+  }
+ },
+ "517": {
+  "statut": "corrigé",
+  "source": "https://www.techno-science.net/fr/definitions/messager-sagittaire",
+  "note": "Le doute était fondé : la source n'explique pas « messager sagittaire » par les plumes de la tête. Nom officiel (CINFO) : messager sagittaire ; noms usuels secrétaire et serpentaire ; « secrétaire » serait une déformation de l'arabe saqr-et-tair, « oiseau-chasseur » ; « serpentaire » vient de son goût pour les serpents. Description (Afrique, longues pattes, frappe ses proies d'un coup de patte, attaque les serpents) confirmée.",
+  "correction": {
+   "contexte": "Son nom officiel est messager sagittaire ; on l'appelle aussi secrétaire, peut-être de l'arabe saqr-et-tair, « oiseau-chasseur »."
+  }
+ },
+ "518": {
+  "statut": "vérifié",
+  "source": "https://www.hww.ca/assets/pdfs/factsheets/snowy-owl-fr.pdf",
+  "note": "« chasse en plein jour ainsi qu'à l'aube et au crépuscule » ; dans le cercle arctique « le soleil ne se couche jamais pendant presque toute la période de reproduction en été » ; mâle presque entièrement blanc."
+ },
+ "519": {
+  "statut": "vérifié",
+  "source": "https://www.larousse.fr/encyclopedie/vie-sauvage/vautour_dÉgypte/184873",
+  "note": "Larousse : « petit vautour », semble tout blanc posé, « passé maître dans l'art de se servir de cailloux » pour casser les œufs d'autruche ; l'usage d'« outils » est « extrêmement rare dans le monde animal »."
+ },
+ "521": {
+  "statut": "corrigé",
+  "source": "https://www.parc-naturel-chevreuse.fr/sites/default/files/2023-02/Livret_RapacesNocturnes_NDLC2014.pdf",
+  "note": "Chant « flûté, doux et répété régulièrement » toutes les 2 à 4 s, transcrit « djou » (et non « tiou ») ; « le plus méridional des nocturnes », « seul migrateur régulier ». Le reste du contexte (« typique des nuits d'été méditerranéennes ») n'est pas formulé ainsi : remplacé par des faits sourcés.",
+  "correction": {
+   "contexte": "C'est le plus méridional de nos rapaces nocturnes, et le seul qui migre chaque année en Afrique."
+  }
+ },
+ "523": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/questions-reponses/rapaces-hibou-chouette-difference-7336/",
+  "note": "Futura : on appelle hibou les Strigidés à aigrettes ; « Les différences entre les deux ne reposent pas réellement sur des critères scientifiques » ; en anglais tous sont des owls. Mauvaises réponses toutes fausses."
+ },
+ "525": {
+  "statut": "vérifié",
+  "source": "https://www.dictionnaire-academie.fr/article/A9A0964 ; https://fr.vikidia.org/wiki/Napol%C3%A9on_II",
+  "note": "Académie : aiglon, « le petit de l'aigle » ; surnom du fils de Napoléon Ier, duc de Reichstadt (L'Aiglon, Rostand, 1900)."
+ },
+ "526": {
+  "statut": "corrigé",
+  "source": "https://www.gla.ac.uk/news/archiveofnews/2008/march/headline_69551_en.html",
+  "note": "Université de Glasgow (2008) : l'explication classique est d'éviter de salir les plumes dans les carcasses, mais l'étude montre que la peau nue sert surtout à réguler la température (pertes de chaleur réduites de moitié par le froid en changeant de posture). Réponse conservée (explication traditionnelle, aucune mauvaise réponse correcte), contexte complété.",
+  "correction": {
+   "contexte": "C'est l'explication classique ; une étude de 2008 montre que leur peau nue les aide aussi à régler leur température."
+  }
+ },
+ "529": {
+  "statut": "vérifié",
+  "source": "https://www.bundestag.de/fr/parlement/symbols/aigle-federale-816562",
+  "note": "Bundestag : armoiries fédérales avec l'aigle fédérale, « l'aigle noire à une tête » sur champ or ; « Ses origines remontent au commencement du Saint-Empire romain »."
+ },
+ "530": {
+  "statut": "corrigé",
+  "source": "https://www.milandes.com/wp-content/uploads/2022/04/fiche-cycle3-fauconnerie-exe-sciences.pdf ; https://fr.vikidia.org/wiki/Fauconnerie",
+  "note": "« Cette coiffe de cuir sert à plonger l'oiseau dans l'obscurité pour qu'il reste calme. » L'usage « pendant le transport » n'est pas dans les sources consultées : retiré.",
+  "correction": {
+   "contexte": "Cette coiffe de cuir plonge l'oiseau dans l'obscurité pour qu'il reste calme."
+  }
+ }
+}

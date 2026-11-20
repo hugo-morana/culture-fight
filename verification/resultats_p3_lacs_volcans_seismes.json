@@ -1,0 +1,158 @@
+{
+ "154": {
+  "statut": "vérifié",
+  "source": "https://areq.net/lang/fr/S%C3%A9isme_de_1906_%C3%A0_San_Francisco.html",
+  "note": "Séisme du 18 avril 1906 ; séisme et incendies ont détruit plus de 80 % de la ville, les incendies (trois jours) ayant détruit le plus de structures."
+ },
+ "161": {
+  "statut": "vérifié",
+  "source": "https://www.connaissancedesenergies.org/fiche-pedagogique/accident-de-fukushima-daiichi",
+  "note": "Séisme du 11 mars 2011 au large du Tohoku ; le tsunami a amorcé l'accident de Fukushima Daiichi en détruisant son alimentation électrique."
+ },
+ "741": {
+  "statut": "corrigé",
+  "source": "https://www.usgs.gov/volcanoes/yellowstone/summary-eruption-history",
+  "note": "USGS : caldeira de Yellowstone (Lava Creek) de 85 x 45 km, et non environ 70 km de long.",
+  "correction": {
+   "contexte": "Celle de Yellowstone mesure environ 85 km sur 45 km."
+  }
+ },
+ "743": {
+  "statut": "vérifié",
+  "source": "https://dictionnaire-academie.fr/article/A9L0315",
+  "note": "Académie : pluriel de l'italien lapillo, du latin lapillus « petite pierre ». Futura (https://www.futura-sciences.com/planete/definitions/volcanologie-lapilli-458/) : projections de 2 à 64 mm ; « taille d'un pois » correspond au bas de la fourchette."
+ },
+ "744": {
+  "statut": "corrigé",
+  "source": "https://www.futura-sciences.com/planete/definitions/geologie-ponce-508/",
+  "note": "Futura : roche vitreuse très poreuse qui peut flotter ; les bulles se forment quand les gaz dissous s'échappent du magma (chute de pression), puis le refroidissement fige les parois de verre. La formulation « gaz restés piégés quand la lave s'est figée » est imprécise.",
+  "correction": {
+   "contexte": "Ses bulles sont des gaz échappés du magma, figés dans le verre en refroidissant."
+  }
+ },
+ "745": {
+  "statut": "vérifié",
+  "source": "https://www.worldhistory.org/trans/fr/2-2060/lobsidienne-en-mesoamerique/",
+  "note": "Roche volcanique vitreuse, généralement noire, au tranchant très aiguisé ; les Aztèques (itztli) en faisaient des lames de couteaux et des armes."
+ },
+ "746": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/definitions/structure-terre-geyser-1499/",
+  "note": "Le Geysir (Grand Geysir, vallée de Haukadalur, Islande) a donné son nom au phénomène."
+ },
+ "751": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Magma_chamber",
+  "note": "Chambres magmatiques « commonly between 1 km and 10 km down »."
+ },
+ "753": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/definitions/montagne-kilimandjaro-21038/",
+  "note": "Trois volcans (Kibo, Mawenzi, Shira), point culminant de l'Afrique, 5 895 m, nord-est de la Tanzanie. Leurres (mont Kenya, Nyiragongo, mont Cameroun) plus bas."
+ },
+ "761": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/actualite/inondation-post-eruptive-caldera-santorin-implications-formation-tsunamis-N15793.html",
+  "note": "L'éruption a pu contribuer au déclin de la civilisation minoenne ; la caldeira a été inondée par la mer après l'éruption, fond à 300-400 m sous la surface."
+ },
+ "762": {
+  "statut": "corrigé",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Volcanism_of_Indonesia",
+  "note": "Wikipédia (copie) : l'Indonésie a le plus de volcans de tous les pays, 76 volcans entrés en éruption au moins 1 171 fois dans l'histoire, environ 130 volcans actifs faisant partie de la ceinture de feu. Mais en volcans holocènes (Global Volcanism Program, cité par https://gulfnews.com/world/list-top-10-countries-with-most-active-volcanoes-1.500358730), les États-Unis (162) et le Japon (122) devancent l'Indonésie (120) ; l'Indonésie est 1re en volcans historiquement actifs. Question précisée.",
+  "correction": {
+   "fait": "Quel pays compte le plus de volcans entrés en éruption dans l'histoire ?",
+   "contexte": "Elle compte environ 130 volcans actifs, liés à la ceinture de feu du Pacifique."
+  }
+ },
+ "767": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/definitions/geologie-magnitude-intensite-4975/",
+  "note": "Intensité fondée sur les effets observés ; EMS-98 recommandée en Europe, 12 degrés de I à XII."
+ },
+ "772": {
+  "statut": "corrigé",
+  "source": "https://www.foxweather.com/learn/7-facts-about-earthquakes",
+  "note": "« Des milliers chaque jour » non confirmé : l'USGS estime environ 500 000 séismes détectés par an (environ 1 400 par jour). Fox Weather : les séismes de magnitude inférieure à 2 ne sont pas ressentis mais sont les plus fréquents ; Berkeley (https://seismo.berkeley.edu/eqInfo/faq.html) : seuil de ressenti vers la magnitude 2.",
+  "correction": {
+   "contexte": "Sous la magnitude 2, on ne les sent pas, et ce sont les séismes les plus fréquents."
+  }
+ },
+ "778": {
+  "statut": "vérifié",
+  "source": "https://web-japan.org/nipponia/nipponia33/en/feature/feature10.html",
+  "note": "Le système UrEDAS détecte les ondes P et envoie un signal coupant le courant pour arrêter les Shinkansen avant le choc principal. Leurres (Canada, Égypte, Norvège) faux."
+ },
+ "781": {
+  "statut": "vérifié",
+  "source": "https://wiki.riteme.site/wiki/2023_Morocco_earthquake",
+  "note": "8 septembre 2023, province d'Al Haouz, rupture sous le Haut Atlas, épicentre à 73 km au sud-ouest de Marrakech ; au moins 2 960 morts (« près de 3 000 »)."
+ },
+ "782": {
+  "statut": "corrigé",
+  "source": "https://www.thecanadianencyclopedia.ca/fr/article/plate-tectonics",
+  "note": "Sources en désaccord sur le nombre de grandes plaques : 7 (Encyclopédie canadienne), 14 majeures et une quarantaine de mineures (https://areq.net/lang/fr/Plaque_tectonique.html, qui précise que le nombre ne fait pas consensus), 15 et 40 (Futura, première passe). « Environ 7 » n'est qu'un classement possible, et le leurre « Environ 50 » s'approche du total (majeures + mineures). Réponse élargie et leurres écartés.",
+  "correction": {
+   "reponse": "Une dizaine",
+   "faux": [
+    "2",
+    "Plus de 100",
+    "Plus de 1 000"
+   ],
+   "contexte": "Selon les classements, on en compte de 7 à 15, plus une quarantaine de petites."
+  }
+ },
+ "827": {
+  "statut": "vérifié",
+  "source": "https://wiki.kidzsearch.com/wiki/Salt_Lake_City",
+  "note": "« It is named after the Great Salt Lake, which is 15 miles to the west of downtown. »"
+ },
+ "828": {
+  "statut": "corrigé",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Lac_du_Bourget",
+  "note": "Wikipédia (copie) : « the deepest lake located entirely within France » mais « either the largest or second largest after Lac de Grand-Lieu depending on season » ; rendu célèbre par Lamartine (Le Lac). Situé en Savoie, à l'extrémité sud du Jura : « des Alpes françaises » est approximatif.",
+  "correction": {
+   "fait": "Grand lac de Savoie chanté par Lamartine",
+   "contexte": "C'est le plus profond des lacs naturels entièrement situés en France."
+  }
+ },
+ "831": {
+  "statut": "vérifié",
+  "source": "https://whc.unesco.org/fr/histoires-abu-simbel/",
+  "note": "Le lac de retenue du haut barrage d'Assouan (lac Nasser) allait noyer les monuments ; les temples d'Abou Simbel ont été démontés et remontés plus haut (inaugurés en 1968)."
+ },
+ "832": {
+  "statut": "vérifié",
+  "source": "https://www.islands.com/1658136/europe-country-slovenia-only-one-natural-bled-island-left-looks-medieval-fairytale",
+  "note": "Seule île naturelle restante de Slovénie (Koper et Izola rattachées au continent au XIXe siècle) ; église de l'Assomption."
+ },
+ "833": {
+  "statut": "vérifié",
+  "source": "https://areq.net/lang/fr/Lac_Ladoga.html",
+  "note": "« Le lac le plus étendu d'Europe » (17 700 km²), en Russie d'Europe, au nord-est de Saint-Pétersbourg ; routes d'hiver sur la glace pendant le siège : la « route de la vie ». La formulation « entièrement en Europe » lève l'ambiguïté avec la Caspienne."
+ },
+ "834": {
+  "statut": "vérifié",
+  "source": "https://www.elasmo-research.org/education/ecology/fresh-bull.htm",
+  "note": "Le requin du lac Nicaragua est le requin-bouledogue (synonymie établie en 1961) ; il parcourt les 118 milles du Río San Juan entre la mer des Caraïbes et le lac."
+ },
+ "835": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Tellskapelle",
+  "note": "Chapelle de Tell sur le lac des Quatre-Cantons (Lake Lucerne), canton d'Uri : selon la légende, Tell a sauté de la barque de ses gardiens pendant une tempête et s'est échappé."
+ },
+ "839": {
+  "statut": "vérifié",
+  "source": "https://www.britannica.com/biography/Francois-Alphonse-Forel",
+  "note": "« Swiss physician, scientist, and founder of limnology » ; ses recherches ont porté notamment sur le Léman (ouvrage Le Léman). Leurres faux."
+ },
+ "844": {
+  "statut": "vérifié",
+  "source": "https://glossaire.eauetbiodiversite.fr/en/concept/oxbow-lake",
+  "note": "Oxbow lake = bras mort : « Part of an old meander or braid of a river », plus ou moins déconnecté du chenal principal. Aussi OQLF (https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/1299607/bras-mort) : « Bras abandonné d'un cours d'eau »."
+ },
+ "845": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Tunisian_salt_lakes",
+  "note": "Les chotts tunisiens, dont le chott el-Djérid, au bord nord du Sahara, sont des étendues de boue séchée sous une croûte de sel plus de la moitié de l'année, inondées par les rares pluies d'hiver. Leurres (oued, erg, oasis) faux."
+ }
+}

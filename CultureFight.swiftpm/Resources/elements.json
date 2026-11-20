@@ -373,7 +373,7 @@
   "nom": "Argent",
   "famille": "",
   "notoriete": 1,
-  "anecdote": "Son symbole vient du latin argentum ; c'est le meilleur conducteur d'électricité."
+  "anecdote": "Son symbole vient du latin argentum ; c'est le métal qui conduit le mieux l'électricité."
  },
  {
   "numero": 48,
@@ -405,7 +405,7 @@
   "nom": "Antimoine",
   "famille": "",
   "notoriete": 2,
-  "anecdote": "Son symbole vient du latin stibium ; les Égyptiennes s'en servaient comme khôl."
+  "anecdote": "Son symbole vient du latin stibium ; les anciens Égyptiens s'en servaient comme khôl."
  },
  {
   "numero": 52,
