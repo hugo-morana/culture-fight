@@ -28,6 +28,8 @@ final class CombatController {
     private(set) var malusTemps: Double = 0
 
     let ia: IAAdverse
+    /// Réponses du joueur, sauvegardées pour les statistiques du profil.
+    private(set) var reponsesJoueur: [ReponseJouee] = []
     /// Tous les tours joués, pour la revue de partie en fin de combat.
     private(set) var historique: [ResultatTour] = []
     /// Bonnes réponses données par le joueur, au total et par combattant (identifiant du modèle).
@@ -138,6 +140,14 @@ final class CombatController {
         let resultat = combat.resoudre(question: question, affinite: affinite,
                                        reponse: reponse, secondes: secondes)
         historique.append(resultat)
+        if joueurDefend {
+            let s = question.specialite
+            reponsesJoueur.append(ReponseJouee(domaine: s.domaine, famille: s.famille, specialite: s.nom,
+                                               specialiteID: s.id, correct: resultat.correct,
+                                               secondes: secondes, tempsEcoule: reponse == nil,
+                                               difficulte: question.difficulte,
+                                               rang: reponsesJoueur.count + 1))
+        }
         if joueurDefend && resultat.correct {
             bonnesReponsesJoueur += 1
             bonnesReponsesParCombattant[defenseurID, default: 0] += 1

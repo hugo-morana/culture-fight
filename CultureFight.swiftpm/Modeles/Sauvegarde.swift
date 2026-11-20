@@ -83,7 +83,7 @@ enum Sauvegarde {
     /// Le conteneur SwiftData de l'app. Si la sauvegarde ne peut pas être ouverte, l'app démarre
     /// quand même avec une sauvegarde en mémoire (perdue à la fermeture) plutôt que de planter.
     static let conteneur: ModelContainer = {
-        let schema = Schema([Joueur.self, CombattantPossede.self])
+        let schema = Schema([Joueur.self, CombattantPossede.self, PartieJouee.self])
         do {
             return try ModelContainer(for: schema, configurations: ModelConfiguration(schema: schema))
         } catch {
@@ -115,6 +115,7 @@ enum Sauvegarde {
     /// Verse les gains d'un combat terminé, une seule fois par combat.
     static func crediter(_ controleur: CombatController, a joueur: Joueur, dans contexte: ModelContext) {
         guard controleur.estFini, controleur.marquerGainsVerses() else { return }
+        contexte.insert(controleur.partieJouee())
         joueur.combatsJoues += 1
         switch controleur.combat.vainqueur {
         case 0?: joueur.victoires += 1
@@ -147,6 +148,7 @@ enum Sauvegarde {
     /// Un abandon compte comme une défaite, sans Pièces : il coûte l'XP de compte d'une défaite.
     static func abandon(_ controleur: CombatController, de joueur: Joueur, dans contexte: ModelContext) {
         guard controleur.marquerGainsVerses() else { return }
+        contexte.insert(controleur.partieJouee(abandon: true))
         joueur.combatsJoues += 1
         joueur.defaites += 1
         controleur.niveauxCompteGagnes = joueur.gagnerXPCompte(NiveauCompte.xpDefaite(contre: controleur.ia.niveau))

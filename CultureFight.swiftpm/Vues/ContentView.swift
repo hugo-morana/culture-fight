@@ -20,6 +20,7 @@ struct ContentView: View {
         case accueil
         case selection
         case collection
+        case profil
         case combat(CombatController)
     }
 
@@ -55,9 +56,12 @@ struct ContentView: View {
                         prochainCoffre: Gains.prochainCoffre(apres: joueur.dernierCoffre),
                         ouvrirCoffre: { Sauvegarde.ouvrirCoffre(joueur, dans: contexte) },
                         combattre: { ecran = .selection },
-                        collection: { ecran = .collection })
+                        collection: { ecran = .collection },
+                        profil: { ecran = .profil })
         case .collection:
             CollectionView(retour: { ecran = .accueil })
+        case .profil:
+            ProfilView(joueur: joueur, retour: { ecran = .accueil })
         case .selection:
             SelectionEquipeView(reserve: joueur.modelesReserve, retour: { ecran = .accueil }) { equipe, niveau in
                 let ia = IAAdverse(niveau: niveau)
@@ -84,6 +88,7 @@ struct AccueilView: View {
     let ouvrirCoffre: () -> Int?
     let combattre: () -> Void
     let collection: () -> Void
+    let profil: () -> Void
 
     @State private var apparu = false
 
@@ -98,7 +103,11 @@ struct AccueilView: View {
     private var contenu: some View {
         VStack(spacing: 24) {
             HStack(alignment: .center) {
-                JaugeNiveau(niveau: niveau, xp: xp, seuil: seuil)
+                Button(action: profil) {
+                    JaugeNiveau(niveau: niveau, xp: xp, seuil: seuil)
+                }
+                .buttonStyle(.plain)
+                .accessibilityHint("Ouvre le profil et les statistiques")
                 Spacer(minLength: 8)
                 Label("\(pieces) Pièces", systemImage: "dollarsign.circle.fill")
                     .font(.headline.monospacedDigit())
@@ -160,6 +169,16 @@ struct AccueilView: View {
             .offset(y: apparu ? 0 : 60)
             .opacity(apparu ? 1 : 0)
             .animation(.spring(duration: 0.6, bounce: 0.35).delay(0.62), value: apparu)
+            Button(action: profil) {
+                Label("Profil et statistiques", systemImage: "chart.xyaxis.line")
+                    .font(.titre(18, relativeTo: .headline))
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.bordered)
+            .controlSize(.large)
+            .tint(Charte.or)
+            .opacity(apparu ? 1 : 0)
+            .animation(.spring(duration: 0.6, bounce: 0.35).delay(0.7), value: apparu)
             BoutonCoffre(prochain: prochainCoffre, ouvrir: ouvrirCoffre)
                 .opacity(apparu ? 1 : 0)
                 .animation(.easeOut(duration: 0.6).delay(0.75), value: apparu)
