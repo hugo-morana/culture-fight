@@ -28,7 +28,7 @@ struct ProfilView: View {
                         TuileFiche(icone: "trophy.fill", titre: "Victoires", valeur: "\(joueur.victoires)",
                                    accent: BarreResultats.vert, index: 2)
                     }
-                    CarteRadarCulture(scores: scoresParDomaine)
+                    CarteRadarCulture(reponses: parties.flatMap(\.reponses))
                     CarteCollectionProfil(possedes: Set(joueur.reserve.map(\.modeleID)))
                     Text("Statistiques")
                         .font(.titre(24, relativeTo: .title2))
@@ -47,13 +47,6 @@ struct ProfilView: View {
                 }
             }
         }
-    }
-
-    /// Précision par domaine, sur toutes les parties sauvegardées.
-    private var scoresParDomaine: [String: Score] {
-        var scores: [String: Score] = [:]
-        for r in parties.flatMap(\.reponses) { scores[r.domaine, default: Score()].ajouter(r.correct) }
-        return scores
     }
 }
 
@@ -142,82 +135,248 @@ struct FormeRadar: Shape {
     }
 }
 
+/// Un axe du radar : un domaine, une famille ou une spécialité.
+struct AxeRadar: Identifiable {
+    let nom: String
+    let picto: String
+    let score: Score
+    var id: String { nom }
+    var valeur: Double { score.precision }
+}
+
+/// Spider chart des 10 domaines ; toucher un domaine zoome sur ses familles, puis une famille sur ses spécialités.
 struct CarteRadarCulture: View {
-    let scores: [String: Score]
+    let reponses: [ReponseJouee]
+
+    enum Niveau: Equatable {
+        case domaines
+        case familles(String)
+        case specialites(String, String)
+    }
+
+    @State private var niveau = Niveau.domaines
     @State private var progression = 0.0
     @State private var choisi: String?
 
-    private var domaines: [String] { ProfilView.domaines }
-    private var valeurs: [Double] { domaines.map { scores[$0]?.precision ?? 0 } }
+    /// Les 10 familles du plan de chaque domaine (feuille « 1 000 combattants », onglet Plan).
+    static let plan: [String: [String]] = [
+        "Matière": ["Éléments chimiques", "Molécules et réactions", "Mécanique", "Électricité et magnétisme",
+                    "Lumière et ondes", "Chaleur et énergie", "Atome et particules", "Unités et mesures",
+                    "Matériaux", "Savants et laboratoire"],
+        "Univers": ["Système solaire", "Lunes et petits corps", "Étoiles", "Constellations", "Galaxies et cosmologie",
+                    "Phénomènes célestes", "Conquête spatiale", "Astronautes", "Instruments d'observation", "Astronomes"],
+        "Terre": ["Volcans", "Séismes et tectonique", "Fleuves", "Lacs", "Océans et mers", "Montagnes", "Déserts",
+                  "Îles", "Minéraux et roches", "Climat et météo"],
+        "Vivant": ["Mammifères", "Oiseaux", "Reptiles et amphibiens", "Poissons et vie marine", "Insectes et arachnides",
+                   "Animaux préhistoriques", "Arbres", "Fleurs et plantes", "Champignons et microbes", "Écologie"],
+        "Corps humain": ["Squelette", "Muscles", "Organes", "Cerveau et nerfs", "Cœur et sang", "Les sens",
+                         "Maladies et médecine", "Nutrition", "Génétique", "Grands médecins"],
+        "Monde": ["Capitales", "Drapeaux", "Monnaies", "Langues", "Grandes villes", "Populations",
+                  "France : régions et départements", "Pays et frontières", "Gastronomie du monde", "Fêtes et traditions"],
+        "Histoire": ["Préhistoire", "Égypte ancienne", "Grèce antique", "Rome antique", "Moyen Âge",
+                     "Renaissance et grandes découvertes", "Ancien Régime", "Révolution et Empire", "XIXe siècle", "XXe siècle"],
+        "Arts": ["Peinture", "Sculpture", "Architecture et monuments", "Musique classique", "Opéra et danse",
+                 "Instruments de musique", "Photographie", "Cinéma", "Musées et chefs-d'œuvre", "Arts décoratifs"],
+        "Lettres et mythes": ["Romans", "Poésie", "Théâtre", "Contes et fables", "Mythologie grecque",
+                              "Mythologie nordique", "Mythologies du monde", "Philosophie", "Langue française", "Étymologie"],
+        "Savoirs": ["Calcul mental", "Algèbre", "Géométrie", "Nombres", "Probabilités et logique", "Mathématiciens",
+                    "Inventions", "Informatique", "Transports", "Télécommunications"],
+    ]
+
+    private var axes: [AxeRadar] {
+        switch niveau {
+        case .domaines:
+            return ProfilView.domaines.map { d in
+                AxeRadar(nom: d, picto: Pictos.domaine(d), score: score { $0.domaine == d })
+            }
+        case .familles(let d):
+            var noms = Self.plan[d] ?? []
+            for r in reponses where r.domaine == d && !noms.contains(r.famille) { noms.append(r.famille) }
+            return noms.map { f in
+                AxeRadar(nom: f, picto: Pictos.famille(f, domaine: d),
+                         score: score { $0.domaine == d && $0.famille == f })
+            }
+        case .specialites(let d, let f):
+            var noms = Catalogue.prototype
+                .filter { $0.specialite.domaine == d && $0.specialite.famille == f }
+                .map(\.specialite.nom)
+            for r in reponses where r.domaine == d && r.famille == f && !noms.contains(r.specialite) {
+                noms.append(r.specialite)
+            }
+            var liste = noms.map { n in
+                AxeRadar(nom: n, picto: Pictos.famille(f, domaine: d),
+                         score: score { $0.domaine == d && $0.famille == f && $0.specialite == n })
+            }
+            // Un radar demande au moins 3 axes : on complète avec des spécialités à venir.
+            var k = 1
+            while liste.count < 3 {
+                liste.append(AxeRadar(nom: "À venir \(k)", picto: "🔒", score: Score()))
+                k += 1
+            }
+            return liste
+        }
+    }
+
+    private func score(_ filtre: (ReponseJouee) -> Bool) -> Score {
+        var s = Score()
+        reponses.filter(filtre).forEach { s.ajouter($0.correct) }
+        return s
+    }
+
+    private var titre: String {
+        switch niveau {
+        case .domaines: return "Radar de culture"
+        case .familles(let d): return "\(Pictos.domaine(d)) \(d)"
+        case .specialites(_, let f): return f
+        }
+    }
 
     var body: some View {
-        CarteFiche(titre: "Radar de culture", icone: "hexagon.fill", accent: Charte.or) {
+        CarteFiche(titre: titre, icone: "hexagon.fill", accent: Charte.or) {
             VStack(spacing: 12) {
-                GeometryReader { geo in
-                    let cadre = CGRect(origin: .zero, size: geo.size).insetBy(dx: 52, dy: 30)
-                    ZStack {
-                        ForEach([25.0, 50, 75, 100], id: \.self) { niveau in
-                            FormeRadar(valeurs: Array(repeating: niveau, count: domaines.count), progression: 1)
-                                .stroke(Color.white.opacity(niveau == 100 ? 0.25 : 0.1), lineWidth: 1)
-                                .frame(width: cadre.width, height: cadre.height)
-                                .position(x: cadre.midX, y: cadre.midY)
-                        }
-                        Path { p in
-                            for i in domaines.indices {
-                                p.move(to: CGPoint(x: cadre.midX, y: cadre.midY))
-                                p.addLine(to: FormeRadar.point(i, sur: domaines.count, rayon: 1, dans: cadre))
-                            }
-                        }
-                        .stroke(Color.white.opacity(0.1), lineWidth: 1)
-                        FormeRadar(valeurs: valeurs, progression: progression)
-                            .fill(LinearGradient(colors: [Charte.or.opacity(0.55), Color.blue.opacity(0.35)],
-                                                 startPoint: .top, endPoint: .bottom))
-                            .frame(width: cadre.width, height: cadre.height)
-                            .position(x: cadre.midX, y: cadre.midY)
-                        FormeRadar(valeurs: valeurs, progression: progression)
-                            .stroke(Charte.or, style: StrokeStyle(lineWidth: 2, lineJoin: .round))
-                            .shadow(color: Charte.or.opacity(0.8), radius: 6)
-                            .frame(width: cadre.width, height: cadre.height)
-                            .position(x: cadre.midX, y: cadre.midY)
-                        ForEach(Array(domaines.enumerated()), id: \.offset) { i, domaine in
-                            let p = FormeRadar.point(i, sur: domaines.count, rayon: valeurs[i] / 100 * progression, dans: cadre)
-                            Circle()
-                                .fill(Specialite(id: "", nom: "", famille: "", domaine: domaine).couleur)
-                                .frame(width: choisi == domaine ? 12 : 7, height: choisi == domaine ? 12 : 7)
-                                .position(p)
-                            let etiquette = FormeRadar.point(i, sur: domaines.count, rayon: 1.28, dans: cadre)
-                            Button {
-                                withAnimation(.snappy) { choisi = choisi == domaine ? nil : domaine }
-                            } label: {
-                                VStack(spacing: 0) {
-                                    Text(Pictos.domaine(domaine)).font(.system(size: 18))
-                                    Text(scores[domaine].map { "\(Int($0.precision)) %" } ?? "—")
-                                        .font(.caption2.monospacedDigit().bold())
-                                        .foregroundStyle(choisi == domaine ? Charte.or : Charte.ivoire.opacity(0.8))
-                                }
-                            }
-                            .buttonStyle(.plain)
-                            .position(etiquette)
-                        }
+                if niveau != .domaines {
+                    Button {
+                        remonter()
+                    } label: {
+                        Label(niveau == .domaines ? "" : retourLibelle, systemImage: "chevron.left")
+                            .font(.nom(13, relativeTo: .caption))
                     }
+                    .tint(Charte.or)
+                    .frame(maxWidth: .infinity, alignment: .leading)
                 }
-                .frame(height: 300)
-                Group {
-                    if let choisi {
-                        let s = scores[choisi] ?? Score()
-                        Text("\(Pictos.domaine(choisi)) \(choisi) · \(s.total == 0 ? "aucune question encore" : "\(s.bonnes) bonnes réponses sur \(s.total)")")
-                    } else {
-                        Text("Précision par domaine. Touche un pictogramme pour le détail.")
-                    }
+                RadarVue(axes: axes, progression: progression, choisi: choisi) { axe in
+                    toucher(axe)
                 }
-                .font(.nom(13, relativeTo: .caption))
-                .foregroundStyle(Charte.ivoire.opacity(0.85))
-                .multilineTextAlignment(.center)
-                .contentTransition(.opacity)
+                .frame(height: 320)
+                .id(niveau == .domaines ? "d" : titre)
+                .transition(.asymmetric(insertion: .scale(scale: 0.3).combined(with: .opacity),
+                                        removal: .scale(scale: 1.8).combined(with: .opacity)))
+                legende
+                    .font(.nom(13, relativeTo: .caption))
+                    .foregroundStyle(Charte.ivoire.opacity(0.85))
+                    .multilineTextAlignment(.center)
+            }
+            .clipped()
+        }
+        .onAppear { tracer() }
+        .sensoryFeedback(.impact(weight: .medium), trigger: niveau)
+        .sensoryFeedback(.selection, trigger: choisi)
+    }
+
+    @ViewBuilder
+    private var legende: some View {
+        if let choisi, let axe = axes.first(where: { $0.nom == choisi }) {
+            Text("\(axe.picto) \(axe.nom) · " + (axe.score.total == 0 ? "aucune question encore"
+                 : "\(axe.score.bonnes) bonnes réponses sur \(axe.score.total) (\(Int(axe.valeur)) %)"))
+        } else {
+            switch niveau {
+            case .domaines: Text("Précision par domaine. Touche un domaine pour zoomer sur ses familles.")
+            case .familles: Text("Touche une famille pour zoomer sur ses spécialités.")
+            case .specialites: Text("Touche une spécialité pour voir son détail.")
             }
         }
-        .onAppear { withAnimation(.spring(duration: 1.4, bounce: 0.25).delay(0.3)) { progression = 1 } }
-        .sensoryFeedback(.selection, trigger: choisi)
+    }
+
+    private var retourLibelle: String {
+        if case .specialites(let d, _) = niveau { return d }
+        return "Domaines"
+    }
+
+    private func toucher(_ axe: AxeRadar) {
+        switch niveau {
+        case .domaines: zoomer(.familles(axe.nom))
+        case .familles(let d): zoomer(.specialites(d, axe.nom))
+        case .specialites:
+            withAnimation(.snappy) { choisi = choisi == axe.nom ? nil : axe.nom }
+        }
+    }
+
+    private func zoomer(_ suivant: Niveau) {
+        choisi = nil
+        progression = 0
+        withAnimation(.spring(duration: 0.6, bounce: 0.25)) { niveau = suivant }
+        tracer()
+    }
+
+    private func remonter() {
+        switch niveau {
+        case .specialites(let d, _): zoomer(.familles(d))
+        default: zoomer(.domaines)
+        }
+    }
+
+    private func tracer() {
+        withAnimation(.spring(duration: 1.3, bounce: 0.25).delay(0.25)) { progression = 1 }
+    }
+}
+
+/// Le dessin du radar : grille, axes, polygone animé et étiquettes touchables.
+struct RadarVue: View {
+    let axes: [AxeRadar]
+    let progression: Double
+    let choisi: String?
+    let toucher: (AxeRadar) -> Void
+
+    var body: some View {
+        GeometryReader { geo in
+            let cadre = CGRect(origin: .zero, size: geo.size).insetBy(dx: 58, dy: 40)
+            let valeurs = axes.map(\.valeur)
+            ZStack {
+                ForEach([25.0, 50, 75, 100], id: \.self) { palier in
+                    FormeRadar(valeurs: Array(repeating: palier, count: axes.count), progression: 1)
+                        .stroke(Color.white.opacity(palier == 100 ? 0.25 : 0.1), lineWidth: 1)
+                        .frame(width: cadre.width, height: cadre.height)
+                        .position(x: cadre.midX, y: cadre.midY)
+                }
+                Path { p in
+                    for i in axes.indices {
+                        p.move(to: CGPoint(x: cadre.midX, y: cadre.midY))
+                        p.addLine(to: FormeRadar.point(i, sur: axes.count, rayon: 1, dans: cadre))
+                    }
+                }
+                .stroke(Color.white.opacity(0.1), lineWidth: 1)
+                FormeRadar(valeurs: valeurs, progression: progression)
+                    .fill(LinearGradient(colors: [Charte.or.opacity(0.55), Color.blue.opacity(0.35)],
+                                         startPoint: .top, endPoint: .bottom))
+                    .frame(width: cadre.width, height: cadre.height)
+                    .position(x: cadre.midX, y: cadre.midY)
+                FormeRadar(valeurs: valeurs, progression: progression)
+                    .stroke(Charte.or, style: StrokeStyle(lineWidth: 2, lineJoin: .round))
+                    .shadow(color: Charte.or.opacity(0.8), radius: 6)
+                    .frame(width: cadre.width, height: cadre.height)
+                    .position(x: cadre.midX, y: cadre.midY)
+                ForEach(Array(axes.enumerated()), id: \.offset) { i, axe in
+                    Circle()
+                        .fill(Charte.or)
+                        .frame(width: choisi == axe.nom ? 12 : 6, height: choisi == axe.nom ? 12 : 6)
+                        .position(FormeRadar.point(i, sur: axes.count, rayon: axe.valeur / 100 * progression, dans: cadre))
+                    etiquette(axe)
+                        .position(FormeRadar.point(i, sur: axes.count, rayon: 1.3, dans: cadre))
+                }
+            }
+        }
+    }
+
+    private func etiquette(_ axe: AxeRadar) -> some View {
+        Button {
+            toucher(axe)
+        } label: {
+            VStack(spacing: 0) {
+                Text(axe.picto).font(.system(size: axes.count > 8 ? 15 : 18))
+                if axes.count <= 10 {
+                    Text(axe.nom)
+                        .font(.system(size: 9, weight: .semibold))
+                        .foregroundStyle(Charte.ivoire.opacity(0.75))
+                        .lineLimit(2)
+                        .multilineTextAlignment(.center)
+                        .frame(width: 70)
+                }
+                Text(axe.score.total > 0 ? "\(Int(axe.valeur)) %" : "—")
+                    .font(.caption2.monospacedDigit().bold())
+                    .foregroundStyle(choisi == axe.nom ? Charte.or : Charte.ivoire)
+            }
+        }
+        .buttonStyle(.plain)
     }
 }
 
