@@ -30,7 +30,8 @@ struct CollectionView: View {
                     ForEach(domaines, id: \.self) { domaine in
                         let modeles = Catalogue.prototype.filter { $0.specialite.domaine == domaine }
                         Text("\(domaine) · \(modeles.count)")
-                            .font(.title3.bold())
+                            .font(.titre(22, relativeTo: .title3))
+                            .lettrageLogo()
                         LazyVGrid(columns: colonnes, spacing: 12) {
                             ForEach(modeles) { modele in
                                 CarteAnimee(progression: retournes.contains(modele.id) ? 1 : 0,
@@ -81,7 +82,7 @@ struct IllustrationCombattant: View {
             ZStack {
                 Rectangle().fill(modele.specialite.couleur.gradient)
                 Text(modele.initiales)
-                    .font(.system(size: taille, weight: .heavy, design: .rounded))
+                    .font(.titre(taille))
                     .foregroundStyle(.white)
             }
         }
@@ -103,7 +104,7 @@ struct CarteCollection: View {
             VStack(spacing: 2) {
                 // Place réservée : le nom est dessiné par CarteAnimee pour pouvoir pivoter.
                 Text(modele.nom)
-                    .font(.headline)
+                    .font(.nom(17))
                     .lineLimit(1)
                     .hidden()
                 Text("\(modele.style) · \(modele.specialite.nom)")
@@ -159,7 +160,7 @@ struct FicheCombattantView: View {
                         .frame(maxWidth: .infinity)
 
                     VStack(alignment: .leading, spacing: 4) {
-                        Text(modele.nom).font(.largeTitle.bold())
+                        Text(modele.nom).font(.titre(32, relativeTo: .largeTitle)).lettrageLogo()
                         Text("\(modele.style) · \(modele.specialite.nom)")
                             .font(.headline)
                             .foregroundStyle(.secondary)
@@ -215,7 +216,7 @@ struct VersoCarte: View {
         VStack(alignment: .leading, spacing: 10) {
             HStack {
                 Text(modele.nom)
-                    .font(.title2.bold())
+                    .font(.titre(22, relativeTo: .title2))
                     .lineLimit(1)
                     .minimumScaleFactor(0.6)
                 Spacer()
@@ -353,11 +354,12 @@ struct CarteAnimee: View, Animatable {
                                  recto: CarteCollection(modele: modele),
                                  verso: VersoCollection(modele: modele, ouvrir: ouvrir))
                 Text(modele.nom)
-                    .font(.system(size: Self.melange(17, 21, t), weight: .heavy, design: .rounded))
+                    .font(.custom(Charte.policeBlack, size: Self.melange(17, 21, t)))
                     .lineLimit(1)
                     .minimumScaleFactor(0.5)
-                    .foregroundStyle(.white)
-                    .shadow(color: .black.opacity(0.6), radius: 2)
+                    .foregroundStyle(Charte.ivoire)
+                    .shadow(color: Charte.marine, radius: 0, x: 0, y: 1.5)
+                    .shadow(color: .black.opacity(0.6), radius: 3)
                     .frame(width: Self.melange(w - 16, h - 24, t))
                     .rotationEffect(.degrees(-90 * progression))
                     .position(x: Self.melange(w / 2, 20, t),

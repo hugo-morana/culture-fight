@@ -116,7 +116,7 @@ struct CarteCamp: View {
                     Avatar(modele: actif.modele, taille: 64)
                     VStack(alignment: .leading, spacing: 4) {
                         HStack {
-                            Text(actif.modele.nom).font(.headline)
+                            Text(actif.modele.nom).font(.nom(18)).lineLimit(1).minimumScaleFactor(0.7)
                             Spacer()
                             Text("\(actif.pv)/\(actif.modele.pvMax) PV")
                                 .font(.subheadline.monospacedDigit())
@@ -149,7 +149,7 @@ struct CarteCamp: View {
             .animation(.spring(duration: 0.4), value: actif.bouclier > 0)
 
             HStack(spacing: 6) {
-                Text(camp.nom).font(.caption.bold())
+                Text(camp.nom).font(.nom(13, relativeTo: .caption))
                 ForEach(camp.combattants) { c in
                     Circle()
                         .fill(c.estKO ? Color.gray.opacity(0.4) : c.modele.specialite.couleur)
@@ -301,7 +301,7 @@ struct VueResultat: View {
                     .font(.title)
                     .symbolEffect(.bounce, value: apparu)
                 Text(titre)
-                    .font(.title2.bold())
+                    .font(.titre(24, relativeTo: .title2))
             }
             .foregroundStyle(resultat.correct ? Color.green : Color.red)
             .overlay {
@@ -370,7 +370,7 @@ struct VueResultat: View {
 
             Button(action: continuer) {
                 Text("Suivant")
-                    .font(.headline)
+                    .font(.titre(19, relativeTo: .headline))
                     .frame(maxWidth: .infinity)
             }
             .buttonStyle(.borderedProminent)
@@ -408,7 +408,8 @@ struct VueFin: View {
                 .foregroundStyle(victoire ? Color.yellow : Color.secondary)
                 .symbolEffect(.bounce, value: apparu)
             Text(titre)
-                .font(.largeTitle.bold())
+                .font(.titre(38, relativeTo: .largeTitle))
+                .lettrageLogo()
                 .scaleEffect(apparu ? 1 : 0.3)
                 .opacity(apparu ? 1 : 0)
                 .animation(.spring(duration: 0.6, bounce: 0.5), value: apparu)
@@ -417,7 +418,7 @@ struct VueFin: View {
                 .foregroundStyle(.yellow)
                 .contentTransition(.numericText(value: Double(piecesAffichees)))
             Button(action: rejouer) {
-                Text("Rejouer").font(.headline).frame(maxWidth: .infinity)
+                Text("Rejouer").font(.titre(19, relativeTo: .headline)).frame(maxWidth: .infinity)
             }
             .buttonStyle(.borderedProminent)
             .controlSize(.large)

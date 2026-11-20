@@ -186,7 +186,7 @@ struct ChiffreEnvole: View {
 
     var body: some View {
         Text(variation < 0 ? "\(variation)" : "+\(variation)")
-            .font(.system(size: 34, weight: .black, design: .rounded))
+            .font(.titre(36))
             .foregroundStyle(variation < 0 ? Color.red : Color.green)
             .shadow(color: .black.opacity(0.6), radius: 3)
             .keyframeAnimator(initialValue: Envol(), trigger: declencheur) { vue, v in

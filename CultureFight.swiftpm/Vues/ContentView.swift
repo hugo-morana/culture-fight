@@ -3,6 +3,8 @@ import UIKit
 
 @main
 struct CultureFightApp: App {
+    init() { Charte.installer() }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
@@ -76,17 +78,18 @@ struct AccueilView: View {
                     .animation(.spring(duration: 0.8, bounce: 0.4), value: apparu)
             } else {
                 Text("Culture Fight")
-                    .font(.largeTitle.bold())
+                    .font(.titre(40, relativeTo: .largeTitle))
+                    .lettrageLogo()
             }
             Text("Ton savoir est ton arme.")
-                .font(.title3)
+                .font(.nom(19, relativeTo: .title3))
                 .foregroundStyle(.secondary)
                 .opacity(apparu ? 1 : 0)
                 .animation(.easeOut(duration: 0.8).delay(0.4), value: apparu)
             Spacer()
             Button(action: combattre) {
                 Text("Combattre")
-                    .font(.title3.bold())
+                    .font(.titre(22, relativeTo: .title3))
                     .frame(maxWidth: .infinity)
             }
             .buttonStyle(.borderedProminent)
@@ -97,7 +100,7 @@ struct AccueilView: View {
             .animation(.spring(duration: 0.6, bounce: 0.35).delay(0.5), value: apparu)
             Button(action: collection) {
                 Text("Ma collection")
-                    .font(.title3.bold())
+                    .font(.titre(22, relativeTo: .title3))
                     .frame(maxWidth: .infinity)
             }
             .buttonStyle(.bordered)
@@ -173,7 +176,7 @@ struct Avatar: View {
             ZStack {
                 Circle().fill(modele.specialite.couleur.gradient)
                 Text(modele.initiales)
-                    .font(.system(size: taille * 0.38, weight: .heavy, design: .rounded))
+                    .font(.titre(taille * 0.36))
                     .foregroundStyle(.white)
             }
             .frame(width: taille, height: taille)

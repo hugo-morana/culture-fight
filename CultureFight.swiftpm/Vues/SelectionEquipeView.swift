@@ -42,7 +42,7 @@ struct SelectionEquipeView: View {
                             .buttonStyle(.plain)
                         }
                     } header: {
-                        Text(domaine)
+                        Text(domaine).font(.nom(15, relativeTo: .subheadline)).foregroundStyle(Charte.or).textCase(nil)
                     }
                 }
 
@@ -54,7 +54,7 @@ struct SelectionEquipeView: View {
                     }
                     .pickerStyle(.segmented)
                 } header: {
-                    Text("Adversaire")
+                    Text("Adversaire").font(.nom(15, relativeTo: .subheadline)).foregroundStyle(Charte.or).textCase(nil)
                 }
             }
             .navigationTitle("Ton équipe")
@@ -75,7 +75,7 @@ struct SelectionEquipeView: View {
                     lancer(equipe, niveau)
                 } label: {
                     Text("Lancer le combat")
-                        .font(.headline)
+                        .font(.titre(19, relativeTo: .headline))
                         .frame(maxWidth: .infinity)
                 }
                 .buttonStyle(.borderedProminent)
@@ -106,7 +106,7 @@ struct LigneCombattant: View {
         HStack(alignment: .top, spacing: 12) {
             Avatar(modele: modele, taille: 64)
             VStack(alignment: .leading, spacing: 4) {
-                Text(modele.nom).font(.headline)
+                Text(modele.nom).font(.nom(18))
                 Text("\(modele.style) · \(modele.specialite.nom)")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
