@@ -148,7 +148,7 @@ final class CombatController {
             message = "Joker : deux mauvaises réponses retirées"
         case "changement-question":
             guard case .question = phase, joueurRepond else { return }
-            lancer(combat.preparerQuestion())
+            lancer(combat.changerQuestion())
             message = "Nouvelle question !"
         default:
             message = combat.utiliser(id, camp: 0)

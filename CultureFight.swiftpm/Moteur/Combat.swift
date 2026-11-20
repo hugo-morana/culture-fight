@@ -61,6 +61,8 @@ struct Combat: Sendable {
     var coupDeMaitre: [Bool] = [false, false]
     /// Écart de difficulté appliqué à la dernière question (−2 à +2), pour l'afficher.
     var dernierEcart = 0
+    /// Difficulté de la dernière question tirée, réutilisée par le Changement de question.
+    var derniereDifficulte = 1
 
     var attaquant: Int { tour % 2 }
     var defenseur: Int { 1 - attaquant }
@@ -81,7 +83,6 @@ struct Combat: Sendable {
     /// Le combattant actif de l'attaquant tire une question de sa spécialité.
     mutating func preparerQuestion() -> (question: Question, affinite: Affinite, retires: Set<Int>) {
         let att = camps[attaquant].actif
-        let def = camps[defenseur].actif
         let def0 = camps[defenseur].actif
         var ecart = 0
         if surcharge[attaquant] > 0 { ecart += 1; surcharge[attaquant] -= 1 }
@@ -92,7 +93,20 @@ struct Combat: Sendable {
         ecart = min(2, max(-2, ecart))
         dernierEcart = ecart
         let difficulte = min(7, max(1, att.profil.difficulte(base: att.stade.difficulte, rang: att.questionsPosees) + ecart))
+        derniereDifficulte = difficulte
         camps[attaquant].combattants[camps[attaquant].indexActif].questionsPosees += 1
+        return tirer(difficulte: difficulte)
+    }
+
+    /// Changement de question : une autre question à la même difficulté, sans reconsommer
+    /// les effets d'objets (Parchemin, Élixir, Coup de maître) ni compter une question posée de plus.
+    mutating func changerQuestion() -> (question: Question, affinite: Affinite, retires: Set<Int>) {
+        tirer(difficulte: derniereDifficulte)
+    }
+
+    private mutating func tirer(difficulte: Int) -> (question: Question, affinite: Affinite, retires: Set<Int>) {
+        let att = camps[attaquant].actif
+        let def = camps[defenseur].actif
         let question = att.modele.generateur.generer(difficulte: difficulte, exclues: questionsVues)
         questionsVues.insert(question.id)
         let affinite = Affinite.entre(question.specialite, def.modele.specialite)
