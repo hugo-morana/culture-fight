@@ -43,7 +43,17 @@ struct ContentView: View {
         }
         .onChange(of: scenePhase) { _, phase in
             if phase != .active { Sauvegarde.enregistrer(contexte) }
+            ServiceAudio.partage.premierPlan(phase == .active)
         }
+        .onChange(of: enCombat, initial: true) { _, combat in
+            ServiceAudio.partage.entrer(combat ? .combat : .menus)
+        }
+    }
+
+    /// Le thème de combat joue pendant le combat, le thème principal partout ailleurs.
+    private var enCombat: Bool {
+        if case .combat = ecran { return true }
+        return false
     }
 
     @ViewBuilder

@@ -87,6 +87,11 @@ struct MentionsLegalesView: View {
                     }
                 }
 
+                CarteFiche(titre: "Musiques", icone: "music.note", accent: .orange) {
+                    TexteFiche(texte: "Thème Intro, thème principal et thème de combat créés pour "
+                               + "Culture Fight par Hugo Morana avec Suno.")
+                }
+
                 CarteFiche(titre: "Icônes", icone: "star.circle.fill", accent: .yellow) {
                     TexteFiche(texte: "Pictogrammes SF Symbols d'Apple, utilisés selon les conditions d'Apple.")
                 }

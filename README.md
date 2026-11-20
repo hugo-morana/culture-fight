@@ -27,8 +27,9 @@ iOS 17 minimum.
 | `Moteur/Combat.swift` | Règles du combat (`Regles`) et état d'un combat, sans interface |
 | `Moteur/IAAdverse.swift` | L'adversaire : taux de réussite selon son niveau et la difficulté |
 | `Moteur/CombatController.swift` | Chronomètre, réponse de l'IA, enchaînement des tours |
+| `Moteur/ServiceAudio.swift` | Musiques : thème Intro puis principal hors combat, thème de combat (voir « Musiques ») |
 | `Vues/` | Accueil, choix de l'équipe, écran de combat, collection (`CollectionView.swift`, `CollectionModes.swift`) |
-| `Resources/` | `elements.json` (118 éléments), `pays_afrique.json` (54 pays et capitales) |
+| `Resources/` | `elements.json` (118 éléments), `pays_afrique.json` (54 pays et capitales) ; `Sons/` : les 3 musiques |
 
 ## Combattants du prototype
 
@@ -193,3 +194,25 @@ les sources des questions et les marques citées. L'année du © s'étend seule 
 Les illustrations des combattants sont dans `illustrations/` (512 px de large). Celles des combattants du
 prototype sont aussi copiées dans `CultureFight.swiftpm/Resources/combattant-<id>.jpg`, d'où l'app les charge.
 Un combattant sans illustration affiche ses initiales.
+
+## Musiques
+
+`Moteur/ServiceAudio.swift` joue les musiques (tâche 35 de la feuille de route) :
+
+- au lancement, le **thème Intro** une fois, puis le **thème principal** en boucle sur tous les écrans hors combat ;
+- en combat, le **thème de combat** en boucle, depuis le début à chaque combat, un peu moins fort ;
+- fondu enchaîné entre les deux, pause quand l'app passe en arrière-plan, reprise au retour ;
+- session audio `ambient` : silence en mode silencieux, et pas de musique si le joueur écoute déjà la sienne ;
+- réglage **Musique** dans le profil (`CarteReglagesSon`, clé `musiqueActive`), crédit dans les Mentions légales.
+
+| Fichier (`Resources/Sons/`) | Morceau | Durée | Origine |
+| --- | --- | --- | --- |
+| `musique-intro.m4a` | Thème Intro | 1 min 18 | Suno, 20/11/2026, id 45ebb48c-7a5c-44f0-9cef-dbc2cdaf9af2 |
+| `musique-accueil.m4a` | Thème principal | 2 min 08 | Suno, 20/11/2026, id 38b4a6d0-72d9-4a89-8939-f5d475eb8b1a |
+| `musique-combat.m4a` | Thème de combat | 1 min 18 | Suno, 20/11/2026, id 58bfc09d-20e8-4016-877b-8a616e0e8dcd |
+
+Les morceaux sont créés par Hugo Morana avec Suno (forfait payant, téléchargés depuis Suno, sans Remix) :
+les conditions de Suno en autorisent l'usage commercial. Les fichiers d'origine (Opus) sont convertis en AAC
+160 kbit/s pour iOS, en gardant la marque de provenance de Suno dans leurs métadonnées (obligatoire, à ne pas
+retirer). Commande : `ffmpeg -i source.m4a -map 0:a -map_metadata 0 -c:a aac -b:a 160k -ar 44100
+-movflags +faststart+use_metadata_tags musique-<nom>.m4a`.

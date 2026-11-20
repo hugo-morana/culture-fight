@@ -37,6 +37,7 @@ struct ProfilView: View {
                         .lettrageLogo()
                         .padding(.top, 6)
                     StatistiquesView(parties: parties)
+                    CarteReglagesSon()
                     NavigationLink {
                         MentionsLegalesView()
                     } label: {
@@ -476,5 +477,28 @@ struct CarteCollectionProfil: View {
         .opacity(deploye ? 1 : 0)
         .offset(x: deploye ? 0 : -16)
         .animation(.spring(duration: 0.6).delay(0.3 + 0.05 * Double(index)), value: deploye)
+    }
+}
+
+// MARK: - Réglages du son
+
+/// Réglage « Musique » (thème principal et thème de combat), mémorisé sur l'appareil.
+struct CarteReglagesSon: View {
+    @AppStorage(ServiceAudio.cleMusique) private var musique = true
+
+    var body: some View {
+        CarteFiche(titre: "Son", icone: "speaker.wave.2.fill", accent: Charte.or) {
+            VStack(alignment: .leading, spacing: 6) {
+                Toggle(isOn: $musique) {
+                    Label("Musique", systemImage: "music.note")
+                }
+                .tint(Charte.or)
+                TexteFiche(texte: "La musique se coupe aussi quand l'iPhone est en mode silencieux "
+                           + "ou quand vous écoutez déjà votre propre musique.")
+            }
+        }
+        .onChange(of: musique) { _, _ in
+            ServiceAudio.partage.reglageModifie()
+        }
     }
 }
