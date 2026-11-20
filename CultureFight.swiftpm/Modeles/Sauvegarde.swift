@@ -22,6 +22,9 @@ final class Joueur {
     var inventaire: [String: Int] = [:]
     /// Dernière ouverture du coffre gratuit (toutes les 4 heures).
     var dernierCoffre: Date?
+    /// Articles de l'offre du jour déjà achetés (identifiants d'article), pour le jour `jourAchats`.
+    var achatsDuJour: [String] = []
+    var jourAchats: String = ""
 
     @Relationship(deleteRule: .cascade, inverse: \CombattantPossede.joueur)
     var reserve: [CombattantPossede] = []
@@ -79,13 +82,13 @@ final class CombattantPossede {
 
 @MainActor
 enum Sauvegarde {
-    /// Pendant le prototype, tous les combattants du catalogue sont offerts (la boutique n'existe pas
-    /// encore). Passer à `false` quand la boutique arrive : un nouveau joueur reçoit alors seulement
-    /// les combattants de `reserveDeDepart`, comme prévu dans le game design.
-    static let toutOffertPendantLePrototype = true
+    /// Pendant le prototype, avant la boutique, tous les combattants du catalogue étaient offerts.
+    /// Depuis la boutique (tâche 24), un nouveau joueur reçoit seulement les 3 Communs de
+    /// `reserveDeDepart` et achète les autres. Les joueurs existants gardent ce qu'ils ont.
+    static let toutOffertPendantLePrototype = false
 
     /// Les 3 combattants Communs offerts au niveau de compte 1.
-    static let reserveDeDepart = ["neonja", "mendeleviking", "iodiateur"]
+    static let reserveDeDepart = ["neonja", "druiderable", "seinturion"]
 
     /// Le conteneur SwiftData de l'app. Si la sauvegarde ne peut pas être ouverte, l'app démarre
     /// quand même avec une sauvegarde en mémoire (perdue à la fermeture) plutôt que de planter.

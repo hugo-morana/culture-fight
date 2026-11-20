@@ -106,9 +106,23 @@ Passer au niveau suivant demande 100 × niveau actuel. L'XP des combattants, ell
 En attendant le classement Glicko-2, la ligue suit le niveau : Bronze (1 à 4), Argent (5 à 9),
 Or (10 à 14), Platine (15 à 19), Savant (20 et plus).
 
-Pendant le prototype, `Sauvegarde.toutOffertPendantLePrototype` offre tout le catalogue (y compris les
-combattants ajoutés dans une version suivante). Quand la boutique arrivera, le passer à `false` : un
-nouveau joueur ne recevra plus que les 3 Communs de `Sauvegarde.reserveDeDepart`.
+Un nouveau joueur reçoit 3 Communs (`Sauvegarde.reserveDeDepart` : Néonja, Druidérable, Seinturion) et
+achète les autres à la boutique. Les sauvegardes créées avant la boutique, où tout était offert, gardent
+tous leurs combattants.
+
+## Boutique
+
+`Modeles/Boutique.swift` et `Vues/BoutiqueView.swift`, d'après la section « Économie et boutique » du game design :
+
+- **Catalogue fixe** : tous les combattants Communs, 150 Pièces chacun.
+- **Offre du jour** (dès le niveau de compte 3) : 2 combattants (les Rares sortent deux fois plus souvent) et
+  2 objets, tirés avec une graine qui ne dépend que de la date. L'offre est la même toute la journée,
+  achat ou relance compris, et se renouvelle à minuit. Chaque article s'achète une fois par jour.
+- **Prix** : Commun 150, Rare 400, Épique 1 000, Légendaire 2 500 ; équipements 100 à 200 ;
+  consommables 60 les 3.
+- **Doublon** : un combattant déjà possédé, acheté dans l'offre du jour, devient de l'XP pour lui
+  (la moitié de son prix).
+- Les objets achetés vont dans l'inventaire ; leurs effets en combat arrivent avec la tâche 25.
 
 ## Équilibrage
 

@@ -21,6 +21,7 @@ struct ContentView: View {
         case selection
         case collection
         case profil
+        case boutique
         case combat(CombatController)
     }
 
@@ -57,11 +58,14 @@ struct ContentView: View {
                         ouvrirCoffre: { Sauvegarde.ouvrirCoffre(joueur, dans: contexte) },
                         combattre: { ecran = .selection },
                         collection: { ecran = .collection },
+                        boutique: { ecran = .boutique },
                         profil: { ecran = .profil })
         case .collection:
             CollectionView(retour: { ecran = .accueil })
         case .profil:
             ProfilView(joueur: joueur, retour: { ecran = .accueil })
+        case .boutique:
+            BoutiqueView(joueur: joueur, retour: { ecran = .accueil })
         case .selection:
             SelectionEquipeView(reserve: joueur.modelesReserve, retour: { ecran = .accueil }) { equipe, niveau in
                 let ia = IAAdverse(niveau: niveau)
@@ -88,6 +92,7 @@ struct AccueilView: View {
     let ouvrirCoffre: () -> Int?
     let combattre: () -> Void
     let collection: () -> Void
+    let boutique: () -> Void
     let profil: () -> Void
 
     @State private var apparu = false
@@ -159,13 +164,27 @@ struct AccueilView: View {
             .offset(y: apparu ? 0 : 60)
             .opacity(apparu ? 1 : 0)
             .animation(.spring(duration: 0.6, bounce: 0.35).delay(0.5), value: apparu)
-            Button(action: collection) {
-                Text("Ma collection")
-                    .font(.titre(22, relativeTo: .title3))
-                    .frame(maxWidth: .infinity)
+            HStack(spacing: 12) {
+                Button(action: collection) {
+                    Label("Collection", systemImage: "square.stack.3d.up.fill")
+                        .font(.titre(17, relativeTo: .headline))
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.7)
+                        .frame(maxWidth: .infinity)
+                }
+                .buttonStyle(.bordered)
+                .controlSize(.large)
+                Button(action: boutique) {
+                    Label("Boutique", systemImage: "cart.fill")
+                        .font(.titre(17, relativeTo: .headline))
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.7)
+                        .frame(maxWidth: .infinity)
+                }
+                .buttonStyle(.bordered)
+                .controlSize(.large)
+                .tint(.yellow)
             }
-            .buttonStyle(.bordered)
-            .controlSize(.large)
             .offset(y: apparu ? 0 : 60)
             .opacity(apparu ? 1 : 0)
             .animation(.spring(duration: 0.6, bounce: 0.35).delay(0.62), value: apparu)
