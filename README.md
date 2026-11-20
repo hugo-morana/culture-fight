@@ -64,6 +64,13 @@ contente pas de redonner la réponse :
 - **Capitales** : champ `note` de `Resources/pays_afrique.json`, rempli pour les 54 pays.
 - **Calcul et conversions** : l'explication détaille le calcul.
 
+## Jeux de données et vérification
+
+25 jeux de données : `elements.json`, `pays_afrique.json` et les 23 fiches de `fiches.json`.
+Leur format commun est décrit dans [`outils/FORMAT.md`](outils/FORMAT.md) et leurs sources dans
+`outils/sources.py`. `python3 outils/verifier.py` détecte les champs manquants, les doublons, les
+questions ambiguës et les jeux sans source ; la compilation dans le cloud le lance à chaque envoi.
+
 ## Équilibrage
 
 Les valeurs sont dans `Regles` (`Moteur/Combat.swift`) et dans les fiches de `Catalogue.swift`.
