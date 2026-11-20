@@ -24,6 +24,16 @@ final class PartieJouee {
     var niveauIA: String = ""
     var equipe: [String] = []
     var reponses: [ReponseJouee] = []
+    /// Historique : équipe de l'IA, durée, PV restants, gains et niveau de compte après la partie.
+    var equipeIA: [String] = []
+    var tours: Int = 0
+    var pvRestants: Int = 0
+    var pvAdverses: Int = 0
+    var pieces: Int = 0
+    var xpCompte: Int = 0
+    var niveauCompteApres: Int = 1
+    /// Le joueur qui a joué cette partie.
+    var joueur: Joueur?
 
     init(date: Date = Date(), resultat: Int, niveauIA: String, equipe: [String], reponses: [ReponseJouee]) {
         self.date = date
@@ -55,8 +65,13 @@ extension CombatController {
             default: resultat = 2
             }
         }
-        return PartieJouee(resultat: resultat, niveauIA: ia.niveau.rawValue,
-                           equipe: combat.camps[0].combattants.map(\.modele.id),
-                           reponses: reponsesJoueur)
+        let partie = PartieJouee(resultat: resultat, niveauIA: ia.niveau.rawValue,
+                                 equipe: combat.camps[0].combattants.map(\.modele.id),
+                                 reponses: reponsesJoueur)
+        partie.equipeIA = combat.camps[1].combattants.map(\.modele.id)
+        partie.tours = combat.tour
+        partie.pvRestants = combat.camps[0].pvTotal
+        partie.pvAdverses = combat.camps[1].pvTotal
+        return partie
     }
 }

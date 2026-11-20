@@ -7,7 +7,8 @@ struct ProfilView: View {
     let joueur: Joueur
     let retour: () -> Void
 
-    @Query(sort: \PartieJouee.date) private var parties: [PartieJouee]
+    /// Les parties de ce joueur, de la plus ancienne à la plus récente (ordre des statistiques).
+    private var parties: [PartieJouee] { joueur.parties.sorted { $0.date < $1.date } }
 
     /// Les 10 domaines du game design, dans l'ordre du radar.
     static let domaines = ["Matière", "Univers", "Terre", "Vivant", "Corps humain",
@@ -30,6 +31,7 @@ struct ProfilView: View {
                     }
                     CarteRadarCulture(scores: scoresParDomaine)
                     CarteCollectionProfil(possedes: Set(joueur.reserve.map(\.modeleID)))
+                    CarteHistorique(parties: joueur.historique)
                     Text("Statistiques")
                         .font(.titre(24, relativeTo: .title2))
                         .lettrageLogo()
