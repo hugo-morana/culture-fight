@@ -9,13 +9,13 @@
   "pays": "Algérie",
   "capitale": "Alger",
   "notoriete": 1,
-  "note": ""
+  "note": "Surnommée Alger la Blanche, elle est célèbre pour sa Casbah, classée au patrimoine mondial."
  },
  {
   "pays": "Angola",
   "capitale": "Luanda",
   "notoriete": 2,
-  "note": ""
+  "note": "Fondée par les Portugais en 1576, c'est l'une des plus anciennes villes coloniales d'Afrique."
  },
  {
   "pays": "Bénin",
@@ -27,13 +27,13 @@
   "pays": "Botswana",
   "capitale": "Gaborone",
   "notoriete": 3,
-  "note": ""
+  "note": "Elle a été construite à partir de 1964, juste avant l'indépendance de 1966."
  },
  {
   "pays": "Burkina Faso",
   "capitale": "Ouagadougou",
   "notoriete": 2,
-  "note": ""
+  "note": "Elle accueille le Fespaco, le grand festival du cinéma africain."
  },
  {
   "pays": "Burundi",
@@ -45,25 +45,25 @@
   "pays": "Cameroun",
   "capitale": "Yaoundé",
   "notoriete": 2,
-  "note": ""
+  "note": "On la surnomme la ville aux sept collines ; Douala est la capitale économique."
  },
  {
   "pays": "Cap-Vert",
   "capitale": "Praia",
   "notoriete": 3,
-  "note": ""
+  "note": "Elle se trouve sur l'île de Santiago, la plus grande de l'archipel."
  },
  {
   "pays": "Centrafrique",
   "capitale": "Bangui",
   "notoriete": 2,
-  "note": ""
+  "note": "Elle borde l'Oubangui, face à la République démocratique du Congo."
  },
  {
   "pays": "Comores",
   "capitale": "Moroni",
   "notoriete": 3,
-  "note": ""
+  "note": "Elle se trouve sur la Grande Comore, au pied du volcan Karthala."
  },
  {
   "pays": "Congo",
@@ -75,7 +75,7 @@
   "pays": "République démocratique du Congo",
   "capitale": "Kinshasa",
   "notoriete": 2,
-  "note": ""
+  "note": "Elle fait face à Brazzaville, de l'autre côté du fleuve Congo ; c'est la plus grande ville francophone du monde."
  },
  {
   "pays": "Côte d'Ivoire",
@@ -87,19 +87,19 @@
   "pays": "Djibouti",
   "capitale": "Djibouti",
   "notoriete": 2,
-  "note": ""
+  "note": "Le pays et sa capitale portent le même nom."
  },
  {
   "pays": "Égypte",
   "capitale": "Le Caire",
   "notoriete": 1,
-  "note": ""
+  "note": "C'est la plus grande ville du monde arabe ; les pyramides de Gizeh sont à ses portes."
  },
  {
   "pays": "Érythrée",
   "capitale": "Asmara",
   "notoriete": 3,
-  "note": ""
+  "note": "Ses bâtiments modernistes des années 1930 sont classés au patrimoine mondial."
  },
  {
   "pays": "Eswatini",
@@ -111,85 +111,85 @@
   "pays": "Éthiopie",
   "capitale": "Addis-Abeba",
   "notoriete": 2,
-  "note": ""
+  "note": "Son nom signifie « nouvelle fleur » ; elle accueille le siège de l'Union africaine."
  },
  {
   "pays": "Gabon",
   "capitale": "Libreville",
   "notoriete": 2,
-  "note": ""
+  "note": "Elle a été fondée en 1849 par des esclaves libérés, d'où son nom."
  },
  {
   "pays": "Gambie",
   "capitale": "Banjul",
   "notoriete": 3,
-  "note": ""
+  "note": "Elle se trouve sur une île, à l'embouchure du fleuve Gambie."
  },
  {
   "pays": "Ghana",
   "capitale": "Accra",
   "notoriete": 2,
-  "note": ""
+  "note": "En 1957, le Ghana a été la première colonie d'Afrique subsaharienne à devenir indépendante."
  },
  {
   "pays": "Guinée",
   "capitale": "Conakry",
   "notoriete": 2,
-  "note": ""
+  "note": "On dit « Guinée-Conakry » pour la distinguer des autres Guinées."
  },
  {
   "pays": "Guinée-Bissau",
   "capitale": "Bissau",
   "notoriete": 3,
-  "note": ""
+  "note": "Le pays ajoute le nom de sa capitale pour se distinguer de la Guinée voisine."
  },
  {
   "pays": "Guinée équatoriale",
   "capitale": "Malabo",
   "notoriete": 3,
-  "note": ""
+  "note": "Elle se trouve sur l'île de Bioko, et non sur la partie continentale du pays."
  },
  {
   "pays": "Kenya",
   "capitale": "Nairobi",
   "notoriete": 1,
-  "note": ""
+  "note": "Un parc national, avec lions et girafes, s'étend aux portes de la ville."
  },
  {
   "pays": "Lesotho",
   "capitale": "Maseru",
   "notoriete": 3,
-  "note": ""
+  "note": "Le Lesotho est entièrement entouré par l'Afrique du Sud."
  },
  {
   "pays": "Liberia",
   "capitale": "Monrovia",
   "notoriete": 3,
-  "note": ""
+  "note": "Elle doit son nom au président américain James Monroe."
  },
  {
   "pays": "Libye",
   "capitale": "Tripoli",
   "notoriete": 2,
-  "note": ""
+  "note": "À ne pas confondre avec Tripoli, au Liban."
  },
  {
   "pays": "Madagascar",
   "capitale": "Antananarivo",
   "notoriete": 2,
-  "note": ""
+  "note": "Son nom signifie « la ville des mille », d'après les mille soldats qui la gardaient."
  },
  {
   "pays": "Malawi",
   "capitale": "Lilongwe",
   "notoriete": 3,
-  "note": ""
+  "note": "Elle a remplacé Zomba comme capitale en 1975."
  },
  {
   "pays": "Mali",
   "capitale": "Bamako",
   "notoriete": 2,
-  "note": ""
+  "note": "Elle est traversée par le fleuve Niger."
  },
  {
   "pays": "Maroc",
@@ -201,31 +201,31 @@
   "pays": "Maurice",
   "capitale": "Port-Louis",
   "notoriete": 3,
-  "note": ""
+  "note": "Elle a été fondée par les Français vers 1735, sous le gouverneur Mahé de La Bourdonnais."
  },
  {
   "pays": "Mauritanie",
   "capitale": "Nouakchott",
   "notoriete": 3,
-  "note": ""
+  "note": "Elle a été construite à partir de 1958 autour d'un petit village, en vue de l'indépendance."
  },
  {
   "pays": "Mozambique",
   "capitale": "Maputo",
   "notoriete": 3,
-  "note": ""
+  "note": "Elle s'appelait Lourenço Marques jusqu'en 1976."
  },
  {
   "pays": "Namibie",
   "capitale": "Windhoek",
   "notoriete": 3,
-  "note": ""
+  "note": "Son nom viendrait de l'afrikaans « coin venteux »."
  },
  {
   "pays": "Niger",
   "capitale": "Niamey",
   "notoriete": 2,
-  "note": ""
+  "note": "Elle borde le fleuve Niger, qui a donné son nom au pays."
  },
  {
   "pays": "Nigeria",
@@ -237,55 +237,55 @@
   "pays": "Ouganda",
   "capitale": "Kampala",
   "notoriete": 2,
-  "note": ""
+  "note": "Elle s'est développée sur des collines, près du lac Victoria."
  },
  {
   "pays": "Rwanda",
   "capitale": "Kigali",
   "notoriete": 2,
-  "note": ""
+  "note": "Réputée pour sa propreté, elle a interdit les sacs plastiques dès 2008."
  },
  {
   "pays": "Sao Tomé-et-Principe",
   "capitale": "São Tomé",
   "notoriete": 3,
-  "note": ""
+  "note": "C'est l'une des plus petites capitales d'Afrique, sur l'île de São Tomé."
  },
  {
   "pays": "Sénégal",
   "capitale": "Dakar",
   "notoriete": 1,
-  "note": ""
+  "note": "C'est la ville la plus à l'ouest de l'Afrique continentale."
  },
  {
   "pays": "Seychelles",
   "capitale": "Victoria",
   "notoriete": 3,
-  "note": ""
+  "note": "C'est l'une des plus petites capitales du monde, sur l'île de Mahé."
  },
  {
   "pays": "Sierra Leone",
   "capitale": "Freetown",
   "notoriete": 3,
-  "note": ""
+  "note": "Comme son nom l'indique, elle a été fondée en 1792 pour accueillir des esclaves libérés."
  },
  {
   "pays": "Somalie",
   "capitale": "Mogadiscio",
   "notoriete": 3,
-  "note": ""
+  "note": "Elle se trouve au bord de l'océan Indien."
  },
  {
   "pays": "Soudan",
   "capitale": "Khartoum",
   "notoriete": 2,
-  "note": ""
+  "note": "Le Nil Blanc et le Nil Bleu s'y rejoignent pour former le Nil."
  },
  {
   "pays": "Soudan du Sud",
   "capitale": "Djouba",
   "notoriete": 3,
-  "note": ""
+  "note": "Indépendant depuis 2011, le Soudan du Sud est le plus jeune pays du monde."
  },
  {
   "pays": "Tanzanie",
@@ -297,30 +297,30 @@
   "pays": "Tchad",
   "capitale": "N'Djaména",
   "notoriete": 2,
-  "note": ""
+  "note": "Elle s'appelait Fort-Lamy jusqu'en 1973."
  },
  {
   "pays": "Togo",
   "capitale": "Lomé",
   "notoriete": 2,
-  "note": ""
+  "note": "Elle est collée à la frontière du Ghana."
  },
  {
   "pays": "Tunisie",
   "capitale": "Tunis",
   "notoriete": 1,
-  "note": ""
+  "note": "Les ruines de Carthage se trouvent dans sa banlieue."
  },
  {
   "pays": "Zambie",
   "capitale": "Lusaka",
   "notoriete": 3,
-  "note": ""
+  "note": "Elle est devenue capitale en 1935, du temps de la Rhodésie du Nord."
  },
  {
   "pays": "Zimbabwe",
   "capitale": "Harare",
   "notoriete": 3,
-  "note": ""
+  "note": "Elle s'appelait Salisbury jusqu'en 1982."
  }
 ]

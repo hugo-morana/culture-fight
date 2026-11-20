@@ -46,6 +46,17 @@ iOS 17 minimum.
 `Resources/fiches.json`, généré par `outils/fiches.py`. Pour modifier ou ajouter des questions :
 éditer `outils/fiches.py`, puis lancer `python3 outils/fiches.py` (le script vérifie chaque fiche).
 
+## Explications après chaque réponse
+
+Après chaque réponse, l'écran de combat affiche une ligne de contexte (`Question.explication`) qui ne se
+contente pas de redonner la réponse :
+
+- **Fiches** : chaque paire d'une relation a son contexte dans `outils/contextes.py` ; `fiches.py` refuse
+  une paire ou une question sans contexte.
+- **Éléments** : champ `anecdote` de `Resources/elements.json` (origine du nom, usage), pour les 118 éléments.
+- **Capitales** : champ `note` de `Resources/pays_afrique.json`, rempli pour les 54 pays.
+- **Calcul et conversions** : l'explication détaille le calcul.
+
 ## Équilibrage
 
 Les valeurs sont dans `Regles` (`Moteur/Combat.swift`) et dans les fiches de `Catalogue.swift`.

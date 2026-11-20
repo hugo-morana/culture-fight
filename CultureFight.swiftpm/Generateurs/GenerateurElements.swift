@@ -9,6 +9,8 @@ struct ElementChimique: Decodable, Sendable {
     let famille: String
     /// 1 = très connu, 3 = rare.
     let notoriete: Int
+    /// Une ligne de contexte (origine du nom, usage…) affichée après la réponse.
+    let anecdote: String
 }
 
 /// Questions sur une sélection d'éléments (gaz nobles, halogènes, tous les éléments…).
@@ -51,7 +53,7 @@ struct GenerateurElements: GenerateurQuestions {
 
     private func question(_ e: ElementChimique, _ forme: Forme, _ difficulte: Int) -> Question {
         let autres = voisins(de: e, difficulte: difficulte)
-        let explication = "\(e.nom) : symbole \(e.symbole), numéro atomique \(e.numero)."
+        let explication = "\(e.nom) : symbole \(e.symbole), numéro atomique \(e.numero). \(e.anecdote)"
         switch forme {
         case .nomDuSymbole:
             return .qcm(id: "el-nom-\(e.numero)",

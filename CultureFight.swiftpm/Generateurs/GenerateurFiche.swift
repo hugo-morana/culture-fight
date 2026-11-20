@@ -14,6 +14,7 @@ struct FicheSpecialite: Decodable, Sendable {
         let inverse: String?
         /// Explication affichée après la réponse, avec `{x}` et `{y}`.
         let explication: String
+        /// [x, y, contexte] : le contexte est ajouté à l'explication.
         let paires: [[String]]
     }
 
@@ -77,9 +78,13 @@ struct GenerateurFiche: GenerateurQuestions {
     private func question(_ relation: FicheSpecialite.Relation, numero: Int, paire i: Int,
                           inverse: Bool, difficulte: Int) -> Question {
         let x = relation.paires[i][0], y = relation.paires[i][1]
-        let explication = relation.explication
+        var explication = relation.explication
             .replacingOccurrences(of: "{x}", with: x)
             .replacingOccurrences(of: "{y}", with: y)
+        // 3e élément de la paire : une ligne de contexte propre à cette paire.
+        if relation.paires[i].count > 2, !relation.paires[i][2].isEmpty {
+            explication += " " + relation.paires[i][2]
+        }
         if inverse, let modele = relation.inverse {
             // Les autres x, sauf ceux qui partagent le même y (ils seraient aussi de bonnes réponses).
             let faux = relation.paires.filter { $0[1] != y }.map { $0[0] }.shuffled()

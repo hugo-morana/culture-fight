@@ -10,6 +10,8 @@ import json
 import os
 import sys
 
+from contextes import CONTEXTES
+
 
 def rel(modele, explication, paires, inverse=None):
     return {"modele": modele, "inverse": inverse, "explication": explication,
@@ -597,8 +599,25 @@ FICHES = [
 ]
 
 
-def verifier(fiche):
+def ajouter_contextes(fiche):
+    """Ajoute à chaque paire sa ligne de contexte (3e élément), tirée de contextes.py."""
     erreurs = []
+    for n, r in enumerate(fiche["relations"]):
+        contextes = CONTEXTES.get((fiche["id"], n), {})
+        for p in r["paires"]:
+            texte = contextes.get(p[0], "").strip()
+            if not texte:
+                erreurs.append(f"relation {n} : pas de contexte pour « {p[0]} »")
+            del p[2:]
+            p.append(texte)
+        inconnus = set(contextes) - {p[0] for p in r["paires"]}
+        for x in sorted(inconnus):
+            erreurs.append(f"relation {n} : contexte sans paire pour « {x} »")
+    return erreurs
+
+
+def verifier(fiche):
+    erreurs = ajouter_contextes(fiche)
     total = len(fiche["questions"])
     for r in fiche["relations"]:
         ys = [p[1] for p in r["paires"]]
@@ -617,6 +636,8 @@ def verifier(fiche):
     for qq in fiche["questions"]:
         if len(set(qq["faux"])) < 3 or qq["bonne"] in qq["faux"]:
             erreurs.append(f"question « {qq['enonce']} » : mauvaises réponses incorrectes")
+        if not qq["explication"].strip():
+            erreurs.append(f"question « {qq['enonce']} » : pas d'explication")
     return total, erreurs
 
 

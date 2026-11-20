@@ -9,51 +9,63 @@
     "paires": [
      [
       "Plus grand animal ayant jamais existé",
-      "Baleine bleue"
+      "Baleine bleue",
+      "Elle peut dépasser 30 m et 150 tonnes, plus que n'importe quel dinosaure."
      ],
      [
       "Défense torsadée, surnommé la licorne des mers",
-      "Narval"
+      "Narval",
+      "Sa « défense » est une dent, surtout chez le mâle, qui peut dépasser 2,5 m."
      ],
      [
       "Plus grand cétacé à dents, grand plongeur des abysses",
-      "Cachalot"
+      "Cachalot",
+      "Il plonge à plus de 2 000 m pour chasser le calmar géant."
      ],
      [
       "Cétacé blanc de l'Arctique, surnommé le canari des mers",
-      "Béluga"
+      "Béluga",
+      "On l'appelle ainsi pour la variété de ses sifflements et cliquetis."
      ],
      [
       "Célèbre pour ses chants et ses très longues nageoires pectorales",
-      "Baleine à bosse"
+      "Baleine à bosse",
+      "Ses nageoires pectorales mesurent jusqu'à 5 m, le tiers de son corps ; seuls les mâles chantent."
      ],
      [
       "Prédateur noir et blanc qui chasse en groupe",
-      "Orque"
+      "Orque",
+      "Malgré son surnom de baleine tueuse, c'est le plus grand des dauphins."
      ],
      [
       "Dauphin d'eau douce rose d'Amérique du Sud",
-      "Dauphin de l'Amazone"
+      "Dauphin de l'Amazone",
+      "Aussi appelé boto, il devient plus rose avec l'âge, surtout les mâles."
      ],
      [
       "Plus petit cétacé, gravement menacé dans le golfe de Californie",
-      "Vaquita"
+      "Vaquita",
+      "Il en resterait une dizaine, victimes des filets de pêche illégaux."
      ],
      [
       "Dauphin à bec court, le plus connu des côtes et des aquariums",
-      "Grand dauphin"
+      "Grand dauphin",
+      "C'est l'espèce de Flipper ; on en observe toute l'année en mer d'Iroise, en Bretagne."
      ],
      [
       "Migre chaque année entre l'Arctique et la Basse-Californie",
-      "Baleine grise"
+      "Baleine grise",
+      "Cet aller-retour d'environ 16 000 km est l'une des plus longues migrations des mammifères."
      ],
      [
       "Deuxième plus grand animal du monde",
-      "Rorqual commun"
+      "Rorqual commun",
+      "Il mesure jusqu'à 25 m et nage à plus de 35 km/h, d'où son surnom de lévrier des mers."
      ],
      [
       "Petit cétacé côtier sans bec, cousin du dauphin",
-      "Marsouin commun"
+      "Marsouin commun",
+      "Contrairement au dauphin, il a des dents aplaties en forme de pelle."
      ]
     ]
    }
@@ -121,43 +133,53 @@
     "paires": [
      [
       "le gland",
-      "Chêne"
+      "Chêne",
+      "Les geais enterrent des glands pour l'hiver et en oublient : ils plantent ainsi des chênes."
      ],
      [
       "la faîne",
-      "Hêtre"
+      "Hêtre",
+      "On tirait autrefois de l'huile de ces petites graines triangulaires."
      ],
      [
       "le marron",
-      "Marronnier"
+      "Marronnier",
+      "Le marron d'Inde n'est pas comestible, contrairement à la châtaigne."
      ],
      [
       "la châtaigne",
-      "Châtaignier"
+      "Châtaignier",
+      "Les marrons glacés sont faits avec de grosses châtaignes, pas avec le fruit du marronnier."
      ],
      [
       "la samare double, qui tournoie comme un hélicoptère",
-      "Érable"
+      "Érable",
+      "Le vent emporte ces samares loin de l'arbre, ce qui aide l'érable à se disperser."
      ],
      [
       "la pomme de pin",
-      "Pin"
+      "Pin",
+      "Elle s'ouvre par temps sec pour libérer ses graines, comme les pignons du pin parasol."
      ],
      [
       "la noix",
-      "Noyer"
+      "Noyer",
+      "Le bois de noyer, dur et veiné, est très prisé en ébénisterie."
      ],
      [
       "la noisette",
-      "Noisetier"
+      "Noisetier",
+      "Le noisetier s'appelle aussi coudrier ; ses branches servaient de baguettes aux sourciers."
      ],
      [
       "l'olive",
-      "Olivier"
+      "Olivier",
+      "L'olivier peut vivre plus de mille ans et symbolise la paix depuis l'Antiquité."
      ],
      [
       "la figue",
-      "Figuier"
+      "Figuier",
+      "La figue est en réalité une inflorescence : ses fleurs sont cachées à l'intérieur."
      ]
     ]
    }
@@ -245,35 +267,43 @@
     "paires": [
      [
       "la tulipe",
-      "Pays-Bas"
+      "Pays-Bas",
+      "Venue de Turquie, elle a déclenché aux Pays-Bas la « tulipomanie », une folle spéculation vers 1637."
      ],
      [
       "la rose",
-      "Angleterre"
+      "Angleterre",
+      "Elle rappelle la guerre des Deux-Roses entre les Lancastre (rose rouge) et les York (rose blanche)."
      ],
      [
       "le chardon",
-      "Écosse"
+      "Écosse",
+      "Selon la légende, un Viking marchant pieds nus sur un chardon aurait crié et réveillé les Écossais."
      ],
      [
       "la fleur de lys",
-      "France"
+      "France",
+      "Elle était l'emblème des rois de France."
      ],
      [
       "la fleur de cerisier",
-      "Japon"
+      "Japon",
+      "Le hanami, la contemplation des cerisiers en fleurs, est une fête du printemps."
      ],
      [
       "le lotus",
-      "Inde"
+      "Inde",
+      "Fleur nationale de l'Inde, il symbolise la pureté car il sort propre de l'eau boueuse."
      ],
      [
       "l'edelweiss",
-      "Suisse"
+      "Suisse",
+      "Cette fleur laineuse de haute montagne pousse jusqu'à plus de 3 000 m dans les Alpes."
      ],
      [
       "le trèfle",
-      "Irlande"
+      "Irlande",
+      "Saint Patrick s'en serait servi pour expliquer la Trinité aux Irlandais."
      ]
     ]
    }
@@ -361,43 +391,53 @@
     "paires": [
      [
       "Responsable de la plupart des empoisonnements mortels en Europe",
-      "Amanite phalloïde"
+      "Amanite phalloïde",
+      "Ses toxines détruisent le foie, et les premiers symptômes n'apparaissent qu'après 6 à 12 heures."
      ],
      [
       "Chapeau rouge à points blancs, le champignon des contes",
-      "Amanite tue-mouches"
+      "Amanite tue-mouches",
+      "Toxique et hallucinogène, on la mettait autrefois dans du lait pour tuer les mouches."
      ],
      [
       "Pousse sous terre, très recherché dans le Périgord",
-      "Truffe noire"
+      "Truffe noire",
+      "On la cherche avec des chiens ou des cochons, qui la sentent sous la terre."
      ],
      [
       "Gros pied et chapeau brun, roi des sous-bois",
-      "Cèpe de Bordeaux"
+      "Cèpe de Bordeaux",
+      "C'est un bolet : sous son chapeau, pas de lamelles mais des tubes, comme une éponge."
      ],
      [
       "Jaune orangé en forme d'entonnoir, aussi appelé chanterelle",
-      "Girolle"
+      "Girolle",
+      "Attention à la fausse girolle, qui lui ressemble mais a de vraies lamelles serrées."
      ],
      [
       "Le champignon cultivé le plus vendu",
-      "Champignon de Paris"
+      "Champignon de Paris",
+      "On le cultivait au XIXe siècle dans les anciennes carrières sous Paris."
      ],
      [
       "Chapeau alvéolé comme une éponge, cueilli au printemps",
-      "Morille"
+      "Morille",
+      "Elle est toxique crue : il faut toujours bien la cuire."
      ],
      [
       "Noir en forme d'entonnoir, au nom inquiétant mais comestible",
-      "Trompette de la mort"
+      "Trompette de la mort",
+      "On dit que son nom vient de sa couleur noire et de sa pousse vers la Toussaint."
      ],
      [
       "Pousse en touffes sur le bois, très facile à cultiver",
-      "Pleurote"
+      "Pleurote",
+      "On le cultive sur de la paille, et même sur du marc de café."
      ],
      [
       "Grand chapeau écailleux sur un long pied, aussi appelé coulemelle",
-      "Lépiote élevée"
+      "Lépiote élevée",
+      "Son chapeau peut dépasser 30 cm ; son anneau coulisse le long du pied."
      ]
     ]
    }
@@ -465,47 +505,58 @@
     "paires": [
      [
       "Le plus rapide, plus de 300 km/h en piqué",
-      "Faucon pèlerin"
+      "Faucon pèlerin",
+      "C'est l'animal le plus rapide du monde ; il niche même sur les cathédrales et les gratte-ciel."
      ],
      [
       "Nocturne au visage blanc en forme de cœur",
-      "Effraie des clochers"
+      "Effraie des clochers",
+      "Son disque facial guide les sons vers ses oreilles : elle chasse à l'ouïe dans le noir total."
      ],
      [
       "Grand rapace nocturne aux aigrettes en forme d'oreilles",
-      "Grand-duc d'Europe"
+      "Grand-duc d'Europe",
+      "Ses aigrettes sont des plumes : ses vraies oreilles sont cachées sur les côtés de la tête."
      ],
      [
       "Emblème des États-Unis, à tête blanche",
-      "Pygargue à tête blanche"
+      "Pygargue à tête blanche",
+      "Presque disparu à cause du DDT, il a été retiré de la liste des espèces menacées en 2007."
      ],
      [
       "Fait du surplace au-dessus des champs pour repérer les campagnols",
-      "Faucon crécerelle"
+      "Faucon crécerelle",
+      "Ce vol sur place s'appelle le vol en Saint-Esprit."
      ],
      [
       "Vautour des montagnes qui brise les os pour en manger la moelle",
-      "Gypaète barbu"
+      "Gypaète barbu",
+      "Il lâche les os de haut sur les rochers pour les briser ; il a été réintroduit dans les Alpes."
      ],
      [
       "Pêcheur qui plonge pattes en avant pour attraper les poissons",
-      "Balbuzard pêcheur"
+      "Balbuzard pêcheur",
+      "Ses doigts rugueux et un orteil réversible l'aident à tenir les poissons glissants."
      ],
      [
       "Grand aigle des montagnes, présent sur de nombreux blasons",
-      "Aigle royal"
+      "Aigle royal",
+      "Ses ailes peuvent dépasser 2 m d'envergure."
      ],
      [
       "Plus grand oiseau volant d'Amérique du Sud",
-      "Condor des Andes"
+      "Condor des Andes",
+      "Son envergure atteint 3 m ; ce charognard plane sur les courants d'air chaud."
      ],
      [
       "Petite chouette symbole d'Athéna et de la sagesse",
-      "Chevêche d'Athéna"
+      "Chevêche d'Athéna",
+      "Elle figurait sur les pièces de monnaie de l'Athènes antique."
      ],
      [
       "Roux à la queue fourchue, souvent vu au-dessus des campagnes",
-      "Milan royal"
+      "Milan royal",
+      "Sa queue fourchue lui sert de gouvernail ; il ne vit presque qu'en Europe."
      ]
     ]
    }
@@ -553,47 +604,58 @@
     "paires": [
      [
       "Le plus grand félin du monde",
-      "Tigre"
+      "Tigre",
+      "Le tigre de Sibérie peut dépasser 3 m, queue comprise ; chaque tigre a des rayures uniques."
      ],
      [
       "Le plus rapide, plus de 100 km/h en pointe",
-      "Guépard"
+      "Guépard",
+      "Il ne tient cette vitesse que quelques centaines de mètres et ne rentre pas complètement ses griffes."
      ],
      [
       "Le seul félin qui vit en groupe",
-      "Lion"
+      "Lion",
+      "Ce groupe s'appelle une troupe ; ce sont surtout les lionnes qui chassent."
      ],
      [
       "Félin d'Amérique du Sud à la morsure redoutable",
-      "Jaguar"
+      "Jaguar",
+      "Il peut percer le crâne de ses proies, et même la carapace des tortues."
      ],
      [
       "Vit dans les montagnes d'Asie centrale, longue queue épaisse",
-      "Panthère des neiges"
+      "Panthère des neiges",
+      "Elle s'enroule dans sa queue comme dans une écharpe pour se protéger du froid."
      ],
      [
       "Félin d'Amérique aux nombreux noms, dont couguar",
-      "Puma"
+      "Puma",
+      "Puma, couguar, lion des montagnes… c'est l'animal qui porte le plus de noms."
      ],
      [
       "Félin d'Europe aux oreilles terminées par des pinceaux",
-      "Lynx"
+      "Lynx",
+      "Le lynx boréal, réintroduit dans les Vosges et le Jura, est le plus grand félin sauvage de France."
      ],
      [
       "Félin tacheté d'Afrique et d'Asie, souvent appelé panthère",
-      "Léopard"
+      "Léopard",
+      "La panthère noire est le plus souvent un léopard noir : ses taches restent visibles en pleine lumière."
      ],
      [
       "Petit félin des forêts d'Europe, qui ressemble à un gros chat tigré",
-      "Chat forestier"
+      "Chat forestier",
+      "On le reconnaît à sa queue épaisse terminée par des anneaux noirs."
      ],
      [
       "Félin d'Afrique aux grandes oreilles et aux longues pattes",
-      "Serval"
+      "Serval",
+      "Ses grandes oreilles repèrent les rongeurs sous les herbes, qu'il attrape d'un bond."
      ],
      [
       "Félin aux oreilles noires et pointues, grand sauteur",
-      "Caracal"
+      "Caracal",
+      "Il saute à près de 3 m de haut pour attraper des oiseaux en vol."
      ]
     ]
    }
@@ -651,51 +713,63 @@
     "paires": [
      [
       "Le plus grand primate vivant",
-      "Gorille"
+      "Gorille",
+      "Un mâle adulte, dit dos argenté, peut peser plus de 180 kg."
      ],
      [
       "Grand singe d'Afrique qui fabrique et utilise des outils",
-      "Chimpanzé"
+      "Chimpanzé",
+      "En 1960, Jane Goodall l'a observé pêcher des termites avec des brindilles."
      ],
      [
       "Grand singe roux de Bornéo et de Sumatra",
-      "Orang-outan"
+      "Orang-outan",
+      "Son nom signifie « homme de la forêt » en malais."
      ],
      [
       "Cousin pacifique du chimpanzé, vit au Congo",
-      "Bonobo"
+      "Bonobo",
+      "Il ne vit qu'au sud du fleuve Congo, qui l'a séparé du chimpanzé."
      ],
      [
       "Lémurien de Madagascar à la queue annelée noir et blanc",
-      "Maki catta"
+      "Maki catta",
+      "Les lémuriens ne vivent à l'état sauvage qu'à Madagascar."
      ],
      [
       "Singe d'Amérique au cri très puissant",
-      "Singe hurleur"
+      "Singe hurleur",
+      "Son cri porte à plusieurs kilomètres, amplifié par un os de la gorge qui sert de caisse de résonance."
      ],
      [
       "Le seul singe sauvage d'Europe, à Gibraltar",
-      "Magot"
+      "Magot",
+      "Selon la légende, Gibraltar restera britannique tant que ces singes y vivront."
      ],
      [
       "Singe qui se baigne dans les sources chaudes du Japon",
-      "Macaque japonais"
+      "Macaque japonais",
+      "C'est le primate qui vit le plus au nord, après l'homme."
      ],
      [
       "Singe de Bornéo au nez énorme",
-      "Nasique"
+      "Nasique",
+      "Le nez des mâles amplifie leurs cris pour séduire les femelles."
      ],
      [
       "Singe au visage rouge et bleu",
-      "Mandrill"
+      "Mandrill",
+      "C'est le plus grand des singes, si l'on met à part les grands singes."
      ],
      [
       "Petit primate nocturne d'Asie aux yeux énormes",
-      "Tarsier"
+      "Tarsier",
+      "Chacun de ses yeux est plus gros que son cerveau."
      ],
      [
       "Singe aux très longs bras qui se balance de branche en branche",
-      "Gibbon"
+      "Gibbon",
+      "Ce déplacement s'appelle la brachiation ; il franchit ainsi une dizaine de mètres d'un élan."
      ]
     ]
    }
@@ -909,47 +983,58 @@
     "paires": [
      [
       "Le plus grand reptile vivant, il vit aussi en eau salée",
-      "Crocodile marin"
+      "Crocodile marin",
+      "Les mâles dépassent 6 m ; il nage d'île en île entre l'Asie et l'Australie."
      ],
      [
       "Lézard qui change de couleur et bouge ses yeux indépendamment",
-      "Caméléon"
+      "Caméléon",
+      "Il change de couleur surtout pour communiquer et régler sa température, pas pour se camoufler."
      ],
      [
       "Le plus grand lézard du monde, en Indonésie",
-      "Dragon de Komodo"
+      "Dragon de Komodo",
+      "Il atteint 3 m, et sa morsure injecte un venin qui empêche le sang de coaguler."
      ],
      [
       "Le plus long serpent du monde",
-      "Python réticulé"
+      "Python réticulé",
+      "Il peut dépasser 6 m ; le record mesuré approche les 8 m."
      ],
      [
       "Le serpent le plus lourd, dans les fleuves d'Amérique du Sud",
-      "Anaconda vert"
+      "Anaconda vert",
+      "Il peut peser plus de 100 kg et étouffe ses proies dans l'eau."
      ],
      [
       "Serpent venimeux qui se dresse en déployant une collerette",
-      "Cobra"
+      "Cobra",
+      "Le cobra royal, le plus long serpent venimeux, dépasse parfois 5 m."
      ],
      [
       "La plus grande tortue marine, grande mangeuse de méduses",
-      "Tortue luth"
+      "Tortue luth",
+      "Sa carapace est faite de cuir ; elle confond souvent les sacs plastiques avec des méduses."
      ],
      [
       "Cousin du crocodile en Amérique, au museau large et arrondi",
-      "Alligator"
+      "Alligator",
+      "Gueule fermée, on voit les dents du bas d'un crocodile, mais pas celles d'un alligator."
      ],
      [
       "Lézard qui grimpe aux murs et aux plafonds grâce à ses doigts",
-      "Gecko"
+      "Gecko",
+      "Ses doigts portent des millions de poils microscopiques qui adhèrent à presque tout."
      ],
      [
       "Tortue géante des îles Galápagos",
-      "Tortue des Galápagos"
+      "Tortue des Galápagos",
+      "Elle peut vivre plus de 100 ans ; ses différences d'une île à l'autre ont inspiré Darwin."
      ],
      [
       "Serpent venimeux de France, à la pupille verticale",
-      "Vipère"
+      "Vipère",
+      "Les couleuvres, inoffensives, ont au contraire une pupille ronde."
      ]
     ]
    }
@@ -1007,51 +1092,63 @@
     "paires": [
      [
       "Grand carnivore du Crétacé aux bras minuscules",
-      "Tyrannosaure"
+      "Tyrannosaure",
+      "Il vivait il y a 68 à 66 millions d'années, à la toute fin des dinosaures."
      ],
      [
       "Herbivore à trois cornes et à collerette",
-      "Tricératops"
+      "Tricératops",
+      "Son nom signifie « tête à trois cornes »."
      ],
      [
       "Herbivore à plaques sur le dos et à queue pointue",
-      "Stégosaure"
+      "Stégosaure",
+      "Son cerveau avait à peu près la taille d'une noix, pour un animal de 9 m."
      ],
      [
       "Herbivore géant au très long cou, du Jurassique",
-      "Diplodocus"
+      "Diplodocus",
+      "Il mesurait environ 25 m, en grande partie de cou et de queue."
      ],
      [
       "Petit carnivore rapide à griffe en forme de faucille",
-      "Vélociraptor"
+      "Vélociraptor",
+      "Il avait la taille d'une dinde et des plumes, bien loin de celui des films."
      ],
      [
       "Herbivore à bec de canard et à longue crête tubulaire",
-      "Parasaurolophus"
+      "Parasaurolophus",
+      "Sa crête creuse servait sans doute à produire des sons graves, comme une trompette."
      ],
      [
       "Herbivore cuirassé à queue en massue",
-      "Ankylosaure"
+      "Ankylosaure",
+      "Des plaques osseuses le protégeaient, jusque sur les paupières."
      ],
      [
       "Grand carnivore à voile sur le dos, mangeur de poissons",
-      "Spinosaure"
+      "Spinosaure",
+      "Plus long que le tyrannosaure, il vivait en partie dans l'eau, en Afrique du Nord."
      ],
      [
       "Grand carnivore du Jurassique, bien avant le tyrannosaure",
-      "Allosaure"
+      "Allosaure",
+      "Il vivait il y a environ 150 millions d'années, plus de 80 millions d'années avant le tyrannosaure."
      ],
      [
       "Dinosaure à plumes de Bavière, proche des premiers oiseaux",
-      "Archéoptéryx"
+      "Archéoptéryx",
+      "Découvert en 1861, il mêle dents, griffes et plumes : un lien entre dinosaures et oiseaux."
      ],
      [
       "Herbivore au crâne en dôme très épais",
-      "Pachycéphalosaure"
+      "Pachycéphalosaure",
+      "Le dôme de son crâne pouvait atteindre 25 cm d'épaisseur."
      ],
      [
       "Reptile volant à crête, qui n'est pas un dinosaure",
-      "Ptéranodon"
+      "Ptéranodon",
+      "C'est un ptérosaure, cousin des dinosaures, et il n'avait pas de dents."
      ]
     ]
    }
@@ -1235,55 +1332,68 @@
     "paires": [
      [
       "le fémur",
-      "la cuisse"
+      "la cuisse",
+      "C'est l'os le plus long et le plus solide du corps humain."
      ],
      [
       "le tibia",
-      "la jambe"
+      "la jambe",
+      "Il est juste sous la peau à l'avant de la jambe : c'est pourquoi un coup au tibia fait si mal."
      ],
      [
       "le radius",
-      "l'avant-bras"
+      "l'avant-bras",
+      "Il est du côté du pouce ; l'autre os de l'avant-bras est l'ulna, ou cubitus."
      ],
      [
       "l'humérus",
-      "le bras"
+      "le bras",
+      "Le nerf qui fait mal quand on se cogne le coude passe juste derrière son extrémité."
      ],
      [
       "la rotule",
-      "le genou"
+      "le genou",
+      "Aussi appelée patella, elle est enfermée dans le tendon du quadriceps."
      ],
      [
       "l'omoplate",
-      "l'épaule"
+      "l'épaule",
+      "Son nom savant est la scapula ; elle ne tient au reste du squelette que par la clavicule."
      ],
      [
       "le sternum",
-      "le thorax"
+      "le thorax",
+      "Les côtes s'y rattachent à l'avant par des cartilages."
      ],
      [
       "la mandibule",
-      "la mâchoire"
+      "la mâchoire",
+      "C'est le seul os mobile du crâne."
      ],
      [
       "l'étrier",
-      "l'oreille"
+      "l'oreille",
+      "C'est le plus petit os du corps, environ 3 mm."
      ],
      [
       "les phalanges",
-      "les doigts"
+      "les doigts",
+      "Chaque doigt en a trois, sauf le pouce qui n'en a que deux."
      ],
      [
       "le calcanéum",
-      "le talon"
+      "le talon",
+      "C'est le plus gros os du pied ; le tendon d'Achille s'y attache."
      ],
      [
       "les vertèbres",
-      "le dos"
+      "le dos",
+      "La colonne en compte environ 33 : 7 cervicales, 12 dorsales, 5 lombaires, puis le sacrum et le coccyx."
      ],
      [
       "le pariétal",
-      "le crâne"
+      "le crâne",
+      "Il y en a deux, un de chaque côté du sommet du crâne."
      ]
     ]
    }
@@ -1351,51 +1461,63 @@
     "paires": [
      [
       "pomper le sang dans tout le corps",
-      "Le cœur"
+      "Le cœur",
+      "Il bat environ 100 000 fois par jour."
      ],
      [
       "filtrer le sang et produire l'urine",
-      "Les reins"
+      "Les reins",
+      "Ils filtrent environ 180 litres de liquide par jour pour produire 1 à 2 litres d'urine."
      ],
      [
       "faire passer l'oxygène de l'air dans le sang",
-      "Les poumons"
+      "Les poumons",
+      "Déplissées, leurs alvéoles couvriraient environ 70 m²."
      ],
      [
       "produire la bile et stocker des réserves",
-      "Le foie"
+      "Le foie",
+      "C'est le plus gros organe interne, et il peut se régénérer."
      ],
      [
       "produire l'insuline",
-      "Le pancréas"
+      "Le pancréas",
+      "L'insuline fait baisser le sucre dans le sang ; son manque provoque le diabète de type 1."
      ],
      [
       "absorber les nutriments des aliments digérés",
-      "L'intestin grêle"
+      "L'intestin grêle",
+      "Il mesure environ 6 à 7 mètres de long."
      ],
      [
       "stocker l'urine",
-      "La vessie"
+      "La vessie",
+      "Elle contient environ un demi-litre."
      ],
      [
       "broyer et digérer les aliments avec des sucs acides",
-      "L'estomac"
+      "L'estomac",
+      "Son acide est si fort que sa paroi doit se renouveler en permanence."
      ],
      [
       "protéger le corps du milieu extérieur",
-      "La peau"
+      "La peau",
+      "C'est le plus grand organe du corps : près de 2 m² chez l'adulte."
      ],
      [
       "commander le corps et penser",
-      "Le cerveau"
+      "Le cerveau",
+      "Il pèse environ 1,4 kg et compte quelque 86 milliards de neurones."
      ],
      [
       "stocker la bile entre les repas",
-      "La vésicule biliaire"
+      "La vésicule biliaire",
+      "La bile aide à digérer les graisses ; on peut vivre sans vésicule."
      ],
      [
       "filtrer le sang et aider les défenses immunitaires",
-      "La rate"
+      "La rate",
+      "Elle détruit les vieux globules rouges ; on peut vivre sans elle."
      ]
     ]
    }
@@ -1463,55 +1585,68 @@
     "paires": [
      [
       "le biceps",
-      "l'avant du bras"
+      "l'avant du bras",
+      "Il plie le coude ; son nom veut dire « à deux têtes »."
      ],
      [
       "le triceps",
-      "l'arrière du bras"
+      "l'arrière du bras",
+      "Il tend le bras et a trois têtes, comme son nom l'indique."
      ],
      [
       "le quadriceps",
-      "l'avant de la cuisse"
+      "l'avant de la cuisse",
+      "Ses quatre chefs tendent le genou ; c'est l'un des muscles les plus puissants."
      ],
      [
       "les ischio-jambiers",
-      "l'arrière de la cuisse"
+      "l'arrière de la cuisse",
+      "Ils plient le genou ; leur déchirure est fréquente chez les sprinteurs."
      ],
      [
       "le deltoïde",
-      "l'épaule"
+      "l'épaule",
+      "Il doit son nom à sa forme triangulaire, comme la lettre grecque delta."
      ],
      [
       "le grand pectoral",
-      "la poitrine"
+      "la poitrine",
+      "Il rapproche le bras du corps, par exemple quand on fait des pompes."
      ],
      [
       "le grand droit",
-      "le ventre"
+      "le ventre",
+      "Ce sont les « tablettes de chocolat », séparées par des bandes de tendons."
      ],
      [
       "le grand fessier",
-      "les fesses"
+      "les fesses",
+      "C'est le plus gros muscle du corps ; il nous tient debout et fait monter les escaliers."
      ],
      [
       "le diaphragme",
-      "sous les poumons"
+      "sous les poumons",
+      "En se contractant, il fait entrer l'air dans les poumons ; ses spasmes donnent le hoquet."
      ],
      [
       "le masséter",
-      "la mâchoire"
+      "la mâchoire",
+      "Rapporté à sa taille, c'est l'un des muscles les plus puissants du corps."
      ],
      [
       "le trapèze",
-      "le haut du dos et la nuque"
+      "le haut du dos et la nuque",
+      "Il tire son nom de sa forme et sert à hausser les épaules."
      ],
      [
       "le myocarde",
-      "le cœur"
+      "le cœur",
+      "Il travaille sans jamais se reposer, sans qu'on ait à le commander."
      ],
      [
       "le gastrocnémien",
-      "le mollet"
+      "le mollet",
+      "Avec le soléaire, il forme le triceps sural, qui se termine par le tendon d'Achille."
      ]
     ]
    }
@@ -1579,71 +1714,88 @@
     "paires": [
      [
       "Etna",
-      "Italie"
+      "Italie",
+      "Avec plus de 3 300 m, c'est le plus haut volcan actif d'Europe."
      ],
      [
       "Vésuve",
-      "Italie"
+      "Italie",
+      "Son éruption de l'an 79 a enseveli Pompéi et Herculanum."
      ],
      [
       "Stromboli",
-      "Italie"
+      "Italie",
+      "Ses petites explosions régulières l'ont fait surnommer le phare de la Méditerranée."
      ],
      [
       "Piton de la Fournaise",
-      "France (La Réunion)"
+      "France (La Réunion)",
+      "C'est l'un des volcans les plus actifs du monde, souvent plusieurs éruptions par an."
      ],
      [
       "Montagne Pelée",
-      "France (Martinique)"
+      "France (Martinique)",
+      "Son éruption de 1902 a détruit Saint-Pierre et fait près de 30 000 morts."
      ],
      [
       "Kīlauea",
-      "États-Unis (Hawaï)"
+      "États-Unis (Hawaï)",
+      "Selon la légende hawaïenne, la déesse Pele vit dans son cratère."
      ],
      [
       "Mont Saint Helens",
-      "États-Unis"
+      "États-Unis",
+      "En 1980, son explosion a emporté tout son flanc nord et 400 m de son sommet."
      ],
      [
       "Mont Fuji",
-      "Japon"
+      "Japon",
+      "Avec 3 776 m, c'est le point culminant du Japon ; sa dernière éruption date de 1707."
      ],
      [
       "Eyjafjallajökull",
-      "Islande"
+      "Islande",
+      "Son éruption de 2010 a bloqué une grande partie du trafic aérien européen."
      ],
      [
       "Hekla",
-      "Islande"
+      "Islande",
+      "Au Moyen Âge, on le surnommait la porte de l'enfer."
      ],
      [
       "Krakatoa",
-      "Indonésie"
+      "Indonésie",
+      "Son explosion de 1883 s'est entendue à près de 5 000 km."
      ],
      [
       "Merapi",
-      "Indonésie"
+      "Indonésie",
+      "Son nom signifie « montagne de feu » ; c'est l'un des plus actifs d'Indonésie."
      ],
      [
       "Popocatépetl",
-      "Mexique"
+      "Mexique",
+      "Il domine la région de Mexico ; son nom aztèque signifie « montagne qui fume »."
      ],
      [
       "Erebus",
-      "Antarctique"
+      "Antarctique",
+      "C'est le volcan actif le plus au sud du monde, avec un lac de lave permanent."
      ],
      [
       "Nyiragongo",
-      "République démocratique du Congo"
+      "République démocratique du Congo",
+      "Son cratère abrite l'un des plus grands lacs de lave du monde, au-dessus de la ville de Goma."
      ],
      [
       "Pinatubo",
-      "Philippines"
+      "Philippines",
+      "Son éruption de 1991 a refroidi la planète d'environ 0,5 °C pendant un an."
      ],
      [
       "Cotopaxi",
-      "Équateur"
+      "Équateur",
+      "Avec près de 5 900 m, c'est l'un des plus hauts volcans actifs du monde."
      ]
     ]
    }
@@ -1711,43 +1863,53 @@
     "paires": [
      [
       "Lisbonne",
-      "1755"
+      "1755",
+      "Suivi d'un tsunami et d'incendies, il a bouleversé l'Europe et inspiré à Voltaire un poème célèbre."
      ],
      [
       "San Francisco",
-      "1906"
+      "1906",
+      "Les incendies qui ont suivi ont détruit la plus grande partie de la ville."
      ],
      [
       "Messine",
-      "1908"
+      "1908",
+      "C'est le séisme le plus meurtrier d'Europe au XXe siècle, avec plus de 80 000 morts."
      ],
      [
       "Valdivia (Chili)",
-      "1960"
+      "1960",
+      "De magnitude 9,5, c'est le plus puissant séisme jamais mesuré."
      ],
      [
       "l'Alaska",
-      "1964"
+      "1964",
+      "De magnitude 9,2, c'est le plus puissant séisme mesuré en Amérique du Nord."
      ],
      [
       "Kobe",
-      "1995"
+      "1995",
+      "Il a fait plus de 6 000 morts et poussé le Japon à renforcer ses normes de construction."
      ],
      [
       "Sumatra, suivi d'un tsunami",
-      "2004"
+      "2004",
+      "Le tsunami du 26 décembre a fait environ 230 000 morts autour de l'océan Indien."
      ],
      [
       "Haïti",
-      "2010"
+      "2010",
+      "Il a dévasté Port-au-Prince et fait plus de 200 000 morts."
      ],
      [
       "Tōhoku (Japon)",
-      "2011"
+      "2011",
+      "Son tsunami a provoqué l'accident nucléaire de Fukushima."
      ],
      [
       "Turquie et Syrie",
-      "2023"
+      "2023",
+      "Le 6 février, deux séismes de magnitude 7,8 et 7,5 ont fait plus de 50 000 morts."
      ]
     ]
    }
@@ -1825,51 +1987,63 @@
     "paires": [
      [
       "la Seine",
-      "Paris"
+      "Paris",
+      "Elle prend sa source sur le plateau de Langres et mesure environ 775 km."
      ],
      [
       "la Tamise",
-      "Londres"
+      "Londres",
+      "Elle passe sous Tower Bridge et devant le palais de Westminster."
      ],
      [
       "le Tibre",
-      "Rome"
+      "Rome",
+      "Selon la légende, Romulus et Rémus furent abandonnés dans un panier sur ses eaux."
      ],
      [
       "le Danube",
-      "Budapest"
+      "Budapest",
+      "Il sépare Buda, sur la rive droite, de Pest, sur la rive gauche."
      ],
      [
       "le Tage",
-      "Lisbonne"
+      "Lisbonne",
+      "C'est le plus long fleuve de la péninsule Ibérique ; il prend sa source en Espagne."
      ],
      [
       "le Rhin",
-      "Cologne"
+      "Cologne",
+      "La cathédrale de Cologne domine ses rives."
      ],
      [
       "l'Elbe",
-      "Dresde"
+      "Dresde",
+      "Dresde est surnommée la Florence de l'Elbe."
      ],
      [
       "la Vistule",
-      "Varsovie"
+      "Varsovie",
+      "C'est le plus long fleuve de Pologne ; il traverse aussi Cracovie."
      ],
      [
       "le Guadalquivir",
-      "Séville"
+      "Séville",
+      "Son nom vient de l'arabe et signifie « le grand fleuve »."
      ],
      [
       "l'Arno",
-      "Florence"
+      "Florence",
+      "Le Ponte Vecchio, bordé de boutiques, l'enjambe depuis le XIVe siècle."
      ],
      [
       "la Garonne",
-      "Bordeaux"
+      "Bordeaux",
+      "Elle forme à Bordeaux le port de la Lune, en forme de croissant."
      ],
      [
       "la Loire",
-      "Nantes"
+      "Nantes",
+      "C'est le plus long fleuve de France, avec environ 1 000 km."
      ]
     ]
    },
@@ -1880,35 +2054,43 @@
     "paires": [
      [
       "la Seine",
-      "la Manche"
+      "la Manche",
+      "Elle se jette entre Le Havre et Honfleur."
      ],
      [
       "la Loire",
-      "l'océan Atlantique"
+      "l'océan Atlantique",
+      "Elle rejoint l'océan à Saint-Nazaire."
      ],
      [
       "le Rhône",
-      "la mer Méditerranée"
+      "la mer Méditerranée",
+      "Avant la mer, il forme le delta de la Camargue."
      ],
      [
       "le Rhin",
-      "la mer du Nord"
+      "la mer du Nord",
+      "Il forme avec la Meuse un grand delta aux Pays-Bas, près de Rotterdam."
      ],
      [
       "le Danube",
-      "la mer Noire"
+      "la mer Noire",
+      "Il traverse ou longe dix pays, un record pour un fleuve."
      ],
      [
       "la Volga",
-      "la mer Caspienne"
+      "la mer Caspienne",
+      "C'est le plus long fleuve d'Europe ; la Caspienne où il se jette est une mer fermée."
      ],
      [
       "le Pô",
-      "la mer Adriatique"
+      "la mer Adriatique",
+      "C'est le plus long fleuve d'Italie ; il traverse Turin."
      ],
      [
       "la Vistule",
-      "la mer Baltique"
+      "la mer Baltique",
+      "Elle rejoint la mer près de Gdańsk."
      ]
     ]
    }
@@ -1966,67 +2148,83 @@
     "paires": [
      [
       "Amazone",
-      "Amérique du Sud"
+      "Amérique du Sud",
+      "C'est le fleuve au plus fort débit du monde : environ un cinquième de l'eau douce qui arrive aux océans."
      ],
      [
       "Nil",
-      "Afrique"
+      "Afrique",
+      "Avec environ 6 650 km, il dispute à l'Amazone le titre de plus long fleuve du monde."
      ],
      [
       "Mississippi",
-      "Amérique du Nord"
+      "Amérique du Nord",
+      "Avec le Missouri, il forme l'un des plus longs réseaux fluviaux du monde."
      ],
      [
       "Yangzi Jiang",
-      "Asie"
+      "Asie",
+      "C'est le plus long fleuve d'Asie ; il alimente le barrage des Trois-Gorges."
      ],
      [
       "Gange",
-      "Asie"
+      "Asie",
+      "C'est un fleuve sacré pour les hindous, qui s'y baignent pour se purifier."
      ],
      [
       "Mékong",
-      "Asie"
+      "Asie",
+      "Il traverse six pays, de la Chine au Viêt Nam, où il forme un immense delta."
      ],
      [
       "Congo",
-      "Afrique"
+      "Afrique",
+      "C'est le fleuve le plus profond du monde, avec plus de 220 m par endroits."
      ],
      [
       "Niger",
-      "Afrique"
+      "Afrique",
+      "Il fait un grand arc au bord du Sahara, en passant près de Tombouctou."
      ],
      [
       "Zambèze",
-      "Afrique"
+      "Afrique",
+      "Il forme les chutes Victoria, entre la Zambie et le Zimbabwe."
      ],
      [
       "Murray",
-      "Océanie"
+      "Océanie",
+      "C'est le plus long fleuve d'Australie."
      ],
      [
       "Volga",
-      "Europe"
+      "Europe",
+      "C'est le plus long fleuve d'Europe ; il coule entièrement en Russie."
      ],
      [
       "Paraná",
-      "Amérique du Sud"
+      "Amérique du Sud",
+      "Il alimente le barrage d'Itaipu, entre le Brésil et le Paraguay, l'un des plus puissants du monde."
      ],
      [
       "Orénoque",
-      "Amérique du Sud"
+      "Amérique du Sud",
+      "Il coule surtout au Venezuela et se jette dans l'Atlantique par un grand delta."
      ],
      [
       "Saint-Laurent",
-      "Amérique du Nord"
+      "Amérique du Nord",
+      "Il relie les Grands Lacs à l'océan Atlantique."
      ],
      [
       "Yukon",
-      "Amérique du Nord"
+      "Amérique du Nord",
+      "Il traverse le Canada et l'Alaska ; ses rives ont connu la ruée vers l'or du Klondike."
      ],
      [
       "Indus",
-      "Asie"
+      "Asie",
+      "Il a donné son nom à l'Inde et coule aujourd'hui surtout au Pakistan."
      ]
     ]
    },
@@ -2037,55 +2235,68 @@
     "paires": [
      [
       "le Nil",
-      "Le Caire"
+      "Le Caire",
+      "Juste après Le Caire, il se divise pour former son delta."
      ],
      [
       "l'Amazone",
-      "Iquitos"
+      "Iquitos",
+      "Iquitos, au Pérou, est la plus grande ville du monde qu'aucune route ne relie au reste du pays."
      ],
      [
       "le Mississippi",
-      "La Nouvelle-Orléans"
+      "La Nouvelle-Orléans",
+      "La Nouvelle-Orléans est construite en partie sous le niveau du fleuve, protégée par des digues."
      ],
      [
       "le Gange",
-      "Varanasi"
+      "Varanasi",
+      "Varanasi, ou Bénarès, est la ville sainte de l'hindouisme, avec ses escaliers de bain, les ghats."
      ],
      [
       "le Yangzi Jiang",
-      "Wuhan"
+      "Wuhan",
+      "Wuhan est au confluent du Yangzi et de son affluent, la Han."
      ],
      [
       "l'Hudson",
-      "New York"
+      "New York",
+      "Il porte le nom d'Henry Hudson, qui l'explora en 1609."
      ],
      [
       "le Saint-Laurent",
-      "Québec"
+      "Québec",
+      "Le nom de Québec viendrait d'un mot algonquin signifiant « là où le fleuve se rétrécit »."
      ],
      [
       "le Mékong",
-      "Phnom Penh"
+      "Phnom Penh",
+      "Phnom Penh, capitale du Cambodge, est au confluent du Mékong et du Tonlé Sap."
      ],
      [
       "le Congo",
-      "Kinshasa"
+      "Kinshasa",
+      "Kinshasa fait face à Brazzaville : ce sont les capitales les plus proches du monde, après Rome et le Vatican."
      ],
      [
       "le Niger",
-      "Bamako"
+      "Bamako",
+      "Bamako est la capitale du Mali."
      ],
      [
       "le Tigre",
-      "Bagdad"
+      "Bagdad",
+      "Avec l'Euphrate, il délimite la Mésopotamie, berceau des premières villes."
      ],
      [
       "la Chao Phraya",
-      "Bangkok"
+      "Bangkok",
+      "Ses canaux ont valu à Bangkok le surnom de Venise de l'Orient."
      ],
      [
       "le Potomac",
-      "Washington"
+      "Washington",
+      "Il sépare Washington de la Virginie."
      ]
     ]
    }
@@ -2173,55 +2384,68 @@
     "paires": [
      [
       "Titicaca",
-      "Pérou et Bolivie"
+      "Pérou et Bolivie",
+      "À environ 3 800 m d'altitude, c'est le plus haut grand lac navigable du monde."
      ],
      [
       "Baïkal",
-      "Russie"
+      "Russie",
+      "C'est le lac le plus profond (plus de 1 600 m) et le plus ancien du monde."
      ],
      [
       "Léman",
-      "Suisse et France"
+      "Suisse et France",
+      "Le Rhône y entre en Valais et en ressort à Genève."
      ],
      [
       "Loch Ness",
-      "Écosse"
+      "Écosse",
+      "Il contient plus d'eau douce que tous les lacs d'Angleterre et du pays de Galles réunis."
      ],
      [
       "Victoria",
-      "Ouganda, Kenya et Tanzanie"
+      "Ouganda, Kenya et Tanzanie",
+      "C'est le plus grand lac d'Afrique et la principale source du Nil Blanc."
      ],
      [
       "Supérieur",
-      "États-Unis et Canada"
+      "États-Unis et Canada",
+      "C'est le plus grand lac d'eau douce du monde par sa superficie."
      ],
      [
       "Michigan",
-      "États-Unis"
+      "États-Unis",
+      "C'est le seul des Grands Lacs entièrement aux États-Unis ; Chicago est sur sa rive."
      ],
      [
       "Balaton",
-      "Hongrie"
+      "Hongrie",
+      "C'est le plus grand lac d'Europe centrale, surnommé la mer hongroise."
      ],
      [
       "de Garde",
-      "Italie"
+      "Italie",
+      "C'est le plus grand lac d'Italie."
      ],
      [
       "de Côme",
-      "Italie"
+      "Italie",
+      "Il a la forme d'un Y à l'envers et compte parmi les lacs les plus profonds d'Europe."
      ],
      [
       "de Constance",
-      "Allemagne, Suisse et Autriche"
+      "Allemagne, Suisse et Autriche",
+      "Le Rhin le traverse ; ses frontières sur l'eau n'ont jamais été fixées par un traité."
      ],
      [
       "d'Annecy",
-      "France"
+      "France",
+      "On le dit l'un des lacs les plus purs d'Europe, grâce à un égout construit tout autour dès les années 1960."
      ],
      [
       "Tchad",
-      "Tchad, Cameroun, Niger et Nigeria"
+      "Tchad, Cameroun, Niger et Nigeria",
+      "Sa surface a diminué d'environ 90 % depuis les années 1960."
      ]
     ]
    }
@@ -2319,55 +2543,68 @@
     "paires": [
      [
       "Marseille",
-      "la mer Méditerranée"
+      "la mer Méditerranée",
+      "Fondée par des Grecs de Phocée vers 600 av. J.-C., c'est la plus ancienne ville de France."
      ],
      [
       "Le Havre",
-      "la Manche"
+      "la Manche",
+      "Détruite en 1944, la ville a été reconstruite par l'architecte Auguste Perret."
      ],
      [
       "Saint-Pétersbourg",
-      "la mer Baltique"
+      "la mer Baltique",
+      "Pierre le Grand l'a fondée en 1703 pour ouvrir la Russie sur la mer."
      ],
      [
       "Odessa",
-      "la mer Noire"
+      "la mer Noire",
+      "Son escalier du Potemkine est célèbre grâce au film d'Eisenstein."
      ],
      [
       "Venise",
-      "la mer Adriatique"
+      "la mer Adriatique",
+      "Elle est bâtie sur plus d'une centaine d'îles d'une lagune."
      ],
      [
       "Rotterdam",
-      "la mer du Nord"
+      "la mer du Nord",
+      "C'est le plus grand port d'Europe."
      ],
      [
       "Bakou",
-      "la mer Caspienne"
+      "la mer Caspienne",
+      "Capitale de l'Azerbaïdjan, elle borde la plus grande étendue d'eau fermée du monde."
      ],
      [
       "Djeddah",
-      "la mer Rouge"
+      "la mer Rouge",
+      "C'est la porte d'entrée des pèlerins vers La Mecque."
      ],
      [
       "Sydney",
-      "l'océan Pacifique"
+      "l'océan Pacifique",
+      "Son opéra aux toits en forme de voiles borde la baie de Port Jackson."
      ],
      [
       "Bombay",
-      "l'océan Indien"
+      "l'océan Indien",
+      "Aujourd'hui appelée Mumbai, c'est la capitale économique de l'Inde."
      ],
      [
       "Rio de Janeiro",
-      "l'océan Atlantique"
+      "l'océan Atlantique",
+      "Son nom, « rivière de janvier », vient d'une baie que les Portugais prirent pour un fleuve en 1502."
      ],
      [
       "Vladivostok",
-      "la mer du Japon"
+      "la mer du Japon",
+      "C'est le terminus du Transsibérien, à plus de 9 000 km de Moscou."
      ],
      [
       "Le Pirée, près d'Athènes",
-      "la mer Égée"
+      "la mer Égée",
+      "C'est le port d'Athènes depuis l'Antiquité."
      ]
     ]
    }
@@ -2475,51 +2712,63 @@
     "paires": [
      [
       "La Joconde",
-      "Léonard de Vinci"
+      "Léonard de Vinci",
+      "Elle est exposée au Louvre ; François Ier l'avait acquise."
      ],
      [
       "La Cène",
-      "Léonard de Vinci"
+      "Léonard de Vinci",
+      "Elle est peinte sur un mur du couvent Santa Maria delle Grazie, à Milan."
      ],
      [
       "La Naissance de Vénus",
-      "Sandro Botticelli"
+      "Sandro Botticelli",
+      "On peut la voir à la galerie des Offices, à Florence."
      ],
      [
       "Le Printemps",
-      "Sandro Botticelli"
+      "Sandro Botticelli",
+      "Exposé lui aussi aux Offices, il montre près de 200 espèces de plantes."
      ],
      [
       "La Création d'Adam",
-      "Michel-Ange"
+      "Michel-Ange",
+      "Elle orne le plafond de la chapelle Sixtine, au Vatican."
      ],
      [
       "L'École d'Athènes",
-      "Raphaël"
+      "Raphaël",
+      "Platon et Aristote sont au centre ; la fresque se trouve au Vatican."
      ],
      [
       "La Vénus d'Urbino",
-      "Titien"
+      "Titien",
+      "Elle a inspiré l'Olympia de Manet."
      ],
      [
       "Le Jardin des délices",
-      "Jérôme Bosch"
+      "Jérôme Bosch",
+      "Ce triptyque est exposé au musée du Prado, à Madrid."
      ],
      [
       "Les Époux Arnolfini",
-      "Jan van Eyck"
+      "Jan van Eyck",
+      "Un miroir au fond reflète deux personnages, peut-être le peintre lui-même."
      ],
      [
       "Les Ambassadeurs",
-      "Hans Holbein le Jeune"
+      "Hans Holbein le Jeune",
+      "Une tête de mort déformée n'apparaît qu'en regardant le tableau de biais."
      ],
      [
       "Les Chasseurs dans la neige",
-      "Pieter Bruegel l'Ancien"
+      "Pieter Bruegel l'Ancien",
+      "Peint en 1565, il fait partie d'une série sur les saisons."
      ],
      [
       "Autoportrait à la fourrure",
-      "Albrecht Dürer"
+      "Albrecht Dürer",
+      "Peint en 1500, Dürer s'y représente de face, à la manière du Christ."
      ]
     ]
    }

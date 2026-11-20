@@ -3,3 +3,4 @@
 .swiftpm/xcode/
 xcuserdata/
 DerivedData/
+__pycache__/

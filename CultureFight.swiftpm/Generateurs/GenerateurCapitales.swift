@@ -6,7 +6,7 @@ struct Pays: Decodable, Sendable {
     let capitale: String
     /// 1 = très connu, 3 = rare.
     let notoriete: Int
-    /// Précision affichée après la réponse (capitales multiples…), ou vide.
+    /// Ligne de contexte affichée après la réponse (capitales multiples, histoire…).
     let note: String
 }
 

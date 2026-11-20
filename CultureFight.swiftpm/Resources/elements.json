@@ -4,825 +4,943 @@
   "symbole": "H",
   "nom": "Hydrogène",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Le plus léger et le plus abondant de l'Univers ; son nom veut dire « qui forme l'eau »."
  },
  {
   "numero": 2,
   "symbole": "He",
   "nom": "Hélium",
   "famille": "gaz noble",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Repéré dans la lumière du Soleil (hélios en grec) avant d'être trouvé sur Terre."
  },
  {
   "numero": 3,
   "symbole": "Li",
   "nom": "Lithium",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Le plus léger des métaux, au cœur des batteries des téléphones."
  },
  {
   "numero": 4,
   "symbole": "Be",
   "nom": "Béryllium",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Léger et rigide, il forme les miroirs du télescope James Webb."
  },
  {
   "numero": 5,
   "symbole": "B",
   "nom": "Bore",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "On le trouve dans le borax et dans le verre Pyrex, qui résiste à la chaleur."
  },
  {
   "numero": 6,
   "symbole": "C",
   "nom": "Carbone",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Base de la chimie du vivant ; le diamant et le graphite sont du carbone pur."
  },
  {
   "numero": 7,
   "symbole": "N",
   "nom": "Azote",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Il forme 78 % de l'air que nous respirons."
  },
  {
   "numero": 8,
   "symbole": "O",
   "nom": "Oxygène",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Il forme 21 % de l'air et près de la moitié de la masse de la croûte terrestre."
  },
  {
   "numero": 9,
   "symbole": "F",
   "nom": "Fluor",
   "famille": "halogène",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Le plus réactif de tous les éléments ; on en met dans le dentifrice sous forme de fluorure."
  },
  {
   "numero": 10,
   "symbole": "Ne",
   "nom": "Néon",
   "famille": "gaz noble",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Son nom veut dire « nouveau » en grec ; il donne la lumière rouge orangé des enseignes."
  },
  {
   "numero": 11,
   "symbole": "Na",
   "nom": "Sodium",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Son symbole vient du latin natrium ; avec le chlore, il forme le sel de table."
  },
  {
   "numero": 12,
   "symbole": "Mg",
   "nom": "Magnésium",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Il brûle avec une lumière blanche éclatante, utilisée dans les feux d'artifice."
  },
  {
   "numero": 13,
   "symbole": "Al",
   "nom": "Aluminium",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Le métal le plus abondant de la croûte terrestre ; il était plus cher que l'or sous Napoléon III."
  },
  {
   "numero": 14,
   "symbole": "Si",
   "nom": "Silicium",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Base des puces électroniques, il a donné son nom à la Silicon Valley."
  },
  {
   "numero": 15,
   "symbole": "P",
   "nom": "Phosphore",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Découvert en 1669 dans de l'urine ; son nom veut dire « porteur de lumière »."
  },
  {
   "numero": 16,
   "symbole": "S",
   "nom": "Soufre",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Jaune vif, il donne leur odeur aux œufs pourris, sous forme d'hydrogène sulfuré."
  },
  {
   "numero": 17,
   "symbole": "Cl",
   "nom": "Chlore",
   "famille": "halogène",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Son nom vient du grec « vert pâle », la couleur de ce gaz ; il désinfecte l'eau des piscines."
  },
  {
   "numero": 18,
   "symbole": "Ar",
   "nom": "Argon",
   "famille": "gaz noble",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Son nom veut dire « paresseux » en grec, car il ne réagit presque avec rien ; il forme près de 1 % de l'air."
  },
  {
   "numero": 19,
   "symbole": "K",
   "nom": "Potassium",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Son symbole vient du latin kalium ; la banane en est riche."
  },
  {
   "numero": 20,
   "symbole": "Ca",
   "nom": "Calcium",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Il rend os et dents solides ; le calcaire et la craie en contiennent beaucoup."
  },
  {
   "numero": 21,
   "symbole": "Sc",
   "nom": "Scandium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Nommé d'après la Scandinavie, où il a été découvert."
  },
  {
   "numero": 22,
   "symbole": "Ti",
   "nom": "Titane",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Léger et très résistant, il sert aux prothèses et aux avions ; nommé d'après les Titans."
  },
  {
   "numero": 23,
   "symbole": "V",
   "nom": "Vanadium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Nommé d'après Vanadis, déesse scandinave, pour les belles couleurs de ses composés."
  },
  {
   "numero": 24,
   "symbole": "Cr",
   "nom": "Chrome",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Son nom veut dire « couleur » ; il fait briller les chromes et donne au rubis sa couleur rouge."
  },
  {
   "numero": 25,
   "symbole": "Mn",
   "nom": "Manganèse",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Il rend l'acier plus dur et entre dans les piles alcalines."
  },
  {
   "numero": 26,
   "symbole": "Fe",
   "nom": "Fer",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Son symbole vient du latin ferrum ; c'est le principal composant du noyau de la Terre."
  },
  {
   "numero": 27,
   "symbole": "Co",
   "nom": "Cobalt",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Son nom vient des kobolds, lutins des mines allemandes ; il donne le bleu de cobalt."
  },
  {
   "numero": 28,
   "symbole": "Ni",
   "nom": "Nickel",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Son nom vient du « Kupfernickel », le « démon du cuivre » des mineurs ; il entre dans les pièces de monnaie."
  },
  {
   "numero": 29,
   "symbole": "Cu",
   "nom": "Cuivre",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Son symbole vient du latin cuprum, d'après l'île de Chypre ; il conduit l'électricité dans les fils."
  },
  {
   "numero": 30,
   "symbole": "Zn",
   "nom": "Zinc",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Il protège l'acier de la rouille (galvanisation) et couvre les toits de Paris."
  },
  {
   "numero": 31,
   "symbole": "Ga",
   "nom": "Gallium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Nommé d'après la Gaule ; il fond dans la main, vers 30 °C."
  },
  {
   "numero": 32,
   "symbole": "Ge",
   "nom": "Germanium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Nommé d'après l'Allemagne ; il a servi aux premiers transistors."
  },
  {
   "numero": 33,
   "symbole": "As",
   "nom": "Arsenic",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Poison célèbre, on le surnommait autrefois la « poudre de succession »."
  },
  {
   "numero": 34,
   "symbole": "Se",
   "nom": "Sélénium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Nommé d'après la Lune (sélènè en grec) ; il sert dans les cellules photoélectriques."
  },
  {
   "numero": 35,
   "symbole": "Br",
   "nom": "Brome",
   "famille": "halogène",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Liquide à température ambiante, comme le mercure ; son nom veut dire « puanteur »."
  },
  {
   "numero": 36,
   "symbole": "Kr",
   "nom": "Krypton",
   "famille": "gaz noble",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Son nom veut dire « caché » en grec ; il sert dans certaines lampes et flashs photo."
  },
  {
   "numero": 37,
   "symbole": "Rb",
   "nom": "Rubidium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Son nom vient du latin « rouge foncé », la couleur des raies de sa lumière."
  },
  {
   "numero": 38,
   "symbole": "Sr",
   "nom": "Strontium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Nommé d'après le village écossais de Strontian ; il donne le rouge des feux d'artifice."
  },
  {
   "numero": 39,
   "symbole": "Y",
   "nom": "Yttrium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Il doit son nom au village suédois d'Ytterby, comme l'erbium, le terbium et l'ytterbium."
  },
  {
   "numero": 40,
   "symbole": "Zr",
   "nom": "Zirconium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Il gaine le combustible des réacteurs nucléaires ; la zircone, qui en contient, imite le diamant."
  },
  {
   "numero": 41,
   "symbole": "Nb",
   "nom": "Niobium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Nommé d'après Niobé, fille de Tantale, car il ressemble au tantale."
  },
  {
   "numero": 42,
   "symbole": "Mo",
   "nom": "Molybdène",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Il durcit les aciers ; son nom vient du grec « plomb », avec lequel on le confondait."
  },
  {
   "numero": 43,
   "symbole": "Tc",
   "nom": "Technétium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Premier élément produit artificiellement, en 1937 ; son nom veut dire « artificiel »."
  },
  {
   "numero": 44,
   "symbole": "Ru",
   "nom": "Ruthénium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Nommé d'après la Ruthénie, ancien nom latin de la Russie."
  },
  {
   "numero": 45,
   "symbole": "Rh",
   "nom": "Rhodium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Son nom vient du grec « rose », couleur de ses sels ; c'est l'un des métaux les plus chers."
  },
  {
   "numero": 46,
   "symbole": "Pd",
   "nom": "Palladium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Nommé d'après l'astéroïde Pallas ; il sert dans les pots catalytiques."
  },
  {
   "numero": 47,
   "symbole": "Ag",
   "nom": "Argent",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Son symbole vient du latin argentum ; c'est le meilleur conducteur d'électricité."
  },
  {
   "numero": 48,
   "symbole": "Cd",
   "nom": "Cadmium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Toxique, il servait dans les batteries nickel-cadmium, aujourd'hui presque abandonnées."
  },
  {
   "numero": 49,
   "symbole": "In",
   "nom": "Indium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Nommé d'après la raie indigo de sa lumière ; il sert dans les écrans tactiles."
  },
  {
   "numero": 50,
   "symbole": "Sn",
   "nom": "Étain",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Son symbole vient du latin stannum ; allié au cuivre, il forme le bronze."
  },
  {
   "numero": 51,
   "symbole": "Sb",
   "nom": "Antimoine",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Son symbole vient du latin stibium ; les Égyptiennes s'en servaient comme khôl."
  },
  {
   "numero": 52,
   "symbole": "Te",
   "nom": "Tellure",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Nommé d'après la Terre, tellus en latin."
  },
  {
   "numero": 53,
   "symbole": "I",
   "nom": "Iode",
   "famille": "halogène",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Son nom vient du grec « violet », la couleur de ses vapeurs ; il est indispensable à la thyroïde."
  },
  {
   "numero": 54,
   "symbole": "Xe",
   "nom": "Xénon",
   "famille": "gaz noble",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Son nom veut dire « étranger » ; il éclaire des phares de voiture et propulse des sondes spatiales."
  },
  {
   "numero": 55,
   "symbole": "Cs",
   "nom": "Césium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Il définit la seconde dans les horloges atomiques ; son nom veut dire « bleu ciel »."
  },
  {
   "numero": 56,
   "symbole": "Ba",
   "nom": "Baryum",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Son nom vient du grec « lourd » ; on en avale avant une radio de l'estomac."
  },
  {
   "numero": 57,
   "symbole": "La",
   "nom": "Lanthane",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Il a donné son nom aux lanthanides ; son nom veut dire « caché »."
  },
  {
   "numero": 58,
   "symbole": "Ce",
   "nom": "Cérium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après l'astéroïde Cérès ; il sert dans les pierres à briquet."
  },
  {
   "numero": 59,
   "symbole": "Pr",
   "nom": "Praséodyme",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Son nom veut dire « jumeau vert » ; il colore le verre en jaune-vert."
  },
  {
   "numero": 60,
   "symbole": "Nd",
   "nom": "Néodyme",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Il sert à fabriquer les aimants les plus puissants, dans les éoliennes et les écouteurs."
  },
  {
   "numero": 61,
   "symbole": "Pm",
   "nom": "Prométhium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Prométhée ; tous ses isotopes sont radioactifs."
  },
  {
   "numero": 62,
   "symbole": "Sm",
   "nom": "Samarium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après un minéral, la samarskite, lui-même nommé d'après un ingénieur russe."
  },
  {
   "numero": 63,
   "symbole": "Eu",
   "nom": "Europium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après l'Europe ; il brille sous ultraviolet dans les encres des billets en euros."
  },
  {
   "numero": 64,
   "symbole": "Gd",
   "nom": "Gadolinium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après le chimiste finlandais Johan Gadolin ; il sert de produit de contraste en IRM."
  },
  {
   "numero": 65,
   "symbole": "Tb",
   "nom": "Terbium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "L'un des quatre éléments nommés d'après le village suédois d'Ytterby."
  },
  {
   "numero": 66,
   "symbole": "Dy",
   "nom": "Dysprosium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Son nom veut dire « difficile à obtenir » en grec."
  },
  {
   "numero": 67,
   "symbole": "Ho",
   "nom": "Holmium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Holmia, nom latin de Stockholm."
  },
  {
   "numero": 68,
   "symbole": "Er",
   "nom": "Erbium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Ytterby, en Suède ; il amplifie la lumière dans les fibres optiques."
  },
  {
   "numero": 69,
   "symbole": "Tm",
   "nom": "Thulium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Thulé, nom ancien du Grand Nord."
  },
  {
   "numero": 70,
   "symbole": "Yb",
   "nom": "Ytterbium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Le quatrième élément nommé d'après le village suédois d'Ytterby."
  },
  {
   "numero": 71,
   "symbole": "Lu",
   "nom": "Lutécium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Lutèce, l'ancien nom de Paris."
  },
  {
   "numero": 72,
   "symbole": "Hf",
   "nom": "Hafnium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Hafnia, nom latin de Copenhague."
  },
  {
   "numero": 73,
   "symbole": "Ta",
   "nom": "Tantale",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Tantale, du mythe grec ; il sert dans les condensateurs des téléphones."
  },
  {
   "numero": 74,
   "symbole": "W",
   "nom": "Tungstène",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Son symbole vient de son autre nom, wolfram ; il a le plus haut point de fusion des métaux."
  },
  {
   "numero": 75,
   "symbole": "Re",
   "nom": "Rhénium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après le Rhin ; c'est l'un des derniers éléments stables découverts, en 1925."
  },
  {
   "numero": 76,
   "symbole": "Os",
   "nom": "Osmium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Le plus dense des éléments ; son nom veut dire « odeur »."
  },
  {
   "numero": 77,
   "symbole": "Ir",
   "nom": "Iridium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Iris, déesse de l'arc-en-ciel ; une couche riche en iridium marque la chute de l'astéroïde des dinosaures."
  },
  {
   "numero": 78,
   "symbole": "Pt",
   "nom": "Platine",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Son nom vient de l'espagnol platina, « petit argent » ; l'ancien kilogramme étalon était en platine iridié."
  },
  {
   "numero": 79,
   "symbole": "Au",
   "nom": "Or",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Son symbole vient du latin aurum ; il ne rouille jamais."
  },
  {
   "numero": 80,
   "symbole": "Hg",
   "nom": "Mercure",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Seul métal liquide à température ambiante ; son symbole vient du latin hydrargyrum, « argent liquide »."
  },
  {
   "numero": 81,
   "symbole": "Tl",
   "nom": "Thallium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Son nom vient du grec « rameau vert », couleur de sa raie ; c'est un poison redoutable."
  },
  {
   "numero": 82,
   "symbole": "Pb",
   "nom": "Plomb",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Son symbole vient du latin plumbum, qui a donné le mot « plombier »."
  },
  {
   "numero": 83,
   "symbole": "Bi",
   "nom": "Bismuth",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Il forme de spectaculaires cristaux irisés en escalier."
  },
  {
   "numero": 84,
   "symbole": "Po",
   "nom": "Polonium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Découvert par Marie et Pierre Curie en 1898, nommé d'après la Pologne, pays natal de Marie."
  },
  {
   "numero": 85,
   "symbole": "At",
   "nom": "Astate",
   "famille": "halogène",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Son nom veut dire « instable » ; c'est l'un des éléments les plus rares de la croûte terrestre."
  },
  {
   "numero": 86,
   "symbole": "Rn",
   "nom": "Radon",
   "famille": "gaz noble",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Ce gaz radioactif s'échappe du granite et peut s'accumuler dans les caves, en Bretagne par exemple."
  },
  {
   "numero": 87,
   "symbole": "Fr",
   "nom": "Francium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Découvert en 1939 par Marguerite Perey, de l'Institut Curie, et nommé d'après la France."
  },
  {
   "numero": 88,
   "symbole": "Ra",
   "nom": "Radium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Découvert par les Curie en 1898 ; il brille dans le noir et peignait autrefois des cadrans de montres."
  },
  {
   "numero": 89,
   "symbole": "Ac",
   "nom": "Actinium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Son nom vient du grec « rayon » ; il a donné son nom aux actinides."
  },
  {
   "numero": 90,
   "symbole": "Th",
   "nom": "Thorium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Thor, dieu nordique du tonnerre."
  },
  {
   "numero": 91,
   "symbole": "Pa",
   "nom": "Protactinium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Son nom veut dire « avant l'actinium », car il se désintègre en actinium."
  },
  {
   "numero": 92,
   "symbole": "U",
   "nom": "Uranium",
   "famille": "",
-  "notoriete": 1
+  "notoriete": 1,
+  "anecdote": "Nommé d'après la planète Uranus ; c'est le combustible des centrales nucléaires."
  },
  {
   "numero": 93,
   "symbole": "Np",
   "nom": "Neptunium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Neptune, la planète qui suit Uranus : c'est l'élément qui suit l'uranium."
  },
  {
   "numero": 94,
   "symbole": "Pu",
   "nom": "Plutonium",
   "famille": "",
-  "notoriete": 2
+  "notoriete": 2,
+  "anecdote": "Nommé d'après Pluton ; il a servi à la bombe de Nagasaki."
  },
  {
   "numero": 95,
   "symbole": "Am",
   "nom": "Américium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après l'Amérique ; une infime quantité se trouve dans certains détecteurs de fumée."
  },
  {
   "numero": 96,
   "symbole": "Cm",
   "nom": "Curium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé en hommage à Marie et Pierre Curie."
  },
  {
   "numero": 97,
   "symbole": "Bk",
   "nom": "Berkélium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après la ville de Berkeley, en Californie, où il a été créé."
  },
  {
   "numero": 98,
   "symbole": "Cf",
   "nom": "Californium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après la Californie ; c'est l'une des substances les plus chères du monde."
  },
  {
   "numero": 99,
   "symbole": "Es",
   "nom": "Einsteinium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Albert Einstein ; découvert en 1952 dans les débris de la première bombe H."
  },
  {
   "numero": 100,
   "symbole": "Fm",
   "nom": "Fermium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Enrico Fermi ; lui aussi découvert dans les débris de la première bombe H."
  },
  {
   "numero": 101,
   "symbole": "Md",
   "nom": "Mendélévium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Dmitri Mendeleïev, inventeur du tableau périodique."
  },
  {
   "numero": 102,
   "symbole": "No",
   "nom": "Nobélium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Alfred Nobel, créateur des prix Nobel."
  },
  {
   "numero": 103,
   "symbole": "Lr",
   "nom": "Lawrencium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Ernest Lawrence, inventeur du cyclotron."
  },
  {
   "numero": 104,
   "symbole": "Rf",
   "nom": "Rutherfordium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Ernest Rutherford, qui a découvert le noyau de l'atome."
  },
  {
   "numero": 105,
   "symbole": "Db",
   "nom": "Dubnium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Doubna, ville russe d'un grand laboratoire nucléaire."
  },
  {
   "numero": 106,
   "symbole": "Sg",
   "nom": "Seaborgium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Glenn Seaborg : le premier élément nommé d'après une personne vivante."
  },
  {
   "numero": 107,
   "symbole": "Bh",
   "nom": "Bohrium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Niels Bohr, pionnier de la physique de l'atome."
  },
  {
   "numero": 108,
   "symbole": "Hs",
   "nom": "Hassium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après la Hesse, la région allemande de son laboratoire, à Darmstadt."
  },
  {
   "numero": 109,
   "symbole": "Mt",
   "nom": "Meitnérium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Lise Meitner, physicienne qui a expliqué la fission nucléaire."
  },
  {
   "numero": 110,
   "symbole": "Ds",
   "nom": "Darmstadtium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Darmstadt, en Allemagne, où il a été créé."
  },
  {
   "numero": 111,
   "symbole": "Rg",
   "nom": "Roentgenium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Wilhelm Röntgen, découvreur des rayons X."
  },
  {
   "numero": 112,
   "symbole": "Cn",
   "nom": "Copernicium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après Nicolas Copernic, qui a placé le Soleil au centre du système."
  },
  {
   "numero": 113,
   "symbole": "Nh",
   "nom": "Nihonium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Créé au Japon, il est nommé d'après Nihon, « le Japon » en japonais."
  },
  {
   "numero": 114,
   "symbole": "Fl",
   "nom": "Flérovium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après le laboratoire Flerov de Doubna, en Russie."
  },
  {
   "numero": 115,
   "symbole": "Mc",
   "nom": "Moscovium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après la région de Moscou."
  },
  {
   "numero": 116,
   "symbole": "Lv",
   "nom": "Livermorium",
   "famille": "",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après le laboratoire de Livermore, en Californie."
  },
  {
   "numero": 117,
   "symbole": "Ts",
   "nom": "Tennessine",
   "famille": "halogène",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Nommé d'après le Tennessee, où ont été produits des ingrédients de sa fabrication."
  },
  {
   "numero": 118,
   "symbole": "Og",
   "nom": "Oganesson",
   "famille": "gaz noble",
-  "notoriete": 3
+  "notoriete": 3,
+  "anecdote": "Le plus lourd élément connu, nommé d'après le physicien russe Iouri Oganessian."
  }
 ]
