@@ -137,6 +137,8 @@ struct EffetImpact: ViewModifier {
     let declencheur: Int
     /// Variation de PV : négative pour des dégâts, positive pour un soin.
     let variation: Int
+    /// Attente avant l'effet (le temps qu'une animation d'attaque arrive).
+    var delai: Double = 0
 
     func body(content: Content) -> some View {
         content
@@ -152,7 +154,7 @@ struct EffetImpact: ViewModifier {
                     }
             } keyframes: { _ in
                 KeyframeTrack(\.decalage) {
-                    LinearKeyframe(0, duration: 0.01)
+                    LinearKeyframe(0, duration: 0.01 + delai)
                     SpringKeyframe(-14, duration: 0.07)
                     SpringKeyframe(12, duration: 0.07)
                     SpringKeyframe(-8, duration: 0.07)
@@ -160,11 +162,12 @@ struct EffetImpact: ViewModifier {
                     SpringKeyframe(0, duration: 0.2)
                 }
                 KeyframeTrack(\.echelle) {
-                    LinearKeyframe(1, duration: 0.01)
+                    LinearKeyframe(1, duration: 0.01 + delai)
                     SpringKeyframe(variation < 0 ? 0.95 : 1.05, duration: 0.12)
                     SpringKeyframe(1, duration: 0.35)
                 }
                 KeyframeTrack(\.flash) {
+                    LinearKeyframe(0, duration: 0.001 + delai)
                     LinearKeyframe(0.45, duration: 0.05)
                     LinearKeyframe(0, duration: 0.45)
                 }
@@ -183,6 +186,8 @@ struct Envol {
 struct ChiffreEnvole: View {
     let declencheur: Int
     let variation: Int
+    /// Attente avant l'envol (le temps qu'une animation d'attaque arrive).
+    var delai: Double = 0
 
     var body: some View {
         Text(variation < 0 ? "\(variation)" : "+\(variation)")
@@ -193,15 +198,17 @@ struct ChiffreEnvole: View {
                 vue.offset(y: v.y).opacity(v.opacite).scaleEffect(v.echelle)
             } keyframes: { _ in
                 KeyframeTrack(\.y) {
-                    LinearKeyframe(0, duration: 0.01)
+                    LinearKeyframe(0, duration: 0.01 + delai)
                     CubicKeyframe(-70, duration: 1.0)
                 }
                 KeyframeTrack(\.opacite) {
+                    LinearKeyframe(0, duration: 0.001 + delai)
                     LinearKeyframe(1, duration: 0.08)
                     LinearKeyframe(1, duration: 0.55)
                     LinearKeyframe(0, duration: 0.4)
                 }
                 KeyframeTrack(\.echelle) {
+                    LinearKeyframe(0.6, duration: 0.001 + delai)
                     SpringKeyframe(1.3, duration: 0.18)
                     SpringKeyframe(1, duration: 0.3)
                     LinearKeyframe(0.9, duration: 0.5)

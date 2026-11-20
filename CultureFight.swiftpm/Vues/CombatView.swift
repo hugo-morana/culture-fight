@@ -10,6 +10,12 @@ struct CombatView: View {
     var abandonne: () -> Void = {}
 
     @State private var confirmerAbandon = false
+    /// Animation d'attaque en cours, dans le style de l'attaquant.
+    @State private var attaque: AttaqueJouee?
+    @State private var attaquesJouees = 0
+    /// Compteur par camp : le combattant actif prend son élan quand il pose sa question.
+    @State private var elans = [0, 0]
+    @Environment(\.accessibilityReduceMotion) private var mouvementReduit
 
     /// Identité de ce qui est affiché au centre : change à chaque question, résultat ou fin.
     private var clePhase: String {
@@ -26,7 +32,10 @@ struct CombatView: View {
             entete
             CarteCamp(camp: controleur.combat.camps[1],
                       impacts: controleur.impacts[1],
-                      variation: controleur.variations[1])
+                      variation: controleur.variations[1],
+                      elan: elans[1],
+                      delaiImpact: delaiImpact(camp: 1))
+                .anchorPreference(key: CadresCamps.self, value: .bounds) { [1: $0] }
             ScrollView {
                 ZStack {
                     zoneCentrale
@@ -40,9 +49,28 @@ struct CombatView: View {
             }
             CarteCamp(camp: controleur.combat.camps[0],
                       impacts: controleur.impacts[0],
-                      variation: controleur.variations[0])
+                      variation: controleur.variations[0],
+                      elan: elans[0],
+                      delaiImpact: delaiImpact(camp: 0))
+                .anchorPreference(key: CadresCamps.self, value: .bounds) { [0: $0] }
         }
         .padding()
+        .overlayPreferenceValue(CadresCamps.self) { cadres in
+            GeometryReader { geo in
+                if let attaque, let depuis = cadres[attaque.depuis], let vers = cadres[attaque.vers] {
+                    CoucheAttaque(attaque: attaque,
+                                  depart: Self.avatar(geo[depuis]),
+                                  arrivee: Self.avatar(geo[vers]))
+                }
+            }
+        }
+        .modifier(SecousseAttaque(declencheur: attaquesJouees, force: attaque?.famille.secousse ?? 0))
+        .onChange(of: clePhase) { _, _ in reagirALaPhase() }
+        .task(id: attaque?.id) {
+            guard let id = attaque?.id else { return }
+            try? await Task.sleep(for: .seconds(TempsAttaque.duree))
+            if attaque?.id == id { attaque = nil }
+        }
         .overlay {
             if controleur.estFini && controleur.estVictoire {
                 Confettis().ignoresSafeArea()
@@ -60,6 +88,41 @@ struct CombatView: View {
             }
         } message: {
             Text("Un abandon compte comme une défaite : aucune Pièce, et tu perds de l'XP de compte.")
+        }
+    }
+
+    /// Centre de l'avatar d'une carte de camp (l'avatar est à gauche, 64 points de côté, 12 de marge).
+    private static func avatar(_ cadre: CGRect) -> CGPoint {
+        CGPoint(x: cadre.minX + 44, y: cadre.minY + 44)
+    }
+
+    /// Le camp que vise l'attaque du résultat affiché : il tremble à l'arrivée du coup, pas avant.
+    private func campVise(_ resultat: ResultatTour) -> Int? {
+        let defenseur = resultat.defenseurEstJoueur ? 0 : 1
+        if resultat.correct { return resultat.degatsContre > 0 ? 1 - defenseur : nil }
+        return resultat.degatsDefenseur > 0 || resultat.degatsAbsorbes > 0 ? defenseur : nil
+    }
+
+    private func delaiImpact(camp: Int) -> Double {
+        guard !mouvementReduit, case .resultat(let resultat) = controleur.phase,
+              campVise(resultat) == camp else { return 0 }
+        return TempsAttaque.arrivee
+    }
+
+    /// Élan à la question ; au résultat, l'attaque (mauvaise réponse) ou la contre-attaque (bonne réponse).
+    private func reagirALaPhase() {
+        switch controleur.phase {
+        case .question:
+            elans[controleur.combat.attaquant] += 1
+        case .resultat(let resultat):
+            guard !mouvementReduit, let vise = campVise(resultat) else { return }
+            let tireur = 1 - vise
+            attaquesJouees += 1
+            attaque = AttaqueJouee(id: attaquesJouees,
+                                   famille: controleur.combat.camps[tireur].actif.modele.familleStyle,
+                                   depuis: tireur, vers: vise, debut: .now)
+        default:
+            break
         }
     }
 
@@ -118,6 +181,10 @@ struct CarteCamp: View {
     let impacts: Int
     /// Dernière variation de PV (négative : dégâts, positive : soin).
     let variation: Int
+    /// Augmente quand le combattant actif pose sa question.
+    var elan: Int = 0
+    /// Attente avant de trembler, le temps que l'attaque arrive.
+    var delaiImpact: Double = 0
 
     var body: some View {
         let actif = camp.actif
@@ -175,9 +242,14 @@ struct CarteCamp: View {
         }
         .padding(12)
         .background(RoundedRectangle(cornerRadius: 14).fill(Color.white.opacity(0.06)))
-        .modifier(EffetImpact(declencheur: impacts, variation: variation))
+        .modifier(EffetImpact(declencheur: impacts, variation: variation, delai: delaiImpact))
+        .overlay(alignment: .topLeading) {
+            ElanAttaque(declencheur: elan, picto: actif.modele.familleStyle.picto)
+                .padding(.leading, 30)
+                .padding(.top, 20)
+        }
         .overlay(alignment: .topTrailing) {
-            ChiffreEnvole(declencheur: impacts, variation: variation)
+            ChiffreEnvole(declencheur: impacts, variation: variation, delai: delaiImpact)
                 .padding(.trailing, 28)
                 .padding(.top, 4)
         }
