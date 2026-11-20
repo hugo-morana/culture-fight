@@ -43,7 +43,7 @@ enum Pictos {
         case "Squelette": return "🦴"
         case "Séismes et tectonique": return "📳"
         case "Volcans": return "🌋"
-        default: return domaine(domaine)
+        default: return Pictos.domaine(domaine)
         }
     }
 
