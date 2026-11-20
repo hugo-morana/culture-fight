@@ -280,5 +280,295 @@
    "krakenlac",
    "orquebusier"
   ]
+ },
+ {
+  "id": "everyeti",
+  "pays": "geonie",
+  "lieu": "Les Monts Glaciaires",
+  "histoire": "Gardien des Monts Glaciaires, Everyeti a planté son petit drapeau sur chaque sommet de Géonie. Il connaît l'altitude de toutes les cimes du Monde d'en haut et grogne quand on confond l'Everest et le K2. Sahamelouk lui envoie du sable chaud en hiver.",
+  "liens": [
+   "sahamelouk",
+   "golemagma"
+  ]
+ },
+ {
+  "id": "sahamelouk",
+  "pays": "geonie",
+  "lieu": "Le Désert des Dunes Chantantes",
+  "histoire": "Cavalier du Désert des Dunes Chantantes, Sahamelouk traverse les ergs sans jamais se perdre : il lit sa route dans les étoiles et les dunes. Il garde les oasis de Géonie et parie avec Everyeti qu'il fait plus chaud chez lui qu'il ne fait froid là-haut.",
+  "liens": [
+   "everyeti",
+   "ile-lusionniste"
+  ]
+ },
+ {
+  "id": "ile-lusionniste",
+  "pays": "geonie",
+  "lieu": "L'Archipel des Illusions",
+  "histoire": "Maître de l'Archipel des Illusions, Île-Lusionniste fait surgir des îles de son chapeau et disparaître des archipels entiers. Ses mouettes lui rapportent le nom de chaque île du Monde d'en haut. Flibustlantique n'a jamais réussi à aborder ses îles : elles changent de place.",
+  "liens": [
+   "flibustlantique",
+   "sahamelouk"
+  ]
+ },
+ {
+  "id": "diamanticore",
+  "pays": "geonie",
+  "lieu": "Les Grottes de Cristal",
+  "histoire": "Trésor vivant des Grottes de Cristal, Diamanticore a laissé pousser dans sa crinière une pierre de chaque couleur. Il reconnaît un rubis d'un grenat au premier regard et pique d'un dard de diamant qui veut le voler. Mohsquetaire raye tout, sauf lui.",
+  "liens": [
+   "mohsquetaire",
+   "silexcalibur"
+  ]
+ },
+ {
+  "id": "mohsquetaire",
+  "pays": "geonie",
+  "lieu": "Les Grottes de Cristal",
+  "histoire": "Bretteur des Grottes de Cristal, Mohsquetaire juge tout adversaire en le rayant de sa rapière de quartz : du talc au diamant, chacun a son rang. Il a juré de rayer un jour la crinière de Diamanticore. Silexcalibur lui sert de pierre à aiguiser.",
+  "liens": [
+   "diamanticore",
+   "silexcalibur"
+  ]
+ },
+ {
+  "id": "silexcalibur",
+  "pays": "geonie",
+  "lieu": "Les Grottes de Cristal",
+  "histoire": "Chevalier des Grottes de Cristal, Silexcalibur porte sur son dos le rocher où dort son épée de silex : nul ne l'en a encore tirée. Il lit l'histoire de Géonie dans les couches de roche. Golemagma lui fabrique du basalte neuf à chaque éruption.",
+  "liens": [
+   "golemagma",
+   "mohsquetaire"
+  ]
+ },
+ {
+  "id": "asiadecapitator",
+  "pays": "mappemondie",
+  "lieu": "La Route des Capitales",
+  "histoire": "Bourreau de l'aile orientale du Grand Atlas, Asiadecapitator garde les portes des capitales d'Asie, chacune éclairée par une lanterne. Il tranche net les hésitations entre Pékin et Shanghai. Il ne dîne qu'avec ses frères Afrodecapitator et Eurodecapitator.",
+  "liens": [
+   "afrodecapitator",
+   "eurodecapitator"
+  ]
+ },
+ {
+  "id": "eurodecapitator",
+  "pays": "mappemondie",
+  "lieu": "La Route des Capitales",
+  "histoire": "Bourreau voyageur de la Route des Capitales, Eurodecapitator a fait le tour des capitales d'Europe en train de nuit, une carte postale pour chacune. Qui confond Berne et Zurich le retrouve sur son quai. Il échange ses billets de train avec Asiadecapitator.",
+  "liens": [
+   "asiadecapitator",
+   "afrodecapitator"
+  ]
+ },
+ {
+  "id": "bogotador",
+  "pays": "mappemondie",
+  "lieu": "La Route des Capitales",
+  "histoire": "Matador de la Route des Capitales, Bogotador agite une muleta où brillent toutes les capitales des Amériques. Il esquive les questions comme on esquive un taureau, d'Ottawa à Buenos Aires. Il rêve d'affronter Hakapitale de l'autre côté du Pacifique.",
+  "liens": [
+   "hakapitale",
+   "eurodecapitator"
+  ]
+ },
+ {
+  "id": "hakapitale",
+  "pays": "mappemondie",
+  "lieu": "La Route des Capitales",
+  "histoire": "Guerrier venu des îles du bout de la Route des Capitales, Hakapitale ouvre chaque duel par un haka qui fait trembler l'Agora. Il connaît chaque capitale du Pacifique, de Canberra à Funafuti. Son kangourou boxeur l'accompagne partout ; Île-Lusionniste lui a promis une île.",
+  "liens": [
+   "bogotador",
+   "ile-lusionniste"
+  ]
+ },
+ {
+  "id": "drapeautomate",
+  "pays": "mappemondie",
+  "lieu": "La Place des Drapeaux",
+  "histoire": "Horloge vivante de la Place des Drapeaux, Drapeautomate hisse un drapeau d'Europe à chaque tic-tac de son mécanisme. Il ne confond jamais une croix nordique avec une autre. Drapolancier remonte sa clé chaque matin en échange d'une leçon de couleurs.",
+  "liens": [
+   "drapolancier",
+   "eurodecapitator"
+  ]
+ },
+ {
+  "id": "drapolancier",
+  "pays": "mappemondie",
+  "lieu": "La Place des Drapeaux",
+  "histoire": "Cavalier de la Place des Drapeaux, Drapolancier change de fanion à chaque charge, sans jamais se tromper de couleurs. Il connaît le sens du vert, du jaune et du rouge de chaque drapeau d'Afrique. Afrodecapitator lui ouvre la route ; Drapeautomate lui doit une revanche.",
+  "liens": [
+   "afrodecapitator",
+   "drapeautomate"
+  ]
+ },
+ {
+  "id": "dollarbalete",
+  "pays": "mappemondie",
+  "lieu": "Le Marché des Monnaies",
+  "histoire": "Banquier armé du Marché des Monnaies, Dollarbalète tire des pièces de tous les pays du Monde d'en haut. Il change les Pièces de savoir de l'Agora au meilleur taux et repère une fausse monnaie au son. Gladialecte lui traduit ses contrats.",
+  "liens": [
+   "gladialecte",
+   "eurodecapitator"
+  ]
+ },
+ {
+  "id": "gladialecte",
+  "pays": "mappemondie",
+  "lieu": "La Tour des Langues",
+  "histoire": "Championne de la Tour des Langues, Gladialecte salue chaque adversaire dans sa langue avant le duel. Son trident répond « oui », « yes » ou « sí » selon la question. Elle traduit les contrats de Dollarbalète et les cris de la horde d'Hordemographe.",
+  "liens": [
+   "dollarbalete",
+   "hordemographe"
+  ]
+ },
+ {
+  "id": "hordemographe",
+  "pays": "mappemondie",
+  "lieu": "Capitalia",
+  "histoire": "Horde turbulente de Capitalia, Hordemographe compte ses membres à chaque bataille et n'est jamais d'accord sur le total. Elle connaît la population de chaque pays et grossit à chaque recensement. Cyclopolis lui prête ses rues pour défiler.",
+  "liens": [
+   "cyclopolis",
+   "gladialecte"
+  ]
+ },
+ {
+  "id": "cyclopolis",
+  "pays": "mappemondie",
+  "lieu": "Capitalia",
+  "histoire": "Géant de Capitalia, Cyclopolis porte une ville entière sur le dos et éclaire la nuit de son œil-phare. Chaque gratte-ciel qui pousse sur ses épaules lui apprend le nom d'une métropole. Hordemographe défile dans ses avenues les jours de fête.",
+  "liens": [
+   "hordemographe",
+   "ain-domptable"
+  ]
+ },
+ {
+  "id": "ain-domptable",
+  "pays": "mappemondie",
+  "lieu": "La Province d'Hexagonie",
+  "histoire": "Colosse de la Province d'Hexagonie, Ain-Domptable porte sur son armure la plaque de chaque département, de l'Ain à Mayotte. Il récite les numéros plus vite qu'un facteur. Shérifecture vient tamponner ses plaques et Région-Air les range par région.",
+  "liens": [
+   "sherifecture",
+   "region-air"
+  ]
+ },
+ {
+  "id": "sherifecture",
+  "pays": "mappemondie",
+  "lieu": "La Province d'Hexagonie",
+  "histoire": "Shérif de la Province d'Hexagonie, Shérifecture fait régner l'ordre administratif à coups de tampon. Il connaît la préfecture de chaque département et dégaine plus vite qu'un guichet. Ain-Domptable lui confie ses plaques à tamponner.",
+  "liens": [
+   "ain-domptable",
+   "region-air"
+  ]
+ },
+ {
+  "id": "region-air",
+  "pays": "mappemondie",
+  "lieu": "La Province d'Hexagonie",
+  "histoire": "Parachutiste de la Province d'Hexagonie, Région-Air a sauté au-dessus de chacune des 18 régions de France. Son sac en puzzle s'assemble sans une pièce de trop depuis la réforme de 2016. Il range les plaques d'Ain-Domptable par région.",
+  "liens": [
+   "ain-domptable",
+   "sherifecture"
+  ]
+ },
+ {
+  "id": "momiephis",
+  "pays": "chronie",
+  "lieu": "Le Quartier antique",
+  "histoire": "Réveillé dans une tombe du Quartier antique, Momiephis se souvient de chaque pharaon qui a régné sur le Nil. Il compte les dynasties sur ses bandelettes et protège les secrets des pyramides. Néronin vient parfois lui raconter Rome.",
+  "liens": [
+   "neronin",
+   "thermopyl-ou-face"
+  ]
+ },
+ {
+  "id": "neronin",
+  "pays": "chronie",
+  "lieu": "Le Quartier antique",
+  "histoire": "Samouraï sans maître du Quartier antique, Néronin a servi tous les empereurs de Rome sans en garder aucun. Il joue de la lyre quand il réfléchit, ce qui inquiète ses voisins. Thermopyl-ou-Face le défie de dire qui de Rome ou de la Grèce a gagné.",
+  "liens": [
+   "momiephis",
+   "thermopyl-ou-face"
+  ]
+ },
+ {
+  "id": "thermopyl-ou-face",
+  "pays": "chronie",
+  "lieu": "Le Quartier antique",
+  "histoire": "Hoplite du Quartier antique, Thermopyl-ou-Face joue chaque bataille à pile ou face, et tombe toujours du bon côté. Il connaît les cités grecques, de Sparte à Athènes. Il ne recule devant personne, sauf devant Néronin quand il sort sa lyre.",
+  "liens": [
+   "neronin",
+   "momiephis"
+  ]
+ },
+ {
+  "id": "croise-les-doigts",
+  "pays": "chronie",
+  "lieu": "La Citadelle médiévale",
+  "histoire": "Chevalier de la Citadelle médiévale, Croisé-les-Doigts est parti pour toutes les croisades en croisant les doigts. Il connaît chaque expédition vers Jérusalem et ses chefs, de Godefroy de Bouillon à Saint Louis. Hugues Cape-et-Épée l'a adoubé.",
+  "liens": [
+   "hugues-cape-et-epee",
+   "azincourt-circuit"
+  ]
+ },
+ {
+  "id": "hugues-cape-et-epee",
+  "pays": "chronie",
+  "lieu": "La Citadelle médiévale",
+  "histoire": "Seigneur de la Citadelle médiévale, Hugues Cape-et-Épée récite la liste des rois capétiens comme une généalogie de famille. Il fait de grands moulinets de cape à chaque nom de roi. Il a adoubé Croisé-les-Doigts et regarde Bourbonze comme un lointain cousin.",
+  "liens": [
+   "croise-les-doigts",
+   "bourbonze"
+  ]
+ },
+ {
+  "id": "azincourt-circuit",
+  "pays": "chronie",
+  "lieu": "La Citadelle médiévale",
+  "histoire": "Archer des remparts de la Citadelle médiévale, Azincourt-Circuit tire des flèches si chargées qu'elles font sauter les plombs. Il connaît chaque bataille du Moyen Âge, de Hastings à Castillon. Croisé-les-Doigts lui demande toujours de viser à côté.",
+  "liens": [
+   "croise-les-doigts",
+   "hugues-cape-et-epee"
+  ]
+ },
+ {
+  "id": "bourbonze",
+  "pays": "chronie",
+  "lieu": "Le Palais des Temps modernes",
+  "histoire": "Moine du Palais des Temps modernes, Bourbonze médite sur un trône doré en récitant les rois Bourbons, d'Henri IV à Charles X. Sa perruque glisse à chaque méditation. Grenadéclaration le réveille souvent en sursaut, ce qui l'agace.",
+  "liens": [
+   "grenadeclaration",
+   "hugues-cape-et-epee"
+  ]
+ },
+ {
+  "id": "boussolat",
+  "pays": "chronie",
+  "lieu": "Le Palais des Temps modernes",
+  "histoire": "Soldat de plomb du Palais des Temps modernes, Boussolat a suivi tous les grands explorateurs sur leurs cartes, de Marco Polo à Amundsen. Sa tête-boussole pointe toujours vers le nord, même à l'intérieur. Il rêve d'emmener Île-Lusionniste découvrir une île qui ne bouge pas.",
+  "liens": [
+   "ile-lusionniste",
+   "bourbonze"
+  ]
+ },
+ {
+  "id": "grenadeclaration",
+  "pays": "chronie",
+  "lieu": "Le Palais des Temps modernes",
+  "histoire": "Sans-culotte du Palais des Temps modernes, Grenadéclaration lance des articles de la Déclaration des droits de l'homme comme des grenades. Il connaît chaque journée révolutionnaire et son calendrier républicain. Il réveille Bourbonze en sursaut et salue Waterlooser au passage.",
+  "liens": [
+   "bourbonze",
+   "waterlooser"
+  ]
+ },
+ {
+  "id": "waterlooser",
+  "pays": "chronie",
+  "lieu": "Le Quartier contemporain",
+  "histoire": "Vétéran grognon du Quartier contemporain, Waterlooser a suivi l'Empereur d'Austerlitz à Waterloo et ne s'en remet pas. Il récite les batailles et les maréchaux en ronchonnant. Il en veut à tout ce qui vient d'Angleterre, à commencer par Azincourt-Circuit.",
+  "liens": [
+   "grenadeclaration",
+   "azincourt-circuit"
+  ]
  }
 ]

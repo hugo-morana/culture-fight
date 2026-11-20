@@ -261,6 +261,185 @@
   ]
  },
  {
+  "id": "batailles-moyen-age",
+  "sources": [
+   {
+    "titre": "You Gotta Know These Medieval Battles (NAQT)",
+    "url": "https://www.naqt.com/YouGottaKnow/medieval-battles.html"
+   },
+   {
+    "titre": "Guerre de Cent Ans, repères chronologiques (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/guerre-de-cent-ans-reperes-chronologiques/"
+   },
+   {
+    "titre": "La guerre de Cent Ans (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-18721/la-guerre-de-cent-ans/"
+   },
+   {
+    "titre": "Bataille de Crécy (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Bataille_de_Cr%C3%A9cy"
+   },
+   {
+    "titre": "Bataille d'Azincourt (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Bataille_d%27Azincourt"
+   },
+   {
+    "titre": "Battle of Bouvines",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Bouvines"
+   },
+   {
+    "titre": "Battle of Castillon",
+    "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Battle_of_Castillon"
+   },
+   {
+    "titre": "Battle of Hattin (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/Battle_of_Hattin/.md"
+   },
+   {
+    "titre": "11 juillet 1302, Courtrai (Herodote)",
+    "url": "https://www.herodote.net/11_juillet_1302-evenement-13020711.php"
+   },
+   {
+    "titre": "Siege of Orléans",
+    "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Siege_of_Orleans"
+   },
+   {
+    "titre": "Battle of Patay",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Battle_of_Patay"
+   },
+   {
+    "titre": "Battle of Poitiers, 1356 (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/article/1511/"
+   },
+   {
+    "titre": "Burgundian Wars",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Burgundian_Wars"
+   },
+   {
+    "titre": "Battle of Roncevaux Pass",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Battle_of_Roncevaux_Pass.html"
+   },
+   {
+    "titre": "Philippe IV le Bel (Herodote)",
+    "url": "https://www.herodote.net/Un_roi_administrateur-synthese-91.php"
+   },
+   {
+    "titre": "Louis IX of France",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Louis_IX.html"
+   }
+  ]
+ },
+ {
+  "id": "bourbons",
+  "sources": [
+   {
+    "titre": "Henri IV de France (Geneawiki)",
+    "url": "https://fr.geneawiki.com/wiki/Henri_IV_de_France"
+   },
+   {
+    "titre": "Généalogie des Bourbons (Geneawiki)",
+    "url": "https://fr.geneawiki.com/wiki/G%C3%A9n%C3%A9alogie_des_Bourbons"
+   },
+   {
+    "titre": "Liste des rois de France (Geneawiki)",
+    "url": "https://fr.geneawiki.com/wiki/Liste_des_rois_de_France"
+   },
+   {
+    "titre": "Henri IV (Larousse)",
+    "url": "https://www.larousse.fr/dictionnaires/college/Henri_IV/19541"
+   },
+   {
+    "titre": "Henri IV, le roi six fois converti (Hérodote)",
+    "url": "https://www.herodote.net/Le_roi_6_fois_converti-synthese-258.php"
+   },
+   {
+    "titre": "Louis XIII (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/personnage/Louis_XIII/130426"
+   },
+   {
+    "titre": "Louis XIV (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/personnage/louis_xiv/130427"
+   },
+   {
+    "titre": "Louis XV (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/personnage/wd/130430"
+   },
+   {
+    "titre": "Louis XVI (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/personnage/wd/130432"
+   },
+   {
+    "titre": "Louis XVI (Larousse collège)",
+    "url": "https://www.larousse.fr/dictionnaires/college/Louis_XVI/24264"
+   },
+   {
+    "titre": "Louis XVIII (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/personnage/wd/130435"
+   },
+   {
+    "titre": "Charles X (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/personnage/Charles_X/112829"
+   },
+   {
+    "titre": "Charles X, le dernier Bourbon (Hérodote)",
+    "url": "https://www.herodote.net/Le_dernier_Bourbon-synthese-1756.php"
+   }
+  ]
+ },
+ {
+  "id": "capetiens",
+  "sources": [
+   {
+    "titre": "Liste des monarques de France (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Liste_des_monarques_de_France"
+   },
+   {
+    "titre": "Les rois de France, fiche de cours (soutien67)",
+    "url": "https://www.soutien67.fr/histoire/fiches/moyen_age/cours/rois%2002.pdf"
+   },
+   {
+    "titre": "List of French monarchs",
+    "url": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/l/List_of_French_monarchs.htm"
+   },
+   {
+    "titre": "Capétien (dynastie) (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Cap%C3%A9tien_(dynastie)"
+   },
+   {
+    "titre": "House of Capet",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Capet.html"
+   },
+   {
+    "titre": "Capétiens (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/capetiens/2-les-grands-capetiens-et-l-unite-territoriale-1180-1314/"
+   },
+   {
+    "titre": "Hugues Capet (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Hugues_Capet"
+   },
+   {
+    "titre": "Philippe IV le Bel (Larousse)",
+    "url": "https://www.larousse.fr/dictionnaires/college/Philippe_IV_le_Bel/30548"
+   },
+   {
+    "titre": "Philippe IV le Bel (Herodote)",
+    "url": "https://www.herodote.net/Un_roi_administrateur-synthese-91.php"
+   },
+   {
+    "titre": "Louis IX of France",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Louis_IX.html"
+   },
+   {
+    "titre": "Philip II of France (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Philip_II_of_France"
+   },
+   {
+    "titre": "Herodote : les rois de France",
+    "url": "https://www.herodote.net/histoire/dossier.php?ID=3"
+   }
+  ]
+ },
+ {
   "id": "capitales-ameriques",
   "sources": [
    {
@@ -361,6 +540,67 @@
    {
     "titre": "Oceania",
     "url": "https://en.wikipedia.org/wiki/Oceania"
+   }
+  ]
+ },
+ {
+  "id": "croisades",
+  "sources": [
+   {
+    "titre": "Croisades (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-15951/croisades/"
+   },
+   {
+    "titre": "Les croisades : combien y en a-t-il eu ? (Sherpas)",
+    "url": "https://sherpas.com/blog/chronologie-croisades/"
+   },
+   {
+    "titre": "27 novembre 1095 : appel de Clermont (Herodote.net)",
+    "url": "https://www.herodote.net/27_novembre_1095-evenement-10951127.php"
+   },
+   {
+    "titre": "List of Crusades (Wikipédia, copie Wikiwand)",
+    "url": "https://www.wikiwand.com/en/articles/List_of_Crusades"
+   },
+   {
+    "titre": "Godefroy de Bouillon",
+    "url": "https://areq.net/lang/fr/Godefroy_de_Bouillon.html"
+   },
+   {
+    "titre": "Les croisades 1096-1099 (Herodote.net)",
+    "url": "https://www.herodote.net/Les_croisades_1096_1099_-synthese-83.php"
+   },
+   {
+    "titre": "13 octobre 1307 : arrestation des Templiers (Herodote.net)",
+    "url": "https://www.herodote.net/13_octobre_1307-evenement-13071013.php"
+   },
+   {
+    "titre": "23 janvier 1120 : fondation de l'ordre du Temple (Herodote.net)",
+    "url": "https://www.herodote.net/23_janvier_1120-evenement-11200123.php"
+   },
+   {
+    "titre": "Les chevaliers Hospitaliers (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-17072/les-chevaliers-hospitaliers/"
+   },
+   {
+    "titre": "Troisième croisade (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-17014/troisieme-croisade/"
+   },
+   {
+    "titre": "Quatrième croisade (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-16760/quatrieme-croisade/"
+   },
+   {
+    "titre": "Septième croisade (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-17139/septieme-croisade/"
+   },
+   {
+    "titre": "Jacques de Molay",
+    "url": "https://areq.net/lang/fr/Jacques_de_Molay.html"
+   },
+   {
+    "titre": "Saladin, un héros pour les Arabes (Herodote.net)",
+    "url": "https://www.herodote.net/Saladin_un_heros_pour_les_Arabes-synthese-241-166.php"
    }
   ]
  },
@@ -542,6 +782,238 @@
   ]
  },
  {
+  "id": "empereurs-romains",
+  "sources": [
+   {
+    "titre": "List of Roman emperors (copie de Wikipédia)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/List_of_Roman_emperors"
+   },
+   {
+    "titre": "Empereur romain (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Empereur_romain"
+   },
+   {
+    "titre": "Augustus (copie de Wikipédia)",
+    "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Augustus"
+   },
+   {
+    "titre": "Rome under the Julio-Claudian Dynasty (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/article/1468/rome-under-the-julio-claudian-dynasty/"
+   },
+   {
+    "titre": "Great Fire of Rome (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Great_Fire_of_Rome"
+   },
+   {
+    "titre": "Flavian dynasty (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Flavian_dynasty"
+   },
+   {
+    "titre": "Colosseum (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Colosseum"
+   },
+   {
+    "titre": "Trajan (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Trajan"
+   },
+   {
+    "titre": "Hadrian (Livius)",
+    "url": "https://www.livius.org/articles/person/hadrian/"
+   },
+   {
+    "titre": "Marcus Aurelius (copie de Wikipédia)",
+    "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Marcus_Aurelius"
+   },
+   {
+    "titre": "Caracalla (Livius)",
+    "url": "https://www.livius.org/articles/person/caracalla/"
+   },
+   {
+    "titre": "Diocletian (copie de Wikipédia)",
+    "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Diocletian"
+   },
+   {
+    "titre": "Constantine the Great (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Constantine_the_Great"
+   },
+   {
+    "titre": "Theodosius I (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Theodosius_I"
+   }
+  ]
+ },
+ {
+  "id": "explorateurs",
+  "sources": [
+   {
+    "titre": "Grands explorateurs (Larousse)",
+    "url": "https://larousse.fr/encyclopedie/divers/grands_explorateurs/187603"
+   },
+   {
+    "titre": "Grandes Découvertes, 1488-1522 (Hérodote)",
+    "url": "https://www.herodote.net/Portugais_et_Espagnols_unifient_le_monde_1488_1522_-synthese-3643-119.php"
+   },
+   {
+    "titre": "Christopher Columbus, the first voyage (Britannica)",
+    "url": "https://www.britannica.com/biography/Christopher-Columbus/The-first-voyage"
+   },
+   {
+    "titre": "12 octobre 1492 (Hérodote)",
+    "url": "https://www.herodote.net/12_octobre_1492-evenement-14921012.php"
+   },
+   {
+    "titre": "Timeline of the Magellan–Elcano circumnavigation",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Timeline_of_the_Magellan%E2%80%93Elcano_circumnavigation"
+   },
+   {
+    "titre": "Captain James Cook timeline (Royal Museums Greenwich)",
+    "url": "https://www.rmg.co.uk/discover/explore/captain-james-cook-timeline"
+   },
+   {
+    "titre": "Lapérouse (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/personnage/wd/128801"
+   },
+   {
+    "titre": "The fate of La Pérouse (State Library of New South Wales)",
+    "url": "https://www2.sl.nsw.gov.au/archive/discover_collections/society_art/french/perouse/index.html"
+   },
+   {
+    "titre": "Roald Amundsen (Royal Museums Greenwich)",
+    "url": "https://www.rmg.co.uk/stories/maritime-history/roald-amundsen-polar-explorer"
+   },
+   {
+    "titre": "14 décembre 1911 (Hérodote)",
+    "url": "https://www.herodote.net/14_decembre_1911-evenement-19111214.php?resume=1"
+   },
+   {
+    "titre": "Jacques Cartier (L'Encyclopédie canadienne)",
+    "url": "https://thecanadianencyclopedia.ca/fr/article/jacques-cartier"
+   },
+   {
+    "titre": "Jacques Cartier (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/personnage/wd/111926"
+   },
+   {
+    "titre": "Vasco de Gama (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-18064/vasco-de-gama/"
+   },
+   {
+    "titre": "Vasco de Gama (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/personnage/wd/120752"
+   },
+   {
+    "titre": "The Travels of Marco Polo",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Il_Milione.html"
+   },
+   {
+    "titre": "1766-1769 : le voyage de Bougainville (Nomad Education)",
+    "url": "https://www.nomadeducation.fr/revisions/seconde-generale-tout-le-programme-lb3c5f27/1766-1769-le-voyage-de-bougainville-cy1c2719"
+   },
+   {
+    "titre": "Jeanne Barret (Bateaux.com)",
+    "url": "https://www.bateaux.com/article/37245/jeanne-barret-premiere-femme-a-boucler-un-tour-du-monde-deguisee-en-homme"
+   }
+  ]
+ },
+ {
+  "id": "grandes-villes",
+  "sources": [
+   {
+    "titre": "List of largest cities — Wikipédia (ONU, World Urbanization Prospects 2025)",
+    "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Large_city"
+   },
+   {
+    "titre": "Indonesia's Jakarta now the world's largest city, Tokyo falls to third: UN (Al Jazeera, 2025)",
+    "url": "https://www.aljazeera.com/news/2025/11/26/indonesias-jakarta-now-the-worlds-largest-city-tokyo-falls-to-third-un"
+   },
+   {
+    "titre": "Megacity — Wikipédia (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/articles/Megacity"
+   },
+   {
+    "titre": "Liste de périphrases désignant des villes (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/liste-de-periphrases-designant-des-villes"
+   },
+   {
+    "titre": "130 Most Famous Landmarks in the World (Destguides)",
+    "url": "https://destguides.com/famous-landmarks"
+   },
+   {
+    "titre": "List of communes in France with over 20,000 inhabitants — Wikipédia (INSEE 2023)",
+    "url": "https://en.wikipedia.org/wiki/List_of_communes_in_France_with_over_20,000_inhabitants"
+   },
+   {
+    "titre": "En France, neuf personnes sur dix vivent dans l'aire d'attraction d'une ville (INSEE Focus)",
+    "url": "https://www.insee.fr/fr/statistiques/4806694"
+   },
+   {
+    "titre": "Kinshasa, première ville francophone du monde devant Paris (Paris ZigZag)",
+    "url": "https://www.pariszigzag.fr/paris-au-quotidien/actualites-paris/kinshasa-premiere-ville-francophone-du-monde-devant-paris/"
+   }
+  ]
+ },
+ {
+  "id": "grece-antique",
+  "sources": [
+   {
+    "titre": "Guerres médiques (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Guerres_m%C3%A9diques"
+   },
+   {
+    "titre": "Seconde guerre médique (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Seconde_Guerre_m%C3%A9dique"
+   },
+   {
+    "titre": "Bataille de Marathon (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-333/bataille-de-marathon/"
+   },
+   {
+    "titre": "Bataille des Thermopyles (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-335/bataille-des-thermopyles/"
+   },
+   {
+    "titre": "Jeux olympiques antiques (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-440/jeux-olympiques-antiques/"
+   },
+   {
+    "titre": "Alexandre le Grand (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-265/alexandre-le-grand/"
+   },
+   {
+    "titre": "Clisthène (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Clisth%C3%A8ne_(Ath%C3%A8nes)"
+   },
+   {
+    "titre": "La naissance de la démocratie athénienne (Schoolmouv)",
+    "url": "https://www.schoolmouv.fr/cours/la-naissance-de-la-democratie-athenienne/fiche-de-cours"
+   },
+   {
+    "titre": "Sparte (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-197/sparte/"
+   },
+   {
+    "titre": "Parthénon (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-343/parthenon/"
+   },
+   {
+    "titre": "Acropole d'Athènes",
+    "url": "https://areq.net/lang/fr/Acropole_d'Ath%C3%A8nes.html"
+   },
+   {
+    "titre": "Périclès (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-341/pericles/"
+   },
+   {
+    "titre": "Sept merveilles du monde (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Sept_merveilles_du_monde"
+   },
+   {
+    "titre": "Delphes (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-768/delphes/"
+   }
+  ]
+ },
+ {
   "id": "iles",
   "sources": [
    {
@@ -595,6 +1067,186 @@
    {
     "titre": "Îles Galápagos (Techno-Science)",
     "url": "https://www.techno-science.net/fr/definitions/iles-galapagos"
+   }
+  ]
+ },
+ {
+  "id": "langues-officielles",
+  "sources": [
+   {
+    "titre": "List of official languages by country and territory (copie de Wikipédia)",
+    "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_official_languages_by_state"
+   },
+   {
+    "titre": "List of multilingual countries and regions (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_multilingual_countries_and_regions"
+   },
+   {
+    "titre": "Les langues officielles dans le monde (CEFAN, Université Laval)",
+    "url": "https://axl.cefan.ulaval.ca/monde/index_langues-off.htm"
+   },
+   {
+    "titre": "Countries where French is an official language (copie de Wikipédia)",
+    "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/French-speaking_Country"
+   },
+   {
+    "titre": "Official languages of the United Nations (copie de Wikipédia)",
+    "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/UN_language"
+   },
+   {
+    "titre": "List of languages by total number of speakers (copie de Wikipédia)",
+    "url": "https://wiki.riteme.site/wiki/List_of_languages_by_total_number_of_speakers"
+   },
+   {
+    "titre": "What are the largest language families? (Ethnologue)",
+    "url": "https://ethnologue.com/insights/largest-families/"
+   },
+   {
+    "titre": "List of language families (copie de Wikipédia)",
+    "url": "https://en.wikipedia-on-ipfs.org/wiki/List_of_language_families"
+   },
+   {
+    "titre": "Uralic languages (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Uralic_languages"
+   },
+   {
+    "titre": "List of languages by writing system (copie de Wikipédia)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/List_of_languages_by_writing_system.html"
+   },
+   {
+    "titre": "Cyrillic script (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Cyrillic_script"
+   },
+   {
+    "titre": "Hangul (copie de Wikipédia)",
+    "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Hangul"
+   }
+  ]
+ },
+ {
+  "id": "monnaies",
+  "sources": [
+   {
+    "titre": "List of circulating currencies (copie de Wikipédia)",
+    "url": "https://wiki.riteme.site/wiki/List_of_circulating_currencies"
+   },
+   {
+    "titre": "Currency symbol (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Currency_symbol"
+   },
+   {
+    "titre": "Notre monnaie (Banque centrale européenne)",
+    "url": "https://www.ecb.europa.eu/euro/intro/html/index.fr.html"
+   },
+   {
+    "titre": "La Bulgarie adopte l'euro (Commission européenne)",
+    "url": "https://trade.ec.europa.eu/access-to-markets/fr/news/la-bulgarie-adopte-leuro-compter-du-1er-janvier-2026"
+   },
+   {
+    "titre": "Le design de l'euro (Union européenne)",
+    "url": "https://european-union.europa.eu/institutions-law-budget/euro/design_fr"
+   },
+   {
+    "titre": "Zone euro (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Zone_euro"
+   },
+   {
+    "titre": "Monnaies du monde (WorldRemit)",
+    "url": "https://www.worldremit.com/fr/blog/finance/monnaies-du-monde"
+   },
+   {
+    "titre": "Quelles étaient les monnaies européennes avant l'euro ? (IG)",
+    "url": "https://www.ig.com/fr/strategies-de-trading/quelles-etaient-les-monnaies-europeennes-avant-l-euro---200303"
+   },
+   {
+    "titre": "Brève histoire de la monnaie (Hérodote)",
+    "url": "https://www.herodote.net/Breve_histoire_de_la_monnaie-synthese-22.php"
+   },
+   {
+    "titre": "Monnaie (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-430/monnaie/"
+   },
+   {
+    "titre": "Histoire du franc (Fondation Napoléon)",
+    "url": "https://www.napoleon.org/histoire-des-2-empires/articles/histoire-du-franc-quelques-points-de-repere"
+   }
+  ]
+ },
+ {
+  "id": "pays-peuples",
+  "sources": [
+   {
+    "titre": "List of countries and dependencies by population (United Nations) — Wikipédia (ONU, WPP 2024, chiffres 2023)",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_(United_Nations)"
+   },
+   {
+    "titre": "List of countries and dependencies by population density — Wikipédia (ONU, données 2025)",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density"
+   },
+   {
+    "titre": "Le 15 novembre, le monde devrait compter 8 milliards d'humains (L'Avenir, d'après l'ONU)",
+    "url": "https://www.lavenir.net/actu/monde/2022/07/11/le-15-novembre-le-monde-devrait-compter-8-milliards-dhumains-WB2ZL6UQIFCNJF6YPE4J5ZOWNA/"
+   },
+   {
+    "titre": "L'Inde devrait dépasser la Chine en 2023 (Le Petit Journal, d'après l'ONU, WPP 2022)",
+    "url": "https://lepetitjournal.com/bombay/actualites/population-inde-depasse-chine-2023-342114"
+   }
+  ]
+ },
+ {
+  "id": "pharaons",
+  "sources": [
+   {
+    "titre": "List of pharaohs (copie de Wikipédia)",
+    "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_Pharaohs"
+   },
+   {
+    "titre": "Tutankhamun (copie de Wikipédia)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Tutankhamun"
+   },
+   {
+    "titre": "KV62 (copie de Wikipédia)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/KV62.html"
+   },
+   {
+    "titre": "Découverte de la tombe de Toutânkhamon (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/2-2063/decouverte-de-la-tombe-de-toutankhamon/"
+   },
+   {
+    "titre": "27 septembre 1822 (Hérodote.net)",
+    "url": "https://www.herodote.net/27_septembre_1822-evenement-18220927.php"
+   },
+   {
+    "titre": "Jean-François Champollion (Hérodote.net)",
+    "url": "https://www.herodote.net/Il_dechiffre_les_hieroglyphes_et_redonne_vie_aux_pharaons-synthese-3337-145.php"
+   },
+   {
+    "titre": "Ramesses II (copie de Wikipédia)",
+    "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Ramses_II"
+   },
+   {
+    "titre": "Akhenaten (copie de Wikipédia)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Akhenaten"
+   },
+   {
+    "titre": "Hatshepsut (copie de Wikipédia)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Hatshepsut.html"
+   },
+   {
+    "titre": "Great Pyramid of Giza (copie de Wikipédia)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Great_Pyramid_of_Giza"
+   },
+   {
+    "titre": "Cleopatra (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Cleopatra"
+   },
+   {
+    "titre": "Abu Simbel temples (copie de Wikipédia)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Abu_Simbel_temples"
+   },
+   {
+    "titre": "Karnak (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Karnak"
    }
   ]
  },
@@ -673,6 +1325,39 @@
   ]
  },
  {
+  "id": "premier-empire",
+  "sources": [
+   {
+    "titre": "Timeline of the Napoleonic era (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Napoleonic_era"
+   },
+   {
+    "titre": "Napoleon (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Napoleon"
+   },
+   {
+    "titre": "Chronologie détaillée du Consulat et du Premier Empire (Fondation Napoléon)",
+    "url": "https://www.napoleon.org/enseignants/documents/chronologie-detaillee-et-illustree-du-consulat-et-du-premier-empire/"
+   },
+   {
+    "titre": "Consulat (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Consulat_(histoire_de_France)"
+   },
+   {
+    "titre": "Le Code civil des Français, 21 mars 1804 (Fondation Napoléon)",
+    "url": "https://www.napoleon.org/histoire-des-2-empires/articles/le-code-civil-des-francais-21-mars-1804-quelques-points-de-repere/"
+   },
+   {
+    "titre": "Février-juillet 1815 : les Cent-Jours (Fondation Napoléon)",
+    "url": "https://www.napoleon.org/histoire-des-2-empires/chronologies/fevrier-juillet-pendant-les-cent-jours/"
+   },
+   {
+    "titre": "Marshal of the Empire (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Marshal_of_the_Empire"
+   }
+  ]
+ },
+ {
   "id": "regions-france",
   "sources": [
    {
@@ -694,6 +1379,43 @@
    {
     "titre": "Liste des départements français et de leurs régions (copie de Wikipédia)",
     "url": "https://areq.net/lang/fr/Liste_des_d%C3%A9partements_fran%C3%A7ais.html"
+   }
+  ]
+ },
+ {
+  "id": "revolution-francaise",
+  "sources": [
+   {
+    "titre": "Timeline of the French Revolution (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Timeline_of_the_French_Revolution"
+   },
+   {
+    "titre": "Chronologie de la Révolution française (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Chronologie_de_la_R%C3%A9volution_fran%C3%A7aise"
+   },
+   {
+    "titre": "Révolution française (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9volution_fran%C3%A7aise"
+   },
+   {
+    "titre": "French Revolution (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/French_Revolution"
+   },
+   {
+    "titre": "Glossaire de la Révolution française (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Glossaire_de_la_R%C3%A9volution_fran%C3%A7aise"
+   },
+   {
+    "titre": "Calendrier républicain (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Calendrier_r%C3%A9publicain"
+   },
+   {
+    "titre": "Déclaration des droits de l'homme et du citoyen (Conseil constitutionnel)",
+    "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+   },
+   {
+    "titre": "Les symboles de la République et La Marseillaise (Élysée)",
+    "url": "https://www.elysee.fr/en/french-presidency/the-symbols-of-the-french-republic-explained-to-children"
    }
   ]
  },
