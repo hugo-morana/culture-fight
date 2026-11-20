@@ -1,0 +1,263 @@
+[
+ {
+  "id": "elements",
+  "sources": [
+   {
+    "titre": "Tableau périodique de l'IUPAC",
+    "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+   },
+   {
+    "titre": "Tableau périodique des éléments",
+    "url": "https://fr.wikipedia.org/wiki/Tableau_p%C3%A9riodique_des_%C3%A9l%C3%A9ments"
+   }
+  ]
+ },
+ {
+  "id": "pays-afrique",
+  "sources": [
+   {
+    "titre": "The World Factbook (CIA)",
+    "url": "https://www.cia.gov/the-world-factbook/"
+   },
+   {
+    "titre": "Liste des capitales du monde",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_capitales_du_monde"
+   }
+  ]
+ },
+ {
+  "id": "cetaces",
+  "sources": [
+   {
+    "titre": "Cetacea",
+    "url": "https://fr.wikipedia.org/wiki/Cetacea"
+   }
+  ]
+ },
+ {
+  "id": "arbres",
+  "sources": [
+   {
+    "titre": "Arbre",
+    "url": "https://fr.wikipedia.org/wiki/Arbre"
+   }
+  ]
+ },
+ {
+  "id": "fleurs",
+  "sources": [
+   {
+    "titre": "Fleur",
+    "url": "https://fr.wikipedia.org/wiki/Fleur"
+   },
+   {
+    "titre": "Liste des emblèmes floraux",
+    "url": "https://en.wikipedia.org/wiki/List_of_national_flowers"
+   }
+  ]
+ },
+ {
+  "id": "champignons",
+  "sources": [
+   {
+    "titre": "Fungi",
+    "url": "https://fr.wikipedia.org/wiki/Fungi"
+   }
+  ]
+ },
+ {
+  "id": "rapaces",
+  "sources": [
+   {
+    "titre": "Rapace",
+    "url": "https://fr.wikipedia.org/wiki/Rapace"
+   },
+   {
+    "titre": "Oiseaux de France, LPO",
+    "url": "https://www.oiseaux.net/"
+   }
+  ]
+ },
+ {
+  "id": "felins",
+  "sources": [
+   {
+    "titre": "Felidae",
+    "url": "https://fr.wikipedia.org/wiki/Felidae"
+   }
+  ]
+ },
+ {
+  "id": "primates",
+  "sources": [
+   {
+    "titre": "Primates",
+    "url": "https://fr.wikipedia.org/wiki/Primates"
+   }
+  ]
+ },
+ {
+  "id": "insectes",
+  "sources": [
+   {
+    "titre": "Insecta",
+    "url": "https://fr.wikipedia.org/wiki/Insecta"
+   }
+  ]
+ },
+ {
+  "id": "reptiles",
+  "sources": [
+   {
+    "titre": "Reptilia",
+    "url": "https://fr.wikipedia.org/wiki/Reptilia"
+   }
+  ]
+ },
+ {
+  "id": "dinosaures",
+  "sources": [
+   {
+    "titre": "Dinosauria",
+    "url": "https://fr.wikipedia.org/wiki/Dinosauria"
+   }
+  ]
+ },
+ {
+  "id": "eres-geologiques",
+  "sources": [
+   {
+    "titre": "Charte chronostratigraphique internationale (ICS)",
+    "url": "https://stratigraphy.org/chart"
+   },
+   {
+    "titre": "Échelle des temps géologiques",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89chelle_des_temps_g%C3%A9ologiques"
+   }
+  ]
+ },
+ {
+  "id": "os",
+  "sources": [
+   {
+    "titre": "Squelette humain",
+    "url": "https://fr.wikipedia.org/wiki/Squelette_humain"
+   }
+  ]
+ },
+ {
+  "id": "organes",
+  "sources": [
+   {
+    "titre": "Anatomie humaine",
+    "url": "https://fr.wikipedia.org/wiki/Anatomie_humaine"
+   }
+  ]
+ },
+ {
+  "id": "muscles",
+  "sources": [
+   {
+    "titre": "Liste des muscles du corps humain",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_muscles_du_corps_humain"
+   }
+  ]
+ },
+ {
+  "id": "volcans",
+  "sources": [
+   {
+    "titre": "Global Volcanism Program (Smithsonian)",
+    "url": "https://volcano.si.edu/"
+   },
+   {
+    "titre": "Volcan",
+    "url": "https://fr.wikipedia.org/wiki/Volcan"
+   }
+  ]
+ },
+ {
+  "id": "seismes",
+  "sources": [
+   {
+    "titre": "Earthquake Hazards Program (USGS)",
+    "url": "https://earthquake.usgs.gov/"
+   },
+   {
+    "titre": "Séisme",
+    "url": "https://fr.wikipedia.org/wiki/S%C3%A9isme"
+   }
+  ]
+ },
+ {
+  "id": "fleuves-europe",
+  "sources": [
+   {
+    "titre": "List of rivers of Europe",
+    "url": "https://en.wikipedia.org/wiki/List_of_rivers_of_Europe"
+   }
+  ]
+ },
+ {
+  "id": "fleuves-monde",
+  "sources": [
+   {
+    "titre": "List of river systems by length",
+    "url": "https://en.wikipedia.org/wiki/List_of_river_systems_by_length"
+   }
+  ]
+ },
+ {
+  "id": "lacs",
+  "sources": [
+   {
+    "titre": "List of lakes by area",
+    "url": "https://en.wikipedia.org/wiki/List_of_lakes_by_area"
+   }
+  ]
+ },
+ {
+  "id": "oceans-mers",
+  "sources": [
+   {
+    "titre": "Limites des océans et des mers (OHI)",
+    "url": "https://iho.int/"
+   },
+   {
+    "titre": "Océan",
+    "url": "https://fr.wikipedia.org/wiki/Oc%C3%A9an"
+   }
+  ]
+ },
+ {
+  "id": "peintres-renaissance",
+  "sources": [
+   {
+    "titre": "Italian Renaissance painting",
+    "url": "https://en.wikipedia.org/wiki/Italian_Renaissance_painting"
+   },
+   {
+    "titre": "Northern Renaissance",
+    "url": "https://en.wikipedia.org/wiki/Northern_Renaissance"
+   }
+  ]
+ },
+ {
+  "id": "gaz-nobles",
+  "sources": [
+   {
+    "titre": "Gaz noble",
+    "url": "https://fr.wikipedia.org/wiki/Gaz_noble"
+   }
+  ]
+ },
+ {
+  "id": "halogenes",
+  "sources": [
+   {
+    "titre": "Halogène",
+    "url": "https://fr.wikipedia.org/wiki/Halog%C3%A8ne"
+   }
+  ]
+ }
+]

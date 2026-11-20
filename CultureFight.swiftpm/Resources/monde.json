@@ -1,0 +1,264 @@
+{
+ "nom": "Culturia",
+ "description": "Culturia est un continent né des pages de la Grande Encyclopédie, un livre vivant qui contenait tout le savoir du Monde d'en haut, la Terre des humains. Lors du Grand Oubli, ses pages se sont dispersées sur dix pays. Chaque combattant porte une page : sa spécialité. Les champions se défient à l'Agora pour rassembler le savoir perdu.",
+ "agora": {
+  "nom": "L'Agora",
+  "description": "Cité neutre au centre de Culturia, où se dispute le Tournoi du Savoir. Chaque pays y envoie ses champions ; on y paie en Pièces de savoir."
+ },
+ "pays": [
+  {
+   "id": "atomie",
+   "nom": "Atomie",
+   "domaine": "Matière",
+   "capitale": "Mendéléia",
+   "description": "Royaume des forgerons et des alchimistes, aux cheminées toujours fumantes. Sa capitale est bâtie autour du Grand Tableau, un mur gravé des 118 éléments.",
+   "lieux": [
+    {
+     "nom": "Mendéléia",
+     "description": "Capitale d'Atomie, organisée en quartiers qui suivent les colonnes du Grand Tableau."
+    },
+    {
+     "nom": "Le Grand Tableau",
+     "description": "Mur de 118 cases au centre de Mendéléia ; chaque case brille quand son élément est nommé."
+    },
+    {
+     "nom": "Les Cloches de Néon",
+     "description": "Quartier nocturne de Mendéléia, éclairé par les gaz nobles en rouge, violet et bleu."
+    },
+    {
+     "nom": "Les Marais salins d'Halogénie",
+     "description": "Lagunes corrosives au sud d'Atomie, où le chlore et l'iode se récoltent à la pelle."
+    },
+    {
+     "nom": "Les Forges de Cuivrelune",
+     "description": "Mines et ateliers des métaux de transition, sous une lune couleur de cuivre."
+    },
+    {
+     "nom": "Le Désert irradié de Becquerelle",
+     "description": "Plaine interdite qui crépite sous les compteurs ; on y enterre les momies au plomb."
+    },
+    {
+     "nom": "La Tour des Étalons",
+     "description": "Tour de Mendéléia qui garde le mètre, le kilogramme et la seconde de tout Culturia."
+    },
+    {
+     "nom": "Les Fjords de Fer",
+     "description": "Côte gelée du nord d'Atomie, d'où partent les drakkars de métal."
+    }
+   ]
+  },
+  {
+   "id": "calculie",
+   "nom": "Calculie",
+   "domaine": "Savoirs",
+   "capitale": "Pythagopolis",
+   "description": "République des nombres, où tout se compte et se range. Les rues de la capitale forment un quadrillage parfait.",
+   "lieux": [
+    {
+     "nom": "Pythagopolis",
+     "description": "Capitale de Calculie, aux rues numérotées et aux places en forme de triangle rectangle."
+    },
+    {
+     "nom": "L'Arène des Tables",
+     "description": "Amphithéâtre de Pythagopolis où l'on récite les tables de multiplication en combattant."
+    },
+    {
+     "nom": "La Bibliothèque infinie",
+     "description": "Bibliothèque dont chaque étage contient deux fois plus de livres que le précédent."
+    },
+    {
+     "nom": "Les Portes du Reste",
+     "description": "Frontière de Calculie, refuge de ceux qui ont quitté la capitale."
+    }
+   ]
+  },
+  {
+   "id": "astralis",
+   "nom": "Astralis",
+   "domaine": "Univers",
+   "capitale": "Orbitopolis",
+   "description": "Empire des hauts plateaux, si proche du ciel qu'on y voit les étoiles en plein jour.",
+   "lieux": [
+    {
+     "nom": "Orbitopolis",
+     "description": "Capitale circulaire d'Astralis, qui tourne lentement sur elle-même."
+    },
+    {
+     "nom": "L'Observatoire du Zénith",
+     "description": "Plus haut observatoire de Culturia, au sommet du Mont Comète."
+    }
+   ]
+  },
+  {
+   "id": "geonie",
+   "nom": "Géonie",
+   "domaine": "Terre",
+   "capitale": "Tellurville",
+   "description": "Pays des volcans, des failles, des fleuves et des mers, où le sol lui-même a du caractère.",
+   "lieux": [
+    {
+     "nom": "Tellurville",
+     "description": "Capitale de Géonie, bâtie sur le Delta des Mille Fleuves."
+    },
+    {
+     "nom": "Le Pic Brasier",
+     "description": "Volcan toujours en éruption qui domine la Géonie ; ses coulées donnent naissance aux golems."
+    },
+    {
+     "nom": "La Faille de Sismonde",
+     "description": "Immense crevasse qui traverse la Géonie et tremble à chaque pas de ses habitants."
+    },
+    {
+     "nom": "Le Delta des Mille Fleuves",
+     "description": "Labyrinthe de bras d'eau autour de Tellurville, où chaque fleuve d'Europe a son quai."
+    },
+    {
+     "nom": "Les Rives Lointaines",
+     "description": "Grands fleuves sauvages de l'ouest de la Géonie, larges comme des mers."
+    },
+    {
+     "nom": "Le Grand Lac Miroir",
+     "description": "Lac si calme qu'il reflète tous les lacs du Monde d'en haut."
+    },
+    {
+     "nom": "Port-Abysse",
+     "description": "Port pirate de la Côte des Sept Mers, ouvert sur tous les océans."
+    }
+   ]
+  },
+  {
+   "id": "sylvanie",
+   "nom": "Sylvanie",
+   "domaine": "Vivant",
+   "capitale": "Darwinia",
+   "description": "Royaume vert où plantes et bêtes vivent en clans. Sa capitale est une ville-arbre.",
+   "lieux": [
+    {
+     "nom": "Darwinia",
+     "description": "Capitale de Sylvanie, construite dans les branches d'un arbre géant."
+    },
+    {
+     "nom": "La Forêt des Druides",
+     "description": "Forêt sacrée au cœur de la Sylvanie, où chaque arbre a un nom."
+    },
+    {
+     "nom": "Les Sous-bois de Mycélia",
+     "description": "Sous-bois humides reliés par un réseau de filaments de champignons."
+    },
+    {
+     "nom": "La Prairie des Mille Fleurs",
+     "description": "Prairie fleurie de l'est, où l'on se bat à la rapière de rosier."
+    },
+    {
+     "nom": "La Jungle d'Émeraude",
+     "description": "Jungle chaude du sud, domaine des félins, des singes et des reptiles."
+    },
+    {
+     "nom": "Les Falaises aux Rapaces",
+     "description": "Falaises où siège le Conseil des aigles."
+    },
+    {
+     "nom": "La Mer des Chants",
+     "description": "Mer au large de la Sylvanie, où résonnent les chants des baleines."
+    },
+    {
+     "nom": "La Ruche",
+     "description": "Monastère creusé dans une ruche géante, où l'on apprend le kung-fu des insectes."
+    },
+    {
+     "nom": "La Vallée Fossile",
+     "description": "Vallée aux falaises pleines d'os de dinosaures, gardée par une garnison."
+    }
+   ]
+  },
+  {
+   "id": "anatomia",
+   "nom": "Anatomia",
+   "domaine": "Corps humain",
+   "capitale": "Cardiopolis",
+   "description": "Cité-État bâtie comme un corps géant : ses quartiers sont des organes, ses rues des vaisseaux.",
+   "lieux": [
+    {
+     "nom": "Cardiopolis",
+     "description": "Capitale d'Anatomia, autour d'un cœur de pierre qui bat soixante fois par minute."
+    },
+    {
+     "nom": "Le Palais des Organes",
+     "description": "Palais du comte de Cardiopolis, où chaque salle porte le nom d'un organe."
+    },
+    {
+     "nom": "Les Catacombes d'Ossuaria",
+     "description": "Galeries sous Cardiopolis, décorées des 206 os du squelette."
+    },
+    {
+     "nom": "Le Dojo des Muscles",
+     "description": "Salle d'entraînement d'Anatomia, où l'on nomme chaque muscle qu'on contracte."
+    }
+   ]
+  },
+  {
+   "id": "mappemondie",
+   "nom": "Mappemondie",
+   "domaine": "Monde",
+   "capitale": "Capitalia",
+   "description": "Pays des cartographes, couvert de routes. Ses cartes vivantes montrent les pays du Monde d'en haut.",
+   "lieux": [
+    {
+     "nom": "Capitalia",
+     "description": "Capitale de Mappemondie, qui contient une maquette de chaque capitale du Monde d'en haut."
+    },
+    {
+     "nom": "Le Grand Atlas",
+     "description": "Bibliothèque de cartes vivantes ; chaque continent y a son aile et ses portes."
+    },
+    {
+     "nom": "La Route des Capitales",
+     "description": "Route qui relie les maquettes de Capitalia, gardée par des bourreaux."
+    }
+   ]
+  },
+  {
+   "id": "chronie",
+   "nom": "Chronie",
+   "domaine": "Histoire",
+   "capitale": "Chronopolis",
+   "description": "Empire où chaque quartier vit à une époque différente.",
+   "lieux": [
+    {
+     "nom": "Chronopolis",
+     "description": "Capitale de Chronie, dont les rues traversent les siècles."
+    }
+   ]
+  },
+  {
+   "id": "palettia",
+   "nom": "Palettia",
+   "domaine": "Arts",
+   "capitale": "Pinceaurence",
+   "description": "Principauté des artistes, aux façades peintes et aux places pleines de statues.",
+   "lieux": [
+    {
+     "nom": "Pinceaurence",
+     "description": "Capitale de Palettia, inspirée des villes de la Renaissance."
+    },
+    {
+     "nom": "La Galerie des Maîtres",
+     "description": "Galerie de Pinceaurence couverte de fresques, où s'entraînent les peintres-guerriers."
+    }
+   ]
+  },
+  {
+   "id": "fabulie",
+   "nom": "Fabulie",
+   "domaine": "Lettres et mythes",
+   "capitale": "Homéropolis",
+   "description": "Royaume des conteurs, des poètes et des créatures de légende.",
+   "lieux": [
+    {
+     "nom": "Homéropolis",
+     "description": "Capitale de Fabulie, où chaque pierre raconte une histoire."
+    }
+   ]
+  }
+ ]
+}

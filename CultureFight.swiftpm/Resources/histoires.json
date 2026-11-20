@@ -1,0 +1,284 @@
+[
+ {
+  "id": "multiplicator",
+  "pays": "calculie",
+  "lieu": "L'Arène des Tables",
+  "histoire": "Né à Pythagopolis, Multiplicator règne sur l'Arène des Tables depuis que son jumeau Divisator a quitté la ville. Il voit le monde en tableaux à double entrée et provoque en duel quiconque hésite sur 7 × 8. Il rêve de retrouver la page perdue de la table de 13.",
+  "liens": [
+   "divisator"
+  ]
+ },
+ {
+  "id": "divisator",
+  "pays": "calculie",
+  "lieu": "Les Portes du Reste",
+  "histoire": "Jumeau de Multiplicator, Divisator a quitté Pythagopolis le jour où il a voulu partager la Bibliothèque infinie en parts égales. Il garde désormais les Portes du Reste, à la frontière de Calculie. Il ne laisse jamais un reste derrière lui.",
+  "liens": [
+   "multiplicator"
+  ]
+ },
+ {
+  "id": "neonja",
+  "pays": "atomie",
+  "lieu": "Les Cloches de Néon",
+  "histoire": "Formé dans les ruelles illuminées des Cloches de Néon, à Mendéléia, Néonja frappe sans jamais réagir avec personne : un vrai gaz noble. Seule sa lueur rouge orangé le trahit dans la nuit. Mendéléviking le soupçonne d'avoir volé la case 10 du Grand Tableau.",
+  "liens": [
+   "mendeleviking",
+   "iodiateur"
+  ]
+ },
+ {
+  "id": "mendeleviking",
+  "pays": "atomie",
+  "lieu": "Les Fjords de Fer",
+  "histoire": "Venu des Fjords de Fer sur un drakkar de métal, Mendéléviking a juré de graver les 118 symboles du Grand Tableau sur son bouclier. Il connaît chaque case par cœur et hurle le symbole de son adversaire avant de charger. Cuivrassier forge toutes ses armes.",
+  "liens": [
+   "cuivrassier",
+   "neonja"
+  ]
+ },
+ {
+  "id": "iodiateur",
+  "pays": "atomie",
+  "lieu": "Les Marais salins d'Halogénie",
+  "histoire": "Gladiateur des Marais salins d'Halogénie, Iodiateur combat couvert d'une teinture brune qui désinfecte ses blessures. Il mène la confrérie des halogènes, toujours prête à arracher un électron à l'adversaire. Néonja est le seul qu'il n'a jamais réussi à faire réagir.",
+  "liens": [
+   "neonja"
+  ]
+ },
+ {
+  "id": "cuivrassier",
+  "pays": "atomie",
+  "lieu": "Les Forges de Cuivrelune",
+  "histoire": "Chevalier des Forges de Cuivrelune, Cuivrassier porte une armure faite des métaux de transition, polie jusqu'à la teinte du cuivre. Il garde les mines d'Atomie et forge les armes de Mendéléviking. Il refuse d'approcher le désert de Radiomomie.",
+  "liens": [
+   "mendeleviking",
+   "radiomomie"
+  ]
+ },
+ {
+  "id": "radiomomie",
+  "pays": "atomie",
+  "lieu": "Le Désert irradié de Becquerelle",
+  "histoire": "Enterrée dans des bandelettes au plomb au cœur du Désert irradié de Becquerelle, Radiomomie se réveille dès qu'un compteur crépite. Sa demi-vie se compte en millénaires. Elle se souvient de chaque élément qui s'est désintégré sous ses yeux.",
+  "liens": [
+   "cuivrassier"
+  ]
+ },
+ {
+  "id": "conversorcier",
+  "pays": "atomie",
+  "lieu": "La Tour des Étalons",
+  "histoire": "Gardien de la Tour des Étalons, à Mendéléia, Conversorcier veille sur le mètre, le kilogramme et la seconde de tout Culturia. Il change les heures en secondes d'un claquement de doigts. Il ne pardonne jamais une virgule mal placée, même à Multiplicator.",
+  "liens": [
+   "multiplicator"
+  ]
+ },
+ {
+  "id": "afrodecapitator",
+  "pays": "mappemondie",
+  "lieu": "La Route des Capitales",
+  "histoire": "Bourreau de la Route des Capitales, Afrodecapitator garde les 54 portes de l'aile africaine du Grand Atlas. Qui se trompe de capitale y laisse sa tête, ou au moins quelques PV. Il échange souvent ses cartes avec Seinturion, autre voyageur infatigable.",
+  "liens": [
+   "seinturion"
+  ]
+ },
+ {
+  "id": "orquebusier",
+  "pays": "sylvanie",
+  "lieu": "La Mer des Chants",
+  "histoire": "Orque arquebusier de la Mer des Chants, Orquebusier chasse en famille et tire des salves d'eau par son évent. Il connaît le chant de chaque baleine. Il protège la côte de Sylvanie contre les pirates de Flibustlantique.",
+  "liens": [
+   "flibustlantique"
+  ]
+ },
+ {
+  "id": "druiderable",
+  "pays": "sylvanie",
+  "lieu": "La Forêt des Druides",
+  "histoire": "Doyen de la Forêt des Druides, Druidérable a l'écorce d'un érable et une barbe de lichen. Il reconnaît chaque arbre à son fruit et prépare les potions de sève dont raffole Darwinia. Il veille sur Champignomancien comme sur un fils turbulent.",
+  "liens": [
+   "champignomancien"
+  ]
+ },
+ {
+  "id": "escrimarguerite",
+  "pays": "sylvanie",
+  "lieu": "La Prairie des Mille Fleurs",
+  "histoire": "Bretteuse de la Prairie des Mille Fleurs, Escrimarguerite ponctue chaque estocade d'un « un peu, beaucoup, passionnément ». Sa rapière est une tige de rosier. Elle a appris l'escrime à Pinceaurence, en posant pour Da Vincible.",
+  "liens": [
+   "da-vincible"
+  ]
+ },
+ {
+  "id": "champignomancien",
+  "pays": "sylvanie",
+  "lieu": "Les Sous-bois de Mycélia",
+  "histoire": "Nécromancien des Sous-bois de Mycélia, Champignomancien parle à la forêt par le réseau de filaments qui court sous les racines. Il distingue d'un regard le cèpe de l'amanite, car une seule erreur peut être la dernière. Druidérable est le seul à le supporter.",
+  "liens": [
+   "druiderable"
+  ]
+ },
+ {
+  "id": "zombos",
+  "pays": "anatomia",
+  "lieu": "Les Catacombes d'Ossuaria",
+  "histoire": "Revenu des Catacombes d'Ossuaria, sous Cardiopolis, Zombos ne tient debout que parce qu'il connaît le nom de ses 206 os. Quand il en perd un, il le réclame par son nom savant. Vampirein l'emploie pour garder les cryptes du palais.",
+  "liens": [
+   "vampirein"
+  ]
+ },
+ {
+  "id": "vampirein",
+  "pays": "anatomia",
+  "lieu": "Le Palais des Organes",
+  "histoire": "Comte du Palais des Organes, Vampirein ne boit que le sang qu'il a lui-même filtré. Il connaît le rôle de chaque organe mieux que les médecins d'Anatomia. On dit qu'il garde le cœur de pierre qui fait battre Cardiopolis.",
+  "liens": [
+   "zombos",
+   "boxeps"
+  ]
+ },
+ {
+  "id": "rapaladin",
+  "pays": "sylvanie",
+  "lieu": "Les Falaises aux Rapaces",
+  "histoire": "Paladin des Falaises aux Rapaces, Rapaladin a prêté serment devant le Conseil des aigles. Son heaume porte le bec d'un faucon pèlerin et sa vue repère une erreur à un kilomètre. Il protège les nids contre les secousses de Sismogre.",
+  "liens": [
+   "sismogre"
+  ]
+ },
+ {
+  "id": "jaguerrier",
+  "pays": "sylvanie",
+  "lieu": "La Jungle d'Émeraude",
+  "histoire": "Guerrier de la Jungle d'Émeraude, Jaguerrier a gagné sa peau tachetée en battant à la course le guépard le plus rapide de Sylvanie. Il règne sur les félins de la jungle. Ses duels avec Gorillero finissent toujours à égalité.",
+  "liens": [
+   "gorillero",
+   "crocodojo"
+  ]
+ },
+ {
+  "id": "gorillero",
+  "pays": "sylvanie",
+  "lieu": "La Jungle d'Émeraude",
+  "histoire": "Chef de la guérilla de la canopée, Gorillero défend la Jungle d'Émeraude contre les bûcherons étrangers. Il connaît chaque primate de la forêt et mène ses troupes de liane en liane. Jaguerrier est son meilleur rival.",
+  "liens": [
+   "jaguerrier"
+  ]
+ },
+ {
+  "id": "mante-shaolin",
+  "pays": "sylvanie",
+  "lieu": "La Ruche",
+  "histoire": "Moine du monastère de la Ruche, Mante Shaolin a appris le kung-fu en observant les insectes : la patience de la mante, la force de la fourmi, la vitesse de la libellule. Il peut méditer des jours sans quitter une feuille. Crocodojo vient parfois s'entraîner avec lui.",
+  "liens": [
+   "crocodojo"
+  ]
+ },
+ {
+  "id": "crocodojo",
+  "pays": "sylvanie",
+  "lieu": "La Jungle d'Émeraude",
+  "histoire": "Maître du dojo des marais de la Jungle d'Émeraude, Crocodojo enseigne le karaté aux reptiles. Il frappe avec la queue comme d'autres avec le poing et attend des heures avant de bondir. Il vient chauffer ses écailles près des coulées de Golemagma.",
+  "liens": [
+   "golemagma",
+   "mante-shaolin"
+  ]
+ },
+ {
+  "id": "da-vincible",
+  "pays": "palettia",
+  "lieu": "La Galerie des Maîtres",
+  "histoire": "Champion de Pinceaurence, Da Vincible est peintre, ingénieur et guerrier invaincu. Il a peint les fresques de la Galerie des Maîtres et dessine lui-même ses armures. Escrimarguerite a posé pour son plus célèbre portrait.",
+  "liens": [
+   "escrimarguerite"
+  ]
+ },
+ {
+  "id": "boxeps",
+  "pays": "anatomia",
+  "lieu": "Le Dojo des Muscles",
+  "histoire": "Champion du Dojo des Muscles de Cardiopolis, Boxeps nomme chaque muscle qu'il contracte. Il s'entraîne en soulevant des colonnes de marbre. Il défie sans cesse Judocus, qu'il n'a jamais réussi à faire tomber.",
+  "liens": [
+   "judocus",
+   "vampirein"
+  ]
+ },
+ {
+  "id": "judocus",
+  "pays": "sylvanie",
+  "lieu": "La Vallée Fossile",
+  "histoire": "Judoka géant de la Vallée Fossile, Judocus est un diplodocus devenu ceinture noire. Il projette ses adversaires d'un coup de cou et connaît l'histoire de chaque fossile de la vallée. Mésozouave est son fidèle compagnon d'armes.",
+  "liens": [
+   "mesozouave",
+   "boxeps"
+  ]
+ },
+ {
+  "id": "mesozouave",
+  "pays": "sylvanie",
+  "lieu": "La Vallée Fossile",
+  "histoire": "Soldat de la garnison de la Vallée Fossile, Mésozouave prétend avoir servi du Cambrien au Quaternaire. Il range les périodes géologiques comme des régiments en parade et sonne le clairon à chaque extinction. Il veille sur Judocus.",
+  "liens": [
+   "judocus"
+  ]
+ },
+ {
+  "id": "golemagma",
+  "pays": "geonie",
+  "lieu": "Le Pic Brasier",
+  "histoire": "Né d'une coulée du Pic Brasier, Golemagma est un golem de lave refroidie au cœur toujours en fusion. Il garde dans son cratère les pages de la Grande Encyclopédie sur les volcans du Monde d'en haut. Sismogre est son voisin bruyant.",
+  "liens": [
+   "sismogre",
+   "crocodojo"
+  ]
+ },
+ {
+  "id": "sismogre",
+  "pays": "geonie",
+  "lieu": "La Faille de Sismonde",
+  "histoire": "Ogre de la Faille de Sismonde, Sismogre fait trembler le sol à chaque pas. Il compte les répliques sur ses doigts et connaît la date de chaque grand séisme. Les rapaces de Rapaladin le surveillent de loin.",
+  "liens": [
+   "golemagma",
+   "rapaladin"
+  ]
+ },
+ {
+  "id": "seinturion",
+  "pays": "geonie",
+  "lieu": "Le Delta des Mille Fleuves",
+  "histoire": "Centurion du Delta des Mille Fleuves, Seinturion a remonté à pied tous les fleuves d'Europe avec sa légion. Son bouclier porte la carte de leurs cours, de la source à la mer. Il échange ses cartes avec Afrodecapitator.",
+  "liens": [
+   "afrodecapitator",
+   "amazone-infernale"
+  ]
+ },
+ {
+  "id": "amazone-infernale",
+  "pays": "geonie",
+  "lieu": "Les Rives Lointaines",
+  "histoire": "Archère des Rives Lointaines, Amazone Infernale descend les plus grands fleuves du monde en pirogue de feu. Elle sait où chacun se jette, et ses flèches ne ratent jamais un confluent. Seinturion lui envie ses fleuves géants.",
+  "liens": [
+   "seinturion"
+  ]
+ },
+ {
+  "id": "krakenlac",
+  "pays": "geonie",
+  "lieu": "Le Grand Lac Miroir",
+  "histoire": "Kraken du Grand Lac Miroir, Krakenlac a été chassé des océans par Flibustlantique et s'est réfugié en eau douce. Il connaît chaque lac du monde. Il engloutit les bateaux qui confondent le Léman et le lac de Constance.",
+  "liens": [
+   "flibustlantique"
+  ]
+ },
+ {
+  "id": "flibustlantique",
+  "pays": "geonie",
+  "lieu": "Port-Abysse",
+  "histoire": "Pirate de Port-Abysse, Flibustlantique a navigué sur tous les océans et franchi tous les détroits. Il a chassé Krakenlac de la haute mer. Il nargue Orquebusier à chaque traversée.",
+  "liens": [
+   "krakenlac",
+   "orquebusier"
+  ]
+ }
+]

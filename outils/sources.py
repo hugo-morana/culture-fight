@@ -41,3 +41,20 @@ SOURCES = {
     "gaz-nobles": [("Gaz noble", W + "Gaz_noble")],
     "halogenes": [("Halogène", W + "Halog%C3%A8ne")],
 }
+
+
+def exporter():
+    """Écrit Resources/sources.json, lu par la fiche des combattants."""
+    import json
+    import os
+    sortie = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "CultureFight.swiftpm",
+                          "Resources", "sources.json")
+    donnees = [{"id": jeu, "sources": [{"titre": t, "url": u} for t, u in liste]}
+               for jeu, liste in SOURCES.items()]
+    with open(sortie, "w", encoding="utf-8") as fh:
+        json.dump(donnees, fh, ensure_ascii=False, indent=1)
+    return donnees
+
+
+if __name__ == "__main__":
+    print(f"{len(exporter())} jeux de données écrits dans Resources/sources.json")
