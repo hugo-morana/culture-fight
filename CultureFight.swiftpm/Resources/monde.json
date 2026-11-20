@@ -44,6 +44,34 @@
     {
      "nom": "Les Fjords de Fer",
      "description": "Côte gelée du nord d'Atomie, d'où partent les drakkars de métal."
+    },
+    {
+     "nom": "Les Alambics de Lavoisierre",
+     "description": "Quartier des chimistes de Mendéléia, où rien ne se perd et tout se transforme."
+    },
+    {
+     "nom": "Les Ateliers de Newtonne",
+     "description": "Ateliers de catapultes, de poulies et d'horloges, où chaque pomme qui tombe est mesurée."
+    },
+    {
+     "nom": "La Centrale d'Ampérage",
+     "description": "Ville de tours à foudre reliées par des câbles, qui éclaire toute l'Atomie."
+    },
+    {
+     "nom": "Le Phare des Prismes",
+     "description": "Phare de verre qui décompose la lumière en arc-en-ciel au-dessus de la côte d'Atomie."
+    },
+    {
+     "nom": "Les Fournaises de Kelvinor",
+     "description": "Chaufferies géantes où l'on mesure le chaud et le froid, du zéro absolu au cœur des fours."
+    },
+    {
+     "nom": "Le Collisionneur des Profondeurs",
+     "description": "Anneau souterrain sous Mendéléia, où l'on fracasse les atomes pour voir ce qu'ils cachent."
+    },
+    {
+     "nom": "L'Académie de Mendéléia",
+     "description": "Académie des savants d'Atomie, aux couloirs couverts de portraits et d'expériences célèbres."
     }
    ]
   },
@@ -86,6 +114,38 @@
     {
      "nom": "L'Observatoire du Zénith",
      "description": "Plus haut observatoire de Culturia, au sommet du Mont Comète."
+    },
+    {
+     "nom": "La Ronde des Planètes",
+     "description": "Jardin d'Orbitopolis où des sphères géantes tournent autour d'un soleil de bronze."
+    },
+    {
+     "nom": "Le Mont Comète",
+     "description": "Sommet d'Astralis où tombent les météorites et d'où l'on suit les comètes."
+    },
+    {
+     "nom": "La Forge des Étoiles",
+     "description": "Nébuleuse captive au-dessus d'Astralis, où naissent et meurent les étoiles."
+    },
+    {
+     "nom": "Les Plaines des Constellations",
+     "description": "Plaines sans lumière où l'on apprend à lire le ciel nocturne."
+    },
+    {
+     "nom": "Le Puits de l'Infini",
+     "description": "Gouffre au bout duquel on voit les galaxies lointaines et la lumière du Big Bang."
+    },
+    {
+     "nom": "Les Terrasses des Éclipses",
+     "description": "Terrasses d'Orbitopolis d'où l'on observe éclipses, aurores et marées."
+    },
+    {
+     "nom": "Le Cosmodrome d'Astralis",
+     "description": "Base de lancement des fusées et école des astronautes de Culturia."
+    },
+    {
+     "nom": "L'Académie céleste",
+     "description": "Académie des astronomes d'Astralis, gardienne des grands catalogues du ciel."
     }
    ]
   },
@@ -123,6 +183,22 @@
     {
      "nom": "Port-Abysse",
      "description": "Port pirate de la Côte des Sept Mers, ouvert sur tous les océans."
+    },
+    {
+     "nom": "Les Monts Glaciaires",
+     "description": "Chaîne de sommets enneigés du nord de la Géonie, refuge des alpinistes et des yétis."
+    },
+    {
+     "nom": "Le Désert des Dunes Chantantes",
+     "description": "Désert de Géonie dont les dunes chantent quand le vent souffle."
+    },
+    {
+     "nom": "L'Archipel des Illusions",
+     "description": "Îles qui apparaissent et disparaissent au large de la Géonie."
+    },
+    {
+     "nom": "Les Grottes de Cristal",
+     "description": "Grottes de minéraux et de pierres précieuses sous les montagnes de Géonie."
     }
    ]
   },
@@ -214,6 +290,22 @@
     {
      "nom": "La Route des Capitales",
      "description": "Route qui relie les maquettes de Capitalia, gardée par des bourreaux."
+    },
+    {
+     "nom": "La Place des Drapeaux",
+     "description": "Place de Capitalia où flottent les drapeaux de tous les pays du Monde d'en haut."
+    },
+    {
+     "nom": "Le Marché des Monnaies",
+     "description": "Marché de Capitalia où l'on paie en pièces de tous les pays."
+    },
+    {
+     "nom": "La Tour des Langues",
+     "description": "Tour de Capitalia où chaque étage parle une langue différente."
+    },
+    {
+     "nom": "La Province d'Hexagonie",
+     "description": "Grande maquette de la France, avec ses régions, ses départements et ses préfectures."
     }
    ]
   },
@@ -227,6 +319,22 @@
     {
      "nom": "Chronopolis",
      "description": "Capitale de Chronie, dont les rues traversent les siècles."
+    },
+    {
+     "nom": "Le Quartier antique",
+     "description": "Quartier de Chronopolis où vivent pharaons, empereurs et hoplites."
+    },
+    {
+     "nom": "La Citadelle médiévale",
+     "description": "Forteresse de Chronopolis où se croisent chevaliers, rois et archers."
+    },
+    {
+     "nom": "Le Palais des Temps modernes",
+     "description": "Palais des rois, des explorateurs et des révolutionnaires."
+    },
+    {
+     "nom": "Le Quartier contemporain",
+     "description": "Quartier de Chronopolis des empires, des républiques et des guerres mondiales."
     }
    ]
   },
@@ -244,6 +352,22 @@
     {
      "nom": "La Galerie des Maîtres",
      "description": "Galerie de Pinceaurence couverte de fresques, où s'entraînent les peintres-guerriers."
+    },
+    {
+     "nom": "Les Jardins impressionnistes",
+     "description": "Jardins de Palettia aux bassins de nénuphars, où la lumière change à chaque heure."
+    },
+    {
+     "nom": "Le Grand Musée de Pinceaurence",
+     "description": "Musée qui garde les chefs-d'œuvre de Palettia, sous une pyramide de verre."
+    },
+    {
+     "nom": "L'Opéra de Pinceaurence",
+     "description": "Opéra où se produisent compositeurs, chanteurs et musiciens de Culturia."
+    },
+    {
+     "nom": "La Vallée des Monuments",
+     "description": "Vallée où se dressent des copies des monuments du Monde d'en haut."
     }
    ]
   },
@@ -257,6 +381,14 @@
     {
      "nom": "Homéropolis",
      "description": "Capitale de Fabulie, où chaque pierre raconte une histoire."
+    },
+    {
+     "nom": "La Bibliothèque des Légendes",
+     "description": "Bibliothèque d'Homéropolis où dorment romans, poèmes, pièces et mots anciens."
+    },
+    {
+     "nom": "Le Mont des Dieux",
+     "description": "Montagne de Fabulie où siègent les dieux des mythologies."
     }
    ]
   }
