@@ -260,6 +260,21 @@ et est normalisé à −1 dB crête. Avec « Réduire les animations », seul l'
 | `son-pieces.wav` | Pièces du coffre | RPG Audio, `handle_coins` |
 | `son-achat.wav` | Achat en boutique | Casino Audio, `chipsStack1` |
 | `son-evolution.wav` | Évolution révélée | Digital Audio, `phaser_up_1` |
+| `son-tap.wav` | Navigation vers un écran | Interface Sounds, `click_001` |
+| `son-retour.wav` | Retour à l'accueil | Interface Sounds, `back_001` |
+| `son-erreur.wav` | Achat refusé | Interface Sounds, `error_004` |
+| `son-changement.wav` | Un combattant entre en jeu (après un K.O.) | RPG Audio, `cloth_2` |
+
+Jingles (ElevenLabs, même flux que les sons d'attaque), joués à l'écran de fin et en boutique ; la musique de
+combat baisse pendant le jingle (`ServiceAudio.attenuer`) :
+
+| Fichier | Moment |
+| --- | --- |
+| `son-victoire.wav` | Victoire (3,7 s) |
+| `son-defaite.wav` | Défaite (3,3 s) |
+| `son-nul.wav` | Match nul (2,3 s) |
+| `son-niveau.wav` | Niveau de compte ou de combattant gagné (1,8 s après le jingle) |
+| `son-nouveau-combattant.wav` | Nouveau combattant acheté en boutique |
 
 Les packs Kenney sont sous licence CC0 (domaine public) : usage commercial libre, sans crédit obligatoire
 (un crédit figure quand même dans les Mentions légales). Fichiers convertis en WAV mono 44,1 kHz.
