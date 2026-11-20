@@ -9,7 +9,18 @@ distribuer, publier ou exploiter, commercialement ou non, tout ou partie de ce c
 La consultation du dépôt et sa duplication (« fork ») sur GitHub restent possibles dans
 les seules limites des conditions d'utilisation de GitHub.
 
+La base de questions (jeux de données, fiches, questions et explications) est aussi
+protégée en tant que base de données (articles L341-1 et suivants du Code de la
+propriété intellectuelle) : son extraction ou sa réutilisation, même partielle, est
+interdite.
+
 « Culture Fight » est le nom d'un jeu de Hugo Morana.
+
+Contenus tiers, qui gardent leur propre licence :
+- Police Cinzel (CultureFight.swiftpm/Resources/Polices/) : © 2020 The Cinzel Project
+  Authors, SIL Open Font License 1.1 (texte dans OFL-Cinzel.txt).
+- Faits vérifiés dans les sources listées dans outils/sources.py : les faits eux-mêmes
+  ne sont la propriété de personne ; les textes du jeu sont rédigés pour lui.
 
 Contact pour toute demande d'autorisation : via la page GitHub de l'auteur.
 
@@ -22,3 +33,5 @@ is granted for any of its content (source code, data, text, character names, art
 icons, sounds and documents). Copying, modifying, distributing, publishing or using any
 part of it, commercially or not, requires the author's prior written permission.
 Viewing and forking on GitHub remain possible only within GitHub's Terms of Service.
+Third-party content keeps its own license: the Cinzel font (SIL Open Font License 1.1,
+see OFL-Cinzel.txt).
