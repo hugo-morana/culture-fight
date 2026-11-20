@@ -186,7 +186,7 @@ Ce qui est protégé, et comment (tâche 63 de la feuille de route) :
 | Faits (dates, capitales, symboles) | Aucune, pour personne | Reformuler, ne pas copier les phrases des sources |
 | Police Cinzel | Licence OFL de ses auteurs | Fournir le texte de la licence (fait, dans l'app) |
 
-L'écran **Mentions légales et crédits** (`Vues/MentionsLegalesView.swift`, depuis le bas du profil) affiche
+L'écran **Mentions légales et crédits** (`Vues/MentionsLegalesView.swift`, depuis le bas du profil, ou en touchant la ligne © en bas de l'accueil) affiche
 le © Hugo Morana, l'éditeur, l'absence de collecte de données, la licence de Cinzel avec son texte complet,
 les sources des questions et les marques citées. L'année du © s'étend seule (« 2026–2027 »).
 

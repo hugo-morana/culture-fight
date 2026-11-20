@@ -109,6 +109,7 @@ struct AccueilView: View {
     let profil: () -> Void
 
     @State private var apparu = false
+    @State private var mentionsOuvertes = false
 
     var body: some View {
         ZStack {
@@ -116,6 +117,16 @@ struct AccueilView: View {
             contenu
         }
         .onAppear { apparu = true }
+        .sheet(isPresented: $mentionsOuvertes) {
+            NavigationStack {
+                MentionsLegalesView()
+                    .toolbar {
+                        ToolbarItem(placement: .confirmationAction) {
+                            Button("OK") { mentionsOuvertes = false }
+                        }
+                    }
+            }
+        }
     }
 
     private var contenu: some View {
@@ -217,6 +228,15 @@ struct AccueilView: View {
             Text("Prototype · \(Catalogue.prototype.count) combattants · combat contre l'IA")
                 .font(.footnote)
                 .foregroundStyle(.secondary)
+            Button { mentionsOuvertes = true } label: {
+                Text("© \(MentionsLegalesView.annees) Hugo Morana · Tous droits réservés")
+                    .font(.caption2)
+                    .foregroundStyle(Charte.ivoire.opacity(0.6))
+            }
+            .buttonStyle(.plain)
+            .accessibilityHint("Ouvre les mentions légales et crédits")
+            .opacity(apparu ? 1 : 0)
+            .animation(.easeOut(duration: 0.6).delay(0.8), value: apparu)
         }
         .padding(32)
     }
