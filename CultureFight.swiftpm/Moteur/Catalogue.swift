@@ -23,6 +23,21 @@ enum Catalogue {
                                 generateur: GenerateurFiche(specialite: spec, fiche: donnees))
     }
 
+    /// Questions sur les éléments (nom, symbole, numéro) complétées par une fiche de culture.
+    private static func elementsEtFiche(_ specialite: Specialite, selection: [ElementChimique],
+                                        difficulte: Int, fiche: String) -> GenerateurMixte {
+        guard let donnees = fiches[fiche] else { fatalError("Fiche « \(fiche) » introuvable dans fiches.json") }
+        let formes: [GenerateurElements.Forme] = [.nomDuSymbole, .symboleDuNom, .numeroAtomique]
+        let elementsTires = selection.filter { $0.notoriete <= difficulte + 1 }
+        return GenerateurMixte(parties: [
+            .init(generateur: GenerateurElements(specialite: specialite, selection: selection,
+                                                 tous: elements, formes: formes),
+                  poids: (elementsTires.isEmpty ? selection : elementsTires).count * formes.count),
+            .init(generateur: GenerateurFiche(specialite: specialite, fiche: donnees),
+                  poids: donnees.nombreDeQuestions),
+        ])
+    }
+
     private static func charger<T: Decodable>(_ nom: String) -> [T] {
         guard let url = Bundle.module.url(forResource: nom, withExtension: "json"),
               let data = try? Data(contentsOf: url),
@@ -80,11 +95,9 @@ enum Catalogue {
             specialite: gazNobles, rarete: .commun,
             pvMax: 100, attaque: 50, defense: 0, difficulte: 1,
             apparence: "Ninja en combinaison noire parcourue de tubes de néon, shurikens en verre lumineux.",
-            questions: "Les 7 gaz nobles (hélium, néon, argon…) : nom, symbole et numéro atomique.",
-            generateur: GenerateurElements(specialite: gazNobles,
-                                           selection: elements.filter { $0.famille == "gaz noble" },
-                                           tous: elements,
-                                           formes: [.nomDuSymbole, .symboleDuNom, .numeroAtomique])),
+            questions: "Les 7 gaz nobles (hélium, néon, argon…) : nom, symbole, numéro atomique, usages et découverte.",
+            generateur: elementsEtFiche(gazNobles, selection: elements.filter { $0.famille == "gaz noble" },
+                                        difficulte: 1, fiche: "gaz-nobles")),
         ModeleCombattant(
             id: "mendeleviking", nom: "Mendéléviking", style: "Viking", familleStyle: .guerriersLourds,
             specialite: symboles, rarete: .commun,
@@ -100,11 +113,9 @@ enum Catalogue {
             specialite: halogenes, rarete: .commun,
             pvMax: 100, attaque: 50, defense: 0, difficulte: 2,
             apparence: "Gladiateur trapu en armure brun-violet, trident à trois pointes F, Cl et I.",
-            questions: "Les 6 halogènes (fluor, chlore, brome, iode…) : nom, symbole et numéro atomique.",
-            generateur: GenerateurElements(specialite: halogenes,
-                                           selection: elements.filter { $0.famille == "halogène" },
-                                           tous: elements,
-                                           formes: [.nomDuSymbole, .symboleDuNom, .numeroAtomique])),
+            questions: "Les 6 halogènes (fluor, chlore, brome, iode…) : nom, symbole, numéro atomique, usages et découverte.",
+            generateur: elementsEtFiche(halogenes, selection: elements.filter { $0.famille == "halogène" },
+                                        difficulte: 2, fiche: "halogenes")),
         ModeleCombattant(
             id: "afrodecapitator", nom: "Afrodecapitator", style: "Bourreau", familleStyle: .guerriersLourds,
             specialite: capitalesAfrique, rarete: .rare,

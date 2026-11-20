@@ -15,9 +15,10 @@ struct GenerateurCalcul: GenerateurQuestions {
 
     private func operandes(_ difficulte: Int) -> (Int, Int) {
         switch difficulte {
-        case ...1: return (Int.random(in: 2...5), Int.random(in: 2...10))
-        case 2: return (Int.random(in: 6...9), Int.random(in: 2...10))
-        default: return (Int.random(in: 11...19), Int.random(in: 3...9))
+        // Au moins 60 opérations différentes à chaque difficulté.
+        case ...1: return (Int.random(in: 2...10), Int.random(in: 2...10))   // 81 : les tables
+        case 2: return (Int.random(in: 6...12), Int.random(in: 3...12))      // 70
+        default: return (Int.random(in: 11...19), Int.random(in: 3...9))     // 63
         }
     }
 

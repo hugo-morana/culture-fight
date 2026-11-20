@@ -46,6 +46,13 @@ iOS 17 minimum.
 `Resources/fiches.json`, généré par `outils/fiches.py`. Pour modifier ou ajouter des questions :
 éditer `outils/fiches.py`, puis lancer `python3 outils/fiches.py` (le script vérifie chaque fiche).
 
+## Nombre de questions
+
+Chaque combattant pose au moins 60 questions différentes. Les questions ajoutées aux fiches sont dans
+`outils/ajouts_vivant.py` et `outils/ajouts_corps_terre_arts.py` ; `fiches.py` refuse une fiche sous 60
+questions. Néonja et Iodiateur mêlent les questions sur les éléments et une fiche de culture
+(`GenerateurMixte`) ; Multiplicator et Divisator tirent dans au moins 60 opérations à chaque difficulté.
+
 ## Explications après chaque réponse
 
 Après chaque réponse, l'écran de combat affiche une ligne de contexte (`Question.explication`) qui ne se

@@ -68,6 +68,68 @@
       "Contrairement au dauphin, il a des dents aplaties en forme de pelle."
      ]
     ]
+   },
+   {
+    "modele": "Comment appelle-t-on ceci chez un cétacé : {x} ?",
+    "inverse": "À quoi correspond ce mot chez un cétacé : {y} ?",
+    "explication": "{x} : {y}.",
+    "paires": [
+     [
+      "la narine sur le dessus de la tête",
+      "Évent",
+      "Les baleines à fanons en ont deux, les cétacés à dents un seul."
+     ],
+     [
+      "les lames cornées qui filtrent la nourriture",
+      "Fanons",
+      "Faits de kératine, comme nos ongles, ils remplacent les dents."
+     ],
+     [
+      "la nageoire horizontale de la queue",
+      "Nageoire caudale",
+      "Horizontale chez les cétacés, elle est verticale chez les poissons."
+     ],
+     [
+      "l'épaisse couche de graisse sous la peau",
+      "Lard",
+      "Elle isole du froid et peut atteindre plusieurs dizaines de centimètres."
+     ],
+     [
+      "l'organe graisseux du front qui concentre les sons",
+      "Melon",
+      "Il sert de lentille acoustique pour l'écholocation."
+     ],
+     [
+      "le jet de vapeur rejeté en surface",
+      "Souffle",
+      "Sa forme permet de reconnaître l'espèce de loin."
+     ],
+     [
+      "la substance de l'intestin du cachalot utilisée en parfumerie",
+      "Ambre gris",
+      "Rejetée en mer, elle flotte parfois jusqu'aux plages et vaut très cher."
+     ],
+     [
+      "l'huile de la tête du cachalot, autrefois brûlée dans les lampes",
+      "Spermaceti",
+      "C'est elle qui a fait chasser intensément le cachalot au XIXe siècle."
+     ],
+     [
+      "les petits crustacés dont se nourrit la baleine bleue",
+      "Krill",
+      "Une baleine bleue peut en avaler environ 4 tonnes par jour."
+     ],
+     [
+      "la nageoire sur le dos",
+      "Nageoire dorsale",
+      "Celle de l'orque mâle peut mesurer 1,8 m de haut."
+     ],
+     [
+      "les nageoires de chaque côté du corps",
+      "Nageoires pectorales",
+      "Elles contiennent des os semblables à ceux de notre main."
+     ]
+    ]
    }
   ],
   "questions": [
@@ -120,6 +182,106 @@
      "Par magnétisme"
     ],
     "explication": "Les dauphins émettent des clics et écoutent l'écho : c'est l'écholocation."
+   },
+   {
+    "enonce": "Combien de temps un cachalot peut-il rester sous l'eau ?",
+    "bonne": "Plus d'une heure",
+    "faux": [
+     "5 minutes",
+     "Une journée",
+     "Une semaine"
+    ],
+    "explication": "Il retient sa respiration plus d'une heure lors de ses plongées profondes."
+   },
+   {
+    "enonce": "Comment dorment les dauphins ?",
+    "bonne": "Avec une moitié du cerveau à la fois",
+    "faux": [
+     "Ils ne dorment jamais",
+     "Au fond de l'eau, sans respirer",
+     "Hors de l'eau, sur les plages"
+    ],
+    "explication": "Une moitié du cerveau reste éveillée pour respirer et surveiller."
+   },
+   {
+    "enonce": "Quel animal est Moby Dick dans le roman de Melville ?",
+    "bonne": "Un cachalot blanc",
+    "faux": [
+     "Une baleine bleue",
+     "Un béluga",
+     "Une orque"
+    ],
+    "explication": "Le roman de Herman Melville est paru en 1851."
+   },
+   {
+    "enonce": "Quel animal terrestre actuel est le plus proche parent des cétacés ?",
+    "bonne": "L'hippopotame",
+    "faux": [
+     "Le cheval",
+     "L'éléphant",
+     "Le phoque"
+    ],
+    "explication": "Cétacés et hippopotames ont un ancêtre commun qui vivait il y a plus de 50 millions d'années."
+   },
+   {
+    "enonce": "Combien de temps dure la gestation d'une baleine bleue ?",
+    "bonne": "Environ 11 mois",
+    "faux": [
+     "3 mois",
+     "2 ans",
+     "5 ans"
+    ],
+    "explication": "Le baleineau mesure déjà environ 7 m à la naissance."
+   },
+   {
+    "enonce": "Lequel de ces pays pratique encore la chasse commerciale à la baleine ?",
+    "bonne": "Le Japon",
+    "faux": [
+     "La France",
+     "Le Brésil",
+     "L'Australie"
+    ],
+    "explication": "Le Japon, la Norvège et l'Islande la pratiquent encore malgré le moratoire de 1986."
+   },
+   {
+    "enonce": "Comment s'appelle le petit du dauphin ?",
+    "bonne": "Le delphineau",
+    "faux": [
+     "Le dauphinet",
+     "Le marsouinet",
+     "Le dauphinot"
+    ],
+    "explication": "Il tète sa mère pendant plus d'un an."
+   },
+   {
+    "enonce": "Quel cétacé a la plus grosse tête par rapport à son corps ?",
+    "bonne": "Le cachalot",
+    "faux": [
+     "Le dauphin",
+     "Le narval",
+     "Le marsouin"
+    ],
+    "explication": "Sa tête représente environ un tiers de sa longueur."
+   },
+   {
+    "enonce": "Les orques chassent-elles d'autres cétacés ?",
+    "bonne": "Oui, même des baleineaux",
+    "faux": [
+     "Non, jamais",
+     "Elles ne mangent que des algues",
+     "Elles ne mangent que du plancton"
+    ],
+    "explication": "Chassant en groupe, elles attaquent phoques, requins et petits de grandes baleines."
+   },
+   {
+    "enonce": "Quel sens est presque absent chez les dauphins ?",
+    "bonne": "L'odorat",
+    "faux": [
+     "L'ouïe",
+     "Le toucher",
+     "La vue"
+    ],
+    "explication": "Les cétacés à dents ont perdu presque tout leur odorat."
    }
   ]
  },
@@ -180,6 +342,88 @@
       "la figue",
       "Figuier",
       "La figue est en réalité une inflorescence : ses fleurs sont cachées à l'intérieur."
+     ]
+    ]
+   },
+   {
+    "modele": "Quel arbre est connu pour ceci : {x} ?",
+    "inverse": "Pour quoi cet arbre est-il connu : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "son écorce donne le liège des bouchons",
+      "Chêne-liège",
+      "On peut l'écorcer tous les 9 à 12 ans sans le tuer."
+     ],
+     [
+      "sa sève donne le sirop d'érable",
+      "Érable à sucre",
+      "Il faut environ 40 litres de sève pour un litre de sirop."
+     ],
+     [
+      "son écorce a donné l'aspirine",
+      "Saule blanc",
+      "Elle contient de la salicine, dont on a tiré l'acide acétylsalicylique."
+     ],
+     [
+      "ses feuilles en éventail ; il a survécu à la bombe d'Hiroshima",
+      "Ginkgo",
+      "Apparu il y a plus de 200 millions d'années, on le dit fossile vivant."
+     ],
+     [
+      "c'est l'arbre le plus haut du monde, en Californie",
+      "Séquoia",
+      "Le plus haut, surnommé Hyperion, mesure environ 116 m."
+     ],
+     [
+      "son bois très léger sert aux maquettes",
+      "Balsa",
+      "Il pousse en Amérique tropicale ; son bois est plus léger que le liège."
+     ],
+     [
+      "son tronc énorme stocke l'eau, en Afrique",
+      "Baobab",
+      "Son tronc peut stocker des milliers de litres d'eau."
+     ],
+     [
+      "ses fèves donnent le chocolat",
+      "Cacaoyer",
+      "Les Mayas et les Aztèques utilisaient les fèves de cacao comme monnaie."
+     ],
+     [
+      "c'est souvent lui que l'on vend comme sapin de Noël",
+      "Épicéa",
+      "Les « sapins » de Noël sont souvent des épicéas ou des sapins de Nordmann."
+     ],
+     [
+      "son latex donne le caoutchouc naturel",
+      "Hévéa",
+      "On récolte le latex en incisant l'écorce."
+     ],
+     [
+      "son bois noir très dense servait aux touches de piano",
+      "Ébénier",
+      "L'ébène est si dense qu'elle coule dans l'eau."
+     ],
+     [
+      "il figure sur le drapeau du Liban",
+      "Cèdre du Liban",
+      "Son bois servait déjà aux Phéniciens pour construire leurs navires."
+     ],
+     [
+      "il donne les dattes",
+      "Palmier dattier",
+      "Il pousse dans les oasis ; un arbre peut donner plus de 50 kg de dattes par an."
+     ],
+     [
+      "ses feuilles nourrissent le koala",
+      "Eucalyptus",
+      "Originaire d'Australie, c'est l'un des arbres qui poussent le plus vite."
+     ],
+     [
+      "il donne les pignons de pin",
+      "Pin parasol",
+      "Sa cime large en forme de parasol marque les paysages méditerranéens."
      ]
     ]
    }
@@ -254,6 +498,46 @@
      "Bouleau"
     ],
     "explication": "La feuille d'érable est le symbole du Canada."
+   },
+   {
+    "enonce": "Comment appelle-t-on un arbre qui garde ses feuilles toute l'année ?",
+    "bonne": "Persistant",
+    "faux": [
+     "Caduc",
+     "Annuel",
+     "Vivace"
+    ],
+    "explication": "Un arbre qui perd ses feuilles en automne est dit caduc."
+   },
+   {
+    "enonce": "Comment connaît-on l'âge d'un arbre abattu ?",
+    "bonne": "En comptant ses cernes",
+    "faux": [
+     "En mesurant sa hauteur",
+     "En comptant ses branches",
+     "En pesant ses feuilles"
+    ],
+    "explication": "Chaque année, le tronc forme un cerne, clair au printemps et sombre à la fin de l'été."
+   },
+   {
+    "enonce": "Quel pigment rend les feuilles vertes ?",
+    "bonne": "La chlorophylle",
+    "faux": [
+     "La mélanine",
+     "Le carotène",
+     "L'hémoglobine"
+    ],
+    "explication": "En automne, elle disparaît et laisse voir les pigments jaunes et rouges."
+   },
+   {
+    "enonce": "Quelle forêt française est la plus grande forêt plantée d'Europe ?",
+    "bonne": "La forêt des Landes",
+    "faux": [
+     "La forêt de Fontainebleau",
+     "La forêt de Brocéliande",
+     "La forêt de Tronçais"
+    ],
+    "explication": "Ses pins maritimes ont été plantés au XIXe siècle pour assainir les marais."
    }
   ]
  },
@@ -304,6 +588,93 @@
       "le trèfle",
       "Irlande",
       "Saint Patrick s'en serait servi pour expliquer la Trinité aux Irlandais."
+     ]
+    ]
+   },
+   {
+    "modele": "Quelle plante correspond à cette description : « {x} » ?",
+    "inverse": "Quelle description correspond à cette plante : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "Plante carnivore qui referme ses feuilles sur les insectes",
+      "Dionée attrape-mouche",
+      "Ses pièges se ferment en moins d'une seconde quand on touche deux fois leurs poils."
+     ],
+     [
+      "Plus grande fleur du monde, à l'odeur de viande pourrie",
+      "Rafflésie",
+      "Elle peut dépasser 1 m de diamètre et pousse en Indonésie."
+     ],
+     [
+      "Petite fleur bleue dont le nom évoque le souvenir",
+      "Myosotis",
+      "En anglais, on l'appelle forget-me-not, « ne m'oubliez pas »."
+     ],
+     [
+      "Fleur blanche des prés qu'on effeuille : « il m'aime, un peu… »",
+      "Marguerite",
+      "Son cœur jaune est formé de centaines de toutes petites fleurs."
+     ],
+     [
+      "Plante jaune dont les graines s'envolent en parachutes",
+      "Pissenlit",
+      "Ses feuilles se mangent en salade ; on l'appelle aussi dent-de-lion."
+     ],
+     [
+      "Fleur bleue des blés, symbole du souvenir des soldats en France",
+      "Bleuet",
+      "Les jeunes recrues de 1915, en uniforme bleu horizon, étaient surnommées les bleuets."
+     ],
+     [
+      "Plante grimpante aux grappes mauves parfumées",
+      "Glycine",
+      "Originaire d'Asie, elle peut vivre plus de cent ans."
+     ],
+     [
+      "Arbuste aux grosses boules de fleurs dont la couleur dépend du sol",
+      "Hortensia",
+      "Ses fleurs sont bleues en sol acide et roses en sol calcaire."
+     ],
+     [
+      "Plante aquatique aux feuilles rondes qui flottent sur les étangs",
+      "Nénuphar",
+      "Claude Monet l'a peint des centaines de fois dans son jardin de Giverny."
+     ],
+     [
+      "Plante du désert couverte d'épines, qui stocke l'eau",
+      "Cactus",
+      "Ses épines sont des feuilles transformées, qui limitent la perte d'eau."
+     ],
+     [
+      "Plante qui pique la peau et dont on fait de la soupe",
+      "Ortie",
+      "Ses poils libèrent un liquide irritant au moindre contact."
+     ],
+     [
+      "Plante dont les feuilles se replient quand on les touche",
+      "Mimosa pudique",
+      "Il replie ses feuilles en quelques secondes pour décourager les herbivores."
+     ],
+     [
+      "Plante grasse dont le gel apaise les brûlures",
+      "Aloe vera",
+      "Ce gel est tiré de l'intérieur de ses feuilles charnues."
+     ],
+     [
+      "Fleur exotique qui ressemble à la tête d'un oiseau à crête orange",
+      "Oiseau de paradis",
+      "Originaire d'Afrique du Sud, elle s'appelle aussi strelitzia."
+     ],
+     [
+      "Petite fleur blanche qui perce la neige en fin d'hiver",
+      "Perce-neige",
+      "C'est l'une des premières fleurs de l'année, dès janvier ou février."
+     ],
+     [
+      "Fleur bleue des Alpes en forme de trompette",
+      "Gentiane",
+      "La racine d'une cousine, la gentiane jaune, sert à fabriquer des apéritifs."
      ]
     ]
    }
@@ -378,6 +749,66 @@
      "Souci"
     ],
     "explication": "Les graines de tournesol donnent l'huile de tournesol."
+   },
+   {
+    "enonce": "Comment s'appelle la partie mâle de la fleur, qui produit le pollen ?",
+    "bonne": "L'étamine",
+    "faux": [
+     "Le pistil",
+     "Le sépale",
+     "La corolle"
+    ],
+    "explication": "Le pistil est la partie femelle, où le pollen doit arriver."
+   },
+   {
+    "enonce": "Quels insectes pollinisent le plus les fleurs ?",
+    "bonne": "Les abeilles",
+    "faux": [
+     "Les fourmis",
+     "Les moustiques",
+     "Les cafards"
+    ],
+    "explication": "Une grande partie de ce que nous mangeons dépend des insectes pollinisateurs."
+   },
+   {
+    "enonce": "Comment s'appelle l'ensemble des pétales d'une fleur ?",
+    "bonne": "La corolle",
+    "faux": [
+     "Le calice",
+     "L'étamine",
+     "Le pédoncule"
+    ],
+    "explication": "Le calice est l'ensemble des sépales, souvent verts, sous les pétales."
+   },
+   {
+    "enonce": "Quel botaniste suédois a donné aux espèces leur nom scientifique en deux mots ?",
+    "bonne": "Carl von Linné",
+    "faux": [
+     "Charles Darwin",
+     "Gregor Mendel",
+     "Jean-Henri Fabre"
+    ],
+    "explication": "Depuis Linné, chaque espèce a un nom de genre et d'espèce, comme Bellis perennis pour la pâquerette."
+   },
+   {
+    "enonce": "Quelle plante aromatique est la base du pesto ?",
+    "bonne": "Le basilic",
+    "faux": [
+     "La menthe",
+     "Le persil",
+     "La coriandre"
+    ],
+    "explication": "Le pesto génois mêle basilic, pignons, ail, parmesan et huile d'olive."
+   },
+   {
+    "enonce": "Quelle plante aux fleurs bleues donne une fibre pour faire du tissu ?",
+    "bonne": "Le lin",
+    "faux": [
+     "Le coton",
+     "Le tournesol",
+     "La lavande"
+    ],
+    "explication": "La France est le premier producteur mondial de lin textile."
    }
   ]
  },
@@ -440,6 +871,85 @@
       "Son chapeau peut dépasser 30 cm ; son anneau coulisse le long du pied."
      ]
     ]
+   },
+   {
+    "modele": "Comment s'appelle cette partie d'un champignon : {x} ?",
+    "inverse": "À quoi correspond ce mot chez un champignon : {y} ?",
+    "explication": "{x} : {y}.",
+    "paires": [
+     [
+      "la partie du dessus, en forme de parapluie",
+      "Chapeau",
+      "Sous le chapeau se forment les spores, comme des graines microscopiques."
+     ],
+     [
+      "la partie qui porte le chapeau",
+      "Pied",
+      "On l'appelle aussi le stipe."
+     ],
+     [
+      "les fines lames sous le chapeau de certains champignons",
+      "Lamelles",
+      "C'est entre les lamelles que se forment les spores."
+     ],
+     [
+      "la collerette de peau autour du pied",
+      "Anneau",
+      "C'est le reste d'un voile qui protégeait les lamelles du jeune champignon."
+     ],
+     [
+      "la poche à la base du pied des amanites",
+      "Volve",
+      "Elle signale souvent une amanite : il faut déterrer le pied entier pour la voir."
+     ],
+     [
+      "les cellules microscopiques qui servent à se reproduire",
+      "Spores",
+      "Un seul champignon peut en libérer des milliards."
+     ],
+     [
+      "le cercle de champignons qui pousse dans l'herbe",
+      "Rond de sorcière",
+      "Il marque le bord d'un mycélium qui s'étend année après année."
+     ],
+     [
+      "les petits trous sous le chapeau des bolets",
+      "Pores",
+      "Ce sont les ouvertures de tubes, que les bolets ont à la place des lamelles."
+     ]
+    ]
+   },
+   {
+    "modele": "Quel aliment doit-on à ce champignon : {x} ?",
+    "inverse": "Quel champignon permet de fabriquer ceci : {y} ?",
+    "explication": "{x} : {y}.",
+    "paires": [
+     [
+      "la levure de boulanger",
+      "Le pain",
+      "Elle produit du gaz carbonique, qui fait gonfler la pâte."
+     ],
+     [
+      "Penicillium camemberti",
+      "La croûte blanche du camembert",
+      "Ce duvet blanc se forme pendant l'affinage."
+     ],
+     [
+      "la levure de brasserie",
+      "La bière",
+      "Elle transforme le sucre du malt en alcool et en gaz."
+     ],
+     [
+      "le koji, une moisissure",
+      "La sauce soja",
+      "Ce champignon fait fermenter le soja et le blé pendant des mois."
+     ],
+     [
+      "le Botrytis, ou pourriture noble",
+      "Le sauternes",
+      "Il concentre le sucre des raisins, ce qui donne ce vin blanc liquoreux."
+     ]
+    ]
    }
   ],
   "questions": [
@@ -492,6 +1002,126 @@
      "La mozzarella"
     ],
     "explication": "Les veines du roquefort viennent du champignon Penicillium roqueforti."
+   },
+   {
+    "enonce": "Quel champignon du seigle provoquait au Moyen Âge le « mal des ardents » ?",
+    "bonne": "L'ergot de seigle",
+    "faux": [
+     "La morille",
+     "Le mildiou",
+     "La truffe"
+    ],
+    "explication": "Le pain contaminé provoquait hallucinations et gangrènes."
+   },
+   {
+    "enonce": "Quel est le plus grand être vivant connu ?",
+    "bonne": "Un champignon de l'Oregon",
+    "faux": [
+     "Une baleine bleue",
+     "Un séquoia",
+     "Un éléphant d'Afrique"
+    ],
+    "explication": "Le mycélium d'un armillaire s'étend sur près de 10 km² en Oregon, aux États-Unis."
+   },
+   {
+    "enonce": "Que faire d'un champignon cueilli dont on n'est pas sûr ?",
+    "bonne": "Le faire vérifier par un pharmacien",
+    "faux": [
+     "Le goûter cru",
+     "Le faire bouillir longtemps",
+     "Vérifier qu'une limace l'a mangé"
+    ],
+    "explication": "En France, de nombreux pharmaciens identifient gratuitement les champignons."
+   },
+   {
+    "enonce": "Les champignons font-ils de la photosynthèse ?",
+    "bonne": "Non, ils n'ont pas de chlorophylle",
+    "faux": [
+     "Oui, comme les plantes",
+     "Seulement la nuit",
+     "Seulement les champignons verts"
+    ],
+    "explication": "Ils décomposent la matière morte ou vivent en association avec d'autres êtres."
+   },
+   {
+    "enonce": "Comment s'appelle l'association entre un champignon et les racines d'un arbre ?",
+    "bonne": "La mycorhize",
+    "faux": [
+     "La photosynthèse",
+     "La germination",
+     "La pollinisation"
+    ],
+    "explication": "Le champignon apporte eau et minéraux à l'arbre, qui lui donne des sucres."
+   },
+   {
+    "enonce": "Un lichen associe un champignon et quoi ?",
+    "bonne": "Une algue",
+    "faux": [
+     "Une mousse",
+     "Un insecte",
+     "Une fougère"
+    ],
+    "explication": "Le champignon protège l'algue, qui fabrique des sucres grâce à la lumière."
+   },
+   {
+    "enonce": "Quelle infection de la peau courante est due à un champignon ?",
+    "bonne": "La mycose",
+    "faux": [
+     "La varicelle",
+     "La rougeole",
+     "L'acné"
+    ],
+    "explication": "Le pied d'athlète est une mycose fréquente entre les orteils."
+   },
+   {
+    "enonce": "Les champignons sont-ils plus proches des plantes ou des animaux ?",
+    "bonne": "Des animaux",
+    "faux": [
+     "Des plantes",
+     "Des bactéries",
+     "Des minéraux"
+    ],
+    "explication": "L'étude de leur ADN montre qu'ils sont plus proches des animaux que des plantes."
+   },
+   {
+    "enonce": "Quel champignon cultivé sur bois est très consommé en Asie ?",
+    "bonne": "Le shiitake",
+    "faux": [
+     "La morille",
+     "Le cèpe",
+     "La girolle"
+    ],
+    "explication": "C'est l'un des champignons les plus consommés au monde."
+   },
+   {
+    "enonce": "En quelle saison cueille-t-on le plus de champignons en France ?",
+    "bonne": "L'automne",
+    "faux": [
+     "L'hiver",
+     "Le plein été",
+     "Le début du printemps"
+    ],
+    "explication": "La pluie et la douceur de l'automne favorisent leur pousse."
+   },
+   {
+    "enonce": "Quel champignon toxique au pied rouge ressemble à un cèpe ?",
+    "bonne": "Le bolet Satan",
+    "faux": [
+     "La girolle",
+     "Le pied-de-mouton",
+     "La coulemelle"
+    ],
+    "explication": "Son pied rouge et sa chair qui bleuit le distinguent du cèpe."
+   },
+   {
+    "enonce": "Quelle truffe, récoltée autour d'Alba en Italie, est la plus chère ?",
+    "bonne": "La truffe blanche",
+    "faux": [
+     "La truffe noire",
+     "La truffe d'été",
+     "La truffe de Bourgogne"
+    ],
+    "explication": "Elle peut se vendre plusieurs milliers d'euros le kilo."
    }
   ]
  },
@@ -559,6 +1189,83 @@
       "Sa queue fourchue lui sert de gouvernail ; il ne vit presque qu'en Europe."
      ]
     ]
+   },
+   {
+    "modele": "Quel rapace correspond à cette description : « {x} » ?",
+    "inverse": "Quelle description correspond à ce rapace : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "Vautour le plus commun en France, au cou dénudé",
+      "Vautour fauve",
+      "Réintroduit dans les Grands Causses, il plane en grands groupes."
+     ],
+     [
+      "Chouette des bois dont on entend le « hou-hou » la nuit",
+      "Chouette hulotte",
+      "C'est la chouette la plus commune des forêts de France."
+     ],
+     [
+      "Rapace courant au bord des routes, au cri miaulant",
+      "Buse variable",
+      "Son plumage varie beaucoup d'un individu à l'autre, d'où son nom."
+     ],
+     [
+      "Petit faucon très agile qui chasse les hirondelles et les libellules",
+      "Faucon hobereau",
+      "Il est si rapide qu'il attrape des martinets en vol."
+     ],
+     [
+      "Rapace qui se nourrit surtout de serpents",
+      "Circaète Jean-le-Blanc",
+      "Il fait du surplace et avale les serpents tout entiers."
+     ],
+     [
+      "Hibou aux longues aigrettes, plus petit que le grand-duc",
+      "Hibou moyen-duc",
+      "En hiver, plusieurs dizaines se rassemblent parfois dans un même arbre."
+     ],
+     [
+      "Rapace des marais qui chasse en rasant les roseaux",
+      "Busard des roseaux",
+      "Les busards chassent en volant bas, les ailes relevées en V."
+     ],
+     [
+      "Aigle d'Amérique tropicale aux serres énormes, chasseur de singes",
+      "Harpie féroce",
+      "Ses serres rivalisent avec les griffes d'un ours ; elle chasse aussi les paresseux."
+     ],
+     [
+      "Rapace d'Afrique à longues pattes qui tue les serpents à coups de pied",
+      "Serpentaire",
+      "On l'appelle aussi messager sagittaire, à cause des plumes derrière sa tête."
+     ],
+     [
+      "Chouette blanche de l'Arctique",
+      "Harfang des neiges",
+      "Il chasse de jour pendant l'été polaire, où la nuit ne tombe pas."
+     ],
+     [
+      "Petit vautour blanc qui casse les œufs d'autruche avec des pierres",
+      "Vautour percnoptère",
+      "C'est l'un des rares oiseaux qui utilisent des outils."
+     ],
+     [
+      "Plus grand faucon du monde, très prisé des fauconniers",
+      "Faucon gerfaut",
+      "Il vit dans l'Arctique ; au Moyen Âge, seuls les rois pouvaient en posséder."
+     ],
+     [
+      "Petit hibou du Midi au chant flûté répété toute la nuit",
+      "Petit-duc scops",
+      "Son « tiou » monotone est typique des nuits d'été méditerranéennes."
+     ],
+     [
+      "Aigle marin géant de l'Extrême-Orient russe",
+      "Pygargue de Steller",
+      "C'est l'aigle le plus lourd du monde : il peut dépasser 8 kg."
+     ]
+    ]
    }
   ],
   "questions": [
@@ -591,6 +1298,86 @@
      "L'aviculture"
     ],
     "explication": "La fauconnerie consiste à chasser avec des rapaces dressés."
+   },
+   {
+    "enonce": "Quelle différence fait-on souvent en français entre hibou et chouette ?",
+    "bonne": "Le hibou a des aigrettes",
+    "faux": [
+     "La chouette est toujours plus grande",
+     "Le hibou vit le jour",
+     "La chouette n'a pas de bec crochu"
+    ],
+    "explication": "C'est une distinction de la langue, pas des scientifiques."
+   },
+   {
+    "enonce": "Chez la plupart des rapaces, quel sexe est le plus grand ?",
+    "bonne": "La femelle",
+    "faux": [
+     "Le mâle",
+     "Ils ont la même taille",
+     "Cela dépend de la saison"
+    ],
+    "explication": "La femelle peut être un tiers plus grande que le mâle."
+   },
+   {
+    "enonce": "Comment s'appelle le petit de l'aigle ?",
+    "bonne": "L'aiglon",
+    "faux": [
+     "L'aiglet",
+     "L'aigleau",
+     "L'aiglot"
+    ],
+    "explication": "Le fils de Napoléon Ier était surnommé l'Aiglon."
+   },
+   {
+    "enonce": "Pourquoi les vautours ont-ils souvent la tête sans plumes ?",
+    "bonne": "Pour rester propres en mangeant",
+    "faux": [
+     "Pour mieux voir",
+     "Pour voler plus vite",
+     "Parce qu'ils sont vieux"
+    ],
+    "explication": "Plongées dans les carcasses, des plumes s'y saliraient."
+   },
+   {
+    "enonce": "De combien de degrés une chouette peut-elle tourner la tête ?",
+    "bonne": "Environ 270",
+    "faux": [
+     "90",
+     "180",
+     "360"
+    ],
+    "explication": "Ses yeux sont fixes dans leurs orbites : elle doit tourner la tête pour regarder ailleurs."
+   },
+   {
+    "enonce": "Quel pesticide a presque fait disparaître de nombreux rapaces dans les années 1960 ?",
+    "bonne": "Le DDT",
+    "faux": [
+     "Le chlore",
+     "Le fluor",
+     "Le sel"
+    ],
+    "explication": "Il amincissait la coquille des œufs, qui se cassaient pendant la couvaison."
+   },
+   {
+    "enonce": "Quel rapace figure sur les armoiries de l'Allemagne ?",
+    "bonne": "L'aigle",
+    "faux": [
+     "Le faucon",
+     "La chouette",
+     "Le vautour"
+    ],
+    "explication": "L'aigle noir figurait déjà sur les armoiries du Saint-Empire."
+   },
+   {
+    "enonce": "Comment s'appelle le capuchon posé sur la tête d'un faucon en fauconnerie ?",
+    "bonne": "Le chaperon",
+    "faux": [
+     "Le heaume",
+     "Le bonnet",
+     "La muserolle"
+    ],
+    "explication": "Dans le noir, l'oiseau reste calme pendant le transport."
    }
   ]
  },
@@ -658,6 +1445,68 @@
       "Il saute à près de 3 m de haut pour attraper des oiseaux en vol."
      ]
     ]
+   },
+   {
+    "modele": "Quel félin correspond à cette description : « {x} » ?",
+    "inverse": "Quelle description correspond à ce félin : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "Félin d'Asie du Sud-Est aux taches en forme de nuages",
+      "Panthère nébuleuse",
+      "Elle a les plus longues canines de tous les félins par rapport à sa taille."
+     ],
+     [
+      "Petit félin tacheté d'Amérique, longtemps chassé pour sa fourrure",
+      "Ocelot",
+      "Salvador Dalí se promenait avec un ocelot apprivoisé."
+     ],
+     [
+      "Petit félin des déserts aux pattes couvertes de poils",
+      "Chat des sables",
+      "Les poils sous ses pattes le protègent du sable brûlant."
+     ],
+     [
+      "Plus petit félin d'Afrique, aux dessous des pattes noirs",
+      "Chat à pieds noirs",
+      "Il ne pèse que 1 à 2 kg, mais c'est l'un des chasseurs les plus efficaces."
+     ],
+     [
+      "Félin d'Asie centrale au poil long et à la face aplatie",
+      "Manul",
+      "Ses pupilles restent rondes, contrairement à celles du chat domestique."
+     ],
+     [
+      "Lynx d'Amérique du Nord à queue courte",
+      "Lynx roux",
+      "On l'appelle aussi bobcat ; c'est le félin sauvage le plus commun des États-Unis."
+     ],
+     [
+      "Lion qui ne survit plus qu'en Inde",
+      "Lion d'Asie",
+      "Il ne vit plus que dans la région de la forêt de Gir."
+     ],
+     [
+      "Plus petit félin du monde, d'Inde et du Sri Lanka",
+      "Chat rubigineux",
+      "Il pèse à peine plus d'un kilo."
+     ],
+     [
+      "Félin d'Amérique au corps allongé et à la tête de belette",
+      "Jaguarondi",
+      "Il chasse surtout le jour, ce qui est rare chez les félins."
+     ],
+     [
+      "Félin vénéré en Égypte antique",
+      "Chat",
+      "Les Égyptiens honoraient la déesse-chatte Bastet et momifiaient leurs chats."
+     ],
+     [
+      "Hybride né d'un lion et d'une tigresse",
+      "Ligre",
+      "Il peut dépasser 300 kg, plus que ses deux parents."
+     ]
+    ]
    }
   ],
   "questions": [
@@ -700,6 +1549,136 @@
      "Le chat domestique"
     ],
     "explication": "Contrairement à beaucoup de félins, le tigre aime l'eau et nage facilement."
+   },
+   {
+    "enonce": "Lequel de ces félins ronronne mais ne rugit pas ?",
+    "bonne": "Le guépard",
+    "faux": [
+     "Le lion",
+     "Le tigre",
+     "Le jaguar"
+    ],
+    "explication": "Les félins qui rugissent (lion, tigre, jaguar, léopard) ne ronronnent pas vraiment."
+   },
+   {
+    "enonce": "À quoi servent les moustaches d'un chat ?",
+    "bonne": "À sentir son environnement",
+    "faux": [
+     "À goûter la nourriture",
+     "À entendre",
+     "À rien, elles sont décoratives"
+    ],
+    "explication": "Ces vibrisses détectent les mouvements d'air et la largeur des passages."
+   },
+   {
+    "enonce": "Pourquoi les pupilles du chat sont-elles en fente ?",
+    "bonne": "Pour bien régler la lumière",
+    "faux": [
+     "Pour voir les couleurs",
+     "Pour voir plus loin",
+     "Pour faire peur"
+    ],
+    "explication": "Une fente se ferme bien plus qu'une pupille ronde en plein soleil."
+   },
+   {
+    "enonce": "Combien d'heures un lion peut-il dormir par jour ?",
+    "bonne": "Jusqu'à 20 heures",
+    "faux": [
+     "4 heures",
+     "8 heures",
+     "Il ne dort jamais"
+    ],
+    "explication": "Il économise son énergie entre deux chasses."
+   },
+   {
+    "enonce": "Hormis l'Antarctique, quel continent n'a aucun félin sauvage d'origine ?",
+    "bonne": "L'Océanie",
+    "faux": [
+     "L'Afrique",
+     "L'Asie",
+     "L'Amérique du Sud"
+    ],
+    "explication": "Les chats sauvages d'Australie descendent de chats domestiques importés."
+   },
+   {
+    "enonce": "À quoi servent les rayures du tigre ?",
+    "bonne": "À se camoufler dans les hautes herbes",
+    "faux": [
+     "À attirer les proies",
+     "À se rafraîchir",
+     "À effrayer les éléphants"
+    ],
+    "explication": "Ses proies distinguent mal l'orange du vert : pour elles, le tigre se fond dans la végétation."
+   },
+   {
+    "enonce": "À quoi sert la langue râpeuse des félins ?",
+    "bonne": "À racler la viande et faire leur toilette",
+    "faux": [
+     "À boire plus vite",
+     "À sentir les odeurs",
+     "À ronronner"
+    ],
+    "explication": "Elle est couverte de petits crochets tournés vers l'arrière."
+   },
+   {
+    "enonce": "En Amérique, quel félin noir appelle-t-on panthère noire ?",
+    "bonne": "Le jaguar",
+    "faux": [
+     "Le puma",
+     "L'ocelot",
+     "Le lynx"
+    ],
+    "explication": "En Afrique et en Asie, la panthère noire est un léopard."
+   },
+   {
+    "enonce": "Quel félin est le plus menacé d'Europe ?",
+    "bonne": "Le lynx pardelle",
+    "faux": [
+     "Le lynx boréal",
+     "Le chat forestier",
+     "Le chat des sables"
+    ],
+    "explication": "Ce lynx d'Espagne et du Portugal est passé de moins de 100 à plus de 2 000 individus."
+   },
+   {
+    "enonce": "Combien de temps dure la gestation d'une chatte ?",
+    "bonne": "Environ 2 mois",
+    "faux": [
+     "2 semaines",
+     "6 mois",
+     "1 an"
+    ],
+    "explication": "Elle met bas en général de 3 à 5 chatons."
+   },
+   {
+    "enonce": "Pourquoi les yeux des chats brillent-ils dans le noir ?",
+    "bonne": "Une couche au fond de l'œil renvoie la lumière",
+    "faux": [
+     "Ils produisent de la lumière",
+     "Ils sont phosphorescents",
+     "Ils reflètent la Lune seulement"
+    ],
+    "explication": "Ce miroir, le tapetum lucidum, renvoie la lumière vers la rétine : le chat voit mieux la nuit."
+   },
+   {
+    "enonce": "Combien existe-t-il environ d'espèces de félins sauvages ?",
+    "bonne": "Environ 40",
+    "faux": [
+     "Environ 5",
+     "Environ 200",
+     "Plus de 1 000"
+    ],
+    "explication": "Elles vont du chat rubigineux, d'un kilo, au tigre, de plus de 300 kg."
+   },
+   {
+    "enonce": "Combien de doigts a un chat à une patte avant ?",
+    "bonne": "5",
+    "faux": [
+     "3",
+     "4",
+     "6"
+    ],
+    "explication": "Il en a 5 devant, dont un ergot placé plus haut, et 4 derrière."
    }
   ]
  },
@@ -772,6 +1751,73 @@
       "Ce déplacement s'appelle la brachiation ; il franchit ainsi une dizaine de mètres d'un élan."
      ]
     ]
+   },
+   {
+    "modele": "Quel primate correspond à cette description : « {x} » ?",
+    "inverse": "Quelle description correspond à ce primate : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "Le plus petit singe du monde, d'Amazonie",
+      "Ouistiti pygmée",
+      "Il pèse environ 100 g."
+     ],
+     [
+      "Singe d'Amérique très habile, qui casse les noix avec des pierres",
+      "Capucin",
+      "Il doit son nom à la couleur de sa tête, qui rappelle la capuche des moines capucins."
+     ],
+     [
+      "Singe d'Afrique au museau de chien, qui vit en grandes troupes",
+      "Babouin",
+      "Les Égyptiens l'associaient au dieu Thot."
+     ],
+     [
+      "Lémurien nocturne au long doigt fin pour chercher les larves",
+      "Aye-aye",
+      "Il tapote le bois et écoute l'écho pour trouver les larves."
+     ],
+     [
+      "Singe doré au nez retroussé des montagnes de Chine",
+      "Rhinopithèque",
+      "Son épaisse fourrure le protège du froid des forêts d'altitude."
+     ],
+     [
+      "Singe d'Afrique noir et blanc aux longs poils, presque sans pouce",
+      "Colobe",
+      "Son nom vient du grec « mutilé », à cause de son pouce minuscule."
+     ],
+     [
+      "Lémurien qui se déplace au sol en sautant de côté",
+      "Propithèque",
+      "On l'appelle aussi sifaka, d'après son cri."
+     ],
+     [
+      "Petit primate lent d'Asie, à la morsure venimeuse",
+      "Loris lent",
+      "C'est le seul primate venimeux : son venin vient d'une glande du bras."
+     ],
+     [
+      "Singe d'Amazonie au visage chauve rouge vif",
+      "Ouakari chauve",
+      "Un visage bien rouge serait pour ses congénères un signe de bonne santé."
+     ],
+     [
+      "Singe des savanes d'Afrique aux cris d'alarme différents selon le prédateur",
+      "Vervet",
+      "Il a un cri pour l'aigle, un pour le léopard et un pour le serpent."
+     ],
+     [
+      "Petit singe à crinière dorée de la forêt atlantique du Brésil",
+      "Tamarin-lion doré",
+      "Grâce à sa protection, il est passé de quelques centaines à plusieurs milliers d'individus."
+     ],
+     [
+      "Plus grand lémurien vivant, à la queue très courte",
+      "Indri",
+      "Ses chants puissants s'entendent à plus de 2 km."
+     ]
+    ]
    }
   ],
   "questions": [
@@ -814,12 +1860,195 @@
      "Seulement les jeunes"
     ],
     "explication": "Les grands singes, comme l'humain, n'ont pas de queue."
+   },
+   {
+    "enonce": "Quels sont les plus proches parents vivants de l'homme ?",
+    "bonne": "Le chimpanzé et le bonobo",
+    "faux": [
+     "Le gorille",
+     "L'orang-outan",
+     "Le babouin"
+    ],
+    "explication": "Nous partageons environ 98,7 % de notre ADN avec eux."
+   },
+   {
+    "enonce": "Combien de chromosomes a l'être humain ?",
+    "bonne": "46",
+    "faux": [
+     "44",
+     "48",
+     "52"
+    ],
+    "explication": "Les grands singes en ont 48 : deux de leurs chromosomes ont fusionné chez nous."
+   },
+   {
+    "enonce": "Quelle primatologue a étudié les orangs-outans à Bornéo ?",
+    "bonne": "Biruté Galdikas",
+    "faux": [
+     "Jane Goodall",
+     "Dian Fossey",
+     "Marie Curie"
+    ],
+    "explication": "Avec Goodall et Fossey, elle formait les « anges de Leakey »."
+   },
+   {
+    "enonce": "Quel paléontologue a envoyé Goodall, Fossey et Galdikas étudier les grands singes ?",
+    "bonne": "Louis Leakey",
+    "faux": [
+     "Charles Darwin",
+     "Jacques-Yves Cousteau",
+     "Yves Coppens"
+    ],
+    "explication": "Il pensait que les grands singes éclaireraient l'évolution humaine."
+   },
+   {
+    "enonce": "Comment s'appelle le célèbre fossile d'australopithèque découvert en 1974 ?",
+    "bonne": "Lucy",
+    "faux": [
+     "Toumaï",
+     "Néandertal",
+     "Cro-Magnon"
+    ],
+    "explication": "Elle a vécu il y a environ 3,2 millions d'années en Éthiopie."
+   },
+   {
+    "enonce": "Qu'est-ce qu'une queue préhensile ?",
+    "bonne": "Une queue capable de saisir",
+    "faux": [
+     "Une queue très courte",
+     "Une queue sans poils",
+     "Une queue qui repousse"
+    ],
+    "explication": "Certains singes d'Amérique s'en servent comme d'une cinquième main."
+   },
+   {
+    "enonce": "Où vivent les singes à queue préhensile ?",
+    "bonne": "En Amérique",
+    "faux": [
+     "En Afrique",
+     "En Asie",
+     "En Europe"
+    ],
+    "explication": "Aucun singe d'Afrique ou d'Asie n'a de queue préhensile."
+   },
+   {
+    "enonce": "Quelle est la principale menace pour les orangs-outans ?",
+    "bonne": "La déforestation",
+    "faux": [
+     "Le froid",
+     "Les requins",
+     "La pollution de l'air"
+    ],
+    "explication": "Leurs forêts de Bornéo et de Sumatra reculent face aux plantations de palmiers à huile."
+   },
+   {
+    "enonce": "Que mangent surtout les gorilles ?",
+    "bonne": "Des plantes",
+    "faux": [
+     "De la viande",
+     "Des poissons",
+     "Uniquement des insectes"
+    ],
+    "explication": "Ils mangent surtout des feuilles, des tiges et des fruits."
    }
   ]
  },
  {
   "id": "insectes",
-  "relations": [],
+  "relations": [
+   {
+    "modele": "Quel insecte correspond à cette description : « {x} » ?",
+    "inverse": "Quelle description correspond à cet insecte : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "Chasseur rapide au bord de l'eau, aux quatre ailes transparentes",
+      "Libellule",
+      "Ses ancêtres, avant les dinosaures, atteignaient 70 cm d'envergure."
+     ],
+     [
+      "Insecte vert aux très longues antennes, qui saute loin",
+      "Sauterelle",
+      "Les sauterelles ont de longues antennes ; les criquets, de courtes."
+     ],
+     [
+      "Insecte qui forme des essaims dévastateurs en Afrique",
+      "Criquet pèlerin",
+      "Un essaim peut compter des milliards d'individus et dévorer des cultures entières."
+     ],
+     [
+      "Petite bête rouge à points noirs, mangeuse de pucerons",
+      "Coccinelle",
+      "Une coccinelle peut manger des dizaines de pucerons par jour."
+     ],
+     [
+      "Plus grand coléoptère d'Europe, aux mandibules en bois de cerf",
+      "Lucane cerf-volant",
+      "Le mâle se sert de ses mandibules pour combattre ses rivaux."
+     ],
+     [
+      "Insecte qui ressemble à une brindille",
+      "Phasme",
+      "Certains phasmes dépassent 50 cm : ce sont les plus longs insectes."
+     ],
+     [
+      "Insecte qui élève des pucerons pour leur miellat",
+      "Fourmi",
+      "Une fourmi peut porter plusieurs fois son propre poids."
+     ],
+     [
+      "Insecte sauteur qui suce le sang des chiens et des chats",
+      "Puce",
+      "Elle saute à plus de 100 fois sa taille."
+     ],
+     [
+      "Petit insecte qui vit dans les cheveux",
+      "Pou",
+      "Ses œufs, les lentes, sont collés à la base des cheveux."
+     ],
+     [
+      "Insecte rayé jaune et noir qui pique, sans faire de miel",
+      "Guêpe",
+      "Contrairement à l'abeille, elle peut piquer plusieurs fois."
+     ],
+     [
+      "Insecte qui court sur l'eau sans couler",
+      "Gerris",
+      "Les poils de ses pattes ne se mouillent pas et s'appuient sur la surface de l'eau."
+     ],
+     [
+      "Coléoptère rayé qui dévore les feuilles de pomme de terre",
+      "Doryphore",
+      "Venu d'Amérique, il a envahi l'Europe au XXe siècle."
+     ],
+     [
+      "Coléoptère dont les larves creusent les charpentes",
+      "Capricorne des maisons",
+      "Ses larves creusent des galeries dans le bois pendant plusieurs années."
+     ],
+     [
+      "Insecte des cuisines qui fuit la lumière",
+      "Blatte",
+      "Ses ancêtres existaient déjà il y a plus de 300 millions d'années."
+     ],
+     [
+      "Mouche rayée qui imite la guêpe pour se protéger",
+      "Syrphe",
+      "Inoffensive, elle fait du surplace au-dessus des fleurs."
+     ],
+     [
+      "Scarabée sacré des Égyptiens",
+      "Scarabée sacré",
+      "Les Égyptiens y voyaient le dieu Khépri qui fait rouler le Soleil."
+     ],
+     [
+      "Insecte aux très longues pattes, comme un gros moustique, qui ne pique pas",
+      "Tipule",
+      "Ses larves vivent dans le sol et mangent les racines."
+     ]
+    ]
+   }
+  ],
   "questions": [
    {
     "enonce": "Combien de pattes a un insecte ?",
@@ -970,6 +2199,126 @@
      "L'abeille"
     ],
     "explication": "Les termites bâtissent des termitières qui peuvent dépasser plusieurs mètres de haut."
+   },
+   {
+    "enonce": "Comment s'appellent les ailes dures qui protègent celles des coléoptères ?",
+    "bonne": "Les élytres",
+    "faux": [
+     "Les antennes",
+     "Les mandibules",
+     "Les ocelles"
+    ],
+    "explication": "Les coccinelles et les hannetons les soulèvent pour s'envoler."
+   },
+   {
+    "enonce": "Comment s'appelle la transformation de la chenille en papillon ?",
+    "bonne": "La métamorphose",
+    "faux": [
+     "La mue",
+     "La germination",
+     "La migration"
+    ],
+    "explication": "Entre les deux, la chenille s'enferme dans une chrysalide."
+   },
+   {
+    "enonce": "Comment s'appelle l'enveloppe où la chenille devient papillon ?",
+    "bonne": "La chrysalide",
+    "faux": [
+     "La mue",
+     "L'élytre",
+     "La ruche"
+    ],
+    "explication": "Le ver à soie l'entoure en plus d'un cocon de soie."
+   },
+   {
+    "enonce": "Par où respirent les insectes ?",
+    "bonne": "Par des trous sur les côtés du corps",
+    "faux": [
+     "Par des poumons",
+     "Par des branchies",
+     "Par la bouche"
+    ],
+    "explication": "Ces stigmates mènent l'air dans des tubes, les trachées."
+   },
+   {
+    "enonce": "Comment s'appellent les gros yeux des insectes, faits de milliers de facettes ?",
+    "bonne": "Des yeux composés",
+    "faux": [
+     "Des ocelles",
+     "Des palpes",
+     "Des antennes"
+    ],
+    "explication": "Une libellule a jusqu'à environ 30 000 facettes par œil."
+   },
+   {
+    "enonce": "De quel sexe sont les abeilles ouvrières ?",
+    "bonne": "Femelle",
+    "faux": [
+     "Mâle",
+     "Ni l'un ni l'autre",
+     "Cela change avec l'âge"
+    ],
+    "explication": "Les mâles, les faux-bourdons, ne récoltent pas et n'ont pas de dard."
+   },
+   {
+    "enonce": "Comment une abeille indique-t-elle aux autres où trouver des fleurs ?",
+    "bonne": "En dansant",
+    "faux": [
+     "En chantant",
+     "En changeant de couleur",
+     "En laissant des traces de miel"
+    ],
+    "explication": "Karl von Frisch a reçu le prix Nobel en 1973 pour avoir décodé cette danse."
+   },
+   {
+    "enonce": "Quel naturaliste français a observé les insectes toute sa vie en Provence ?",
+    "bonne": "Jean-Henri Fabre",
+    "faux": [
+     "Buffon",
+     "Lamarck",
+     "Cuvier"
+    ],
+    "explication": "Ses Souvenirs entomologiques lui ont valu le surnom d'Homère des insectes."
+   },
+   {
+    "enonce": "Comment s'appelle la science des insectes ?",
+    "bonne": "L'entomologie",
+    "faux": [
+     "L'ornithologie",
+     "L'ichtyologie",
+     "L'herpétologie"
+    ],
+    "explication": "L'ornithologie étudie les oiseaux, l'ichtyologie les poissons."
+   },
+   {
+    "enonce": "Quel insecte abîme les vêtements en laine ?",
+    "bonne": "La mite",
+    "faux": [
+     "La puce",
+     "Le grillon",
+     "La libellule"
+    ],
+    "explication": "Ce sont ses chenilles, et non le papillon adulte, qui mangent la laine."
+   },
+   {
+    "enonce": "Les araignées sont-elles des insectes ?",
+    "bonne": "Non, des arachnides",
+    "faux": [
+     "Oui",
+     "Non, des crustacés",
+     "Non, des reptiles"
+    ],
+    "explication": "Elles ont 8 pattes et 2 parties du corps, sans antennes ni ailes."
+   },
+   {
+    "enonce": "Combien de paires d'ailes ont la plupart des insectes volants ?",
+    "bonne": "2",
+    "faux": [
+     "1",
+     "3",
+     "4"
+    ],
+    "explication": "Les mouches font exception : leur seconde paire est devenue de petits balanciers."
    }
   ]
  },
@@ -1037,6 +2386,88 @@
       "Les couleuvres, inoffensives, ont au contraire une pupille ronde."
      ]
     ]
+   },
+   {
+    "modele": "Quel reptile correspond à cette description : « {x} » ?",
+    "inverse": "Quelle description correspond à ce reptile : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "Lézard d'Amérique qui court sur l'eau",
+      "Basilic",
+      "Ses larges pattes arrière frappent l'eau si vite qu'il ne coule pas."
+     ],
+     [
+      "Lézard d'Australie qui déploie une grande collerette",
+      "Lézard à collerette",
+      "Il se dresse sur ses pattes arrière et ouvre la gueule pour effrayer."
+     ],
+     [
+      "Reptile de Nouvelle-Zélande, dernier survivant d'un groupe très ancien",
+      "Sphénodon",
+      "On l'appelle aussi tuatara ; il a un « troisième œil » sur le dessus de la tête."
+     ],
+     [
+      "Lézard sans pattes qu'on prend pour un serpent",
+      "Orvet",
+      "Contrairement au serpent, il a des paupières et peut perdre sa queue."
+     ],
+     [
+      "Serpent d'Amérique dont le bout de la queue fait du bruit",
+      "Serpent à sonnette",
+      "Sa sonnette est faite d'anneaux de peau morte, un de plus à chaque mue."
+     ],
+     [
+      "Serpent terrestre au venin le plus puissant, en Australie",
+      "Taïpan du désert",
+      "Il est pourtant timide et ne mord presque jamais l'homme."
+     ],
+     [
+      "Serpent africain très rapide, à l'intérieur de la gueule noir",
+      "Mamba noir",
+      "Il peut se déplacer à environ 15 km/h."
+     ],
+     [
+      "Crocodilien d'Inde au museau très long et fin",
+      "Gavial",
+      "Son museau fin est parfait pour attraper des poissons."
+     ],
+     [
+      "Tortue marine dont la carapace fournissait l'écaille",
+      "Tortue imbriquée",
+      "Le commerce de l'écaille a été interdit, mais elle reste en danger critique."
+     ],
+     [
+      "Lézard vert vif des haies de France, à la gorge bleue au printemps",
+      "Lézard vert",
+      "C'est le mâle qui arbore la gorge bleue pendant la saison des amours."
+     ],
+     [
+      "Le lézard le plus commun de France, qui se chauffe sur les murs",
+      "Lézard des murailles",
+      "Il vit même en ville, dans les fissures des vieux murs."
+     ],
+     [
+      "Seule tortue terrestre sauvage de France",
+      "Tortue d'Hermann",
+      "Elle vit dans le Var et en Corse."
+     ],
+     [
+      "Lézard venimeux d'Amérique du Nord, aux écailles comme des perles",
+      "Monstre de Gila",
+      "Un médicament contre le diabète a été mis au point à partir de sa salive."
+     ],
+     [
+      "Le seul lézard qui plonge en mer pour brouter des algues",
+      "Iguane marin",
+      "Il vit aux îles Galápagos et rejette le sel par des glandes du nez."
+     ],
+     [
+      "Couleuvre d'eau qui fait la morte quand on l'attrape",
+      "Couleuvre à collier",
+      "Elle simule la mort et dégage une odeur nauséabonde."
+     ]
+    ]
    }
   ],
   "questions": [
@@ -1079,6 +2510,66 @@
      "La métamorphose"
     ],
     "explication": "Le serpent mue plusieurs fois par an et laisse sa vieille peau derrière lui."
+   },
+   {
+    "enonce": "Comment s'appelle le scientifique qui étudie les reptiles et les amphibiens ?",
+    "bonne": "L'herpétologue",
+    "faux": [
+     "L'ornithologue",
+     "L'entomologiste",
+     "Le primatologue"
+    ],
+    "explication": "Le mot vient du grec herpeton, « ce qui rampe »."
+   },
+   {
+    "enonce": "Qu'est-ce qui décide souvent du sexe des bébés crocodiles et tortues ?",
+    "bonne": "La température des œufs",
+    "faux": [
+     "La taille de la mère",
+     "La saison",
+     "La couleur du nid"
+    ],
+    "explication": "Quelques degrés de plus ou de moins dans le nid changent le sexe des petits."
+   },
+   {
+    "enonce": "Les serpents ont-ils des paupières ?",
+    "bonne": "Non, une écaille transparente couvre leurs yeux",
+    "faux": [
+     "Oui, comme nous",
+     "Seulement les serpents venimeux",
+     "Seulement la nuit"
+    ],
+    "explication": "C'est pourquoi un serpent semble ne jamais cligner des yeux."
+   },
+   {
+    "enonce": "Comment un serpent avale-t-il une proie plus grosse que sa tête ?",
+    "bonne": "Sa mâchoire s'écarte largement",
+    "faux": [
+     "Il la découpe avec ses dents",
+     "Il la fait fondre avec son venin",
+     "Il la mâche longuement"
+    ],
+    "explication": "Les deux moitiés de sa mâchoire inférieure ne sont pas soudées."
+   },
+   {
+    "enonce": "Quel est le groupe de reptiles le plus nombreux ?",
+    "bonne": "Les lézards et les serpents",
+    "faux": [
+     "Les tortues",
+     "Les crocodiliens",
+     "Les sphénodons"
+    ],
+    "explication": "Ce groupe, les squamates, compte plus de 10 000 espèces."
+   },
+   {
+    "enonce": "Une tortue peut-elle sortir de sa carapace ?",
+    "bonne": "Non, elle fait partie de son squelette",
+    "faux": [
+     "Oui, pour muer",
+     "Oui, quand elle grandit",
+     "Seulement les tortues marines"
+    ],
+    "explication": "La carapace est formée en partie de ses côtes et de sa colonne vertébrale."
    }
   ]
  },
@@ -1151,6 +2642,78 @@
       "C'est un ptérosaure, cousin des dinosaures, et il n'avait pas de dents."
      ]
     ]
+   },
+   {
+    "modele": "Que signifie le nom « {x} » ?",
+    "inverse": "Quel nom signifie « {y} » ?",
+    "explication": "{x} signifie « {y} ».",
+    "paires": [
+     [
+      "Tyrannosaure",
+      "Lézard tyran",
+      "Son nom complet, Tyrannosaurus rex, veut dire « roi des lézards tyrans »."
+     ],
+     [
+      "Diplodocus",
+      "Double poutre",
+      "Le nom vient d'os en double poutre sous sa queue."
+     ],
+     [
+      "Vélociraptor",
+      "Voleur rapide",
+      "Il chassait sans doute de petites proies."
+     ],
+     [
+      "Stégosaure",
+      "Lézard à toit",
+      "On a d'abord cru que ses plaques formaient un toit couché sur son dos."
+     ],
+     [
+      "Iguanodon",
+      "Dent d'iguane",
+      "C'est l'un des premiers dinosaures découverts, en Angleterre, dans les années 1820."
+     ],
+     [
+      "Brachiosaure",
+      "Lézard bras",
+      "Ses pattes avant étaient plus longues que ses pattes arrière."
+     ],
+     [
+      "dinosaure",
+      "Lézard terrible",
+      "Le mot a été inventé en 1842 par le Britannique Richard Owen."
+     ],
+     [
+      "Mégalosaure",
+      "Grand lézard",
+      "C'est le premier dinosaure à avoir été décrit et nommé, en 1824."
+     ],
+     [
+      "Oviraptor",
+      "Voleur d'œufs",
+      "On l'a cru voleur d'œufs, mais il couvait en fait les siens."
+     ],
+     [
+      "Archéoptéryx",
+      "Aile ancienne",
+      "Ce lien entre dinosaures et oiseaux a été découvert en 1861."
+     ],
+     [
+      "Ankylosaure",
+      "Lézard soudé",
+      "Ses plaques osseuses étaient soudées comme une armure."
+     ],
+     [
+      "Spinosaure",
+      "Lézard à épines",
+      "Les longues épines de son dos soutenaient sa voile."
+     ],
+     [
+      "Ptéranodon",
+      "Ailé et sans dents",
+      "Il attrapait sans doute les poissons comme un pélican."
+     ]
+    ]
    }
   ],
   "questions": [
@@ -1193,12 +2756,232 @@
      "L'anthropologue"
     ],
     "explication": "Le paléontologue étudie les êtres vivants disparus à partir des fossiles."
+   },
+   {
+    "enonce": "Quel reptile marin à long cou vivait au temps des dinosaures ?",
+    "bonne": "Le plésiosaure",
+    "faux": [
+     "Le tricératops",
+     "Le diplodocus",
+     "Le mammouth"
+    ],
+    "explication": "Ce n'était pas un dinosaure, mais un reptile marin."
+   },
+   {
+    "enonce": "Les humains ont-ils côtoyé les dinosaures (hors oiseaux) ?",
+    "bonne": "Non, des dizaines de millions d'années les séparent",
+    "faux": [
+     "Oui, à la préhistoire",
+     "Oui, au Moyen Âge",
+     "Seulement en Amérique"
+    ],
+    "explication": "Les dinosaures non aviens ont disparu il y a 66 millions d'années ; notre espèce a environ 300 000 ans."
+   },
+   {
+    "enonce": "Quel dinosaure géant, parmi les plus lourds connus, a été découvert en Argentine ?",
+    "bonne": "L'argentinosaure",
+    "faux": [
+     "Le vélociraptor",
+     "Le stégosaure",
+     "Le compsognathus"
+    ],
+    "explication": "Il pesait peut-être 70 tonnes."
+   },
+   {
+    "enonce": "Comment s'appelle un excrément fossilisé ?",
+    "bonne": "Un coprolithe",
+    "faux": [
+     "Une ammonite",
+     "Un trilobite",
+     "Un gastéropode"
+    ],
+    "explication": "Les coprolithes révèlent ce que mangeaient les dinosaures."
+   },
+   {
+    "enonce": "Quel cratère du Mexique est lié à l'astéroïde qui a tué les dinosaures ?",
+    "bonne": "Chicxulub",
+    "faux": [
+     "Meteor Crater",
+     "Vredefort",
+     "Rochechouart"
+    ],
+    "explication": "Il mesure environ 180 km de diamètre, dans la péninsule du Yucatán."
+   },
+   {
+    "enonce": "Les dinosaures pondaient-ils des œufs ?",
+    "bonne": "Oui",
+    "faux": [
+     "Non, ils donnaient naissance à des petits vivants",
+     "Seulement les carnivores",
+     "Seulement les dinosaures volants"
+    ],
+    "explication": "On a trouvé des nids entiers, comme ceux du Maiasaura dans le Montana."
+   },
+   {
+    "enonce": "Quel petit dinosaure, de la taille d'un poulet, a été trouvé en Bavière et dans le Var ?",
+    "bonne": "Le compsognathus",
+    "faux": [
+     "Le diplodocus",
+     "Le tyrannosaure",
+     "Le tricératops"
+    ],
+    "explication": "C'est l'un des plus petits dinosaures connus."
+   },
+   {
+    "enonce": "Comment s'appelle le groupe des dinosaures carnivores bipèdes, dont descendent les oiseaux ?",
+    "bonne": "Les théropodes",
+    "faux": [
+     "Les sauropodes",
+     "Les cératopsiens",
+     "Les ptérosaures"
+    ],
+    "explication": "Le tyrannosaure et le vélociraptor en font partie."
    }
   ]
  },
  {
   "id": "eres-geologiques",
-  "relations": [],
+  "relations": [
+   {
+    "modele": "À quelle ère appartient cette période : {x} ?",
+    "inverse": null,
+    "explication": "{x} appartient au {y}.",
+    "paires": [
+     [
+      "Cambrien",
+      "Paléozoïque",
+      "C'est la première période du Paléozoïque, qui commence il y a environ 540 millions d'années."
+     ],
+     [
+      "Ordovicien",
+      "Paléozoïque",
+      "Il se termine par l'une des cinq grandes extinctions."
+     ],
+     [
+      "Silurien",
+      "Paléozoïque",
+      "Il doit son nom aux Silures, un ancien peuple du pays de Galles."
+     ],
+     [
+      "Dévonien",
+      "Paléozoïque",
+      "On l'appelle l'âge des poissons."
+     ],
+     [
+      "Carbonifère",
+      "Paléozoïque",
+      "Ses forêts ont formé une grande partie du charbon."
+     ],
+     [
+      "Permien",
+      "Paléozoïque",
+      "Il se termine par la plus grande extinction de l'histoire."
+     ],
+     [
+      "Trias",
+      "Mésozoïque",
+      "Les premiers dinosaures et les premiers mammifères y apparaissent."
+     ],
+     [
+      "Jurassique",
+      "Mésozoïque",
+      "Il doit son nom au massif du Jura."
+     ],
+     [
+      "Crétacé",
+      "Mésozoïque",
+      "Il se termine par la chute d'un astéroïde, il y a 66 millions d'années."
+     ],
+     [
+      "Paléogène",
+      "Cénozoïque",
+      "Les mammifères s'y diversifient après la disparition des dinosaures."
+     ],
+     [
+      "Néogène",
+      "Cénozoïque",
+      "Les premiers hominidés y apparaissent en Afrique."
+     ],
+     [
+      "Quaternaire",
+      "Cénozoïque",
+      "C'est notre période, marquée par les grandes glaciations."
+     ],
+     [
+      "Édiacarien",
+      "Précambrien",
+      "On y trouve les plus anciens fossiles d'animaux de grande taille."
+     ]
+    ]
+   },
+   {
+    "modele": "Pendant quelle période sont apparus : {x} ?",
+    "inverse": "Qu'est-il apparu pendant cette période : {y} ?",
+    "explication": "{x} : {y}.",
+    "paires": [
+     [
+      "les premiers dinosaures",
+      "Trias",
+      "Ils sont apparus il y a environ 230 millions d'années."
+     ],
+     [
+      "les premières plantes à fleurs",
+      "Crétacé",
+      "Elles se sont répandues rapidement, avec les insectes pollinisateurs."
+     ],
+     [
+      "la plupart des grands groupes d'animaux, avec coquilles et squelettes",
+      "Cambrien",
+      "On parle d'explosion cambrienne, il y a environ 540 millions d'années."
+     ],
+     [
+      "les premiers vertébrés à quatre pattes",
+      "Dévonien",
+      "Ces tétrapodes descendent de poissons aux nageoires charnues."
+     ],
+     [
+      "les insectes géants, comme des libellules de 70 cm",
+      "Carbonifère",
+      "L'air était alors plus riche en oxygène qu'aujourd'hui."
+     ],
+     [
+      "les premiers oiseaux",
+      "Jurassique",
+      "L'archéoptéryx date d'environ 150 millions d'années."
+     ],
+     [
+      "l'Homo sapiens",
+      "Quaternaire",
+      "Notre espèce est apparue il y a environ 300 000 ans, en Afrique."
+     ],
+     [
+      "les premières plantes terrestres",
+      "Ordovicien",
+      "Elles ressemblaient à de petites mousses."
+     ],
+     [
+      "les premiers poissons à mâchoires",
+      "Silurien",
+      "Avant eux, les poissons n'avaient pas de mâchoires."
+     ],
+     [
+      "le Dimétrodon, ancêtre à voile des mammifères",
+      "Permien",
+      "Malgré sa voile, ce n'était pas un dinosaure."
+     ],
+     [
+      "les premiers chevaux et les premières baleines",
+      "Paléogène",
+      "Libérés des dinosaures, les mammifères conquièrent tous les milieux."
+     ],
+     [
+      "les premiers hominidés bipèdes, comme Toumaï ou Lucy",
+      "Néogène",
+      "Toumaï a environ 7 millions d'années, Lucy environ 3,2 millions."
+     ]
+    ]
+   }
+  ],
   "questions": [
    {
     "enonce": "Dans quelle ère ont vécu les dinosaures ?",
@@ -1319,6 +3102,126 @@
      "Le Trias"
     ],
     "explication": "Les mammouths laineux vivaient au Pléistocène, l'époque des grandes glaciations."
+   },
+   {
+    "enonce": "Que signifie « Mésozoïque » ?",
+    "bonne": "Vie moyenne",
+    "faux": [
+     "Vie ancienne",
+     "Vie récente",
+     "Sans vie"
+    ],
+    "explication": "Paléozoïque veut dire vie ancienne, Cénozoïque vie récente."
+   },
+   {
+    "enonce": "Combien de temps a duré le Mésozoïque ?",
+    "bonne": "Environ 186 millions d'années",
+    "faux": [
+     "10 000 ans",
+     "1 million d'années",
+     "2 milliards d'années"
+    ],
+    "explication": "Il va d'environ 252 à 66 millions d'années."
+   },
+   {
+    "enonce": "Quelle limite entre deux périodes marque la disparition des dinosaures ?",
+    "bonne": "Crétacé-Paléogène",
+    "faux": [
+     "Trias-Jurassique",
+     "Permien-Trias",
+     "Silurien-Dévonien"
+    ],
+    "explication": "On l'appelait autrefois la limite Crétacé-Tertiaire, ou K-T."
+   },
+   {
+    "enonce": "Comment appelle-t-on le très long temps avant le Cambrien ?",
+    "bonne": "Le Précambrien",
+    "faux": [
+     "Le Quaternaire",
+     "Le Jurassique",
+     "Le Néogène"
+    ],
+    "explication": "Il couvre près de 90 % de l'histoire de la Terre."
+   },
+   {
+    "enonce": "Quels êtres vivants ont rempli l'atmosphère d'oxygène il y a plus de 2 milliards d'années ?",
+    "bonne": "Des cyanobactéries",
+    "faux": [
+     "Les dinosaures",
+     "Les arbres",
+     "Les poissons"
+    ],
+    "explication": "Leurs colonies fossiles s'appellent des stromatolithes."
+   },
+   {
+    "enonce": "Comment s'appelle l'étude des couches de roches ?",
+    "bonne": "La stratigraphie",
+    "faux": [
+     "La sismologie",
+     "La volcanologie",
+     "La météorologie"
+    ],
+    "explication": "Les couches du bas sont en général les plus anciennes."
+   },
+   {
+    "enonce": "Quel nom propose-t-on pour une époque marquée par l'action de l'homme ?",
+    "bonne": "L'Anthropocène",
+    "faux": [
+     "Le Pléistocène",
+     "Le Jurassique",
+     "Le Dévonien"
+    ],
+    "explication": "En 2024, les géologues ont refusé d'en faire officiellement une époque."
+   },
+   {
+    "enonce": "Quelle roche a donné son nom au Crétacé ?",
+    "bonne": "La craie",
+    "faux": [
+     "Le granite",
+     "Le basalte",
+     "Le marbre"
+    ],
+    "explication": "Crétacé vient du latin creta, la craie, comme celle des falaises d'Étretat."
+   },
+   {
+    "enonce": "D'où vient le nom du Dévonien ?",
+    "bonne": "Du Devon, un comté anglais",
+    "faux": [
+     "D'un savant nommé Devon",
+     "Du mot « devenir »",
+     "D'un volcan"
+    ],
+    "explication": "Beaucoup de périodes portent le nom du lieu où leurs roches ont été étudiées."
+   },
+   {
+    "enonce": "D'où vient le nom du Permien ?",
+    "bonne": "De la région de Perm, en Russie",
+    "faux": [
+     "Du mot « permanent »",
+     "D'un savant nommé Perm",
+     "D'une île grecque"
+    ],
+    "explication": "Le géologue écossais Roderick Murchison l'a nommé en 1841."
+   },
+   {
+    "enonce": "Que signifie le nom « Trias » ?",
+    "bonne": "Trois",
+    "faux": [
+     "Triste",
+     "Sec",
+     "Rouge"
+    ],
+    "explication": "Il doit son nom à trois couches de roches observées en Allemagne."
+   },
+   {
+    "enonce": "Quel félin préhistorique avait des canines en forme de sabre ?",
+    "bonne": "Le smilodon",
+    "faux": [
+     "Le mammouth",
+     "Le diplodocus",
+     "Le mégalodon"
+    ],
+    "explication": "On l'appelle tigre à dents de sabre, bien qu'il ne soit pas un tigre."
    }
   ]
  },
@@ -1396,6 +3299,83 @@
       "Il y en a deux, un de chaque côté du sommet du crâne."
      ]
     ]
+   },
+   {
+    "modele": "Quel est le nom savant de : {x} ?",
+    "inverse": "Quel os porte ce nom savant : {y} ?",
+    "explication": "{x} : {y}.",
+    "paires": [
+     [
+      "l'omoplate",
+      "Scapula",
+      "Elle ne tient au reste du squelette que par la clavicule."
+     ],
+     [
+      "la rotule",
+      "Patella",
+      "Elle est enfermée dans le tendon du quadriceps."
+     ],
+     [
+      "le cubitus",
+      "Ulna",
+      "Le cubitus est l'os de l'avant-bras du côté du petit doigt."
+     ],
+     [
+      "l'os du bassin",
+      "Os coxal",
+      "Il est formé de trois os soudés : l'ilion, l'ischion et le pubis."
+     ],
+     [
+      "l'os de la pommette",
+      "Os zygomatique",
+      "Il forme aussi une partie du bord de l'orbite de l'œil."
+     ],
+     [
+      "l'osselet de l'oreille relié au tympan",
+      "Marteau",
+      "Avec l'enclume et l'étrier, il transmet les vibrations du tympan."
+     ],
+     [
+      "l'osselet du milieu de l'oreille",
+      "Enclume",
+      "Il doit son nom à sa forme d'enclume de forgeron."
+     ],
+     [
+      "l'os du front",
+      "Os frontal",
+      "Chez le nouveau-né, il est encore formé de deux moitiés."
+     ],
+     [
+      "l'os de l'arrière du crâne",
+      "Os occipital",
+      "Il est percé du grand trou par où passe la moelle épinière."
+     ],
+     [
+      "la vertèbre qui porte le crâne",
+      "Atlas",
+      "Elle doit son nom au titan Atlas, qui portait le ciel."
+     ],
+     [
+      "la deuxième vertèbre du cou, autour de laquelle tourne la tête",
+      "Axis",
+      "Une petite dent de l'axis sert de pivot à l'atlas."
+     ],
+     [
+      "le petit os de la jambe, à côté du tibia",
+      "Fibula",
+      "On l'appelait autrefois le péroné."
+     ],
+     [
+      "l'os en forme de U sous la langue",
+      "Os hyoïde",
+      "C'est le seul os qui ne touche aucun autre os."
+     ],
+     [
+      "l'os de la cuisse",
+      "Fémur",
+      "Fémur est à la fois son nom courant et son nom savant ; il vient du latin « cuisse »."
+     ]
+    ]
    }
   ],
   "questions": [
@@ -1448,6 +3428,26 @@
      "Le zinc"
     ],
     "explication": "Les os sont riches en calcium, sous forme de phosphate de calcium."
+   },
+   {
+    "enonce": "Combien d'os compte environ un nouveau-né ?",
+    "bonne": "Environ 300",
+    "faux": [
+     "206",
+     "Environ 100",
+     "Environ 500"
+    ],
+    "explication": "Beaucoup se soudent en grandissant, d'où 206 chez l'adulte."
+   },
+   {
+    "enonce": "Comment s'appelle le tissu au cœur des os qui fabrique le sang ?",
+    "bonne": "La moelle osseuse",
+    "faux": [
+     "La moelle épinière",
+     "Le cartilage",
+     "Le tendon"
+    ],
+    "explication": "Elle produit chaque jour des milliards de cellules sanguines."
    }
   ]
  },
@@ -1520,6 +3520,73 @@
       "Elle détruit les vieux globules rouges ; on peut vivre sans elle."
      ]
     ]
+   },
+   {
+    "modele": "Quel organe contient {x} ?",
+    "inverse": "Que contient cet organe : {y} ?",
+    "explication": "On trouve {x} dans cet organe : {y}.",
+    "paires": [
+     [
+      "les cordes vocales",
+      "Le larynx",
+      "On sent sa saillie à l'avant du cou : la pomme d'Adam."
+     ],
+     [
+      "les néphrons",
+      "Les reins",
+      "Chaque rein compte environ un million de ces petits filtres."
+     ],
+     [
+      "les villosités",
+      "L'intestin grêle",
+      "Ces replis minuscules multiplient la surface qui absorbe les aliments."
+     ],
+     [
+      "la rétine",
+      "L'œil",
+      "Elle capte la lumière et envoie l'image au cerveau par le nerf optique."
+     ],
+     [
+      "le tympan",
+      "L'oreille",
+      "Cette fine membrane vibre sous l'effet des sons."
+     ],
+     [
+      "les ventricules et les oreillettes",
+      "Le cœur",
+      "Les ventricules envoient le sang, les oreillettes le reçoivent."
+     ],
+     [
+      "les îlots de Langerhans",
+      "Le pancréas",
+      "Ces petits amas de cellules fabriquent l'insuline."
+     ],
+     [
+      "l'hippocampe",
+      "Le cerveau",
+      "Cette zone en forme d'hippocampe joue un grand rôle dans la mémoire."
+     ],
+     [
+      "les bronches",
+      "Les poumons",
+      "Elles se ramifient comme un arbre à l'envers jusqu'aux alvéoles."
+     ],
+     [
+      "l'appendice",
+      "Le gros intestin",
+      "Ce petit prolongement s'enflamme parfois : c'est l'appendicite."
+     ],
+     [
+      "les papilles gustatives",
+      "La langue",
+      "On en compte plusieurs milliers ; elles se renouvellent en une dizaine de jours."
+     ],
+     [
+      "les follicules pileux",
+      "La peau",
+      "Chaque poil ou cheveu pousse dans un follicule."
+     ]
+    ]
    }
   ],
   "questions": [
@@ -1572,6 +3639,96 @@
      "Les poumons"
     ],
     "explication": "La peau couvre près de 2 m² chez l'adulte."
+   },
+   {
+    "enonce": "Quelle glande en forme de papillon se trouve à l'avant du cou ?",
+    "bonne": "La thyroïde",
+    "faux": [
+     "Le thymus",
+     "L'hypophyse",
+     "La rate"
+    ],
+    "explication": "Elle règle la vitesse à laquelle le corps utilise l'énergie."
+   },
+   {
+    "enonce": "Quelle glande du cerveau, grosse comme un petit pois, commande d'autres glandes ?",
+    "bonne": "L'hypophyse",
+    "faux": [
+     "La thyroïde",
+     "Le pancréas",
+     "La rate"
+    ],
+    "explication": "Elle produit notamment l'hormone de croissance."
+   },
+   {
+    "enonce": "Combien de litres de sang contient le corps d'un adulte ?",
+    "bonne": "Environ 5 litres",
+    "faux": [
+     "1 litre",
+     "15 litres",
+     "50 litres"
+    ],
+    "explication": "Au repos, le cœur fait circuler tout ce sang en environ une minute."
+   },
+   {
+    "enonce": "Quelle est la plus grosse artère du corps ?",
+    "bonne": "L'aorte",
+    "faux": [
+     "La veine cave",
+     "La veine porte",
+     "L'artère radiale"
+    ],
+    "explication": "Elle part du ventricule gauche du cœur."
+   },
+   {
+    "enonce": "Combien mesure environ le gros intestin ?",
+    "bonne": "Environ 1,5 m",
+    "faux": [
+     "15 cm",
+     "6 m",
+     "20 m"
+    ],
+    "explication": "Il absorbe surtout l'eau et forme les selles."
+   },
+   {
+    "enonce": "Quelle glande fabrique les larmes ?",
+    "bonne": "La glande lacrymale",
+    "faux": [
+     "La glande salivaire",
+     "La thyroïde",
+     "Le pancréas"
+    ],
+    "explication": "Elle se trouve au-dessus de l'œil, du côté de la tempe."
+   },
+   {
+    "enonce": "Combien de reins a l'être humain ?",
+    "bonne": "2",
+    "faux": [
+     "1",
+     "3",
+     "4"
+    ],
+    "explication": "On peut vivre normalement avec un seul rein."
+   },
+   {
+    "enonce": "Où se trouve le foie ?",
+    "bonne": "En haut à droite du ventre",
+    "faux": [
+     "En haut à gauche du ventre",
+     "Dans le thorax, à gauche",
+     "Dans le bas du dos"
+    ],
+    "explication": "Il est protégé par les côtes du côté droit."
+   },
+   {
+    "enonce": "Quel organe se trouve à gauche de l'estomac, sous les côtes ?",
+    "bonne": "La rate",
+    "faux": [
+     "Le foie",
+     "La vésicule biliaire",
+     "L'appendice"
+    ],
+    "explication": "Elle est fragile : un choc violent peut la rompre."
    }
   ]
  },
@@ -1649,6 +3806,83 @@
       "Avec le soléaire, il forme le triceps sural, qui se termine par le tendon d'Achille."
      ]
     ]
+   },
+   {
+    "modele": "Quel muscle permet de {x} ?",
+    "inverse": "À quoi sert ce muscle : {y} ?",
+    "explication": "Pour {x}, on utilise ce muscle : {y}.",
+    "paires": [
+     [
+      "fermer les paupières",
+      "L'orbiculaire de l'œil",
+      "Il fait cligner les yeux environ 15 fois par minute."
+     ],
+     [
+      "sourire en relevant le coin des lèvres",
+      "Le grand zygomatique",
+      "On l'appelle parfois le muscle du sourire."
+     ],
+     [
+      "relever la pointe du pied",
+      "Le tibial antérieur",
+      "On le sent travailler à l'avant de la jambe quand on marche sur les talons."
+     ],
+     [
+      "se mettre sur la pointe des pieds",
+      "Le triceps sural",
+      "C'est le muscle du mollet, relié au talon par le tendon d'Achille."
+     ],
+     [
+      "tourner la tête sur le côté",
+      "Le sterno-cléido-mastoïdien",
+      "Son nom décrit ses attaches : sternum, clavicule et os derrière l'oreille."
+     ],
+     [
+      "plier le genou",
+      "Les ischio-jambiers",
+      "Ils partent de l'os du bassin sur lequel on s'assoit."
+     ],
+     [
+      "tendre le genou pour shooter",
+      "Le quadriceps",
+      "C'est le muscle de l'avant de la cuisse."
+     ],
+     [
+      "lever le bras sur le côté",
+      "Le deltoïde",
+      "Il donne sa forme arrondie à l'épaule."
+     ],
+     [
+      "serrer les mâchoires",
+      "Le masséter",
+      "On le sent durcir sur la joue quand on serre les dents."
+     ],
+     [
+      "tendre le coude",
+      "Le triceps",
+      "Il représente environ les deux tiers du volume du bras."
+     ],
+     [
+      "tirer le corps vers une barre, en grimpant",
+      "Le grand dorsal",
+      "C'est le muscle le plus large du dos, qui lui donne sa forme en V."
+     ],
+     [
+      "plier le tronc vers l'avant",
+      "Le grand droit",
+      "Il relie le bas du sternum au pubis."
+     ],
+     [
+      "serrer les cuisses l'une contre l'autre",
+      "Les adducteurs",
+      "Les cavaliers s'en servent pour tenir à cheval."
+     ],
+     [
+      "plisser le front et lever les sourcils",
+      "Le muscle frontal",
+      "Il travaille quand on fait une tête surprise."
+     ]
+    ]
    }
   ],
   "questions": [
@@ -1701,6 +3935,36 @@
      "Le masséter"
     ],
     "explication": "Le myocarde, le muscle du cœur, se contracte sans arrêt toute la vie."
+   },
+   {
+    "enonce": "Quel est le plus petit muscle du corps ?",
+    "bonne": "Le muscle de l'étrier",
+    "faux": [
+     "Le biceps",
+     "Le masséter",
+     "Le deltoïde"
+    ],
+    "explication": "Dans l'oreille, il tire sur l'étrier et protège des bruits forts."
+   },
+   {
+    "enonce": "Quels sont les trois types de muscles ?",
+    "bonne": "Squelettique, lisse et cardiaque",
+    "faux": [
+     "Rouge, blanc et bleu",
+     "Court, long et moyen",
+     "Interne, externe et osseux"
+    ],
+    "explication": "Les muscles lisses, comme ceux de l'intestin, travaillent sans qu'on y pense."
+   },
+   {
+    "enonce": "Que produit un muscle qui travaille, en plus du mouvement ?",
+    "bonne": "De la chaleur",
+    "faux": [
+     "Du calcium",
+     "Du sang",
+     "De l'oxygène"
+    ],
+    "explication": "C'est pourquoi on frissonne quand on a froid : les muscles réchauffent le corps."
    }
   ]
  },
@@ -1798,6 +4062,83 @@
       "Avec près de 5 900 m, c'est l'un des plus hauts volcans actifs du monde."
      ]
     ]
+   },
+   {
+    "modele": "Comment appelle-t-on {x} ?",
+    "inverse": "Que désigne ce mot : {y} ?",
+    "explication": "{x} : {y}.",
+    "paires": [
+     [
+      "la roche en fusion qui sort du volcan",
+      "La lave",
+      "Elle peut dépasser 1 100 °C."
+     ],
+     [
+      "le nuage brûlant de gaz et de cendres qui dévale les pentes",
+      "Une nuée ardente",
+      "C'est elle qui a détruit Saint-Pierre de la Martinique en 1902."
+     ],
+     [
+      "la cavité au sommet d'un volcan",
+      "Le cratère",
+      "Il peut contenir un lac de lave ou un lac d'eau."
+     ],
+     [
+      "le grand effondrement laissé par un volcan qui s'est vidé",
+      "Une caldeira",
+      "Celle de Yellowstone mesure environ 70 km de long."
+     ],
+     [
+      "le scientifique qui étudie les volcans",
+      "Un volcanologue",
+      "Haroun Tazieff a rendu ce métier célèbre en France."
+     ],
+     [
+      "les petites pierres de lave projetées, de la taille d'un pois",
+      "Des lapilli",
+      "Le mot veut dire « petites pierres » en italien."
+     ],
+     [
+      "la roche volcanique pleine de bulles, si légère qu'elle flotte",
+      "La pierre ponce",
+      "Ses bulles sont des gaz restés piégés quand la lave s'est figée."
+     ],
+     [
+      "le verre volcanique noir et tranchant",
+      "L'obsidienne",
+      "Les Aztèques en faisaient des lames très tranchantes."
+     ],
+     [
+      "la source chaude qui jaillit en colonne d'eau",
+      "Un geyser",
+      "Le mot vient du Geysir, une source d'Islande."
+     ],
+     [
+      "la coulée de boue volcanique",
+      "Un lahar",
+      "En 1985, un lahar du Nevado del Ruiz a fait plus de 20 000 morts en Colombie."
+     ],
+     [
+      "un volcan éteint d'Auvergne",
+      "Un puy",
+      "La chaîne des Puys compte environ 80 volcans, inscrits au patrimoine mondial."
+     ],
+     [
+      "l'échelle de 0 à 8 de la puissance des éruptions",
+      "L'indice d'explosivité volcanique",
+      "L'éruption du Pinatubo en 1991 atteignait 6."
+     ],
+     [
+      "une éruption de lave fluide qui coule sans exploser",
+      "Une éruption effusive",
+      "C'est le style des volcans d'Hawaï et du Piton de la Fournaise."
+     ],
+     [
+      "la poche souterraine où s'accumule le magma",
+      "La chambre magmatique",
+      "Elle se trouve en général à quelques kilomètres sous le volcan."
+     ]
+    ]
    }
   ],
   "questions": [
@@ -1850,6 +4191,116 @@
      "Stromboli"
     ],
     "explication": "Le nuage de cendres de l'Eyjafjallajökull a cloué au sol des milliers d'avions en avril 2010."
+   },
+   {
+    "enonce": "Quel est le plus haut volcan du système solaire ?",
+    "bonne": "Olympus Mons, sur Mars",
+    "faux": [
+     "L'Everest",
+     "Le mont Fuji",
+     "Le Kilimandjaro"
+    ],
+    "explication": "Il culmine à environ 22 km au-dessus des plaines alentour."
+   },
+   {
+    "enonce": "Quel volcan est le point culminant de l'Afrique ?",
+    "bonne": "Le Kilimandjaro",
+    "faux": [
+     "Le mont Kenya",
+     "Le Nyiragongo",
+     "Le mont Cameroun"
+    ],
+    "explication": "Il culmine à 5 895 m, en Tanzanie."
+   },
+   {
+    "enonce": "Quel volcan d'Hawaï est le plus grand volcan actif du monde ?",
+    "bonne": "Le Mauna Loa",
+    "faux": [
+     "Le Kilimandjaro",
+     "L'Etna",
+     "Le Fuji"
+    ],
+    "explication": "Depuis le fond de l'océan, il s'élève de plus de 9 000 m."
+   },
+   {
+    "enonce": "Combien y a-t-il environ de volcans actifs sur les terres émergées ?",
+    "bonne": "Environ 1 500",
+    "faux": [
+     "Environ 15",
+     "Environ 50 000",
+     "Plus d'un million"
+    ],
+    "explication": "Une cinquantaine entrent en éruption chaque année."
+   },
+   {
+    "enonce": "Quel est le plus haut volcan de la chaîne des Puys ?",
+    "bonne": "Le puy de Dôme",
+    "faux": [
+     "Le puy de Pariou",
+     "Le puy de Côme",
+     "Le puy de Lemptégy"
+    ],
+    "explication": "Avec 1 465 m, il domine Clermont-Ferrand."
+   },
+   {
+    "enonce": "Quelle autre ville le Vésuve a-t-il ensevelie avec Pompéi ?",
+    "bonne": "Herculanum",
+    "faux": [
+     "Naples",
+     "Rome",
+     "Syracuse"
+    ],
+    "explication": "Herculanum a été recouverte par une épaisse couche de matériaux brûlants."
+   },
+   {
+    "enonce": "Quel savant romain est mort en observant l'éruption du Vésuve en 79 ?",
+    "bonne": "Pline l'Ancien",
+    "faux": [
+     "Cicéron",
+     "Sénèque",
+     "Jules César"
+    ],
+    "explication": "Son neveu, Pline le Jeune, a décrit l'éruption dans des lettres."
+   },
+   {
+    "enonce": "Quel couple de volcanologues alsaciens a filmé des éruptions du monde entier ?",
+    "bonne": "Katia et Maurice Krafft",
+    "faux": [
+     "Pierre et Marie Curie",
+     "Les frères Lumière",
+     "Jacques-Yves et Philippe Cousteau"
+    ],
+    "explication": "Ils sont morts en 1991 au mont Unzen, au Japon."
+   },
+   {
+    "enonce": "Comment appelle-t-on un volcan aux éruptions surtout explosives ?",
+    "bonne": "Un volcan gris",
+    "faux": [
+     "Un volcan rouge",
+     "Un volcan bleu",
+     "Un volcan vert"
+    ],
+    "explication": "Les volcans rouges, comme le Piton de la Fournaise, émettent surtout des coulées de lave."
+   },
+   {
+    "enonce": "Sur quelle île grecque une éruption a-t-elle frappé la civilisation minoenne ?",
+    "bonne": "Santorin",
+    "faux": [
+     "Corfou",
+     "Rhodes",
+     "Lesbos"
+    ],
+    "explication": "Elle a laissé une immense caldeira, aujourd'hui envahie par la mer."
+   },
+   {
+    "enonce": "Quel pays compte le plus de volcans actifs ?",
+    "bonne": "L'Indonésie",
+    "faux": [
+     "La France",
+     "Le Brésil",
+     "L'Australie"
+    ],
+    "explication": "Ses îles sont sur la ceinture de feu du Pacifique."
    }
   ]
  },
@@ -1910,6 +4361,68 @@
       "Turquie et Syrie",
       "2023",
       "Le 6 février, deux séismes de magnitude 7,8 et 7,5 ont fait plus de 50 000 morts."
+     ]
+    ]
+   },
+   {
+    "modele": "Comment appelle-t-on {x} ?",
+    "inverse": "Que désigne ce mot : {y} ?",
+    "explication": "{x} : {y}.",
+    "paires": [
+     [
+      "le point en profondeur où commence la rupture",
+      "Le foyer",
+      "Il peut se trouver de quelques kilomètres à plus de 600 km de profondeur."
+     ],
+     [
+      "les secousses plus faibles qui suivent un grand séisme",
+      "Les répliques",
+      "Elles peuvent durer des mois, voire des années."
+     ],
+     [
+      "une cassure de la croûte le long de laquelle les roches glissent",
+      "Une faille",
+      "La faille de San Andreas traverse la Californie sur plus de 1 000 km."
+     ],
+     [
+      "la mesure de l'énergie libérée par un séisme",
+      "La magnitude",
+      "Un degré de plus correspond à environ 32 fois plus d'énergie."
+     ],
+     [
+      "la mesure des effets et des dégâts observés",
+      "L'intensité",
+      "En Europe, on utilise l'échelle EMS-98, graduée de I à XII."
+     ],
+     [
+      "l'endroit où une plaque plonge sous une autre",
+      "Une zone de subduction",
+      "Les plus grands séismes, comme au Chili ou au Japon, s'y produisent."
+     ],
+     [
+      "le scientifique qui étudie les séismes",
+      "Un sismologue",
+      "Grâce aux ondes sismiques, il étudie aussi l'intérieur de la Terre."
+     ],
+     [
+      "les ondes sismiques qui arrivent en premier",
+      "Les ondes P",
+      "P veut dire « premières » ; elles traversent aussi les liquides."
+     ],
+     [
+      "la ceinture de séismes et de volcans autour du Pacifique",
+      "La ceinture de feu",
+      "La grande majorité des plus forts séismes s'y produisent."
+     ],
+     [
+      "un séisme trop faible pour être ressenti",
+      "Un microséisme",
+      "Des milliers se produisent chaque jour dans le monde."
+     ],
+     [
+      "l'échelle de magnitude créée en 1935 en Californie",
+      "L'échelle de Richter",
+      "On utilise aujourd'hui surtout la magnitude de moment, plus précise pour les grands séismes."
      ]
     ]
    }
@@ -1974,6 +4487,136 @@
      "Les continents flottants"
     ],
     "explication": "La plupart des séismes se produisent à la frontière des plaques tectoniques."
+   },
+   {
+    "enonce": "Quel séisme de 1909 est le plus meurtrier de la France métropolitaine au XXe siècle ?",
+    "bonne": "Le séisme de Lambesc",
+    "faux": [
+     "Le séisme de Nice",
+     "Le séisme de Lyon",
+     "Le séisme de Brest"
+    ],
+    "explication": "Ce séisme de Provence a fait une quarantaine de morts."
+   },
+   {
+    "enonce": "Quels territoires français sont les plus exposés aux séismes ?",
+    "bonne": "La Guadeloupe et la Martinique",
+    "faux": [
+     "La Bretagne",
+     "La Normandie",
+     "La Beauce"
+    ],
+    "explication": "Elles sont proches d'une zone de subduction."
+   },
+   {
+    "enonce": "Que faut-il faire à l'intérieur pendant un séisme ?",
+    "bonne": "S'abriter sous une table solide",
+    "faux": [
+     "Courir dehors immédiatement",
+     "Prendre l'ascenseur",
+     "Se mettre près d'une fenêtre"
+    ],
+    "explication": "On s'éloigne des vitres et on ne sort qu'une fois les secousses finies."
+   },
+   {
+    "enonce": "Quelle ville a été frappée en 1989 pendant un grand match de baseball ?",
+    "bonne": "San Francisco",
+    "faux": [
+     "Los Angeles",
+     "San Diego",
+     "Seattle"
+    ],
+    "explication": "Le séisme de Loma Prieta a interrompu les World Series."
+   },
+   {
+    "enonce": "Quel pays arrête automatiquement ses trains à grande vitesse dès les premières ondes ?",
+    "bonne": "Le Japon",
+    "faux": [
+     "Le Canada",
+     "L'Égypte",
+     "La Norvège"
+    ],
+    "explication": "Les Shinkansen freinent avant l'arrivée des secousses les plus fortes."
+   },
+   {
+    "enonce": "Quel séisme de 1976 en Chine est l'un des plus meurtriers du XXe siècle ?",
+    "bonne": "Tangshan",
+    "faux": [
+     "Wuhan",
+     "Shanghai",
+     "Pékin"
+    ],
+    "explication": "Il aurait fait au moins 240 000 morts."
+   },
+   {
+    "enonce": "Quelle ville marocaine a été détruite par un séisme en 1960 ?",
+    "bonne": "Agadir",
+    "faux": [
+     "Rabat",
+     "Tanger",
+     "Fès"
+    ],
+    "explication": "La ville a été reconstruite un peu plus au sud."
+   },
+   {
+    "enonce": "Quelle région du Maroc a été frappée par un fort séisme en septembre 2023 ?",
+    "bonne": "Le Haut Atlas, près de Marrakech",
+    "faux": [
+     "Le Rif, près de Tanger",
+     "La côte, près de Rabat",
+     "Le Sahara, près de Laâyoune"
+    ],
+    "explication": "Le séisme d'Al Haouz a fait près de 3 000 morts."
+   },
+   {
+    "enonce": "Combien compte-t-on environ de grandes plaques tectoniques ?",
+    "bonne": "Environ 7",
+    "faux": [
+     "2",
+     "Environ 50",
+     "Plus de 500"
+    ],
+    "explication": "S'y ajoutent de nombreuses plaques plus petites."
+   },
+   {
+    "enonce": "Quel pays un grand séisme a-t-il dévasté en 2015, endommageant Katmandou ?",
+    "bonne": "Le Népal",
+    "faux": [
+     "Le Pérou",
+     "L'Islande",
+     "Le Portugal"
+    ],
+    "explication": "Le séisme de Gorkha a fait près de 9 000 morts."
+   },
+   {
+    "enonce": "Quel scientifique allemand a proposé la dérive des continents en 1912 ?",
+    "bonne": "Alfred Wegener",
+    "faux": [
+     "Albert Einstein",
+     "Charles Richter",
+     "Alexander von Humboldt"
+    ],
+    "explication": "Ses idées n'ont été acceptées qu'avec la tectonique des plaques, dans les années 1960."
+   },
+   {
+    "enonce": "Dans quel pays se trouve la faille de San Andreas ?",
+    "bonne": "Les États-Unis",
+    "faux": [
+     "Le Mexique",
+     "Le Canada",
+     "Le Chili"
+    ],
+    "explication": "Elle sépare la plaque pacifique de la plaque nord-américaine."
+   },
+   {
+    "enonce": "Quel savant chinois a inventé vers l'an 132 un détecteur de séismes à billes ?",
+    "bonne": "Zhang Heng",
+    "faux": [
+     "Confucius",
+     "Marco Polo",
+     "Sun Tzu"
+    ],
+    "explication": "Lors d'une secousse, une bille tombait de la gueule d'un dragon dans celle d'un crapaud."
    }
   ]
  },
@@ -2091,6 +4734,130 @@
       "la Vistule",
       "la mer Baltique",
       "Elle rejoint la mer près de Gdańsk."
+     ]
+    ]
+   },
+   {
+    "modele": "Dans quel pays le fleuve {x} prend-il sa source ?",
+    "inverse": null,
+    "explication": "{x} prend sa source dans ce pays : {y}.",
+    "paires": [
+     [
+      "le Rhin",
+      "Suisse",
+      "Il naît dans les Alpes suisses, dans le canton des Grisons."
+     ],
+     [
+      "le Rhône",
+      "Suisse",
+      "Il sort du glacier du Rhône, dans le Valais."
+     ],
+     [
+      "le Danube",
+      "Allemagne",
+      "Il naît dans la Forêt-Noire, à Donaueschingen."
+     ],
+     [
+      "l'Elbe",
+      "Tchéquie",
+      "Elle naît dans les monts des Géants, où on l'appelle Labe."
+     ],
+     [
+      "le Douro",
+      "Espagne",
+      "Il finit sa course à Porto, au Portugal."
+     ],
+     [
+      "la Meuse",
+      "France",
+      "Elle traverse ensuite la Belgique et les Pays-Bas."
+     ],
+     [
+      "l'Oder",
+      "Tchéquie",
+      "Elle forme ensuite une partie de la frontière entre l'Allemagne et la Pologne."
+     ],
+     [
+      "le Dniepr",
+      "Russie",
+      "Il traverse ensuite la Biélorussie et l'Ukraine."
+     ],
+     [
+      "l'Escaut",
+      "France",
+      "Il naît dans l'Aisne et passe par Anvers avant la mer du Nord."
+     ],
+     [
+      "l'Inn",
+      "Suisse",
+      "Il naît en Engadine et rejoint le Danube à Passau."
+     ],
+     [
+      "le Tage",
+      "Espagne",
+      "Il traverse Tolède avant de rejoindre Lisbonne."
+     ],
+     [
+      "le Pô",
+      "Italie",
+      "Il naît au pied du mont Viso, dans les Alpes."
+     ]
+    ]
+   },
+   {
+    "modele": "Quel fleuve traverse {x} ?",
+    "inverse": "Quelle ville le fleuve {y} traverse-t-il ?",
+    "explication": "{y} traverse {x}.",
+    "paires": [
+     [
+      "Lyon",
+      "Le Rhône",
+      "Il y reçoit la Saône, au confluent."
+     ],
+     [
+      "Hambourg",
+      "L'Elbe",
+      "Son port sur l'Elbe est l'un des plus grands d'Europe."
+     ],
+     [
+      "Porto",
+      "Le Douro",
+      "Les caves de porto bordent sa rive, à Vila Nova de Gaia."
+     ],
+     [
+      "Kiev",
+      "Le Dniepr",
+      "C'est le plus grand fleuve d'Ukraine."
+     ],
+     [
+      "Toulouse",
+      "La Garonne",
+      "La Ville rose s'étend sur ses deux rives."
+     ],
+     [
+      "Anvers",
+      "L'Escaut",
+      "Anvers est l'un des plus grands ports d'Europe grâce à l'Escaut."
+     ],
+     [
+      "Prague",
+      "La Vltava",
+      "Smetana lui a consacré un célèbre poème symphonique, La Moldau."
+     ],
+     [
+      "Turin",
+      "Le Pô",
+      "C'est la plus grande ville sur le Pô."
+     ],
+     [
+      "Vienne, en Autriche",
+      "Le Danube",
+      "Johann Strauss lui a dédié la valse Le Beau Danube bleu."
+     ],
+     [
+      "Liège",
+      "La Meuse",
+      "Elle traverse la ville avant de rejoindre les Pays-Bas."
      ]
     ]
    }
@@ -2299,6 +5066,78 @@
       "Il sépare Washington de la Virginie."
      ]
     ]
+   },
+   {
+    "modele": "Dans quelle mer ou quel océan se jette {x} ?",
+    "inverse": null,
+    "explication": "{x} se jette dans {y}.",
+    "paires": [
+     [
+      "l'Amazone",
+      "l'océan Atlantique",
+      "Son eau douce se repère encore loin au large."
+     ],
+     [
+      "le Nil",
+      "la mer Méditerranée",
+      "Il forme un grand delta au nord du Caire."
+     ],
+     [
+      "le Mississippi",
+      "le golfe du Mexique",
+      "Il y forme un delta en patte d'oiseau, au sud de La Nouvelle-Orléans."
+     ],
+     [
+      "le Yangzi Jiang",
+      "la mer de Chine orientale",
+      "Il s'y jette près de Shanghai."
+     ],
+     [
+      "le Gange",
+      "le golfe du Bengale",
+      "Avec le Brahmapoutre, il y forme le plus grand delta du monde."
+     ],
+     [
+      "le Mékong",
+      "la mer de Chine méridionale",
+      "Il s'y jette par un delta au sud du Viêt Nam."
+     ],
+     [
+      "le Congo",
+      "l'océan Atlantique",
+      "Il est si puissant qu'il a creusé un canyon sous-marin au large."
+     ],
+     [
+      "l'Indus",
+      "la mer d'Arabie",
+      "Il s'y jette au sud du Pakistan, près de Karachi."
+     ],
+     [
+      "le Saint-Laurent",
+      "l'océan Atlantique",
+      "Son estuaire est si large qu'on l'appelle parfois la mer."
+     ],
+     [
+      "le Yukon",
+      "la mer de Béring",
+      "Il traverse tout l'Alaska avant de s'y jeter."
+     ],
+     [
+      "le Niger",
+      "le golfe de Guinée",
+      "Il y forme un vaste delta au Nigeria."
+     ],
+     [
+      "le Zambèze",
+      "l'océan Indien",
+      "Il s'y jette au Mozambique."
+     ],
+     [
+      "l'Orénoque",
+      "l'océan Atlantique",
+      "Son delta, au Venezuela, est un labyrinthe de bras d'eau."
+     ]
+    ]
    }
   ],
   "questions": [
@@ -2448,6 +5287,93 @@
       "Sa surface a diminué d'environ 90 % depuis les années 1960."
      ]
     ]
+   },
+   {
+    "modele": "Quel lac correspond à cette description : « {x} » ?",
+    "inverse": "Quelle description correspond à ce lac : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "Lac salé où l'on flotte sans effort, au point le plus bas des terres",
+      "Mer Morte",
+      "Sa surface est à plus de 430 m sous le niveau de la mer."
+     ],
+     [
+      "Plus grande étendue d'eau fermée du monde, appelée mer",
+      "Mer Caspienne",
+      "Elle borde cinq pays, dont la Russie, l'Iran et le Kazakhstan."
+     ],
+     [
+      "Mer intérieure d'Asie centrale presque asséchée par l'irrigation",
+      "Mer d'Aral",
+      "Elle a perdu près de 90 % de sa surface depuis les années 1960."
+     ],
+     [
+      "Lac de cratère très bleu de l'Oregon",
+      "Crater Lake",
+      "Il occupe la caldeira du mont Mazama, effondré il y a environ 7 700 ans."
+     ],
+     [
+      "Lac le plus long du monde, en Afrique de l'Est",
+      "Lac Tanganyika",
+      "Il mesure environ 670 km de long et c'est le deuxième plus profond du monde."
+     ],
+     [
+      "Grand lac salé de l'Utah",
+      "Grand Lac Salé",
+      "Il a donné son nom à la ville de Salt Lake City."
+     ],
+     [
+      "Grand lac des Alpes françaises chanté par Lamartine",
+      "Lac du Bourget",
+      "C'est le plus grand lac naturel entièrement en France."
+     ],
+     [
+      "Lac italien des îles Borromées",
+      "Lac Majeur",
+      "Il est partagé entre l'Italie et la Suisse."
+     ],
+     [
+      "Lac dont l'eau s'écoule par les chutes du Niagara",
+      "Lac Érié",
+      "Les chutes relient le lac Érié au lac Ontario."
+     ],
+     [
+      "Lac artificiel géant formé par le barrage d'Assouan",
+      "Lac Nasser",
+      "Sa création a obligé à déplacer les temples d'Abou Simbel."
+     ],
+     [
+      "Lac de Slovénie avec une île et son église",
+      "Lac de Bled",
+      "C'est la seule île naturelle de Slovénie."
+     ],
+     [
+      "Plus grand lac d'Europe, près de Saint-Pétersbourg",
+      "Lac Ladoga",
+      "Pendant le siège de Léningrad, une route traversait sa glace."
+     ],
+     [
+      "Grand lac d'Amérique centrale où vivent des requins",
+      "Lac Nicaragua",
+      "Des requins-bouledogues y remontent depuis la mer par un fleuve."
+     ],
+     [
+      "Lac suisse de la légende de Guillaume Tell",
+      "Lac des Quatre-Cantons",
+      "Selon la légende, Tell y aurait échappé à ses gardes pendant une tempête."
+     ],
+     [
+      "Lac du Cameroun qui a libéré un nuage de gaz mortel en 1986",
+      "Lac Nyos",
+      "Le gaz carbonique sorti du lac a tué environ 1 700 personnes."
+     ],
+     [
+      "Lac africain aux centaines d'espèces de poissons colorés",
+      "Lac Malawi",
+      "Il abrite des centaines d'espèces de poissons cichlidés."
+     ]
+    ]
    }
   ],
   "questions": [
@@ -2530,6 +5456,86 @@
      "Environ 80 %"
     ],
     "explication": "Le Baïkal contient à lui seul environ 20 % de l'eau douce liquide de surface du monde."
+   },
+   {
+    "enonce": "Quel pays est surnommé le pays aux mille lacs ?",
+    "bonne": "La Finlande",
+    "faux": [
+     "La Suisse",
+     "Le Canada",
+     "L'Italie"
+    ],
+    "explication": "Elle en compte en réalité près de 190 000."
+   },
+   {
+    "enonce": "Comment s'appelle la science des lacs ?",
+    "bonne": "La limnologie",
+    "faux": [
+     "L'océanographie",
+     "La glaciologie",
+     "La sismologie"
+    ],
+    "explication": "Le Suisse François-Alphonse Forel l'a fondée en étudiant le Léman."
+   },
+   {
+    "enonce": "Combien de pays bordent la mer Caspienne ?",
+    "bonne": "5",
+    "faux": [
+     "2",
+     "3",
+     "8"
+    ],
+    "explication": "La Russie, le Kazakhstan, le Turkménistan, l'Iran et l'Azerbaïdjan."
+   },
+   {
+    "enonce": "Quelle ville se trouve à la sortie du lac Léman ?",
+    "bonne": "Genève",
+    "faux": [
+     "Lausanne",
+     "Évian",
+     "Montreux"
+    ],
+    "explication": "Le Rhône quitte le lac en traversant la ville."
+   },
+   {
+    "enonce": "Le lac Baïkal gèle-t-il en hiver ?",
+    "bonne": "Oui, sur plus d'un mètre d'épaisseur",
+    "faux": [
+     "Non, jamais",
+     "Seulement sur les bords",
+     "Une fois par siècle"
+    ],
+    "explication": "En hiver, des véhicules roulent sur sa glace."
+   },
+   {
+    "enonce": "Quel est le plus petit des Grands Lacs par sa superficie ?",
+    "bonne": "Le lac Ontario",
+    "faux": [
+     "Le lac Supérieur",
+     "Le lac Michigan",
+     "Le lac Huron"
+    ],
+    "explication": "Il est malgré tout plus de deux fois plus grand que la Corse."
+   },
+   {
+    "enonce": "Comment appelle-t-on un lac formé dans une ancienne boucle de fleuve ?",
+    "bonne": "Un bras mort",
+    "faux": [
+     "Un lagon",
+     "Un fjord",
+     "Une caldeira"
+    ],
+    "explication": "Le fleuve a coupé sa boucle, qui reste isolée."
+   },
+   {
+    "enonce": "Comment s'appelle une étendue salée du Sahara qui s'assèche une partie de l'année ?",
+    "bonne": "Un chott",
+    "faux": [
+     "Un oued",
+     "Un erg",
+     "Une oasis"
+    ],
+    "explication": "Le chott el-Djérid, en Tunisie, en est un exemple."
    }
   ]
  },
@@ -2605,6 +5611,135 @@
       "Le Pirée, près d'Athènes",
       "la mer Égée",
       "C'est le port d'Athènes depuis l'Antiquité."
+     ]
+    ]
+   },
+   {
+    "modele": "Quel détroit sépare {x} ?",
+    "inverse": "Que sépare {y} ?",
+    "explication": "{y} sépare {x}.",
+    "paires": [
+     [
+      "la France de l'Angleterre",
+      "Le pas de Calais",
+      "Il ne mesure qu'environ 33 km de large ; le tunnel sous la Manche passe dessous."
+     ],
+     [
+      "l'Asie de l'Amérique",
+      "Le détroit de Béring",
+      "Les premiers humains l'ont sans doute traversé à pied pendant les glaciations."
+     ],
+     [
+      "l'Europe de l'Asie à Istanbul",
+      "Le Bosphore",
+      "Il relie la mer Noire à la mer de Marmara."
+     ],
+     [
+      "la Sicile du reste de l'Italie",
+      "Le détroit de Messine",
+      "On y situait Charybde et Scylla, les monstres de l'Odyssée."
+     ],
+     [
+      "le continent sud-américain de la Terre de Feu",
+      "Le détroit de Magellan",
+      "Magellan l'a franchi en 1520, pendant le premier tour du monde."
+     ],
+     [
+      "la Corse de la Sardaigne",
+      "Les bouches de Bonifacio",
+      "Ce passage d'une dizaine de kilomètres est réputé pour ses vents violents."
+     ],
+     [
+      "l'Iran de la péninsule Arabique",
+      "Le détroit d'Ormuz",
+      "Une grande part du pétrole mondial transite par lui."
+     ],
+     [
+      "la péninsule Malaise de Sumatra",
+      "Le détroit de Malacca",
+      "C'est l'une des routes maritimes les plus fréquentées du monde."
+     ],
+     [
+      "l'Afrique de la péninsule Arabique, au sud de la mer Rouge",
+      "Le détroit de Bab-el-Mandeb",
+      "Son nom signifie « la porte des lamentations » en arabe."
+     ],
+     [
+      "l'Amérique du Sud de l'Antarctique",
+      "Le passage de Drake",
+      "C'est l'une des mers les plus agitées du monde."
+     ]
+    ]
+   },
+   {
+    "modele": "Dans quelle mer ou quel océan se trouve l'île de {x} ?",
+    "inverse": null,
+    "explication": "{x} se trouve dans {y}.",
+    "paires": [
+     [
+      "Corse",
+      "la mer Méditerranée",
+      "C'est la quatrième île de Méditerranée par sa superficie."
+     ],
+     [
+      "Madagascar",
+      "l'océan Indien",
+      "C'est la quatrième plus grande île du monde."
+     ],
+     [
+      "Islande",
+      "l'océan Atlantique",
+      "Elle est posée sur la dorsale médio-atlantique."
+     ],
+     [
+      "Hawaï",
+      "l'océan Pacifique",
+      "C'est l'un des archipels les plus isolés du monde."
+     ],
+     [
+      "Gotland",
+      "la mer Baltique",
+      "C'est la plus grande île de Suède."
+     ],
+     [
+      "Crète",
+      "la mer Méditerranée",
+      "Elle abritait la civilisation minoenne et le palais de Cnossos."
+     ],
+     [
+      "Sri Lanka",
+      "l'océan Indien",
+      "On l'appelait autrefois Ceylan."
+     ],
+     [
+      "Zanzibar",
+      "l'océan Indien",
+      "L'île était célèbre pour le commerce du clou de girofle."
+     ],
+     [
+      "Chypre",
+      "la mer Méditerranée",
+      "C'est la troisième île de Méditerranée."
+     ],
+     [
+      "Tahiti",
+      "l'océan Pacifique",
+      "C'est l'île principale de la Polynésie française."
+     ],
+     [
+      "Belle-Île",
+      "l'océan Atlantique",
+      "C'est la plus grande île de Bretagne."
+     ],
+     [
+      "Rügen",
+      "la mer Baltique",
+      "C'est la plus grande île d'Allemagne, célèbre pour ses falaises de craie."
+     ],
+     [
+      "Malte",
+      "la mer Méditerranée",
+      "Ses temples mégalithiques sont parmi les plus anciens du monde."
      ]
     ]
    }
@@ -2699,6 +5834,76 @@
      "Environ 90 %"
     ],
     "explication": "Les océans couvrent environ 71 % de la surface de la planète."
+   },
+   {
+    "enonce": "Quelle mer ouverte sur l'océan est l'une des plus salées du monde ?",
+    "bonne": "La mer Rouge",
+    "faux": [
+     "La mer Baltique",
+     "La Manche",
+     "La mer du Nord"
+    ],
+    "explication": "Il y pleut très peu et l'évaporation est intense."
+   },
+   {
+    "enonce": "Quelle mer d'Europe est si peu salée qu'elle est presque douce par endroits ?",
+    "bonne": "La mer Baltique",
+    "faux": [
+     "La mer Rouge",
+     "La mer Méditerranée",
+     "La mer Égée"
+    ],
+    "explication": "De nombreux fleuves y versent leur eau douce."
+   },
+   {
+    "enonce": "Quelle profondeur atteint environ la fosse des Mariannes ?",
+    "bonne": "Environ 11 000 m",
+    "faux": [
+     "Environ 1 000 m",
+     "Environ 4 000 m",
+     "Environ 30 000 m"
+    ],
+    "explication": "L'Everest y disparaîtrait entièrement."
+   },
+   {
+    "enonce": "Quelle mer sans rivage de l'Atlantique est couverte d'algues flottantes ?",
+    "bonne": "La mer des Sargasses",
+    "faux": [
+     "La mer d'Irlande",
+     "La mer des Caraïbes",
+     "La mer du Nord"
+    ],
+    "explication": "C'est là que naissent les anguilles d'Europe."
+   },
+   {
+    "enonce": "Quel phénomène fait monter et descendre la mer environ deux fois par jour ?",
+    "bonne": "La marée",
+    "faux": [
+     "Le tsunami",
+     "La houle",
+     "Le Gulf Stream"
+    ],
+    "explication": "Elle est due surtout à l'attraction de la Lune."
+   },
+   {
+    "enonce": "Où se trouvent les plus grandes marées d'Europe continentale ?",
+    "bonne": "Dans la baie du Mont-Saint-Michel",
+    "faux": [
+     "En mer Méditerranée",
+     "En mer Baltique",
+     "En mer Noire"
+    ],
+    "explication": "L'écart entre marée haute et marée basse peut y dépasser 14 m."
+   },
+   {
+    "enonce": "Quel est le plus grand récif de corail du monde ?",
+    "bonne": "La Grande Barrière, en Australie",
+    "faux": [
+     "Le récif de Floride",
+     "Le lagon de Nouvelle-Calédonie",
+     "Le récif de la mer Rouge"
+    ],
+    "explication": "Elle s'étend sur plus de 2 300 km et se voit depuis l'espace."
    }
   ]
  },
@@ -2771,6 +5976,98 @@
       "Peint en 1500, Dürer s'y représente de face, à la manière du Christ."
      ]
     ]
+   },
+   {
+    "modele": "Quel peintre de la Renaissance correspond à cette description : « {x} » ?",
+    "inverse": "Quelle description correspond à ce peintre : {y} ?",
+    "explication": "{y} : {x}.",
+    "paires": [
+     [
+      "Peintre d'Urbino mort à 37 ans, célèbre pour ses Madones",
+      "Raphaël",
+      "Il est mort en 1520 à Rome, où il est enterré au Panthéon."
+     ],
+     [
+      "Maître vénitien de la couleur, portraitiste de Charles Quint",
+      "Titien",
+      "Il a travaillé pendant près de soixante-dix ans."
+     ],
+     [
+      "Peintre et ingénieur qui dessinait des machines volantes",
+      "Léonard de Vinci",
+      "Ses carnets, écrits de droite à gauche, comptent des milliers de pages."
+     ],
+     [
+      "Sculpteur du David de Florence, aussi peintre et architecte",
+      "Michel-Ange",
+      "Son David de marbre mesure plus de 5 m."
+     ],
+     [
+      "Graveur de Nuremberg, auteur d'un célèbre Rhinocéros",
+      "Albrecht Dürer",
+      "Il a dessiné le rhinocéros sans l'avoir vu, d'après une description."
+     ],
+     [
+      "Peintre flamand des paysans et de la tour de Babel",
+      "Pieter Bruegel l'Ancien",
+      "Ses deux fils, Pieter et Jan, sont aussi devenus peintres."
+     ],
+     [
+      "Peintre néerlandais de monstres et de créatures fantastiques",
+      "Jérôme Bosch",
+      "Il a passé sa vie à Bois-le-Duc, aux Pays-Bas actuels."
+     ],
+     [
+      "Peintre florentin de Vénus sortant des eaux",
+      "Sandro Botticelli",
+      "Son surnom, Botticelli, signifie « petit tonneau »."
+     ],
+     [
+      "Peintre allemand des portraits de la cour d'Henri VIII",
+      "Hans Holbein le Jeune",
+      "Son portrait d'Henri VIII a fixé l'image du roi."
+     ],
+     [
+      "Maître flamand de la peinture à l'huile, auteur de L'Agneau mystique",
+      "Jan van Eyck",
+      "Ce grand retable se trouve dans la cathédrale de Gand."
+     ],
+     [
+      "Moine peintre des fresques du couvent San Marco, à Florence",
+      "Fra Angelico",
+      "Il a été béatifié en 1982."
+     ],
+     [
+      "Peintre de Padoue d'un Christ mort vu depuis les pieds",
+      "Andrea Mantegna",
+      "Ce raccourci saisissant montre sa maîtrise de la perspective."
+     ],
+     [
+      "Peintre vénitien de La Tempête, mort jeune de la peste",
+      "Giorgione",
+      "On ne lui attribue avec certitude qu'une poignée de tableaux."
+     ],
+     [
+      "Peintre allemand de Wittemberg, ami de Luther",
+      "Lucas Cranach l'Ancien",
+      "Il a peint de nombreux portraits du réformateur."
+     ],
+     [
+      "Pionnier florentin de la perspective, auteur de La Trinité",
+      "Masaccio",
+      "Il est mort vers 26 ans, après avoir révolutionné la peinture."
+     ],
+     [
+      "Peintre vénitien des immenses Noces de Cana",
+      "Véronèse",
+      "C'est le plus grand tableau du Louvre, près de 70 m²."
+     ],
+     [
+      "Peintre vénitien surnommé le petit teinturier",
+      "Le Tintoret",
+      "Son père était teinturier, d'où son surnom."
+     ]
+    ]
    }
   ],
   "questions": [
@@ -2823,6 +6120,799 @@
      "La Suisse"
     ],
     "explication": "Léonard de Vinci est mort en 1519 au Clos Lucé, près d'Amboise, invité par François Ier."
+   },
+   {
+    "enonce": "Que fait renaître la Renaissance ?",
+    "bonne": "L'art et le savoir de l'Antiquité",
+    "faux": [
+     "La monarchie",
+     "La chevalerie",
+     "L'art préhistorique"
+    ],
+    "explication": "Les artistes redécouvrent l'art grec et romain."
+   },
+   {
+    "enonce": "Sur quoi peint-on une fresque ?",
+    "bonne": "Sur un enduit de mur encore frais",
+    "faux": [
+     "Sur une toile tendue",
+     "Sur du papier",
+     "Sur du verre"
+    ],
+    "explication": "Fresco veut dire « frais » en italien ; la couleur sèche avec l'enduit."
+   },
+   {
+    "enonce": "Comment s'appelle la technique de Léonard de Vinci aux contours flous et vaporeux ?",
+    "bonne": "Le sfumato",
+    "faux": [
+     "Le pointillisme",
+     "Le collage",
+     "La mosaïque"
+    ],
+    "explication": "On la voit dans le sourire de La Joconde."
+   },
+   {
+    "enonce": "Quel roi de France a invité Léonard de Vinci près d'Amboise ?",
+    "bonne": "François Ier",
+    "faux": [
+     "Louis XIV",
+     "Henri IV",
+     "Louis XI"
+    ],
+    "explication": "Léonard y a passé les trois dernières années de sa vie."
+   },
+   {
+    "enonce": "Qui a écrit les Vies des meilleurs peintres, sculpteurs et architectes ?",
+    "bonne": "Giorgio Vasari",
+    "faux": [
+     "Machiavel",
+     "Dante",
+     "Pétrarque"
+    ],
+    "explication": "Il y emploie le mot rinascita, « renaissance »."
+   },
+   {
+    "enonce": "Quel architecte a construit le dôme de la cathédrale de Florence ?",
+    "bonne": "Brunelleschi",
+    "faux": [
+     "Michel-Ange",
+     "Le Bernin",
+     "Raphaël"
+    ],
+    "explication": "Achevé en 1436, c'est encore le plus grand dôme en briques du monde."
+   },
+   {
+    "enonce": "Quelle invention de Gutenberg a aidé la Renaissance à se répandre ?",
+    "bonne": "L'imprimerie",
+    "faux": [
+     "La boussole",
+     "Le télescope",
+     "La machine à vapeur"
+    ],
+    "explication": "Vers 1450, il met au point l'imprimerie à caractères mobiles."
+   },
+   {
+    "enonce": "Quelle ville était la grande rivale artistique de Florence, sur une lagune ?",
+    "bonne": "Venise",
+    "faux": [
+     "Milan",
+     "Gênes",
+     "Naples"
+    ],
+    "explication": "Titien, Giorgione et Véronèse y ont travaillé."
+   },
+   {
+    "enonce": "Combien de temps Michel-Ange a-t-il mis pour peindre le plafond de la Sixtine ?",
+    "bonne": "Environ 4 ans",
+    "faux": [
+     "2 semaines",
+     "6 mois",
+     "30 ans"
+    ],
+    "explication": "Il l'a peint de 1508 à 1512, perché sur un échafaudage."
+   },
+   {
+    "enonce": "Quel pape a commandé à Michel-Ange le plafond de la chapelle Sixtine ?",
+    "bonne": "Jules II",
+    "faux": [
+     "Jean-Paul II",
+     "Pie XII",
+     "Grégoire Ier"
+    ],
+    "explication": "Ce pape a aussi lancé la reconstruction de la basilique Saint-Pierre."
+   }
+  ]
+ },
+ {
+  "id": "gaz-nobles",
+  "relations": [
+   {
+    "modele": "Quel gaz noble {x} ?",
+    "inverse": "Que fait ce gaz noble : {y} ?",
+    "explication": "{y} : il {x}.",
+    "paires": [
+     [
+      "donne la lumière rouge orangé des enseignes",
+      "Néon",
+      "Les autres couleurs des « néons » viennent d'autres gaz ou de poudres."
+     ],
+     [
+      "gonfle les ballons qui s'envolent",
+      "Hélium",
+      "Plus léger que l'air, il ne brûle pas, contrairement à l'hydrogène."
+     ],
+     [
+      "protège le métal pendant les soudures",
+      "Argon",
+      "C'est le gaz noble le plus abondant de l'air."
+     ],
+     [
+      "s'accumule dans les caves des régions granitiques",
+      "Radon",
+      "Radioactif, c'est la deuxième cause de cancer du poumon après le tabac."
+     ],
+     [
+      "propulse des sondes spatiales à moteur ionique",
+      "Xénon",
+      "Il sert aussi d'anesthésiant en médecine."
+     ],
+     [
+      "a servi à définir le mètre de 1960 à 1983",
+      "Krypton",
+      "Le mètre était défini à partir d'une raie orange de sa lumière."
+     ],
+     [
+      "est le plus lourd, créé en laboratoire à Doubna",
+      "Oganesson",
+      "Seuls quelques atomes en ont été produits."
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Pourquoi appelle-t-on ces gaz « nobles » ?",
+    "bonne": "Ils ne réagissent presque pas",
+    "faux": [
+     "Ils sont très chers",
+     "Des nobles les ont découverts",
+     "Ils brillent la nuit"
+    ],
+    "explication": "Leur couche externe d'électrons est complète, ce qui les rend très stables."
+   },
+   {
+    "enonce": "Dans quelle colonne du tableau périodique sont les gaz nobles ?",
+    "bonne": "La 18e, la dernière",
+    "faux": [
+     "La 1re",
+     "La 2e",
+     "La 13e"
+    ],
+    "explication": "On les appelle aussi le groupe 18."
+   },
+   {
+    "enonce": "Combien y a-t-il de gaz nobles ?",
+    "bonne": "7",
+    "faux": [
+     "3",
+     "5",
+     "10"
+    ],
+    "explication": "Hélium, néon, argon, krypton, xénon, radon et oganesson."
+   },
+   {
+    "enonce": "Quel est le gaz noble le plus léger ?",
+    "bonne": "L'hélium",
+    "faux": [
+     "Le néon",
+     "L'argon",
+     "Le radon"
+    ],
+    "explication": "C'est aussi le deuxième élément le plus abondant de l'Univers."
+   },
+   {
+    "enonce": "Quel gaz noble est le plus abondant dans l'air ?",
+    "bonne": "L'argon",
+    "faux": [
+     "Le néon",
+     "L'hélium",
+     "Le krypton"
+    ],
+    "explication": "Il représente près de 1 % de l'air, bien plus que le CO₂."
+   },
+   {
+    "enonce": "Quel chimiste écossais a découvert plusieurs gaz nobles à la fin du XIXe siècle ?",
+    "bonne": "William Ramsay",
+    "faux": [
+     "Antoine Lavoisier",
+     "Dmitri Mendeleïev",
+     "Marie Curie"
+    ],
+    "explication": "Il a reçu le prix Nobel de chimie en 1904."
+   },
+   {
+    "enonce": "À quelle température l'hélium devient-il liquide ?",
+    "bonne": "Environ −269 °C",
+    "faux": [
+     "0 °C",
+     "−78 °C",
+     "−196 °C"
+    ],
+    "explication": "Il refroidit les aimants des appareils d'IRM."
+   },
+   {
+    "enonce": "Pourquoi la voix devient-elle aiguë après avoir inspiré de l'hélium ?",
+    "bonne": "Le son va plus vite dans l'hélium",
+    "faux": [
+     "L'hélium resserre les cordes vocales",
+     "L'hélium est électrique",
+     "L'hélium est froid"
+    ],
+    "explication": "C'est dangereux : on manque alors d'oxygène."
+   },
+   {
+    "enonce": "Quel gaz a remplacé l'hydrogène dans les dirigeables après la catastrophe de l'Hindenburg ?",
+    "bonne": "L'hélium",
+    "faux": [
+     "Le néon",
+     "L'argon",
+     "Le radon"
+    ],
+    "explication": "L'Hindenburg, gonflé à l'hydrogène, a brûlé en 1937."
+   },
+   {
+    "enonce": "D'où vient l'hélium que l'on extrait sur Terre ?",
+    "bonne": "Du gaz naturel, sous terre",
+    "faux": [
+     "De l'air, en grande quantité",
+     "Des océans",
+     "De la Lune"
+    ],
+    "explication": "Il est produit lentement par la radioactivité des roches."
+   },
+   {
+    "enonce": "Quel autre nom donne-t-on aux gaz nobles ?",
+    "bonne": "Les gaz rares",
+    "faux": [
+     "Les gaz lourds",
+     "Les halogènes",
+     "Les gaz alcalins"
+    ],
+    "explication": "Ils sont en effet rares dans l'air, à part l'argon."
+   },
+   {
+    "enonce": "Le xénon peut-il former des composés chimiques ?",
+    "bonne": "Oui, avec le fluor par exemple",
+    "faux": [
+     "Non, jamais",
+     "Seulement dans les étoiles",
+     "Seulement à l'état liquide"
+    ],
+    "explication": "Neil Bartlett a créé le premier composé d'un gaz noble en 1962."
+   },
+   {
+    "enonce": "Pourquoi met-on de l'argon dans les ampoules à filament ?",
+    "bonne": "Pour que le filament ne brûle pas",
+    "faux": [
+     "Pour colorer la lumière",
+     "Pour alourdir l'ampoule",
+     "Pour faire baisser le prix"
+    ],
+    "explication": "Sans oxygène autour de lui, le filament chaud ne s'oxyde pas."
+   },
+   {
+    "enonce": "Que signifie « argon » en grec ?",
+    "bonne": "Paresseux",
+    "faux": [
+     "Brillant",
+     "Caché",
+     "Nouveau"
+    ],
+    "explication": "Il ne réagit avec presque rien."
+   },
+   {
+    "enonce": "Que signifie « krypton » en grec ?",
+    "bonne": "Caché",
+    "faux": [
+     "Paresseux",
+     "Étranger",
+     "Nouveau"
+    ],
+    "explication": "Ramsay l'a trouvé caché dans de l'air liquéfié, en 1898."
+   },
+   {
+    "enonce": "Que signifie « xénon » en grec ?",
+    "bonne": "Étranger",
+    "faux": [
+     "Caché",
+     "Nouveau",
+     "Soleil"
+    ],
+    "explication": "Ramsay et Travers l'ont découvert juste après le krypton."
+   },
+   {
+    "enonce": "Que signifie « néon » en grec ?",
+    "bonne": "Nouveau",
+    "faux": [
+     "Paresseux",
+     "Étranger",
+     "Lumière"
+    ],
+    "explication": "Il a été découvert en 1898, la même année que le krypton et le xénon."
+   },
+   {
+    "enonce": "D'où vient le nom « hélium » ?",
+    "bonne": "Du Soleil, hélios en grec",
+    "faux": [
+     "D'une île grecque",
+     "D'un savant nommé Hélius",
+     "Du mot « hélice »"
+    ],
+    "explication": "Il a été repéré en 1868 dans la lumière du Soleil."
+   },
+   {
+    "enonce": "Quel gaz noble produit la lumière des flashs photographiques ?",
+    "bonne": "Le xénon",
+    "faux": [
+     "L'hélium",
+     "L'argon",
+     "Le radon"
+    ],
+    "explication": "Il donne une lumière blanche très intense."
+   },
+   {
+    "enonce": "Quel mélange de gaz nobles donne le rayon rouge d'un laser courant ?",
+    "bonne": "Hélium et néon",
+    "faux": [
+     "Radon et xénon",
+     "Argon et oganesson",
+     "Krypton et radon"
+    ],
+    "explication": "Le laser hélium-néon a longtemps servi dans les lecteurs de codes-barres."
+   },
+   {
+    "enonce": "Les gaz nobles ont-ils une odeur ?",
+    "bonne": "Non, ils sont inodores",
+    "faux": [
+     "Oui, d'œuf pourri",
+     "Oui, de citron",
+     "Seulement le néon"
+    ],
+    "explication": "Ils sont aussi incolores."
+   },
+   {
+    "enonce": "Où trouve-t-on de l'hélium en énorme quantité ?",
+    "bonne": "Dans les étoiles",
+    "faux": [
+     "Dans les volcans",
+     "Dans les arbres",
+     "Dans l'eau de mer"
+    ],
+    "explication": "Le Soleil fusionne l'hydrogène en hélium."
+   },
+   {
+    "enonce": "Quelle couleur donne l'argon dans un tube lumineux ?",
+    "bonne": "Violet-bleu",
+    "faux": [
+     "Rouge orangé",
+     "Jaune",
+     "Vert"
+    ],
+    "explication": "Le néon, lui, donne du rouge orangé."
+   },
+   {
+    "enonce": "Quel gaz noble mélange-t-on à l'oxygène pour les plongées très profondes ?",
+    "bonne": "L'hélium",
+    "faux": [
+     "Le radon",
+     "Le krypton",
+     "Le xénon"
+    ],
+    "explication": "Il évite l'ivresse des profondeurs due à l'azote."
+   },
+   {
+    "enonce": "Lequel de ces gaz est le plus rare dans l'air ?",
+    "bonne": "Le xénon",
+    "faux": [
+     "L'argon",
+     "Le néon",
+     "L'hélium"
+    ],
+    "explication": "On compte environ une molécule de xénon pour 11 millions de molécules d'air."
+   },
+   {
+    "enonce": "Quel gaz noble remplit souvent les doubles vitrages ?",
+    "bonne": "L'argon",
+    "faux": [
+     "Le radon",
+     "L'hélium",
+     "L'oganesson"
+    ],
+    "explication": "Moins conducteur que l'air, il isole mieux."
+   },
+   {
+    "enonce": "Quel gaz noble ne gèle pas, même près du zéro absolu, à pression normale ?",
+    "bonne": "L'hélium",
+    "faux": [
+     "Le xénon",
+     "Le radon",
+     "L'argon"
+    ],
+    "explication": "Il ne devient solide que sous forte pression."
+   },
+   {
+    "enonce": "Quel liquide très froid devient superfluide, capable de grimper le long des parois ?",
+    "bonne": "L'hélium liquide",
+    "faux": [
+     "Le néon liquide",
+     "L'argon liquide",
+     "Le krypton liquide"
+    ],
+    "explication": "En dessous d'environ −271 °C, il coule sans aucun frottement."
+   },
+   {
+    "enonce": "Quel physicien a découvert l'argon avec William Ramsay en 1894 ?",
+    "bonne": "Lord Rayleigh",
+    "faux": [
+     "Isaac Newton",
+     "Ernest Rutherford",
+     "Niels Bohr"
+    ],
+    "explication": "Ils l'ont trouvé en remarquant que l'azote tiré de l'air était un peu trop lourd."
+   }
+  ]
+ },
+ {
+  "id": "halogenes",
+  "relations": [
+   {
+    "modele": "Quel halogène {x} ?",
+    "inverse": "Que fait cet halogène : {y} ?",
+    "explication": "{y} : il {x}.",
+    "paires": [
+     [
+      "désinfecte l'eau des piscines",
+      "Chlore",
+      "On l'emploie aussi pour rendre l'eau du robinet potable."
+     ],
+     [
+      "protège les dents dans le dentifrice",
+      "Fluor",
+      "On l'y met sous forme de fluorure."
+     ],
+     [
+      "se passait sur les plaies en teinture brune",
+      "Iode",
+      "La teinture d'iode, dissoute dans l'alcool, est un ancien antiseptique."
+     ],
+     [
+      "est un liquide rouge-brun aux vapeurs suffocantes",
+      "Brome",
+      "C'est le seul non-métal liquide à température ambiante."
+     ],
+     [
+      "est radioactif et presque introuvable dans la nature",
+      "Astate",
+      "Il n'en existe à tout instant qu'une infime quantité dans la croûte terrestre."
+     ],
+     [
+      "a été créé en 2010 par une équipe russo-américaine",
+      "Tennessine",
+      "C'est l'élément 117, nommé d'après l'État du Tennessee."
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Que signifie « halogène » ?",
+    "bonne": "Qui forme du sel",
+    "faux": [
+     "Qui brûle",
+     "Qui brille",
+     "Qui est lourd"
+    ],
+    "explication": "Avec les métaux, les halogènes forment des sels, comme le sel de table."
+   },
+   {
+    "enonce": "Dans quelle colonne du tableau périodique sont les halogènes ?",
+    "bonne": "La 17e",
+    "faux": [
+     "La 1re",
+     "La 2e",
+     "La 18e"
+    ],
+    "explication": "Juste avant les gaz nobles."
+   },
+   {
+    "enonce": "Combien y a-t-il d'halogènes ?",
+    "bonne": "6",
+    "faux": [
+     "3",
+     "4",
+     "8"
+    ],
+    "explication": "Fluor, chlore, brome, iode, astate et tennessine."
+   },
+   {
+    "enonce": "Quel halogène forme avec le sodium le sel de cuisine ?",
+    "bonne": "Le chlore",
+    "faux": [
+     "Le fluor",
+     "L'iode",
+     "Le brome"
+    ],
+    "explication": "Le sel de cuisine est du chlorure de sodium, NaCl."
+   },
+   {
+    "enonce": "Quel est l'élément le plus électronégatif ?",
+    "bonne": "Le fluor",
+    "faux": [
+     "Le chlore",
+     "L'oxygène",
+     "L'iode"
+    ],
+    "explication": "Il attire les électrons plus fort que tout autre élément."
+   },
+   {
+    "enonce": "Quelle est la couleur du chlore gazeux ?",
+    "bonne": "Jaune-vert",
+    "faux": [
+     "Violet",
+     "Incolore",
+     "Rouge"
+    ],
+    "explication": "Son nom vient du grec chlôros, « vert pâle »."
+   },
+   {
+    "enonce": "Quelle couleur ont les vapeurs d'iode ?",
+    "bonne": "Violette",
+    "faux": [
+     "Verte",
+     "Jaune",
+     "Bleue"
+    ],
+    "explication": "Son nom vient du grec iôdês, « violet »."
+   },
+   {
+    "enonce": "À quoi sert l'iode dans le corps ?",
+    "bonne": "Au fonctionnement de la thyroïde",
+    "faux": [
+     "À solidifier les os",
+     "À transporter l'oxygène",
+     "À digérer les graisses"
+    ],
+    "explication": "Son manque provoque le goitre ; on en ajoute au sel de table."
+   },
+   {
+    "enonce": "Quel gaz a été utilisé comme arme en 1915 près d'Ypres ?",
+    "bonne": "Le chlore",
+    "faux": [
+     "L'hélium",
+     "Le néon",
+     "L'azote"
+    ],
+    "explication": "Ce fut la première grande attaque au gaz de l'histoire."
+   },
+   {
+    "enonce": "Quel revêtement antiadhésif des poêles contient du fluor ?",
+    "bonne": "Le téflon",
+    "faux": [
+     "Le nylon",
+     "Le kevlar",
+     "Le PVC"
+    ],
+    "explication": "Son nom chimique est le polytétrafluoroéthylène."
+   },
+   {
+    "enonce": "Quel plastique très courant contient du chlore ?",
+    "bonne": "Le PVC",
+    "faux": [
+     "Le téflon",
+     "Le polyéthylène",
+     "Le nylon"
+    ],
+    "explication": "PVC veut dire polychlorure de vinyle."
+   },
+   {
+    "enonce": "Quels gaz contenant du chlore ont abîmé la couche d'ozone ?",
+    "bonne": "Les CFC",
+    "faux": [
+     "Le CO₂",
+     "Le méthane",
+     "La vapeur d'eau"
+    ],
+    "explication": "Le protocole de Montréal de 1987 a organisé leur interdiction."
+   },
+   {
+    "enonce": "Que distribue-t-on à la population en cas d'accident nucléaire ?",
+    "bonne": "Des comprimés d'iode",
+    "faux": [
+     "Des comprimés de chlore",
+     "Des comprimés de fluor",
+     "Des vitamines"
+    ],
+    "explication": "Ils saturent la thyroïde, qui ne fixe alors plus l'iode radioactif."
+   },
+   {
+    "enonce": "Quel chimiste français a isolé le fluor en 1886 ?",
+    "bonne": "Henri Moissan",
+    "faux": [
+     "Louis Pasteur",
+     "Antoine Lavoisier",
+     "Marie Curie"
+    ],
+    "explication": "Il a reçu le prix Nobel de chimie en 1906."
+   },
+   {
+    "enonce": "Quel halogène servait, avec l'argent, en photographie argentique ?",
+    "bonne": "Le brome",
+    "faux": [
+     "Le fluor",
+     "L'astate",
+     "La tennessine"
+    ],
+    "explication": "Le bromure d'argent noircit à la lumière."
+   },
+   {
+    "enonce": "Quel produit ménager libère du chlore ?",
+    "bonne": "L'eau de Javel",
+    "faux": [
+     "Le vinaigre",
+     "Le bicarbonate",
+     "Le savon noir"
+    ],
+    "explication": "Il ne faut jamais la mélanger à un acide : cela dégage du chlore toxique."
+   },
+   {
+    "enonce": "Quel phénomène lumineux doit son nom à un minéral contenant du fluor ?",
+    "bonne": "La fluorescence",
+    "faux": [
+     "La phosphorescence",
+     "L'incandescence",
+     "Le laser"
+    ],
+    "explication": "La fluorine, ce minéral, brille sous les ultraviolets."
+   },
+   {
+    "enonce": "Pourquoi met-on du fluor dans le dentifrice ?",
+    "bonne": "Pour renforcer l'émail",
+    "faux": [
+     "Pour le goût",
+     "Pour la couleur",
+     "Pour faire mousser"
+    ],
+    "explication": "Le fluorure rend l'émail plus résistant aux acides des bactéries."
+   },
+   {
+    "enonce": "D'où extrait-on surtout le brome ?",
+    "bonne": "De l'eau de mer et des lacs salés",
+    "faux": [
+     "Des volcans",
+     "De l'air",
+     "Des arbres"
+    ],
+    "explication": "La mer Morte en est une grande source."
+   },
+   {
+    "enonce": "Sous quelle forme est le chlore à température ambiante ?",
+    "bonne": "Un gaz",
+    "faux": [
+     "Un liquide",
+     "Un solide",
+     "Un métal"
+    ],
+    "explication": "Le fluor est aussi un gaz, le brome un liquide et l'iode un solide."
+   },
+   {
+    "enonce": "Sous quelle forme est l'iode à température ambiante ?",
+    "bonne": "Un solide gris-violet",
+    "faux": [
+     "Un gaz jaune",
+     "Un liquide rouge",
+     "Un gaz incolore"
+    ],
+    "explication": "Chauffé, il passe directement en vapeur violette : c'est la sublimation."
+   },
+   {
+    "enonce": "Quel chimiste suédois a découvert le chlore en 1774 ?",
+    "bonne": "Carl Wilhelm Scheele",
+    "faux": [
+     "Antoine Lavoisier",
+     "Dmitri Mendeleïev",
+     "William Ramsay"
+    ],
+    "explication": "Humphry Davy a montré en 1810 qu'il s'agissait d'un élément."
+   },
+   {
+    "enonce": "Quel chimiste français a découvert l'iode en 1811 dans des cendres d'algues ?",
+    "bonne": "Bernard Courtois",
+    "faux": [
+     "Louis Pasteur",
+     "Antoine Lavoisier",
+     "Henri Moissan"
+    ],
+    "explication": "Il fabriquait du salpêtre à partir de ces cendres."
+   },
+   {
+    "enonce": "Quel chimiste a découvert le brome en 1826, à Montpellier ?",
+    "bonne": "Antoine-Jérôme Balard",
+    "faux": [
+     "Henri Moissan",
+     "Bernard Courtois",
+     "Joseph Proust"
+    ],
+    "explication": "Il l'a tiré des eaux des marais salants."
+   },
+   {
+    "enonce": "Combien d'électrons manque-t-il aux halogènes pour compléter leur couche externe ?",
+    "bonne": "1",
+    "faux": [
+     "2",
+     "3",
+     "0"
+    ],
+    "explication": "C'est pourquoi ils captent facilement un électron et sont très réactifs."
+   },
+   {
+    "enonce": "Quel acide de l'estomac contient du chlore ?",
+    "bonne": "L'acide chlorhydrique",
+    "faux": [
+     "L'acide citrique",
+     "L'acide lactique",
+     "L'acide acétique"
+    ],
+    "explication": "Il aide à digérer et tue de nombreux microbes."
+   },
+   {
+    "enonce": "Quel acide contenant du fluor peut graver le verre ?",
+    "bonne": "L'acide fluorhydrique",
+    "faux": [
+     "L'acide chlorhydrique",
+     "L'acide sulfurique",
+     "L'acide citrique"
+    ],
+    "explication": "Les verriers s'en servent pour décorer le verre."
+   },
+   {
+    "enonce": "Qu'est-ce qui pique surtout les yeux à la piscine ?",
+    "bonne": "Les chloramines",
+    "faux": [
+     "Le chlore pur",
+     "L'eau froide",
+     "Le sel"
+    ],
+    "explication": "Elles se forment quand le chlore réagit avec la sueur et l'urine des baigneurs."
+   },
+   {
+    "enonce": "Quel isotope radioactif sert à traiter certains cancers de la thyroïde ?",
+    "bonne": "L'iode 131",
+    "faux": [
+     "Le chlore 35",
+     "Le fluor 19",
+     "Le brome 79"
+    ],
+    "explication": "La thyroïde le capte et il détruit les cellules malades."
+   },
+   {
+    "enonce": "Quel isotope radioactif sert dans les examens TEP pour repérer les tumeurs ?",
+    "bonne": "Le fluor 18",
+    "faux": [
+     "L'iode 127",
+     "Le chlore 37",
+     "Le brome 81"
+    ],
+    "explication": "Fixé sur du sucre, il s'accumule dans les cellules qui en consomment beaucoup."
+   },
+   {
+    "enonce": "Quel halogène est le plus abondant dans l'eau de mer ?",
+    "bonne": "Le chlore",
+    "faux": [
+     "Le fluor",
+     "L'iode",
+     "L'astate"
+    ],
+    "explication": "Les ions chlorure forment plus de la moitié du sel de mer."
    }
   ]
  }

@@ -10,7 +10,15 @@ import json
 import os
 import sys
 
+from ajouts_corps_terre_arts import AJOUTS as AJOUTS_CORPS_TERRE_ARTS
+from ajouts_vivant import AJOUTS as AJOUTS_VIVANT
 from contextes import CONTEXTES
+
+# Nombre minimal de questions différentes par spécialité (tâche 20).
+MINIMUM = 60
+# Fiches qui complètent un autre générateur : nombre de questions que ce générateur apporte déjà
+# (GenerateurElements : 6 éléments × 3 formes pour Néonja et Iodiateur).
+COMPLEMENTS = {"gaz-nobles": 18, "halogenes": 18}
 
 
 def rel(modele, explication, paires, inverse=None):
@@ -605,7 +613,7 @@ def ajouter_contextes(fiche):
     for n, r in enumerate(fiche["relations"]):
         contextes = CONTEXTES.get((fiche["id"], n), {})
         for p in r["paires"]:
-            texte = contextes.get(p[0], "").strip()
+            texte = (p[2] if len(p) > 2 else contextes.get(p[0], "")).strip()
             if not texte:
                 erreurs.append(f"relation {n} : pas de contexte pour « {p[0]} »")
             del p[2:]
@@ -641,10 +649,29 @@ def verifier(fiche):
     return total, erreurs
 
 
+def fusionner_ajouts():
+    """Ajoute aux fiches les relations et questions des fichiers ajouts_*.py."""
+    par_id = {f["id"]: f for f in FICHES}
+    for ajouts in (AJOUTS_VIVANT, AJOUTS_CORPS_TERRE_ARTS):
+        for id_fiche, contenu in ajouts.items():
+            if id_fiche not in par_id:
+                par_id[id_fiche] = {"id": id_fiche, "relations": [], "questions": []}
+                FICHES.append(par_id[id_fiche])
+            par_id[id_fiche]["relations"].extend(contenu["relations"])
+            par_id[id_fiche]["questions"].extend(contenu["questions"])
+
+
 if __name__ == "__main__":
+    fusionner_ajouts()
     ok = True
     for f in FICHES:
         total, erreurs = verifier(f)
+        minimum = MINIMUM - COMPLEMENTS.get(f["id"], 0)
+        if total < minimum:
+            erreurs.append(f"{total} questions, il en faut au moins {minimum}")
+        enonces = [qq["enonce"] for qq in f["questions"]]
+        for e in sorted({e for e in enonces if enonces.count(e) > 1}):
+            erreurs.append(f"question en double : « {e} »")
         print(f"{f['id']:22} {total:3} questions")
         for e in erreurs:
             ok = False
