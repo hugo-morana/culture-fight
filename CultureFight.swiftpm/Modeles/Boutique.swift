@@ -71,6 +71,15 @@ enum Boutique {
               prix: 60, symbole: "shield.lefthalf.filled"),
         Objet(id: "changement-question", nom: "Changement de question", genre: .consommable,
               effet: "Tire une autre question", prix: 60, symbole: "arrow.triangle.2.circlepath"),
+        Objet(id: "loupe-du-sage", nom: "Loupe du sage", genre: .permanent,
+              effet: "Questions reçues par ce combattant : difficulté −1", prix: 220, symbole: "magnifyingglass"),
+        Objet(id: "couronne-du-savant", nom: "Couronne du savant", genre: .permanent,
+              effet: "Questions posées par ce combattant : difficulté +1, mais −10 PV max", prix: 220,
+              symbole: "crown.fill"),
+        Objet(id: "parchemin-simplification", nom: "Parchemin de simplification", genre: .consommable,
+              effet: "Les 3 prochaines questions de l'adversaire : difficulté −1", prix: 80, symbole: "scroll.fill"),
+        Objet(id: "elixir-surcharge", nom: "Élixir de surcharge", genre: .consommable,
+              effet: "Tes 3 prochaines questions : difficulté +1", prix: 80, symbole: "drop.triangle.fill"),
     ]
 
     static func objet(_ id: String) -> Objet? { objets.first { $0.id == id } }

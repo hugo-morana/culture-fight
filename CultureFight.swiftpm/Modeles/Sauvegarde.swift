@@ -133,6 +133,7 @@ enum Sauvegarde {
     static func crediter(_ controleur: CombatController, a joueur: Joueur, dans contexte: ModelContext) {
         guard controleur.estFini, controleur.marquerGainsVerses() else { return }
         let partie = controleur.partieJouee()
+        retirerObjets(controleur, de: joueur)
         joueur.combatsJoues += 1
         switch controleur.combat.vainqueur {
         case 0?: joueur.victoires += 1
@@ -176,6 +177,7 @@ enum Sauvegarde {
     static func abandon(_ controleur: CombatController, de joueur: Joueur, dans contexte: ModelContext) {
         guard controleur.marquerGainsVerses() else { return }
         let partie = controleur.partieJouee(abandon: true)
+        retirerObjets(controleur, de: joueur)
         joueur.combatsJoues += 1
         joueur.defaites += 1
         let xp = NiveauCompte.xpDefaite(contre: controleur.ia.niveau)
@@ -184,6 +186,13 @@ enum Sauvegarde {
         partie.niveauCompteApres = joueur.niveauCompte
         joueur.parties.append(partie)
         enregistrer(contexte)
+    }
+
+    /// Retire de l'inventaire les consommables utilisés pendant le combat.
+    static func retirerObjets(_ controleur: CombatController, de joueur: Joueur) {
+        for id in controleur.objetsUtilises {
+            joueur.inventaire[id] = max(0, (joueur.inventaire[id] ?? 0) - 1)
+        }
     }
 
     static func enregistrer(_ contexte: ModelContext) {

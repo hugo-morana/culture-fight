@@ -47,6 +47,7 @@ struct CombatView: View {
                 .animation(.spring(duration: 0.45, bounce: 0.3), value: clePhase)
                 .padding(.vertical, 4)
             }
+            BarreObjets(controleur: controleur)
             CarteCamp(camp: controleur.combat.camps[0],
                       impacts: controleur.impacts[0],
                       variation: controleur.variations[0],

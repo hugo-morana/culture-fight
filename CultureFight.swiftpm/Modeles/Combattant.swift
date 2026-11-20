@@ -54,18 +54,31 @@ struct CombattantEnJeu: Identifiable, Sendable {
 
     /// Niveau du combattant (1 à 20) : fixe ses statistiques et son stade d'évolution.
     var niveau: Int = 1
+    /// Équipement permanent porté (identifiant d'objet de la boutique), ou nil.
+    var equipement: String?
 
-    init(modele: ModeleCombattant, profil: ProfilDifficulte = .aleatoire, niveau: Int = 1) {
+    init(modele: ModeleCombattant, profil: ProfilDifficulte = .aleatoire, niveau: Int = 1, equipement: String? = nil) {
         self.modele = modele
         self.niveau = max(1, niveau)
-        self.pv = Progression.pv(modele, niveau: niveau)
         self.profil = profil
+        self.equipement = equipement
+        self.pv = 0
+        self.pv = pvMax
     }
 
     var stade: Stade { Stade(niveau: niveau) }
-    var pvMax: Int { Progression.pv(modele, niveau: niveau) }
-    var attaque: Int { Progression.attaque(modele, niveau: niveau) }
-    var defense: Int { Progression.defense(modele, niveau: niveau) }
+    var pvMax: Int {
+        var pv = Progression.pv(modele, niveau: niveau)
+        if equipement == "amulette-de-vie" { pv += 20 }
+        if equipement == "couronne-du-savant" { pv -= 10 }
+        return pv
+    }
+    var attaque: Int { Progression.attaque(modele, niveau: niveau) + (equipement == "encyclopedie" ? 5 : 0) }
+    var defense: Int { Progression.defense(modele, niveau: niveau) + (equipement == "blouse-renforcee" ? 4 : 0) }
+    /// Cases de jauge de Savoir à remplir (2 avec les Lunettes de savant).
+    var jaugeMax: Int { equipement == "lunettes-de-savant" ? 2 : Regles.jaugeMax }
+    /// Secondes en plus pour répondre (Sablier).
+    var bonusTemps: Double { equipement == "sablier" ? 5 : 0 }
     /// Nom avec le stade : « Méso-Néonja ».
     var nom: String { stade.nom(de: modele.nom) }
 
@@ -80,12 +93,12 @@ struct Camp: Sendable {
     var indexActif: Int = 0
 
     init(nom: String, estIA: Bool, equipe: [ModeleCombattant], profils: [String: ProfilDifficulte] = [:],
-         niveaux: [String: Int] = [:], niveauParDefaut: Int = 1) {
+         niveaux: [String: Int] = [:], niveauParDefaut: Int = 1, equipements: [String: String] = [:]) {
         self.nom = nom
         self.estIA = estIA
         self.combattants = equipe.map {
             CombattantEnJeu(modele: $0, profil: profils[$0.id] ?? .aleatoire,
-                            niveau: niveaux[$0.id] ?? niveauParDefaut)
+                            niveau: niveaux[$0.id] ?? niveauParDefaut, equipement: equipements[$0.id])
         }
     }
 

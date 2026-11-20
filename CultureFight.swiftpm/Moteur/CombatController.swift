@@ -47,11 +47,26 @@ final class CombatController {
     /// Combattants du joueur qui ont changé de stade, remplis par la sauvegarde en fin de combat.
     var evolutions: [EvolutionCombattant] = []
 
+    /// Consommables du joueur disponibles pour ce combat (identifiant → quantité).
+    private(set) var consommables: [String: Int] = [:]
+    /// Consommables utilisés pendant ce combat, à retirer de l'inventaire en fin de combat.
+    private(set) var objetsUtilises: [String] = []
+    /// Dernier effet d'objet, affiché brièvement.
+    private(set) var messageObjet: String?
+    private(set) var compteurObjets = 0
+    /// Nombre maximum de consommables utilisables par combat (game design : 2).
+    static let consommablesParCombat = 2
+
     init(equipeJoueur: [ModeleCombattant], equipeIA: [ModeleCombattant], ia: IAAdverse,
-         profils: [String: ProfilDifficulte] = [:], niveaux: [String: Int] = [:]) {
+         profils: [String: ProfilDifficulte] = [:], niveaux: [String: Int] = [:],
+         equipements: [String: String] = [:], consommables: [String: Int] = [:]) {
         self.ia = ia
+        self.consommables = consommables.filter { id, n in
+            n > 0 && Boutique.objet(id)?.genre == .consommable
+        }
         self.combat = Combat(camps: [
-            Camp(nom: "Toi", estIA: false, equipe: equipeJoueur, profils: profils, niveaux: niveaux),
+            Camp(nom: "Toi", estIA: false, equipe: equipeJoueur, profils: profils, niveaux: niveaux,
+                 equipements: equipements),
             Camp(nom: "IA \(ia.niveau.rawValue.lowercased())", estIA: true, equipe: equipeIA, niveauParDefaut: Stade.pourIA(ia.niveau).niveauMin),
         ])
     }
@@ -92,6 +107,61 @@ final class CombatController {
         return true
     }
 
+    // MARK: - Objets
+
+    /// Un objet utilisable maintenant par le joueur.
+    struct ObjetDisponible: Identifiable {
+        let id: String
+        let nom: String
+        let symbole: String
+        let quantite: Int?
+    }
+
+    var consommablesRestants: Int { Self.consommablesParCombat - objetsUtilises.count }
+
+    /// Les objets que le joueur peut utiliser à ce moment du combat.
+    var objetsDisponibles: [ObjetDisponible] {
+        guard !estFini else { return [] }
+        var liste: [ObjetDisponible] = []
+        let enQuestion: Bool = { if case .question = phase { return true } else { return false } }()
+        let enResultat: Bool = { if case .resultat = phase { return true } else { return false } }()
+        if combat.camps[0].actif.capacitePrete && (enQuestion || enResultat) {
+            liste.append(ObjetDisponible(id: "coup-de-maitre", nom: "Coup de maître", symbole: "sparkles", quantite: nil))
+        }
+        guard consommablesRestants > 0, enQuestion || enResultat else { return liste }
+        for objet in Boutique.objets where objet.genre == .consommable {
+            guard let n = consommables[objet.id], n > 0 else { continue }
+            let surQuestion = objet.id == "joker" || objet.id == "changement-question"
+            if surQuestion && !(enQuestion && joueurRepond) { continue }
+            liste.append(ObjetDisponible(id: objet.id, nom: objet.nom, symbole: objet.symbole, quantite: n))
+        }
+        return liste
+    }
+
+    func utiliser(_ id: String) {
+        let message: String?
+        switch id {
+        case "joker":
+            guard case .question = phase, joueurRepond, let question else { return }
+            let fausses = question.choix.indices.filter { $0 != question.bonneReponse && !retires.contains($0) }.shuffled()
+            retires.formUnion(fausses.prefix(2))
+            message = "Joker : deux mauvaises réponses retirées"
+        case "changement-question":
+            guard case .question = phase, joueurRepond else { return }
+            lancer(combat.preparerQuestion())
+            message = "Nouvelle question !"
+        default:
+            message = combat.utiliser(id, camp: 0)
+        }
+        guard let message else { return }
+        if id != "coup-de-maitre" {
+            consommables[id, default: 0] -= 1
+            objetsUtilises.append(id)
+        }
+        messageObjet = message
+        compteurObjets += 1
+    }
+
     // MARK: - Déroulé
 
     private func nouveauTour() {
@@ -100,12 +170,18 @@ final class CombatController {
             phase = .fin
             return
         }
-        let tirage = combat.preparerQuestion()
+        malusTemps = combat.consommerMalusTemps()
+        lancer(combat.preparerQuestion())
+    }
+
+    /// Affiche une question et lance le chronomètre (et la réponse de l'IA si c'est elle qui répond).
+    private func lancer(_ tirage: (question: Question, affinite: Affinite, retires: Set<Int>)) {
+        tache?.cancel()
         question = tirage.question
         affinite = tirage.affinite
         retires = tirage.retires
-        malusTemps = combat.consommerMalusTemps()
-        tempsTotal = max(Regles.tempsMin, Regles.tempsReponse + tirage.affinite.bonusTemps - malusTemps)
+        let bonusEquipement = combat.camps[combat.defenseur].actif.bonusTemps
+        tempsTotal = max(Regles.tempsMin, Regles.tempsReponse + tirage.affinite.bonusTemps + bonusEquipement - malusTemps)
         tempsRestant = tempsTotal
         phase = .question
 

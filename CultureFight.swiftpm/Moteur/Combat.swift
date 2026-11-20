@@ -53,6 +53,14 @@ struct Combat: Sendable {
     var questionsVues: Set<String> = []
     /// Secondes en moins pour la prochaine réponse de chaque camp (effet « Pression »).
     var malusTemps: [Double] = [0, 0]
+    /// Questions encore relevées de +1 pour chaque camp (Élixir de surcharge).
+    var surcharge: [Int] = [0, 0]
+    /// Questions de l'adversaire encore abaissées de −1, pour chaque camp qui a lu le Parchemin.
+    var simplification: [Int] = [0, 0]
+    /// Coup de maître préparé : la prochaine question du camp monte de +2.
+    var coupDeMaitre: [Bool] = [false, false]
+    /// Écart de difficulté appliqué à la dernière question (−2 à +2), pour l'afficher.
+    var dernierEcart = 0
 
     var attaquant: Int { tour % 2 }
     var defenseur: Int { 1 - attaquant }
@@ -74,7 +82,16 @@ struct Combat: Sendable {
     mutating func preparerQuestion() -> (question: Question, affinite: Affinite, retires: Set<Int>) {
         let att = camps[attaquant].actif
         let def = camps[defenseur].actif
-        let difficulte = att.profil.difficulte(base: att.stade.difficulte, rang: att.questionsPosees)
+        let def0 = camps[defenseur].actif
+        var ecart = 0
+        if surcharge[attaquant] > 0 { ecart += 1; surcharge[attaquant] -= 1 }
+        if coupDeMaitre[attaquant] { ecart += 2; coupDeMaitre[attaquant] = false }
+        if att.equipement == "couronne-du-savant" { ecart += 1 }
+        if simplification[defenseur] > 0 { ecart -= 1; simplification[defenseur] -= 1 }
+        if def0.equipement == "loupe-du-sage" { ecart -= 1 }
+        ecart = min(2, max(-2, ecart))
+        dernierEcart = ecart
+        let difficulte = min(7, max(1, att.profil.difficulte(base: att.stade.difficulte, rang: att.questionsPosees) + ecart))
         camps[attaquant].combattants[camps[attaquant].indexActif].questionsPosees += 1
         let question = att.modele.generateur.generer(difficulte: difficulte, exclues: questionsVues)
         questionsVues.insert(question.id)
@@ -149,7 +166,7 @@ struct Combat: Sendable {
             camps[a].combattants[ia].pv -= degatsContre
 
             camps[d].combattants[id].jauge += 1 + casesEnPlus
-            if camps[d].combattants[id].jauge >= Regles.jaugeMax {
+            if camps[d].combattants[id].jauge >= camps[d].combattants[id].jaugeMax {
                 camps[d].combattants[id].jauge = 0
                 camps[d].combattants[id].capacitePrete = true
                 jaugeRemplie = true
@@ -200,5 +217,36 @@ struct Combat: Sendable {
                             jaugeRemplie: jaugeRemplie,
                             koDefenseur: koDefenseur,
                             koAttaquant: koAttaquant)
+    }
+
+    // MARK: - Objets
+
+    /// Applique un consommable (ou le Coup de maître) pour un camp. Renvoie le message à afficher, nil si impossible.
+    /// Le Joker et le Changement de question agissent sur la question en cours : le contrôleur s'en charge.
+    mutating func utiliser(_ objet: String, camp: Int) -> String? {
+        let i = camps[camp].indexActif
+        let nom = camps[camp].actif.nom
+        switch objet {
+        case "potion":
+            let avant = camps[camp].combattants[i].pv
+            camps[camp].combattants[i].pv = min(camps[camp].combattants[i].pvMax, avant + 30)
+            return "Potion : \(nom) regagne \(camps[camp].combattants[i].pv - avant) PV"
+        case "bouclier":
+            camps[camp].combattants[i].bouclier = 1
+            return "Bouclier : la prochaine erreur de \(nom) ne coûtera aucun PV"
+        case "parchemin-simplification":
+            simplification[camp] += 3
+            return "Parchemin : les 3 prochaines questions adverses seront plus faciles"
+        case "elixir-surcharge":
+            surcharge[camp] += 3
+            return "Élixir : tes 3 prochaines questions seront plus difficiles"
+        case "coup-de-maitre":
+            guard camps[camp].combattants[i].capacitePrete else { return nil }
+            camps[camp].combattants[i].capacitePrete = false
+            coupDeMaitre[camp] = true
+            return "Coup de maître : ta prochaine question montera de 2 crans"
+        default:
+            return nil
+        }
     }
 }
