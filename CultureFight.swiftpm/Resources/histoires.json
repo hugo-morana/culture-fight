@@ -940,5 +940,65 @@
    "vampirein",
    "liquidator"
   ]
+ },
+ {
+  "id": "alcoolosse",
+  "pays": "atomie",
+  "lieu": "Les Alambics de Lavoisierre",
+  "histoire": "Né d'une goutte d'ambre tombée dans un alambic de Lavoisierre, Alcoolosse est un colosse bâti sur un squelette de carbone. Chaque chaîne de son corps est une molécule qu'il sait nommer. Molécowboy tente de le prendre au lasso ; Caramélusionniste lui emprunte du sucre.",
+  "liens": [
+   "molecowboy",
+   "caramelusionniste"
+  ]
+ },
+ {
+  "id": "caramelusionniste",
+  "pays": "atomie",
+  "lieu": "Les Alambics de Lavoisierre",
+  "histoire": "Magicienne des cuisines de Lavoisierre, Caramélusionniste transforme le sucre en phénix d'or et la crème en nuage. Elle connaît la réaction cachée derrière chaque recette. Combustibarbare règle la flamme de ses fourneaux ; Alcoolosse lui fournit l'arôme de vanille.",
+  "liens": [
+   "combustibarbare",
+   "alcoolosse"
+  ]
+ },
+ {
+  "id": "newtonfu",
+  "pays": "atomie",
+  "lieu": "Les Ateliers de Newtonne",
+  "histoire": "Grand maître des Ateliers de Newtonne, Newtonfu a fondé son style le jour où une pomme lui est tombée dessus. Chaque coup qu'il porte lui revient avec la même force, et il le sait. Graviking est son élève le plus lourd ; Dynamomie fait la mesure de ses frappes.",
+  "liens": [
+   "graviking",
+   "dynamomie"
+  ]
+ },
+ {
+  "id": "dynamomie",
+  "pays": "atomie",
+  "lieu": "Les Ateliers de Newtonne",
+  "histoire": "Réveillée dans une crypte des Ateliers de Newtonne, Dynamomie tient debout grâce à des bandelettes tendues comme des ressorts. Elle mesure chaque force à l'étirement de ses bandes. Radiomomie est sa cousine ; Newtonfu lui demande de peser ses coups.",
+  "liens": [
+   "radiomomie",
+   "newtonfu"
+  ]
+ },
+ {
+  "id": "acceleraptor",
+  "pays": "atomie",
+  "lieu": "Les Ateliers de Newtonne",
+  "histoire": "Échappé de la Vallée Fossile, Accéléraptor court si vite dans les Ateliers de Newtonne qu'il laisse des copies de lui derrière lui. Il connaît la vitesse de chaque animal et de chaque engin. Judocus ne l'a jamais rattrapé ; Graviking le ralentit à chaque montée.",
+  "liens": [
+   "judocus",
+   "graviking"
+  ]
+ },
+ {
+  "id": "graviking",
+  "pays": "atomie",
+  "lieu": "Les Ateliers de Newtonne",
+  "histoire": "Venu des Fjords de Fer, Graviking a forgé son marteau dans une météorite et fait tourner les planètes autour. Tout ce qu'il lance finit par retomber, sauf ce qu'il met en orbite. Mendéléviking est son frère d'armes ; Newtonfu lui a appris pourquoi la pomme tombe.",
+  "liens": [
+   "mendeleviking",
+   "newtonfu"
+  ]
  }
 ]

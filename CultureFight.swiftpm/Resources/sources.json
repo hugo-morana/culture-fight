@@ -2971,5 +2971,375 @@
     "url": "https://fr.vikidia.org/wiki/Victor_Hugo"
    }
   ]
+ },
+ {
+  "id": "chimie-cuisine",
+  "sources": [
+   {
+    "titre": "Maillard reaction (Wikipedia, copie IPFS)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Maillard_reaction"
+   },
+   {
+    "titre": "100 years ago, Maillard taught us why our food tastes better cooked (NPR)",
+    "url": "https://www.kunc.org/npr-news/2012-10-11/100-years-ago-maillard-taught-us-why-our-food-tastes-better-cooked"
+   },
+   {
+    "titre": "Pourquoi ce qui est marron est souvent très bon (Slate)",
+    "url": "https://www.slate.fr/story/128894/marron-bon"
+   },
+   {
+    "titre": "Caramelization (Wikipedia, copie IPFS)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Caramelization"
+   },
+   {
+    "titre": "Sugar cooking temperature stages (Food Crumbles)",
+    "url": "https://foodcrumbles.com/sugar-cooking-temperature-stages/"
+   },
+   {
+    "titre": "Raphaël répond à vos questions sur le caramel (Allô Docteurs)",
+    "url": "https://www.allodocteurs.fr/alimentation/raphael-repond-a-vos-questions-sur-le-caramel_30875.html"
+   },
+   {
+    "titre": "Hervé This (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Herv%C3%A9_This"
+   },
+   {
+    "titre": "Levure chimique (copie de Wikipédia, areq.net)",
+    "url": "https://areq.net/lang/fr/Levure_chimique.html"
+   },
+   {
+    "titre": "Questions générales sur la levure (Cofalec)",
+    "url": "https://cofalec.com/fr/questions-levure/"
+   },
+   {
+    "titre": "Levure de boulanger (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Levure_de_boulanger"
+   },
+   {
+    "titre": "Les émulsifiants, fiche technique (académie de Versailles)",
+    "url": "https://www.hotellerie-restauration.ac-versailles.fr/IMG/pdf/8-_fiche_d_analyse_technique_-_les_e_mulsifiants.pdf"
+   },
+   {
+    "titre": "Émulsions naturelles (Alimentarium)",
+    "url": "https://www.alimentarium.org/fr/node/1609"
+   },
+   {
+    "titre": "Les gélifiants, fiche technique (académie de Versailles)",
+    "url": "https://www.hotellerie-restauration.ac-versailles.fr/IMG/pdf/15-_fiche_d_analyse_technique_les_ge_lifiants.pdf"
+   },
+   {
+    "titre": "Agar-agar (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/agar-agar"
+   },
+   {
+    "titre": "Cuisson des œufs (académie de Versailles)",
+    "url": "https://www.hotellerie-restauration.ac-versailles.fr/IMG/pdf/20_mise_en_situation_-_cuisson_des_oeufs.pdf"
+   },
+   {
+    "titre": "Spherification (Wikipedia, copie IPFS)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Spherification.html"
+   }
+  ]
+ },
+ {
+  "id": "chimie-organique",
+  "sources": [
+   {
+    "titre": "Wöhler synthesis (Wikipedia, copie IPFS)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/W%C3%B6hler_synthesis.html"
+   },
+   {
+    "titre": "Friedrich Wöhler (Encyclopædia Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/friedrich-wohler/"
+   },
+   {
+    "titre": "Chimie organique (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/chimie-organique"
+   },
+   {
+    "titre": "Alcane (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/alcane"
+   },
+   {
+    "titre": "Nomenclature des alcanes (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/nomenclature-des-alcanes"
+   },
+   {
+    "titre": "Structure des molécules organiques (Schoolmouv)",
+    "url": "https://www.schoolmouv.fr/cours/structure-des-molecules-organiques/fiche-de-cours"
+   },
+   {
+    "titre": "Ester (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/ester"
+   },
+   {
+    "titre": "Acide carboxylique (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/acide-carboxylique"
+   },
+   {
+    "titre": "Alcool (chimie) (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/alcool-chimie"
+   },
+   {
+    "titre": "Glucide (Techno-Science)",
+    "url": "https://techno-science.net/glossaire-definition/Glucide.html"
+   },
+   {
+    "titre": "Raffinage pétrolier (Connaissance des Énergies)",
+    "url": "https://www.connaissancedesenergies.org/fiche-pedagogique/raffinage-petrolier"
+   },
+   {
+    "titre": "Benzene (McGill Office for Science and Society)",
+    "url": "https://www.mcgill.ca/oss/node/9889"
+   }
+  ]
+ },
+ {
+  "id": "forces",
+  "sources": [
+   {
+    "titre": "Gravitation et poids (SchoolMouv)",
+    "url": "https://www.schoolmouv.fr/cours/gravitation-et-poids/fiche-de-cours"
+   },
+   {
+    "titre": "Force (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Force"
+   },
+   {
+    "titre": "Modéliser une action sur un système (SchoolMouv)",
+    "url": "https://www.schoolmouv.fr/cours/modeliser-une-action-sur-un-systeme/fiche-de-revision"
+   },
+   {
+    "titre": "Équilibre d'un solide soumis à deux forces (Nomad Education)",
+    "url": "https://www.nomadeducation.fr/revisions/3e-ci-lb52ef90/equilibre-dun-solide-soumis-a-deux-forces-cy97ef80"
+   },
+   {
+    "titre": "Poussée d'Archimède (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/poussee-d-archimede"
+   },
+   {
+    "titre": "Poussée d'Archimède (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Pouss%C3%A9e_d%27Archim%C3%A8de"
+   },
+   {
+    "titre": "Hooke's law (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Hooke%27s_law"
+   },
+   {
+    "titre": "Loi de Hooke (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/loi-de-hooke"
+   },
+   {
+    "titre": "Dynamomètre (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/dynamometre"
+   },
+   {
+    "titre": "Tribologie (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/physique-tribologie-15957/"
+   },
+   {
+    "titre": "Frottement (AREQ, copie de Wikipédia)",
+    "url": "https://areq.net/lang/fr/Frottement.html"
+   },
+   {
+    "titre": "Force de traînée et vitesse terminale (LibreTexts, OpenStax)",
+    "url": "https://query.libretexts.org/Francais/Physique_universitaire_I_-_M%C3%A9canique,_son,_oscillations_et_ondes_(OpenStax)/06:_Applications_des_lois_de_Newton/6.07:_Force_de_tra%C3%AEn%C3%A9e_et_vitesse_terminale"
+   },
+   {
+    "titre": "Levier (StudySmarter)",
+    "url": "https://www.studysmarter.fr/resumes/physique-chimie/mecanique/levier/"
+   },
+   {
+    "titre": "Pression (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/pression"
+   },
+   {
+    "titre": "Pascal (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/physique-pascal-363/"
+   },
+   {
+    "titre": "Centre of Gravity and Stability (Physics Lens)",
+    "url": "https://learn.physicslens.com/turning-effect-of-forces/centre-of-gravity-and-stability.html"
+   }
+  ]
+ },
+ {
+  "id": "gravitation",
+  "sources": [
+   {
+    "titre": "Newton's law of universal gravitation (Wikipédia, copie IPFS)",
+    "url": "https://en.wikipedia-on-ipfs.org/wiki/Newton's_law_of_universal_gravitation"
+   },
+   {
+    "titre": "Gravitation universelle (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Gravitation_universelle"
+   },
+   {
+    "titre": "Cavendish experiment (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Cavendish_experiment"
+   },
+   {
+    "titre": "Gravitational acceleration (Surf Wiki)",
+    "url": "https://www.doc.surf/wiki/gravitational-acceleration"
+   },
+   {
+    "titre": "Gravity of the Moon (Wikiwand)",
+    "url": "https://wikiwand.com/en/articles/Gravity_of_the_Moon"
+   },
+   {
+    "titre": "Marée (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Mar%C3%A9e"
+   },
+   {
+    "titre": "Escape velocity (Wikipédia, copie IPFS)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Escape_velocity"
+   },
+   {
+    "titre": "Lois de Kepler (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Lois_de_Kepler"
+   },
+   {
+    "titre": "Lois de Kepler (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/lois-de-kepler"
+   },
+   {
+    "titre": "C'est quoi l'impesanteur ? (CNES)",
+    "url": "https://cnes.fr/dossiers/impesanteur"
+   },
+   {
+    "titre": "Expériences liées à la relativité générale (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Exp%C3%A9riences_li%C3%A9es_%C3%A0_la_relativit%C3%A9_g%C3%A9n%C3%A9rale"
+   },
+   {
+    "titre": "Première preuve de la relativité générale (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/actualites/physique-premiere-preuve-relativite-generale-100-ans-19471/"
+   },
+   {
+    "titre": "Le prix Nobel consacre la découverte des ondes gravitationnelles (Stelvision)",
+    "url": "https://www.stelvision.com/astro/le-prix-nobel-consacre-la-decouverte-des-ondes-gravitationnelles"
+   },
+   {
+    "titre": "The First Detection(s) (Virgo)",
+    "url": "https://www.virgo-gw.eu/science/gw-universe/the-first-detections/"
+   }
+  ]
+ },
+ {
+  "id": "lois-newton",
+  "sources": [
+   {
+    "titre": "Lois du mouvement de Newton (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/lois-du-mouvement-de-newton"
+   },
+   {
+    "titre": "Biography: Isaac Newton (HandWiki)",
+    "url": "https://handwiki.org/wiki/Biography:Isaac_Newton"
+   },
+   {
+    "titre": "Newton and the Apple Tree (Apples and People)",
+    "url": "https://applesandpeople.org.uk/stories/newton/"
+   },
+   {
+    "titre": "Newton (unité) (AREQ, copie de Wikipédia)",
+    "url": "https://areq.net/lang/fr/Newton_(unit%C3%A9).html"
+   },
+   {
+    "titre": "Lois du mouvement de Newton (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Lois_du_mouvement_de_Newton"
+   },
+   {
+    "titre": "La troisième loi de Newton (Les Sherpas)",
+    "url": "https://sherpas.com/blog/3eme-loi-newton/"
+   },
+   {
+    "titre": "Que faut-il retenir des lois de Newton ? (L'Étudiant)",
+    "url": "https://www.letudiant.fr/lycee/methodologie-lycee/article/physique-que-faut-il-retenir-des-lois-de-newton.html"
+   },
+   {
+    "titre": "Philosophiæ Naturalis Principia Mathematica (Safekipedia)",
+    "url": "https://safekipedia.com/J8/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica"
+   },
+   {
+    "titre": "Inertie (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/physique-inertie-1013/"
+   },
+   {
+    "titre": "Force d'inertie (En voiture Simone)",
+    "url": "https://www.envoituresimone.com/code-de-la-route/cours/circulation/vitesse/inertie"
+   },
+   {
+    "titre": "Modéliser une action sur un système (SchoolMouv)",
+    "url": "https://www.schoolmouv.fr/cours/modeliser-une-action-sur-un-systeme/fiche-de-revision"
+   }
+  ]
+ },
+ {
+  "id": "vitesse-acceleration",
+  "sources": [
+   {
+    "titre": "Vitesse (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Vitesse"
+   },
+   {
+    "titre": "Accélération (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Acc%C3%A9l%C3%A9ration"
+   },
+   {
+    "titre": "g (accélération) (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/G_(acc%C3%A9l%C3%A9ration)"
+   },
+   {
+    "titre": "Chute libre (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/chute-libre-physique"
+   },
+   {
+    "titre": "Fastest animal (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/articles/Fastest_animal"
+   },
+   {
+    "titre": "Quels sont les animaux les plus rapides du monde ? (Futura)",
+    "url": "https://www.futura-sciences.com/planete/questions-reponses/zoologie-sont-animaux-plus-rapides-monde-6000/"
+   },
+   {
+    "titre": "Faucon pèlerin (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Faucon_p%C3%A9lerin"
+   },
+   {
+    "titre": "Land speed record (Wikipédia, copie IPFS)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Land_speed_record"
+   },
+   {
+    "titre": "Bell X-1 (Wikipédia, copie IPFS)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Bell_X-1"
+   },
+   {
+    "titre": "Airspeed record (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/articles/Airspeed_record"
+   },
+   {
+    "titre": "Railway speed record (Wikiwand)",
+    "url": "https://wikiwand.com/en/articles/Railway_speed_record"
+   },
+   {
+    "titre": "Nombre de Mach (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/physique-nombre-mach-3569/"
+   },
+   {
+    "titre": "Mach number (Wikipédia, copie)",
+    "url": "https://akarinohon.com/text/taketori.cgi/en.wikipedia.org/wiki/Mach_number"
+   },
+   {
+    "titre": "Speed of light (Citizendium)",
+    "url": "https://citizendium.org/wiki/Lightspeed"
+   },
+   {
+    "titre": "Fizeau wheel (Wikipédia, copie Kiwix)",
+    "url": "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Fizeau_wheel"
+   },
+   {
+    "titre": "Red Bull Stratos (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/articles/Red_Bull_Stratos"
+   }
+  ]
  }
 ]
