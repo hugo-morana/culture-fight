@@ -1520,5 +1520,1456 @@
     "url": "https://oceanservice.noaa.gov/facts/highestpoint.html"
    }
   ]
+ },
+ {
+  "id": "acides-bases",
+  "sources": [
+   {
+    "titre": "Potentiel hydrogène (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/potentiel-hydrogene"
+   },
+   {
+    "titre": "pH (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/chimie-ph-222/"
+   },
+   {
+    "titre": "pH (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/PH"
+   },
+   {
+    "titre": "Indicateur de pH (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/indicateur-de-ph"
+   },
+   {
+    "titre": "Acides et bases (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/acides_et_bases/187439"
+   },
+   {
+    "titre": "Réaction acido-basique (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/R%C3%A9action_acido-basique"
+   },
+   {
+    "titre": "Acide carboxylique (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/acide-carboxylique"
+   },
+   {
+    "titre": "Acides carboxyliques : état naturel (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/acides-carboxyliques/2-etat-naturel-et-preparations/"
+   },
+   {
+    "titre": "Principaux acides-alcools (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/acides-alcools/5-principaux-acides-alcools/"
+   }
+  ]
+ },
+ {
+  "id": "actinides",
+  "sources": [
+   {
+    "titre": "List of chemical element name etymologies (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_chemical_element_name_etymologies"
+   },
+   {
+    "titre": "Discovery of the chemical elements (Wikipédia, copie Kiwix)",
+    "url": "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Discovery_of_the_chemical_elements"
+   },
+   {
+    "titre": "Actinide (Wikipédia, copie SolarSPELL)",
+    "url": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/a/Actinide.htm"
+   },
+   {
+    "titre": "Actinide (WikiDoc)",
+    "url": "https://wikidoc.org/index.php/Actinide"
+   },
+   {
+    "titre": "Uranium (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/uranium"
+   },
+   {
+    "titre": "Plutonium (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/plutonium"
+   }
+  ]
+ },
+ {
+  "id": "alcalino-terreux",
+  "sources": [
+   {
+    "titre": "Alkaline earth metal (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Alkaline_earth_metal"
+   },
+   {
+    "titre": "List of chemical element name etymologies (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_chemical_element_name_etymologies"
+   },
+   {
+    "titre": "Discovery of the chemical elements (Wikipédia, copie Kiwix)",
+    "url": "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Discovery_of_the_chemical_elements"
+   }
+  ]
+ },
+ {
+  "id": "chefs-doeuvre-musees",
+  "sources": [
+   {
+    "titre": "Where to find famous art (My Modern Met)",
+    "url": "https://mymodernmet.com/where-to-find-famous-art-guide"
+   },
+   {
+    "titre": "Famous sculptures (My Modern Met)",
+    "url": "https://mymodernmet.com/famous-sculptures-art-history/"
+   },
+   {
+    "titre": "Les œuvres les plus célèbres du Louvre (Paris Tickets)",
+    "url": "https://www.paristickets.com/fr/louvre-museum/artworks/"
+   },
+   {
+    "titre": "Louvre Museum (Britannica)",
+    "url": "https://www.britannica.com/topic/Louvre-Museum"
+   },
+   {
+    "titre": "Les grands musées d'Europe (Routard)",
+    "url": "https://www.routard.com/fr/mag/dossier/a/les-grands-musees-d-europe"
+   },
+   {
+    "titre": "Le musée de l'Ermitage (Futura)",
+    "url": "https://www.futura-sciences.com/planete/questions-reponses/musee-plus-grandes-oeuvres-voir-musee-ermitage-saint-petersbourg-5191/"
+   },
+   {
+    "titre": "Le vol de la Joconde (Finestre sull'Arte)",
+    "url": "https://www.finestresullarte.info/fr/oeuvres-et-artistes/le-vol-de-la-joconde-quand-vincenzo-peruggia-a-vole-le-celebre-tableau-de-leonard-de-vinci"
+   },
+   {
+    "titre": "Stealing Beauty: 11 notable art thefts (Britannica)",
+    "url": "https://www.Britannica.com/list/stealing-beauty-11-notable-art-thefts"
+   },
+   {
+    "titre": "Vol au musée du Louvre (INTERPOL)",
+    "url": "https://www.interpol.int/fr/Actualites-et-evenements/Actualites/2025/Vol-au-musee-du-Louvre-les-bijoux-derobes-ont-ete-enregistres-dans-Ia-base-de-donnees-d-INTERPOL-sur-les-aeuvres-d-art-volees"
+   },
+   {
+    "titre": "Guernica returned to Spain (History.com)",
+    "url": "https://www.history.com/this-day-in-history/september-10/guernica-returned-to-spain"
+   }
+  ]
+ },
+ {
+  "id": "combustion",
+  "sources": [
+   {
+    "titre": "Combustion (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/combustion"
+   },
+   {
+    "titre": "Fire triangle (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/articles/Fire_Triangle"
+   },
+   {
+    "titre": "Classe de feux (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/classe-de-feux"
+   },
+   {
+    "titre": "Les 6 classes de feu et quel extincteur utiliser (CNFCE)",
+    "url": "https://www.cnfce.com/dossier/quelles-sont-les-6-classes-de-feu-et-quel-extincteur-utiliser"
+   },
+   {
+    "titre": "Intoxication par le monoxyde de carbone (Manuel Merck)",
+    "url": "https://www.merckmanuals.com/fr-ca/professional/blessures-empoisonnement/intoxications-empoisonnements/intoxication-par-le-monoxyde-de-carbone"
+   },
+   {
+    "titre": "Carboxyhémoglobine (Futura)",
+    "url": "https://www.futura-sciences.com/sante/definitions/medecine-carboxyhemoglobine-3095/"
+   },
+   {
+    "titre": "Adiabatic flame temperature (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Adiabatic_flame_temperature"
+   },
+   {
+    "titre": "Phlogistique (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/phlogistique"
+   },
+   {
+    "titre": "Lavoisier combat le phlogistique (Meer)",
+    "url": "https://www.meer.com/fr/63755-lavoisier-combat-le-phlogistique"
+   },
+   {
+    "titre": "Flamme (combustion) (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/flamme-combustion"
+   },
+   {
+    "titre": "Bec Bunsen (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/bec-bunsen"
+   },
+   {
+    "titre": "Feu (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Feu"
+   }
+  ]
+ },
+ {
+  "id": "compositeurs-baroques",
+  "sources": [
+   {
+    "titre": "Musique baroque (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Musique_baroque"
+   },
+   {
+    "titre": "Johann Sebastian Bach (Wikipedia)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Johann_Sebastian_Bach"
+   },
+   {
+    "titre": "Antonio Vivaldi (Wikipedia)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Antonio_Vivaldi"
+   },
+   {
+    "titre": "George Frideric Handel (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/George_Frideric_Handel"
+   },
+   {
+    "titre": "George Frideric Handel (Wikipedia)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Haendel.html"
+   },
+   {
+    "titre": "Jean-Baptiste Lully (New World Encyclopedia)",
+    "url": "https://newworldencyclopedia.org/entry/Jean_Baptiste_Lully"
+   },
+   {
+    "titre": "Jean-Philippe Rameau (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Jean-Philippe_Rameau"
+   },
+   {
+    "titre": "Henry Purcell (Wikipedia)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Purcell.html"
+   },
+   {
+    "titre": "L'Orfeo (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/L%27Orfeo"
+   },
+   {
+    "titre": "Georg Philipp Telemann (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Georg_Philipp_Telemann"
+   },
+   {
+    "titre": "Domenico Scarlatti (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Domenico_Scarlatti"
+   },
+   {
+    "titre": "François Couperin (Interlude)",
+    "url": "https://interlude.hk/francois-couperin-died-on-september-11-1733the-art-of-touch/"
+   },
+   {
+    "titre": "Marc-Antoine Charpentier (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Marc-Antoine_Charpentier"
+   },
+   {
+    "titre": "Te Deum (Charpentier) (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Te_Deum_(Charpentier)"
+   },
+   {
+    "titre": "Johann Pachelbel (MFiles)",
+    "url": "https://www.mfiles.co.uk/composers/Johann-Pachelbel.htm"
+   },
+   {
+    "titre": "List of prominent operas (Wikipedia)",
+    "url": "https://wikiwand.com/en/List_of_famous_operas"
+   }
+  ]
+ },
+ {
+  "id": "dieux-grecs",
+  "sources": [
+   {
+    "titre": "Divinités de l'Olympe (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Olympiens"
+   },
+   {
+    "titre": "Personnages de la mythologie grecque (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/2-1002/personnages-de-la-mythologie-grecque"
+   },
+   {
+    "titre": "Titan (mythologie) (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Titans"
+   },
+   {
+    "titre": "Les 12 travaux d'Héraclès (La culture générale)",
+    "url": "https://www.laculturegenerale.com/12-travaux-heracles-hercule-liste/"
+   }
+  ]
+ },
+ {
+  "id": "etats-matiere",
+  "sources": [
+   {
+    "titre": "Caractéristiques et représentation d'un changement d'état (SchoolMouv)",
+    "url": "https://www.schoolmouv.fr/cours/caracteristiques-et-representation-d-un-changement-d-etat/fiche-de-cours"
+   },
+   {
+    "titre": "Plasma (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/plasma/80379"
+   },
+   {
+    "titre": "Plasma (matter) (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Plasma_(matter)"
+   },
+   {
+    "titre": "Eau (Techno-Science)",
+    "url": "https://www.techno-science.net/glossaire-definition/Eau.html"
+   },
+   {
+    "titre": "Les 7 propriétés étranges de l'eau (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/questions-reponses/chimie-7-proprietes-etranges-eau-14519/"
+   },
+   {
+    "titre": "Liste des éléments chimiques par température de fusion (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/liste-des-elements-chimiques-par-temperature-de-fusion"
+   },
+   {
+    "titre": "Point d'ébullition, vade-mecum (Alloprof)",
+    "url": "https://www.alloprof.qc.ca/fr/eleves/bv/sciences/vade-mecum-point-d-ebullition-s1701"
+   },
+   {
+    "titre": "Point de fusion, vade-mecum (Alloprof)",
+    "url": "https://www.alloprof.qc.ca/fr/eleves/bv/sciences/vade-mecum-point-de-fusion-s1700"
+   },
+   {
+    "titre": "Neige carbonique (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/chimie-neige-carbonique-7063/"
+   },
+   {
+    "titre": "Dioxyde de carbone (Techno-Science)",
+    "url": "https://www.techno-science.net/glossaire-definition/Dioxyde-de-carbone.html"
+   }
+  ]
+ },
+ {
+  "id": "etymologie-latine",
+  "sources": [
+   {
+    "titre": "Liste des locutions latines les plus courantes (Office québécois de la langue française)",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23799/banque-de-depannage-linguistique/le-vocabulaire/listes-thematiques/liste-des-locutions-latines-les-plus-courantes"
+   },
+   {
+    "titre": "47 locutions latines (La langue française)",
+    "url": "https://www.lalanguefrancaise.com/articles/47-locutions-latines/"
+   },
+   {
+    "titre": "Summary of Vocabulary Tables, Latin (Greek and Latin Roots, eCampusOntario)",
+    "url": "https://ecampusontario.pressbooks.pub/greeklatinroots/?p=233"
+   },
+   {
+    "titre": "A Summary of Latin Prefixes (Greek and Latin Roots, eCampusOntario)",
+    "url": "https://ecampusontario.pressbooks.pub/greeklatinroots/chapter/%C2%A759-a-summary-of-latin-prefixes/"
+   },
+   {
+    "titre": "Leçon : les préfixes d'origine latine (jerevise.fr)",
+    "url": "https://www.jerevise.fr/wp-content/uploads/studio/FRANCAIS/VOCABULAIRE/prefixe-latin/lecon-prefixe-origine-latine.pdf"
+   },
+   {
+    "titre": "Le latin au service du français (APLettres)",
+    "url": "https://aplettres.org/wp-content/uploads/2023/09/Le_latin_au_service_du_francais.pdf"
+   },
+   {
+    "titre": "Dictionnaire des étymons (Itinera electronica, UCLouvain)",
+    "url": "https://pot-pourri.fltr.ucl.ac.be/itinera/Ebook/etymons.pdf"
+   },
+   {
+    "titre": "Formation des mots : racines grecques et latines (apprendre-reviser-memoriser.fr)",
+    "url": "https://apprendre-reviser-memoriser.fr/wp-content/uploads/2024/03/formation-des-mots-racines-grecques-et-latines.pdf"
+   },
+   {
+    "titre": "Le latin et ses activités (collège Lumière, Marly)",
+    "url": "https://clg-lumiere-marly.ac-versailles.fr/wp-content/uploads/sites/426/2020/01/le_latin_et_ses_activites.pdf"
+   },
+   {
+    "titre": "Racines latines (Littré, Rue des écoles)",
+    "url": "https://www.data.ruedesecoles.com/RueDesEcoles/Pdf/LitRef/littreref_51.pdf"
+   },
+   {
+    "titre": "Les racines latines et grecques en français (Pass Éducation)",
+    "url": "https://www.pass-education.fr/free-pdf/parcours-2746027-les-racines-latines-et-grecques-en-francais-cours-de-vocabulaire-pour-la-6eme.pdf"
+   }
+  ]
+ },
+ {
+  "id": "formules-chimiques",
+  "sources": [
+   {
+    "titre": "Liste de composés inorganiques (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques"
+   },
+   {
+    "titre": "Liste de composés inorganiques C",
+    "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques-c"
+   },
+   {
+    "titre": "Liste de composés inorganiques F",
+    "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques-f"
+   },
+   {
+    "titre": "Liste de composés inorganiques H",
+    "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques-h"
+   },
+   {
+    "titre": "Liste de composés inorganiques K",
+    "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques-k"
+   },
+   {
+    "titre": "Liste de composés inorganiques M",
+    "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques-m"
+   },
+   {
+    "titre": "Liste de composés inorganiques N",
+    "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques-n"
+   },
+   {
+    "titre": "Liste de composés inorganiques S",
+    "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques-s"
+   },
+   {
+    "titre": "Liste de composés inorganiques T",
+    "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques-t"
+   },
+   {
+    "titre": "Alcane (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/alcane"
+   },
+   {
+    "titre": "Alcanes et alcools (Schoolmouv)",
+    "url": "https://www.schoolmouv.fr/cours/proprietes-des-alcanes-et-des-alcools/fiche-de-cours"
+   },
+   {
+    "titre": "Ozone (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/chimie-ozone-723/"
+   },
+   {
+    "titre": "Ozone (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/ozone"
+   },
+   {
+    "titre": "Corps purs et mélanges (Cours et fiches)",
+    "url": "https://cours-et-fiches.com/college/physique-chimie/corps-purs-melanges/"
+   },
+   {
+    "titre": "Glucides (eCampusOntario)",
+    "url": "https://ecampusontario.pressbooks.pub/biocell/chapter/3-2-glucides/"
+   },
+   {
+    "titre": "Saccharose (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/saccharose"
+   },
+   {
+    "titre": "Caféine (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Caf%C3%A9ine"
+   }
+  ]
+ },
+ {
+  "id": "gaz-air",
+  "sources": [
+   {
+    "titre": "Atmosphère terrestre (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/atmosphere-terrestre"
+   },
+   {
+    "titre": "Air (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/chimie-air-4452/"
+   },
+   {
+    "titre": "Discovery of gases (Michigan Tech)",
+    "url": "https://pages.mtu.edu/~pcharles/SCIHISTORY/04gases.html"
+   },
+   {
+    "titre": "History of the study of atmospheric ozone (NASA)",
+    "url": "https://acd-ext.gsfc.nasa.gov/People/Stolarski/history.html"
+   },
+   {
+    "titre": "Daniel Rutherford (Wikipedia, copie IPFS)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Daniel_Rutherford.html"
+   },
+   {
+    "titre": "Black identifies carbon dioxide (EBSCO)",
+    "url": "https://www.ebsco.com/research-starters/history/black-identifies-carbon-dioxide"
+   },
+   {
+    "titre": "Azote (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/azote"
+   },
+   {
+    "titre": "Oxygène (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/oxygène/75929"
+   },
+   {
+    "titre": "Carl von Linde (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Carl_von_Linde"
+   },
+   {
+    "titre": "Georges Claude (EBSCO)",
+    "url": "https://ebsco.com/research-starters/history/georges-claude"
+   },
+   {
+    "titre": "Lavoisier combat le phlogistique (Meer)",
+    "url": "https://www.meer.com/fr/63755-lavoisier-combat-le-phlogistique"
+   },
+   {
+    "titre": "Dioxyde de carbone (Techno-Science)",
+    "url": "https://www.techno-science.net/glossaire-definition/Dioxyde-de-carbone.html"
+   }
+  ]
+ },
+ {
+  "id": "gouvernements-ve",
+  "sources": [
+   {
+    "titre": "Premier ministre français (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Premier_ministre_fran%C3%A7ais"
+   },
+   {
+    "titre": "Ve République : la valse des ministres (Herodote)",
+    "url": "https://www.herodote.net/articles/article.php?ID=2933&get_all=1"
+   },
+   {
+    "titre": "Les Premiers ministres de la Ve République en dix records (La Gazette France)",
+    "url": "https://www.lagazettefrance.fr/article/les-premiers-ministres-de-la-ve-republique-en-dix-records"
+   },
+   {
+    "titre": "Barnier government (copie de Wikipédia)",
+    "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Barnier_government"
+   },
+   {
+    "titre": "Bayrou government (copie de Wikipédia)",
+    "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Bayrou_government"
+   },
+   {
+    "titre": "À peine nommé, le gouvernement Lecornu démissionne (Acteurs publics)",
+    "url": "https://acteurspublics.fr/articles/a-peine-nomme-le-gouvernement-lecornu-demissionne/"
+   },
+   {
+    "titre": "Macron reconduit Sébastien Lecornu (Paris Match Belgique)",
+    "url": "https://www.parismatch.be/actualites/monde/2025/10/10/france-emmanuel-macron-reconduit-sebastien-lecornu-comme-premier-ministre-LIQZQK4X7JCTTF65GLJQZJ7EME/"
+   },
+   {
+    "titre": "France's prime ministers since 2017 (Connexion)",
+    "url": "https://www.connexionfrance.com/news/can-you-name-in-order-frances-prime-ministers-since-2017/743426"
+   },
+   {
+    "titre": "Which French prime minister has used article 49.3 the most? (Connexion)",
+    "url": "https://www.connexionfrance.com/news/chart-which-french-prime-minister-has-used-controversial-article-493-the-most/693133"
+   },
+   {
+    "titre": "Article 49.3 in France: A Political Tool (Columbia Undergraduate Law Review)",
+    "url": "https://www.culawreview.org/current-events-2/article-493-in-france-a-political-tool"
+   },
+   {
+    "titre": "La petite histoire de l'hôtel de Matignon (info.gouv.fr)",
+    "url": "https://www.info.gouv.fr/actualite/la-petite-histoire-de-lhotel-de-matignon"
+   },
+   {
+    "titre": "Les pouvoirs du président de la République (Public Sénat)",
+    "url": "https://www.publicsenat.fr/actualites/non-classe/les-pouvoirs-du-president-de-la-republique-57556"
+   },
+   {
+    "titre": "Les anciens Premiers et Premières ministres de la Ve République (info.gouv.fr)",
+    "url": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/lionel-jospin"
+   }
+  ]
+ },
+ {
+  "id": "grands-traites",
+  "sources": [
+   {
+    "titre": "Traité de Verdun (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Trait%C3%A9_de_Verdun"
+   },
+   {
+    "titre": "Dates clés de l'histoire de France (cours-et-fiches)",
+    "url": "https://cours-et-fiches.com/dates-cles-histoire-de-france/"
+   },
+   {
+    "titre": "Timeline of French history (copie de Wikipedia)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Timeline_of_French_history.html"
+   },
+   {
+    "titre": "Traité de Tordesillas (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Trait%C3%A9_de_Tordesillas"
+   },
+   {
+    "titre": "Traités de Westphalie (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Trait%C3%A9s_de_Westphalie"
+   },
+   {
+    "titre": "Treaty of the Pyrenees (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/Peace_of_the_Pyrenees"
+   },
+   {
+    "titre": "Traité d'Utrecht de 1713 (Université Laval)",
+    "url": "https://axl.cefan.ulaval.ca/europe/Utrecht-1713.htm"
+   },
+   {
+    "titre": "Traité de Paris de 1763 (L'Encyclopédie canadienne)",
+    "url": "https://www.thecanadianencyclopedia.ca/fr/article/traite-de-paris-1763"
+   },
+   {
+    "titre": "Congrès de Vienne (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Congr%C3%A8s_de_Vienne"
+   },
+   {
+    "titre": "Traité de Francfort de 1871 (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Trait%C3%A9_de_Francfort_de_1871"
+   },
+   {
+    "titre": "Chronologie de la Première Guerre mondiale (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Chronologie_de_la_Premi%C3%A8re_Guerre_mondiale"
+   },
+   {
+    "titre": "Traité de Versailles (1919) (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Trait%C3%A9_de_Versailles_(1919)"
+   },
+   {
+    "titre": "Les traités de l'Union européenne (Parlement européen)",
+    "url": "https://youth.europarl.europa.eu/files/live/sites/youthhub/files/active-lessons-revamp/FR-eu-treaties-timeline-2025.pdf"
+   }
+  ]
+ },
+ {
+  "id": "guerres-mondiales",
+  "sources": [
+   {
+    "titre": "Première Guerre mondiale (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Premi%C3%A8re_guerre_mondiale"
+   },
+   {
+    "titre": "Chronologie de la Première Guerre mondiale (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Chronologie_de_la_Premi%C3%A8re_Guerre_mondiale"
+   },
+   {
+    "titre": "Bataille de Verdun (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Bataille_de_Verdun"
+   },
+   {
+    "titre": "10 things you may not know about the Battle of Verdun (History)",
+    "url": "https://www.history.com/articles/10-things-you-may-not-know-about-the-battle-of-verdun"
+   },
+   {
+    "titre": "Ferdinand Foch (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Ferdinand_Foch"
+   },
+   {
+    "titre": "Georges Clemenceau (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Georges_Cl%C3%A9menceau"
+   },
+   {
+    "titre": "22 avril 1915 : les gaz de combat (Herodote)",
+    "url": "https://www.herodote.net/22_avril_1915_et_12_juillet_1917-evenement-19150422.php"
+   },
+   {
+    "titre": "Seconde Guerre mondiale (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Deuxi%C3%A8me_Guerre_mondiale"
+   },
+   {
+    "titre": "Chronologie de la Seconde Guerre mondiale (copie de Wikipédia)",
+    "url": "https://people.math.carleton.ca/~rhfischl/GENEALOGY/MA_FAMILLE_DVD/ALBERT_HERZ/FRANCE_WWII/Chronologie_Seconde%20Guerre_mondiale_%5Bwikipedia%5D.pdf"
+   },
+   {
+    "titre": "Jean Moulin (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Jean_Moulin"
+   },
+   {
+    "titre": "Résistance intérieure française (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/R%C3%A9sistance_int%C3%A9rieure_fran%C3%A7aise"
+   },
+   {
+    "titre": "Conférence de Yalta (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Conf%C3%A9rence_de_Yalta"
+   },
+   {
+    "titre": "Conférence de Téhéran (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Conf%C3%A9rence_de_T%C3%A9h%C3%A9ran"
+   },
+   {
+    "titre": "Conférence de Potsdam (Schoolmouv)",
+    "url": "https://www.schoolmouv.fr/evenements-historiques/conference-de-potsdam-17-juillet-2-aout-1945/evenement-historique"
+   },
+   {
+    "titre": "6 juin 1944 (Herodote)",
+    "url": "https://www.herodote.net/6_juin_1944-synthese-1934.php"
+   }
+  ]
+ },
+ {
+  "id": "instruments-musique",
+  "sources": [
+   {
+    "titre": "À la découverte de votre orchestre symphonique (OSR)",
+    "url": "https://www.osr.ch/fileadmin/user_upload/Jeunes/Brochures_div/A_la_decouverte_de_votre_orchestre_symphonique.pdf"
+   },
+   {
+    "titre": "Brochure découverte de l'orchestre 2025 (OSR)",
+    "url": "https://www.osr.ch/fileadmin/user_upload/Jeunes/Docs_PDF/OSR_BROCHURE_DECOUVERTE_ORCHESTRE_2025.pdf"
+   },
+   {
+    "titre": "Les familles d'instruments (Larousse)",
+    "url": "https://www.larousse.fr/dictionnaires/memo/Les_familles_d_instruments/23"
+   },
+   {
+    "titre": "Orchestre symphonique (copie de Wikipédia, areq.net)",
+    "url": "https://areq.net/lang/fr/Orchestre_symphonique.html"
+   },
+   {
+    "titre": "Orchestre symphonique (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Orchestre_symphonique"
+   },
+   {
+    "titre": "À la découverte de l'orchestre (Orchestre national Avignon-Provence)",
+    "url": "https://www.orchestre-avignon.com/wp-content/uploads/2021/04/a-la-decouverte-de-lorchestre.pdf"
+   },
+   {
+    "titre": "L'orchestre symphonique, cours (Le Web pédagogique)",
+    "url": "https://lewebpedagogique.com/enmusac/files/2016/12/Lorchestre-symphonique-LE-COURSV8.pdf"
+   },
+   {
+    "titre": "Atelier découverte des percussions (Ville de Strasbourg)",
+    "url": "https://www.strasbourg.eu/documents/6009171/17682320/atelier-de%CC%81couverte_percussions_bd01.pdf/cda1f773-2b37-67ec-c7a2-63514a06d26c"
+   },
+   {
+    "titre": "L'orchestre (académie d'Orléans-Tours)",
+    "url": "https://pedagogie.ac-orleans-tours.fr/documents/pdf/orchestre.pdf"
+   },
+   {
+    "titre": "Musical instrument classification (Wikipedia)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Musical_instrument_classification"
+   },
+   {
+    "titre": "Classification of Musical Instruments (LibreTexts)",
+    "url": "https://human.libretexts.org/Bookshelves/Music/Music_Appreciation/Music_Appreciation_II_(Kuznetsova)/06%3A_Musical_Instrument_Families/6.03%3A_Classification_of_Musical_Instruments"
+   },
+   {
+    "titre": "Instrument classification (Goshen College)",
+    "url": "https://www.goshen.edu/academics/music/mary-k-oyer-african-music-archive/instrument-classification/"
+   },
+   {
+    "titre": "Musical instrument (Wikipedia for Schools)",
+    "url": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/m/Musical_instrument.htm"
+   },
+   {
+    "titre": "Music timeline (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/timeline/Music/"
+   },
+   {
+    "titre": "Musique baroque (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Musique_baroque"
+   },
+   {
+    "titre": "Georg Philipp Telemann (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Georg_Philipp_Telemann"
+   },
+   {
+    "titre": "Te Deum (Charpentier) (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Te_Deum_(Charpentier)"
+   }
+  ]
+ },
+ {
+  "id": "inventions",
+  "sources": [
+   {
+    "titre": "Inventors at a glance (Britannica Kids)",
+    "url": "https://kids.britannica.com/students/article/inventors-at-a-glance/626789"
+   },
+   {
+    "titre": "A chronology of invention (Britannica)",
+    "url": "https://www.britannica.com/technology/invention-technology/A-chronology-of-invention"
+   },
+   {
+    "titre": "French inventions (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/articles/French_inventions"
+   },
+   {
+    "titre": "28 décembre 1895 : naissance du cinéma (Herodote)",
+    "url": "https://www.herodote.net/28_decembre_1895-evenement-18951228.php"
+   },
+   {
+    "titre": "L'arrivée du premier vaccin (Gavi)",
+    "url": "https://www.gavi.org/fr/vaccineswork/arrivee-premier-vaccin-histoire-abregee-vaccination-partie1"
+   },
+   {
+    "titre": "Edward Jenner, le père de la vaccination (Allodocteurs)",
+    "url": "https://www.allodocteurs.fr/se-soigner/histoire-de-la-medecine/edward-jenner-le-pere-de-la-vaccination_26388.html"
+   },
+   {
+    "titre": "Grandes découvertes et inventions scientifiques (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Grandes_d%C3%A9couvertes_et_inventions_scientifiques"
+   }
+  ]
+ },
+ {
+  "id": "lanthanides",
+  "sources": [
+   {
+    "titre": "List of chemical element name etymologies (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_chemical_element_name_etymologies"
+   },
+   {
+    "titre": "Discovery of the chemical elements (Wikipédia, copie Kiwix)",
+    "url": "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Discovery_of_the_chemical_elements"
+   },
+   {
+    "titre": "Rare-earth element (Wikipédia, Wikiwand)",
+    "url": "https://wikiwand.com/en/Cerium_group"
+   }
+  ]
+ },
+ {
+  "id": "mathematiciens",
+  "sources": [
+   {
+    "titre": "Biographies de mathématiciens (Exo7)",
+    "url": "https://exo7math.github.io/formules-exo7/biographie/biographie.pdf"
+   },
+   {
+    "titre": "Médaille Fields (Wikimonde, copie de Wikipédia)",
+    "url": "https://wikimonde.com/article/M%C3%A9daille_Fields"
+   },
+   {
+    "titre": "Médailles Fields 2022 (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/medailles-fields-2022/"
+   },
+   {
+    "titre": "Leonhard Euler (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Leonhard_Euler"
+   },
+   {
+    "titre": "Évariste Galois (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/%C3%89variste_Galois"
+   },
+   {
+    "titre": "Emmy Noether, mathématicienne (Femmes savantes, eCampusOntario)",
+    "url": "https://ecampusontario.pressbooks.pub/femmessavantes/chapter/emmy-noether-mathematicienne-1882-1935/"
+   },
+   {
+    "titre": "French inventions (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/articles/French_inventions"
+   },
+   {
+    "titre": "47 locutions latines (La langue française)",
+    "url": "https://www.lalanguefrancaise.com/articles/47-locutions-latines/"
+   }
+  ]
+ },
+ {
+  "id": "melanges-solutions",
+  "sources": [
+   {
+    "titre": "Mixture Separation Techniques (Alloprof)",
+    "url": "https://www.alloprof.qc.ca/en/students/vl/sciences/la-separation-des-melanges-s1049"
+   },
+   {
+    "titre": "Séparation de mélanges (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/S%C3%A9paration_de_m%C3%A9langes"
+   },
+   {
+    "titre": "Solution (chimie) (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/solution-chimie"
+   },
+   {
+    "titre": "Solubilité et miscibilité, cours de 5e (Pass Éducation)",
+    "url": "https://www.pass-education.fr/free-pdf/parcours-1913147-solubilite-et-miscibilite-5eme-cours.pdf"
+   },
+   {
+    "titre": "Corps purs et mélanges (Cours et fiches)",
+    "url": "https://cours-et-fiches.com/college/physique-chimie/corps-purs-melanges/"
+   },
+   {
+    "titre": "La dissolution (PCCL)",
+    "url": "https://www.pccl.fr/physique_chimie_college_lycee/cinquieme/cours_exercices_corriges/dissolution.pdf"
+   },
+   {
+    "titre": "Alliage (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/alliage"
+   },
+   {
+    "titre": "Colloïde (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/colloide"
+   }
+  ]
+ },
+ {
+  "id": "metalloides",
+  "sources": [
+   {
+    "titre": "List of chemical element name etymologies (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_chemical_element_name_etymologies"
+   },
+   {
+    "titre": "Discovery of the chemical elements (Wikipédia, copie Kiwix)",
+    "url": "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Discovery_of_the_chemical_elements"
+   },
+   {
+    "titre": "Metalloid (Wikipédia, copie Kiwix)",
+    "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Metalloid"
+   },
+   {
+    "titre": "Germanium (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Germanium"
+   },
+   {
+    "titre": "Chemicool : tellurium, arsenic, antimony, boron, silicon",
+    "url": "https://www.chemicool.com/elements/tellurium.html"
+   },
+   {
+    "titre": "Chemicool : arsenic",
+    "url": "https://www.chemicool.com/elements/arsenic/"
+   },
+   {
+    "titre": "Chemicool : antimony",
+    "url": "https://www.chemicool.com/elements/antimony.html"
+   },
+   {
+    "titre": "Chemicool : boron",
+    "url": "https://www.chemicool.com/elements/boron.html"
+   },
+   {
+    "titre": "Chemicool : silicon",
+    "url": "https://www.chemicool.com/elements/silicon.html"
+   }
+  ]
+ },
+ {
+  "id": "metaux-alcalins",
+  "sources": [
+   {
+    "titre": "Alkali metal (copie de Wikipédia, Surf Wiki)",
+    "url": "https://www.doc.surf/wiki/alkali-metal"
+   },
+   {
+    "titre": "List of chemical element name etymologies (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_chemical_element_name_etymologies"
+   },
+   {
+    "titre": "Discovery of the chemical elements (Wikipédia, copie Kiwix)",
+    "url": "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Discovery_of_the_chemical_elements"
+   }
+  ]
+ },
+ {
+  "id": "molecules-quotidien",
+  "sources": [
+   {
+    "titre": "Spice molecules (Jason Maron)",
+    "url": "https://www.jaymaron.com/spice.html"
+   },
+   {
+    "titre": "Les arômes (L'Actualité chimique, Société chimique de France)",
+    "url": "https://new.societechimiquedefrance.fr/wp-content/uploads/2019/12/2002-avr-252-Fernandez-p.4.pdf"
+   },
+   {
+    "titre": "Carvone et odorat (Planet-Vie, ENS)",
+    "url": "https://planet-vie.ens.fr/node/1397/download/pdf"
+   },
+   {
+    "titre": "Vanilline (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/vanilline"
+   },
+   {
+    "titre": "Capsaicin (Wikipédia, miroir Kiwix)",
+    "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Capzasin"
+   },
+   {
+    "titre": "Nicotine (Wikipédia, miroir Kiwix)",
+    "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Nicotine"
+   },
+   {
+    "titre": "Caffeine (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Caffeine"
+   },
+   {
+    "titre": "Caféine (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Caf%C3%A9ine"
+   },
+   {
+    "titre": "La théobromine (Darwin Nutrition)",
+    "url": "https://www.darwin-nutrition.fr/super-aliments/cacao/la-theobromine-le-stimulant-doux-du-cacao/"
+   },
+   {
+    "titre": "Chlorophylle (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/chlorophylle"
+   },
+   {
+    "titre": "Saccharose (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/saccharose"
+   },
+   {
+    "titre": "Glucides (Biologie cellulaire, eCampusOntario)",
+    "url": "https://ecampusontario.pressbooks.pub/biocell/chapter/3-2-glucides/"
+   },
+   {
+    "titre": "Hémoglobine (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/h%C3%A9moglobine/57877"
+   },
+   {
+    "titre": "Protéines (Les Sherpas)",
+    "url": "https://sherpas.com/blog/proteine-definition/"
+   },
+   {
+    "titre": "Vitamine C (Futura)",
+    "url": "https://www.futura-sciences.com/sante/definitions/medecine-vitamine-c-6127/"
+   },
+   {
+    "titre": "Scorbut (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/scorbut"
+   },
+   {
+    "titre": "Molécules de la santé (ENS Lyon)",
+    "url": "https://perso.ens-lyon.fr/pascal.wang/Agr%c3%a9gation%20externe/LC/LC_11_Mol%c3%a9cules%20de%20la%20sant%c3%a9%20(Lyc%c3%a9e)/LC_11_Mol%c3%a9cules%20de%20la%20sant%c3%a9%20(Lyc%c3%a9e).pdf"
+   },
+   {
+    "titre": "Alcaloïde (Futura)",
+    "url": "https://www.futura-sciences.com/sante/definitions/vie-alcaloide-4206/"
+   },
+   {
+    "titre": "Alcaloïdes (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/alcaloides/"
+   },
+   {
+    "titre": "Carotène (Futura)",
+    "url": "https://www.futura-sciences.com/sante/definitions/medecine-carotene-3101/"
+   },
+   {
+    "titre": "Caroténoïde (Futura)",
+    "url": "https://www.futura-sciences.com/planete/definitions/botanique-carotenoide-2217/"
+   },
+   {
+    "titre": "Fermentation alcoolique (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/fermentation-alcoolique"
+   }
+  ]
+ },
+ {
+  "id": "monuments-monde",
+  "sources": [
+   {
+    "titre": "New7Wonders of the World (copie de Wikipédia)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/New7Wonders_of_the_World"
+   },
+   {
+    "titre": "Les 7 nouvelles merveilles du monde (Generation Voyage)",
+    "url": "https://generationvoyage.fr/7-nouvelles-merveilles-monde-2007/"
+   },
+   {
+    "titre": "History of the world's tallest buildings (copie de Wikipédia)",
+    "url": "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/History_of_the_world's_tallest_buildings.html"
+   },
+   {
+    "titre": "Les plus beaux monuments du monde (Routard)",
+    "url": "https://www.routard.com/contenu-dossier/cid140950-les-plus-beaux-monuments-du-monde.html"
+   },
+   {
+    "titre": "10 famous buildings from around the world (Twinkl)",
+    "url": "https://www.twinkl.com/homework-help/art-design-homework-help/architecture-facts-for-kids/10-famous-buildings-from-around-the-world"
+   },
+   {
+    "titre": "Sydney Opera House (copie de Wikipédia)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Sydney_Opera_House.html"
+   },
+   {
+    "titre": "Burj Khalifa (copie de Wikipédia)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Burj_Dubai.html"
+   },
+   {
+    "titre": "Origins and construction of the Eiffel Tower (site officiel)",
+    "url": "https://toureiffel.paris/en/the-monument/history"
+   }
+  ]
+ },
+ {
+  "id": "mythologie-nordique",
+  "sources": [
+   {
+    "titre": "Norse mythology (copie de Wikipédia)",
+    "url": "https://samplecontents.library.ph/wikipedia/wp/n/Norse_mythology.htm"
+   },
+   {
+    "titre": "Odin (copie de Wikipédia)",
+    "url": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/o/Odin.htm"
+   },
+   {
+    "titre": "Viking gods (Viking Rune)",
+    "url": "https://www.vikingrune.com/2012/01/viking-gods/"
+   },
+   {
+    "titre": "Who kills whom during Ragnarök (Sons of Vikings)",
+    "url": "https://sonsofvikings.com/blogs/history/who-kills-whom-during-ragnarok"
+   },
+   {
+    "titre": "The Anglo-Saxon English days of the week (Historic UK)",
+    "url": "https://www.historic-uk.com/CultureUK/Days-Of-The-Week/"
+   },
+   {
+    "titre": "Freyja (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Freyja"
+   },
+   {
+    "titre": "9 worlds in Norse mythology (Scandinavia Facts)",
+    "url": "https://scandinaviafacts.com/9-worlds-in-norse-mythology/"
+   }
+  ]
+ },
+ {
+  "id": "operas",
+  "sources": [
+   {
+    "titre": "List of prominent operas (Wikiwand)",
+    "url": "https://wikiwand.com/en/List_of_famous_operas"
+   },
+   {
+    "titre": "List of important operas (copie de Wikipedia)",
+    "url": "https://exl.pages.dev/List_of_important_operas"
+   },
+   {
+    "titre": "Carmen (Wikipedia, copie statique)",
+    "url": "https://wikipedia.classicistranieri.com/en/articles/c/a/r/Carmen.html"
+   },
+   {
+    "titre": "Voice type (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Voice_type"
+   },
+   {
+    "titre": "Giacomo Puccini (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Giacomo_Puccini"
+   },
+   {
+    "titre": "Giuseppe Verdi (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/Giuseppe_Verdi"
+   },
+   {
+    "titre": "L'Orfeo (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/L%27Orfeo"
+   },
+   {
+    "titre": "George Frideric Handel (Wikipedia)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Haendel.html"
+   }
+  ]
+ },
+ {
+  "id": "peintres-impressionnistes",
+  "sources": [
+   {
+    "titre": "Impressionism (copie de Wikipédia, SolarSPELL)",
+    "url": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/i/Impressionism.htm"
+   },
+   {
+    "titre": "1874 – Première exposition (ministère de la Culture)",
+    "url": "https://www.culture.gouv.fr/fr/Thematiques/Musees/Les-musees-en-France/Les-collections-des-musees-de-France/Decouvrir-les-collections/Les-huit-expositions-impressionnistes-1874-1886/1874-Premiere-exposition"
+   },
+   {
+    "titre": "Impressionnisme (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Impressionnisme"
+   },
+   {
+    "titre": "The 8 Impressionist Exhibitions (Paris Insiders Guide)",
+    "url": "https://www.parisinsidersguide.com/eight-impressionist-exhibitions.html"
+   },
+   {
+    "titre": "Musée d'Orsay Must-See Paintings (Paris Insiders Guide)",
+    "url": "https://www.parisinsidersguide.com/musee-d-orsay-must-see-paintings.html"
+   },
+   {
+    "titre": "Claude Monet (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Claude_Monet"
+   },
+   {
+    "titre": "History of the Water Lilies cycle (musée de l'Orangerie)",
+    "url": "https://www.musee-orangerie.fr/en/node/33"
+   },
+   {
+    "titre": "Vincent van Gogh (Wikipédia sur IPFS)",
+    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Vincent_van_Gogh"
+   },
+   {
+    "titre": "Pierre-Auguste Renoir (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Pierre-Auguste_Renoir"
+   },
+   {
+    "titre": "Paul Gauguin (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Paul_Gauguin"
+   },
+   {
+    "titre": "Paul Cézanne (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Paul_C%C3%A9zanne"
+   },
+   {
+    "titre": "Degas (WebMuseum)",
+    "url": "https://ftp.icm.edu.pl/wm/paint/auth/degas"
+   },
+   {
+    "titre": "Little Dancer Aged Fourteen (National Gallery of Art)",
+    "url": "https://nga.gov/collection/highlights/degas-little-dancer-aged-fourteen.html"
+   },
+   {
+    "titre": "Musée d'Orsay (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/musée_d_Orsay/136386"
+   },
+   {
+    "titre": "Where to find famous art (My Modern Met)",
+    "url": "https://mymodernmet.com/where-to-find-famous-art-guide"
+   },
+   {
+    "titre": "Les grands musées d'Europe (Routard)",
+    "url": "https://www.routard.com/fr/mag/dossier/a/les-grands-musees-d-europe"
+   }
+  ]
+ },
+ {
+  "id": "poetes",
+  "sources": [
+   {
+    "titre": "La poésie du XIXe au XXIe siècle (Schoolmouv)",
+    "url": "https://www.schoolmouv.fr/cours/poesie-19e-20e/fiche-de-cours"
+   },
+   {
+    "titre": "Histoire de la poésie (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Histoire_de_la_po%C3%A9sie"
+   },
+   {
+    "titre": "Les Fleurs du mal, fiche de lecture (Schoolmouv)",
+    "url": "https://www.schoolmouv.fr/fiches-de-lecture/les-fleurs-du-mal/fiche-de-lecture"
+   },
+   {
+    "titre": "Les meilleurs livres du XIXe siècle (L'Éclaireur Fnac)",
+    "url": "https://leclaireur.fnac.com/selection/cp52852-les-meilleurs-livres-du-xixe-siecle/"
+   },
+   {
+    "titre": "Victor Hugo (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Victor_Hugo"
+   },
+   {
+    "titre": "Rimbaud : vie et œuvre (La langue française)",
+    "url": "https://www.lalanguefrancaise.com/litterature/rimbaud/rimbaud-vie-oeuvre"
+   },
+   {
+    "titre": "Paul Verlaine (GradeSaver, d'après Wikipedia)",
+    "url": "https://www.gradesaver.com/paul-verlaine-poems/wikipedia/introduction"
+   },
+   {
+    "titre": "Formes et genres de la poésie (Schoolmouv)",
+    "url": "https://www.schoolmouv.fr/cours/formes-et-genres-de-la-poesie/fiche-de-cours"
+   },
+   {
+    "titre": "La Pléiade (Schoolmouv)",
+    "url": "https://www.schoolmouv.fr/mouvements-litteraires/la-pleiade-2/mouvement-litteraire"
+   },
+   {
+    "titre": "Pierre de Ronsard (La langue française)",
+    "url": "https://www.lalanguefrancaise.com/litterature/pierre-de-ronsard"
+   },
+   {
+    "titre": "Villon (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/litterature/Villon/177833"
+   },
+   {
+    "titre": "Guillaume Apollinaire (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Guillaume_Apollinaire"
+   },
+   {
+    "titre": "Jean de La Fontaine (Larousse)",
+    "url": "https://www.larousse.fr/dictionnaires/college/Jean_de_La_Fontaine/23061"
+   },
+   {
+    "titre": "Tout savoir sur la poésie romantique (Au futur)",
+    "url": "https://aufutur.fr/revisions/francais/tout-savoir-sur-la-poesie-romantique/"
+   }
+  ]
+ },
+ {
+  "id": "polymeres",
+  "sources": [
+   {
+    "titre": "Timeline of plastic development (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/articles/Timeline_of_plastic_development"
+   },
+   {
+    "titre": "Recycling codes (Wikipedia, copie IPFS)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Recycling_code.html"
+   },
+   {
+    "titre": "The 7 types of plastic explained",
+    "url": "https://www.implasticfree.com/types-of-plastic/"
+   },
+   {
+    "titre": "Macromolécule (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/chimie-macromolecule-2087/"
+   },
+   {
+    "titre": "Polymères : la notion de macromolécule (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/polymeres/2-la-notion-de-macromolecule/"
+   },
+   {
+    "titre": "Caoutchouc (matériau) (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/caoutchouc-materiau"
+   },
+   {
+    "titre": "Rubber : development of the natural rubber industry (Britannica)",
+    "url": "https://www.Britannica.Com/science/rubber-chemical-compound/Development-of-the-natural-rubber-industry"
+   },
+   {
+    "titre": "Stephanie L. Kwolek (Science History Institute)",
+    "url": "https://www.sciencehistory.org/historical-profile/stephanie-l-kwolek"
+   },
+   {
+    "titre": "Nylon (Encyclopedia.com)",
+    "url": "https://www.encyclopedia.com/history/culture-magazines/nylon"
+   }
+  ]
+ },
+ {
+  "id": "presidents-republique",
+  "sources": [
+   {
+    "titre": "List of presidents of France (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_France"
+   },
+   {
+    "titre": "Campagnes présidentielles 1965-2022 (Herodote)",
+    "url": "https://www.herodote.net/Campagnes_presidentielles_1965_2022_-synthese-3115.php"
+   },
+   {
+    "titre": "Le palais de l'Élysée et son histoire (Élysée)",
+    "url": "https://www.elysee.fr/la-presidence/visite-palais-de-l-elysee-et-son-histoire"
+   },
+   {
+    "titre": "Palais de l'Élysée (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Palais_de_l%27%C3%89lys%C3%A9e"
+   },
+   {
+    "titre": "Les pouvoirs du président de la République (Public Sénat)",
+    "url": "https://www.publicsenat.fr/actualites/non-classe/les-pouvoirs-du-president-de-la-republique-57556"
+   },
+   {
+    "titre": "Présidentielle 2022 : résultats du second tour (Public Sénat)",
+    "url": "https://www.publicsenat.fr/actualites/politique/resultats-presidentielle-20222-carte-et-analyses-en-direct-du-second-tour"
+   },
+   {
+    "titre": "Cinquième République : les années Chirac (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/cinquieme-republique-les-annees-chirac-1995-2007/"
+   },
+   {
+    "titre": "Jacques Chirac (info.gouv.fr)",
+    "url": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/jacques-chirac-1986-1988"
+   }
+  ]
+ },
+ {
+  "id": "romanciers-xixe",
+  "sources": [
+   {
+    "titre": "Les meilleurs romans français du XIXe siècle (L'Éclaireur Fnac)",
+    "url": "https://leclaireur.fnac.com/selection/cp52284-les-meilleurs-romans-francais-du-xixe-siecle/"
+   },
+   {
+    "titre": "Les meilleurs livres du XIXe siècle (L'Éclaireur Fnac)",
+    "url": "https://leclaireur.fnac.com/selection/cp52852-les-meilleurs-livres-du-xixe-siecle/"
+   },
+   {
+    "titre": "Victor Hugo (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Victor_Hugo"
+   },
+   {
+    "titre": "Jules Verne (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Jules_Verne"
+   },
+   {
+    "titre": "Le mouvement littéraire du réalisme (Superprof)",
+    "url": "https://www.superprof.fr/ressources/langues/francais/autres-niveaux-fr1/tout-niveau-fr1/auteurs-romanciers-realistes.html"
+   },
+   {
+    "titre": "Les Rougon-Macquart (Wikipédia, copie)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Les_Rougon-Macquart.html"
+   },
+   {
+    "titre": "Les Rougon-Macquart, liste des romans",
+    "url": "https://www.liquisearch.com/les_rougon-macquart/list_of_the_novels"
+   },
+   {
+    "titre": "A Zola Dictionary, J. G. Patterson (Projet Gutenberg)",
+    "url": "https://gutenberg.org/files/5103/5103-h/5103-h.htm"
+   },
+   {
+    "titre": "La Comédie humaine (Wikipédia, copie)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/La_Com%C3%A9die_humaine.html"
+   },
+   {
+    "titre": "Voyages extraordinaires (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Voyages_extraordinaires"
+   }
+  ]
+ },
+ {
+  "id": "theatre-classique",
+  "sources": [
+   {
+    "titre": "Pièces de théâtre classique, résumés (lycée Lucien-Millet)",
+    "url": "https://lucien-millet.anjou.e-lyco.fr/wp-content/uploads/sites/33/2019/10/piece-de-theatre-classique.pdf"
+   },
+   {
+    "titre": "Théâtre, liste de pièces (académie de Martinique)",
+    "url": "https://site.ac-martinique.fr/wp-content/uploads/sites/63/2018/07/Th%c3%a9%c3%a2tre.pdf"
+   },
+   {
+    "titre": "Molière, œuvre et vie (Au futur)",
+    "url": "https://aufutur.fr/matieres/francais/moliere-oeuvre-vie/"
+   },
+   {
+    "titre": "Molière (Herodote)",
+    "url": "https://www.herodote.net/Moliere-synthese-3082.php"
+   },
+   {
+    "titre": "Ces comédies de Molière qu'on étudie encore à l'école (RTBF)",
+    "url": "https://www.rtbf.be/article/ces-comedies-de-moliere-qu-on-etudie-encore-et-toujours-a-l-ecole-11423674"
+   },
+   {
+    "titre": "Jean Racine (Larousse)",
+    "url": "https://www.larousse.fr/dictionnaires/college/Jean_Racine/33281"
+   },
+   {
+    "titre": "Jean Racine (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Jean_Racine"
+   },
+   {
+    "titre": "Pierre Corneille (Herodote)",
+    "url": "https://www.herodote.net/Pere_tranquille_de_cent_heros-synthese-199.php"
+   },
+   {
+    "titre": "Pierre Corneille, biographie et œuvre (Au futur)",
+    "url": "https://aufutur.fr/revisions/corneille-oeuvre-biographie/"
+   },
+   {
+    "titre": "Pierre Corneille (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Pierre_Corneille"
+   },
+   {
+    "titre": "Les genres du théâtre et leurs caractéristiques (Schoolmouv)",
+    "url": "https://www.schoolmouv.fr/cours/les-genres-du-theatre-et-leurs-caracteristiques/fiche-de-cours"
+   },
+   {
+    "titre": "Comédie-Française (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Com%C3%A9die-Fran%C3%A7aise"
+   },
+   {
+    "titre": "21 octobre 1680 : naissance de la Comédie-Française (Herodote)",
+    "url": "https://www.herodote.net/21_octobre_1680-evenement-16801021.php"
+   },
+   {
+    "titre": "Cyrano de Bergerac (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/oeuvre/Cyrano_de_Bergerac/115382"
+   },
+   {
+    "titre": "Cyrano de Bergerac (GradeSaver, d'après Wikipedia)",
+    "url": "https://www.gradesaver.com/cyrano-de-bergerac/wikipedia/introduction"
+   },
+   {
+    "titre": "Victor Hugo (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Victor_Hugo"
+   }
+  ]
  }
 ]

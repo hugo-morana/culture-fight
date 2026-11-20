@@ -570,5 +570,375 @@
    "grenadeclaration",
    "azincourt-circuit"
   ]
+ },
+ {
+  "id": "presidentaikido",
+  "pays": "chronie",
+  "lieu": "Le Quartier contemporain",
+  "histoire": "Maître du dojo de l'Élysée, au Quartier contemporain, Présidentaïkido détourne chaque attaque d'un geste de discours. Il connaît tous les présidents depuis Thiers et salue chacun d'une révérence. Matignator l'attend chaque mercredi sur le perron, dossier sous le bras, pour le conseil des ministres.",
+  "liens": [
+   "matignator",
+   "waterlooser"
+  ]
+ },
+ {
+  "id": "matignator",
+  "pays": "chronie",
+  "lieu": "Le Quartier contemporain",
+  "histoire": "Gladiateur de l'hôtel de Matignon, Matignator capture les projets de loi dans son filet et les présente à l'arène de l'Assemblée. Il a vu passer tous les Premiers ministres de la Ve République et retient la durée de chacun. Présidentaïkido le nomme, le remercie, puis le renomme.",
+  "liens": [
+   "presidentaikido",
+   "diplomage"
+  ]
+ },
+ {
+  "id": "poilutteur",
+  "pays": "chronie",
+  "lieu": "Le Quartier contemporain",
+  "histoire": "Lutteur des tranchées du Quartier contemporain, Poilutteur a tenu bon de la Marne à la Libération. Il retient chaque date d'armistice et ne lâche jamais une prise. Waterlooser lui raconte ses batailles du siècle d'avant ; Diplomage vient toujours signer la paix quand il a fini.",
+  "liens": [
+   "waterlooser",
+   "diplomage"
+  ]
+ },
+ {
+  "id": "diplomage",
+  "pays": "chronie",
+  "lieu": "Le Quartier contemporain",
+  "histoire": "Mage des salons dorés du Quartier contemporain, Diplomage fait flotter les traités comme des sortilèges et scelle chaque paix d'un cachet de cire. Il connaît chaque signature, de Verdun en 843 à Maastricht. Poilutteur et Waterlooser lui doivent la fin de leurs guerres.",
+  "liens": [
+   "poilutteur",
+   "matignator"
+  ]
+ },
+ {
+  "id": "chevalier-renoir",
+  "pays": "palettia",
+  "lieu": "Les Jardins impressionnistes",
+  "histoire": "Chevalier des Jardins impressionnistes, Chevalier Renoir a juré de peindre la même mare à toutes les heures du jour. Son armure noire se couvre de taches de lumière à chaque combat. Da Vincible le trouve brouillon ; lui trouve Da Vincible trop net.",
+  "liens": [
+   "da-vincible",
+   "louvre-boite"
+  ]
+ },
+ {
+  "id": "louvre-boite",
+  "pays": "palettia",
+  "lieu": "Le Grand Musée de Pinceaurence",
+  "histoire": "Gentleman des nuits de Pinceaurence, Louvre-Boîte ouvre les vitrines du Grand Musée comme des boîtes de conserve, mais rapporte toujours les tableaux avant l'aube. Il sait dans quel musée dort chaque chef-d'œuvre. Chevalier Renoir surveille ses toiles de très près.",
+  "liens": [
+   "chevalier-renoir",
+   "da-vincible"
+  ]
+ },
+ {
+  "id": "bach-a-sable",
+  "pays": "palettia",
+  "lieu": "L'Opéra de Pinceaurence",
+  "histoire": "Gladiateur de l'arène de sable de l'Opéra de Pinceaurence, Bach-à-Sable bâtit des fugues comme d'autres des châteaux de sable, une voix après l'autre. Il connaît chaque compositeur baroque. Ténorc le trouve trop sérieux ; lui trouve Ténorc trop bruyant.",
+  "liens": [
+   "tenorc",
+   "violoncelte"
+  ]
+ },
+ {
+  "id": "tenorc",
+  "pays": "palettia",
+  "lieu": "L'Opéra de Pinceaurence",
+  "histoire": "Star de l'Opéra de Pinceaurence, Ténorc fait trembler les lustres dès son premier contre-ut. Il connaît chaque opéra par cœur et pleure dans son mouchoir à chaque dernier acte. Bach-à-Sable lui reproche de chanter trop fort ; Violoncelte l'accompagne quand même.",
+  "liens": [
+   "bach-a-sable",
+   "violoncelte"
+  ]
+ },
+ {
+  "id": "violoncelte",
+  "pays": "palettia",
+  "lieu": "L'Opéra de Pinceaurence",
+  "histoire": "Venu des landes à menhirs, Violoncelte a troqué sa hache contre un violoncelle et joue aussi fort qu'il frappe. Il reconnaît chaque instrument à son timbre. Il accompagne Ténorc à l'Opéra de Pinceaurence et a appris le contrepoint avec Bach-à-Sable.",
+  "liens": [
+   "tenorc",
+   "bach-a-sable"
+  ]
+ },
+ {
+  "id": "pyramidragon",
+  "pays": "palettia",
+  "lieu": "La Vallée des Monuments",
+  "histoire": "Gardien de la Vallée des Monuments, Pyramidragon s'est bâti une carapace avec les merveilles du monde, une écaille par monument. Il crache une fumée dorée sur qui confond le Parthénon et le Panthéon. Momiephis réclame toujours sa pyramide.",
+  "liens": [
+   "momiephis",
+   "thermopyl-ou-face"
+  ]
+ },
+ {
+  "id": "dumasquetaire",
+  "pays": "fabulie",
+  "lieu": "La Bibliothèque des Légendes",
+  "histoire": "Mousquetaire de la Bibliothèque des Légendes, Dumasquetaire écrit ses romans en feuilleton entre deux duels. Il connaît chaque roman du XIXe siècle et ses héros. Cyrano de Bretteurac croise le fer avec lui pour le plaisir ; Rimbaudxeur le trouve trop bavard.",
+  "liens": [
+   "cyrano-de-bretteurac",
+   "rimbaudxeur"
+  ]
+ },
+ {
+  "id": "rimbaudxeur",
+  "pays": "fabulie",
+  "lieu": "La Bibliothèque des Légendes",
+  "histoire": "Jeune prodige parti à pied vers la Bibliothèque des Légendes, Rimbaudxeur boxe en alexandrins et esquive en rimes. Il connaît chaque poète, de Villon à Prévert. Il défie Dumasquetaire en un round de quatorze vers.",
+  "liens": [
+   "dumasquetaire",
+   "cyrano-de-bretteurac"
+  ]
+ },
+ {
+  "id": "cyrano-de-bretteurac",
+  "pays": "fabulie",
+  "lieu": "La Bibliothèque des Légendes",
+  "histoire": "Bretteur de la scène de la Bibliothèque des Légendes, Cyrano de Bretteurac compose une réplique à chaque botte et touche à la fin de l'envoi. Il connaît chaque pièce, de Corneille à Rostand. Dumasquetaire est son partenaire de duel préféré.",
+  "liens": [
+   "dumasquetaire",
+   "rimbaudxeur"
+  ]
+ },
+ {
+  "id": "centaurolympe",
+  "pays": "fabulie",
+  "lieu": "Le Mont des Dieux",
+  "histoire": "Messager du Mont des Dieux, Centaurolympe galope sur les nuages entre les palais des Olympiens. Il connaît l'attribut de chaque dieu et la généalogie de chaque héros. Thor-Ticolis vient parfois comparer leurs panthéons ; Thermopyl-ou-Face lui offre des sacrifices.",
+  "liens": [
+   "thor-ticolis",
+   "thermopyl-ou-face"
+  ]
+ },
+ {
+  "id": "thor-ticolis",
+  "pays": "fabulie",
+  "lieu": "Le Mont des Dieux",
+  "histoire": "Venu d'Asgard par le pont arc-en-ciel, Thor-Ticolis porte depuis des siècles un marteau si lourd qu'il ne peut plus tourner la tête. Il connaît chaque dieu nordique et chaque monde de l'arbre Yggdrasil. Centaurolympe lui a prêté une minerve ; Mendéléviking l'appelle cousin.",
+  "liens": [
+   "centaurolympe",
+   "mendeleviking"
+  ]
+ },
+ {
+  "id": "latinquisiteur",
+  "pays": "fabulie",
+  "lieu": "La Bibliothèque des Légendes",
+  "histoire": "Juge sévère de la Bibliothèque des Légendes, Latinquisiteur pointe du doigt chaque mot dont on a oublié la racine. Son chapelet égrène les racines latines du français. Néronin est le seul à lui répondre en latin ; Gladialecte lui demande d'où viennent ses mots.",
+  "liens": [
+   "neronin",
+   "gladialecte"
+  ]
+ },
+ {
+  "id": "sommurai",
+  "pays": "calculie",
+  "lieu": "L'Arène des Tables",
+  "histoire": "Samouraï de l'Arène des Tables, Sommuraï fait jaillir un chiffre lumineux à chaque coup de katana et additionne avant que la lame retombe. Son boulier ne quitte jamais son épaule. Multiplicator le juge trop lent ; lui répond qu'il ne retient jamais rien de travers.",
+  "liens": [
+   "multiplicator",
+   "divisator"
+  ]
+ },
+ {
+  "id": "pourcentinelle",
+  "pays": "calculie",
+  "lieu": "L'Arène des Tables",
+  "histoire": "Garde de la porte de l'Arène des Tables, Pourcentinelle ne cligne jamais des yeux et ne laisse entrer que ceux qui savent calculer 25 % de 80. Son bonnet se remplit à mesure qu'il compte. Divisator lui sert de professeur particulier.",
+  "liens": [
+   "divisator",
+   "sommurai"
+  ]
+ },
+ {
+  "id": "premier-dan",
+  "pays": "calculie",
+  "lieu": "La Bibliothèque infinie",
+  "histoire": "Karatéka de la Bibliothèque infinie, Premier Dan refuse d'être divisé par qui que ce soit, sauf par un et par lui-même. Il brise d'un coup de poing les planches qui portent un nombre premier. Divisator rêve de le couper en deux, sans succès.",
+  "liens": [
+   "divisator",
+   "spartacalcul"
+  ]
+ },
+ {
+  "id": "spartacalcul",
+  "pays": "calculie",
+  "lieu": "La Bibliothèque infinie",
+  "histoire": "Gladiateur évadé des arènes de Néronin, Spartacalcul a brisé ses chaînes maillon par maillon : I, V, X, L, C, D, M. Il lit les dates gravées sur les monuments de toute la Bibliothèque infinie. Premier Dan l'aide à compter ses cicatrices.",
+  "liens": [
+   "neronin",
+   "premier-dan"
+  ]
+ },
+ {
+  "id": "ninjalgebre",
+  "pays": "calculie",
+  "lieu": "La Bibliothèque infinie",
+  "histoire": "Ombre de la Bibliothèque infinie, Ninjalgèbre se cache toujours derrière un x et passe d'un côté du signe égal à l'autre sans bruit. Il isole l'inconnue avant que l'adversaire ait compris la question. Néonja lui a appris à disparaître dans la fumée.",
+  "liens": [
+   "neonja",
+   "pythagorgone"
+  ]
+ },
+ {
+  "id": "pythagorgone",
+  "pays": "calculie",
+  "lieu": "Pythagopolis",
+  "histoire": "Gardienne de Pythagopolis, Pythagorgone ne pétrifie que ceux qui ignorent que a² + b² = c² ; par politesse, elle porte des lunettes de soleil. Elle connaît la vie de chaque grand mathématicien. Ninjalgèbre lui apporte des équations à résoudre.",
+  "liens": [
+   "ninjalgebre",
+   "eurekatana"
+  ]
+ },
+ {
+  "id": "eurekatana",
+  "pays": "calculie",
+  "lieu": "Pythagopolis",
+  "histoire": "Samouraï des ateliers de Pythagopolis, Eurêkatana sort de son bain en criant chaque fois qu'il a une idée, et une ampoule s'allume au bout de son katana. Il connaît l'inventeur de chaque machine. Da Vincible lui envoie ses croquis à fabriquer.",
+  "liens": [
+   "da-vincible",
+   "pythagorgone"
+  ]
+ },
+ {
+  "id": "sumodium",
+  "pays": "atomie",
+  "lieu": "Le Grand Tableau",
+  "histoire": "Lutteur de la première colonne du Grand Tableau, Sumodium perd volontiers son électron de trop et explose de rire au contact de l'eau. Son chignon brûle d'une flamme jaune orangé. Iodiateur adore lutter avec lui : ensemble, ils font du sel.",
+  "liens": [
+   "iodiateur",
+   "magnesamourai"
+  ]
+ },
+ {
+  "id": "magnesamourai",
+  "pays": "atomie",
+  "lieu": "Le Grand Tableau",
+  "histoire": "Samouraï de la deuxième colonne du Grand Tableau, Magnésamouraï brûle d'une lumière blanche aveuglante quand il dégaine. Il garde la chaux des falaises et le calcium des os de Zombos. Sumodium, son voisin de colonne, réagit toujours plus vite que lui.",
+  "liens": [
+   "sumodium",
+   "zombos"
+  ]
+ },
+ {
+  "id": "barbarium",
+  "pays": "atomie",
+  "lieu": "Le Grand Tableau",
+  "histoire": "Chef de la tribu des terres rares, Barbarium vit sur la ligne du bas du Grand Tableau avec ses quinze frères qui se ressemblent tous. Sa massue de cristal fait briller les écrans et les aimants. Plutonin, son voisin du dessous, l'inquiète un peu.",
+  "liens": [
+   "plutonin",
+   "mendeleviking"
+  ]
+ },
+ {
+  "id": "plutonin",
+  "pays": "atomie",
+  "lieu": "Le Grand Tableau",
+  "histoire": "Ronin solitaire de la dernière ligne du Grand Tableau, Plutonin erre sans maître depuis qu'on l'a fabriqué dans un laboratoire. Il porte un nom de planète naine et le garde comme un secret. Radiomomie est la seule qui ose s'approcher de lui.",
+  "liens": [
+   "radiomomie",
+   "barbarium"
+  ]
+ },
+ {
+  "id": "siliconquistador",
+  "pays": "atomie",
+  "lieu": "Le Grand Tableau",
+  "histoire": "Conquistador de la frontière du Grand Tableau, Siliconquistador marche sur l'escalier qui sépare les métaux des non-métaux sans jamais choisir son camp. Son bouclier de silicium fait tourner toutes les puces de Culturia. Cuivrassier lui fournit ses fils.",
+  "liens": [
+   "cuivrassier",
+   "protonfa"
+  ]
+ },
+ {
+  "id": "protonfa",
+  "pays": "atomie",
+  "lieu": "Le Grand Tableau",
+  "histoire": "Maître du dojo du Grand Tableau, Protonfa compte les protons de chaque adversaire d'un coup de tonfa rouge et ses électrons d'un coup de tonfa bleu. Son bandeau porte le numéro de l'or, son préféré. Mendéléviking lui dispute la garde des 118 cases.",
+  "liens": [
+   "mendeleviking",
+   "siliconquistador"
+  ]
+ },
+ {
+  "id": "molecowboy",
+  "pays": "atomie",
+  "lieu": "Les Alambics de Lavoisierre",
+  "histoire": "Cowboy des plaines de Lavoisierre, Molécowboy attrape les molécules au lasso : la caféine du matin, le sucre du goûter, l'aspirine du soir. Il sait ce que contient chaque objet de la maison. Formulégionnaire lui écrit leurs formules sur des pancartes.",
+  "liens": [
+   "formulegionnaire",
+   "dissolvampire"
+  ]
+ },
+ {
+  "id": "acidragon",
+  "pays": "atomie",
+  "lieu": "Les Alambics de Lavoisierre",
+  "histoire": "Dragon à deux têtes des Alambics de Lavoisierre, Acidragon crache de l'acide à gauche et de la soude à droite ; quand ses deux têtes se disputent, il ne reste que de l'eau salée. Il mesure le pH de tout ce qu'il croque. Dissolvampire lui prête ses fioles.",
+  "liens": [
+   "dissolvampire",
+   "molecowboy"
+  ]
+ },
+ {
+  "id": "combustibarbare",
+  "pays": "atomie",
+  "lieu": "Les Alambics de Lavoisierre",
+  "histoire": "Forgeron des Alambics de Lavoisierre, Combustibarbare s'enflamme dès qu'on lui donne du combustible, de l'air et une étincelle. Il connaît chaque flamme et la façon de l'éteindre. Azotaure lui souffle de l'oxygène ; Golemagma lui prête ses braises.",
+  "liens": [
+   "azotaure",
+   "golemagma"
+  ]
+ },
+ {
+  "id": "polymerobot",
+  "pays": "atomie",
+  "lieu": "Les Alambics de Lavoisierre",
+  "histoire": "Robot des ateliers de Lavoisierre, Polymérobot est fait de maillons de plastique qu'il peut allonger à l'infini. Il connaît le code de recyclage de chaque emballage et trie tout ce qu'il croise. Drapeautomate le trouve bien léger pour un automate.",
+  "liens": [
+   "drapeautomate",
+   "molecowboy"
+  ]
+ },
+ {
+  "id": "azotaure",
+  "pays": "atomie",
+  "lieu": "Les Alambics de Lavoisierre",
+  "histoire": "Minotaure des hauteurs de Lavoisierre, Azotaure souffle un vent fait aux quatre cinquièmes d'azote. Il connaît chaque gaz de l'air et chaque couche du ciel. Combustibarbare lui réclame de l'oxygène ; Néonja lui emprunte un peu d'argon.",
+  "liens": [
+   "combustibarbare",
+   "neonja"
+  ]
+ },
+ {
+  "id": "formulegionnaire",
+  "pays": "atomie",
+  "lieu": "Les Alambics de Lavoisierre",
+  "histoire": "Légionnaire des Alambics de Lavoisierre, Formulégionnaire range les atomes en rangs serrés comme une cohorte. Il lit une formule d'un coup d'œil et compte chaque atome. Il écrit les pancartes de Molécowboy et défile avec Région-Air.",
+  "liens": [
+   "molecowboy",
+   "region-air"
+  ]
+ },
+ {
+  "id": "liquidator",
+  "pays": "atomie",
+  "lieu": "Les Alambics de Lavoisierre",
+  "histoire": "Gladiateur des Alambics de Lavoisierre, Liquidator passe de la glace à la vapeur au cours d'un même combat. Il connaît la température de fusion et d'ébullition de chaque matière. Dissolvampire lui demande souvent un peu d'eau.",
+  "liens": [
+   "dissolvampire",
+   "seinturion"
+  ]
+ },
+ {
+  "id": "dissolvampire",
+  "pays": "atomie",
+  "lieu": "Les Alambics de Lavoisierre",
+  "histoire": "Comte des caves des Alambics de Lavoisierre, Dissolvampire ne boit que des solutions parfaitement homogènes. Il sépare n'importe quel mélange par filtration, décantation ou distillation. Vampirein est son cousin ; Liquidator lui fournit l'eau.",
+  "liens": [
+   "vampirein",
+   "liquidator"
+  ]
  }
 ]
