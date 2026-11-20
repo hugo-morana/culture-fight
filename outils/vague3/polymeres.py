@@ -212,7 +212,7 @@ FICHE = {"id": "polymeres", "relations": [
       "On recueille son latex en entaillant l'écorce.", source=CAO),
     q("Que signifie le mot amérindien à l'origine de « caoutchouc » ?", "Bois qui pleure",
       ["Arbre qui saute", "Gomme blanche", "Lait de la forêt"],
-      "La Condamine l'a noté au Pérou, en Équateur et en Guyane.", source=CAO),
+      "Pérou, Équateur, Guyane : c'est là que La Condamine a relevé ce mot.", source=CAO),
     q("Quel savant français envoie en Europe des échantillons de caoutchouc en 1736 ?",
       "Charles-Marie de La Condamine", ["Antoine Lavoisier", "Louis Pasteur", "Buffon"],
       "Il participait à une expédition française en Amérique du Sud.", source=BRIT),

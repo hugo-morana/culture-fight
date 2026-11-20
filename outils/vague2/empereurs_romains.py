@@ -165,7 +165,7 @@ FICHE = {"id": "empereurs-romains", "relations": [
     q("Quel titre signifiant « premier des citoyens » Auguste adopte-t-il ?", "Princeps",
       ["Imperator", "Dictateur", "Basileus"],
       "Le Sénat lui accorde des pouvoirs presque illimités.", source=JC),
-    q("Quel titre les soldats donnaient-ils, sous la République, à leur général victorieux ?",
+    q("Sous la République, quel titre l'armée décernait-elle à un général après sa victoire ?",
       "Imperator", ["Princeps", "Consul", "Auguste"],
       "Sous l'Empire, ce titre finit par être réservé au seul empereur.", source=VIK),
     q("Quel lien de parenté unissait Jules César à Octave ?", "Grand-oncle",
@@ -371,7 +371,7 @@ FICHE = {"id": "empereurs-romains", "relations": [
     q("Quel empereur, mort en 480, marque la fin de droit de l'Empire d'Occident ?", "Julius Nepos",
       ["Valentinien III", "Honorius", "Constantin XI"],
       "Chassé d'Italie par Oreste en 475, il régnait encore sur la Dalmatie.", source=LRE),
-    q("Quel empereur fait du grec la langue officielle et prend le titre de basileus ?", "Héraclius",
+    q("Quel empereur impose le grec comme langue officielle et se fait appeler basileus ?", "Héraclius",
       ["Justinien", "Constantin Ier", "Théodose Ier"],
       "Cette réforme date de 641 ; il adopte aussi le titre d'autokrator.", source=VIK),
 ]}

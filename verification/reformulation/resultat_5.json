@@ -1,0 +1,616 @@
+[
+ {
+  "url": "https://animaldiversity.org/accounts/Monodontidae/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://areq.net/lang/fr/B%C3%A9ryl.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://areq.net/lang/fr/Orchestre_symphonique.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://biblio.naturalsciences.be/rbins-publications/boekjes-opvoedkundige-dienst-carnets-du-service-educatif/expo/micro-macro-un-monde-sur-six-pattes-1994.pdf",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/ajouts_vivant.py",
+    "avant": "Certaines fourmis protègent les pucerons et se nourrissent de leurs excrétions sucrées.",
+    "apres": "Des fourmis veillent sur les pucerons pour se nourrir du liquide sucré qu'ils rejettent.",
+    "passage_source": "protègent des pucerons - les élèvent en quelque sorte - et se nourrissent de leurs excrétions sucrées"
+   },
+   {
+    "fichier": "outils/ajouts_vivant.py",
+    "avant": "Comme les scorpions, ce sont des arachnides : 8 pattes et pas d'antennes.",
+    "apres": "Ce sont des arachnides, comme les scorpions : on leur compte huit pattes, sans aucune antenne.",
+    "passage_source": "un arachnide : il a 8 pattes, et pas d'antennes"
+   }
+  ]
+ },
+ {
+  "url": "https://cofalec.com/fr/questions-levure/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/chimie_cuisine.py",
+    "avant": "Quel est le plus ancien micro-organisme domestiqué par l'être humain ?",
+    "apres": "Quel micro-organisme l'être humain a-t-il domestiqué en tout premier ?",
+    "passage_source": "le plus ancien micro-organisme domestiqué par l'homme"
+   }
+  ]
+ },
+ {
+  "url": "https://earthsky.org/earth/mount-hekla-was-called-gateway-to-hell",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://encycloreader.org/r/wikipedia.php?q=Ebony",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://ethnologue.com/insights/largest-families/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/%C3%89chelle_des_temps_g%C3%A9ologiques",
+  "statut": "inaccessible",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Champignon_comestible",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/ajouts_vivant.py",
+    "avant": "Ils sortent souvent en nombre deux semaines après les pluies de septembre ou d'octobre.",
+    "apres": "Ils apparaissent souvent en masse une quinzaine de jours après les averses de septembre ou d'octobre.",
+    "passage_source": "2 semaines après les pluies de septembre ou octobre"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Empereur_romain",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/empereurs_romains.py",
+    "avant": "Quel titre les soldats donnaient-ils, sous la République, à leur général victorieux ?",
+    "apres": "Sous la République, quel titre l'armée décernait-elle à un général après sa victoire ?",
+    "passage_source": "les soldats donnaient sous la République à leur général victorieux"
+   },
+   {
+    "fichier": "outils/vague2/empereurs_romains.py",
+    "avant": "Quel empereur fait du grec la langue officielle et prend le titre de basileus ?",
+    "apres": "Quel empereur impose le grec comme langue officielle et se fait appeler basileus ?",
+    "passage_source": "fait du grec la langue officielle et prend"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Gravitation_universelle",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/gravitation.py",
+    "avant": "La gravitation y devient une déformation de l'espace et du temps.",
+    "apres": "Dans cette théorie, la gravitation est une courbure de l'espace-temps.",
+    "passage_source": "une déformation de l'espace et du temps"
+   },
+   {
+    "fichier": "outils/vague4/gravitation.py",
+    "avant": "C'est une grandeur fondamentale de notre Univers.",
+    "apres": "Cette constante compte parmi les valeurs fondamentales qui régissent l'Univers.",
+    "passage_source": "C'est une grandeur fondamentale de la physique de notre Univers"
+   },
+   {
+    "fichier": "outils/vague4/gravitation.py",
+    "avant": "Elle attire deux corps du seul fait de leur matière.",
+    "apres": "Par elle, deux corps s'attirent pour la simple raison qu'ils contiennent de la matière.",
+    "passage_source": "deux corps, du simple fait de leur matière"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Liste_des_monarques_de_France",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/capetiens.py",
+    "avant": "Il affranchit contre argent les serfs du domaine royal.",
+    "apres": "Contre paiement, il libère les serfs des terres royales.",
+    "passage_source": "Il affranchit, contre argent, tous les serfs du domaine royal."
+   },
+   {
+    "fichier": "outils/vague2/capetiens.py",
+    "avant": "Il participe à la croisade contre les Albigeois et s'empare d'Avignon.",
+    "apres": "Engagé dans la croisade albigeoise, il se rend maître d'Avignon.",
+    "passage_source": "Il participe à la croisade contre les Albigeois"
+   },
+   {
+    "fichier": "outils/vague2/capetiens.py",
+    "avant": "Il cède la Bourgogne à son frère et n'obtient que le Sénonais.",
+    "apres": "Contraint de laisser la Bourgogne à son frère, il se contente du Sénonais.",
+    "passage_source": "Il est forcé de donner la Bourgogne à son frère, et ne gagne que le Sénonais"
+   },
+   {
+    "fichier": "outils/vague2/capetiens.py",
+    "avant": "Il confisque les biens des juifs et des Lombards.",
+    "apres": "Il s'empare des biens des Lombards et des juifs.",
+    "passage_source": "il confisque les biens des juifs et des banquiers"
+   },
+   {
+    "fichier": "outils/vague2/capetiens.py",
+    "avant": "Il succède à son frère Philippe V et règne jusqu'en 1328.",
+    "apres": "Frère et successeur de Philippe V, il règne jusqu'en 1328.",
+    "passage_source": "il succède à son frère Philippe V après avoir écarté"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Orchestre_symphonique",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/R%C3%A9sistance_int%C3%A9rieure_fran%C3%A7aise",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/guerres_mondiales.py",
+    "avant": "Quels mouvements s'unissent en 1943 dans les Mouvements unis de la Résistance ?",
+    "apres": "Quels mouvements fusionnent en 1943 pour former les Mouvements unis de la Résistance ?",
+    "passage_source": "mouvements s'unirent en 1943 sous les Mouvements unis de la Résistance"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Titans",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/Chat_des_sables",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/Maximilien_de_Robespierre",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/revolution_francaise.py",
+    "avant": "Il y est exécuté le 10 thermidor an II avec vingt et un de ses partisans.",
+    "apres": "Lui et vingt et un de ses partisans y sont guillotinés le 10 thermidor an II.",
+    "passage_source": "dans l'après-midi du 10 thermidor avec vingt-et-un de ses partisans"
+   },
+   {
+    "fichier": "outils/vague2/revolution_francaise.py",
+    "avant": "Il prononce aussi un discours célèbre pour l'abolition de la peine de mort.",
+    "apres": "On lui doit aussi un plaidoyer fameux réclamant la fin de la peine de mort.",
+    "passage_source": "Il prononce un discours pour l'abolition de la peine de mort, resté célèbre."
+   }
+  ]
+ },
+ {
+  "url": "https://generationvoyage.fr/7-nouvelles-merveilles-monde-2007/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://kaweah.freedombox.rocks/kiwix/content/wikipedia_en_all_maxi_2023-10/A/Seismic_magnitude_scales",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://lewebpedagogique.com/enmusac/files/2016/12/Lorchestre-symphonique-LE-COURSV8.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://newsreleases.sandia.gov/scientists-use-digital-paleontology-to-produce-voice-of-parasaurolophus-dinosaur/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://phys.org/news/2020-11-geologist-date-earliest-earth.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://schools.sciencenorth.ca/sites/default/files/2018/Mine%20Evolution/MineEvo-1.E%CC%81chelle%20de%20durete%CC%81%20de%20Mohs.pdf",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/durete_mineraux.py",
+    "avant": "L'orthose aussi peut rayer le verre.",
+    "apres": "Le verre se laisse aussi rayer par l'orthose.",
+    "passage_source": "Ils peuvent rayer le verre."
+   }
+  ]
+ },
+ {
+  "url": "https://techno-science.net/glossaire-definition/Glucide.html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/chimie_organique.py",
+    "avant": "C'est la principale molécule de structure des plantes.",
+    "apres": "C'est avant tout elle qui forme la charpente des végétaux.",
+    "passage_source": "La principale molécule structurelle des plantes est la cellulose."
+   }
+  ]
+ },
+ {
+  "url": "https://wiki.1209k.com/content/wikipedia_en_simple_all_maxi_2024-06/A/Flag_of_Libya",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_Pharaohs",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://wikiwand.com/fr/Normandie_(r%C3%A9gion_administrative)",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/regions_france.py",
+    "avant": "Quelle est la commune la plus peuplée de la région Normandie ?",
+    "apres": "Quelle commune normande compte le plus d'habitants ?",
+    "passage_source": "La commune la plus peuplée de la région est Le Havre"
+   },
+   {
+    "fichier": "outils/vague2/regions_france.py",
+    "avant": "La Normandie est le premier pôle mondial du flaconnage de luxe.",
+    "apres": "Aucune région au monde ne fabrique autant de flacons de luxe que la Normandie.",
+    "passage_source": "La Normandie est le premier pôle mondial pour le flaconnage de luxe"
+   }
+  ]
+ },
+ {
+  "url": "https://www.aljazeera.com/news/2025/11/26/indonesias-jakarta-now-the-worlds-largest-city-tokyo-falls-to-third-un",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.banquedesterritoires.fr/les-nouvelles-regions-ont-choisi-leur-siege-et-les-lieux-de-reunion-des-elus",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.connexionfrance.com/news/chart-which-french-prime-minister-has-used-controversial-article-493-the-most/693133",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.downtoearth.org.in/wildlife-biodiversity/why-do-tigers-have-stripes--74393",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.france.fr/fr/article/truffe/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/geologie-houille-6638/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/zoologie-gavial-gange-7838/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/questions-reponses/musee-plus-grandes-oeuvres-voir-musee-ermitage-saint-petersbourg-5191/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/chefs_doeuvre_musees.py",
+    "avant": "Le musée ouvre au public en 1825.",
+    "apres": "Ses portes s'ouvrent aux visiteurs en 1825.",
+    "passage_source": "et s'ouvre au public en 1825"
+   },
+   {
+    "fichier": "outils/vague3/chefs_doeuvre_musees.py",
+    "avant": "L'Ermitage possède aussi 31 œuvres de Picasso.",
+    "apres": "On peut aussi y admirer 31 œuvres de Picasso.",
+    "passage_source": "L'Ermitage présente aussi 31 œuvres de Picasso."
+   }
+  ]
+ },
+ {
+  "url": "https://www.futura-sciences.com/sante/definitions/medecine-mandibule-2120/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sciences/definitions/chimie-ph-222/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.grandlyon.com/fileadmin/user_upload/media/pdf/environnement/guide-biodiversite/20200623_guidebiodiversite_reptiles.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/13_octobre_1307-evenement-13071013.php",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/croisades.py",
+    "avant": "La suppression fut décidée au concile de Vienne, en 1312.",
+    "apres": "C'est au concile de Vienne, en 1312, que l'ordre fut aboli.",
+    "passage_source": "la suppression de l'ordre, au concile de Vienne, en 1312"
+   },
+   {
+    "fichier": "outils/vague2/croisades.py",
+    "avant": "Les donations avaient rendu l'ordre immensément riche.",
+    "apres": "Grâce aux dons reçus, l'ordre avait amassé une immense fortune.",
+    "passage_source": "de considérables donations ont rendu l'ordre immensément riche"
+   }
+  ]
+ },
+ {
+  "url": "https://www.herodote.net/Breve_histoire_de_la_monnaie-synthese-22.php",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/monnaies.py",
+    "avant": "Les premiers solidus furent frappés à Trèves en 310.",
+    "apres": "C'est à Trèves, en 310, que sortent les tout premiers solidus.",
+    "passage_source": "Les premiers solidus sont frappés à Trèves, en Rhénanie, en l'an 310."
+   }
+  ]
+ },
+ {
+  "url": "https://www.herodote.net/Portugais_et_Espagnols_unifient_le_monde_1488_1522_-synthese-3643-119.php",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/explorateurs.py",
+    "avant": "La ligne de partage passait à 370 lieues à l'ouest des îles du Cap-Vert.",
+    "apres": "Elle suivait un méridien situé 370 lieues à l'ouest de l'archipel du Cap-Vert.",
+    "passage_source": "située à 370 lieues (1 770 km) à l'ouest des îles du Cap-Vert"
+   }
+  ]
+ },
+ {
+  "url": "https://www.hug.ch/node/24843",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/jacques-chirac-1986-1988",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/gouvernements_ve.py",
+    "avant": "Son gouvernement de cohabitation crée aussi la Commission nationale de la communication et des libertés.",
+    "apres": "C'est aussi ce gouvernement de cohabitation qui institue la CNCL.",
+    "passage_source": "la Commission nationale de la communication et des libertés"
+   }
+  ]
+ },
+ {
+  "url": "https://www.islands.com/1658136/europe-country-slovenia-only-one-natural-bled-island-left-looks-medieval-fairytale",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.lalanguefrancaise.com/litterature/pierre-de-ronsard",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/poetes.py",
+    "avant": "Il meurt le 27 décembre 1585, près de Tours.",
+    "apres": "Il s'éteint dans la région de Tours, le 27 décembre 1585.",
+    "passage_source": "Il meurt le 27 décembre 1585, près de Tours"
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/autre-region/Tahiti/145776",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/divers/roche/88791",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/roches.py",
+    "avant": "Les évaporites naissent de la précipitation des sels dissous dans l'eau.",
+    "apres": "Elles se forment quand des sels dissous dans l'eau précipitent.",
+    "passage_source": "Les roches physico-chimiques résultent de la précipitation de sels dissous dans les eaux."
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/personnage/dw/130020",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/vie-sauvage/lion/178160",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.livius.org/articles/person/caracalla/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.minerals.net/gemstone/beryl",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.napoleon.org/histoire-des-2-empires/chronologies/fevrier-juillet-pendant-les-cent-jours/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/premier_empire.py",
+    "avant": "Le 29 juin, Napoléon quitte Malmaison pour Rochefort.",
+    "apres": "Napoléon part de Malmaison le 29 juin et prend la route de Rochefort.",
+    "passage_source": "Finalement, le 29 juin, Napoléon quitta Malmaison en direction de Rochefort"
+   }
+  ]
+ },
+ {
+  "url": "https://www.orchestre-avignon.com/wp-content/uploads/2021/04/a-la-decouverte-de-lorchestre.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.pariszigzag.fr/insolite/histoire-insolite-paris/champignons-paris/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.reflexions.uliege.be/cms/c_434952/fr/dieudonne-ntakirutimana",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.santevet.com/?p=35283",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.schoolmouv.fr/cours/structure-des-molecules-organiques/fiche-de-cours",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.swissinfo.ch/fre/la-suisse-insolite/pourquoi-la-suisse-na-pas-de-capitale/89034640",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/azote",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/gaz_air.py",
+    "avant": "Contrairement à l'oxygène, l'azote n'entretient pas la vie animale.",
+    "apres": "L'oxygène entretient la vie animale ; l'azote, lui, en est incapable.",
+    "passage_source": "contrairement à l'oxygène, il n'entretient pas la vie des animaux"
+   },
+   {
+    "fichier": "outils/vague3/gaz_air.py",
+    "avant": "En grec, « nitron gennan » signifie « formateur de salpêtre ».",
+    "apres": "Le grec « nitron gennan » veut dire « qui engendre le salpêtre ».",
+    "passage_source": "provient du grec nitron gennan, ce qui signifie « formateur de salpêtre »"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/chimie-organique",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/diamant",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/pierres_precieuses.py",
+    "avant": "On soumet le carbone à une forte pression et une haute température pendant plusieurs heures.",
+    "apres": "Il faut soumettre le carbone, des heures durant, à une pression et une chaleur intenses.",
+    "passage_source": "le carbone à une forte pression et à une haute température pendant plusieurs heures"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/flamme-combustion",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/liste-d-iles-par-superficie",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/liste-de-periphrases-designant-des-villes",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/messager-sagittaire",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/plutonium",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/actinides.py",
+    "avant": "Il présente six formes cristallines à pression ambiante.",
+    "apres": "À pression ambiante, on lui connaît six structures cristallines différentes.",
+    "passage_source": "Le plutonium présente six états allotropiques à pression ambiante"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/saphir",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/glossaire-definition/Peau.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.universalis.fr/encyclopedie/crete-antique/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.universalis.fr/encyclopedie/trias/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.virgo-gw.eu/science/gw-universe/the-first-detections/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/timeline/Music/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-265/alexandre-le-grand/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/grece_antique.py",
+    "avant": "À l'oasis de Siwa, il fut proclamé fils de Zeus-Ammon.",
+    "apres": "L'oracle de Siwa le reconnut comme fils de Zeus-Ammon.",
+    "passage_source": "À l'Oracle de Siwa, il fut proclamé fils du dieu Zeus-Ammon."
+   }
+  ]
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/2-2063/decouverte-de-la-tombe-de-toutankhamon/",
+  "statut": "ok",
+  "changements": []
+ }
+]

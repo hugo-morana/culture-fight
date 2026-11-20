@@ -80,9 +80,9 @@ FICHE = {"id": "formules-chimiques", "relations": [
          ("C₂H₅OH", "l'éthanol",
           "Cet alcool bout à 78,4 °C.", SCHOOL),
          ("C₆H₁₂O₆", "le glucose",
-          "Les plantes le fabriquent à partir de dioxyde de carbone et d'eau.", GLU),
+          "Les végétaux le produisent en combinant eau et dioxyde de carbone.", GLU),
          ("C₁₂H₂₂O₁₁", "le saccharose",
-          "C'est le constituant du sucre blanc courant.", SAC)],
+          "Le sucre blanc ordinaire en est fait.", SAC)],
         inverse="Quelle est la formule chimique de {y} ?"),
     # 1 — Acides : formule → nom
     rel("Quel acide a pour formule {x} ?", "{x} est la formule de l'{y}.",
@@ -210,7 +210,7 @@ FICHE = {"id": "formules-chimiques", "relations": [
 ], "questions": [
     q("Quelle est la formule générale des alcanes non cycliques ?", "CₙH₂ₙ₊₂",
       ["CₙH₂ₙ", "CₙH₂ₙ₋₂", "CₙHₙ"],
-      "Les cycloalcanes, eux, ont pour formule générale CₙH₂ₙ.", source=ALCANE),
+      "Pour les cycloalcanes, la formule générale devient CₙH₂ₙ.", source=ALCANE),
     q("Quel alcane ramifié a la même formule brute que le butane, C₄H₁₀ ?", "Le méthylpropane",
       ["Le propane", "Le pentane", "Le cyclohexane"],
       "Plus ramifié, il bout à −11,7 °C, contre −1 °C pour le butane.", source=SCHOOL),

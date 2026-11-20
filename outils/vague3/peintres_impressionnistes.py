@@ -157,7 +157,7 @@ FICHE = {"id": "peintres-impressionnistes", "relations": [
     # Naissance du mouvement et expositions
     q("Quel critique forge le mot « impressionniste » par dérision en 1874 ?", "Louis Leroy",
       ["Émile Zola", "Charles Baudelaire", "Théophile Gautier"],
-      "Leroy part du titre du tableau de Monet « Impression, soleil levant ».", source=CG),
+      "Le mot lui est inspiré par « Impression, soleil levant », toile de Monet.", source=CG),
     q("Dans quel journal paraît l'article moqueur qui baptise les impressionnistes ?", "Le Charivari",
       ["Le Figaro", "Le Petit Journal", "Le Temps"],
       "L'article de Louis Leroy y paraît le 25 avril 1874.", source=CG),
@@ -166,7 +166,7 @@ FICHE = {"id": "peintres-impressionnistes", "relations": [
                                                       "À l'Exposition universelle"],
       "L'atelier se trouve au 35, boulevard des Capucines, à Paris.", source=CG),
     q("En quelle année a lieu la première exposition des impressionnistes ?", "1874",
-      ["1863", "1870", "1886"], "Elle se tient du 15 avril au 15 mai 1874.", source=CG),
+      ["1863", "1870", "1886"], "Ouverte le 15 avril 1874, elle ferme ses portes le 15 mai.", source=CG),
     q("Combien d'œuvres présente la première exposition impressionniste ?", "165",
       ["45", "600", "1 200"], "Une trentaine d'artistes y participent, dont Monet, Degas et Cézanne.",
       source=CG),
@@ -348,5 +348,5 @@ FICHE = {"id": "peintres-impressionnistes", "relations": [
       "François Mitterrand l'inaugure ; Gae Aulenti en a conçu l'aménagement intérieur.", source=LAR),
     q("Quelle période couvrent les collections du musée d'Orsay ?", "De 1848 à 1914",
       ["De 1789 à 1815", "De 1900 à 1945", "De 1945 à nos jours"],
-      "Il possède la plus importante collection de peinture impressionniste au monde.", source=LAR),
+      "Aucun musée au monde ne réunit davantage de toiles impressionnistes.", source=LAR),
 ]}

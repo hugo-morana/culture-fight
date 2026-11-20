@@ -54,7 +54,7 @@ FICHE = {"id": "capitales-oceanie", "relations": [
         inverse="De quel pays d'Océanie {y} est-elle la capitale ?"),
     rel("Quel est le chef-lieu de ce territoire d'Océanie : {x} ?", "{x} : le chef-lieu est {y}.",
         [("Nouvelle-Calédonie", "Nouméa",
-          "Nouméa est la seule grande ville de l'archipel.", NC),
+          "L'archipel ne compte qu'une grande ville : Nouméa.", NC),
          ("Polynésie française", "Papeete",
           "Papeete est sur Tahiti, l'île la plus grande et la plus peuplée de Polynésie française.", PF),
          ("Wallis-et-Futuna", "Mata-Utu",

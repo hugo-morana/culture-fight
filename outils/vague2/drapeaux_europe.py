@@ -227,7 +227,7 @@ FICHE = {"id": "drapeaux-europe", "relations": [
       "Quatre bandes blanches alternent avec cinq bandes bleues.", source=GR),
     q("Que représente la croix du drapeau grec ?", "La religion chrétienne",
       ["L'alliance avec la Suisse", "Les quatre points cardinaux", "La Croix-Rouge"],
-      "Cette croix blanche sur fond bleu orne le coin supérieur gauche.", source=GR),
+      "Blanche sur fond bleu, elle occupe l'angle en haut à gauche du drapeau.", source=GR),
     q("Quel drapeau est l'inverse des couleurs de celui de la Norvège ?", "Celui de l'Islande",
       ["Celui de la Suède", "Celui de la Finlande", "Celui du Danemark"],
       "Croix rouge bordée de blanc sur fond bleu, il date de 1915.", source=FOE),

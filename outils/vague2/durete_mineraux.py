@@ -93,7 +93,7 @@ CLIVAGES = rel(
      ("la fluorite", "Clivage octaédrique", "Son clivage octaédrique est particulièrement net.", CLIVAGE),
      ("la biotite", "Clivage basal", "Comme les autres micas, elle se délite en feuillets.", CLIVAGE),
      ("les amphiboles", "Clivage prismatique", "Leurs cristaux se fendent en longueur.", CLIVAGE),
-     ("les pyroxènes", "Clivage prismatique", "Deux directions de clivage dominent.", CLIVAGE),
+     ("les pyroxènes", "Clivage prismatique", "Ils se clivent surtout selon deux directions.", CLIVAGE),
      ("le quartz", "Aucun clivage net", "Le quartz présente surtout une cassure conchoïdale, en arcs lisses.", CLIVAGE)])
 CLIVAGES["explication"] = "{x} : {y}."
 
@@ -138,7 +138,7 @@ FICHE = {"id": "durete-mineraux", "relations": [RANGS, FORMULES, MATERIAUX, ECLA
     q("Un minéral rayé par l'apatite mais pas par la fluorite a une dureté comprise entre…", "4 et 5",
       ["3 et 4", "5 et 6", "6 et 7"], "La dureté se lit d'après ce qui raye le minéral et ce qu'il raye.", source=MOHS),
     q("Quel minéral de l'échelle de Mohs l'ongle raye-t-il ?", "Le gypse", ["La calcite", "La fluorite", "Le quartz"],
-      "L'ongle a une dureté d'environ 2,2 : il raye le gypse mais pas la calcite.", source=MOHS_FR),
+      "Avec sa dureté proche de 2,2, l'ongle entame le gypse, mais reste sans effet sur la calcite.", source=MOHS_FR),
     q("Quelle dureté approximative attribue-t-on à une lame de canif en acier ?", "5,5", ["2,5", "3,5", "8"],
       "L'ongle, lui, a une dureté d'environ 2,5.", source=MANITOBA),
     q("Quelle dureté approximative attribue-t-on à une lime en acier trempé ?", "6,5", ["2,5", "4", "9,5"],
@@ -147,7 +147,7 @@ FICHE = {"id": "durete-mineraux", "relations": [RANGS, FORMULES, MATERIAUX, ECLA
       ["Le quartz", "La topaze", "L'apatite"], "Un clou, lui, raye la fluorite et l'apatite mais pas l'orthose.",
       source=SCN),
     q("Lequel de ces minéraux raye une vitre ?", "Le quartz", ["Le talc", "La calcite", "Le gypse"],
-      "L'orthose aussi peut rayer le verre.", source=SCN),
+      "Le verre se laisse aussi rayer par l'orthose.", source=SCN),
     q("Quel abrasif courant est associé au corindon sur l'échelle de Mohs ?", "Le papier émeri",
       ["Le papier de verre au silex", "La pierre ponce", "La craie"],
       "Le diamant, au rang 10, est associé au papier abrasif au carborundum.", source=MANITOBA),
@@ -186,7 +186,7 @@ FICHE = {"id": "durete-mineraux", "relations": [RANGS, FORMULES, MATERIAUX, ECLA
     q("Lequel de ces minéraux présente un clivage excellent en lamelles fines ?", "Le graphite",
       ["Le quartz", "Le soufre", "L'apatite"], "Le gypse et la muscovite aussi se clivent en fines lamelles.",
       source=CLIVAGE),
-    q("Comment s'appelle la perception de la façon dont un minéral réfléchit la lumière ?", "L'éclat",
+    q("Quel terme désigne l'aspect d'un minéral selon la manière dont il renvoie la lumière ?", "L'éclat",
       ["Le trait", "Le clivage", "La dureté"], "L'éclat est en général lié à l'indice de réfraction.", source=ECLAT),
     q("Quel éclat présente le jade ?", "Cireux", ["Métallique", "Adamantin", "Soyeux"],
       "La calcédoine présente le même aspect de cire.", source=LUSTRE),

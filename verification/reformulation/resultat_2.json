@@ -1,0 +1,598 @@
+[
+ {
+  "url": "https://abc.naturefrance.fr/sites/default/files/2024-08/Outils%20-%20Reptiles%20PNRMV.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://aquariumofpacific.org/onlinelearningcenter/species/blue_whale",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://areq.net/lang/fr/Levure_chimique.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://axl.cefan.ulaval.ca/europe/Utrecht-1713.htm",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/grands_traites.py",
+    "avant": "Louis XIV reconnaît en outre les droits de George Ier au trône d'Angleterre.",
+    "apres": "Louis XIV admet de plus la légitimité de George Ier sur le trône anglais.",
+    "passage_source": "Louis XIV reconnaissait les droits de George Ier au trône d'Angleterre"
+   }
+  ]
+ },
+ {
+  "url": "https://cdnfiles2.biolovision.net/www.faune-rhone.org/userfiles/Documents/OiseauDuMois/Hobereaumai2019.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://destguides.com/famous-landmarks",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://encycloreader.org/r/wikipedia.php?q=Bromine",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://espace-sciences.org/juniors/questions/comment-des-insectes-marchent-sur-l-eau",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.geneawiki.com/wiki/G%C3%A9n%C3%A9alogie_des_Bourbons",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Caf%C3%A9ine",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/molecules_quotidien.py",
+    "avant": "Il s'agit exactement de la même molécule que celle du café.",
+    "apres": "Thé et café contiennent en réalité une seule et même molécule.",
+    "passage_source": "il s'agit en fait de la même molécule"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/D%C3%A9sert_d%27Atacama",
+  "statut": "inaccessible",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/G_(acc%C3%A9l%C3%A9ration)",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/vitesse_acceleration.py",
+    "avant": "Quelle est la valeur approximative de l'accélération de la pesanteur à la surface de la Terre ?",
+    "apres": "Que vaut environ, au sol sur Terre, l'accélération due à la pesanteur ?",
+    "passage_source": "Le g est la valeur de la pesanteur à la surface de la Terre."
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Jules_Verne",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/romanciers_xixe.py",
+    "avant": "Paru en 1869-1870, il raconte les aventures du Nautilus et du capitaine Nemo.",
+    "apres": "Paru en 1869-1870, il embarque le lecteur à bord du Nautilus, aux côtés du capitaine Nemo.",
+    "passage_source": "Pour se régaler des aventures du Nautilus et du capitaine Nemo"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Mont_Blanc",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/sommets.py",
+    "avant": "Il se trouve dans le massif du Mont-Blanc.",
+    "apres": "Il domine le massif qui porte son nom.",
+    "passage_source": "Il se situe en France, dans le massif du Mont-Blanc"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Premi%C3%A8re_guerre_mondiale",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/guerres_mondiales.py",
+    "avant": "L'Autriche-Hongrie adresse ensuite un ultimatum à la Serbie.",
+    "apres": "Vient ensuite l'ultimatum austro-hongrois envoyé à la Serbie.",
+    "passage_source": "L'Autriche-Hongrie lance un ultimatum à la Serbie"
+   },
+   {
+    "fichier": "outils/vague3/guerres_mondiales.py",
+    "avant": "Pourquoi le Royaume-Uni déclare-t-il la guerre à l'Allemagne le 4 août 1914 ?",
+    "apres": "Le 4 août 1914, pour quelle raison le Royaume-Uni entre-t-il en guerre contre l'Allemagne ?",
+    "passage_source": "Le Royaume-Uni déclare la guerre à l'Allemagne pour aider ses alliés belges (4 août 1914)"
+   },
+   {
+    "fichier": "outils/vague3/guerres_mondiales.py",
+    "avant": "Les Allemands sont alors à moins de 30 km de Paris.",
+    "apres": "L'armée allemande se trouve alors à moins de 30 km de la capitale.",
+    "passage_source": "Le 3 septembre 1914, les Allemands sont à moins de 30 km de Paris."
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Silex",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Vitesse",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/vitesse_acceleration.py",
+    "avant": "Quelle vitesse mesurent le compteur d'une voiture et un radar de police ?",
+    "apres": "Un radar de police ou le compteur d'une voiture : quelle vitesse indiquent-ils ?",
+    "passage_source": "le compteur d'une voiture, par un radar de police"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/La_Mort_de_Marat",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/revolution_francaise.py",
+    "avant": "Il appartient aux Musées royaux des Beaux-Arts de Belgique.",
+    "apres": "Les Musées royaux des Beaux-Arts de Belgique le comptent dans leurs collections.",
+    "passage_source": "Il est conservé aux Musées royaux des Beaux-Arts de Belgique"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/Wallis-et-Futuna",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://iiab.live/kiwix/content/wikipedia_en_top_maxi_2023-02/A/Latissimus_dorsi",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://leclaireur.fnac.com/selection/cp52852-les-meilleurs-livres-du-xixe-siecle/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/romanciers_xixe.py",
+    "avant": "Il tente une vaste escroquerie en « rachetant » des paysans morts.",
+    "apres": "Sa grande combine consiste à « racheter » des paysans déjà morts.",
+    "passage_source": "tente de monter une vaste escroquerie en « rachetant » les paysans morts"
+   }
+  ]
+ },
+ {
+  "url": "https://museumdiamonds.com/sancy",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://petbook-magazine.com/wildlife/hardly-anyone-knows-these-16-wild-cats",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://ressources-naturelles.canada.ca/carte-outils-publications/cartes/toponymes-canada/origine-nom-capitales-provinciales-territoriales-canada",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/contextes.py",
+    "avant": "Le nom de Québec vient d'un mot algonquin signifiant « passage étroit », là où le fleuve se rétrécit.",
+    "apres": "En algonquin, « Québec » désigne un « passage étroit » : le fleuve s'y resserre.",
+    "passage_source": "Le nom de « Québec » vient d'un mot algonquin signifiant « passage étroit »"
+   }
+  ]
+ },
+ {
+  "url": "https://smarthistory.org/raphael-school-of-athens-2/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://webcf.waybackmachine.org/web/20220318053310/https://en.wikipedia.org/wiki/Osprey",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Large_city",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.riteme.site/wiki/Aerogen",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.anigaido.com/animaux/rapaces/milan-royal",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.connaissancedesenergies.org/fiche-pedagogique/accident-de-fukushima-daiichi",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.dictionnaire-academie.fr/article/A9A0964",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.envoituresimone.com/code-de-la-route/cours/circulation/vitesse/inertie",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/lois_newton.py",
+    "avant": "Lors d'un arrêt brutal, un objet non fixé pèse au moins dix fois plus lourd.",
+    "apres": "En cas d'arrêt brutal, le poids d'un objet non attaché est multiplié au moins par dix.",
+    "passage_source": "Lors d'un arrêt brutal, les objets qui ne sont pas fixés sont projetés en pesant au moins 10 fois plus lourd. (signalé NON par la vérification, réécrit par prudence : remaniement proche)"
+   }
+  ]
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/champignon-rond-sorciere-21012/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/terre-cenozoique-3766/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/questions-reponses/insecte-criquet-sauterelle-grillon-differences-7597/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sante/definitions/corps-humain-retine-4322/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sciences/definitions/chimie-macromolecule-2087/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.gavi.org/fr/vaccineswork/arrivee-premier-vaccin-histoire-abregee-vaccination-partie1",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.healthline.com/health/how-many-bones-does-a-baby-have",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/28_decembre_1895-evenement-18951228.php",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/Les_croisades_1096_1099_-synthese-83.php",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.hotellerie-restauration.ac-versailles.fr/IMG/pdf/15-_fiche_d_analyse_technique_les_ge_lifiants.pdf",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/chimie_cuisine.py",
+    "avant": "Ce gélifiant végétal est extrait d'algues rouges.",
+    "apres": "Les algues rouges fournissent ce gélifiant d'origine végétale.",
+    "passage_source": "Gélifiant végétal naturel, extrait d'algues rouges"
+   },
+   {
+    "fichier": "outils/vague4/chimie_cuisine.py",
+    "avant": "Impossible donc de faire avec elle un gel qui résiste à la chaleur.",
+    "apres": "Un gel à base de gélatine ne tient donc pas à la chaleur.",
+    "passage_source": "Impossible donc de créer un gel résistant à la chaleur"
+   },
+   {
+    "fichier": "outils/vague4/chimie_cuisine.py",
+    "avant": "Le kiwi et la papaye aussi : il faut d'abord faire bouillir le fruit.",
+    "apres": "Même chose pour le kiwi et la papaye, qu'on fera bouillir au préalable.",
+    "passage_source": "Il faudra d'abord faire bouillir le fruit"
+   },
+   {
+    "fichier": "outils/vague4/chimie_cuisine.py",
+    "avant": "La gélatine, elle, supporte assez bien la congélation.",
+    "apres": "La congélation, en revanche, ne pose guère de problème à la gélatine.",
+    "passage_source": "La gélatine supporte relativement bien la congélation."
+   }
+  ]
+ },
+ {
+  "url": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/edith-cresson",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.insee.fr/fr/statistiques/4806694",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.laculturegenerale.com/12-travaux-heracles-hercule-liste/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/dictionnaires/college/Louis_XVI/24264",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/bourbons.py",
+    "avant": "Il était le fils du Dauphin Louis et de Marie-Josèphe de Saxe.",
+    "apres": "Son père était le Dauphin Louis, sa mère Marie-Josèphe de Saxe.",
+    "passage_source": "fils du Dauphin Louis et de Marie-Josèphe de Saxe"
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/divers/oxygène/75929",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/gaz_air.py",
+    "avant": "On croyait alors l'oxygène présent dans tous les acides.",
+    "apres": "À l'époque, on pensait que tout acide contenait de l'oxygène.",
+    "passage_source": "l'oxygène apparaissait dans tous les acides connus à cette époque"
+   },
+   {
+    "fichier": "outils/vague3/gaz_air.py",
+    "avant": "Il s'en produit environ 100 millions de tonnes par an.",
+    "apres": "La production mondiale atteint quelque 100 millions de tonnes chaque année.",
+    "passage_source": "est d'environ 100 millions de tonnes par an"
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/personnage/Charles_X/112829",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/bourbons.py",
+    "avant": "Mariés en 1773, ils eurent notamment le duc d'Angoulême et le duc de Berry.",
+    "apres": "De ce mariage de 1773 naquirent entre autres les ducs d'Angoulême et de Berry.",
+    "passage_source": "le duc d'Angoulême et le duc de Berry"
+   },
+   {
+    "fichier": "outils/vague2/bourbons.py",
+    "avant": "Ces trois journées de combats, les 27, 28 et 29 juillet, renversèrent le roi.",
+    "apres": "Trois jours d'insurrection, du 27 au 29 juillet, suffirent à renverser le roi.",
+    "passage_source": "combats des 27, 28 et 29 juillet"
+   },
+   {
+    "fichier": "outils/vague2/bourbons.py",
+    "avant": "Le 7 août 1830, la Chambre des députés déclara le trône vacant et l'appela.",
+    "apres": "Le 7 août 1830, jugeant le trône vacant, les députés lui offrirent la couronne.",
+    "passage_source": "la Chambre des députés déclare le trône vacant et y appelle Louis-Philippe Ier"
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/personnage/wd/130435",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/bourbons.py",
+    "avant": "Né en 1755, il porta longtemps le titre de comte de Provence.",
+    "apres": "Né en 1755, il fut longtemps connu comme le comte de Provence.",
+    "passage_source": "il reçoit d'abord le titre de comte de Provence"
+   }
+  ]
+ },
+ {
+  "url": "https://www.letudiant.fr/lycee/methodologie-lycee/article/physique-que-faut-il-retenir-des-lois-de-newton.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.merckmanuals.com/fr-ca/professional/blessures-empoisonnement/intoxications-empoisonnements/intoxication-par-le-monoxyde-de-carbone",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/combustion.py",
+    "avant": "C'est l'une des intoxications mortelles les plus fréquentes.",
+    "apres": "Il figure parmi les causes d'empoisonnement mortel les plus courantes.",
+    "passage_source": "est l'une des intoxications mortelles les plus fréquentes."
+   }
+  ]
+ },
+ {
+  "url": "https://www.napoleon.org/enseignants/documents/chronologie-detaillee-et-illustree-du-consulat-et-du-premier-empire/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/premier_empire.py",
+    "avant": "Cette victoire impose la paix aux Autrichiens, signée à Vienne le 14 octobre.",
+    "apres": "Battue, l'Autriche doit accepter la paix, conclue à Vienne le 14 octobre.",
+    "passage_source": "impose finalement la paix aux Autrichiens, signée à Vienne le 14 octobre 1809"
+   },
+   {
+    "fichier": "outils/vague2/premier_empire.py",
+    "avant": "Le Sénat avait voté la déchéance de l'Empereur le 2 avril.",
+    "apres": "Dès le 2 avril, le Sénat avait prononcé la déchéance de l'Empereur.",
+    "passage_source": "Le Sénat vote la déchéance de l'Empereur le 2 avril."
+   },
+   {
+    "fichier": "outils/vague2/premier_empire.py",
+    "avant": "Seuls 20 000 soldats rentrent en France après la retraite.",
+    "apres": "À peine 20 000 hommes reviennent en France au terme de la retraite.",
+    "passage_source": "seuls 20 000 soldats rentrent en France (7 mots, signalé limite, réécrit par prudence)"
+   }
+  ]
+ },
+ {
+  "url": "https://www.nomadeducation.fr/revisions/bac-sciences-senegal-premiere-lb255476/differents-types-de-roches-cyc87c20",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.parisinsidersguide.com/musee-d-orsay-must-see-paintings.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.prehistoric-wildlife.com/species/Ankylosaurus/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.rtbf.be/article/perles-d-eau-a-la-recherche-de-la-source-de-la-meuse-en-france-11034770",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.schoolmouv.fr/cours/poesie-19e-20e/fiche-de-cours",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.stelvision.com/astro/le-prix-nobel-consacre-la-decouverte-des-ondes-gravitationnelles",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/gravitation.py",
+    "avant": "Ces deux trous noirs tournaient l'un autour de l'autre avant de fusionner.",
+    "apres": "Ces deux trous noirs décrivaient une orbite commune avant de ne plus faire qu'un.",
+    "passage_source": "fusion de deux trous noirs en orbite l'un autour de l'autre"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/alcool-chimie",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/cervin",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/combustion",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/femur",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/hevea",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques-n",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/lois-de-kepler",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/ozone",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/roche-volcanique",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/roches.py",
+    "avant": "Avec le basalte, elle forme plus de 95 % des roches volcaniques.",
+    "apres": "À elles deux, andésite et basalte dépassent 95 % des roches volcaniques.",
+    "passage_source": "Les basaltes et les andésites constituent plus de 95 % des roches volcaniques."
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/vanilline",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/molecules_quotidien.py",
+    "avant": "Elle représente environ 2 % de la masse de la gousse préparée.",
+    "apres": "Elle compte pour environ 2 % du poids de la gousse préparée.",
+    "passage_source": "Elle correspond à 2 % de la masse de la gousse."
+   }
+  ]
+ },
+ {
+  "url": "https://www.universalis.fr/encyclopedie/alcaloides/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.universalis.fr/encyclopedie/naypyidaw/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.vidal.fr/sante/nutrition/corps-aliments/digestion-aliments/intestin-grele.html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/contextes.py",
+    "avant": "Il mesure environ 6 à 7 mètres de long.",
+    "apres": "Sa longueur atteint environ 6 à 7 mètres.",
+    "passage_source": "Il mesure de 6,5 à 7 mètres de long et se divise en trois parties."
+   }
+  ]
+ },
+ {
+  "url": "https://www.worldhistory.org/article/1511/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-18064/vasco-de-gama/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/explorateurs.py",
+    "avant": "La flotte quitta l'embouchure du Tage, à Lisbonne, le 8 juillet 1497.",
+    "apres": "Le 8 juillet 1497, la flotte appareilla de Lisbonne, là où le Tage rejoint la mer.",
+    "passage_source": "l'embouchure du Tage près de Lisbonne le 8 juillet 1497"
+   }
+  ]
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-768/delphes/",
+  "statut": "ok",
+  "changements": []
+ }
+]

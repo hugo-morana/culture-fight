@@ -1,0 +1,730 @@
+[
+ {
+  "url": "https://animaldiversity.org/site/accounts/information/Inia_geoffrensis.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://areq.net/lang/fr/Dromadaire.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://areq.net/lang/fr/S%C3%A9isme_de_1906_%C3%A0_San_Francisco.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://blogs.egu.eu/divisions/nh/2019/09/18/stromboli-the-lighthouse-of-the-mediterranean/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://cours-et-fiches.com/college/physique-chimie/corps-purs-melanges/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/melanges_solutions.py",
+    "avant": "L'air contient environ 78 % de diazote et 21 % de dioxygène.",
+    "apres": "Le diazote représente environ 78 % de l'air, le dioxygène environ 21 %.",
+    "passage_source": "environ 78 % de diazote (N₂), 21 % de dioxygène (O₂)"
+   },
+   {
+    "fichier": "outils/vague3/melanges_solutions.py",
+    "avant": "Dans un mélange homogène, on ne distingue pas les constituants à l'œil nu.",
+    "apres": "Dans un mélange homogène, impossible de repérer ses différents constituants à l'œil nu.",
+    "passage_source": "on ne distingue pas les constituants à l'œil nu"
+   }
+  ]
+ },
+ {
+  "url": "https://ecampusontario.pressbooks.pub/biocell/chapter/3-2-glucides/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/molecules_quotidien.py",
+    "avant": "Les plantes le fabriquent à partir de dioxyde de carbone et d'eau.",
+    "apres": "Les végétaux le produisent en combinant eau et dioxyde de carbone.",
+    "passage_source": "Les plantes synthétisent le glucose à partir du dioxyde de carbone et de l'eau."
+   },
+   {
+    "fichier": "outils/vague3/formules_chimiques.py",
+    "avant": "Les plantes le fabriquent à partir de dioxyde de carbone et d'eau.",
+    "apres": "Les végétaux le produisent en combinant eau et dioxyde de carbone.",
+    "passage_source": "Les plantes synthétisent le glucose à partir du dioxyde de carbone et de l'eau."
+   },
+   {
+    "fichier": "outils/vague3/molecules_quotidien.py",
+    "avant": "C'est le biopolymère naturel le plus abondant, que l'humain ne sait pas digérer.",
+    "apres": "Aucun biopolymère n'est plus répandu dans la nature, et notre organisme ne peut pas le digérer.",
+    "passage_source": "La cellulose est le biopolymère naturel le plus abondant."
+   },
+   {
+    "fichier": "outils/vague3/molecules_quotidien.py",
+    "avant": "Quel sucre est naturellement présent dans le lait ?",
+    "apres": "Quel sucre trouve-t-on naturellement dans le lait ?",
+    "passage_source": "Il est naturellement présent dans le lait."
+   }
+  ]
+ },
+ {
+  "url": "https://encycloreader.org/r/wikipedia.php?q=Mesozoic",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://europa.eu/kids-corner/memorygame/more/index_en.htm",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Acc%C3%A9l%C3%A9ration",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/vitesse_acceleration.py",
+    "avant": "Il atteint ainsi 108 km/h en 2 minutes 30 secondes.",
+    "apres": "Cela correspond à 108 km/h, atteints en deux minutes et demie.",
+    "passage_source": "ce qui fait 108 km/h) en 2 minutes 30 secondes."
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Chronologie_de_la_Premi%C3%A8re_Guerre_mondiale",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/guerres_mondiales.py",
+    "avant": "Pendant neuf heures, 1 500 canons tirent sur les positions françaises.",
+    "apres": "Neuf heures durant, quelque 1 500 canons pilonnent les lignes françaises.",
+    "passage_source": "pendant neuf heures, 1500 canons sont lancés, les positions françaises"
+   },
+   {
+    "fichier": "outils/vague3/guerres_mondiales.py",
+    "avant": "Les négociations s'ouvrent le 8 novembre dans la clairière de Rethondes, près de Compiègne.",
+    "apres": "Les pourparlers débutent le 8 novembre non loin de Compiègne, en clairière de Rethondes.",
+    "passage_source": "dans la clairière de Rethondes, près de Compiègne"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Erg",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/deserts.py",
+    "avant": "Le mot vient de l'arabe et signifie « champs de dunes ».",
+    "apres": "Ce terme d'origine arabe désigne des « champs de dunes ».",
+    "passage_source": "Le mot « erg » vient de l'arabe « عِرْق » (prononcé « eirq »), qui veut dire « champs de dunes »"
+   },
+   {
+    "fichier": "outils/vague2/deserts.py",
+    "avant": "Cela représente une superficie supérieure à celle de la France.",
+    "apres": "Leur étendue totale dépasse celle de la France.",
+    "passage_source": "représente une superficie supérieure à celle de la France"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Guerres_m%C3%A9diques",
+  "statut": "inaccessible",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Lois_de_Kepler",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Orgues_basaltiques",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Reg",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Trait%C3%A9_de_Francfort_de_1871",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/grands_traites.py",
+    "avant": "Signé le 10 mai, il met fin à la guerre franco-prussienne.",
+    "apres": "Signé le 10 mai, il clôt la guerre franco-prussienne.",
+    "passage_source": "Le traité de Francfort met fin à la guerre franco-prussienne de 1870-1871."
+   }
+  ]
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/Chat_sauvage_d'Europe",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/Nouvelle-Cal%C3%A9donie",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/capitales_oceanie.py",
+    "avant": "Nouméa est la seule grande ville de l'archipel.",
+    "apres": "L'archipel ne compte qu'une grande ville : Nouméa.",
+    "passage_source": "Sa principale commune est Nouméa, seule grande ville de l'archipel."
+   }
+  ]
+ },
+ {
+  "url": "https://gizmodo.com/the-way-that-mushrooms-bring-the-rain-will-astound-you-1739453857",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Discovery_of_the_chemical_elements",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://lucien-millet.anjou.e-lyco.fr/wp-content/uploads/sites/33/2019/10/piece-de-theatre-classique.pdf",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/theatre_classique.py",
+    "avant": "Un vieillard s'y croit atteint de toutes les maladies et veut un gendre médecin.",
+    "apres": "Un vieil homme s'y imagine souffrir de tous les maux et veut un médecin pour gendre.",
+    "passage_source": "Un vieillard qui se croit atteint de toutes les maladies"
+   },
+   {
+    "fichier": "outils/vague3/theatre_classique.py",
+    "avant": "Coelio y aime en secret Marianne, mariée à un juge.",
+    "apres": "Coelio y est secrètement épris de Marianne, l'épouse d'un juge.",
+    "passage_source": "aime en secret Marianne, mariée à un vieux juge"
+   }
+  ]
+ },
+ {
+  "url": "https://noaa.gov/education/resource-collections/ocean-coasts-education-resources/tides",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://planet-vie.ens.fr/node/1397/download/pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://scientificamerican.com/article/strange-but-true-largest-organism-is-fungus",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://thecanadianencyclopedia.ca/fr/article/jacques-cartier",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.kidzsearch.com/wiki/Salt_Lake_City",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_national_flags_by_design",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://wikiwand.com/simple/Water_Lilies",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.allodocteurs.fr/alimentation/raphael-repond-a-vos-questions-sur-le-caramel_30875.html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/chimie_cuisine.py",
+    "avant": "L'eau doit d'abord s'évaporer : selon Raphaël Haumont, c'est du temps et de l'énergie perdus.",
+    "apres": "Il faut d'abord évaporer l'eau, ce qui, pour Raphaël Haumont, gaspille temps et énergie.",
+    "passage_source": "Mettre de l'eau, c'est du temps et de l'énergie perdus"
+   }
+  ]
+ },
+ {
+  "url": "https://www.bateaux.com/article/37245/jeanne-barret-premiere-femme-a-boucler-un-tour-du-monde-deguisee-en-homme",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/revolution_francaise.py",
+    "avant": "Une limite : que leur manifestation ne trouble pas l'ordre public.",
+    "apres": "Une limite : leur expression ne doit pas porter atteinte à l'ordre public.",
+    "passage_source": "pourvu que leur manifestation ne trouble pas l'ordre public établi par la loi"
+   },
+   {
+    "fichier": "outils/vague2/revolution_francaise.py",
+    "avant": "Il vise aussi la société où la garantie des droits n'est pas assurée.",
+    "apres": "Il concerne aussi toute société qui n'assure pas la garantie des droits.",
+    "passage_source": "Toute société dans laquelle la garantie des droits n'est pas assurée"
+   }
+  ],
+  "note": "Énoncé « Combien d'articles compte la Déclaration des droits de l'homme et du citoyen de 1789 ? » signalé seulement parce qu'il contient le titre officiel du texte (nom propre) : laissé tel quel."
+ },
+ {
+  "url": "https://www.ecb.europa.eu/euro/intro/html/index.fr.html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/monnaies.py",
+    "avant": "Quel pays, membre de l'Union européenne de 1973 à 2020, n'a jamais utilisé l'euro ?",
+    "apres": "Quel pays a appartenu à l'Union européenne de 1973 à 2020 sans jamais adopter l'euro ?",
+    "passage_source": "membre de l’Union européenne de 1973 à 2020, n’a jamais utilisé l’euro"
+   }
+  ]
+ },
+ {
+  "url": "https://www.futura-sciences.com/maison/definitions/maison-ardoise-10516/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/roches.py",
+    "avant": "Elle appartient à la famille des schistes et se débite en feuillets.",
+    "apres": "Cette roche du groupe des schistes se fend en fines feuilles.",
+    "passage_source": "Elle appartient à la famille des schistes dont les caractéristiques sont la qualité du grain, très fin"
+   }
+  ]
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/geologie-magnitude-intensite-4975/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/zoologie-levure-12772/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/questions-reponses/rapaces-hibou-chouette-difference-7336/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sante/definitions/medecine-radius-8256/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sciences/definitions/physique-inertie-1013/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.guadeloupe.developpement-durable.gouv.fr/IMG/pdf/affiche-sismik-594x841-hd-2.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/14_decembre_1911-evenement-19111214.php?resume=1",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/explorateurs.py",
+    "avant": "Il parcourut 2 824 km et regagna sa base le 25 janvier 1912.",
+    "apres": "Il rentra à sa base le 25 janvier 1912, au terme d'un trajet de 2 824 km.",
+    "passage_source": "retrouve le camp de base le 25 janvier 1912, après 2824 km parcourus en 94 jours"
+   }
+  ]
+ },
+ {
+  "url": "https://www.herodote.net/Campagnes_presidentielles_1965_2022_-synthese-3115.php",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/Saladin_un_heros_pour_les_Arabes-synthese-241-166.php",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/croisades.py",
+    "avant": "Il aida son oncle Chirkouh à prendre le pouvoir en Égypte.",
+    "apres": "Il seconda son oncle Chirkouh dans sa conquête du pouvoir en Égypte.",
+    "passage_source": "Saladin aide son oncle Chîrkouh à s'emparer du pouvoir en Égypte."
+   }
+  ]
+ },
+ {
+  "url": "https://www.hww.ca/assets/pdfs/factsheets/snowy-owl-fr.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/jean-pierre-raffarin",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/gouvernements_ve.py",
+    "avant": "Le projet de Constitution européenne est rejeté le 29 mai 2005.",
+    "apres": "Le 29 mai 2005, le « non » l'emporte au référendum sur la Constitution européenne.",
+    "passage_source": "sur le projet de constitution européenne le 29 mai 2005"
+   }
+  ]
+ },
+ {
+  "url": "https://www.italia.it/fr/lombardie/milan/musee-du-cenacolo-vinciano",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.lalanguefrancaise.com/litterature/rimbaud/rimbaud-vie-oeuvre",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/poetes.py",
+    "avant": "Il s'éteint le 10 novembre 1891 à l'hôpital de la Conception.",
+    "apres": "Il meurt à l'hôpital de la Conception, le 10 novembre 1891.",
+    "passage_source": "le 10 novembre 1891 à l'hôpital de la Conception"
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/divers/acides_et_bases/187439",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/acides_bases.py",
+    "avant": "Humphry Davy montre ensuite que l'acide chlorhydrique ne contient pas d'oxygène.",
+    "apres": "Humphry Davy prouve ensuite que l'acide chlorhydrique est dépourvu d'oxygène.",
+    "passage_source": "sir Humphry Davy, ayant démontré que l'acide chlorhydrique (HCl) ne contient pas d'oxygène"
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/divers/sismologie/92120",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/personnage/louis_xiv/130427",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/bourbons.py",
+    "avant": "Il y naquit le 5 septembre 1638, au château neuf.",
+    "apres": "Il y vit le jour au château neuf, le 5 septembre 1638.",
+    "passage_source": "né le 5 septembre 1638 au château neuf"
+   },
+   {
+    "fichier": "outils/vague2/bourbons.py",
+    "avant": "Le château fut l'œuvre de Le Vau, Le Brun et Le Nôtre.",
+    "apres": "Le Vau, Le Brun et Le Nôtre bâtirent et ornèrent ce château.",
+    "passage_source": "Louis XIV confie la construction du château de Versailles à Le Vau, Le Brun et Le Nôtre"
+   },
+   {
+    "fichier": "outils/vague2/bourbons.py",
+    "avant": "Ses fils légitimés furent le duc du Maine et le comte de Toulouse.",
+    "apres": "Parmi ses fils légitimés : le comte de Toulouse et le duc du Maine.",
+    "passage_source": "le duc du Maine et le comte de Toulouse"
+   },
+   {
+    "fichier": "outils/vague2/bourbons.py",
+    "avant": "Le château fut conçu par Le Vau, Le Brun et Le Nôtre.",
+    "apres": "Versailles doit l'essentiel de sa conception à Le Vau, Le Brun et Le Nôtre.",
+    "passage_source": "Louis XIV confie la construction du château de Versailles à Le Vau, Le Brun et Le Nôtre"
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/vie-sauvage/vautour_dÉgypte/184873",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.livius.org/articles/person/hadrian/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.mon-sejour-en-montagne.com/?p=15928",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/sommets.py",
+    "avant": "Elle doit son nom à une ouverture dans la roche de son arête sommitale.",
+    "apres": "Son nom vient d'un trou qui perce la roche de sa crête sommitale.",
+    "passage_source": "la pointe Percée (Haute-Savoie) doit son nom à une ouverture dans la roche, sur l'arête sommitale."
+   },
+   {
+    "fichier": "outils/vague2/sommets.py",
+    "avant": "Il honore les chasseurs alpins envoyés dans les Vosges pendant la Première Guerre mondiale.",
+    "apres": "Il rend hommage aux chasseurs alpins engagés dans les Vosges durant la Grande Guerre.",
+    "passage_source": "des chasseurs alpins envoyés dans les Vosges pendant la première guerre mondiale"
+   }
+  ]
+ },
+ {
+  "url": "https://www.naqt.com/YouGottaKnow/medieval-battles.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.osr.ch/fileadmin/user_upload/Jeunes/Brochures_div/A_la_decouverte_de_votre_orchestre_symphonique.pdf",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/instruments_musique.py",
+    "avant": "Il est fait de 71 pièces de bois, dont l'ébène, l'érable et l'épicéa.",
+    "apres": "On l'assemble à partir de 71 éléments en bois, notamment en épicéa, érable et ébène.",
+    "passage_source": "est composé de 71 pièces de différents bois"
+   },
+   {
+    "fichier": "outils/vague3/instruments_musique.py",
+    "avant": "Son timbre passe pour le plus proche de la voix humaine.",
+    "apres": "On dit qu'aucun instrument ne ressemble autant à la voix humaine.",
+    "passage_source": "l'instrument le plus proche de la voix humaine"
+   },
+   {
+    "fichier": "outils/vague3/instruments_musique.py",
+    "avant": "C'est sans doute l'instrument à cordes le plus ancien de l'orchestre.",
+    "apres": "Parmi les cordes de l'orchestre, ce serait l'instrument le plus ancien.",
+    "passage_source": "C'est sans doute l'instrument à cordes le plus ancien."
+   },
+   {
+    "fichier": "outils/vague3/instruments_musique.py",
+    "avant": "Elle a aussi 7 pédales et pèse environ 40 kg.",
+    "apres": "Elle compte également 7 pédales, pour un poids proche de 40 kg.",
+    "passage_source": "Elle possède 47 cordes, 7 pédales et pèse environ 40 kg."
+   },
+   {
+    "fichier": "outils/vague3/instruments_musique.py",
+    "avant": "Ses ancêtres sont le clavicorde, le clavecin et le cymbalum.",
+    "apres": "Il descend du cymbalum, du clavicorde et du clavecin.",
+    "passage_source": "Les ancêtres du piano sont le clavicorde (et le clavecin) et le cymbalum."
+   },
+   {
+    "fichier": "outils/vague3/instruments_musique.py",
+    "avant": "Sa corde la plus aiguë, le mi, est très fine et fragile.",
+    "apres": "Le mi, sa corde la plus aiguë, est d'une grande finesse et casse facilement.",
+    "passage_source": "la corde la plus aigüe (mi) est extrêmement fine et fragile."
+   },
+   {
+    "fichier": "outils/vague3/instruments_musique.py",
+    "avant": "Il a jusqu'à 6 pistons ou palettes.",
+    "apres": "Selon les modèles, on lui compte jusqu'à 6 palettes ou pistons.",
+    "passage_source": "L'instrument possède jusqu'à 6 pistons ou palettes."
+   },
+   {
+    "fichier": "outils/vague3/instruments_musique.py",
+    "avant": "Elle servait autrefois à communiquer ou à donner l'alarme.",
+    "apres": "Jadis, on l'employait pour transmettre des signaux ou alerter.",
+    "passage_source": "Elle servait à communiquer ou à donner l'alarme."
+   },
+   {
+    "fichier": "outils/vague3/instruments_musique.py",
+    "avant": "La main gauche actionne les palettes.",
+    "apres": "Les palettes sont manœuvrées par la main gauche.",
+    "passage_source": "Sa main gauche active des palettes"
+   },
+   {
+    "fichier": "outils/vague3/instruments_musique.py",
+    "avant": "Sa famille comprend la petite clarinette et la clarinette basse.",
+    "apres": "La petite clarinette et la clarinette basse appartiennent à la même famille.",
+    "passage_source": "Sa famille comprend plusieurs instruments, dont la petite clarinette et la clarinette basse."
+   }
+  ]
+ },
+ {
+  "url": "https://www.pariszigzag.fr/paris-au-quotidien/actualites-paris/kinshasa-premiere-ville-francophone-du-monde-devant-paris/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/grandes_villes.py",
+    "avant": "C'est la plus grande ville francophone du monde, devant Paris.",
+    "apres": "Aucune ville francophone n'est plus grande, pas même Paris.",
+    "passage_source": "Kinshasa, première ville francophone du monde devant Paris"
+   }
+  ]
+ },
+ {
+  "url": "https://www.rmg.co.uk/discover/explore/captain-james-cook-timeline",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.schoolmouv.fr/cours/caracteristiques-et-representation-d-un-changement-d-etat/fiche-de-cours",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/etats_matiere.py",
+    "avant": "On l'appelle aussi « condensation liquide ».",
+    "apres": "Autre nom possible : « condensation liquide ».",
+    "passage_source": "on parle aussi de condensation liquide"
+   },
+   {
+    "fichier": "outils/vague3/etats_matiere.py",
+    "avant": "On l'appelle aussi « condensation solide ».",
+    "apres": "Autre nom possible : « condensation solide ».",
+    "passage_source": "on parle aussi de condensation solide"
+   },
+   {
+    "fichier": "outils/vague3/etats_matiere.py",
+    "avant": "Le volume peut changer, donc la masse volumique aussi.",
+    "apres": "Le volume, lui, peut varier, et la masse volumique avec lui.",
+    "passage_source": "Mais le volume peut changer, et donc aussi la masse volumique."
+   }
+  ]
+ },
+ {
+  "url": "https://www.schoolmouv.fr/evenements-historiques/conference-de-potsdam-17-juillet-2-aout-1945/evenement-historique",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/guerres_mondiales.py",
+    "avant": "La conférence se tient du 17 juillet au 2 août 1945.",
+    "apres": "Elle se déroule entre le 17 juillet et le 2 août 1945.",
+    "passage_source": "La conférence de Potsdam se tient du 17 juillet au 2 août 1945."
+   },
+   {
+    "fichier": "outils/vague3/guerres_mondiales.py",
+    "avant": "Plus de 2 millions d'Allemands sont expulsés des territoires annexés.",
+    "apres": "Les territoires annexés voient l'expulsion de plus de 2 millions d'Allemands.",
+    "passage_source": "Plus de 2 millions d’Allemands sont expulsés des territoires annexés,"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/actualite/inondation-post-eruptive-caldera-santorin-implications-formation-tsunamis-N15793.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/basiliscus-plumifrons",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/chlorophylle",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/molecules_quotidien.py",
+    "avant": "Son nom est formé sur des racines grecques signifiant « vert » et « feuille ».",
+    "apres": "Il vient du grec : « chlorós », vert, et « phýllon », feuille.",
+    "passage_source": "à partir des racines grecques χλωρός chlorós : vert et φύλλον phýllon : feuille"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/dynamometre",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/forces.py",
+    "avant": "Un dynamomètre mesure une force ou un couple.",
+    "apres": "Cet appareil sert à mesurer des forces et des couples.",
+    "passage_source": "Un dynamomètre est un appareil de mesure d'une force ou d'un couple."
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/geai-des-chenes",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/liste-des-capitales-du-monde",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/mumbai",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/potentiel-hydrogene",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/scorbut",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/molecules_quotidien.py",
+    "avant": "Quel médecin montre en 1747 que les oranges et les citrons guérissent le scorbut ?",
+    "apres": "Quel médecin établit en 1747 que citrons et oranges soignent le scorbut ?",
+    "passage_source": "que les oranges et les citrons guérissent le scorbut"
+   },
+   {
+    "fichier": "outils/vague3/molecules_quotidien.py",
+    "avant": "À partir de 1795, la Royal Navy distribue chaque jour du jus de citron à ses marins.",
+    "apres": "Dès 1795, chaque marin de la Royal Navy a droit à son jus de citron quotidien.",
+    "passage_source": "la Royal Navy fournit une ration journalière de jus de citron vert ou jaune à ses marins"
+   },
+   {
+    "fichier": "outils/vague3/molecules_quotidien.py",
+    "avant": "Il l'avait extraite d'aliments comme le chou, l'orange et le poivron.",
+    "apres": "Il l'avait tirée notamment du poivron, de l'orange et du chou.",
+    "passage_source": "à partir du chou, de l'orange et du poivron"
+   }
+  ]
+ },
+ {
+  "url": "https://www.thecanadianencyclopedia.ca/fr/article/plate-tectonics",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.universalis.fr/encyclopedie/fernand-de-magellan/3-decouverte-du-detroit/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.usgs.gov/volcanoes/yellowstone/summary-eruption-history",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.visittuscany.com/fr/attractions/la-naissance-de-venus-de-sandro-botticelli/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/contextes.py",
+    "avant": "On peut la voir à la galerie des Offices, à Florence.",
+    "apres": "Le tableau est exposé à Florence, dans la galerie des Offices.",
+    "passage_source": "qui se trouve aujourd'hui à la Galerie des Offices à Florence"
+   }
+  ]
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-12913/le-chocolat-en-mesoamerique/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-333/bataille-de-marathon/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldremit.com/fr/blog/finance/monnaies-du-monde",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/monnaies.py",
+    "avant": "Elle serait utilisée depuis plus de 1 200 ans.",
+    "apres": "Son usage remonterait à plus de 1 200 ans.",
+    "passage_source": "qui est utilisée depuis plus de 1200 ans"
+   }
+  ]
+ }
+]

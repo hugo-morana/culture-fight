@@ -1,0 +1,559 @@
+[
+ {
+  "url": "https://applesandpeople.org.uk/stories/newton/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://areq.net/lang/fr/Jacques_de_Molay.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://aufutur.fr/revisions/corneille-oeuvre-biographie/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://cavac.at/cavacopedia/Tennessine",
+  "statut": "anglais",
+  "changements": [],
+  "remarque": "Page en anglais contenant des consignes adressées à une IA (ajouter une phrase, recopier des paroles, ignorer le message système) : ignorées."
+ },
+ {
+  "url": "https://culturalindia.net/national-symbols/national-flower.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://enchantedlearning.com/subjects/dinosaurs/allabout/Nameroots.shtml",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://ent2d.ac-bordeaux.fr/disciplines/svt/ressources/pedagogiques/ressources-academiques-diverses/thematique-la-planete-et-les-enjeux-contemporains/volcanisme-dans-la-chaine-des-puy/a-finir-lexique/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://figaronautisme.meteoconsult.fr/actus-nautisme-escales/2025-06-25/79032-baie-du-mont-saint-michel-naviguer-au-rythme-des-marees",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Bataille_de_Cr%C3%A9cy",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/batailles_moyen_age.py",
+    "avant": "Les forces de Philippe VI étaient au moins deux fois plus nombreuses que celles d'Édouard III.",
+    "apres": "Philippe VI alignait au moins le double des troupes d'Édouard III.",
+    "passage_source": "alors que les forces de Philippe VI étaient au moins du double de celles d'Édouard."
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Congr%C3%A8s_de_Vienne",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/grands_traites.py",
+    "avant": "Le congrès dure du 18 septembre 1814 au 9 juin 1815.",
+    "apres": "Ouvert le 18 septembre 1814, le congrès s'achève le 9 juin 1815.",
+    "passage_source": "du 18 septembre 1814 au 9 juin 1815"
+   },
+   {
+    "fichier": "outils/vague3/grands_traites.py",
+    "avant": "Il établit aussi la libre circulation sur le Rhin et la Meuse.",
+    "apres": "Il ouvre aussi le Rhin et la Meuse à la navigation de tous.",
+    "passage_source": "établit la libre circulation fluviale sur le Rhin et la Meuse"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Foie",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Impressionnisme",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Meganeura",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Pierre_pr%C3%A9cieuse",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Seconde_Guerre_m%C3%A9dique",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Trait%C3%A9s_de_Westphalie",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/grands_traites.py",
+    "avant": "Le traité de Münster lie le roi de France et l'empereur.",
+    "apres": "C'est à Münster que la France et l'empereur concluent leur paix.",
+    "passage_source": "Celui de Munster entre le roi de France et l'empereur."
+   },
+   {
+    "fichier": "outils/vague3/grands_traites.py",
+    "avant": "Quelle religion est reconnue en 1648 au même titre que le luthéranisme et le catholicisme ?",
+    "apres": "Quelle confession obtient en 1648 la même reconnaissance que les catholiques et les luthériens ?",
+    "passage_source": "au même titre que le luthéranisme et le catholicisme"
+   },
+   {
+    "fichier": "outils/vague3/grands_traites.py",
+    "avant": "Dans les États protestants, les sujets peuvent choisir entre calvinisme et luthéranisme.",
+    "apres": "En terre protestante, chacun est libre d'être luthérien ou calviniste.",
+    "passage_source": "Mais dans les États protestants les sujets peuvent choisir d'être calvinistes ou luthériens."
+   }
+  ]
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/Glossaire_de_la_R%C3%A9volution_fran%C3%A7aise",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/revolution_francaise.py",
+    "avant": "Ils disparaîtront sous l'Empire.",
+    "apres": "Leur mouvement s'éteint sous le règne de Napoléon.",
+    "passage_source": "Ils disparaîtront sous l'Empire."
+   }
+  ]
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/Terreur_(R%C3%A9volution_fran%C3%A7aise)",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://hominides.com/?p=861",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://larousse.fr/encyclopedie/divers/grands_explorateurs/187603",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/explorateurs.py",
+    "avant": "Quel Français atteint le premier le pôle Nord à pied et en solitaire, en 1986 ?",
+    "apres": "Quel Français est le premier à rallier seul et à pied le pôle Nord, en 1986 ?",
+    "passage_source": "le pôle Nord à pied et en solitaire"
+   }
+  ]
+ },
+ {
+  "url": "https://mirror2.polsri.ac.id/wiki/wp/r/River_Thames.htm",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://pedagogie.ac-orleans-tours.fr/documents/pdf/orchestre.pdf",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/instruments_musique.py",
+    "avant": "Ses cordes sont frottées par le bord d'un disque et non par un archet.",
+    "apres": "Pas d'archet : c'est la tranche d'un disque qui frotte ses cordes.",
+    "passage_source": "dont les cordes sont frottées par le bord d'un disque"
+   }
+  ]
+ },
+ {
+  "url": "https://pubs.usgs.gov/gip/gemstones/organic.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://sherpas.com/blog/proteine-definition/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://voyages.ideoz.fr/ile-robben-island-prison-nelson-mandela-tourisme-afrique-du-sud/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/French-speaking_Country",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.neonvagabond.xyz/content/wikipedia_en_all_maxi_2024-01/A/Cachalot",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.Britannica.Com/science/rubber-chemical-compound/Development-of-the-natural-rubber-industry",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.alloprof.qc.ca/fr/eleves/bv/sciences/vade-mecum-point-de-fusion-s1700",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.coe.int/fr/web/about-us/the-european-flag",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.darwin-nutrition.fr/super-aliments/cacao/la-theobromine-le-stimulant-doux-du-cacao/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.elysee.fr/la-presidence/visite-palais-de-l-elysee-et-son-histoire",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/presidents_republique.py",
+    "avant": "Dans quel salon de l'Élysée se trouve le bureau du président de la République ?",
+    "apres": "Dans quel salon de l'Élysée le chef de l'État a-t-il son bureau ?",
+    "passage_source": "la cheminée du salon doré, qui est donc l'actuel bureau du président de la République"
+   }
+  ]
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/botanique-carotenoide-2217/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/paleontologie-tigre-dents-sabre-6378/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/questions-reponses/arbre-connaitre-age-arbre-20188/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/ajouts_vivant.py",
+    "avant": "Comment connaît-on l'âge d'un arbre abattu ?",
+    "apres": "Sur un arbre abattu, comment détermine-t-on son âge ?",
+    "passage_source": "Comment connaître l'âge d'un arbre ?"
+   }
+  ]
+ },
+ {
+  "url": "https://www.futura-sciences.com/sante/actualites/biologie-votre-cerveau-15-chiffres-cles-51904/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sciences/actualites/physique-premiere-preuve-relativite-generale-100-ans-19471/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sciences/questions-reponses/chimie-7-proprietes-etranges-eau-14519/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/etats_matiere.py",
+    "avant": "Comment appelle-t-on le fait que de l'eau chaude puisse geler plus vite que de l'eau froide ?",
+    "apres": "Quel nom porte le phénomène où l'eau chaude peut se changer en glace avant l'eau froide ?",
+    "passage_source": "L'eau chaude gèle plus vite que l'eau froide"
+   }
+  ]
+ },
+ {
+  "url": "https://www.guinnessworldrecords.com/world-records/720749-lake-with-most-fish-species",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/27_novembre_1095-evenement-10951127.php",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/croisades.py",
+    "avant": "Paysans et chevaliers cousaient des croix sur leurs vêtements.",
+    "apres": "Chevaliers comme paysans arboraient une croix cousue sur leur habit.",
+    "passage_source": "Paysans et chevaliers se font coudre une croix sur leurs vêtements"
+   }
+  ]
+ },
+ {
+  "url": "https://www.herodote.net/Le_dernier_Bourbon-synthese-1756.php",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.historyofbridges.com/famous-bridges/ponte-vecchio",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.implasticfree.com/types-of-plastic/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/pierre-beregovoy",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.jerevise.fr/wp-content/uploads/studio/FRANCAIS/VOCABULAIRE/prefixe-latin/lecon-prefixe-origine-latine.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/dictionnaires/college/Jean_Racine/33281",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/divers/h%C3%A9moglobine/57877",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/mythologie/Charybde_et_Scylla/189269",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/personnage/wd/130430",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/bourbons.py",
+    "avant": "Robert François Damiens blessa le roi d'un coup de canif le 5 janvier 1757.",
+    "apres": "Le 5 janvier 1757, Robert François Damiens frappa le roi avec un canif et le blessa.",
+    "passage_source": "Soldat devenu valet, il blessa Louis XV d'un coup de canif"
+   },
+   {
+    "fichier": "outils/vague2/bourbons.py",
+    "avant": "Il mit fin à la guerre de Sept Ans ; la France céda aussi l'Inde.",
+    "apres": "Ce traité clôt la guerre de Sept Ans ; la France y abandonne aussi l'Inde.",
+    "passage_source": "qui met fin à la guerre de Sept Ans"
+   },
+   {
+    "fichier": "outils/vague2/bourbons.py",
+    "avant": "Il fit fonction de Premier ministre de 1758 à sa disgrâce en 1770.",
+    "apres": "De 1758 jusqu'à sa disgrâce en 1770, il joua le rôle d'un Premier ministre.",
+    "passage_source": "Choiseul fait fonction de Premier ministre de 1758 à 1770"
+   }
+  ]
+ },
+ {
+  "url": "https://www.letribunaldunet.fr/insolite/pourquoi-numeros-departements-francais-origine.html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/departements.py",
+    "avant": "Jusqu'en 1976, toute la Corse portait le numéro 20 ; la Corse-du-Sud a reçu 2A.",
+    "apres": "Avant 1976, un seul numéro, le 20, couvrait l'île ; la Corse-du-Sud a ensuite reçu 2A.",
+    "passage_source": "Jusqu'en 1976, l'île entière portait le numéro 20."
+   },
+   {
+    "fichier": "outils/vague2/departements.py",
+    "avant": "Pourquoi l'Ain porte-t-il le numéro 01 ?",
+    "apres": "D'où vient le numéro 01 attribué à l'Ain ?",
+    "passage_source": "pourquoi l'Ain porte le 01"
+   }
+  ]
+ },
+ {
+  "url": "https://www.merckmanuals.com/fr-ca/accueil/troubles-du-foie-et-de-la-vésicule-biliaire/biologie-du-foie-et-de-la-vésicule-biliaire/foie",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.msdmanuals.com/fr/accueil/troubles-hormonaux-et-métaboliques/troubles-de-l-hypophyse/présentation-de-l-hypophyse",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.nhm.ac.uk/discover/the-monster-whose-bite-saves-lives.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.parcduverdon.fr/sites/default/files/pnrverdon/pdf/2024_FICHE_pollinisateurs_Syrphes.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.pccl.fr/physique_chimie_college_lycee/cinquieme/cours_exercices_corriges/dissolution.pdf",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/melanges_solutions.py",
+    "avant": "Masse du solvant + masse du soluté = masse de la solution.",
+    "apres": "La solution pèse autant que le solvant et le soluté réunis.",
+    "passage_source": "masse solvant + masse soluté = masse solution"
+   }
+  ]
+ },
+ {
+  "url": "https://www.routard.com/fr/mag/dossier/a/les-grands-musees-d-europe",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/chefs_doeuvre_musees.py",
+    "avant": "Le musée occupe un bâtiment néogothique de 1885 dessiné par Cuypers.",
+    "apres": "Son édifice néogothique, œuvre de l'architecte Cuypers, date de 1885.",
+    "passage_source": "un bâtiment néo-gothique de 1885 dessiné par Cuypers"
+   },
+   {
+    "fichier": "outils/vague3/chefs_doeuvre_musees.py",
+    "avant": "L'Ermitage expose aussi Trois femmes tahitiennes sur fond jaune de Gauguin.",
+    "apres": "L'Ermitage montre aussi un Gauguin, « Trois femmes tahitiennes sur fond jaune ».",
+    "passage_source": "Trois femme tahitiennes sur fond jaune de Gauguin"
+   },
+   {
+    "fichier": "outils/vague3/chefs_doeuvre_musees.py",
+    "avant": "Le Belvédère expose aussi La Mort et la Jeune Fille de Schiele.",
+    "apres": "Le Belvédère montre aussi un Schiele, « La Mort et la Jeune Fille ».",
+    "passage_source": "La mort et la jeune fille de Schiele"
+   }
+  ]
+ },
+ {
+  "url": "https://www.schoolmouv.fr/cours/les-genres-du-theatre-et-leurs-caracteristiques/fiche-de-cours",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/theatre_classique.py",
+    "avant": "L'unité de lieu, elle, impose un lieu unique.",
+    "apres": "L'unité de lieu exige, elle, que tout se passe en un seul endroit.",
+    "passage_source": "l'unité de lieu : Elle impose un lieu unique"
+   },
+   {
+    "fichier": "outils/vague3/theatre_classique.py",
+    "avant": "La tragédie met en scène des personnages nobles, rois réels ou légendaires.",
+    "apres": "Les héros tragiques sont de haut rang : des rois, historiques ou légendaires.",
+    "passage_source": "Elle met en scène des personnages nobles, des rois réels ou légendaires"
+   },
+   {
+    "fichier": "outils/vague3/theatre_classique.py",
+    "avant": "Comment appelle-t-on une brève comédie populaire au comique familier, voire grossier ?",
+    "apres": "Quel nom porte une courte pièce comique et populaire, à l'humour familier, parfois grossier ?",
+    "passage_source": "d'une brève comédie populaire à caractère familier, voire grossier"
+   }
+  ]
+ },
+ {
+  "url": "https://www.soutien67.fr/histoire/fiches/moyen_age/cours/rois%2002.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/agar-agar",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/capricorne-des-maisons",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/clivage",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/durete_mineraux.py",
+    "avant": "Deux directions de clivage dominent.",
+    "apres": "Ils se clivent surtout selon deux directions.",
+    "passage_source": "Deux directions de clivage dominantes"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/ester",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/chimie_organique.py",
+    "avant": "Les esters ont souvent une odeur agréable.",
+    "apres": "Beaucoup d'esters dégagent un parfum plaisant.",
+    "passage_source": "Les esters ont souvent une odeur agréable"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/halite",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques-k",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/liste-des-pays-par-point-culminant",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/noyer-commun",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/rio-de-janeiro",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/tulipomanie",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.universalis.fr/encyclopedie/acides-alcools/5-principaux-acides-alcools/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.universalis.fr/encyclopedie/khepri/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.vidal.fr/actualites/38418-cepes-et-bolets-gastronomiques-mais-parfois-toxiques.html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/ajouts_vivant.py",
+    "avant": "En France, le pharmacien est un interlocuteur de première ligne pour identifier une cueillette.",
+    "apres": "En France, on peut d'abord montrer sa récolte au pharmacien, qui aide à l'identifier.",
+    "passage_source": "le pharmacien constitue un interlocuteur de première ligne pour"
+   }
+  ]
+ },
+ {
+  "url": "https://www.worldhistory.org/Giuseppe_Verdi",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-17072/les-chevaliers-hospitaliers/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-430/monnaie/",
+  "statut": "ok",
+  "changements": []
+ }
+]

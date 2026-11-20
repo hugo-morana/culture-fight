@@ -1,0 +1,597 @@
+[
+ {
+  "url": "https://animals.sandiegozoo.org/node/163",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://areq.net/lang/fr/For%C3%AAt_des_Landes.html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/ajouts_vivant.py",
+    "avant": "Quelle forêt française est la plus grande forêt plantée d'Europe occidentale ?",
+    "apres": "Quel massif français, planté par l'homme, est le plus étendu d'Europe occidentale ?",
+    "passage_source": "la plus grande forêt artificielle d'Europe de l'Ouest"
+   }
+  ]
+ },
+ {
+  "url": "https://areq.net/lang/fr/Sept_sommets.html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/sommets.py",
+    "avant": "Quel sommet est parfois désigné comme point culminant de l'Europe à la place de l'Elbrouz ?",
+    "apres": "Quel sommet certains retiennent-ils comme toit de l'Europe, au lieu de l'Elbrouz ?",
+    "passage_source": "est parfois considéré comme le point culminant de l'Europe"
+   }
+  ]
+ },
+ {
+  "url": "https://bo.valhor.fr/wp-content/uploads/2023/10/valhor-afsnn-cpmarchesapins.pdf",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/ajouts_vivant.py",
+    "avant": "Il représente environ 18 % des sapins de Noël naturels vendus en France, loin derrière le sapin de Nordmann (78 %).",
+    "apres": "En France, il pèse environ 18 % des sapins naturels achetés à Noël, contre 78 % pour le Nordmann.",
+    "passage_source": "89 % des sapins de Noël vendus en France en 2022"
+   }
+  ]
+ },
+ {
+  "url": "https://cours-et-fiches.com/dates-cles-histoire-de-france/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://ecampusontario.pressbooks.pub/femmessavantes/chapter/emmy-noether-mathematicienne-1882-1935/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://encycloreader.org/r/wikipedia.php?q=Seine",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://european-union.europa.eu/institutions-law-budget/euro/design_fr",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/monnaies.py",
+    "avant": "La Commission européenne détient les droits d'auteur sur ce symbole.",
+    "apres": "Ce signe est protégé par un droit d'auteur, exercé par la Commission européenne au nom de l'Union.",
+    "passage_source": "L'Union européenne, représentée par la Commission européenne, détient les droits d'auteur sur le symbole de l'euro."
+   },
+   {
+    "fichier": "outils/vague2/monnaies.py",
+    "avant": "Combien de billets différents ont été conçus pour le lancement de l'euro en 2002 ?",
+    "apres": "Combien de coupures différentes furent dessinées pour l'arrivée de l'euro, en 2002 ?",
+    "passage_source": "Pour le lancement de l'euro en janvier 2002"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Amanite_tue-mouches",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Clisth%C3%A8ne_(Ath%C3%A8nes)",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Exp%C3%A9riences_li%C3%A9es_%C3%A0_la_relativit%C3%A9_g%C3%A9n%C3%A9rale",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Guillaume_Apollinaire",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/poetes.py",
+    "avant": "Son auteur est aussi connu pour ses calligrammes et ses acrostiches.",
+    "apres": "Son auteur s'est aussi illustré par des calligrammes et des acrostiches.",
+    "passage_source": "Apollinaire est connu pour ses Calligrammes et ses acrostiches."
+   },
+   {
+    "fichier": "outils/vague3/poetes.py",
+    "avant": "Il meurt à Paris le 9 novembre 1918, pendant l'épidémie de grippe espagnole.",
+    "apres": "Il s'éteint le 9 novembre 1918 à Paris, en pleine épidémie de grippe espagnole.",
+    "passage_source": "il meurt à Paris, le 9 novembre 1918, à l'âge de 38 ans, durant l'épidémie de grippe espagnole"
+   },
+   {
+    "fichier": "outils/vague3/poetes.py",
+    "avant": "Son vrai nom est Guglielmo de Kostrowitzki.",
+    "apres": "À l'état civil, il s'appelait Guglielmo de Kostrowitzki.",
+    "passage_source": "son vrai nom est Guglielmo de Kostrowitzki."
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Lois_du_mouvement_de_Newton",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/lois_newton.py",
+    "avant": "C'est cette force qui la décolle du sol et la propulse dans l'espace.",
+    "apres": "Grâce à cette poussée, elle quitte le sol et s'élance vers l'espace.",
+    "passage_source": "c'est cette force qui la décolle du sol et la propulse dans l'espace"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/PH",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Roche_magmatique",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/roches.py",
+    "avant": "La lave est donc du magma dégazé.",
+    "apres": "Autrement dit, la lave n'est qu'un magma privé de ses gaz.",
+    "passage_source": "la lave est donc un magma dégazé"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Trait%C3%A9_de_Tordesillas",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/grands_traites.py",
+    "avant": "Il fixe la ligne de partage sur un méridien situé à 46° 37' ouest.",
+    "apres": "La frontière qu'il trace suit le méridien de 46° 37' de longitude ouest.",
+    "passage_source": "d'un méridien situé à 46° 37' ouest"
+   },
+   {
+    "fichier": "outils/vague3/grands_traites.py",
+    "avant": "Ces « îles aux Épices » étaient le but principal du voyage de Magellan.",
+    "apres": "Atteindre ces « îles aux Épices » était l'objectif premier de l'expédition de Magellan.",
+    "passage_source": "îles aux Épices et but principal du voyage de Magellan"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/Chronologie_de_la_R%C3%A9volution_fran%C3%A7aise",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/revolution_francaise.py",
+    "avant": "L'Autriche y reconnaît l'annexion de la Belgique par la France.",
+    "apres": "Par ce traité, l'Autriche accepte que la Belgique soit rattachée à la France.",
+    "passage_source": "l'Autriche reconnaît l'annexion de la Belgique"
+   },
+   {
+    "fichier": "outils/vague2/revolution_francaise.py",
+    "avant": "Cinq jours plus tard, Rouget de Lisle écrit le chant qui deviendra « La Marseillaise ».",
+    "apres": "Cinq jours après, Rouget de Lisle compose le futur hymne « La Marseillaise ».",
+    "passage_source": "Rouget de l'Isle écrit un chant qui deviendra La Marseillaise"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/Polyn%C3%A9sie",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://gutenberg.org/files/5103/5103-h/5103-h.htm",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Fizeau_wheel",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://mainweb.awsprod.nlm.nih.gov/exhibition/the-story-of-aspirin/index.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://occitanie.lpo.fr/wp-content/uploads/2024/08/livret-vautour-des-grands-causses.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://pot-pourri.fltr.ucl.ac.be/itinera/Ebook/etymons.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://seashepherd.org/wp-content/uploads/2025/10/VaquitaSurvey-ExecSummary-2025-FINAL.pdf",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://theonlinecitizen.com/2026/05/15/indonesian-court-rules-jakarta-remains-capital-until-presidential-decree-issued",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Augustus",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_official_languages_by_state",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://worddisk.com/wiki/Atlas_(anatomy",
+  "statut": "inaccessible",
+  "changements": []
+ },
+ {
+  "url": "https://www.allodocteurs.fr/peut-on-vivre-sans-vesicule-biliaire-43576.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.bio-scene.org/sites/default/files/fe-bbuteo-290321.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.culawreview.org/current-events-2/article-493-in-france-a-political-tool",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.eia.gov/international/content/analysis/special_topics/World_Oil_Transit_Chokepoints",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/maison/questions-reponses/jardinage-cepes-bolets-champignons-savez-vous-vraiment-differencier-23446/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/geologie-ponce-508/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/zoologie-lucane-cerf-volant-12453/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/questions-reponses/terre-sont-apparus-premiers-oiseaux-20638/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sante/definitions/medecine-ulna-8254/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sciences/definitions/physique-nombre-mach-3569/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/vitesse_acceleration.py",
+    "avant": "C'est pourquoi les avions supersoniques ont souvent des ailes en flèche.",
+    "apres": "Voilà pourquoi on donne souvent aux appareils supersoniques une voilure en flèche.",
+    "passage_source": "les avions supersoniques sont souvent dotés d'ailes en flèche"
+   }
+  ]
+ },
+ {
+  "url": "https://www.guinnessworldrecords.com/news/2019/6/the-animal-from-which-great-whites-flee-five-killer-records-held-by-orcas-576308.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/21_octobre_1680-evenement-16801021.php",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/theatre_classique.py",
+    "avant": "Elle réunit les troupes de l'Hôtel de Bourgogne et de l'Hôtel Guénégaud.",
+    "apres": "Elle naît de la fusion de deux troupes : celle de l'Hôtel Guénégaud et celle de l'Hôtel de Bourgogne.",
+    "passage_source": "de l'hôtel de Bourgogne et de l'hôtel Guénégaud"
+   }
+  ]
+ },
+ {
+  "url": "https://www.herodote.net/Il_dechiffre_les_hieroglyphes_et_redonne_vie_aux_pharaons-synthese-3337-145.php",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/pharaons.py",
+    "avant": "Dacier était le secrétaire perpétuel de l'Académie des inscriptions et belles-lettres.",
+    "apres": "L'Académie des inscriptions et belles-lettres avait alors Dacier pour secrétaire perpétuel.",
+    "passage_source": "secrétaire perpétuel de l'Académie des inscriptions et belles-lettres"
+   }
+  ]
+ },
+ {
+  "url": "https://www.herodote.net/Un_roi_administrateur-synthese-91.php",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/capetiens.py",
+    "avant": "Jeanne de Navarre lui apporte la Champagne et la Brie en dot.",
+    "apres": "La Champagne et la Brie faisaient partie de la dot de Jeanne de Navarre.",
+    "passage_source": "qui lui a apporté en dot la Champagne et la Brie"
+   },
+   {
+    "fichier": "outils/vague2/capetiens.py",
+    "avant": "La même année, le 18 mai 1302, les habitants de Bruges massacrent la garnison française.",
+    "apres": "Cette même année, le 18 mai 1302, les Brugeois se soulèvent et tuent les soldats français qui occupent leur ville.",
+    "passage_source": "le 18 mai 1302, les habitants de Bruges massacrent la garnison française"
+   }
+  ]
+ },
+ {
+  "url": "https://www.ifaw.org/animals/slow-lorises",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/lionel-jospin",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/gouvernements_ve.py",
+    "avant": "Il dirige le gouvernement de gauche le plus durable de la Ve République (1997-2002).",
+    "apres": "De 1997 à 2002, il conduit l'équipe de gauche restée le plus longtemps au pouvoir sous la Ve République.",
+    "passage_source": "du gouvernement de gauche le plus durable de l'histoire de la Ve République"
+   },
+   {
+    "fichier": "outils/vague3/gouvernements_ve.py",
+    "avant": "Il crée une union civile ouverte quel que soit le sexe des contractants.",
+    "apres": "Il instaure une union civile accessible aux couples de même sexe comme de sexe différent.",
+    "passage_source": "union civile, quel que soit le sexe des contractants"
+   }
+  ]
+ },
+ {
+  "url": "https://www.italia.it/fr/venetie/venise/faits-historiques",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.lalibre.be/lifestyle/magazine/2021/05/01/tout-ce-que-vous-avez-toujours-voulu-savoir-sur-la-glycine-ZDIKJFFTHBEZHHRYNAG2TRG5NM/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/divers/circulation_sanguine/34108",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/litterature/Villon/177833",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/poetes.py",
+    "avant": "Il avait tué un prêtre au cours d'une rixe en 1455.",
+    "apres": "En 1455, lors d'une bagarre, il avait mortellement frappé un prêtre.",
+    "passage_source": "il tue un prêtre au cours d'une rixe"
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/personnage/wd/111926",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.lavenir.net/actu/monde/2022/07/11/le-15-novembre-le-monde-devrait-compter-8-milliards-dhumains-WB2ZL6UQIFCNJF6YPE4J5ZOWNA/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.mcgill.ca/oss/node/9889",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.motherjones.com/politics/2014/02/evolution-creationism-bonobos-neanderthals-denisovans-chromosome-two/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.nhm.ac.uk/discover/200-years-of-dinosaur-discoveries.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.osr.ch/fileadmin/user_upload/Jeunes/Docs_PDF/OSR_BROCHURE_DECOUVERTE_ORCHESTRE_2025.pdf",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/instruments_musique.py",
+    "avant": "Les cordes les plus courtes donnent les notes les plus aiguës.",
+    "apres": "Plus une corde est courte, plus le son qu'elle produit est aigu.",
+    "passage_source": "les plus courtes donnent les notes les plus aiguës"
+   },
+   {
+    "fichier": "outils/vague3/instruments_musique.py",
+    "avant": "Le laiton est un alliage de cuivre et de zinc.",
+    "apres": "On obtient le laiton en alliant du cuivre à du zinc.",
+    "passage_source": "laiton, un alliage de cuivre et de zinc"
+   }
+  ]
+ },
+ {
+  "url": "https://www.pass-education.fr/free-pdf/parcours-1913147-solubilite-et-miscibilite-5eme-cours.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.rmg.co.uk/stories/maritime-history/roald-amundsen-polar-explorer",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.schoolmouv.fr/cours/formes-et-genres-de-la-poesie/fiche-de-cours",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.schoolmouv.fr/fiches-de-lecture/les-fleurs-du-mal/fiche-de-lecture",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/poetes.py",
+    "avant": "Beaucoup de poèmes du recueil sont dédiés à des amis ou à des artistes.",
+    "apres": "De nombreuses pièces du recueil portent une dédicace à un ami ou à un artiste.",
+    "passage_source": "La plupart des poèmes sont dédiés à des amis ou à autres artistes"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/definition/4662.html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/durete_mineraux.py",
+    "avant": "L'ongle a une dureté d'environ 2,2 : il raye le gypse mais pas la calcite.",
+    "apres": "Avec sa dureté proche de 2,2, l'ongle entame le gypse, mais reste sans effet sur la calcite.",
+    "passage_source": "L'ongle a une dureté de 2,2 et raye donc le gypse mais pas la calcite."
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/bec-bunsen",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/chute-libre-physique",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/eclat",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/durete_mineraux.py",
+    "avant": "Comment s'appelle la perception de la façon dont un minéral réfléchit la lumière ?",
+    "apres": "Quel terme désigne l'aspect d'un minéral selon la manière dont il renvoie la lumière ?",
+    "passage_source": "la perception visuelle de la manière dont un minéral réfléchit la lumière"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/granite",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/roches.py",
+    "avant": "Avec ses roches associées, il forme l'essentiel de la croûte continentale.",
+    "apres": "Lui et les roches qui l'accompagnent composent la majeure partie de la croûte des continents.",
+    "passage_source": "ses roches associées forment l'essentiel de la croûte continentale"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques-c",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/liste-des-elements-chimiques-par-temperature-de-fusion",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/muscle-triceps-sural",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/poussee-d-archimede",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/forces.py",
+    "avant": "Son Traité des corps flottants pose les bases de l'hydrostatique.",
+    "apres": "L'hydrostatique repose sur les fondements posés dans son Traité des corps flottants.",
+    "passage_source": "son Traité des corps flottants jette les bases de"
+   },
+   {
+    "fichier": "outils/vague4/forces.py",
+    "avant": "Le théorème d'Archimède suppose que le fluide et le corps soient au repos.",
+    "apres": "Ce théorème ne vaut que si le corps et le fluide sont tous deux immobiles.",
+    "passage_source": "que le fluide immergeant et le corps immergé soient au repos"
+   },
+   {
+    "fichier": "outils/vague4/forces.py",
+    "avant": "Pour un sous-marin, le centre de carène doit être au-dessus du centre de gravité.",
+    "apres": "Dans un sous-marin, le centre de gravité doit se situer plus bas que le centre de carène.",
+    "passage_source": "il est nécessaire que le centre de carène soit situé au-dessus du centre de gravité"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/solution-chimie",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/melanges_solutions.py",
+    "avant": "Les substances minoritaires, dissoutes, sont les solutés.",
+    "apres": "Les corps dissous, présents en plus faible quantité, s'appellent les solutés.",
+    "passage_source": "les substances minoritaires sont les solutés"
+   },
+   {
+    "fichier": "outils/vague3/melanges_solutions.py",
+    "avant": "Comment appelle-t-on une solution qui ne peut plus dissoudre de soluté ?",
+    "apres": "Quel nom donne-t-on à une solution incapable d'accueillir davantage de soluté ?",
+    "passage_source": "une solution qui ne peut plus dissoudre de soluté"
+   }
+  ]
+ },
+ {
+  "url": "https://www.thecanadianencyclopedia.ca/fr/article/traite-de-paris-1763",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.universalis.fr/encyclopedie/fleurs-de-lis/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.vapko.ch/phocadownload/public/FR/A-Z/confusions.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.weka.fr/actualite/?p=3294",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-15951/croisades/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-335/bataille-des-thermopyles/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.wwf.ch/sites/default/files/doc-2021-07/2021-07-materiel-pedagogique-science-des-pommes-de-pin.pdf",
+  "statut": "ok",
+  "changements": []
+ }
+]

@@ -1,0 +1,609 @@
+[
+ {
+  "url": "https://africamap.net/flags",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://areq.net/lang/fr/Acropole_d'Ath%C3%A8nes.html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/grece_antique.py",
+    "avant": "La colline culmine à environ 156 m.",
+    "apres": "Son sommet se dresse à quelque 156 mètres.",
+    "passage_source": "La colline s'élève à 156 mètres."
+   }
+  ]
+ },
+ {
+  "url": "https://areq.net/lang/fr/Newton_(unit%C3%A9).html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/lois_newton.py",
+    "avant": "Le nom de l'unité s'écrit en minuscule, son symbole N en majuscule.",
+    "apres": "On écrit « newton » sans capitale, mais son symbole est un N capital.",
+    "passage_source": "d'écrire le nom de l'unité (newton) en minuscule et le symbole (N) en majuscule"
+   },
+   {
+    "fichier": "outils/vague4/lois_newton.py",
+    "avant": "Sur Terre, une masse de 1 kg pèse environ 9,806 65 N.",
+    "apres": "À la surface terrestre, le poids d'un kilogramme avoisine 9,806 65 N.",
+    "passage_source": "Sur Terre, une masse de 1 kg génère une force (poids) de 9,806 65 N"
+   },
+   {
+    "fichier": "outils/vague4/lois_newton.py",
+    "avant": "Elle augmente la vitesse d'une masse de 1 kg de 1 m/s chaque seconde.",
+    "apres": "Appliquée à 1 kg, elle le fait accélérer de 1 m/s à chaque seconde.",
+    "passage_source": "augmenter la vitesse d'une masse de 1 kg de 1 m s−1 chaque seconde"
+   }
+  ]
+ },
+ {
+  "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/W%C3%B6hler_synthesis.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://cnes.fr/dossiers/impesanteur",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/gravitation.py",
+    "avant": "Pendant ce temps, l'avion et ses passagers sont en chute libre.",
+    "apres": "Durant ces secondes, appareil et occupants tombent librement ensemble.",
+    "passage_source": "l'avion et ses passagers se retrouvent en chute libre"
+   }
+  ]
+ },
+ {
+  "url": "https://earth.com/news/saving-the-iberian-lynx-how-humans-rescued-this-rare-feline-from-extinction",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://encycloreader.org/r/wikipedia.php?q=Danube",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://espacepourlavie.ca/quest-ce-quun-insecte",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.geneawiki.com/wiki/Liste_des_rois_de_France",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Cap%C3%A9tien_(dynastie)",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Dinosaure",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/ajouts_vivant.py",
+    "avant": "Ils sont apparus il y a environ 230 millions d'années.",
+    "apres": "Leur apparition remonte à quelque 230 millions d'années.",
+    "passage_source": "Les dinosaures sont apparus il y a environ 230 millions d'années"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Grand_dauphin",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Levure_de_boulanger",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Olympiens",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/dieux_grecs.py",
+    "avant": "Elle est la fille de Zeus et de Léto.",
+    "apres": "Ses parents sont Zeus et Léto.",
+    "passage_source": "elle la fille de Zeus et de"
+   },
+   {
+    "fichier": "outils/vague3/dieux_grecs.py",
+    "avant": "Il est le fils de Zeus et de Sémélé.",
+    "apres": "Ses parents sont Zeus et Sémélé.",
+    "passage_source": "Il est le fils de Zeus et de Sémélé"
+   },
+   {
+    "fichier": "outils/vague3/dieux_grecs.py",
+    "avant": "Il est le fils de Zeus et d'Héra.",
+    "apres": "Ses parents sont Zeus et Héra.",
+    "passage_source": "Il est le fils de Zeus et de son épouse Héra"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/R%C3%A9action_acido-basique",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/acides_bases.py",
+    "avant": "Que produit la réaction entre un acide et une base ?",
+    "apres": "Qu'obtient-on quand un acide réagit avec une base ?",
+    "passage_source": "une réaction entre un acide et une base"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Tipule",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Zone_euro",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/monnaies.py",
+    "avant": "Andorre utilisait auparavant le franc français et la peseta espagnole.",
+    "apres": "Avant l'euro, Andorre se servait de deux monnaies voisines : franc français et peseta espagnole.",
+    "passage_source": "utilisait le franc français et la peseta espagnole"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/Lynx_bor%C3%A9al_en_France",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://gd.eppo.int/taxon/LPTNDE/datasheet",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://iucn.org/fr/blog/202602/le-rorqual-commun-de-mediterranee-le-levrier-des-mers",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://lepetitjournal.com/londres/angleterre-pays-de-galles-ecosse-et-irlande-du-nord-chacun-sa-fleur-281491",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://news.mongabay.com/short-article/2026/05/iceland-plans-to-resume-whale-hunting-this-summer/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://phys.org/news/2019-04-european-eel-spawn-km-wide.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://samplecontents.library.ph/wikipedia/wp/n/Norse_mythology.htm",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://startercultures.eu/top-5-most-popular-molds-used-for-fermentation",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://whc.unesco.org/fr/histoires-abu-simbel/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_21st-century_earthquakes",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.riteme.site/wiki/C%C3%B4te_de_Granit_Rose",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.alimentarium.org/fr/node/1609",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/chimie_cuisine.py",
+    "avant": "L'huile y est dispersée en fines gouttelettes dans l'eau.",
+    "apres": "De minuscules gouttes d'huile y baignent dans une phase aqueuse.",
+    "passage_source": "dans ce cas, l'huile est dispersée en gouttelettes dans l'eau"
+   },
+   {
+    "fichier": "outils/vague4/chimie_cuisine.py",
+    "avant": "Ce sont des lipides liés à l'acide phosphorique.",
+    "apres": "Ces molécules associent un lipide et de l'acide phosphorique.",
+    "passage_source": "ce sont les phospholipides (lipides liés à l'acide phosphorique)"
+   }
+  ]
+ },
+ {
+  "url": "https://www.aucklandzoo.co.nz/animals/tuatara",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.connexionfrance.com/news/can-you-name-in-order-frances-prime-ministers-since-2017/743426",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.discoverwildlife.com/prehistoric-life/animal-ancestors",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.foxweather.com/learn/7-facts-about-earthquakes",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/geologie-grande-oxydation-11051/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/terre-tuffeau-1051/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/questions-reponses/insectes-differencier-abeille-guepe-frelon-bourdon-19193/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sante/definitions/medecine-carotene-3101/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sciences/definitions/chimie-ozone-723/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.gla.ac.uk/news/archiveofnews/2008/march/headline_69551_en.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/12_octobre_1492-evenement-14921012.php",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/explorateurs.py",
+    "avant": "Ses habitants étaient des Taïnos, du groupe des Arawaks.",
+    "apres": "L'île était peuplée de Taïnos, un peuple arawak.",
+    "passage_source": "des Taïnos, des Indiens du groupe des Arawaks"
+   }
+  ]
+ },
+ {
+  "url": "https://www.herodote.net/6_juin_1944-synthese-1934.php",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/Pere_tranquille_de_cent_heros-synthese-199.php",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.hotellerie-restauration.ac-versailles.fr/IMG/pdf/8-_fiche_d_analyse_technique_-_les_e_mulsifiants.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/jacques-chirac-1974-1976",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/gouvernements_ve.py",
+    "avant": "Elle est défendue au Parlement par la ministre de la Santé Simone Veil.",
+    "apres": "C'est Simone Veil, alors à la Santé, qui la porte devant les députés et sénateurs.",
+    "passage_source": "défendue par la ministre de la santé Simone Veil"
+   }
+  ]
+ },
+ {
+  "url": "https://www.inverse.com/article/47833-hiroshima-gingko-trees-atomic-bomb",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.lalanguefrancaise.com/articles/47-locutions-latines/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/etymologie_latine.py",
+    "avant": "On la traduit par « cueille le jour, et ne crois pas au lendemain ».",
+    "apres": "Le vers complet invite à cueillir le jour sans se fier au lendemain.",
+    "passage_source": "Cueille le jour, et ne crois pas au lendemain"
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/dictionnaires/memo/Les_familles_d_instruments/23",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/divers/plasma/80379",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/personnage/Louis_XIII/130426",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/bourbons.py",
+    "avant": "Né en 1601, il était le fils d'Henri IV et de Marie de Médicis.",
+    "apres": "Né en 1601, il avait pour parents Henri IV et Marie de Médicis.",
+    "passage_source": "fils d'Henri IV et de Marie de Médicis"
+   },
+   {
+    "fichier": "outils/vague2/bourbons.py",
+    "avant": "La France entrait ainsi ouvertement dans la guerre de Trente Ans.",
+    "apres": "Le royaume prenait dès lors part au grand jour à la guerre de Trente Ans.",
+    "passage_source": "entrant ainsi dans la guerre de Trente Ans"
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/vie-sauvage/dauphin/178157",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.liquisearch.com/les_rougon-macquart/list_of_the_novels",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.milandes.com/wp-content/uploads/2022/04/fiche-cycle3-fauconnerie-exe-sciences.pdf",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/ajouts_vivant.py",
+    "avant": "Cette coiffe de cuir plonge l'oiseau dans l'obscurité pour qu'il reste calme.",
+    "apres": "Ce petit casque de cuir met le rapace dans le noir afin de l'apaiser.",
+    "passage_source": "Cette coiffe de cuir sert à plonger l'oiseau dans l'obscurité pour qu'il reste calme."
+   }
+  ]
+ },
+ {
+  "url": "https://www.napoleon.org/histoire-des-2-empires/articles/le-code-civil-des-francais-21-mars-1804-quelques-points-de-repere/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/premier_empire.py",
+    "avant": "Elle ne peut accomplir aucun acte juridique sans son accord.",
+    "apres": "Sans le consentement de son mari, aucun acte juridique ne lui est permis.",
+    "passage_source": "ne peut accomplir aucun acte juridique sans son accord"
+   }
+  ]
+ },
+ {
+  "url": "https://www.nomadeducation.fr/revisions/seconde-generale-tout-le-programme-lb3c5f27/1766-1769-le-voyage-de-bougainville-cy1c2719",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/explorateurs.py",
+    "avant": "Son récit nourrit le mythe du « bon sauvage », cher à Rousseau.",
+    "apres": "Sa relation de voyage alimente l'image du « bon sauvage » chère à Rousseau.",
+    "passage_source": "Son récit connaît un immense succès et nourrit le mythe du “bon sauvage”, cher aux philosophes comme Rousseau."
+   }
+  ]
+ },
+ {
+  "url": "https://www.paristickets.com/fr/louvre-museum/artworks/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/chefs_doeuvre_musees.py",
+    "avant": "Géricault transforme un naufrage réel en scène monumentale, en 1818-1819.",
+    "apres": "En 1818-1819, Géricault fait d'un vrai naufrage un tableau gigantesque.",
+    "passage_source": "Géricault transforme un naufrage réel en une scène monumentale"
+   },
+   {
+    "fichier": "outils/vague3/chefs_doeuvre_musees.py",
+    "avant": "Cette stèle babylonienne porte l'un des textes juridiques les plus complets de l'Antiquité.",
+    "apres": "Gravée à Babylone, cette stèle offre l'un des recueils de lois antiques les plus complets.",
+    "passage_source": "Cette stèle monumentale conserve l'un des textes juridiques les plus complets de l'Antiquité"
+   }
+  ]
+ },
+ {
+  "url": "https://www.publicsenat.fr/actualites/politique/resultats-presidentielle-20222-carte-et-analyses-en-direct-du-second-tour",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.sante.fr/diabete-de-type-1-une-maladie-auto-immune-de-plus-en-plus-frequente-0",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.schoolmouv.fr/cours/sismologie-et-structure-de-la-terre/fiche-de-cours",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.superprof.fr/ressources/langues/francais/autres-niveaux-fr1/tout-niveau-fr1/auteurs-romanciers-realistes.html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/romanciers_xixe.py",
+    "avant": "Pour Maupassant, « faire vrai » consiste à donner « l'illusion complète du vrai ».",
+    "apres": "Selon Maupassant, le romancier réaliste doit offrir « l'illusion complète du vrai ».",
+    "passage_source": "Faire vrai consiste donc à donner l'illusion complète du vrai"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/atmosphere-terrestre",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/gaz_air.py",
+    "avant": "Elle contient 80 à 90 % de la masse de l'air.",
+    "apres": "Elle concentre l'essentiel de l'air : 80 à 90 % de sa masse.",
+    "passage_source": "Elle contient 80 à 90 % de la masse totale de l'air"
+   },
+   {
+    "fichier": "outils/vague3/gaz_air.py",
+    "avant": "On y trouve environ 90 % de l'ozone de l'atmosphère.",
+    "apres": "Elle abrite près des neuf dixièmes de l'ozone atmosphérique.",
+    "passage_source": "Près de 90 % de l'ozone de l'atmosphère se trouve dans la stratosphère"
+   },
+   {
+    "fichier": "outils/vague3/gaz_air.py",
+    "avant": "Quelle est la pression atmosphérique moyenne au niveau de la mer ?",
+    "apres": "Que vaut en moyenne la pression de l'air au niveau de la mer ?",
+    "passage_source": "La pression atmosphérique moyenne, au niveau de la mer, est de 1 013 hectopascals"
+   },
+   {
+    "fichier": "outils/vague3/gaz_air.py",
+    "avant": "Quelle couche de l'atmosphère contient 80 à 90 % de la masse de l'air ?",
+    "apres": "Dans quelle couche de l'atmosphère se concentrent 80 à 90 % de l'air, en masse ?",
+    "passage_source": "Elle contient 80 à 90 % de la masse totale de l'air"
+   },
+   {
+    "fichier": "outils/vague3/gaz_air.py",
+    "avant": "Comment s'appelle la frontière entre la troposphère et la stratosphère ?",
+    "apres": "Quel nom porte la limite qui sépare troposphère et stratosphère ?",
+    "passage_source": "La tropopause est la frontière entre la troposphère et la stratosphère."
+   },
+   {
+    "fichier": "outils/vague3/gaz_air.py",
+    "avant": "Elle y atteint 2 à 8 ppm.",
+    "apres": "On en mesure là de 2 à 8 ppm.",
+    "passage_source": "où elle est de 2 à 8 ppm"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/cheveche-d-athena",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/craie",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/figue",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/indicateur-de-ph",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/acides_bases.py",
+    "avant": "Il prend presque instantanément la teinte correspondant au pH du milieu.",
+    "apres": "Sa couleur s'ajuste presque aussitôt au pH de la solution testée.",
+    "passage_source": "il prend instantanément la tonalité correspondant au pH du milieu"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques-t",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/marbre",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/roches.py",
+    "avant": "Son nom vient du latin marmor.",
+    "apres": "Il tire son nom du mot latin marmor.",
+    "passage_source": "Le mot vient du latin marmor."
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/pin-parasol",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/saccharose",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/formules_chimiques.py",
+    "avant": "C'est le constituant du sucre blanc courant.",
+    "apres": "Le sucre blanc ordinaire en est fait.",
+    "passage_source": "Ce sucre est le constituant du sucre blanc courant."
+   },
+   {
+    "fichier": "outils/vague3/molecules_quotidien.py",
+    "avant": "Chauffé, le saccharose caramélise vers 160 °C.",
+    "apres": "Sous l'effet de la chaleur, il se change en caramel vers 160 °C.",
+    "passage_source": "Le saccharose caramélise à 160 °C."
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/glossaire-definition/Eau.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.universalis.fr/encyclopedie/cinquieme-republique-les-annees-chirac-1995-2007/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.universalis.fr/encyclopedie/precolombiens-le-peuplement-initial-des-ameriques/3-la-question-des-voies-empruntees/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.virginiaplaces.org/boundaries/dcboundarypotomac.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/article/1678/the-megalithic-temples-of-malta/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-197/sparte/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/grece_antique.py",
+    "avant": "Les deux rois y siégeaient aussi ; c'était également la plus haute cour de justice.",
+    "apres": "Les deux rois en faisaient partie ; ce conseil servait en outre de tribunal suprême.",
+    "passage_source": "elle était également la plus haute cour de Sparte"
+   }
+  ]
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/2-2060/lobsidienne-en-mesoamerique/",
+  "statut": "inaccessible",
+  "changements": []
+ }
+]

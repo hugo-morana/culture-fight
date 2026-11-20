@@ -1,0 +1,593 @@
+[
+ {
+  "url": "https://Www.physio-Pedia.com/Pectoralis_major",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://apprendre-reviser-memoriser.fr/wp-content/uploads/2024/03/formation-des-mots-racines-grecques-et-latines.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://areq.net/lang/fr/Lac_Ladoga.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://aufutur.fr/revisions/francais/tout-savoir-sur-la-poesie-romantique/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/poetes.py",
+    "avant": "Ce recueil métaphysique est écrit après la mort de sa fille Léopoldine.",
+    "apres": "Ce recueil métaphysique est composé après la disparition de Léopoldine, la fille du poète.",
+    "passage_source": "raconte son deuil après la mort de sa fille Léopoldine"
+   },
+   {
+    "fichier": "outils/vague3/poetes.py",
+    "avant": "Publiées en 1820, elles marquent le point de départ du romantisme français.",
+    "apres": "Parues en 1820, elles sont vues comme l'acte de naissance du romantisme en France.",
+    "passage_source": "publiées en 1820, qui marquent symboliquement le point de départ du romantisme français"
+   },
+   {
+    "fichier": "outils/vague3/poetes.py",
+    "avant": "Ce recueil grave évoque le silence de Dieu et la solitude du poète.",
+    "apres": "Ce recueil grave médite sur un Dieu muet et sur l'isolement du poète.",
+    "passage_source": "Il interroge la condition humaine, le silence de Dieu, la solitude du poète"
+   },
+   {
+    "fichier": "outils/vague3/poetes.py",
+    "avant": "Ce poème de Vigny illustre une éthique du devoir et du courage silencieux.",
+    "apres": "Dans ce poème, Vigny défend une morale du devoir et un courage qui se tait.",
+    "passage_source": "illustre une éthique du devoir, du courage silencieux face à la fatalité"
+   }
+  ]
+ },
+ {
+  "url": "https://ccla.fr/wp-content/uploads/2020/09/Gestion-et-protection.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://davidmoore.org.uk/21st_Century_Guidebook_to_Fungi_PLATINUM/Ch17_25.htm",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://enchantedlearning.com/subjects/dinosaurs/facts/Pteranodon",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://espace-sciences.org/juniors/animaux/le-bebe-coccinelle-devore-les-pucerons",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://figaronautisme.meteoconsult.fr/actus-nautisme-lifestyle/2026-10-20/93382-chateau-d-if-spinalonga-ile-du-diable-ces-iles-prisons-paradisiaques-au-passe-terrifiant",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/iles.py",
+    "avant": "L'archipel compte l'île Royale, l'île Saint-Joseph et l'île du Diable.",
+    "apres": "L'île Royale, l'île du Diable et Saint-Joseph forment cet archipel.",
+    "passage_source": "l'île Royale, l'île Saint-Joseph et l'île du Diable"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Bataille_de_Verdun",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/D%C3%A9partement_fran%C3%A7ais",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/departements.py",
+    "avant": "Leur nombre, leurs limites et leurs noms ont été fixés le 26 février 1790.",
+    "apres": "C'est le 26 février 1790 qu'on arrête leur nombre, leur tracé et leur nom.",
+    "passage_source": "Leur nombre, leurs limites et leur nom ont été décidés le 26 février 1790."
+   },
+   {
+    "fichier": "outils/vague2/departements.py",
+    "avant": "Les conquêtes de la Révolution et de l'Empire ont étendu le territoire.",
+    "apres": "Le territoire s'est agrandi grâce aux conquêtes révolutionnaires puis impériales.",
+    "passage_source": "les conquêtes de la Révolution et de Napoléon"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Force",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Jean_Moulin",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/guerres_mondiales.py",
+    "avant": "Ses cendres reposaient auparavant au cimetière du Père-Lachaise.",
+    "apres": "Avant le Panthéon, c'est au Père-Lachaise que se trouvaient ses cendres.",
+    "passage_source": "Ses cendres d'abord enterrées au cimetière du Père-Lachaise"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Moby_Dick",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Pouss%C3%A9e_d%27Archim%C3%A8de",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Sept_merveilles_du_monde",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Victor_Hugo",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/romanciers_xixe.py",
+    "avant": "Son exil dure jusqu'à la fin du Second Empire, en septembre 1870.",
+    "apres": "Il ne rentre en France qu'à la chute du Second Empire, en septembre 1870.",
+    "passage_source": "jusqu'à la fin du Second Empire en septembre 1870"
+   },
+   {
+    "fichier": "outils/vague3/theatre_classique.py",
+    "avant": "Cette bataille fait de Victor Hugo le chef du mouvement romantique.",
+    "apres": "À l'issue de cette bataille, Hugo prend la tête des romantiques.",
+    "passage_source": "Cette bataille d'Hernani fait de Victor Hugo le chef du mouvement romantique."
+   }
+  ]
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/Honor%C3%A9-Gabriel_Riqueti_de_Mirabeau",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/revolution_francaise.py",
+    "avant": "Premier occupant du Panthéon, il en est retiré après la découverte de ses liens secrets avec la royauté.",
+    "apres": "Premier admis au Panthéon, il en est sorti quand on apprend qu'il traitait en secret avec la monarchie.",
+    "passage_source": "la découverte de ses relations secrètes avec la royauté"
+   },
+   {
+    "fichier": "outils/vague2/revolution_francaise.py",
+    "avant": "On découvrit ses relations secrètes avec la royauté après sa mort.",
+    "apres": "Après sa mort, on apprit qu'il traitait en secret avec la monarchie.",
+    "passage_source": "la découverte de ses relations secrètes avec la royauté"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/Tigre_de_Sib%C3%A9rie",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://iiab.live/kiwix/content/wikipedia_en_all_maxi_2023-05/A/Prison_island",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://leclaireur.fnac.com/selection/cp52284-les-meilleurs-romans-francais-du-xixe-siecle/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/romanciers_xixe.py",
+    "avant": "Ce roman de 1862 suit Jean Valjean de sa sortie du bagne jusqu'à sa mort.",
+    "apres": "Ce roman de 1862 accompagne Jean Valjean de sa libération du bagne à son dernier souffle.",
+    "passage_source": "on le suit de sa sortie du bagne jusqu'à sa mort"
+   },
+   {
+    "fichier": "outils/vague3/romanciers_xixe.py",
+    "avant": "Paru en 1885, il plonge le lecteur dans les mines du nord de la France.",
+    "apres": "Paru en 1885, il entraîne le lecteur au fond des puits miniers du Nord.",
+    "passage_source": "dans les mines du nord de la France"
+   },
+   {
+    "fichier": "outils/vague3/romanciers_xixe.py",
+    "avant": "Ancien forçat, il est suivi de sa sortie du bagne jusqu'à sa mort.",
+    "apres": "Le récit suit cet ancien forçat depuis sa libération jusqu'à son dernier jour.",
+    "passage_source": "on le suit de sa sortie du bagne jusqu'à sa mort"
+   },
+   {
+    "fichier": "outils/vague3/romanciers_xixe.py",
+    "avant": "Cette jeune danseuse bohémienne est accusée d'un meurtre qu'elle n'a pas commis.",
+    "apres": "On reproche à cette jeune danseuse bohémienne un meurtre dont elle est innocente.",
+    "passage_source": "qu'elle soit accusée d'un meurtre qu'elle n'a pas commis"
+   }
+  ]
+ },
+ {
+  "url": "https://museumdiamonds.com/regent/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://perso.ens-lyon.fr/pascal.wang/Agr%c3%a9gation%20externe/LC/LC_11_Mol%c3%a9cules%20de%20la%20sant%c3%a9%20(Lyc%c3%a9e)/LC_11_Mol%c3%a9cules%20de%20la%20sant%c3%a9%20(Lyc%c3%a9e).pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://radiopaedia.org/articles/alveoli?lang=us",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://site.ac-martinique.fr/wp-content/uploads/sites/63/2018/07/Th%c3%a9%c3%a2tre.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://webcf.waybackmachine.org/web/20211008000241/http://en.wikipedia.org/wiki/Permian",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Hangul",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.riteme.site/wiki/2023_Morocco_earthquake",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.Britannica.com/list/stealing-beauty-11-notable-art-thefts",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.amnh.org/explore/ology/earth/volcanoes-magma-rising",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.colgate.com/fr-ca/oral-health/fluoride/how-fluoride-protects-your-smile-and-treatment-options",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.data.ruedesecoles.com/RueDesEcoles/Pdf/LitRef/littreref_51.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.enchantedlearning.com/subjects/dinosaurs/allabout/Names.shtml",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/botanique-olivier-8064/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/structure-terre-geyser-1499/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/questions-reponses/botanique-difference-chataigne-marron-5942/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sante/definitions/corps-humain-muscle-zygomatique-15034/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sciences/actualites/prehistoire-insectes-geants-theorie-oxygene-vacille-face-nouvelle-etude-133362/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sciences/questions-reponses/histoire-alfred-lacroix-reconstitue-eruption-meurtriere-montagne-pelee-martinique-17429/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.guinnessworldrecords.com/world-records/tallest-tree-living",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/27_septembre_1822-evenement-18220927.php",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/Le_roi_6_fois_converti-synthese-258.php",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.hominides.com/?p=20",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.info.gouv.fr/actualite/la-petite-histoire-de-lhotel-de-matignon",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/gouvernements_ve.py",
+    "avant": "Avec 1,9 hectare, ce jardin est l'un des plus grands jardins privés de Paris.",
+    "apres": "Avec ses 1,9 hectare, c'est l'un des jardins privés les plus vastes de la capitale.",
+    "passage_source": "Celui de Matignon est le des plus grands jardins privés de Paris"
+   }
+  ]
+ },
+ {
+  "url": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/pierre-mauroy",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/gouvernements_ve.py",
+    "avant": "Il refuse de faire sortir la France du Système monétaire européen.",
+    "apres": "Il s'oppose à un retrait de la France du Système monétaire européen.",
+    "passage_source": "conseillent au président Mitterrand de sortir la France du Système monétaire européen"
+   }
+  ]
+ },
+ {
+  "url": "https://www.kunc.org/npr-news/2012-10-11/100-years-ago-maillard-taught-us-why-our-food-tastes-better-cooked",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/dictionnaires/college/Jean_de_La_Fontaine/23061",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/divers/musée_d_Orsay/136386",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/peintres_impressionnistes.py",
+    "avant": "Il possède la plus importante collection de peinture impressionniste au monde.",
+    "apres": "Aucun musée au monde ne réunit davantage de toiles impressionnistes.",
+    "passage_source": "Il possède la plus importance collection de peinture impressionniste au monde."
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/oeuvre/Cyrano_de_Bergerac/115382",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/theatre_classique.py",
+    "avant": "Cette comédie en cinq actes et en vers triomphe en 1897.",
+    "apres": "Écrite en vers et découpée en cinq actes, cette comédie triomphe en 1897.",
+    "passage_source": "Comédie en 5 actes et en vers"
+   },
+   {
+    "fichier": "outils/vague3/theatre_classique.py",
+    "avant": "Ce beau cadet sans esprit ni talent d'expression aime Roxane.",
+    "apres": "Ce séduisant cadet, dépourvu d'esprit et maladroit en paroles, aime Roxane.",
+    "passage_source": "beau cadet sans esprit ni talent d'expression"
+   },
+   {
+    "fichier": "outils/vague3/theatre_classique.py",
+    "avant": "Cet écrivain du XVIIe siècle est connu pour son esprit ironique et mordant.",
+    "apres": "Cet auteur du XVIIe siècle se distingue par sa verve caustique et ironique.",
+    "passage_source": "connu pour son esprit ironique et mordant"
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/personnage/wd/130432",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.letribunaldunet.fr/sante/battements-coeur-vie-entiere-chiffre.html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/contextes.py",
+    "avant": "Il bat environ 100 000 fois par jour.",
+    "apres": "Chaque jour, il se contracte environ 100 000 fois.",
+    "passage_source": "Un cœur bat en moyenne 100 000 fois par jour"
+   }
+  ]
+ },
+ {
+  "url": "https://www.merckmanuals.com/fr-ca/accueil/troubles-rénaux/diagnostic-des-maladies-rénales/reins",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/ajouts_corps_terre_arts.py",
+    "avant": "Chaque rein compte environ un million de ces petits filtres.",
+    "apres": "On dénombre environ un million de ces petits filtres dans chacun des deux reins.",
+    "passage_source": "Chaque rein contient environ 1 million de néphrons."
+   }
+  ]
+ },
+ {
+  "url": "https://www.msdmanuals.com/fr/accueil/troubles-pulmonaires-et-des-voies-aériennes/biologie-des-poumons-et-des-voies-respiratoires/présentation-du-système-respiratoire",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.nomadeducation.fr/revisions/3e-ci-lb52ef90/equilibre-dun-solide-soumis-a-deux-forces-cy97ef80",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/forces.py",
+    "avant": "Elles ont la même droite d'action, la même valeur et des sens opposés.",
+    "apres": "Elles agissent sur une même droite, avec des valeurs égales et des sens contraires.",
+    "passage_source": "la même droite d'action (direction), la même valeur P=PA et des sens opposés."
+   }
+  ]
+ },
+ {
+  "url": "https://www.parisinsidersguide.com/eight-impressionist-exhibitions.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.philstar.com/headlines/climate-and-environment/2024/03/24/2342961/no-human-era-earths-geological-history-scientists-say",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.rtbf.be/article/ces-comedies-de-moliere-qu-on-etudie-encore-et-toujours-a-l-ecole-11423674",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.schoolmouv.fr/cours/modeliser-une-action-sur-un-systeme/fiche-de-revision",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/forces.py",
+    "avant": "La tension est dirigée de l'objet vers le fil.",
+    "apres": "Elle part de l'objet et pointe en direction du fil.",
+    "passage_source": "et est dirigée de l'objet vers le fil"
+   },
+   {
+    "fichier": "outils/vague4/lois_newton.py",
+    "avant": "Les deux forces ont la même droite d'action.",
+    "apres": "Ces deux forces agissent selon une seule et même droite.",
+    "passage_source": "Les deux forces F_A/B et F_B/A ont la même droite d'action."
+   }
+  ]
+ },
+ {
+  "url": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-risques-naturels/25-seismes-en-metropole-et-en",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/alcane",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/formules_chimiques.py",
+    "avant": "Les cycloalcanes, eux, ont pour formule générale CₙH₂ₙ.",
+    "apres": "Pour les cycloalcanes, la formule générale devient CₙH₂ₙ.",
+    "passage_source": "Ils ont pour formule générale CnH2n."
+   },
+   {
+    "fichier": "outils/vague4/chimie_organique.py",
+    "avant": "Les cycloalcanes ont pour formule générale CnH2n.",
+    "apres": "Pour les cycloalcanes, la formule générale s'écrit CnH2n.",
+    "passage_source": "Ils ont pour formule générale CnH2n."
+   },
+   {
+    "fichier": "outils/vague4/chimie_organique.py",
+    "avant": "Les alcènes, les alcynes et les composés aromatiques sont au contraire insaturés.",
+    "apres": "À l'inverse, alcènes, alcynes et aromatiques sont des hydrocarbures non saturés.",
+    "passage_source": "les alcènes, les alcynes, et les composés aromatiques sont des hydrocarbures insaturés"
+   },
+   {
+    "fichier": "outils/vague4/chimie_organique.py",
+    "avant": "Méthane, éthane, propane et butane sont des gaz.",
+    "apres": "Les quatre premiers, du méthane au butane, sont gazeux.",
+    "passage_source": "Le méthane, l'éthane, le propane et le butane sont des gaz à température ambiante."
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/cedre-du-liban",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/colloide",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/faucon-crecerelle",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/hetre-europeen",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques-m",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/loi-de-hooke",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/forces.py",
+    "avant": "C'est la devise de l'École polytechnique de Montréal.",
+    "apres": "L'École polytechnique de Montréal l'a choisie pour devise.",
+    "passage_source": "Ut tensio sic vis est la devise de l'École polytechnique de Montréal."
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/obsidienne",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/roche-magmatique",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/uranium",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.universalis.fr/encyclopedie/acides-carboxyliques/2-etat-naturel-et-preparations/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.universalis.fr/encyclopedie/medailles-fields-2022/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.vidal.fr/parapharmacie/phytotherapie-plantes/aloes-barbadensis-vera-capensis.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/article/1468/rome-under-the-julio-claudian-dynasty/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-17139/septieme-croisade/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-440/jeux-olympiques-antiques/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/grece_antique.py",
+    "avant": "Le programme olympique comptait 18 épreuves réparties sur cinq jours.",
+    "apres": "Au total, les Jeux proposaient 18 épreuves étalées sur cinq jours.",
+    "passage_source": "porter le programme total à 18 épreuves réparties sur cinq jours"
+   }
+  ]
+ }
+]

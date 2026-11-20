@@ -1,0 +1,671 @@
+[
+ {
+  "url": "https://acteurspublics.fr/articles/a-peine-nomme-le-gouvernement-lecornu-demissionne/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://archive.iwlearn.org/helcom.fi/environment2/nature/en_GB/salinity/index.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://areq.net/lang/fr/Liste_des_d%C3%A9partements_fran%C3%A7ais.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/La_Com%C3%A9die_humaine.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://clg-lumiere-marly.ac-versailles.fr/wp-content/uploads/sites/426/2020/01/le_latin_et_ses_activites.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://dictionnaire-academie.fr/article/A9L0315",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://encycloreader.org/r/wikipedia.php?q=Chlorine",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://espacepourlavie.ca/les-couleurs-dautomne-des-arbres",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.geneawiki.com/wiki/Henri_IV_de_France",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/bourbons.py",
+    "avant": "Il y fut assassiné par Ravaillac le 14 mai 1610.",
+    "apres": "C'est là que Ravaillac le tua, le 14 mai 1610.",
+    "passage_source": "mourut assassiné par Ravaillac le 14 mai 1610"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Calendrier_r%C3%A9publicain",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/revolution_francaise.py",
+    "avant": "C'est le lendemain de la proclamation de la République.",
+    "apres": "La République avait été proclamée la veille.",
+    "passage_source": "le lendemain de la proclamation de la république en France"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Deuxi%C3%A8me_Guerre_mondiale",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/guerres_mondiales.py",
+    "avant": "Toulon est libérée le 26 août et Marseille le 28 août.",
+    "apres": "Les Alliés délivrent Toulon le 26 août, puis Marseille deux jours après.",
+    "passage_source": "Toulon le 26 août et de Marseille le 28 août"
+   },
+   {
+    "fichier": "outils/vague3/guerres_mondiales.py",
+    "avant": "Cette date marque la fin de la Seconde Guerre mondiale.",
+    "apres": "Ce jour-là, le second conflit mondial prend officiellement fin.",
+    "passage_source": "C'est la fin de la Seconde Guerre mondiale."
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Georges_Cl%C3%A9menceau",
+  "statut": "inaccessible",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Leonhard_Euler",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/mathematiciens.py",
+    "avant": "Il a en fait étudié un problème voisin, le « problème des 36 officiers ».",
+    "apres": "Euler s'est plutôt penché sur une énigme proche : le « problème des 36 officiers ».",
+    "passage_source": "il a en fait étudié un problème assez similaire (le « problème des 36 officiers »)"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Musique_baroque",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/instruments_musique.py",
+    "avant": "Le luth, l'orgue, les violes et le violon baroque en font aussi partie.",
+    "apres": "On y entend aussi l'orgue, le luth, le violon baroque et les violes.",
+    "passage_source": "le luth, l'orgue, les violes et le violon baroque"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Premier_ministre_fran%C3%A7ais",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Squelette_humain",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Volcan_gris",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/Liste_de_personnalit%C3%A9s_guillotin%C3%A9es_pendant_la_R%C3%A9volution_fran%C3%A7aise",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://galleries.com/minerals/property/streak.htm",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://infovitrail.com/contenu.php/fr/d/---la-gravure-a-l-acide-fluorhydrique/4d5fdfab-9375-4156-aaae-613816d32ec6",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://lepetitjournal.com/bombay/actualites/population-inde-depasse-chine-2023-342114",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://new.societechimiquedefrance.fr/wp-content/uploads/2019/12/2002-avr-252-Fernandez-p.4.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://phys.org/news/2018-02-mystery-proboscis-monkey-big-nose.pdf",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://sais.webspace.durham.ac.uk/?p=106",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://spot.creamontblanc.org/fiches-especes/edelweiss",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://webcf.waybackmachine.org/web/20220428221745/https://en.wikipedia.org/wiki/Silurian",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_20th-century_earthquakes",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.riteme.site/wiki/Astana",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.alimentarium.org/fr/node/1178",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.atlasobscura.com/places/zhang-heng-seismoscope",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.connaissancedesenergies.org/fiche-pedagogique/raffinage-petrolier",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/chimie_organique.py",
+    "avant": "Elle opère en phase liquide, entre 450 et 500 °C.",
+    "apres": "La charge y reste liquide et chauffe entre 450 et 500 °C.",
+    "passage_source": "en phase liquide entre 450 °C et 500 °C"
+   },
+   {
+    "fichier": "outils/vague4/chimie_organique.py",
+    "avant": "En quelle année construit-on aux États-Unis la première unité de distillation continue du pétrole brut ?",
+    "apres": "En quelle année naît la toute première installation qui distille le pétrole brut en continu ?",
+    "passage_source": "la première unité de distillation continue de pétrole brut"
+   }
+  ]
+ },
+ {
+  "url": "https://www.discoverwildlife.com/animal-facts/birds/most-powerful-eagles-world",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.finestresullarte.info/fr/oeuvres-et-artistes/le-vol-de-la-joconde-quand-vincenzo-peruggia-a-vole-le-celebre-tableau-de-leonard-de-vinci",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/chefs_doeuvre_musees.py",
+    "avant": "Ce peintre italien avait travaillé au Louvre et monté la caisse qui protégeait le tableau.",
+    "apres": "Ce peintre italien, passé par le Louvre, avait lui-même assemblé la caisse du tableau.",
+    "passage_source": "il avait monté la caisse qui contenait le tableau"
+   },
+   {
+    "fichier": "outils/vague3/chefs_doeuvre_musees.py",
+    "avant": "Jugé à Florence en 1914, il est condamné à un an et demi de prison.",
+    "apres": "Son procès a lieu à Florence en 1914 : il écope de dix-huit mois d'emprisonnement.",
+    "passage_source": "est condamné à un an et demi de prison"
+   }
+  ]
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/desert-desert-16017/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/deserts.py",
+    "avant": "Comment qualifie-t-on un désert qui reçoit moins de 50 mm de pluie par an ?",
+    "apres": "Comment nomme-t-on un désert où il tombe moins de 50 mm d'eau en un an ?",
+    "passage_source": "moins de 50 mm de précipitations par an"
+   }
+  ]
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/terre-faille-san-andreas-21103/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/questions-reponses/insecte-mites-vetements-mites-alimentaires-faire-difference-15053/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sante/definitions/medecine-carboxyhemoglobine-3095/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/combustion.py",
+    "avant": "Ce signe n'est pas constant et ne doit pas retarder les secours.",
+    "apres": "Il n'apparaît pas toujours : mieux vaut ne pas l'attendre pour appeler les secours.",
+    "passage_source": "n'est pas constant et ne doit jamais retarder la prise en charge médicale"
+   }
+  ]
+ },
+ {
+  "url": "https://www.futura-sciences.com/sciences/definitions/chimie-neige-carbonique-7063/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/etats_matiere.py",
+    "avant": "Elle ne laisse aucun résidu solide ni liquide.",
+    "apres": "Elle passe directement à l'état gazeux, sans laisser ni dépôt ni liquide.",
+    "passage_source": "elle ne produit aucun résidu solide ou liquide lors de sa sublimation"
+   },
+   {
+    "fichier": "outils/vague3/etats_matiere.py",
+    "avant": "Le CO₂ est stocké vers −20 °C et 20 bars avant d'être détendu.",
+    "apres": "On détend du CO₂ conservé sous 20 bars, à environ −20 °C.",
+    "passage_source": "CO2 stocké à -20 °C et 20 bars"
+   }
+  ]
+ },
+ {
+  "url": "https://www.geographyrealm.com/finland-many-lakes/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/11_juillet_1302-evenement-13020711.php",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/5_mai_1821-evenement-18210505.php?resume=1",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/iles.py",
+    "avant": "Il repose depuis aux Invalides.",
+    "apres": "Son tombeau se trouve désormais aux Invalides.",
+    "passage_source": "Napoléon Ier repose depuis lors aux Invalides."
+   }
+  ]
+ },
+ {
+  "url": "https://www.herodote.net/Moliere-synthese-3082.php",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.hotellerie-restauration.ac-versailles.fr/IMG/pdf/20_mise_en_situation_-_cuisson_des_oeufs.pdf",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/chimie_cuisine.py",
+    "avant": "On le refroidit ensuite dans de l'eau glacée.",
+    "apres": "Il passe ensuite dans un bain d'eau glacée.",
+    "passage_source": "Refroidir dans de l'eau glacée."
+   }
+  ]
+ },
+ {
+  "url": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/jacques-chaban-delmas",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/gouvernements_ve.py",
+    "avant": "Sous son gouvernement, le Smic remplace aussi le Smig.",
+    "apres": "Son gouvernement substitue aussi le Smic au Smig.",
+    "passage_source": "Le Smic remplace le Smig."
+   }
+  ]
+ },
+ {
+  "url": "https://www.interpol.int/fr/Actualites-et-evenements/Actualites/2025/Vol-au-musee-du-Louvre-les-bijoux-derobes-ont-ete-enregistres-dans-Ia-base-de-donnees-d-INTERPOL-sur-les-aeuvres-d-art-volees",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/chefs_doeuvre_musees.py",
+    "avant": "Les joyaux dérobés, du XIXe siècle, sont ornés de milliers de diamants.",
+    "apres": "Ces parures volées, qui datent du XIXe siècle, scintillent de milliers de diamants.",
+    "passage_source": "du 19ème siècle et sont incrustées de milliers de diamants"
+   }
+  ]
+ },
+ {
+  "url": "https://www.lagazettefrance.fr/article/les-premiers-ministres-de-la-ve-republique-en-dix-records",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/gouvernements_ve.py",
+    "avant": "Il dépasse ainsi Pierre Bérégovoy, qui avait 67 ans en quittant Matignon en 1993.",
+    "apres": "Le record appartenait à Pierre Bérégovoy, âgé de 67 ans à son départ de Matignon en 1993.",
+    "passage_source": "Pierre Bérégovoy, qui avait 67 ans lorsqu'il quitta Matignon en 1993"
+   },
+   {
+    "fichier": "outils/vague3/gouvernements_ve.py",
+    "avant": "Il est nommé en 1974 par Valéry Giscard d'Estaing ; l'ENA avait été fondée en 1945.",
+    "apres": "Valéry Giscard d'Estaing le choisit en 1974 ; l'ENA existait depuis 1945.",
+    "passage_source": "Nommé en 1974 par Valéry Giscard-d'Estaing"
+   },
+   {
+    "fichier": "outils/vague3/gouvernements_ve.py",
+    "avant": "Mitterrand le nomme après la victoire de la droite aux législatives de mars 1986.",
+    "apres": "Mitterrand l'appelle à Matignon quand la droite remporte les législatives de mars 1986.",
+    "passage_source": "après une victoire de la droite aux législatives"
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/dictionnaires/college/Philippe_IV_le_Bel/30548",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/capetiens.py",
+    "avant": "Il annexe aussi une partie du Barrois.",
+    "apres": "Une partie du Barrois passe également sous son contrôle.",
+    "passage_source": "Il annexe par ailleurs une partie du Barrois"
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/divers/paléozoïque/186093",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/personnage/Jean_Henri_Casimir_Fabre/118915",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/riviere-lac/wd/130237",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/contextes.py",
+    "avant": "Elle rejoint l'océan à Saint-Nazaire.",
+    "apres": "Saint-Nazaire marque son embouchure sur l'Atlantique.",
+    "passage_source": "se jette dans l'océan Atlantique à Saint-Nazaire"
+   }
+  ]
+ },
+ {
+  "url": "https://www.linfodurable.fr/conso/pleurotes-sur-marc-de-cafe-quand-lagriculture-urbaine-recycle-les-dechets-de-la-ville-9699",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.mfa.gr/france/fr/about-greece/government-and-politics/symboles-nationaux.html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/drapeaux_europe.py",
+    "avant": "Cette croix blanche sur fond bleu orne le coin supérieur gauche.",
+    "apres": "Blanche sur fond bleu, elle occupe l'angle en haut à gauche du drapeau.",
+    "passage_source": "croix blanche sur fond bleu ornant le coin supérieur gauche"
+   }
+  ]
+ },
+ {
+  "url": "https://www.napoleon.org/histoire-des-2-empires/articles/histoire-du-franc-quelques-points-de-repere",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.nomadeducation.fr/revisions/bac-sciences-senegal-premiere-lb255476/le-cycle-des-roches-cybbd932",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.parismatch.be/actualites/monde/2025/10/10/france-emmanuel-macron-reconduit-sebastien-lecornu-comme-premier-ministre-LIQZQK4X7JCTTF65GLJQZJ7EME/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.publicsenat.fr/actualites/non-classe/les-pouvoirs-du-president-de-la-republique-57556",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.sante.fr/comment-venir-bout-des-poux-de-tete",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.schoolmouv.fr/cours/proprietes-des-alcanes-et-des-alcools/fiche-de-cours",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.strasbourg.eu/documents/6009171/17682320/atelier-de%CC%81couverte_percussions_bd01.pdf/cda1f773-2b37-67ec-c7a2-63514a06d26c",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/instruments_musique.py",
+    "avant": "Elle produit le son le plus grave des percussions de l'orchestre.",
+    "apres": "Aucune percussion de l'orchestre ne sonne plus grave qu'elle.",
+    "passage_source": "produit le son le plus grave des percussions de l'orchestre"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/alliage",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/chene-liege",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/ajouts_vivant.py",
+    "avant": "On lève son liège tous les 9 à 15 ans selon les régions, et il repousse.",
+    "apres": "Son liège repousse : on le prélève à intervalles de 9 à 15 ans, suivant la région.",
+    "passage_source": "tous les 9 à 15 ans (selon les régions)"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/corindon",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/pierres_precieuses.py",
+    "avant": "Le corindon rouge est le rubis ; toutes ses autres couleurs sont des saphirs.",
+    "apres": "Rouge, le corindon devient rubis ; sous toute autre teinte, on le nomme saphir.",
+    "passage_source": "toutes les autres couleurs sont appelées saphir"
+   },
+   {
+    "fichier": "outils/vague2/pierres_precieuses.py",
+    "avant": "Le corindon est le minéral naturel le plus dur après le diamant.",
+    "apres": "Parmi les minéraux naturels, seul le diamant surpasse le corindon en dureté.",
+    "passage_source": "le deuxième minéral naturel le plus dur après le diamant"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/fermentation-alcoolique",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/iles-galapagos",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/iles.py",
+    "avant": "Elles forment une province de l'Équateur depuis 1832.",
+    "apres": "Depuis 1832, l'archipel constitue une province de ce pays.",
+    "passage_source": "il forme une province de l'Équateur depuis 1832"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques-s",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/lois-du-mouvement-de-newton",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/lois_newton.py",
+    "avant": "L'accélération est proportionnelle à la résultante des forces.",
+    "apres": "Si la somme des forces grandit, l'accélération croît dans la même proportion.",
+    "passage_source": "est proportionnelle à la résultante des forces qu'il subit"
+   },
+   {
+    "fichier": "outils/vague4/lois_newton.py",
+    "avant": "Le référentiel héliocentrique est généralement considéré comme galiléen.",
+    "apres": "On tient d'ordinaire le référentiel héliocentrique pour galiléen.",
+    "passage_source": "Le référentiel héliocentrique est (généralement considéré comme) galiléen"
+   },
+   {
+    "fichier": "outils/vague4/lois_newton.py",
+    "avant": "Elle lui permet de démontrer les lois de Kepler.",
+    "apres": "Grâce à elle, il retrouve par le calcul les lois de Kepler.",
+    "passage_source": "permettent de dériver les lois de Kepler"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/phlogistique",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/combustion.py",
+    "avant": "Becher l'avait lancée à la fin du XVIIe siècle.",
+    "apres": "Becher en était l'initiateur, dans les dernières années du XVIIe siècle.",
+    "passage_source": "Elle a été développée par J.J. Becher à la fin du XVII siècle"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/rubis",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/pierres_precieuses.py",
+    "avant": "Le rubis est la variété rouge du corindon, colorée surtout par l'oxyde de chrome.",
+    "apres": "Le rubis n'est autre qu'un corindon rouge, teinté principalement par l'oxyde de chrome.",
+    "passage_source": "Le rubis est la variété rouge de la famille minérale corindon. Sa couleur est causée principalement par la présence d'oxyde de chrome"
+   },
+   {
+    "fichier": "outils/vague2/pierres_precieuses.py",
+    "avant": "Il a fondu de la poudre d'oxyde d'aluminium avec un colorant rouge.",
+    "apres": "Son procédé : faire fondre de l'alumine en poudre additionnée d'un colorant rouge.",
+    "passage_source": "fusion de la poudre d'oxyde d'aluminium avec un colorant rouge"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/glossaire-definition/Dioxyde-de-carbone.html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/etats_matiere.py",
+    "avant": "On l'utilise alors comme « solvant vert ».",
+    "apres": "Il fait alors office de « solvant vert ».",
+    "passage_source": "Le dioxyde de carbone supercritique est utilisé comme solvant vert"
+   },
+   {
+    "fichier": "outils/vague3/gaz_air.py",
+    "avant": "Quel gaz est le principal gaz à effet de serre, devant le dioxyde de carbone ?",
+    "apres": "Quel gaz contribue le plus à l'effet de serre, plus encore que le dioxyde de carbone ?",
+    "passage_source": "Le CO2 est le deuxième gaz à effet de serre le plus important dans l'atmosphère"
+   }
+  ]
+ },
+ {
+  "url": "https://www.universalis.fr/encyclopedie/capetiens/2-les-grands-capetiens-et-l-unite-territoriale-1180-1314/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/capetiens.py",
+    "avant": "Cette canonisation renforce le prestige de la dynastie et du royaume.",
+    "apres": "La dynastie et le royaume y gagnent un surcroît de prestige.",
+    "passage_source": "rehausse le prestige de la dynastie capétienne et du royaume de France"
+   },
+   {
+    "fichier": "outils/vague2/capetiens.py",
+    "avant": "La querelle s'achève par l'affirmation de la pleine souveraineté du roi au temporel.",
+    "apres": "À l'issue du conflit, le roi s'affirme seul maître dans les affaires temporelles.",
+    "passage_source": "se termina par l'affirmation de l'entière souveraineté du Capétien au temporel"
+   }
+  ]
+ },
+ {
+  "url": "https://www.universalis.fr/encyclopedie/polymeres/2-la-notion-de-macromolecule/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.vie-publique.fr/eclairage/38658-reforme-territoriale-une-nouvelle-carte-des-regions",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/regions_france.py",
+    "avant": "Bretagne, Île-de-France, Pays de la Loire et Provence-Alpes-Côte d'Azur sont restées inchangées.",
+    "apres": "Provence-Alpes-Côte d'Azur, les Pays de la Loire et l'Île-de-France ont, elles aussi, gardé leurs limites.",
+    "passage_source": "Île-de-France, Pays de la Loire et Provence-Alpes-Côte d'Azur sont maintenues inchangées"
+   }
+  ]
+ },
+ {
+  "url": "https://www.worldhistory.org/article/1607/michelangelos-sistine-chapel-ceiling/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-18721/la-guerre-de-cent-ans/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/batailles_moyen_age.py",
+    "avant": "Dans cette bataille navale, une flotte anglaise coule la flotte d'invasion française.",
+    "apres": "Sur mer, les navires anglais y détruisent ceux que la France avait réunis pour envahir l'Angleterre.",
+    "passage_source": "une flotte d'invasion française fut coulée par une flotte anglaise"
+   },
+   {
+    "fichier": "outils/vague2/batailles_moyen_age.py",
+    "avant": "Les Anglais y sont vaincus en mars 1421 et Thomas de Clarence y est tué.",
+    "apres": "En mars 1421, l'armée anglaise y est battue ; Thomas de Clarence périt au combat.",
+    "passage_source": "les Anglais furent vaincus à la bataille de Baugé"
+   }
+  ]
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/2-1002/personnages-de-la-mythologie-grecque",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/dieux_grecs.py",
+    "avant": "Elle est la mère d'Arès, d'Héphaïstos et d'Hébé.",
+    "apres": "Arès, Héphaïstos et Hébé comptent parmi ses enfants.",
+    "passage_source": "elle était la mère d'Arès, d'Héphaïstos et d'Hébé"
+   },
+   {
+    "fichier": "outils/vague3/dieux_grecs.py",
+    "avant": "Thésée avait oublié de changer la voile de son bateau.",
+    "apres": "Thésée avait omis de remplacer la voile de son navire.",
+    "passage_source": "oublié de changer la voile de son bateau"
+   }
+  ]
+ }
+]

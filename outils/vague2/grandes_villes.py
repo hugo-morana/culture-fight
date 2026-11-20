@@ -33,7 +33,7 @@ FICHE = {"id": "grandes-villes", "relations": [
          ("Lahore", "Pakistan", "Environ 15 millions d'habitants en 2025 (ONU) : deuxième ville du pays.", UN),
          ("Lagos", "Nigeria", "C'est la plus grande ville d'Afrique subsaharienne selon l'ONU (2025).", AJ),
          ("Kinshasa", "République démocratique du Congo",
-          "C'est la plus grande ville francophone du monde, devant Paris.", KZ),
+          "Aucune ville francophone n'est plus grande, pas même Paris.", KZ),
          ("Mumbai", "Inde", "Environ 20 millions d'habitants en 2025 selon l'ONU.", UN),
          ("Kolkata", "Inde", "Environ 22,5 millions d'habitants en 2025 : deuxième ville de l'Inde selon l'ONU.", UN),
          ("Bangalore (Bengaluru)", "Inde", "Elle compte environ 13 millions d'habitants (ONU, 2025).", UN),

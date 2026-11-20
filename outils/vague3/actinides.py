@@ -118,7 +118,7 @@ FICHE = {"id": "actinides", "relations": [
       "Le verre à l'uranium en contient de 0,1 % à 2 % en masse.", source=U),
     q("Combien de fois le plutonium est-il plus dense que le plomb ?", "Environ 1,7 fois",
       ["Environ 0,5 fois", "Environ 3 fois", "Environ 10 fois"],
-      "Il présente six formes cristallines à pression ambiante.", source=PU),
+      "À pression ambiante, on lui connaît six structures cristallines différentes.", source=PU),
     q("Quel laboratoire soviétique, dirigé par Gueorgui Flerov, a obtenu le nobélium ?", "Doubna",
       ["Los Alamos", "Berkeley", "Oak Ridge"],
       "L'UICPA a reconnu cette découverte en 1992.", source=ACT),

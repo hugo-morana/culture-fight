@@ -17,6 +17,8 @@ plusieurs combattants, **à partir de sources consultées**, dans `outils/vague3
    de plus que la réponse. Français soigné, accents, guillemets « ».
 5. Faits stables uniquement (pas de chiffres qui changent chaque année, sauf en précisant l'année).
 6. Difficulté variée : environ un tiers de questions faciles, un tiers moyennes, un tiers difficiles.
+7. **Formulation propre au jeu** : reformule toujours avec tes mots. Aucune phrase recopiée ou à peine remaniée
+   d'une source (pas plus de 7 mots consécutifs identiques à la page), même traduite mot à mot.
 
 **Budget : le nombre de recherches WebSearch indiqué dans ta mission, au maximum,** pour toute ta mission (limite partagée entre agents).
 Une recherche doit servir à beaucoup de questions : trouve la page qui couvre le sujet (une liste, un

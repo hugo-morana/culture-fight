@@ -1,0 +1,581 @@
+[
+ {
+  "url": "https://anothermag.com/design-living/2472/salvador-dalis-ocelot",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://areq.net/lang/fr/Frottement.html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/forces.py",
+    "avant": "Il ajoute que le coefficient de frottement ne dépend pas de la vitesse.",
+    "apres": "Selon lui, la vitesse n'a pas non plus d'effet sur le coefficient de frottement.",
+    "passage_source": "le coefficient de frottement ne dépend pas de la vitesse"
+   }
+  ]
+ },
+ {
+  "url": "https://arhiva.e-laboratorij.carnet.hr/en.wikipedia.org/wiki/Sri_Lanka.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://bretagne.ars.sante.fr/media/114970/download",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://courses.lumenlearning.com/suny-purchase-physicalgeology/chapter/8-1-the-geological-time-scale/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://ecampusontario.pressbooks.pub/greeklatinroots/?p=233",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://encycloreader.org/r/wikipedia.php?q=Sifaka",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://exo7math.github.io/formules-exo7/biographie/biographie.pdf",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/mathematiciens.py",
+    "avant": "En 1900, il énonce 23 problèmes fondamentaux pour le XXe siècle.",
+    "apres": "En 1900, il lance aux mathématiciens du XXe siècle 23 grands défis.",
+    "passage_source": "En 1900 il énonce 23 problèmes fondamentaux à résoudre pour le siècle qui s'annonce."
+   },
+   {
+    "fichier": "outils/vague3/mathematiciens.py",
+    "avant": "Née à Paris, elle écrit à Gauss sous le pseudonyme de « M. Leblanc ».",
+    "apres": "Parisienne, elle correspond avec Gauss en signant « M. Leblanc ».",
+    "passage_source": "Elle converse par lettres avec LAGRANGE et GAUSS sous le pseudonyme de M. Leblanc"
+   },
+   {
+    "fichier": "outils/vague3/mathematiciens.py",
+    "avant": "Il est aussi le premier à expliciter un raisonnement par récurrence.",
+    "apres": "On lui doit aussi la toute première formulation explicite d'une démonstration par récurrence.",
+    "passage_source": "Il est le premier à expliciter un raisonnement par récurrence."
+   },
+   {
+    "fichier": "outils/vague3/mathematiciens.py",
+    "avant": "Son livre « Abrégé de calcul » est aussi à l'origine du mot « algèbre ».",
+    "apres": "Le mot « algèbre » vient lui aussi d'un de ses ouvrages, l'« Abrégé de calcul ».",
+    "passage_source": "Son livre Abrégé de calculs est à l'origine du mot algèbre"
+   },
+   {
+    "fichier": "outils/vague3/mathematiciens.py",
+    "avant": "Il a échangé plus de 20 000 lettres et étudié l'écriture binaire.",
+    "apres": "Auteur d'une correspondance de plus de 20 000 lettres, il s'est penché sur l'écriture binaire.",
+    "passage_source": "il échange plus de 20 000 lettres avec des savants"
+   },
+   {
+    "fichier": "outils/vague3/mathematiciens.py",
+    "avant": "Cette Iranienne étudiait le comptage des géodésiques sur des surfaces.",
+    "apres": "Cette Iranienne cherchait notamment à dénombrer les géodésiques d'une surface.",
+    "passage_source": "Ses contributions portent sur le comptage des géodésiques sur des surfaces."
+   },
+   {
+    "fichier": "outils/vague3/mathematiciens.py",
+    "avant": "Qui est la première femme à avoir reçu la médaille Fields ?",
+    "apres": "Quelle mathématicienne a été la première femme lauréate de la médaille Fields ?",
+    "passage_source": "C'est la première femme à avoir reçu la médaille Fields (2014)."
+   },
+   {
+    "fichier": "outils/vague3/mathematiciens.py",
+    "avant": "Il a aussi refusé un million de dollars pour la résolution d'un problème du millénaire.",
+    "apres": "Il a aussi décliné le prix d'un million de dollars promis pour un problème du millénaire.",
+    "passage_source": "il a refusé un million de dollars pour avoir résolu l'un des sept problèmes du millinéaire"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Basalte",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/roches.py",
+    "avant": "Ces formes viennent du refroidissement très rapide de la lave dans l'eau.",
+    "apres": "Au contact de l'eau, la lave se fige très vite et prend ces formes.",
+    "passage_source": "par le refroidissement rapide de la lave dans l'eau"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Conf%C3%A9rence_de_T%C3%A9h%C3%A9ran",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Faucon_p%C3%A9lerin",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/vitesse_acceleration.py",
+    "avant": "Quel animal est considéré comme le plus rapide du monde ?",
+    "apres": "Quel animal passe pour détenir le record de vitesse de la planète ?",
+    "passage_source": "Il est considéré comme l'animal le plus rapide du monde."
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Histoire_de_la_po%C3%A9sie",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/poetes.py",
+    "avant": "Il adhère à ce mouvement à 22 ans.",
+    "apres": "Il rejoint les surréalistes à l'âge de 22 ans.",
+    "passage_source": "Il adhère au mouvement surréalisme à 22 ans."
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Mar%C3%A9e",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/gravitation.py",
+    "avant": "Combien de marées hautes se produisent environ toutes les 24 heures et 50 minutes ?",
+    "apres": "En 24 h 50 min environ, combien de marées hautes observe-t-on ?",
+    "passage_source": "Elle a lieu deux fois toutes les 24 heures et 50 minutes."
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Palais_de_l%27%C3%89lys%C3%A9e",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/presidents_republique.py",
+    "avant": "Depuis quelle année le palais de l'Élysée est-il la résidence officielle du président ?",
+    "apres": "Depuis quelle année le chef de l'État loge-t-il officiellement à l'Élysée ?",
+    "passage_source": "Le palais de l'Élysée est, depuis 1873, la résidence officielle du président de la République française."
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Roche_s%C3%A9dimentaire",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Trait%C3%A9_de_Verdun",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/grands_traites.py",
+    "avant": "Il partage l'Empire entre les trois fils de Louis le Pieux.",
+    "apres": "Les trois héritiers de Louis le Pieux s'y répartissent l'Empire.",
+    "passage_source": "par les trois fils de Louis Ier le Pieux"
+   },
+   {
+    "fichier": "outils/vague3/grands_traites.py",
+    "avant": "Il conserve les deux capitales, Aix-la-Chapelle et Rome.",
+    "apres": "Aix-la-Chapelle et Rome, les deux capitales, restent dans sa part.",
+    "passage_source": "Il dispose des deux capitales Aix-la-Chapelle et Rome."
+   },
+   {
+    "fichier": "outils/vague3/grands_traites.py",
+    "avant": "La Thuringe, la Saxe et la Bavière y forment le noyau de la future Allemagne.",
+    "apres": "Ce lot, avec la Thuringe, la Saxe et la Bavière, préfigure l'Allemagne.",
+    "passage_source": "Ces territoires forment le noyau de la future Allemagne."
+   },
+   {
+    "fichier": "outils/vague3/grands_traites.py",
+    "avant": "Les invasions normandes poussent ensuite les trois frères à s'entendre.",
+    "apres": "Face aux raids normands, les trois frères doivent ensuite s'accorder.",
+    "passage_source": "les invasions normandes contraignent les trois frères à s'entendre"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/Consulat_(histoire_de_France)",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/Polyn%C3%A9sie_fran%C3%A7aise",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://historycrunch.com/?p=14297",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Largest_earthquakes",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://minerals.net/gemstone/alexandrite",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://oceanservice.noaa.gov/facts/highestpoint.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://pressbooks.ccconline.org/physicalgeology/chapter/2-6-mineral-properties-physical-geology-2nd-edition/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://sherpas.com/blog/3eme-loi-newton/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://trade.ec.europa.eu/access-to-markets/fr/news/la-bulgarie-adopte-leuro-compter-du-1er-janvier-2026",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Barnier_government",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Mushroom",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://worddisk.com/wiki/Namib_Desert",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.allodocteurs.fr/se-soigner/histoire-de-la-medecine/edward-jenner-le-pere-de-la-vaccination_26388.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.bundestag.de/fr/parlement/symbols/aigle-federale-816562",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.culture.gouv.fr/Actualites/Patrimoine-mondial-de-l-Unesco-une-victoire-volcanique",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.elasmo-research.org/education/ecology/fresh-bull.htm",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/actualites/geologie-derive-continents-alfred-wegener-100-ans-43241/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/montagne-kilimandjaro-21038/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/personnalites/volcanologie-katia-krafft-901/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/questions-reponses/terre-sont-diamants-plus-celebres-monde-21220/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/pierres_precieuses.py",
+    "avant": "Surnommé « Grande Étoile d'Afrique », il est serti sur le sceptre royal.",
+    "apres": "On l'appelle « Grande Étoile d'Afrique » ; il orne le sceptre royal.",
+    "passage_source": "sera ainsi serti sur le sceptre royal"
+   },
+   {
+    "fichier": "outils/vague2/pierres_precieuses.py",
+    "avant": "Il a été retaillé pour la reine Victoria ; son poids d'origine est estimé à 186 carats.",
+    "apres": "Retaillé pour la reine Victoria, ce diamant pesait à l'origine environ 186 carats.",
+    "passage_source": "dont le poids d'origine a été estimé à 186 carats"
+   },
+   {
+    "fichier": "outils/vague2/pierres_precieuses.py",
+    "avant": "Ce diamant jaune-brun a été découvert en 1985 dans la mine Premier, en Afrique du Sud.",
+    "apres": "Ce diamant jaune-brun est sorti en 1985 de la mine sud-africaine Premier.",
+    "passage_source": "À sa découverte en 1985 dans la Mine Premier en Afrique du Sud"
+   }
+  ]
+ },
+ {
+  "url": "https://www.futura-sciences.com/sante/definitions/medecine-vitamine-c-6127/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sciences/definitions/physique-pascal-363/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/forces.py",
+    "avant": "Il étudia la pression atmosphérique et la transmission de la pression dans les liquides.",
+    "apres": "Il s'intéressa à la pression de l'air et à la façon dont un liquide transmet une pression.",
+    "passage_source": "la transmission de la pression dans les liquides"
+   }
+  ]
+ },
+ {
+  "url": "https://www.guinnessworldrecords.com/world-records/101311-first-large-scale-use-of-poison-gas-in-war",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/22_avril_1915_et_12_juillet_1917-evenement-19150422.php",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/guerres_mondiales.py",
+    "avant": "Ce gaz suffocant attaque les voies respiratoires.",
+    "apres": "Ce gaz asphyxiant irrite gravement les voies respiratoires.",
+    "passage_source": "un gaz suffocant qui agresse les voies respiratoires"
+   },
+   {
+    "fichier": "outils/vague3/guerres_mondiales.py",
+    "avant": "Il est utilisé pour la première fois dans la nuit du 12 au 13 juillet 1917.",
+    "apres": "Il entre en action pour la première fois une nuit de juillet 1917, entre le 12 et le 13.",
+    "passage_source": "dans la nuit du 12 au 13 juillet 1917"
+   }
+  ]
+ },
+ {
+  "url": "https://www.herodote.net/Ile_de_Paques_Rapa_Nui_-evenement-17220405.php",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/articles/article.php?ID=2933&get_all=1",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.ifaw.org/fr/journal/dauphins-marsouins-difference",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/michel-debre",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.japan-experience.com/fr/preparer-voyage/savoir/comprendre-le-japon/hanami-hommage-aux-cerisiers-en-fleurs",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.lanutrition.fr/les-differentes-varietes-de-champignons-cultives",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/ajouts_vivant.py",
+    "avant": "Originaire de Chine et du Japon, c'est le deuxième champignon le plus cultivé au monde.",
+    "apres": "Venu de Chine et du Japon, il occupe la deuxième place des champignons cultivés dans le monde.",
+    "passage_source": "Originaire de Chine et du Japon, c'est le deuxième champignon le plus cultivé."
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/divers/fleur/52487",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/medical/c%C3%B4lon/12088",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/personnage/wd/120752",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.letemps.ch/societe/lambre-gris-beau-mystere",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.meer.com/fr/63755-lavoisier-combat-le-phlogistique",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.msdmanuals.com/fr/accueil/troubles-du-sang/maladies-de-la-rate/présentation-de-la-rate",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.nhm.ac.uk/discover/a-world-of-wild-cats.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.paca.developpement-durable.gouv.fr/IMG/pdf/monographie_busard_des_roseaux.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.pass-education.fr/free-pdf/parcours-2746027-les-racines-latines-et-grecques-en-francais-cours-de-vocabulaire-pour-la-6eme.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.routard.com/contenu-dossier/cid140111-le-sud-ouest-de-la-france-au-fil-de-la-garonne.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.schoolmouv.fr/cours/gravitation-et-poids/fiche-de-cours",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/forces.py",
+    "avant": "Dans le langage courant, on confond souvent masse et poids.",
+    "apres": "Au quotidien, on dit souvent « poids » quand on parle en réalité de masse.",
+    "passage_source": "Dans le langage courant, on confond souvent poids et masse"
+   },
+   {
+    "fichier": "outils/vague4/forces.py",
+    "avant": "g est l'intensité de la pesanteur, qui dépend de l'astre.",
+    "apres": "g désigne l'intensité de la pesanteur, propre à chaque astre.",
+    "passage_source": "l'intensité de la pesanteur dépend de l'astre d'attraction"
+   }
+  ]
+ },
+ {
+  "url": "https://www.schoolmouv.fr/mouvements-litteraires/la-pleiade-2/mouvement-litteraire",
+  "statut": "ok",
+  "changements": [],
+  "note": "Textes 2 et 4 signalés OUI uniquement pour le titre de l'œuvre « Défense et illustration de la langue française » (titre propre, non modifiable) : faux positif, non réécrits."
+ },
+ {
+  "url": "https://www.techno-science.net/fr/actualites/garder-ses-feuilles-ou-les-perdre-telle-est-la-question-22753",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/bombyx-du-murier",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/circaete-jean-le-blanc",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/elbe-fleuve",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/gypaete-barbu",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques-f",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/liste-des-iles-de-france",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/iles.py",
+    "avant": "Sa souveraineté française n'est plus contestée par ce pays.",
+    "apres": "Ce pays ne remet plus en cause l'appartenance de l'île à la France.",
+    "passage_source": "la souveraineté française n'est plus contestée par le Mexique"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/noisetier-commun",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/pression",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/forces.py",
+    "avant": "Un pascal correspond à une force d'un newton sur un mètre carré.",
+    "apres": "Un pascal équivaut à un newton appliqué sur un mètre carré.",
+    "passage_source": "pascal correspond à une force de 1 newton exercée sur une surface de 1 m²"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/squelette-humain",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/contextes.py",
+    "avant": "Chaque doigt en a trois, sauf le pouce qui n'en a que deux.",
+    "apres": "On en compte trois par doigt, mais deux seulement pour le pouce.",
+    "passage_source": "Chaque doigt possède trois phalanges, sauf le pouce qui n'en a que deux."
+   }
+  ]
+ },
+ {
+  "url": "https://www.tourmag.com/Dresde-La-Florence-de-l-Elbe_a60546.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.universalis.fr/encyclopedie/friedrich-wohler/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/chimie_organique.py",
+    "avant": "Les deux savants dirigent ensemble les Annalen der Chemie und Pharmazie.",
+    "apres": "Les deux savants sont coéditeurs de la revue Annalen der Chemie und Pharmazie.",
+    "passage_source": "Ils éditent ensemble les Annalen der Chemie und Pharmazie."
+   }
+  ]
+ },
+ {
+  "url": "https://www.vecteurbac.fr/wp-content/uploads/2024/06/Ne-jamais-melanger-eau-de-Javel-et-acide.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.woodlands.co.uk/blog/flora-and-fauna/winged-seeds/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-16760/quatrieme-croisade/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-341/pericles/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www2.sl.nsw.gov.au/archive/discover_collections/society_art/french/perouse/index.html",
+  "statut": "anglais",
+  "changements": []
+ }
+]

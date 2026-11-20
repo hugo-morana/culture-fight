@@ -1,0 +1,593 @@
+[
+ {
+  "url": "https://aplettres.org/wp-content/uploads/2023/09/Le_latin_au_service_du_francais.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://areq.net/lang/fr/Godefroy_de_Bouillon.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://aufutur.fr/matieres/francais/moliere-oeuvre-vie/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://cavac.at/cavacopedia/History%20of%20fluorine",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://csmonitor.com/Environment/2023/0803/Brazil-s-golden-monkeys-swing-from-near-extinction-to-thousands",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://ecampusontario.pressbooks.pub/greeklatinroots/chapter/%C2%A759-a-summary-of-latin-prefixes/",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://encycloreader.org/r/wikipedia.php?q=Tarsier",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://fao.org/ag/locusts/oldsite/PDFs/DLbookFweb.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Bataille_d%27Azincourt",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Conf%C3%A9rence_de_Yalta",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Feu",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Hugues_Capet",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/capetiens.py",
+    "avant": "Il est élu le 1er juin 987 par les grands seigneurs francs.",
+    "apres": "Ce sont les grands seigneurs du royaume franc qui le choisissent, le 1er juin 987.",
+    "passage_source": "Le Ier juin 987, à Noyon, il est élu roi par les grands seigneurs francs."
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Marseille_antique",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Peau",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/S%C3%A9paration_de_m%C3%A9langes",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/melanges_solutions.py",
+    "avant": "Quelle technique est la première étape du traitement de l'eau ?",
+    "apres": "Par quelle technique commence-t-on pour traiter l'eau ?",
+    "passage_source": "est la première étape dans le traitement de l'eau"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.vikidia.org/wiki/Trait%C3%A9_de_Versailles_(1919)",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/grands_traites.py",
+    "avant": "Il y plaide pour le droit des peuples à disposer d'eux-mêmes.",
+    "apres": "Il y défend notamment l'autodétermination des peuples.",
+    "passage_source": "et le droit des peuples à disposer d'eux-mêmes"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/Georges_Jacques_Danton",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/revolution_francaise.py",
+    "avant": "Il achète en 1787 une charge d'avocat aux Conseils du roi.",
+    "apres": "En 1787, il se porte acquéreur d'un office d'avocat aux Conseils du roi.",
+    "passage_source": "il peut acheter en 1787 la charge d'avocat aux Conseils du roi"
+   }
+  ]
+ },
+ {
+  "url": "https://fr.wikipedia.org/wiki/R%C3%A9volution_fran%C3%A7aise",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/revolution_francaise.py",
+    "avant": "Leurs chefs sont Robespierre, Danton, Marat et Saint-Just.",
+    "apres": "Robespierre, Danton, Marat et Saint-Just figurent parmi leurs meneurs.",
+    "passage_source": "Leurs chefs sont, entre autres, Robespierre, Danton, Marat ou Saint-Just."
+   },
+   {
+    "fichier": "outils/vague2/revolution_francaise.py",
+    "avant": "Les prix sont fixés au niveau de 1790 augmenté de 30 %.",
+    "apres": "Un plafond est imposé : 30 % de plus que les tarifs pratiqués en 1790.",
+    "passage_source": "bloque les prix au niveau de ceux de 1790, augmentés de 30 %"
+   }
+  ]
+ },
+ {
+  "url": "https://home.nps.gov/crla/learn/nature/crater-lake.htm",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Mount_Erebus",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://mirror2.polsri.ac.id/wiki/wp/1/1755_Lisbon_earthquake.htm",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://orca.org.uk/species-sightings/whales/humpback-whale",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://pubs.usgs.gov/gip/gemstones/mineral.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://sherpas.com/blog/chronologie-croisades/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/croisades.py",
+    "avant": "Il espérait ouvrir une nouvelle route vers Jérusalem.",
+    "apres": "Il comptait, par là, se frayer un autre chemin jusqu'à Jérusalem.",
+    "passage_source": "trouver une nouvelle route vers Jérusalem"
+   }
+  ]
+ },
+ {
+  "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23799/banque-de-depannage-linguistique/le-vocabulaire/listes-thematiques/liste-des-locutions-latines-les-plus-courantes",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/etymologie_latine.py",
+    "avant": "C'est la courte note placée au bas d'une lettre, après la signature.",
+    "apres": "On l'ajoute à la fin d'une lettre, une fois celle-ci signée, pour un bref complément.",
+    "passage_source": "courte note placée au bas d'une lettre, après la signature"
+   },
+   {
+    "fichier": "outils/vague3/etymologie_latine.py",
+    "avant": "Le mot désigne un petit livre, un pense-bête que l'on garde sur soi.",
+    "apres": "Le mot désigne un aide-mémoire de petit format qu'on emporte partout avec soi.",
+    "passage_source": "petit livre, pense-bête que l'on garde sur soi"
+   },
+   {
+    "fichier": "outils/vague3/etymologie_latine.py",
+    "avant": "L'expression désigne une personne ou un événement apportant un dénouement inespéré.",
+    "apres": "On nomme ainsi la personne ou le fait qui, contre toute attente, vient tout résoudre.",
+    "passage_source": "personne ou événement apportant un dénouement inespéré"
+   }
+  ]
+ },
+ {
+  "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Bayrou_government",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/UN_language",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.24matins.fr/notre-sang-fait-1500-fois-le-tour-de-notre-corps-chaque-jour-1331398",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.alloprof.qc.ca/fr/eleves/bv/sciences/vade-mecum-point-d-ebullition-s1701",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.cnfce.com/dossier/quelles-sont-les-6-classes-de-feu-et-quel-extincteur-utiliser",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.culture.gouv.fr/fr/Thematiques/Musees/Les-musees-en-France/Les-collections-des-musees-de-France/Decouvrir-les-collections/Les-huit-expositions-impressionnistes-1874-1886/1874-Premiere-exposition",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/peintres_impressionnistes.py",
+    "avant": "Leroy part du titre du tableau de Monet « Impression, soleil levant ».",
+    "apres": "Le mot lui est inspiré par « Impression, soleil levant », toile de Monet.",
+    "passage_source": "à partir de titre d'un tableau de Monet, « Impression, soleil levant »"
+   },
+   {
+    "fichier": "outils/vague3/peintres_impressionnistes.py",
+    "avant": "Elle se tient du 15 avril au 15 mai 1874.",
+    "apres": "Ouverte le 15 avril 1874, elle ferme ses portes le 15 mai.",
+    "passage_source": "a lieu du 15 avril au 15 mai 1874"
+   }
+  ]
+ },
+ {
+  "url": "https://www.elsan.care/fr/pathologie-et-traitement/glossaire-medical/hepato-gastro-enterologie/appendice",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/actualites/terre-crottes-fossiles-revelent-dinosaures-ont-regne-si-longtemps-117869/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/definitions/paleontologie-devonien-3767/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/questions-reponses/abeille-ce-nest-pas-bourdon-vrai-nom-male-abeille-25805/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/planete/questions-reponses/zoologie-sont-animaux-plus-rapides-monde-6000/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sante/definitions/vie-alcaloide-4206/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.futura-sciences.com/sciences/definitions/physique-tribologie-15957/",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/forces.py",
+    "avant": "Il est considéré comme l'un des précurseurs de la tribologie.",
+    "apres": "On voit en lui un pionnier de la tribologie, la science du frottement.",
+    "passage_source": "Léonard de Vinci est connu comme l'un des précurseurs de la tribologie."
+   }
+  ]
+ },
+ {
+  "url": "https://www.guinnessworldrecords.com/world-records/70337-smallest-brained-dinosaurs",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/23_janvier_1120-evenement-11200123.php",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/croisades.py",
+    "avant": "Il la fonda avec Godefroy de Saint-Omer et six autres chevaliers.",
+    "apres": "Sept chevaliers le rejoignirent, parmi lesquels Godefroy de Saint-Omer.",
+    "passage_source": "Godefroy de Saint-Omer, ainsi que six autres chevaliers"
+   }
+  ]
+ },
+ {
+  "url": "https://www.herodote.net/Le_Havre_d_Auguste_Perret-synthese-2334.php",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.herodote.net/histoire/dossier.php?ID=3",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.ig.com/fr/strategies-de-trading/quelles-etaient-les-monnaies-europeennes-avant-l-euro---200303",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/michel-rocard",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.jaymaron.com/spice.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/dictionnaires/college/Henri_IV/19541",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/bourbons.py",
+    "avant": "Né en 1553, il était le fils d'Antoine de Bourbon et de Jeanne d'Albret.",
+    "apres": "Venu au monde en 1553, il avait pour parents Antoine de Bourbon et Jeanne d'Albret.",
+    "passage_source": "second fils d'Antoine de Bourbon et de Jeanne III d'Albret."
+   }
+  ]
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/divers/gr%C3%A8s/185966",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/medical/larynx/14128",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.larousse.fr/encyclopedie/personnage/wd/128801",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.letribunaldunet.fr/insolite/pourquoi-estomac-ne-se-digere-pas-lui-meme.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.mentalfloss.com/science/paleontology/10-facts-about-ankylosaurus",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.msdmanuals.com/fr/accueil/troubles-hormonaux-et-m%C3%A9taboliques/troubles-de-la-thyro%C3%AFde/pr%C3%A9sentation-de-la-thyro%C3%AFde",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.nhm.ac.uk/discover/shrinking-galapagos-marine-iguanas.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.parc-naturel-chevreuse.fr/sites/default/files/2023-02/Livret_RapacesNocturnes_NDLC2014.pdf",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.pbs.org/wgbh/nova/education/evolution/human-chromosome-2.html",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.routard.com/contenu-dossier/cid140950-les-plus-beaux-monuments-du-monde.html",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/monuments_monde.py",
+    "avant": "Ce temple de l'île de Java date des VIIIe et IXe siècles.",
+    "apres": "Bâti aux VIIIe et IXe siècles, ce sanctuaire se dresse à Java.",
+    "passage_source": "Situé sur l'île de Java, datant des VIIIe et IXe siècles"
+   },
+   {
+    "fichier": "outils/vague3/monuments_monde.py",
+    "avant": "Ses façades blanches lui valent le surnom de « château du héron blanc ».",
+    "apres": "On l'appelle « château du héron blanc », à cause de la blancheur de ses murs.",
+    "passage_source": "lui ont valu le surnom de château du héron blanc"
+   },
+   {
+    "fichier": "outils/vague3/monuments_monde.py",
+    "avant": "Il fut construit pour le roi Louis II de Bavière.",
+    "apres": "Louis II de Bavière en fut le commanditaire.",
+    "passage_source": "il a été construit pour le roi Louis II de Bavière"
+   },
+   {
+    "fichier": "outils/vague3/monuments_monde.py",
+    "avant": "De style byzantin, elle est ornée de mosaïques.",
+    "apres": "Des mosaïques parent cet édifice d'inspiration byzantine.",
+    "passage_source": "Elle est notamment décorée de mosaïques"
+   },
+   {
+    "fichier": "outils/vague3/monuments_monde.py",
+    "avant": "Construite du XIIIe au XVe siècle, elle est coiffée d'une immense coupole.",
+    "apres": "Une immense coupole couronne cet édifice, bâti entre le XIIIe et le XVe siècle.",
+    "passage_source": "Construite du XIIIe au XVe siècle, celle-ci est un chef-d'œuvre"
+   },
+   {
+    "fichier": "outils/vague3/monuments_monde.py",
+    "avant": "Il est gardé par des milliers de guerriers en terre cuite.",
+    "apres": "Une armée de terre cuite, forte de milliers de soldats, veille sur lui.",
+    "passage_source": "des fosses qui contiennent des milliers de guerriers en terre cuite très réalistes"
+   },
+   {
+    "fichier": "outils/vague3/monuments_monde.py",
+    "avant": "Une réplique de 11,50 m se dresse sur l'île aux Cygnes, à Paris.",
+    "apres": "Paris en possède une copie de 11,50 m, installée sur l'île aux Cygnes.",
+    "passage_source": "se trouve sur l'île aux Cygnes, à Paris"
+   },
+   {
+    "fichier": "outils/vague3/monuments_monde.py",
+    "avant": "Elle a été construite au XVIIe siècle.",
+    "apres": "Son chantier date du XVIIe siècle.",
+    "passage_source": "elle a été bâtie au XVIIe siècle"
+   }
+  ]
+ },
+ {
+  "url": "https://www.schoolmouv.fr/cours/la-naissance-de-la-democratie-athenienne/fiche-de-cours",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague2/grece_antique.py",
+    "avant": "Ce conseil préparait les séances de l'assemblée et les projets de loi.",
+    "apres": "Il rédigeait les propositions de loi et organisait les réunions de l'assemblée.",
+    "passage_source": "qui prépare les séances de l'ecclésia et les projets de loi"
+   },
+   {
+    "fichier": "outils/vague2/grece_antique.py",
+    "avant": "C'était la plus haute fonction, et la seule à ne pas être tirée au sort.",
+    "apres": "Charge suprême, elle était aussi l'unique à échapper au tirage au sort.",
+    "passage_source": "et la seule à ne pas être tirée au sort"
+   },
+   {
+    "fichier": "outils/vague2/grece_antique.py",
+    "avant": "On le considère comme le père de la démocratie athénienne.",
+    "apres": "Beaucoup voient en lui le fondateur de la démocratie à Athènes.",
+    "passage_source": "considéré comme le père de la démocratie athénienne"
+   }
+  ]
+ },
+ {
+  "url": "https://www.slate.fr/story/128894/marron-bon",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague4/chimie_cuisine.py",
+    "avant": "La réaction de Maillard peut-elle se produire dans le corps humain ?",
+    "apres": "Notre organisme est-il, lui aussi, le siège de réactions de Maillard ?",
+    "passage_source": "la réaction de Maillard peut avoir lieu dans le corps humain"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/acide-carboxylique",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/acides_bases.py",
+    "avant": "Il est responsable de l'odeur du beurre rance.",
+    "apres": "C'est lui qui donne au beurre rance son odeur.",
+    "passage_source": "l'acide butanoïque est responsable de l'odeur du beurre rance"
+   },
+   {
+    "fichier": "outils/vague3/acides_bases.py",
+    "avant": "Ce sont des acides faibles dans l'eau.",
+    "apres": "En solution aqueuse, leur acidité reste faible.",
+    "passage_source": "Ce sont des acides faibles dans l'eau (pKA entre 4 et 5)."
+   },
+   {
+    "fichier": "outils/vague4/chimie_organique.py",
+    "avant": "Ce groupe carboxyle est toujours placé en bout de chaîne carbonée.",
+    "apres": "On trouve toujours ce groupe carboxyle à l'extrémité de la chaîne de carbones.",
+    "passage_source": "Celui-ci est toujours situé en fin de chaîne carbonée"
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/caoutchouc-materiau",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/polymeres.py",
+    "avant": "La Condamine l'a noté au Pérou, en Équateur et en Guyane.",
+    "apres": "Pérou, Équateur, Guyane : c'est là que La Condamine a relevé ce mot.",
+    "passage_source": "naturel au Pérou, en Équateur et en Guyane."
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/classe-de-feux",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/erable-a-sucre",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/ajouts_vivant.py",
+    "avant": "Il faut environ 40 litres d'eau d'érable pour un litre de sirop.",
+    "apres": "Un litre de sirop demande à peu près 40 litres de sève d'érable.",
+    "passage_source": "Il faut environ 40 litres d'eau d'érable pour 1 litre de sirop."
+   }
+  ]
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/gypse",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/liste-de-composes-inorganiques-h",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/liste-des-iles-de-la-mer-mediterranee",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/nomenclature-des-alcanes",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/rhone",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.techno-science.net/fr/definitions/tortue-d-hermann",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.twinkl.com/homework-help/art-design-homework-help/architecture-facts-for-kids/10-famous-buildings-from-around-the-world",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.universalis.fr/encyclopedie/guerre-de-cent-ans-reperes-chronologiques/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.vidal.fr/actualites/30058-la-face-cachee-des-piscines-desinfectees-par-chloration.html",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/Battle_of_Hattin/.md",
+  "statut": "anglais",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-17014/troisieme-croisade/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://www.worldhistory.org/trans/fr/1-343/parthenon/",
+  "statut": "ok",
+  "changements": []
+ },
+ {
+  "url": "https://youth.europarl.europa.eu/files/live/sites/youthhub/files/active-lessons-revamp/FR-eu-treaties-timeline-2025.pdf",
+  "statut": "réécrit",
+  "changements": [
+   {
+    "fichier": "outils/vague3/grands_traites.py",
+    "avant": "Ils entrent en vigueur en 1958.",
+    "apres": "Leur application débute en 1958.",
+    "passage_source": "Les traités de Rome entrent en vigueur en 1958."
+   }
+  ]
+ }
+]

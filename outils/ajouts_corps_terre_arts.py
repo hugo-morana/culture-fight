@@ -51,7 +51,7 @@ AJOUTS = {
             [("les cordes vocales", "Le larynx",
               "On sent sa saillie à l'avant du cou : la pomme d'Adam."),
              ("les néphrons", "Les reins",
-              "Chaque rein compte environ un million de ces petits filtres."),
+              "On dénombre environ un million de ces petits filtres dans chacun des deux reins."),
              ("les villosités", "L'intestin grêle",
               "Ces replis minuscules multiplient la surface qui absorbe les aliments."),
              ("la rétine", "L'œil",

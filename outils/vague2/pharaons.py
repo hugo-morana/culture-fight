@@ -215,7 +215,7 @@ FICHE = {"id": "pharaons", "relations": [
       "Il l'aurait lancée à son frère aîné, Jacques-Joseph Champollion-Figeac.", source=CH2),
     q("À qui Champollion adresse-t-il sa célèbre lettre de 1822 sur les hiéroglyphes ?",
       "Bon-Joseph Dacier", ["Thomas Young", "Charles X", "Napoléon Bonaparte"],
-      "Dacier était le secrétaire perpétuel de l'Académie des inscriptions et belles-lettres.",
+      "L'Académie des inscriptions et belles-lettres avait alors Dacier pour secrétaire perpétuel.",
       source=CH2),
     q("Quel musée Charles X charge-t-il Champollion de créer ?", "Le musée égyptien du Louvre",
       ["Le Musée égyptien du Caire", "Le musée de Turin", "Le British Museum"],

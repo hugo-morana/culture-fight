@@ -396,13 +396,13 @@
      [
       "son écorce donne le liège des bouchons",
       "Chêne-liège",
-      "On lève son liège tous les 9 à 15 ans selon les régions, et il repousse.",
+      "Son liège repousse : on le prélève à intervalles de 9 à 15 ans, suivant la région.",
       "https://www.techno-science.net/fr/definitions/chene-liege"
      ],
      [
       "son eau, récoltée au printemps, donne le sirop d'érable",
       "Érable à sucre",
-      "Il faut environ 40 litres d'eau d'érable pour un litre de sirop.",
+      "Un litre de sirop demande à peu près 40 litres de sève d'érable.",
       "https://www.techno-science.net/fr/definitions/erable-a-sucre"
      ],
      [
@@ -444,7 +444,7 @@
      [
       "c'est le deuxième arbre le plus vendu comme sapin de Noël en France",
       "Épicéa",
-      "Il représente environ 18 % des sapins de Noël naturels vendus en France, loin derrière le sapin de Nordmann (78 %).",
+      "En France, il pèse environ 18 % des sapins naturels achetés à Noël, contre 78 % pour le Nordmann.",
       "https://bo.valhor.fr/wp-content/uploads/2023/10/valhor-afsnn-cpmarchesapins.pdf"
      ],
      [
@@ -569,7 +569,7 @@
     "source": "https://www.techno-science.net/fr/actualites/garder-ses-feuilles-ou-les-perdre-telle-est-la-question-22753"
    },
    {
-    "enonce": "Comment connaît-on l'âge d'un arbre abattu ?",
+    "enonce": "Sur un arbre abattu, comment détermine-t-on son âge ?",
     "bonne": "En comptant ses cernes",
     "faux": [
      "En mesurant sa hauteur",
@@ -591,7 +591,7 @@
     "source": "https://espacepourlavie.ca/les-couleurs-dautomne-des-arbres"
    },
    {
-    "enonce": "Quelle forêt française est la plus grande forêt plantée d'Europe occidentale ?",
+    "enonce": "Quel massif français, planté par l'homme, est le plus étendu d'Europe occidentale ?",
     "bonne": "La forêt des Landes",
     "faux": [
      "La forêt de Fontainebleau",
@@ -1148,7 +1148,7 @@
      "Le faire bouillir longtemps",
      "Vérifier qu'une limace l'a mangé"
     ],
-    "explication": "En France, le pharmacien est un interlocuteur de première ligne pour identifier une cueillette.",
+    "explication": "En France, on peut d'abord montrer sa récolte au pharmacien, qui aide à l'identifier.",
     "source": "https://www.vidal.fr/actualites/38418-cepes-et-bolets-gastronomiques-mais-parfois-toxiques.html"
    },
    {
@@ -1214,7 +1214,7 @@
      "Le cèpe",
      "La girolle"
     ],
-    "explication": "Originaire de Chine et du Japon, c'est le deuxième champignon le plus cultivé au monde.",
+    "explication": "Venu de Chine et du Japon, il occupe la deuxième place des champignons cultivés dans le monde.",
     "source": "https://www.lanutrition.fr/les-differentes-varietes-de-champignons-cultives"
    },
    {
@@ -1225,7 +1225,7 @@
      "Le plein été",
      "Le début du printemps"
     ],
-    "explication": "Ils sortent souvent en nombre deux semaines après les pluies de septembre ou d'octobre.",
+    "explication": "Ils apparaissent souvent en masse une quinzaine de jours après les averses de septembre ou d'octobre.",
     "source": "https://fr.vikidia.org/wiki/Champignon_comestible"
    },
    {
@@ -1536,7 +1536,7 @@
      "Le bonnet",
      "La muserolle"
     ],
-    "explication": "Cette coiffe de cuir plonge l'oiseau dans l'obscurité pour qu'il reste calme.",
+    "explication": "Ce petit casque de cuir met le rapace dans le noir afin de l'apaiser.",
     "source": "https://www.milandes.com/wp-content/uploads/2022/04/fiche-cycle3-fauconnerie-exe-sciences.pdf"
    }
   ]
@@ -2228,7 +2228,7 @@
      [
       "Insecte qui élève des pucerons pour leur miellat",
       "Fourmi",
-      "Certaines fourmis protègent les pucerons et se nourrissent de leurs excrétions sucrées.",
+      "Des fourmis veillent sur les pucerons pour se nourrir du liquide sucré qu'ils rejettent.",
       "https://biblio.naturalsciences.be/rbins-publications/boekjes-opvoedkundige-dienst-carnets-du-service-educatif/expo/micro-macro-un-monde-sur-six-pattes-1994.pdf"
      ],
      [
@@ -2563,7 +2563,7 @@
      "Non, des crustacés",
      "Non, des reptiles"
     ],
-    "explication": "Comme les scorpions, ce sont des arachnides : 8 pattes et pas d'antennes.",
+    "explication": "Ce sont des arachnides, comme les scorpions : on leur compte huit pattes, sans aucune antenne.",
     "source": "https://biblio.naturalsciences.be/rbins-publications/boekjes-opvoedkundige-dienst-carnets-du-service-educatif/expo/micro-macro-un-monde-sur-six-pattes-1994.pdf"
    },
    {
@@ -3257,7 +3257,7 @@
      [
       "les premiers dinosaures",
       "Trias",
-      "Ils sont apparus il y a environ 230 millions d'années.",
+      "Leur apparition remonte à quelque 230 millions d'années.",
       "https://fr.vikidia.org/wiki/Dinosaure"
      ],
      [
@@ -3649,7 +3649,7 @@
      [
       "les phalanges",
       "les doigts",
-      "Chaque doigt en a trois, sauf le pouce qui n'en a que deux.",
+      "On en compte trois par doigt, mais deux seulement pour le pouce.",
       "https://www.techno-science.net/fr/definitions/squelette-humain"
      ],
      [
@@ -3857,7 +3857,7 @@
      [
       "pomper le sang dans tout le corps",
       "Le cœur",
-      "Il bat environ 100 000 fois par jour.",
+      "Chaque jour, il se contracte environ 100 000 fois.",
       "https://www.letribunaldunet.fr/sante/battements-coeur-vie-entiere-chiffre.html"
      ],
      [
@@ -3887,7 +3887,7 @@
      [
       "absorber les nutriments des aliments digérés",
       "L'intestin grêle",
-      "Il mesure environ 6 à 7 mètres de long.",
+      "Sa longueur atteint environ 6 à 7 mètres.",
       "https://www.vidal.fr/sante/nutrition/corps-aliments/digestion-aliments/intestin-grele.html"
      ],
      [
@@ -3942,7 +3942,7 @@
      [
       "les néphrons",
       "Les reins",
-      "Chaque rein compte environ un million de ces petits filtres.",
+      "On dénombre environ un million de ces petits filtres dans chacun des deux reins.",
       "https://www.merckmanuals.com/fr-ca/accueil/troubles-rénaux/diagnostic-des-maladies-rénales/reins"
      ],
      [
@@ -5266,7 +5266,7 @@
      [
       "la Loire",
       "l'océan Atlantique",
-      "Elle rejoint l'océan à Saint-Nazaire.",
+      "Saint-Nazaire marque son embouchure sur l'Atlantique.",
       "https://www.larousse.fr/encyclopedie/riviere-lac/wd/130237"
      ],
      [
@@ -5660,7 +5660,7 @@
      [
       "le Saint-Laurent",
       "Québec",
-      "Le nom de Québec vient d'un mot algonquin signifiant « passage étroit », là où le fleuve se rétrécit.",
+      "En algonquin, « Québec » désigne un « passage étroit » : le fleuve s'y resserre.",
       "https://ressources-naturelles.canada.ca/carte-outils-publications/cartes/toponymes-canada/origine-nom-capitales-provinciales-territoriales-canada"
      ],
      [
@@ -6707,7 +6707,7 @@
      [
       "La Naissance de Vénus",
       "Sandro Botticelli",
-      "On peut la voir à la galerie des Offices, à Florence.",
+      "Le tableau est exposé à Florence, dans la galerie des Offices.",
       "https://www.visittuscany.com/fr/attractions/la-naissance-de-venus-de-sandro-botticelli/"
      ],
      [
@@ -7110,7 +7110,7 @@
      [
       "l'Écluse",
       "1340",
-      "Dans cette bataille navale, une flotte anglaise coule la flotte d'invasion française.",
+      "Sur mer, les navires anglais y détruisent ceux que la France avait réunis pour envahir l'Angleterre.",
       "https://www.worldhistory.org/trans/fr/1-18721/la-guerre-de-cent-ans/"
      ],
      [
@@ -7407,7 +7407,7 @@
      [
       "Baugé",
       "la guerre de Cent Ans",
-      "Les Anglais y sont vaincus en mars 1421 et Thomas de Clarence y est tué.",
+      "En mars 1421, l'armée anglaise y est battue ; Thomas de Clarence périt au combat.",
       "https://www.worldhistory.org/trans/fr/1-18721/la-guerre-de-cent-ans/"
      ],
      [
@@ -7541,7 +7541,7 @@
      "Des cavaliers lourds",
      "Des artilleurs"
     ],
-    "explication": "Les forces de Philippe VI étaient au moins deux fois plus nombreuses que celles d'Édouard III.",
+    "explication": "Philippe VI alignait au moins le double des troupes d'Édouard III.",
     "source": "https://fr.vikidia.org/wiki/Bataille_de_Cr%C3%A9cy"
    },
    {
@@ -7801,7 +7801,7 @@
      [
       "Charles X",
       "Marie-Thérèse de Savoie",
-      "Mariés en 1773, ils eurent notamment le duc d'Angoulême et le duc de Berry.",
+      "De ce mariage de 1773 naquirent entre autres les ducs d'Angoulême et de Berry.",
       "https://www.larousse.fr/encyclopedie/personnage/Charles_X/112829"
      ]
     ]
@@ -7900,19 +7900,19 @@
      [
       "Henri IV",
       "Pau",
-      "Né en 1553, il était le fils d'Antoine de Bourbon et de Jeanne d'Albret.",
+      "Venu au monde en 1553, il avait pour parents Antoine de Bourbon et Jeanne d'Albret.",
       "https://www.larousse.fr/dictionnaires/college/Henri_IV/19541"
      ],
      [
       "Louis XIII",
       "Fontainebleau",
-      "Né en 1601, il était le fils d'Henri IV et de Marie de Médicis.",
+      "Né en 1601, il avait pour parents Henri IV et Marie de Médicis.",
       "https://www.larousse.fr/encyclopedie/personnage/Louis_XIII/130426"
      ],
      [
       "Louis XIV",
       "Saint-Germain-en-Laye",
-      "Il y naquit le 5 septembre 1638, au château neuf.",
+      "Il y vit le jour au château neuf, le 5 septembre 1638.",
       "https://www.larousse.fr/encyclopedie/personnage/louis_xiv/130427"
      ],
      [
@@ -7930,7 +7930,7 @@
      [
       "Louis XVIII",
       "Versailles",
-      "Né en 1755, il porta longtemps le titre de comte de Provence.",
+      "Né en 1755, il fut longtemps connu comme le comte de Provence.",
       "https://www.larousse.fr/encyclopedie/personnage/wd/130435"
      ],
      [
@@ -7949,7 +7949,7 @@
      [
       "Henri IV",
       "Paris",
-      "Il y fut assassiné par Ravaillac le 14 mai 1610.",
+      "C'est là que Ravaillac le tua, le 14 mai 1610.",
       "https://fr.geneawiki.com/wiki/Henri_IV_de_France"
      ],
      [
@@ -8052,7 +8052,7 @@
      [
       "l'installation de la cour à Versailles (1682)",
       "Louis XIV",
-      "Le château fut l'œuvre de Le Vau, Le Brun et Le Nôtre.",
+      "Le Vau, Le Brun et Le Nôtre bâtirent et ornèrent ce château.",
       "https://www.larousse.fr/encyclopedie/personnage/louis_xiv/130427"
      ],
      [
@@ -8076,13 +8076,13 @@
      [
       "l'attentat de Damiens (1757)",
       "Louis XV",
-      "Robert François Damiens blessa le roi d'un coup de canif le 5 janvier 1757.",
+      "Le 5 janvier 1757, Robert François Damiens frappa le roi avec un canif et le blessa.",
       "https://www.larousse.fr/encyclopedie/personnage/wd/130430"
      ],
      [
       "le traité de Paris qui fit perdre le Canada (1763)",
       "Louis XV",
-      "Il mit fin à la guerre de Sept Ans ; la France céda aussi l'Inde.",
+      "Ce traité clôt la guerre de Sept Ans ; la France y abandonne aussi l'Inde.",
       "https://www.larousse.fr/encyclopedie/personnage/wd/130430"
      ],
      [
@@ -8136,7 +8136,7 @@
      [
       "les Trois Glorieuses (juillet 1830)",
       "Charles X",
-      "Ces trois journées de combats, les 27, 28 et 29 juillet, renversèrent le roi.",
+      "Trois jours d'insurrection, du 27 au 29 juillet, suffirent à renverser le roi.",
       "https://www.larousse.fr/encyclopedie/personnage/Charles_X/112829"
      ]
     ]
@@ -8209,7 +8209,7 @@
      [
       "Mme de Montespan",
       "Louis XIV",
-      "Ses fils légitimés furent le duc du Maine et le comte de Toulouse.",
+      "Parmi ses fils légitimés : le comte de Toulouse et le duc du Maine.",
       "https://www.larousse.fr/encyclopedie/personnage/louis_xiv/130427"
      ],
      [
@@ -8227,7 +8227,7 @@
      [
       "le duc de Choiseul",
       "Louis XV",
-      "Il fit fonction de Premier ministre de 1758 à sa disgrâce en 1770.",
+      "De 1758 jusqu'à sa disgrâce en 1770, il joua le rôle d'un Premier ministre.",
       "https://www.larousse.fr/encyclopedie/personnage/wd/130430"
      ],
      [
@@ -8410,7 +8410,7 @@
      "La Suède",
      "Les Provinces-Unies"
     ],
-    "explication": "La France entrait ainsi ouvertement dans la guerre de Trente Ans.",
+    "explication": "Le royaume prenait dès lors part au grand jour à la guerre de Trente Ans.",
     "source": "https://www.larousse.fr/encyclopedie/personnage/Louis_XIII/130426"
    },
    {
@@ -8487,7 +8487,7 @@
      "Charles Garnier",
      "Haussmann"
     ],
-    "explication": "Le château fut conçu par Le Vau, Le Brun et Le Nôtre.",
+    "explication": "Versailles doit l'essentiel de sa conception à Le Vau, Le Brun et Le Nôtre.",
     "source": "https://www.larousse.fr/encyclopedie/personnage/louis_xiv/130427"
    },
    {
@@ -8553,7 +8553,7 @@
      "Arrière-petit-fils",
      "Neveu"
     ],
-    "explication": "Il était le fils du Dauphin Louis et de Marie-Josèphe de Saxe.",
+    "explication": "Son père était le Dauphin Louis, sa mère Marie-Josèphe de Saxe.",
     "source": "https://www.larousse.fr/dictionnaires/college/Louis_XVI/24264"
    },
    {
@@ -8674,7 +8674,7 @@
      "Le comte de Chambord",
      "Le duc de Berry"
     ],
-    "explication": "Le 7 août 1830, la Chambre des députés déclara le trône vacant et l'appela.",
+    "explication": "Le 7 août 1830, jugeant le trône vacant, les députés lui offrirent la couronne.",
     "source": "https://www.larousse.fr/encyclopedie/personnage/Charles_X/112829"
    }
   ]
@@ -8738,7 +8738,7 @@
      [
       "Louis X",
       "le Hutin",
-      "Il affranchit contre argent les serfs du domaine royal.",
+      "Contre paiement, il libère les serfs des terres royales.",
       "https://fr.vikidia.org/wiki/Liste_des_monarques_de_France"
      ],
      [
@@ -8811,7 +8811,7 @@
      [
       "le Lion",
       "Louis VIII",
-      "Il participe à la croisade contre les Albigeois et s'empare d'Avignon.",
+      "Engagé dans la croisade albigeoise, il se rend maître d'Avignon.",
       "https://fr.vikidia.org/wiki/Liste_des_monarques_de_France"
      ],
      [
@@ -8878,7 +8878,7 @@
      [
       "Henri Ier",
       "1031",
-      "Il cède la Bourgogne à son frère et n'obtient que le Sénonais.",
+      "Contraint de laisser la Bourgogne à son frère, il se contente du Sénonais.",
       "https://fr.vikidia.org/wiki/Liste_des_monarques_de_France"
      ],
      [
@@ -8932,7 +8932,7 @@
      [
       "Louis X le Hutin",
       "1314",
-      "Il confisque les biens des juifs et des Lombards.",
+      "Il s'empare des biens des Lombards et des juifs.",
       "https://fr.vikidia.org/wiki/Liste_des_monarques_de_France"
      ],
      [
@@ -8944,7 +8944,7 @@
      [
       "Charles IV le Bel",
       "1322",
-      "Il succède à son frère Philippe V et règne jusqu'en 1328.",
+      "Frère et successeur de Philippe V, il règne jusqu'en 1328.",
       "https://fr.vikidia.org/wiki/Liste_des_monarques_de_France"
      ]
     ]
@@ -8959,7 +8959,7 @@
      "Tours",
      "Dijon"
     ],
-    "explication": "Il est élu le 1er juin 987 par les grands seigneurs francs.",
+    "explication": "Ce sont les grands seigneurs du royaume franc qui le choisissent, le 1er juin 987.",
     "source": "https://fr.vikidia.org/wiki/Hugues_Capet"
    },
    {
@@ -9322,7 +9322,7 @@
      "1314",
      "1250"
     ],
-    "explication": "Cette canonisation renforce le prestige de la dynastie et du royaume.",
+    "explication": "La dynastie et le royaume y gagnent un surcroît de prestige.",
     "source": "https://www.universalis.fr/encyclopedie/capetiens/2-les-grands-capetiens-et-l-unite-territoriale-1180-1314/"
    },
    {
@@ -9377,7 +9377,7 @@
      "La Provence",
      "La Normandie"
     ],
-    "explication": "Jeanne de Navarre lui apporte la Champagne et la Brie en dot.",
+    "explication": "La Champagne et la Brie faisaient partie de la dot de Jeanne de Navarre.",
     "source": "https://www.herodote.net/Un_roi_administrateur-synthese-91.php"
    },
    {
@@ -9388,7 +9388,7 @@
      "Grégoire VII",
      "Innocent III"
     ],
-    "explication": "La querelle s'achève par l'affirmation de la pleine souveraineté du roi au temporel.",
+    "explication": "À l'issue du conflit, le roi s'affirme seul maître dans les affaires temporelles.",
     "source": "https://www.universalis.fr/encyclopedie/capetiens/2-les-grands-capetiens-et-l-unite-territoriale-1180-1314/"
    },
    {
@@ -9443,7 +9443,7 @@
      "Marseille",
      "Lille"
     ],
-    "explication": "Il annexe aussi une partie du Barrois.",
+    "explication": "Une partie du Barrois passe également sous son contrôle.",
     "source": "https://www.larousse.fr/dictionnaires/college/Philippe_IV_le_Bel/30548"
    },
    {
@@ -9498,7 +9498,7 @@
      "À la cathédrale de Reims",
      "Au Louvre"
     ],
-    "explication": "La même année, le 18 mai 1302, les habitants de Bruges massacrent la garnison française.",
+    "explication": "Cette même année, le 18 mai 1302, les Brugeois se soulèvent et tuent les soldats français qui occupent leur ville.",
     "source": "https://www.herodote.net/Un_roi_administrateur-synthese-91.php"
    }
   ]
@@ -11114,7 +11114,7 @@
      [
       "Nouvelle-Calédonie",
       "Nouméa",
-      "Nouméa est la seule grande ville de l'archipel.",
+      "L'archipel ne compte qu'une grande ville : Nouméa.",
       "https://fr.wikipedia.org/wiki/Nouvelle-Cal%C3%A9donie"
      ],
      [
@@ -11818,7 +11818,7 @@
      "« Pour Dieu et mon droit ! »",
      "« In hoc signo vinces ! »"
     ],
-    "explication": "Paysans et chevaliers cousaient des croix sur leurs vêtements.",
+    "explication": "Chevaliers comme paysans arboraient une croix cousue sur leur habit.",
     "source": "https://www.herodote.net/27_novembre_1095-evenement-10951127.php"
    },
    {
@@ -11950,7 +11950,7 @@
      "D'Anatolie",
      "De Perse"
     ],
-    "explication": "Il aida son oncle Chirkouh à prendre le pouvoir en Égypte.",
+    "explication": "Il seconda son oncle Chirkouh dans sa conquête du pouvoir en Égypte.",
     "source": "https://www.herodote.net/Saladin_un_heros_pour_les_Arabes-synthese-241-166.php"
    },
    {
@@ -12170,7 +12170,7 @@
      "Alexandrie",
      "Acre"
     ],
-    "explication": "Il espérait ouvrir une nouvelle route vers Jérusalem.",
+    "explication": "Il comptait, par là, se frayer un autre chemin jusqu'à Jérusalem.",
     "source": "https://sherpas.com/blog/chronologie-croisades/"
    },
    {
@@ -12181,7 +12181,7 @@
      "Bernard de Clairvaux",
      "Gérard de Ridefort"
     ],
-    "explication": "Il la fonda avec Godefroy de Saint-Omer et six autres chevaliers.",
+    "explication": "Sept chevaliers le rejoignirent, parmi lesquels Godefroy de Saint-Omer.",
     "source": "https://www.herodote.net/23_janvier_1120-evenement-11200123.php"
    },
    {
@@ -12280,7 +12280,7 @@
      "Urbain II",
      "Innocent III"
     ],
-    "explication": "La suppression fut décidée au concile de Vienne, en 1312.",
+    "explication": "C'est au concile de Vienne, en 1312, que l'ordre fut aboli.",
     "source": "https://www.herodote.net/13_octobre_1307-evenement-13071013.php"
    },
    {
@@ -12291,7 +12291,7 @@
      "Il levait l'impôt pour le pape",
      "Il prêtait aux seuls marchands vénitiens"
     ],
-    "explication": "Les donations avaient rendu l'ordre immensément riche.",
+    "explication": "Grâce aux dons reçus, l'ordre avait amassé une immense fortune.",
     "source": "https://www.herodote.net/13_octobre_1307-evenement-13071013.php"
    },
    {
@@ -12520,7 +12520,7 @@
      [
       "2A",
       "Corse-du-Sud",
-      "Jusqu'en 1976, toute la Corse portait le numéro 20 ; la Corse-du-Sud a reçu 2A.",
+      "Avant 1976, un seul numéro, le 20, couvrait l'île ; la Corse-du-Sud a ensuite reçu 2A.",
       "https://www.letribunaldunet.fr/insolite/pourquoi-numeros-departements-francais-origine.html"
      ],
      [
@@ -13063,7 +13063,7 @@
   ],
   "questions": [
    {
-    "enonce": "Pourquoi l'Ain porte-t-il le numéro 01 ?",
+    "enonce": "D'où vient le numéro 01 attribué à l'Ain ?",
     "bonne": "Il est le premier dans l'ordre alphabétique",
     "faux": [
      "Il a été créé le premier",
@@ -13081,7 +13081,7 @@
      "101",
      "130"
     ],
-    "explication": "Leur nombre, leurs limites et leurs noms ont été fixés le 26 février 1790.",
+    "explication": "C'est le 26 février 1790 qu'on arrête leur nombre, leur tracé et leur nom.",
     "source": "https://fr.vikidia.org/wiki/D%C3%A9partement_fran%C3%A7ais"
    },
    {
@@ -13257,7 +13257,7 @@
      "101",
      "150"
     ],
-    "explication": "Les conquêtes de la Révolution et de l'Empire ont étendu le territoire.",
+    "explication": "Le territoire s'est agrandi grâce aux conquêtes révolutionnaires puis impériales.",
     "source": "https://fr.vikidia.org/wiki/D%C3%A9partement_fran%C3%A7ais"
    },
    {
@@ -13574,7 +13574,7 @@
      [
       "une mer de sable couverte de dunes",
       "Erg",
-      "Le mot vient de l'arabe et signifie « champs de dunes ».",
+      "Ce terme d'origine arabe désigne des « champs de dunes ».",
       "https://fr.vikidia.org/wiki/Erg"
      ],
      [
@@ -13702,7 +13702,7 @@
     "source": "https://dlab.epfl.ch/wikispeedia/wpcd/wp/d/Desert.htm"
    },
    {
-    "enonce": "Comment qualifie-t-on un désert qui reçoit moins de 50 mm de pluie par an ?",
+    "enonce": "Comment nomme-t-on un désert où il tombe moins de 50 mm d'eau en un an ?",
     "bonne": "Hyper-aride",
     "faux": [
      "Semi-aride",
@@ -13753,7 +13753,7 @@
      "Environ 90 %",
      "La totalité"
     ],
-    "explication": "Cela représente une superficie supérieure à celle de la France.",
+    "explication": "Leur étendue totale dépasse celle de la France.",
     "source": "https://fr.vikidia.org/wiki/Erg"
    },
    {
@@ -15861,7 +15861,7 @@
      "Les quatre points cardinaux",
      "La Croix-Rouge"
     ],
-    "explication": "Cette croix blanche sur fond bleu orne le coin supérieur gauche.",
+    "explication": "Blanche sur fond bleu, elle occupe l'angle en haut à gauche du drapeau.",
     "source": "https://www.mfa.gr/france/fr/about-greece/government-and-politics/symboles-nationaux.html"
    },
    {
@@ -16323,7 +16323,7 @@
      [
       "les pyroxènes",
       "Clivage prismatique",
-      "Deux directions de clivage dominent.",
+      "Ils se clivent surtout selon deux directions.",
       "https://www.techno-science.net/fr/definitions/clivage"
      ],
      [
@@ -16507,7 +16507,7 @@
      "La fluorite",
      "Le quartz"
     ],
-    "explication": "L'ongle a une dureté d'environ 2,2 : il raye le gypse mais pas la calcite.",
+    "explication": "Avec sa dureté proche de 2,2, l'ongle entame le gypse, mais reste sans effet sur la calcite.",
     "source": "https://www.techno-science.net/definition/4662.html"
    },
    {
@@ -16551,7 +16551,7 @@
      "La calcite",
      "Le gypse"
     ],
-    "explication": "L'orthose aussi peut rayer le verre.",
+    "explication": "Le verre se laisse aussi rayer par l'orthose.",
     "source": "https://schools.sciencenorth.ca/sites/default/files/2018/Mine%20Evolution/MineEvo-1.E%CC%81chelle%20de%20durete%CC%81%20de%20Mohs.pdf"
    },
    {
@@ -16720,7 +16720,7 @@
     "source": "https://www.techno-science.net/fr/definitions/clivage"
    },
    {
-    "enonce": "Comment s'appelle la perception de la façon dont un minéral réfléchit la lumière ?",
+    "enonce": "Quel terme désigne l'aspect d'un minéral selon la manière dont il renvoie la lumière ?",
     "bonne": "L'éclat",
     "faux": [
      "Le trait",
@@ -17238,7 +17238,7 @@
     "source": "https://www.worldhistory.org/article/1468/rome-under-the-julio-claudian-dynasty/"
    },
    {
-    "enonce": "Quel titre les soldats donnaient-ils, sous la République, à leur général victorieux ?",
+    "enonce": "Sous la République, quel titre l'armée décernait-elle à un général après sa victoire ?",
     "bonne": "Imperator",
     "faux": [
      "Princeps",
@@ -17953,7 +17953,7 @@
     "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/List_of_Roman_emperors"
    },
    {
-    "enonce": "Quel empereur fait du grec la langue officielle et prend le titre de basileus ?",
+    "enonce": "Quel empereur impose le grec comme langue officielle et se fait appeler basileus ?",
     "bonne": "Héraclius",
     "faux": [
      "Justinien",
@@ -18369,7 +18369,7 @@
      "Cuba",
      "Porto Rico"
     ],
-    "explication": "Ses habitants étaient des Taïnos, du groupe des Arawaks.",
+    "explication": "L'île était peuplée de Taïnos, un peuple arawak.",
     "source": "https://www.herodote.net/12_octobre_1492-evenement-14921012.php"
    },
    {
@@ -18402,7 +18402,7 @@
      "L'Angleterre et le Portugal",
      "Venise et Gênes"
     ],
-    "explication": "La ligne de partage passait à 370 lieues à l'ouest des îles du Cap-Vert.",
+    "explication": "Elle suivait un méridien situé 370 lieues à l'ouest de l'archipel du Cap-Vert.",
     "source": "https://www.herodote.net/Portugais_et_Espagnols_unifient_le_monde_1488_1522_-synthese-3643-119.php"
    },
    {
@@ -18479,7 +18479,7 @@
      "Henri le Navigateur",
      "Sébastien Ier"
     ],
-    "explication": "La flotte quitta l'embouchure du Tage, à Lisbonne, le 8 juillet 1497.",
+    "explication": "Le 8 juillet 1497, la flotte appareilla de Lisbonne, là où le Tage rejoint la mer.",
     "source": "https://www.worldhistory.org/trans/fr/1-18064/vasco-de-gama/"
    },
    {
@@ -18699,7 +18699,7 @@
      "150 jours",
      "365 jours"
     ],
-    "explication": "Il parcourut 2 824 km et regagna sa base le 25 janvier 1912.",
+    "explication": "Il rentra à sa base le 25 janvier 1912, au terme d'un trajet de 2 824 km.",
     "source": "https://www.herodote.net/14_decembre_1911-evenement-19111214.php?resume=1"
    },
    {
@@ -18776,7 +18776,7 @@
      "La Terre de Feu",
      "L'île aux Trésors"
     ],
-    "explication": "Son récit nourrit le mythe du « bon sauvage », cher à Rousseau.",
+    "explication": "Sa relation de voyage alimente l'image du « bon sauvage » chère à Rousseau.",
     "source": "https://www.nomadeducation.fr/revisions/seconde-generale-tout-le-programme-lb3c5f27/1766-1769-le-voyage-de-bougainville-cy1c2719"
    },
    {
@@ -18813,7 +18813,7 @@
     "source": "https://larousse.fr/encyclopedie/divers/grands_explorateurs/187603"
    },
    {
-    "enonce": "Quel Français atteint le premier le pôle Nord à pied et en solitaire, en 1986 ?",
+    "enonce": "Quel Français est le premier à rallier seul et à pied le pôle Nord, en 1986 ?",
     "bonne": "Jean-Louis Étienne",
     "faux": [
      "Paul-Émile Victor",
@@ -18865,7 +18865,7 @@
      [
       "Kinshasa",
       "République démocratique du Congo",
-      "C'est la plus grande ville francophone du monde, devant Paris.",
+      "Aucune ville francophone n'est plus grande, pas même Paris.",
       "https://www.pariszigzag.fr/paris-au-quotidien/actualites-paris/kinshasa-premiere-ville-francophone-du-monde-devant-paris/"
      ],
      [
@@ -19968,7 +19968,7 @@
      [
       "le conseil de 500 citoyens tirés au sort pour un an",
       "Boulè",
-      "Ce conseil préparait les séances de l'assemblée et les projets de loi.",
+      "Il rédigeait les propositions de loi et organisait les réunions de l'assemblée.",
       "https://www.schoolmouv.fr/cours/la-naissance-de-la-democratie-athenienne/fiche-de-cours"
      ],
      [
@@ -19980,7 +19980,7 @@
      [
       "les dix magistrats élus chaque année pour commander l'armée",
       "Stratèges",
-      "C'était la plus haute fonction, et la seule à ne pas être tirée au sort.",
+      "Charge suprême, elle était aussi l'unique à échapper au tirage au sort.",
       "https://www.schoolmouv.fr/cours/la-naissance-de-la-democratie-athenienne/fiche-de-cours"
      ],
      [
@@ -20023,7 +20023,7 @@
      [
       "le conseil de 28 hommes de plus de 60 ans, élus à vie",
       "Gérousie",
-      "Les deux rois y siégeaient aussi ; c'était également la plus haute cour de justice.",
+      "Les deux rois en faisaient partie ; ce conseil servait en outre de tribunal suprême.",
       "https://www.worldhistory.org/trans/fr/1-197/sparte/"
      ],
      [
@@ -20115,7 +20115,7 @@
      [
       "le pancrace",
       "Un mélange de boxe et de lutte",
-      "Le programme olympique comptait 18 épreuves réparties sur cinq jours.",
+      "Au total, les Jeux proposaient 18 épreuves étalées sur cinq jours.",
       "https://www.worldhistory.org/trans/fr/1-440/jeux-olympiques-antiques/"
      ],
      [
@@ -20170,7 +20170,7 @@
      [
       "la fondation d'Alexandrie, en Égypte",
       "331 av. J.-C.",
-      "À l'oasis de Siwa, il fut proclamé fils de Zeus-Ammon.",
+      "L'oracle de Siwa le reconnut comme fils de Zeus-Ammon.",
       "https://www.worldhistory.org/trans/fr/1-265/alexandre-le-grand/"
      ],
      [
@@ -20340,7 +20340,7 @@
      "Périclès",
      "Lycurgue"
     ],
-    "explication": "On le considère comme le père de la démocratie athénienne.",
+    "explication": "Beaucoup voient en lui le fondateur de la démocratie à Athènes.",
     "source": "https://www.schoolmouv.fr/cours/la-naissance-de-la-democratie-athenienne/fiche-de-cours"
    },
    {
@@ -20714,7 +20714,7 @@
      "1979",
      "2000"
     ],
-    "explication": "La colline culmine à environ 156 m.",
+    "explication": "Son sommet se dresse à quelque 156 mètres.",
     "source": "https://areq.net/lang/fr/Acropole_d'Ath%C3%A8nes.html"
    },
    {
@@ -21468,7 +21468,7 @@
      "L'Équateur",
      "Le Chili"
     ],
-    "explication": "Sa souveraineté française n'est plus contestée par ce pays.",
+    "explication": "Ce pays ne remet plus en cause l'appartenance de l'île à la France.",
     "source": "https://www.techno-science.net/fr/definitions/liste-des-iles-de-france"
    },
    {
@@ -21699,7 +21699,7 @@
      "1815",
      "1870"
     ],
-    "explication": "Il repose depuis aux Invalides.",
+    "explication": "Son tombeau se trouve désormais aux Invalides.",
     "source": "https://www.herodote.net/5_mai_1821-evenement-18210505.php?resume=1"
    },
    {
@@ -21721,7 +21721,7 @@
      "Saint-Laurent-du-Maroni",
      "Maripasoula"
     ],
-    "explication": "L'archipel compte l'île Royale, l'île Saint-Joseph et l'île du Diable.",
+    "explication": "L'île Royale, l'île du Diable et Saint-Joseph forment cet archipel.",
     "source": "https://figaronautisme.meteoconsult.fr/actus-nautisme-lifestyle/2026-10-20/93382-chateau-d-if-spinalonga-ile-du-diable-ces-iles-prisons-paradisiaques-au-passe-terrifiant"
    },
    {
@@ -21886,7 +21886,7 @@
      "La Colombie",
      "Le Chili"
     ],
-    "explication": "Elles forment une province de l'Équateur depuis 1832.",
+    "explication": "Depuis 1832, l'archipel constitue une province de ce pays.",
     "source": "https://www.techno-science.net/fr/definitions/iles-galapagos"
    },
    {
@@ -23290,7 +23290,7 @@
      [
       "Andorre",
       "l'euro",
-      "Andorre utilisait auparavant le franc français et la peseta espagnole.",
+      "Avant l'euro, Andorre se servait de deux monnaies voisines : franc français et peseta espagnole.",
       "https://fr.vikidia.org/wiki/Zone_euro"
      ],
      [
@@ -23843,7 +23843,7 @@
      "Néron",
      "Hadrien"
     ],
-    "explication": "Les premiers solidus furent frappés à Trèves en 310.",
+    "explication": "C'est à Trèves, en 310, que sortent les tout premiers solidus.",
     "source": "https://www.herodote.net/Breve_histoire_de_la_monnaie-synthese-22.php"
    },
    {
@@ -24019,11 +24019,11 @@
      "La paix",
      "La croissance"
     ],
-    "explication": "La Commission européenne détient les droits d'auteur sur ce symbole.",
+    "explication": "Ce signe est protégé par un droit d'auteur, exercé par la Commission européenne au nom de l'Union.",
     "source": "https://european-union.europa.eu/institutions-law-budget/euro/design_fr"
    },
    {
-    "enonce": "Combien de billets différents ont été conçus pour le lancement de l'euro en 2002 ?",
+    "enonce": "Combien de coupures différentes furent dessinées pour l'arrivée de l'euro, en 2002 ?",
     "bonne": "7",
     "faux": [
      "5",
@@ -24056,7 +24056,7 @@
     "source": "https://www.ecb.europa.eu/euro/intro/html/index.fr.html"
    },
    {
-    "enonce": "Quel pays, membre de l'Union européenne de 1973 à 2020, n'a jamais utilisé l'euro ?",
+    "enonce": "Quel pays a appartenu à l'Union européenne de 1973 à 2020 sans jamais adopter l'euro ?",
     "bonne": "Le Royaume-Uni",
     "faux": [
      "L'Irlande",
@@ -24107,7 +24107,7 @@
      "Le yen",
      "Le dollar américain"
     ],
-    "explication": "Elle serait utilisée depuis plus de 1 200 ans.",
+    "explication": "Son usage remonterait à plus de 1 200 ans.",
     "source": "https://www.worldremit.com/fr/blog/finance/monnaies-du-monde"
    },
    {
@@ -25616,7 +25616,7 @@
      "Charles X",
      "Napoléon Bonaparte"
     ],
-    "explication": "Dacier était le secrétaire perpétuel de l'Académie des inscriptions et belles-lettres.",
+    "explication": "L'Académie des inscriptions et belles-lettres avait alors Dacier pour secrétaire perpétuel.",
     "source": "https://www.herodote.net/Il_dechiffre_les_hieroglyphes_et_redonne_vie_aux_pharaons-synthese-3337-145.php"
    },
    {
@@ -26149,7 +26149,7 @@
      [
       "le rubis",
       "Rouge",
-      "Le rubis est la variété rouge du corindon, colorée surtout par l'oxyde de chrome.",
+      "Le rubis n'est autre qu'un corindon rouge, teinté principalement par l'oxyde de chrome.",
       "https://www.techno-science.net/fr/definitions/rubis"
      ],
      [
@@ -26302,7 +26302,7 @@
      [
       "le rubis",
       "Corindon",
-      "Le corindon rouge est le rubis ; toutes ses autres couleurs sont des saphirs.",
+      "Rouge, le corindon devient rubis ; sous toute autre teinte, on le nomme saphir.",
       "https://www.techno-science.net/fr/definitions/corindon"
      ],
      [
@@ -26575,7 +26575,7 @@
      [
       "le Cullinan I",
       "Parmi les joyaux de la Couronne britannique",
-      "Surnommé « Grande Étoile d'Afrique », il est serti sur le sceptre royal.",
+      "On l'appelle « Grande Étoile d'Afrique » ; il orne le sceptre royal.",
       "https://www.futura-sciences.com/planete/questions-reponses/terre-sont-diamants-plus-celebres-monde-21220/"
      ],
      [
@@ -26660,7 +26660,7 @@
      [
       "le Koh-i-Noor",
       "105,6 carats",
-      "Il a été retaillé pour la reine Victoria ; son poids d'origine est estimé à 186 carats.",
+      "Retaillé pour la reine Victoria, ce diamant pesait à l'origine environ 186 carats.",
       "https://www.futura-sciences.com/planete/questions-reponses/terre-sont-diamants-plus-celebres-monde-21220/"
      ],
      [
@@ -26808,7 +26808,7 @@
      "1929",
      "1987"
     ],
-    "explication": "On soumet le carbone à une forte pression et une haute température pendant plusieurs heures.",
+    "explication": "Il faut soumettre le carbone, des heures durant, à une pression et une chaleur intenses.",
     "source": "https://www.techno-science.net/fr/definitions/diamant"
    },
    {
@@ -26841,7 +26841,7 @@
      "CaCO₃",
      "Be₃Al₂Si₆O₁₈"
     ],
-    "explication": "Le corindon est le minéral naturel le plus dur après le diamant.",
+    "explication": "Parmi les minéraux naturels, seul le diamant surpasse le corindon en dureté.",
     "source": "https://www.techno-science.net/fr/definitions/corindon"
    },
    {
@@ -26885,7 +26885,7 @@
      "Henri Moissan",
      "René Just Haüy"
     ],
-    "explication": "Il a fondu de la poudre d'oxyde d'aluminium avec un colorant rouge.",
+    "explication": "Son procédé : faire fondre de l'alumine en poudre additionnée d'un colorant rouge.",
     "source": "https://www.techno-science.net/fr/definitions/rubis"
    },
    {
@@ -27105,7 +27105,7 @@
      "Au shah d'Iran",
      "Au sultan de Brunei"
     ],
-    "explication": "Ce diamant jaune-brun a été découvert en 1985 dans la mine Premier, en Afrique du Sud.",
+    "explication": "Ce diamant jaune-brun est sorti en 1985 de la mine sud-africaine Premier.",
     "source": "https://www.futura-sciences.com/planete/questions-reponses/terre-sont-diamants-plus-celebres-monde-21220/"
    },
    {
@@ -28235,7 +28235,7 @@
      [
       "Wagram",
       "1809",
-      "Cette victoire impose la paix aux Autrichiens, signée à Vienne le 14 octobre.",
+      "Battue, l'Autriche doit accepter la paix, conclue à Vienne le 14 octobre.",
       "https://www.napoleon.org/enseignants/documents/chronologie-detaillee-et-illustree-du-consulat-et-du-premier-empire/"
      ],
      [
@@ -28537,7 +28537,7 @@
      [
       "la première abdication de Napoléon",
       "1814",
-      "Le Sénat avait voté la déchéance de l'Empereur le 2 avril.",
+      "Dès le 2 avril, le Sénat avait prononcé la déchéance de l'Empereur.",
       "https://www.napoleon.org/enseignants/documents/chronologie-detaillee-et-illustree-du-consulat-et-du-premier-empire/"
      ],
      [
@@ -28604,7 +28604,7 @@
      [
       "la seconde abdication",
       "22 juin 1815",
-      "Le 29 juin, Napoléon quitte Malmaison pour Rochefort.",
+      "Napoléon part de Malmaison le 29 juin et prend la route de Rochefort.",
       "https://www.napoleon.org/histoire-des-2-empires/chronologies/fevrier-juillet-pendant-les-cent-jours/"
      ],
      [
@@ -28829,7 +28829,7 @@
      "Le curé",
      "Le juge de paix"
     ],
-    "explication": "Elle ne peut accomplir aucun acte juridique sans son accord.",
+    "explication": "Sans le consentement de son mari, aucun acte juridique ne lui est permis.",
     "source": "https://www.napoleon.org/histoire-des-2-empires/articles/le-code-civil-des-francais-21-mars-1804-quelques-points-de-repere/"
    },
    {
@@ -28994,7 +28994,7 @@
      "150 000",
      "1 200 000"
     ],
-    "explication": "Seuls 20 000 soldats rentrent en France après la retraite.",
+    "explication": "À peine 20 000 hommes reviennent en France au terme de la retraite.",
     "source": "https://www.napoleon.org/enseignants/documents/chronologie-detaillee-et-illustree-du-consulat-et-du-premier-empire/"
    },
    {
@@ -29761,7 +29761,7 @@
      "L'Occitanie",
      "Les Hauts-de-France"
     ],
-    "explication": "Bretagne, Île-de-France, Pays de la Loire et Provence-Alpes-Côte d'Azur sont restées inchangées.",
+    "explication": "Provence-Alpes-Côte d'Azur, les Pays de la Loire et l'Île-de-France ont, elles aussi, gardé leurs limites.",
     "source": "https://www.vie-publique.fr/eclairage/38658-reforme-territoriale-une-nouvelle-carte-des-regions"
    },
    {
@@ -29809,7 +29809,7 @@
     "source": "https://www.banquedesterritoires.fr/les-nouvelles-regions-ont-choisi-leur-siege-et-les-lieux-de-reunion-des-elus"
    },
    {
-    "enonce": "Quelle est la commune la plus peuplée de la région Normandie ?",
+    "enonce": "Quelle commune normande compte le plus d'habitants ?",
     "bonne": "Le Havre",
     "faux": [
      "Rouen",
@@ -29827,7 +29827,7 @@
      "Environ 30 %",
      "Environ 95 %"
     ],
-    "explication": "La Normandie est le premier pôle mondial du flaconnage de luxe.",
+    "explication": "Aucune région au monde ne fabrique autant de flacons de luxe que la Normandie.",
     "source": "https://wikiwand.com/fr/Normandie_(r%C3%A9gion_administrative)"
    },
    {
@@ -29900,7 +29900,7 @@
      [
       "la mort de Mirabeau",
       "1791",
-      "Premier occupant du Panthéon, il en est retiré après la découverte de ses liens secrets avec la royauté.",
+      "Premier admis au Panthéon, il en est sorti quand on apprend qu'il traitait en secret avec la monarchie.",
       "https://fr.wikipedia.org/wiki/Honor%C3%A9-Gabriel_Riqueti_de_Mirabeau"
      ],
      [
@@ -29990,7 +29990,7 @@
      [
       "le traité de Campo-Formio",
       "1797",
-      "L'Autriche y reconnaît l'annexion de la Belgique par la France.",
+      "Par ce traité, l'Autriche accepte que la Belgique soit rattachée à la France.",
       "https://fr.wikipedia.org/wiki/Chronologie_de_la_R%C3%A9volution_fran%C3%A7aise"
      ],
      [
@@ -30057,7 +30057,7 @@
      [
       "la déclaration de guerre à l'Autriche",
       "20 avril 1792",
-      "Cinq jours plus tard, Rouget de Lisle écrit le chant qui deviendra « La Marseillaise ».",
+      "Cinq jours après, Rouget de Lisle compose le futur hymne « La Marseillaise ».",
       "https://fr.wikipedia.org/wiki/Chronologie_de_la_R%C3%A9volution_fran%C3%A7aise"
      ],
      [
@@ -30366,7 +30366,7 @@
      [
       "nul ne doit être inquiété pour ses opinions, même religieuses",
       "l'article 10",
-      "Une limite : que leur manifestation ne trouble pas l'ordre public.",
+      "Une limite : leur expression ne doit pas porter atteinte à l'ordre public.",
       "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
      ],
      [
@@ -30384,7 +30384,7 @@
      [
       "une société sans séparation des pouvoirs n'a point de Constitution",
       "l'article 16",
-      "Il vise aussi la société où la garantie des droits n'est pas assurée.",
+      "Il concerne aussi toute société qui n'assure pas la garantie des droits.",
       "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
      ],
      [
@@ -30537,7 +30537,7 @@
      "La place de la Bastille",
      "La place Vendôme"
     ],
-    "explication": "Il y est exécuté le 10 thermidor an II avec vingt et un de ses partisans.",
+    "explication": "Lui et vingt et un de ses partisans y sont guillotinés le 10 thermidor an II.",
     "source": "https://fr.wikipedia.org/wiki/Maximilien_de_Robespierre"
    },
    {
@@ -30548,7 +30548,7 @@
      "Au suffrage universel",
      "À la fin de la royauté"
     ],
-    "explication": "Il prononce aussi un discours célèbre pour l'abolition de la peine de mort.",
+    "explication": "On lui doit aussi un plaidoyer fameux réclamant la fin de la peine de mort.",
     "source": "https://fr.wikipedia.org/wiki/Maximilien_de_Robespierre"
    },
    {
@@ -30570,7 +30570,7 @@
      "Reims",
      "Arras"
     ],
-    "explication": "Il achète en 1787 une charge d'avocat aux Conseils du roi.",
+    "explication": "En 1787, il se porte acquéreur d'un office d'avocat aux Conseils du roi.",
     "source": "https://fr.wikipedia.org/wiki/Georges_Jacques_Danton"
    },
    {
@@ -30581,7 +30581,7 @@
      "Danton",
      "La Fayette"
     ],
-    "explication": "On découvrit ses relations secrètes avec la royauté après sa mort.",
+    "explication": "Après sa mort, on apprit qu'il traitait en secret avec la monarchie.",
     "source": "https://fr.wikipedia.org/wiki/Honor%C3%A9-Gabriel_Riqueti_de_Mirabeau"
    },
    {
@@ -30625,7 +30625,7 @@
      "Versailles",
      "Lyon"
     ],
-    "explication": "Il appartient aux Musées royaux des Beaux-Arts de Belgique.",
+    "explication": "Les Musées royaux des Beaux-Arts de Belgique le comptent dans leurs collections.",
     "source": "https://fr.wikipedia.org/wiki/La_Mort_de_Marat"
    },
    {
@@ -30658,7 +30658,7 @@
      "Ils se réunissent à Montmartre",
      "Ils se réunissent au mont Valérien"
     ],
-    "explication": "Leurs chefs sont Robespierre, Danton, Marat et Saint-Just.",
+    "explication": "Robespierre, Danton, Marat et Saint-Just figurent parmi leurs meneurs.",
     "source": "https://fr.wikipedia.org/wiki/R%C3%A9volution_fran%C3%A7aise"
    },
    {
@@ -30702,7 +30702,7 @@
      "Les Feuillants",
      "Les Montagnards"
     ],
-    "explication": "Ils disparaîtront sous l'Empire.",
+    "explication": "Leur mouvement s'éteint sous le règne de Napoléon.",
     "source": "https://fr.wikipedia.org/wiki/Glossaire_de_la_R%C3%A9volution_fran%C3%A7aise"
    },
    {
@@ -30757,7 +30757,7 @@
      "Les impôts",
      "Les sorties du territoire"
     ],
-    "explication": "Les prix sont fixés au niveau de 1790 augmenté de 30 %.",
+    "explication": "Un plafond est imposé : 30 % de plus que les tarifs pratiqués en 1790.",
     "source": "https://fr.wikipedia.org/wiki/R%C3%A9volution_fran%C3%A7aise"
    },
    {
@@ -30845,7 +30845,7 @@
      "Le 1er janvier 1793",
      "Le 21 janvier 1793"
     ],
-    "explication": "C'est le lendemain de la proclamation de la République.",
+    "explication": "La République avait été proclamée la veille.",
     "source": "https://fr.vikidia.org/wiki/Calendrier_r%C3%A9publicain"
    },
    {
@@ -30916,7 +30916,7 @@
      [
       "le granite",
       "Magmatique plutonique",
-      "Avec ses roches associées, il forme l'essentiel de la croûte continentale.",
+      "Lui et les roches qui l'accompagnent composent la majeure partie de la croûte des continents.",
       "https://www.techno-science.net/fr/definitions/granite"
      ],
      [
@@ -30946,7 +30946,7 @@
      [
       "l'andésite",
       "Magmatique volcanique",
-      "Avec le basalte, elle forme plus de 95 % des roches volcaniques.",
+      "À elles deux, andésite et basalte dépassent 95 % des roches volcaniques.",
       "https://www.techno-science.net/fr/definitions/roche-volcanique"
      ],
      [
@@ -31018,13 +31018,13 @@
      [
       "le marbre",
       "Métamorphique",
-      "Son nom vient du latin marmor.",
+      "Il tire son nom du mot latin marmor.",
       "https://www.techno-science.net/fr/definitions/marbre"
      ],
      [
       "l'ardoise",
       "Métamorphique",
-      "Elle appartient à la famille des schistes et se débite en feuillets.",
+      "Cette roche du groupe des schistes se fend en fines feuilles.",
       "https://www.futura-sciences.com/maison/definitions/maison-ardoise-10516/"
      ],
      [
@@ -31079,7 +31079,7 @@
      [
       "une lave refroidie sous l'eau en formes arrondies",
       "Du basalte en coussins",
-      "Ces formes viennent du refroidissement très rapide de la lave dans l'eau.",
+      "Au contact de l'eau, la lave se fige très vite et prend ces formes.",
       "https://fr.vikidia.org/wiki/Basalte"
      ],
      [
@@ -31369,7 +31369,7 @@
      "La cendre",
      "La pierre ponce"
     ],
-    "explication": "La lave est donc du magma dégazé.",
+    "explication": "Autrement dit, la lave n'est qu'un magma privé de ses gaz.",
     "source": "https://fr.vikidia.org/wiki/Roche_magmatique"
    },
    {
@@ -31831,7 +31831,7 @@
      "Le marbre",
      "Le basalte"
     ],
-    "explication": "Les évaporites naissent de la précipitation des sels dissous dans l'eau.",
+    "explication": "Elles se forment quand des sels dissous dans l'eau précipitent.",
     "source": "https://www.larousse.fr/encyclopedie/divers/roche/88791"
    }
   ]
@@ -32471,7 +32471,7 @@
      [
       "Aravis",
       "Pointe Percée",
-      "Elle doit son nom à une ouverture dans la roche de son arête sommitale.",
+      "Son nom vient d'un trou qui perce la roche de sa crête sommitale.",
       "https://www.mon-sejour-en-montagne.com/?p=15928"
      ],
      [
@@ -32857,7 +32857,7 @@
     "source": "https://areq.net/lang/fr/Sept_sommets.html"
    },
    {
-    "enonce": "Quel sommet est parfois désigné comme point culminant de l'Europe à la place de l'Elbrouz ?",
+    "enonce": "Quel sommet certains retiennent-ils comme toit de l'Europe, au lieu de l'Elbrouz ?",
     "bonne": "Le mont Blanc",
     "faux": [
      "Le Cervin",
@@ -32897,7 +32897,7 @@
      "L'Isère",
      "Les Hautes-Alpes"
     ],
-    "explication": "Il se trouve dans le massif du Mont-Blanc.",
+    "explication": "Il domine le massif qui porte son nom.",
     "source": "https://fr.vikidia.org/wiki/Mont_Blanc"
    },
    {
@@ -32963,7 +32963,7 @@
      "Un observatoire astronomique",
      "Un phare"
     ],
-    "explication": "Il honore les chasseurs alpins envoyés dans les Vosges pendant la Première Guerre mondiale.",
+    "explication": "Il rend hommage aux chasseurs alpins engagés dans les Vosges durant la Grande Guerre.",
     "source": "https://www.mon-sejour-en-montagne.com/?p=15928"
    },
    {
@@ -33184,7 +33184,7 @@
      [
       "acide butyrique",
       "acide butanoïque",
-      "Il est responsable de l'odeur du beurre rance.",
+      "C'est lui qui donne au beurre rance son odeur.",
       "https://www.techno-science.net/fr/definitions/acide-carboxylique"
      ],
      [
@@ -33454,7 +33454,7 @@
     "source": "https://www.larousse.fr/encyclopedie/divers/acides_et_bases/187439"
    },
    {
-    "enonce": "Que produit la réaction entre un acide et une base ?",
+    "enonce": "Qu'obtient-on quand un acide réagit avec une base ?",
     "bonne": "Un sel et de l'eau",
     "faux": [
      "Un métal et du dioxygène",
@@ -33516,7 +33516,7 @@
      "Robert Boyle",
      "Søren Sørensen"
     ],
-    "explication": "Humphry Davy montre ensuite que l'acide chlorhydrique ne contient pas d'oxygène.",
+    "explication": "Humphry Davy prouve ensuite que l'acide chlorhydrique est dépourvu d'oxygène.",
     "source": "https://www.larousse.fr/encyclopedie/divers/acides_et_bases/187439"
    },
    {
@@ -33604,7 +33604,7 @@
      "D'eau de Javel",
      "De sel"
     ],
-    "explication": "Il prend presque instantanément la teinte correspondant au pH du milieu.",
+    "explication": "Sa couleur s'ajuste presque aussitôt au pH de la solution testée.",
     "source": "https://www.techno-science.net/fr/definitions/indicateur-de-ph"
    },
    {
@@ -33615,7 +33615,7 @@
      "Entre 9 et 10",
      "Entre 13 et 14"
     ],
-    "explication": "Ce sont des acides faibles dans l'eau.",
+    "explication": "En solution aqueuse, leur acidité reste faible.",
     "source": "https://www.techno-science.net/fr/definitions/acide-carboxylique"
    },
    {
@@ -33983,7 +33983,7 @@
      "Environ 3 fois",
      "Environ 10 fois"
     ],
-    "explication": "Il présente six formes cristallines à pression ambiante.",
+    "explication": "À pression ambiante, on lui connaît six structures cristallines différentes.",
     "source": "https://www.techno-science.net/fr/definitions/plutonium"
    },
    {
@@ -34460,7 +34460,7 @@
      [
       "Le Radeau de la Méduse",
       "le Louvre",
-      "Géricault transforme un naufrage réel en scène monumentale, en 1818-1819.",
+      "En 1818-1819, Géricault fait d'un vrai naufrage un tableau gigantesque.",
       "https://www.paristickets.com/fr/louvre-museum/artworks/"
      ],
      [
@@ -34484,7 +34484,7 @@
      [
       "Le Code de Hammurabi",
       "le Louvre",
-      "Cette stèle babylonienne porte l'un des textes juridiques les plus complets de l'Antiquité.",
+      "Gravée à Babylone, cette stèle offre l'un des recueils de lois antiques les plus complets.",
       "https://www.paristickets.com/fr/louvre-museum/artworks/"
      ],
      [
@@ -34526,7 +34526,7 @@
      [
       "La Ronde de nuit, de Rembrandt",
       "le Rijksmuseum",
-      "Le musée occupe un bâtiment néogothique de 1885 dessiné par Cuypers.",
+      "Son édifice néogothique, œuvre de l'architecte Cuypers, date de 1885.",
       "https://www.routard.com/fr/mag/dossier/a/les-grands-musees-d-europe"
      ],
      [
@@ -34592,7 +34592,7 @@
      [
       "Le Retour du fils prodigue, de Rembrandt",
       "l'Ermitage",
-      "L'Ermitage expose aussi Trois femmes tahitiennes sur fond jaune de Gauguin.",
+      "L'Ermitage montre aussi un Gauguin, « Trois femmes tahitiennes sur fond jaune ».",
       "https://www.routard.com/fr/mag/dossier/a/les-grands-musees-d-europe"
      ],
      [
@@ -34904,7 +34904,7 @@
      "Pablo Picasso",
      "Arsène Lupin"
     ],
-    "explication": "Ce peintre italien avait travaillé au Louvre et monté la caisse qui protégeait le tableau.",
+    "explication": "Ce peintre italien, passé par le Louvre, avait lui-même assemblé la caisse du tableau.",
     "source": "https://www.finestresullarte.info/fr/oeuvres-et-artistes/le-vol-de-la-joconde-quand-vincenzo-peruggia-a-vole-le-celebre-tableau-de-leonard-de-vinci"
    },
    {
@@ -34937,7 +34937,7 @@
      "Six mois",
      "Dix ans"
     ],
-    "explication": "Jugé à Florence en 1914, il est condamné à un an et demi de prison.",
+    "explication": "Son procès a lieu à Florence en 1914 : il écope de dix-huit mois d'emprisonnement.",
     "source": "https://www.finestresullarte.info/fr/oeuvres-et-artistes/le-vol-de-la-joconde-quand-vincenzo-peruggia-a-vole-le-celebre-tableau-de-leonard-de-vinci"
    },
    {
@@ -34959,7 +34959,7 @@
      "Le Régent",
      "La Vénus de Milo"
     ],
-    "explication": "Les joyaux dérobés, du XIXe siècle, sont ornés de milliers de diamants.",
+    "explication": "Ces parures volées, qui datent du XIXe siècle, scintillent de milliers de diamants.",
     "source": "https://www.interpol.int/fr/Actualites-et-evenements/Actualites/2025/Vol-au-musee-du-Louvre-les-bijoux-derobes-ont-ete-enregistres-dans-Ia-base-de-donnees-d-INTERPOL-sur-les-aeuvres-d-art-volees"
    },
    {
@@ -35113,7 +35113,7 @@
      "Nicolas II",
      "Alexandre Ier"
     ],
-    "explication": "Le musée ouvre au public en 1825.",
+    "explication": "Ses portes s'ouvrent aux visiteurs en 1825.",
     "source": "https://www.futura-sciences.com/planete/questions-reponses/musee-plus-grandes-oeuvres-voir-musee-ermitage-saint-petersbourg-5191/"
    },
    {
@@ -35135,7 +35135,7 @@
      "La Dame à l'hermine",
      "La Vierge aux rochers"
     ],
-    "explication": "L'Ermitage possède aussi 31 œuvres de Picasso.",
+    "explication": "On peut aussi y admirer 31 œuvres de Picasso.",
     "source": "https://www.futura-sciences.com/planete/questions-reponses/musee-plus-grandes-oeuvres-voir-musee-ermitage-saint-petersbourg-5191/"
    },
    {
@@ -35267,7 +35267,7 @@
      "Oskar Kokoschka",
      "Edvard Munch"
     ],
-    "explication": "Le Belvédère expose aussi La Mort et la Jeune Fille de Schiele.",
+    "explication": "Le Belvédère montre aussi un Schiele, « La Mort et la Jeune Fille ».",
     "source": "https://www.routard.com/fr/mag/dossier/a/les-grands-musees-d-europe"
    },
    {
@@ -35948,7 +35948,7 @@
      "Le chlore",
      "L'ammoniac"
     ],
-    "explication": "C'est l'une des intoxications mortelles les plus fréquentes.",
+    "explication": "Il figure parmi les causes d'empoisonnement mortel les plus courantes.",
     "source": "https://www.merckmanuals.com/fr-ca/professional/blessures-empoisonnement/intoxications-empoisonnements/intoxication-par-le-monoxyde-de-carbone"
    },
    {
@@ -36003,7 +36003,7 @@
      "Bleu-vert",
      "Gris cendre"
     ],
-    "explication": "Ce signe n'est pas constant et ne doit pas retarder les secours.",
+    "explication": "Il n'apparaît pas toujours : mieux vaut ne pas l'attendre pour appeler les secours.",
     "source": "https://www.futura-sciences.com/sante/definitions/medecine-carboxyhemoglobine-3095/"
    },
    {
@@ -36190,7 +36190,7 @@
      "Justus von Liebig",
      "Robert Bunsen"
     ],
-    "explication": "Becher l'avait lancée à la fin du XVIIe siècle.",
+    "explication": "Becher en était l'initiateur, dans les dernières années du XVIIe siècle.",
     "source": "https://www.techno-science.net/fr/definitions/phlogistique"
    },
    {
@@ -37391,7 +37391,7 @@
      [
       "le mariage et les naissances",
       "Héra",
-      "Elle est la mère d'Arès, d'Héphaïstos et d'Hébé.",
+      "Arès, Héphaïstos et Hébé comptent parmi ses enfants.",
       "https://www.worldhistory.org/trans/fr/2-1002/personnages-de-la-mythologie-grecque"
      ],
      [
@@ -37516,7 +37516,7 @@
      [
       "le croissant de lune",
       "Artémis",
-      "Elle est la fille de Zeus et de Léto.",
+      "Ses parents sont Zeus et Léto.",
       "https://fr.vikidia.org/wiki/Olympiens"
      ],
      [
@@ -37540,7 +37540,7 @@
      [
       "le thyrse",
       "Dionysos",
-      "Il est le fils de Zeus et de Sémélé.",
+      "Ses parents sont Zeus et Sémélé.",
       "https://fr.vikidia.org/wiki/Olympiens"
      ],
      [
@@ -37552,7 +37552,7 @@
      [
       "le vautour",
       "Arès",
-      "Il est le fils de Zeus et d'Héra.",
+      "Ses parents sont Zeus et Héra.",
       "https://fr.vikidia.org/wiki/Olympiens"
      ]
     ]
@@ -37921,7 +37921,7 @@
      "Pélias",
      "Priam"
     ],
-    "explication": "Thésée avait oublié de changer la voile de son bateau.",
+    "explication": "Thésée avait omis de remplacer la voile de son navire.",
     "source": "https://www.worldhistory.org/trans/fr/2-1002/personnages-de-la-mythologie-grecque"
    },
    {
@@ -38219,7 +38219,7 @@
      [
       "de l'état gazeux à l'état liquide",
       "liquéfaction",
-      "On l'appelle aussi « condensation liquide ».",
+      "Autre nom possible : « condensation liquide ».",
       "https://www.schoolmouv.fr/cours/caracteristiques-et-representation-d-un-changement-d-etat/fiche-de-cours"
      ],
      [
@@ -38231,7 +38231,7 @@
      [
       "de l'état gazeux à l'état solide",
       "déposition",
-      "On l'appelle aussi « condensation solide ».",
+      "Autre nom possible : « condensation solide ».",
       "https://www.schoolmouv.fr/cours/caracteristiques-et-representation-d-un-changement-d-etat/fiche-de-cours"
      ]
     ]
@@ -38468,7 +38468,7 @@
      "La masse volumique",
      "La forme"
     ],
-    "explication": "Le volume peut changer, donc la masse volumique aussi.",
+    "explication": "Le volume, lui, peut varier, et la masse volumique avec lui.",
     "source": "https://www.schoolmouv.fr/cours/caracteristiques-et-representation-d-un-changement-d-etat/fiche-de-cours"
    },
    {
@@ -38571,7 +38571,7 @@
     "source": "https://www.futura-sciences.com/sciences/questions-reponses/chimie-7-proprietes-etranges-eau-14519/"
    },
    {
-    "enonce": "Comment appelle-t-on le fait que de l'eau chaude puisse geler plus vite que de l'eau froide ?",
+    "enonce": "Quel nom porte le phénomène où l'eau chaude peut se changer en glace avant l'eau froide ?",
     "bonne": "L'effet Mpemba",
     "faux": [
      "L'effet Doppler",
@@ -38732,7 +38732,7 @@
      "−18 °C",
      "−196 °C"
     ],
-    "explication": "Elle ne laisse aucun résidu solide ni liquide.",
+    "explication": "Elle passe directement à l'état gazeux, sans laisser ni dépôt ni liquide.",
     "source": "https://www.futura-sciences.com/sciences/definitions/chimie-neige-carbonique-7063/"
    },
    {
@@ -38754,7 +38754,7 @@
      "Environ 100 °C",
      "Environ 1 000 °C"
     ],
-    "explication": "On l'utilise alors comme « solvant vert ».",
+    "explication": "Il fait alors office de « solvant vert ».",
     "source": "https://www.techno-science.net/glossaire-definition/Dioxyde-de-carbone.html"
    },
    {
@@ -38765,7 +38765,7 @@
      "En brûlant du charbon",
      "En compressant de la neige"
     ],
-    "explication": "Le CO₂ est stocké vers −20 °C et 20 bars avant d'être détendu.",
+    "explication": "On détend du CO₂ conservé sous 20 bars, à environ −20 °C.",
     "source": "https://www.futura-sciences.com/sciences/definitions/chimie-neige-carbonique-7063/"
    },
    {
@@ -38972,7 +38972,7 @@
      [
       "post-scriptum",
       "écrit après",
-      "C'est la courte note placée au bas d'une lettre, après la signature.",
+      "On l'ajoute à la fin d'une lettre, une fois celle-ci signée, pour un bref complément.",
       "https://vitrinelinguistique.oqlf.gouv.qc.ca/23799/banque-de-depannage-linguistique/le-vocabulaire/listes-thematiques/liste-des-locutions-latines-les-plus-courantes"
      ],
      [
@@ -38984,7 +38984,7 @@
      [
       "vade-mecum",
       "viens avec moi",
-      "Le mot désigne un petit livre, un pense-bête que l'on garde sur soi.",
+      "Le mot désigne un aide-mémoire de petit format qu'on emporte partout avec soi.",
       "https://vitrinelinguistique.oqlf.gouv.qc.ca/23799/banque-de-depannage-linguistique/le-vocabulaire/listes-thematiques/liste-des-locutions-latines-les-plus-courantes"
      ],
      [
@@ -39674,7 +39674,7 @@
      "Ovide",
      "Catulle"
     ],
-    "explication": "On la traduit par « cueille le jour, et ne crois pas au lendemain ».",
+    "explication": "Le vers complet invite à cueillir le jour sans se fier au lendemain.",
     "source": "https://www.lalanguefrancaise.com/articles/47-locutions-latines/"
    },
    {
@@ -39905,7 +39905,7 @@
      "« La machine est un dieu »",
      "« Hors de la machine »"
     ],
-    "explication": "L'expression désigne une personne ou un événement apportant un dénouement inespéré.",
+    "explication": "On nomme ainsi la personne ou le fait qui, contre toute attente, vient tout résoudre.",
     "source": "https://vitrinelinguistique.oqlf.gouv.qc.ca/23799/banque-de-depannage-linguistique/le-vocabulaire/listes-thematiques/liste-des-locutions-latines-les-plus-courantes"
    },
    {
@@ -40084,13 +40084,13 @@
      [
       "C₆H₁₂O₆",
       "le glucose",
-      "Les plantes le fabriquent à partir de dioxyde de carbone et d'eau.",
+      "Les végétaux le produisent en combinant eau et dioxyde de carbone.",
       "https://ecampusontario.pressbooks.pub/biocell/chapter/3-2-glucides/"
      ],
      [
       "C₁₂H₂₂O₁₁",
       "le saccharose",
-      "C'est le constituant du sucre blanc courant.",
+      "Le sucre blanc ordinaire en est fait.",
       "https://www.techno-science.net/fr/definitions/saccharose"
      ]
     ]
@@ -40500,7 +40500,7 @@
      "CₙH₂ₙ₋₂",
      "CₙHₙ"
     ],
-    "explication": "Les cycloalcanes, eux, ont pour formule générale CₙH₂ₙ.",
+    "explication": "Pour les cycloalcanes, la formule générale devient CₙH₂ₙ.",
     "source": "https://www.techno-science.net/fr/definitions/alcane"
    },
    {
@@ -40692,13 +40692,13 @@
      [
       "la troposphère",
       "0 à 8-15 km",
-      "Elle contient 80 à 90 % de la masse de l'air.",
+      "Elle concentre l'essentiel de l'air : 80 à 90 % de sa masse.",
       "https://www.techno-science.net/fr/definitions/atmosphere-terrestre"
      ],
      [
       "la stratosphère",
       "8-15 km à 50 km",
-      "On y trouve environ 90 % de l'ozone de l'atmosphère.",
+      "Elle abrite près des neuf dixièmes de l'ozone atmosphérique.",
       "https://www.techno-science.net/fr/definitions/atmosphere-terrestre"
      ],
      [
@@ -40761,7 +40761,7 @@
   ],
   "questions": [
    {
-    "enonce": "Quelle est la pression atmosphérique moyenne au niveau de la mer ?",
+    "enonce": "Que vaut en moyenne la pression de l'air au niveau de la mer ?",
     "bonne": "1 013 hPa",
     "faux": [
      "100 hPa",
@@ -40805,7 +40805,7 @@
     "source": "https://www.techno-science.net/fr/definitions/atmosphere-terrestre"
    },
    {
-    "enonce": "Quelle couche de l'atmosphère contient 80 à 90 % de la masse de l'air ?",
+    "enonce": "Dans quelle couche de l'atmosphère se concentrent 80 à 90 % de l'air, en masse ?",
     "bonne": "La troposphère",
     "faux": [
      "La stratosphère",
@@ -40816,7 +40816,7 @@
     "source": "https://www.techno-science.net/fr/definitions/atmosphere-terrestre"
    },
    {
-    "enonce": "Comment s'appelle la frontière entre la troposphère et la stratosphère ?",
+    "enonce": "Quel nom porte la limite qui sépare troposphère et stratosphère ?",
     "bonne": "La tropopause",
     "faux": [
      "La stratopause",
@@ -40871,7 +40871,7 @@
     "source": "https://www.techno-science.net/fr/definitions/atmosphere-terrestre"
    },
    {
-    "enonce": "Quel gaz est le principal gaz à effet de serre, devant le dioxyde de carbone ?",
+    "enonce": "Quel gaz contribue le plus à l'effet de serre, plus encore que le dioxyde de carbone ?",
     "bonne": "La vapeur d'eau",
     "faux": [
      "L'azote",
@@ -40889,7 +40889,7 @@
      "Entre 80 et 100 km",
      "Au-delà de 500 km"
     ],
-    "explication": "Elle y atteint 2 à 8 ppm.",
+    "explication": "On en mesure là de 2 à 8 ppm.",
     "source": "https://www.techno-science.net/fr/definitions/atmosphere-terrestre"
    },
    {
@@ -41043,7 +41043,7 @@
      "Qui brille",
      "Qui pèse lourd"
     ],
-    "explication": "Contrairement à l'oxygène, l'azote n'entretient pas la vie animale.",
+    "explication": "L'oxygène entretient la vie animale ; l'azote, lui, en est incapable.",
     "source": "https://www.techno-science.net/fr/definitions/azote"
    },
    {
@@ -41054,7 +41054,7 @@
      "De « néant »",
      "De « nuage »"
     ],
-    "explication": "En grec, « nitron gennan » signifie « formateur de salpêtre ».",
+    "explication": "Le grec « nitron gennan » veut dire « qui engendre le salpêtre ».",
     "source": "https://www.techno-science.net/fr/definitions/azote"
    },
    {
@@ -41065,7 +41065,7 @@
      "Qui brûle",
      "Qui vient du ciel"
     ],
-    "explication": "On croyait alors l'oxygène présent dans tous les acides.",
+    "explication": "À l'époque, on pensait que tout acide contenait de l'oxygène.",
     "source": "https://www.larousse.fr/encyclopedie/divers/oxygène/75929"
    },
    {
@@ -41142,7 +41142,7 @@
      "Par filtration sur sable",
      "Par centrifugation à froid"
     ],
-    "explication": "Il s'en produit environ 100 millions de tonnes par an.",
+    "explication": "La production mondiale atteint quelque 100 millions de tonnes chaque année.",
     "source": "https://www.larousse.fr/encyclopedie/divers/oxygène/75929"
    },
    {
@@ -41296,7 +41296,7 @@
      [
       "Lionel Jospin",
       "Jacques Chirac",
-      "Il dirige le gouvernement de gauche le plus durable de la Ve République (1997-2002).",
+      "De 1997 à 2002, il conduit l'équipe de gauche restée le plus longtemps au pouvoir sous la Ve République.",
       "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/lionel-jospin"
      ],
      [
@@ -41393,7 +41393,7 @@
      [
       "le PACS (1999)",
       "Lionel Jospin",
-      "Il crée une union civile ouverte quel que soit le sexe des contractants.",
+      "Il instaure une union civile accessible aux couples de même sexe comme de sexe différent.",
       "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/lionel-jospin"
      ],
      [
@@ -41447,7 +41447,7 @@
      [
       "la mensualisation de tous les salariés",
       "Jacques Chaban-Delmas",
-      "Sous son gouvernement, le Smic remplace aussi le Smig.",
+      "Son gouvernement substitue aussi le Smic au Smig.",
       "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/jacques-chaban-delmas"
      ],
      [
@@ -41489,13 +41489,13 @@
      [
       "la privatisation de TF1",
       "Jacques Chirac",
-      "Son gouvernement de cohabitation crée aussi la Commission nationale de la communication et des libertés.",
+      "C'est aussi ce gouvernement de cohabitation qui institue la CNCL.",
       "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/jacques-chirac-1986-1988"
      ],
      [
       "la loi Veil sur l'IVG (1975)",
       "Jacques Chirac",
-      "Elle est défendue au Parlement par la ministre de la Santé Simone Veil.",
+      "C'est Simone Veil, alors à la Santé, qui la porte devant les députés et sénateurs.",
       "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/jacques-chirac-1974-1976"
      ],
      [
@@ -41560,7 +41560,7 @@
      "64 ans",
      "81 ans"
     ],
-    "explication": "Il dépasse ainsi Pierre Bérégovoy, qui avait 67 ans en quittant Matignon en 1993.",
+    "explication": "Le record appartenait à Pierre Bérégovoy, âgé de 67 ans à son départ de Matignon en 1993.",
     "source": "https://www.lagazettefrance.fr/article/les-premiers-ministres-de-la-ve-republique-en-dix-records"
    },
    {
@@ -41582,7 +41582,7 @@
      "Raymond Barre",
      "Pierre Messmer"
     ],
-    "explication": "Il est nommé en 1974 par Valéry Giscard d'Estaing ; l'ENA avait été fondée en 1945.",
+    "explication": "Valéry Giscard d'Estaing le choisit en 1974 ; l'ENA existait depuis 1945.",
     "source": "https://www.lagazettefrance.fr/article/les-premiers-ministres-de-la-ve-republique-en-dix-records"
    },
    {
@@ -41648,7 +41648,7 @@
      "Raymond Barre",
      "Alain Juppé"
     ],
-    "explication": "Mitterrand le nomme après la victoire de la droite aux législatives de mars 1986.",
+    "explication": "Mitterrand l'appelle à Matignon quand la droite remporte les législatives de mars 1986.",
     "source": "https://www.lagazettefrance.fr/article/les-premiers-ministres-de-la-ve-republique-en-dix-records"
    },
    {
@@ -41681,7 +41681,7 @@
      "Michel Rocard",
      "Pierre Bérégovoy"
     ],
-    "explication": "Il refuse de faire sortir la France du Système monétaire européen.",
+    "explication": "Il s'oppose à un retrait de la France du Système monétaire européen.",
     "source": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/pierre-mauroy"
    },
    {
@@ -41703,7 +41703,7 @@
      "Une motion de censure",
      "Sa défaite à la présidentielle"
     ],
-    "explication": "Le projet de Constitution européenne est rejeté le 29 mai 2005.",
+    "explication": "Le 29 mai 2005, le « non » l'emporte au référendum sur la Constitution européenne.",
     "source": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/jean-pierre-raffarin"
    },
    {
@@ -41879,7 +41879,7 @@
      "Il y fait graver son nom",
      "Il y installe une statue"
     ],
-    "explication": "Avec 1,9 hectare, ce jardin est l'un des plus grands jardins privés de Paris.",
+    "explication": "Avec ses 1,9 hectare, c'est l'un des jardins privés les plus vastes de la capitale.",
     "source": "https://www.info.gouv.fr/actualite/la-petite-histoire-de-lhotel-de-matignon"
    },
    {
@@ -41928,7 +41928,7 @@
      [
       "le traité de Verdun",
       "843",
-      "Il partage l'Empire entre les trois fils de Louis le Pieux.",
+      "Les trois héritiers de Louis le Pieux s'y répartissent l'Empire.",
       "https://fr.vikidia.org/wiki/Trait%C3%A9_de_Verdun"
      ],
      [
@@ -41940,7 +41940,7 @@
      [
       "le traité de Tordesillas",
       "1494",
-      "Il fixe la ligne de partage sur un méridien situé à 46° 37' ouest.",
+      "La frontière qu'il trace suit le méridien de 46° 37' de longitude ouest.",
       "https://fr.vikidia.org/wiki/Trait%C3%A9_de_Tordesillas"
      ],
      [
@@ -42000,7 +42000,7 @@
      [
       "le traité de Francfort",
       "1871",
-      "Signé le 10 mai, il met fin à la guerre franco-prussienne.",
+      "Signé le 10 mai, il clôt la guerre franco-prussienne.",
       "https://fr.vikidia.org/wiki/Trait%C3%A9_de_Francfort_de_1871"
      ],
      [
@@ -42165,7 +42165,7 @@
      "Louis le Germanique",
      "Charles le Simple"
     ],
-    "explication": "Il conserve les deux capitales, Aix-la-Chapelle et Rome.",
+    "explication": "Aix-la-Chapelle et Rome, les deux capitales, restent dans sa part.",
     "source": "https://fr.vikidia.org/wiki/Trait%C3%A9_de_Verdun"
    },
    {
@@ -42187,7 +42187,7 @@
      "La Francie médiane",
      "L'Aquitaine"
     ],
-    "explication": "La Thuringe, la Saxe et la Bavière y forment le noyau de la future Allemagne.",
+    "explication": "Ce lot, avec la Thuringe, la Saxe et la Bavière, préfigure l'Allemagne.",
     "source": "https://fr.vikidia.org/wiki/Trait%C3%A9_de_Verdun"
    },
    {
@@ -42198,7 +42198,7 @@
      "Le serment du Jeu de paume",
      "Les serments de Reims"
     ],
-    "explication": "Les invasions normandes poussent ensuite les trois frères à s'entendre.",
+    "explication": "Face aux raids normands, les trois frères doivent ensuite s'accorder.",
     "source": "https://fr.vikidia.org/wiki/Trait%C3%A9_de_Verdun"
    },
    {
@@ -42253,7 +42253,7 @@
      "Les Canaries",
      "Les Antilles"
     ],
-    "explication": "Ces « îles aux Épices » étaient le but principal du voyage de Magellan.",
+    "explication": "Atteindre ces « îles aux Épices » était l'objectif premier de l'expédition de Magellan.",
     "source": "https://fr.vikidia.org/wiki/Trait%C3%A9_de_Tordesillas"
    },
    {
@@ -42264,7 +42264,7 @@
      "Nimègue et Ryswick",
      "Aix-la-Chapelle et Cologne"
     ],
-    "explication": "Le traité de Münster lie le roi de France et l'empereur.",
+    "explication": "C'est à Münster que la France et l'empereur concluent leur paix.",
     "source": "https://fr.vikidia.org/wiki/Trait%C3%A9s_de_Westphalie"
    },
    {
@@ -42290,14 +42290,14 @@
     "source": "https://fr.vikidia.org/wiki/Trait%C3%A9s_de_Westphalie"
    },
    {
-    "enonce": "Quelle religion est reconnue en 1648 au même titre que le luthéranisme et le catholicisme ?",
+    "enonce": "Quelle confession obtient en 1648 la même reconnaissance que les catholiques et les luthériens ?",
     "bonne": "Le calvinisme",
     "faux": [
      "L'anglicanisme",
      "L'orthodoxie",
      "Le jansénisme"
     ],
-    "explication": "Dans les États protestants, les sujets peuvent choisir entre calvinisme et luthéranisme.",
+    "explication": "En terre protestante, chacun est libre d'être luthérien ou calviniste.",
     "source": "https://fr.vikidia.org/wiki/Trait%C3%A9s_de_Westphalie"
    },
    {
@@ -42396,7 +42396,7 @@
      "Ferdinand VI",
      "Charles III"
     ],
-    "explication": "Louis XIV reconnaît en outre les droits de George Ier au trône d'Angleterre.",
+    "explication": "Louis XIV admet de plus la légitimité de George Ier sur le trône anglais.",
     "source": "https://axl.cefan.ulaval.ca/europe/Utrecht-1713.htm"
    },
    {
@@ -42484,7 +42484,7 @@
      "Chateaubriand",
      "Caulaincourt"
     ],
-    "explication": "Le congrès dure du 18 septembre 1814 au 9 juin 1815.",
+    "explication": "Ouvert le 18 septembre 1814, le congrès s'achève le 9 juin 1815.",
     "source": "https://fr.vikidia.org/wiki/Congr%C3%A8s_de_Vienne"
    },
    {
@@ -42539,7 +42539,7 @@
      "Le servage",
      "La torture"
     ],
-    "explication": "Il établit aussi la libre circulation sur le Rhin et la Meuse.",
+    "explication": "Il ouvre aussi le Rhin et la Meuse à la navigation de tous.",
     "source": "https://fr.vikidia.org/wiki/Congr%C3%A8s_de_Vienne"
    },
    {
@@ -42671,7 +42671,7 @@
      "Harding",
      "Hoover"
     ],
-    "explication": "Il y plaide pour le droit des peuples à disposer d'eux-mêmes.",
+    "explication": "Il y défend notamment l'autodétermination des peuples.",
     "source": "https://fr.vikidia.org/wiki/Trait%C3%A9_de_Versailles_(1919)"
    },
    {
@@ -42770,7 +42770,7 @@
      "L'Union européenne et l'euro",
      "La CECA et Euratom"
     ],
-    "explication": "Ils entrent en vigueur en 1958.",
+    "explication": "Leur application débute en 1958.",
     "source": "https://youth.europarl.europa.eu/files/live/sites/youthhub/files/active-lessons-revamp/FR-eu-treaties-timeline-2025.pdf"
    },
    {
@@ -42819,13 +42819,13 @@
      [
       "l'assassinat de l'archiduc François-Ferdinand à Sarajevo",
       "28 juin 1914",
-      "L'Autriche-Hongrie adresse ensuite un ultimatum à la Serbie.",
+      "Vient ensuite l'ultimatum austro-hongrois envoyé à la Serbie.",
       "https://fr.vikidia.org/wiki/Premi%C3%A8re_guerre_mondiale"
      ],
      [
       "le début de la bataille de Verdun",
       "21 février 1916",
-      "Pendant neuf heures, 1 500 canons tirent sur les positions françaises.",
+      "Neuf heures durant, quelque 1 500 canons pilonnent les lignes françaises.",
       "https://fr.vikidia.org/wiki/Chronologie_de_la_Premi%C3%A8re_Guerre_mondiale"
      ],
      [
@@ -42843,7 +42843,7 @@
      [
       "la signature de l'armistice de la Grande Guerre",
       "11 novembre 1918",
-      "Les négociations s'ouvrent le 8 novembre dans la clairière de Rethondes, près de Compiègne.",
+      "Les pourparlers débutent le 8 novembre non loin de Compiègne, en clairière de Rethondes.",
       "https://fr.vikidia.org/wiki/Chronologie_de_la_Premi%C3%A8re_Guerre_mondiale"
      ],
      [
@@ -42957,7 +42957,7 @@
      [
       "le débarquement de Provence",
       "15 août 1944",
-      "Toulon est libérée le 26 août et Marseille le 28 août.",
+      "Les Alliés délivrent Toulon le 26 août, puis Marseille deux jours après.",
       "https://fr.vikidia.org/wiki/Deuxi%C3%A8me_Guerre_mondiale"
      ],
      [
@@ -42993,7 +42993,7 @@
      [
       "la capitulation sans conditions du Japon",
       "2 septembre 1945",
-      "Cette date marque la fin de la Seconde Guerre mondiale.",
+      "Ce jour-là, le second conflit mondial prend officiellement fin.",
       "https://fr.vikidia.org/wiki/Deuxi%C3%A8me_Guerre_mondiale"
      ]
     ]
@@ -43201,7 +43201,7 @@
     "source": "https://fr.vikidia.org/wiki/Premi%C3%A8re_guerre_mondiale"
    },
    {
-    "enonce": "Pourquoi le Royaume-Uni déclare-t-il la guerre à l'Allemagne le 4 août 1914 ?",
+    "enonce": "Le 4 août 1914, pour quelle raison le Royaume-Uni entre-t-il en guerre contre l'Allemagne ?",
     "bonne": "Pour soutenir la Belgique envahie",
     "faux": [
      "Pour défendre la Serbie",
@@ -43219,7 +43219,7 @@
      "Des chars Renault",
      "Des dirigeables"
     ],
-    "explication": "Les Allemands sont alors à moins de 30 km de Paris.",
+    "explication": "L'armée allemande se trouve alors à moins de 30 km de la capitale.",
     "source": "https://fr.vikidia.org/wiki/Premi%C3%A8re_guerre_mondiale"
    },
    {
@@ -43351,7 +43351,7 @@
      "Le sarin",
      "Le monoxyde de carbone"
     ],
-    "explication": "Ce gaz suffocant attaque les voies respiratoires.",
+    "explication": "Ce gaz asphyxiant irrite gravement les voies respiratoires.",
     "source": "https://www.herodote.net/22_avril_1915_et_12_juillet_1917-evenement-19150422.php"
    },
    {
@@ -43362,7 +43362,7 @@
      "De sa couleur",
      "D'une rivière d'Alsace"
     ],
-    "explication": "Il est utilisé pour la première fois dans la nuit du 12 au 13 juillet 1917.",
+    "explication": "Il entre en action pour la première fois une nuit de juillet 1917, entre le 12 et le 13.",
     "source": "https://www.herodote.net/22_avril_1915_et_12_juillet_1917-evenement-19150422.php"
    },
    {
@@ -43703,11 +43703,11 @@
      "François Mitterrand",
      "Albert Camus"
     ],
-    "explication": "Ses cendres reposaient auparavant au cimetière du Père-Lachaise.",
+    "explication": "Avant le Panthéon, c'est au Père-Lachaise que se trouvaient ses cendres.",
     "source": "https://fr.vikidia.org/wiki/Jean_Moulin"
    },
    {
-    "enonce": "Quels mouvements s'unissent en 1943 dans les Mouvements unis de la Résistance ?",
+    "enonce": "Quels mouvements fusionnent en 1943 pour former les Mouvements unis de la Résistance ?",
     "bonne": "Combat, Franc-Tireur et Libération-Sud",
     "faux": [
      "Libération-Nord, OCM et FTP",
@@ -43824,7 +43824,7 @@
      "Anthony Eden",
      "Harold Macmillan"
     ],
-    "explication": "La conférence se tient du 17 juillet au 2 août 1945.",
+    "explication": "Elle se déroule entre le 17 juillet et le 2 août 1945.",
     "source": "https://www.schoolmouv.fr/evenements-historiques/conference-de-potsdam-17-juillet-2-aout-1945/evenement-historique"
    },
    {
@@ -43835,7 +43835,7 @@
      "La ligne Maginot",
      "La ligne Siegfried"
     ],
-    "explication": "Plus de 2 millions d'Allemands sont expulsés des territoires annexés.",
+    "explication": "Les territoires annexés voient l'expulsion de plus de 2 millions d'Allemands.",
     "source": "https://www.schoolmouv.fr/evenements-historiques/conference-de-potsdam-17-juillet-2-aout-1945/evenement-historique"
    }
   ]
@@ -43851,7 +43851,7 @@
      [
       "le violon",
       "cordes frottées",
-      "Il est fait de 71 pièces de bois, dont l'ébène, l'érable et l'épicéa.",
+      "On l'assemble à partir de 71 éléments en bois, notamment en épicéa, érable et ébène.",
       "https://www.osr.ch/fileadmin/user_upload/Jeunes/Brochures_div/A_la_decouverte_de_votre_orchestre_symphonique.pdf"
      ],
      [
@@ -43863,7 +43863,7 @@
      [
       "le violoncelle",
       "cordes frottées",
-      "Son timbre passe pour le plus proche de la voix humaine.",
+      "On dit qu'aucun instrument ne ressemble autant à la voix humaine.",
       "https://www.osr.ch/fileadmin/user_upload/Jeunes/Brochures_div/A_la_decouverte_de_votre_orchestre_symphonique.pdf"
      ],
      [
@@ -43875,13 +43875,13 @@
      [
       "la vielle à roue",
       "cordes frottées",
-      "Ses cordes sont frottées par le bord d'un disque et non par un archet.",
+      "Pas d'archet : c'est la tranche d'un disque qui frotte ses cordes.",
       "https://pedagogie.ac-orleans-tours.fr/documents/pdf/orchestre.pdf"
      ],
      [
       "la harpe",
       "cordes pincées",
-      "C'est sans doute l'instrument à cordes le plus ancien de l'orchestre.",
+      "Parmi les cordes de l'orchestre, ce serait l'instrument le plus ancien.",
       "https://www.osr.ch/fileadmin/user_upload/Jeunes/Brochures_div/A_la_decouverte_de_votre_orchestre_symphonique.pdf"
      ],
      [
@@ -43995,7 +43995,7 @@
      [
       "la grosse caisse",
       "percussions",
-      "Elle produit le son le plus grave des percussions de l'orchestre.",
+      "Aucune percussion de l'orchestre ne sonne plus grave qu'elle.",
       "https://www.strasbourg.eu/documents/6009171/17682320/atelier-de%CC%81couverte_percussions_bd01.pdf/cda1f773-2b37-67ec-c7a2-63514a06d26c"
      ]
     ]
@@ -44119,7 +44119,7 @@
      "36",
      "62"
     ],
-    "explication": "Elle a aussi 7 pédales et pèse environ 40 kg.",
+    "explication": "Elle compte également 7 pédales, pour un poids proche de 40 kg.",
     "source": "https://www.osr.ch/fileadmin/user_upload/Jeunes/Brochures_div/A_la_decouverte_de_votre_orchestre_symphonique.pdf"
    },
    {
@@ -44130,7 +44130,7 @@
      "3",
      "12"
     ],
-    "explication": "Les cordes les plus courtes donnent les notes les plus aiguës.",
+    "explication": "Plus une corde est courte, plus le son qu'elle produit est aigu.",
     "source": "https://www.osr.ch/fileadmin/user_upload/Jeunes/Docs_PDF/OSR_BROCHURE_DECOUVERTE_ORCHESTRE_2025.pdf"
    },
    {
@@ -44152,7 +44152,7 @@
      "Adolphe Sax",
      "Ignace Pleyel"
     ],
-    "explication": "Ses ancêtres sont le clavicorde, le clavecin et le cymbalum.",
+    "explication": "Il descend du cymbalum, du clavicorde et du clavecin.",
     "source": "https://www.osr.ch/fileadmin/user_upload/Jeunes/Brochures_div/A_la_decouverte_de_votre_orchestre_symphonique.pdf"
    },
    {
@@ -44163,7 +44163,7 @@
      "5",
      "6"
     ],
-    "explication": "Sa corde la plus aiguë, le mi, est très fine et fragile.",
+    "explication": "Le mi, sa corde la plus aiguë, est d'une grande finesse et casse facilement.",
     "source": "https://www.osr.ch/fileadmin/user_upload/Jeunes/Brochures_div/A_la_decouverte_de_votre_orchestre_symphonique.pdf"
    },
    {
@@ -44262,7 +44262,7 @@
      "Environ 3 m",
      "Plus de 20 m"
     ],
-    "explication": "Il a jusqu'à 6 pistons ou palettes.",
+    "explication": "Selon les modèles, on lui compte jusqu'à 6 palettes ou pistons.",
     "source": "https://www.osr.ch/fileadmin/user_upload/Jeunes/Brochures_div/A_la_decouverte_de_votre_orchestre_symphonique.pdf"
    },
    {
@@ -44273,7 +44273,7 @@
      "5",
      "7"
     ],
-    "explication": "Elle servait autrefois à communiquer ou à donner l'alarme.",
+    "explication": "Jadis, on l'employait pour transmettre des signaux ou alerter.",
     "source": "https://www.osr.ch/fileadmin/user_upload/Jeunes/Brochures_div/A_la_decouverte_de_votre_orchestre_symphonique.pdf"
    },
    {
@@ -44284,7 +44284,7 @@
      "Sur l'embouchure",
      "Sous le tuyau"
     ],
-    "explication": "La main gauche actionne les palettes.",
+    "explication": "Les palettes sont manœuvrées par la main gauche.",
     "source": "https://www.osr.ch/fileadmin/user_upload/Jeunes/Brochures_div/A_la_decouverte_de_votre_orchestre_symphonique.pdf"
    },
    {
@@ -44306,7 +44306,7 @@
      "Aucune anche",
      "Une anche libre en métal"
     ],
-    "explication": "Sa famille comprend la petite clarinette et la clarinette basse.",
+    "explication": "La petite clarinette et la clarinette basse appartiennent à la même famille.",
     "source": "https://www.osr.ch/fileadmin/user_upload/Jeunes/Brochures_div/A_la_decouverte_de_votre_orchestre_symphonique.pdf"
    },
    {
@@ -44328,7 +44328,7 @@
      "L'étain",
      "L'acier"
     ],
-    "explication": "Le laiton est un alliage de cuivre et de zinc.",
+    "explication": "On obtient le laiton en alliant du cuivre à du zinc.",
     "source": "https://www.osr.ch/fileadmin/user_upload/Jeunes/Docs_PDF/OSR_BROCHURE_DECOUVERTE_ORCHESTRE_2025.pdf"
    },
    {
@@ -44735,7 +44735,7 @@
      "Le piano et le vibraphone",
      "Le synthétiseur et la guitare électrique"
     ],
-    "explication": "Le luth, l'orgue, les violes et le violon baroque en font aussi partie.",
+    "explication": "On y entend aussi l'orgue, le luth, le violon baroque et les violes.",
     "source": "https://fr.vikidia.org/wiki/Musique_baroque"
    },
    {
@@ -46102,7 +46102,7 @@
      [
       "David Hilbert",
       "allemande",
-      "En 1900, il énonce 23 problèmes fondamentaux pour le XXe siècle.",
+      "En 1900, il lance aux mathématiciens du XXe siècle 23 grands défis.",
       "https://exo7math.github.io/formules-exo7/biographie/biographie.pdf"
      ],
      [
@@ -46138,7 +46138,7 @@
      [
       "Sophie Germain",
       "française",
-      "Née à Paris, elle écrit à Gauss sous le pseudonyme de « M. Leblanc ».",
+      "Parisienne, elle correspond avec Gauss en signant « M. Leblanc ».",
       "https://exo7math.github.io/formules-exo7/biographie/biographie.pdf"
      ],
      [
@@ -46211,7 +46211,7 @@
      [
       "la Pascaline, machine à calculer",
       "Pascal",
-      "Il est aussi le premier à expliciter un raisonnement par récurrence.",
+      "On lui doit aussi la toute première formulation explicite d'une démonstration par récurrence.",
       "https://exo7math.github.io/formules-exo7/biographie/biographie.pdf"
      ],
      [
@@ -46265,7 +46265,7 @@
      [
       "l'origine du mot « algorithme »",
       "Al-Khwarizmi",
-      "Son livre « Abrégé de calcul » est aussi à l'origine du mot « algèbre ».",
+      "Le mot « algèbre » vient lui aussi d'un de ses ouvrages, l'« Abrégé de calcul ».",
       "https://exo7math.github.io/formules-exo7/biographie/biographie.pdf"
      ],
      [
@@ -46283,7 +46283,7 @@
      [
       "les notations df/dx et ∫ du calcul infinitésimal",
       "Leibniz",
-      "Il a échangé plus de 20 000 lettres et étudié l'écriture binaire.",
+      "Auteur d'une correspondance de plus de 20 000 lettres, il s'est penché sur l'écriture binaire.",
       "https://exo7math.github.io/formules-exo7/biographie/biographie.pdf"
      ],
      [
@@ -46374,7 +46374,7 @@
      [
       "Maryam Mirzakhani",
       "2014",
-      "Cette Iranienne étudiait le comptage des géodésiques sur des surfaces.",
+      "Cette Iranienne cherchait notamment à dénombrer les géodésiques d'une surface.",
       "https://exo7math.github.io/formules-exo7/biographie/biographie.pdf"
      ],
      [
@@ -46460,7 +46460,7 @@
     "source": "https://wikimonde.com/article/M%C3%A9daille_Fields"
    },
    {
-    "enonce": "Qui est la première femme à avoir reçu la médaille Fields ?",
+    "enonce": "Quelle mathématicienne a été la première femme lauréate de la médaille Fields ?",
     "bonne": "Maryam Mirzakhani",
     "faux": [
      "Emmy Noether",
@@ -46478,7 +46478,7 @@
      "Stanislav Smirnov",
      "Vladimir Voevodsky"
     ],
-    "explication": "Il a aussi refusé un million de dollars pour la résolution d'un problème du millénaire.",
+    "explication": "Il a aussi décliné le prix d'un million de dollars promis pour un problème du millénaire.",
     "source": "https://exo7math.github.io/formules-exo7/biographie/biographie.pdf"
    },
    {
@@ -46610,7 +46610,7 @@
      "Le tangram",
      "Les mots croisés"
     ],
-    "explication": "Il a en fait étudié un problème voisin, le « problème des 36 officiers ».",
+    "explication": "Euler s'est plutôt penché sur une énigme proche : le « problème des 36 officiers ».",
     "source": "https://fr.vikidia.org/wiki/Leonhard_Euler"
    },
    {
@@ -47078,7 +47078,7 @@
      "Le précipité",
      "Le filtrat"
     ],
-    "explication": "Les substances minoritaires, dissoutes, sont les solutés.",
+    "explication": "Les corps dissous, présents en plus faible quantité, s'appellent les solutés.",
     "source": "https://www.techno-science.net/fr/definitions/solution-chimie"
    },
    {
@@ -47093,7 +47093,7 @@
     "source": "https://www.techno-science.net/fr/definitions/solution-chimie"
    },
    {
-    "enonce": "Comment appelle-t-on une solution qui ne peut plus dissoudre de soluté ?",
+    "enonce": "Quel nom donne-t-on à une solution incapable d'accueillir davantage de soluté ?",
     "bonne": "Une solution saturée",
     "faux": [
      "Une solution diluée",
@@ -47199,7 +47199,7 @@
      "Elle augmente",
      "Elle devient nulle"
     ],
-    "explication": "Masse du solvant + masse du soluté = masse de la solution.",
+    "explication": "La solution pèse autant que le solvant et le soluté réunis.",
     "source": "https://www.pccl.fr/physique_chimie_college_lycee/cinquieme/cours_exercices_corriges/dissolution.pdf"
    },
    {
@@ -47243,7 +47243,7 @@
      "L'argon",
      "Le dioxyde de carbone"
     ],
-    "explication": "L'air contient environ 78 % de diazote et 21 % de dioxygène.",
+    "explication": "Le diazote représente environ 78 % de l'air, le dioxygène environ 21 %.",
     "source": "https://cours-et-fiches.com/college/physique-chimie/corps-purs-melanges/"
    },
    {
@@ -47265,7 +47265,7 @@
      "Le granit",
      "Le béton"
     ],
-    "explication": "Dans un mélange homogène, on ne distingue pas les constituants à l'œil nu.",
+    "explication": "Dans un mélange homogène, impossible de repérer ses différents constituants à l'œil nu.",
     "source": "https://cours-et-fiches.com/college/physique-chimie/corps-purs-melanges/"
    },
    {
@@ -47390,7 +47390,7 @@
     "source": "https://fr.vikidia.org/wiki/S%C3%A9paration_de_m%C3%A9langes"
    },
    {
-    "enonce": "Quelle technique est la première étape du traitement de l'eau ?",
+    "enonce": "Par quelle technique commence-t-on pour traiter l'eau ?",
     "bonne": "La filtration",
     "faux": [
      "La distillation",
@@ -48518,7 +48518,7 @@
      [
       "Gousse de vanille",
       "la vanilline",
-      "Elle représente environ 2 % de la masse de la gousse préparée.",
+      "Elle compte pour environ 2 % du poids de la gousse préparée.",
       "https://www.techno-science.net/fr/definitions/vanilline"
      ]
     ]
@@ -48567,7 +48567,7 @@
      [
       "Cellulose",
       "former la paroi des cellules végétales",
-      "C'est le biopolymère naturel le plus abondant, que l'humain ne sait pas digérer.",
+      "Aucun biopolymère n'est plus répandu dans la nature, et notre organisme ne peut pas le digérer.",
       "https://ecampusontario.pressbooks.pub/biocell/chapter/3-2-glucides/"
      ],
      [
@@ -48591,7 +48591,7 @@
      [
       "Glucose",
       "fournir de l'énergie aux cellules",
-      "Les plantes le fabriquent à partir de dioxyde de carbone et d'eau.",
+      "Les végétaux le produisent en combinant eau et dioxyde de carbone.",
       "https://ecampusontario.pressbooks.pub/biocell/chapter/3-2-glucides/"
      ],
      [
@@ -48684,7 +48684,7 @@
      "Le tanin",
      "La théaflavine"
     ],
-    "explication": "Il s'agit exactement de la même molécule que celle du café.",
+    "explication": "Thé et café contiennent en réalité une seule et même molécule.",
     "source": "https://fr.vikidia.org/wiki/Caf%C3%A9ine"
    },
    {
@@ -48732,14 +48732,14 @@
     "source": "https://perso.ens-lyon.fr/pascal.wang/Agr%c3%a9gation%20externe/LC/LC_11_Mol%c3%a9cules%20de%20la%20sant%c3%a9%20(Lyc%c3%a9e)/LC_11_Mol%c3%a9cules%20de%20la%20sant%c3%a9%20(Lyc%c3%a9e).pdf"
    },
    {
-    "enonce": "Quel médecin montre en 1747 que les oranges et les citrons guérissent le scorbut ?",
+    "enonce": "Quel médecin établit en 1747 que citrons et oranges soignent le scorbut ?",
     "bonne": "James Lind",
     "faux": [
      "James Cook",
      "Edward Jenner",
      "Joseph Lister"
     ],
-    "explication": "À partir de 1795, la Royal Navy distribue chaque jour du jus de citron à ses marins.",
+    "explication": "Dès 1795, chaque marin de la Royal Navy a droit à son jus de citron quotidien.",
     "source": "https://www.techno-science.net/fr/definitions/scorbut"
    },
    {
@@ -48750,7 +48750,7 @@
      "Linus Pauling",
      "Casimir Funk"
     ],
-    "explication": "Il l'avait extraite d'aliments comme le chou, l'orange et le poivron.",
+    "explication": "Il l'avait tirée notamment du poivron, de l'orange et du chou.",
     "source": "https://www.techno-science.net/fr/definitions/scorbut"
    },
    {
@@ -48783,7 +48783,7 @@
      "Gay-Lussac et Thénard",
      "Pierre et Marie Curie"
     ],
-    "explication": "Son nom est formé sur des racines grecques signifiant « vert » et « feuille ».",
+    "explication": "Il vient du grec : « chlorós », vert, et « phýllon », feuille.",
     "source": "https://www.techno-science.net/fr/definitions/chlorophylle"
    },
    {
@@ -48838,11 +48838,11 @@
      "La pomme de terre et le manioc",
      "Le riz et l'orge"
     ],
-    "explication": "Chauffé, le saccharose caramélise vers 160 °C.",
+    "explication": "Sous l'effet de la chaleur, il se change en caramel vers 160 °C.",
     "source": "https://www.techno-science.net/fr/definitions/saccharose"
    },
    {
-    "enonce": "Quel sucre est naturellement présent dans le lait ?",
+    "enonce": "Quel sucre trouve-t-on naturellement dans le lait ?",
     "bonne": "Le lactose",
     "faux": [
      "Le maltose",
@@ -49000,7 +49000,7 @@
      [
       "le temple de Borobudur",
       "Indonésie",
-      "Ce temple de l'île de Java date des VIIIe et IXe siècles.",
+      "Bâti aux VIIIe et IXe siècles, ce sanctuaire se dresse à Java.",
       "https://www.routard.com/contenu-dossier/cid140950-les-plus-beaux-monuments-du-monde.html"
      ],
      [
@@ -49024,7 +49024,7 @@
      [
       "le château de Himeji",
       "Japon",
-      "Ses façades blanches lui valent le surnom de « château du héron blanc ».",
+      "On l'appelle « château du héron blanc », à cause de la blancheur de ses murs.",
       "https://www.routard.com/contenu-dossier/cid140950-les-plus-beaux-monuments-du-monde.html"
      ],
      [
@@ -49036,7 +49036,7 @@
      [
       "le château de Neuschwanstein",
       "Allemagne",
-      "Il fut construit pour le roi Louis II de Bavière.",
+      "Louis II de Bavière en fut le commanditaire.",
       "https://www.routard.com/contenu-dossier/cid140950-les-plus-beaux-monuments-du-monde.html"
      ],
      [
@@ -49169,13 +49169,13 @@
      [
       "la basilique Saint-Marc",
       "Venise",
-      "De style byzantin, elle est ornée de mosaïques.",
+      "Des mosaïques parent cet édifice d'inspiration byzantine.",
       "https://www.routard.com/contenu-dossier/cid140950-les-plus-beaux-monuments-du-monde.html"
      ],
      [
       "la cathédrale Santa Maria del Fiore",
       "Florence",
-      "Construite du XIIIe au XVe siècle, elle est coiffée d'une immense coupole.",
+      "Une immense coupole couronne cet édifice, bâti entre le XIIIe et le XVe siècle.",
       "https://www.routard.com/contenu-dossier/cid140950-les-plus-beaux-monuments-du-monde.html"
      ],
      [
@@ -49193,7 +49193,7 @@
      [
       "le mausolée du premier empereur Qin",
       "Xi'an",
-      "Il est gardé par des milliers de guerriers en terre cuite.",
+      "Une armée de terre cuite, forte de milliers de soldats, veille sur lui.",
       "https://www.routard.com/contenu-dossier/cid140950-les-plus-beaux-monuments-du-monde.html"
      ]
     ]
@@ -49655,7 +49655,7 @@
      "1889",
      "1900"
     ],
-    "explication": "Une réplique de 11,50 m se dresse sur l'île aux Cygnes, à Paris.",
+    "explication": "Paris en possède une copie de 11,50 m, installée sur l'île aux Cygnes.",
     "source": "https://www.routard.com/contenu-dossier/cid140950-les-plus-beaux-monuments-du-monde.html"
    },
    {
@@ -49677,7 +49677,7 @@
      "Quatre",
      "Huit"
     ],
-    "explication": "Elle a été construite au XVIIe siècle.",
+    "explication": "Son chantier date du XVIIe siècle.",
     "source": "https://www.routard.com/contenu-dossier/cid140950-les-plus-beaux-monuments-du-monde.html"
    },
    {
@@ -51872,7 +51872,7 @@
      "Charles Baudelaire",
      "Théophile Gautier"
     ],
-    "explication": "Leroy part du titre du tableau de Monet « Impression, soleil levant ».",
+    "explication": "Le mot lui est inspiré par « Impression, soleil levant », toile de Monet.",
     "source": "https://www.culture.gouv.fr/fr/Thematiques/Musees/Les-musees-en-France/Les-collections-des-musees-de-France/Decouvrir-les-collections/Les-huit-expositions-impressionnistes-1874-1886/1874-Premiere-exposition"
    },
    {
@@ -51905,7 +51905,7 @@
      "1870",
      "1886"
     ],
-    "explication": "Elle se tient du 15 avril au 15 mai 1874.",
+    "explication": "Ouverte le 15 avril 1874, elle ferme ses portes le 15 mai.",
     "source": "https://www.culture.gouv.fr/fr/Thematiques/Musees/Les-musees-en-France/Les-collections-des-musees-de-France/Decouvrir-les-collections/Les-huit-expositions-impressionnistes-1874-1886/1874-Premiere-exposition"
    },
    {
@@ -52565,7 +52565,7 @@
      "De 1900 à 1945",
      "De 1945 à nos jours"
     ],
-    "explication": "Il possède la plus importante collection de peinture impressionniste au monde.",
+    "explication": "Aucun musée au monde ne réunit davantage de toiles impressionnistes.",
     "source": "https://www.larousse.fr/encyclopedie/divers/musée_d_Orsay/136386"
    }
   ]
@@ -52581,7 +52581,7 @@
      [
       "Les Contemplations",
       "Victor Hugo",
-      "Ce recueil métaphysique est écrit après la mort de sa fille Léopoldine.",
+      "Ce recueil métaphysique est composé après la disparition de Léopoldine, la fille du poète.",
       "https://aufutur.fr/revisions/francais/tout-savoir-sur-la-poesie-romantique/"
      ],
      [
@@ -52683,13 +52683,13 @@
      [
       "Méditations poétiques",
       "Alphonse de Lamartine",
-      "Publiées en 1820, elles marquent le point de départ du romantisme français.",
+      "Parues en 1820, elles sont vues comme l'acte de naissance du romantisme en France.",
       "https://aufutur.fr/revisions/francais/tout-savoir-sur-la-poesie-romantique/"
      ],
      [
       "Les Destinées",
       "Alfred de Vigny",
-      "Ce recueil grave évoque le silence de Dieu et la solitude du poète.",
+      "Ce recueil grave médite sur un Dieu muet et sur l'isolement du poète.",
       "https://aufutur.fr/revisions/francais/tout-savoir-sur-la-poesie-romantique/"
      ],
      [
@@ -52852,7 +52852,7 @@
      [
       "René Char",
       "le surréalisme",
-      "Il adhère à ce mouvement à 22 ans.",
+      "Il rejoint les surréalistes à l'âge de 22 ans.",
       "https://fr.vikidia.org/wiki/Histoire_de_la_po%C3%A9sie"
      ],
      [
@@ -52895,13 +52895,13 @@
      [
       "Hymne à la beauté",
       "Les Fleurs du mal",
-      "Beaucoup de poèmes du recueil sont dédiés à des amis ou à des artistes.",
+      "De nombreuses pièces du recueil portent une dédicace à un ami ou à un artiste.",
       "https://www.schoolmouv.fr/fiches-de-lecture/les-fleurs-du-mal/fiche-de-lecture"
      ],
      [
       "Le Pont Mirabeau",
       "Alcools",
-      "Son auteur est aussi connu pour ses calligrammes et ses acrostiches.",
+      "Son auteur s'est aussi illustré par des calligrammes et des acrostiches.",
       "https://fr.vikidia.org/wiki/Guillaume_Apollinaire"
      ],
      [
@@ -52925,7 +52925,7 @@
      [
       "La Mort du loup",
       "Les Destinées",
-      "Ce poème de Vigny illustre une éthique du devoir et du courage silencieux.",
+      "Dans ce poème, Vigny défend une morale du devoir et un courage qui se tait.",
       "https://aufutur.fr/revisions/francais/tout-savoir-sur-la-poesie-romantique/"
      ],
      [
@@ -53030,7 +53030,7 @@
      "Tristan Tzara",
      "Paul Éluard"
     ],
-    "explication": "Il meurt à Paris le 9 novembre 1918, pendant l'épidémie de grippe espagnole.",
+    "explication": "Il s'éteint le 9 novembre 1918 à Paris, en pleine épidémie de grippe espagnole.",
     "source": "https://fr.vikidia.org/wiki/Guillaume_Apollinaire"
    },
    {
@@ -53041,7 +53041,7 @@
      "Paris",
      "Monaco"
     ],
-    "explication": "Son vrai nom est Guglielmo de Kostrowitzki.",
+    "explication": "À l'état civil, il s'appelait Guglielmo de Kostrowitzki.",
     "source": "https://fr.vikidia.org/wiki/Guillaume_Apollinaire"
    },
    {
@@ -53085,7 +53085,7 @@
      "Le poète maudit",
      "Le chantre de la Résistance"
     ],
-    "explication": "Il meurt le 27 décembre 1585, près de Tours.",
+    "explication": "Il s'éteint dans la région de Tours, le 27 décembre 1585.",
     "source": "https://www.lalanguefrancaise.com/litterature/pierre-de-ronsard"
    },
    {
@@ -53107,7 +53107,7 @@
      "1455",
      "1489"
     ],
-    "explication": "Il avait tué un prêtre au cours d'une rixe en 1455.",
+    "explication": "En 1455, lors d'une bagarre, il avait mortellement frappé un prêtre.",
     "source": "https://www.larousse.fr/encyclopedie/litterature/Villon/177833"
    },
    {
@@ -53173,7 +53173,7 @@
      "Harar",
      "Charleville"
     ],
-    "explication": "Il s'éteint le 10 novembre 1891 à l'hôpital de la Conception.",
+    "explication": "Il meurt à l'hôpital de la Conception, le 10 novembre 1891.",
     "source": "https://www.lalanguefrancaise.com/litterature/rimbaud/rimbaud-vie-oeuvre"
    },
    {
@@ -53953,7 +53953,7 @@
      "Gomme blanche",
      "Lait de la forêt"
     ],
-    "explication": "La Condamine l'a noté au Pérou, en Équateur et en Guyane.",
+    "explication": "Pérou, Équateur, Guyane : c'est là que La Condamine a relevé ce mot.",
     "source": "https://www.techno-science.net/fr/definitions/caoutchouc-materiau"
    },
    {
@@ -54604,7 +54604,7 @@
     "source": "https://fr.vikidia.org/wiki/Palais_de_l%27%C3%89lys%C3%A9e"
    },
    {
-    "enonce": "Dans quel salon de l'Élysée se trouve le bureau du président de la République ?",
+    "enonce": "Dans quel salon de l'Élysée le chef de l'État a-t-il son bureau ?",
     "bonne": "Le salon doré",
     "faux": [
      "Le salon d'argent",
@@ -54615,7 +54615,7 @@
     "source": "https://www.elysee.fr/la-presidence/visite-palais-de-l-elysee-et-son-histoire"
    },
    {
-    "enonce": "Depuis quelle année le palais de l'Élysée est-il la résidence officielle du président ?",
+    "enonce": "Depuis quelle année le chef de l'État loge-t-il officiellement à l'Élysée ?",
     "bonne": "1873",
     "faux": [
      "1789",
@@ -54704,7 +54704,7 @@
      [
       "Les Misérables",
       "Victor Hugo",
-      "Ce roman de 1862 suit Jean Valjean de sa sortie du bagne jusqu'à sa mort.",
+      "Ce roman de 1862 accompagne Jean Valjean de sa libération du bagne à son dernier souffle.",
       "https://leclaireur.fnac.com/selection/cp52284-les-meilleurs-romans-francais-du-xixe-siecle/"
      ],
      [
@@ -54764,7 +54764,7 @@
      [
       "Germinal",
       "Émile Zola",
-      "Paru en 1885, il plonge le lecteur dans les mines du nord de la France.",
+      "Paru en 1885, il entraîne le lecteur au fond des puits miniers du Nord.",
       "https://leclaireur.fnac.com/selection/cp52284-les-meilleurs-romans-francais-du-xixe-siecle/"
      ],
      [
@@ -54818,7 +54818,7 @@
      [
       "Pierre et Jean",
       "Guy de Maupassant",
-      "Pour Maupassant, « faire vrai » consiste à donner « l'illusion complète du vrai ».",
+      "Selon Maupassant, le romancier réaliste doit offrir « l'illusion complète du vrai ».",
       "https://www.superprof.fr/ressources/langues/francais/autres-niveaux-fr1/tout-niveau-fr1/auteurs-romanciers-realistes.html"
      ],
      [
@@ -54872,7 +54872,7 @@
      [
       "Vingt mille lieues sous les mers",
       "Jules Verne",
-      "Paru en 1869-1870, il raconte les aventures du Nautilus et du capitaine Nemo.",
+      "Paru en 1869-1870, il embarque le lecteur à bord du Nautilus, aux côtés du capitaine Nemo.",
       "https://fr.vikidia.org/wiki/Jules_Verne"
      ],
      [
@@ -55000,13 +55000,13 @@
      [
       "Jean Valjean",
       "Les Misérables",
-      "Ancien forçat, il est suivi de sa sortie du bagne jusqu'à sa mort.",
+      "Le récit suit cet ancien forçat depuis sa libération jusqu'à son dernier jour.",
       "https://leclaireur.fnac.com/selection/cp52284-les-meilleurs-romans-francais-du-xixe-siecle/"
      ],
      [
       "Esmeralda",
       "Notre-Dame de Paris",
-      "Cette jeune danseuse bohémienne est accusée d'un meurtre qu'elle n'a pas commis.",
+      "On reproche à cette jeune danseuse bohémienne un meurtre dont elle est innocente.",
       "https://leclaireur.fnac.com/selection/cp52284-les-meilleurs-romans-francais-du-xixe-siecle/"
      ],
      [
@@ -55108,7 +55108,7 @@
      [
       "Tchitchikov",
       "Les Âmes mortes",
-      "Il tente une vaste escroquerie en « rachetant » des paysans morts.",
+      "Sa grande combine consiste à « racheter » des paysans déjà morts.",
       "https://leclaireur.fnac.com/selection/cp52852-les-meilleurs-livres-du-xixe-siecle/"
      ]
     ]
@@ -55371,7 +55371,7 @@
      "Il fuit une épidémie de choléra",
      "Il est banni par Charles X"
     ],
-    "explication": "Son exil dure jusqu'à la fin du Second Empire, en septembre 1870.",
+    "explication": "Il ne rentre en France qu'à la chute du Second Empire, en septembre 1870.",
     "source": "https://fr.vikidia.org/wiki/Victor_Hugo"
    },
    {
@@ -55480,7 +55480,7 @@
      [
       "Le Malade imaginaire",
       "Molière",
-      "Un vieillard s'y croit atteint de toutes les maladies et veut un gendre médecin.",
+      "Un vieil homme s'y imagine souffrir de tous les maux et veut un médecin pour gendre.",
       "https://lucien-millet.anjou.e-lyco.fr/wp-content/uploads/sites/33/2019/10/piece-de-theatre-classique.pdf"
      ],
      [
@@ -55630,7 +55630,7 @@
      [
       "Cyrano de Bergerac",
       "Edmond Rostand",
-      "Cette comédie en cinq actes et en vers triomphe en 1897.",
+      "Écrite en vers et découpée en cinq actes, cette comédie triomphe en 1897.",
       "https://www.larousse.fr/encyclopedie/oeuvre/Cyrano_de_Bergerac/115382"
      ],
      [
@@ -55654,7 +55654,7 @@
      [
       "Les Caprices de Marianne",
       "Alfred de Musset",
-      "Coelio y aime en secret Marianne, mariée à un juge.",
+      "Coelio y est secrètement épris de Marianne, l'épouse d'un juge.",
       "https://lucien-millet.anjou.e-lyco.fr/wp-content/uploads/sites/33/2019/10/piece-de-theatre-classique.pdf"
      ],
      [
@@ -55781,7 +55781,7 @@
      [
       "Christian de Neuvillette",
       "Cyrano de Bergerac",
-      "Ce beau cadet sans esprit ni talent d'expression aime Roxane.",
+      "Ce séduisant cadet, dépourvu d'esprit et maladroit en paroles, aime Roxane.",
       "https://www.larousse.fr/encyclopedie/oeuvre/Cyrano_de_Bergerac/115382"
      ],
      [
@@ -55830,7 +55830,7 @@
      "Les personnages populaires",
      "Les vers rimés"
     ],
-    "explication": "L'unité de lieu, elle, impose un lieu unique.",
+    "explication": "L'unité de lieu exige, elle, que tout se passe en un seul endroit.",
     "source": "https://www.schoolmouv.fr/cours/les-genres-du-theatre-et-leurs-caracteristiques/fiche-de-cours"
    },
    {
@@ -55863,7 +55863,7 @@
      "L'hybris",
      "La parabase"
     ],
-    "explication": "La tragédie met en scène des personnages nobles, rois réels ou légendaires.",
+    "explication": "Les héros tragiques sont de haut rang : des rois, historiques ou légendaires.",
     "source": "https://www.schoolmouv.fr/cours/les-genres-du-theatre-et-leurs-caracteristiques/fiche-de-cours"
    },
    {
@@ -55878,7 +55878,7 @@
     "source": "https://www.schoolmouv.fr/cours/les-genres-du-theatre-et-leurs-caracteristiques/fiche-de-cours"
    },
    {
-    "enonce": "Comment appelle-t-on une brève comédie populaire au comique familier, voire grossier ?",
+    "enonce": "Quel nom porte une courte pièce comique et populaire, à l'humour familier, parfois grossier ?",
     "bonne": "La farce",
     "faux": [
      "La tragédie",
@@ -55907,7 +55907,7 @@
      "Cromwell",
      "Lorenzaccio"
     ],
-    "explication": "Cette bataille fait de Victor Hugo le chef du mouvement romantique.",
+    "explication": "À l'issue de cette bataille, Hugo prend la tête des romantiques.",
     "source": "https://fr.vikidia.org/wiki/Victor_Hugo"
    },
    {
@@ -55918,7 +55918,7 @@
      "1673",
      "1715"
     ],
-    "explication": "Elle réunit les troupes de l'Hôtel de Bourgogne et de l'Hôtel Guénégaud.",
+    "explication": "Elle naît de la fusion de deux troupes : celle de l'Hôtel Guénégaud et celle de l'Hôtel de Bourgogne.",
     "source": "https://www.herodote.net/21_octobre_1680-evenement-16801021.php"
    },
    {
@@ -56215,7 +56215,7 @@
      "La Princesse de Clèves",
      "L'Astrée"
     ],
-    "explication": "Cet écrivain du XVIIe siècle est connu pour son esprit ironique et mordant.",
+    "explication": "Cet auteur du XVIIe siècle se distingue par sa verve caustique et ironique.",
     "source": "https://www.larousse.fr/encyclopedie/oeuvre/Cyrano_de_Bergerac/115382"
    },
    {
@@ -56279,7 +56279,7 @@
      [
       "E406",
       "l'agar-agar",
-      "Ce gélifiant végétal est extrait d'algues rouges.",
+      "Les algues rouges fournissent ce gélifiant d'origine végétale.",
       "https://www.hotellerie-restauration.ac-versailles.fr/IMG/pdf/15-_fiche_d_analyse_technique_les_ge_lifiants.pdf"
      ],
      [
@@ -56456,7 +56456,7 @@
     "source": "https://www.slate.fr/story/128894/marron-bon"
    },
    {
-    "enonce": "La réaction de Maillard peut-elle se produire dans le corps humain ?",
+    "enonce": "Notre organisme est-il, lui aussi, le siège de réactions de Maillard ?",
     "bonne": "Oui, même à 37 °C",
     "faux": [
      "Non, jamais sous 100 °C",
@@ -56628,7 +56628,7 @@
      "Un fondant",
      "Un sucre glace"
     ],
-    "explication": "L'eau doit d'abord s'évaporer : selon Raphaël Haumont, c'est du temps et de l'énergie perdus.",
+    "explication": "Il faut d'abord évaporer l'eau, ce qui, pour Raphaël Haumont, gaspille temps et énergie.",
     "source": "https://www.allodocteurs.fr/alimentation/raphael-repond-a-vos-questions-sur-le-caramel_30875.html"
    },
    {
@@ -56764,7 +56764,7 @@
     "source": "https://fr.vikidia.org/wiki/Levure_de_boulanger"
    },
    {
-    "enonce": "Quel est le plus ancien micro-organisme domestiqué par l'être humain ?",
+    "enonce": "Quel micro-organisme l'être humain a-t-il domestiqué en tout premier ?",
     "bonne": "La levure",
     "faux": [
      "Le bacille du yaourt",
@@ -56826,7 +56826,7 @@
      "Gaz dans un liquide",
      "Solide dans un liquide"
     ],
-    "explication": "L'huile y est dispersée en fines gouttelettes dans l'eau.",
+    "explication": "De minuscules gouttes d'huile y baignent dans une phase aqueuse.",
     "source": "https://www.alimentarium.org/fr/node/1609"
    },
    {
@@ -56848,7 +56848,7 @@
      "Le sel",
      "L'acide du citron"
     ],
-    "explication": "Ce sont des lipides liés à l'acide phosphorique.",
+    "explication": "Ces molécules associent un lipide et de l'acide phosphorique.",
     "source": "https://www.alimentarium.org/fr/node/1609"
    },
    {
@@ -56914,7 +56914,7 @@
      "Vers 60 °C",
      "Au-delà de 90 °C"
     ],
-    "explication": "Impossible donc de faire avec elle un gel qui résiste à la chaleur.",
+    "explication": "Un gel à base de gélatine ne tient donc pas à la chaleur.",
     "source": "https://www.hotellerie-restauration.ac-versailles.fr/IMG/pdf/15-_fiche_d_analyse_technique_les_ge_lifiants.pdf"
    },
    {
@@ -56925,7 +56925,7 @@
      "La pomme",
      "La poire"
     ],
-    "explication": "Le kiwi et la papaye aussi : il faut d'abord faire bouillir le fruit.",
+    "explication": "Même chose pour le kiwi et la papaye, qu'on fera bouillir au préalable.",
     "source": "https://www.hotellerie-restauration.ac-versailles.fr/IMG/pdf/15-_fiche_d_analyse_technique_les_ge_lifiants.pdf"
    },
    {
@@ -56958,7 +56958,7 @@
      "Il devient liquide pour toujours",
      "Il durcit comme du verre"
     ],
-    "explication": "La gélatine, elle, supporte assez bien la congélation.",
+    "explication": "La congélation, en revanche, ne pose guère de problème à la gélatine.",
     "source": "https://www.hotellerie-restauration.ac-versailles.fr/IMG/pdf/15-_fiche_d_analyse_technique_les_ge_lifiants.pdf"
    },
    {
@@ -57035,7 +57035,7 @@
      "10 minutes",
      "4 heures"
     ],
-    "explication": "On le refroidit ensuite dans de l'eau glacée.",
+    "explication": "Il passe ensuite dans un bain d'eau glacée.",
     "source": "https://www.hotellerie-restauration.ac-versailles.fr/IMG/pdf/20_mise_en_situation_-_cuisson_des_oeufs.pdf"
    },
    {
@@ -57276,7 +57276,7 @@
      [
       "éthanoate de 2-phényléthyle",
       "rose",
-      "Les esters ont souvent une odeur agréable.",
+      "Beaucoup d'esters dégagent un parfum plaisant.",
       "https://www.techno-science.net/fr/definitions/ester"
      ]
     ]
@@ -57404,7 +57404,7 @@
      [
       "cyclopropane",
       "des cycloalcanes",
-      "Les cycloalcanes ont pour formule générale CnH2n.",
+      "Pour les cycloalcanes, la formule générale s'écrit CnH2n.",
       "https://www.techno-science.net/fr/definitions/alcane"
      ],
      [
@@ -57537,7 +57537,7 @@
      "August Kekulé",
      "Hermann Kolbe"
     ],
-    "explication": "Les deux savants dirigent ensemble les Annalen der Chemie und Pharmazie.",
+    "explication": "Les deux savants sont coéditeurs de la revue Annalen der Chemie und Pharmazie.",
     "source": "https://www.universalis.fr/encyclopedie/friedrich-wohler/"
    },
    {
@@ -57702,7 +57702,7 @@
      "Il est dissous dans l'eau",
      "Il contient de l'oxygène"
     ],
-    "explication": "Les alcènes, les alcynes et les composés aromatiques sont au contraire insaturés.",
+    "explication": "À l'inverse, alcènes, alcynes et aromatiques sont des hydrocarbures non saturés.",
     "source": "https://www.techno-science.net/fr/definitions/alcane"
    },
    {
@@ -57713,7 +57713,7 @@
      "Dix",
      "Dix-sept"
     ],
-    "explication": "Méthane, éthane, propane et butane sont des gaz.",
+    "explication": "Les quatre premiers, du méthane au butane, sont gazeux.",
     "source": "https://www.techno-science.net/fr/definitions/alcane"
    },
    {
@@ -57878,11 +57878,11 @@
      "L'isomérisation",
      "L'estérification"
     ],
-    "explication": "Elle opère en phase liquide, entre 450 et 500 °C.",
+    "explication": "La charge y reste liquide et chauffe entre 450 et 500 °C.",
     "source": "https://www.connaissancedesenergies.org/fiche-pedagogique/raffinage-petrolier"
    },
    {
-    "enonce": "En quelle année construit-on aux États-Unis la première unité de distillation continue du pétrole brut ?",
+    "enonce": "En quelle année naît la toute première installation qui distille le pétrole brut en continu ?",
     "bonne": "1910",
     "faux": [
      "1859",
@@ -58065,7 +58065,7 @@
      "-NH₂",
      "-CH₃"
     ],
-    "explication": "Ce groupe carboxyle est toujours placé en bout de chaîne carbonée.",
+    "explication": "On trouve toujours ce groupe carboxyle à l'extrémité de la chaîne de carbones.",
     "source": "https://www.techno-science.net/fr/definitions/acide-carboxylique"
    },
    {
@@ -58175,7 +58175,7 @@
      "Le saccharose",
      "Le lactose"
     ],
-    "explication": "C'est la principale molécule de structure des plantes.",
+    "explication": "C'est avant tout elle qui forme la charpente des végétaux.",
     "source": "https://techno-science.net/glossaire-definition/Glucide.html"
    },
    {
@@ -58220,7 +58220,7 @@
      [
       "la pression",
       "pascals",
-      "Un pascal correspond à une force d'un newton sur un mètre carré.",
+      "Un pascal équivaut à un newton appliqué sur un mètre carré.",
       "https://www.techno-science.net/fr/definitions/pression"
      ],
      [
@@ -58331,13 +58331,13 @@
      [
       "la poussée exercée par les fluides et le cri « Eurêka »",
       "Archimède",
-      "Son Traité des corps flottants pose les bases de l'hydrostatique.",
+      "L'hydrostatique repose sur les fondements posés dans son Traité des corps flottants.",
       "https://www.techno-science.net/fr/definitions/poussee-d-archimede"
      ],
      [
       "l'unité de pression du Système international",
       "Blaise Pascal",
-      "Il étudia la pression atmosphérique et la transmission de la pression dans les liquides.",
+      "Il s'intéressa à la pression de l'air et à la façon dont un liquide transmet une pression.",
       "https://www.futura-sciences.com/sciences/definitions/physique-pascal-363/"
      ],
      [
@@ -58349,13 +58349,13 @@
      [
       "les lois du frottement énoncées en 1699",
       "Guillaume Amontons",
-      "Il ajoute que le coefficient de frottement ne dépend pas de la vitesse.",
+      "Selon lui, la vitesse n'a pas non plus d'effet sur le coefficient de frottement.",
       "https://areq.net/lang/fr/Frottement.html"
      ],
      [
       "la découverte, dès 1508, que le frottement ne dépend pas de l'aire de contact",
       "Léonard de Vinci",
-      "Il est considéré comme l'un des précurseurs de la tribologie.",
+      "On voit en lui un pionnier de la tribologie, la science du frottement.",
       "https://www.futura-sciences.com/sciences/definitions/physique-tribologie-15957/"
      ]
     ]
@@ -58381,7 +58381,7 @@
      "Une pression",
      "Un volume"
     ],
-    "explication": "Dans le langage courant, on confond souvent masse et poids.",
+    "explication": "Au quotidien, on dit souvent « poids » quand on parle en réalité de masse.",
     "source": "https://www.schoolmouv.fr/cours/gravitation-et-poids/fiche-de-cours"
    },
    {
@@ -58403,7 +58403,7 @@
      "P = m + g",
      "P = m × v"
     ],
-    "explication": "g est l'intensité de la pesanteur, qui dépend de l'astre.",
+    "explication": "g désigne l'intensité de la pesanteur, propre à chaque astre.",
     "source": "https://www.schoolmouv.fr/cours/gravitation-et-poids/fiche-de-cours"
    },
    {
@@ -58535,7 +58535,7 @@
      "Toujours verticale",
      "Perpendiculaire au fil"
     ],
-    "explication": "La tension est dirigée de l'objet vers le fil.",
+    "explication": "Elle part de l'objet et pointe en direction du fil.",
     "source": "https://www.schoolmouv.fr/cours/modeliser-une-action-sur-un-systeme/fiche-de-revision"
    },
    {
@@ -58590,7 +58590,7 @@
      "La tension et le frottement",
      "La pression et la masse"
     ],
-    "explication": "Elles ont la même droite d'action, la même valeur et des sens opposés.",
+    "explication": "Elles agissent sur une même droite, avec des valeurs égales et des sens contraires.",
     "source": "https://www.nomadeducation.fr/revisions/3e-ci-lb52ef90/equilibre-dun-solide-soumis-a-deux-forces-cy97ef80"
    },
    {
@@ -58722,7 +58722,7 @@
      "Il baisse",
      "Il déborde toujours"
     ],
-    "explication": "Le théorème d'Archimède suppose que le fluide et le corps soient au repos.",
+    "explication": "Ce théorème ne vaut que si le corps et le fluide sont tous deux immobiles.",
     "source": "https://www.techno-science.net/fr/definitions/poussee-d-archimede"
    },
    {
@@ -58755,7 +58755,7 @@
      "Un parachute",
      "Des voiles"
     ],
-    "explication": "Pour un sous-marin, le centre de carène doit être au-dessus du centre de gravité.",
+    "explication": "Dans un sous-marin, le centre de gravité doit se situer plus bas que le centre de carène.",
     "source": "https://www.techno-science.net/fr/definitions/poussee-d-archimede"
    },
    {
@@ -58810,7 +58810,7 @@
      "« Tout corps persévère »",
      "« J'ai trouvé »"
     ],
-    "explication": "C'est la devise de l'École polytechnique de Montréal.",
+    "explication": "L'École polytechnique de Montréal l'a choisie pour devise.",
     "source": "https://www.techno-science.net/fr/definitions/loi-de-hooke"
    },
    {
@@ -58865,7 +58865,7 @@
      "Le baromètre",
      "Le sextant"
     ],
-    "explication": "Un dynamomètre mesure une force ou un couple.",
+    "explication": "Cet appareil sert à mesurer des forces et des couples.",
     "source": "https://www.techno-science.net/fr/definitions/dynamometre"
    },
    {
@@ -59387,7 +59387,7 @@
      [
       "Albert Einstein",
       "la relativité générale",
-      "La gravitation y devient une déformation de l'espace et du temps.",
+      "Dans cette théorie, la gravitation est une courbure de l'espace-temps.",
       "https://fr.vikidia.org/wiki/Gravitation_universelle"
      ],
      [
@@ -59430,7 +59430,7 @@
      "3 × 10⁸ N·m²/kg²",
      "6,02 × 10²³ N·m²/kg²"
     ],
-    "explication": "C'est une grandeur fondamentale de notre Univers.",
+    "explication": "Cette constante compte parmi les valeurs fondamentales qui régissent l'Univers.",
     "source": "https://fr.vikidia.org/wiki/Gravitation_universelle"
    },
    {
@@ -59441,7 +59441,7 @@
      "Trois",
      "Sept"
     ],
-    "explication": "Elle attire deux corps du seul fait de leur matière.",
+    "explication": "Par elle, deux corps s'attirent pour la simple raison qu'ils contiennent de la matière.",
     "source": "https://fr.vikidia.org/wiki/Gravitation_universelle"
    },
    {
@@ -59566,7 +59566,7 @@
     "source": "https://fr.vikidia.org/wiki/Mar%C3%A9e"
    },
    {
-    "enonce": "Combien de marées hautes se produisent environ toutes les 24 heures et 50 minutes ?",
+    "enonce": "En 24 h 50 min environ, combien de marées hautes observe-t-on ?",
     "bonne": "Deux",
     "faux": [
      "Une",
@@ -59782,7 +59782,7 @@
      "5 minutes",
      "1 heure"
     ],
-    "explication": "Pendant ce temps, l'avion et ses passagers sont en chute libre.",
+    "explication": "Durant ces secondes, appareil et occupants tombent librement ensemble.",
     "source": "https://cnes.fr/dossiers/impesanteur"
    },
    {
@@ -59870,7 +59870,7 @@
      "Un séisme terrestre",
      "Une éruption solaire"
     ],
-    "explication": "Ces deux trous noirs tournaient l'un autour de l'autre avant de fusionner.",
+    "explication": "Ces deux trous noirs décrivaient une orbite commune avant de ne plus faire qu'un.",
     "source": "https://www.stelvision.com/astro/le-prix-nobel-consacre-la-decouverte-des-ondes-gravitationnelles"
    },
    {
@@ -60140,7 +60140,7 @@
      [
       "un centinewton (cN)",
       "0,01 N",
-      "Le nom de l'unité s'écrit en minuscule, son symbole N en majuscule.",
+      "On écrit « newton » sans capitale, mais son symbole est un N capital.",
       "https://areq.net/lang/fr/Newton_(unit%C3%A9).html"
      ],
      [
@@ -60152,7 +60152,7 @@
      [
       "un kilogramme-force (kgf)",
       "9,806 65 N",
-      "Sur Terre, une masse de 1 kg pèse environ 9,806 65 N.",
+      "À la surface terrestre, le poids d'un kilogramme avoisine 9,806 65 N.",
       "https://areq.net/lang/fr/Newton_(unit%C3%A9).html"
      ],
      [
@@ -60183,7 +60183,7 @@
      [
       "une fusée éjecte des gaz vers le bas",
       "Les gaz poussent la fusée vers le haut",
-      "C'est cette force qui la décolle du sol et la propulse dans l'espace.",
+      "Grâce à cette poussée, elle quitte le sol et s'élance vers l'espace.",
       "https://fr.vikidia.org/wiki/Lois_du_mouvement_de_Newton"
      ],
      [
@@ -60289,7 +60289,7 @@
      "Elle ne change pas",
      "Elle est multipliée par quatre"
     ],
-    "explication": "L'accélération est proportionnelle à la résultante des forces.",
+    "explication": "Si la somme des forces grandit, l'accélération croît dans la même proportion.",
     "source": "https://www.techno-science.net/fr/definitions/lois-du-mouvement-de-newton"
    },
    {
@@ -60322,7 +60322,7 @@
      "Il exerce sur A une force deux fois plus faible",
      "Il exerce sur A une force de même sens"
     ],
-    "explication": "Les deux forces ont la même droite d'action.",
+    "explication": "Ces deux forces agissent selon une seule et même droite.",
     "source": "https://www.schoolmouv.fr/cours/modeliser-une-action-sur-un-systeme/fiche-de-revision"
    },
    {
@@ -60333,7 +60333,7 @@
      "Un référentiel qui accélère",
      "N'importe quel référentiel"
     ],
-    "explication": "Le référentiel héliocentrique est généralement considéré comme galiléen.",
+    "explication": "On tient d'ordinaire le référentiel héliocentrique pour galiléen.",
     "source": "https://www.techno-science.net/fr/definitions/lois-du-mouvement-de-newton"
    },
    {
@@ -60421,7 +60421,7 @@
      "150 kg",
      "1,5 kg"
     ],
-    "explication": "Lors d'un arrêt brutal, un objet non fixé pèse au moins dix fois plus lourd.",
+    "explication": "En cas d'arrêt brutal, le poids d'un objet non attaché est multiplié au moins par dix.",
     "source": "https://www.envoituresimone.com/code-de-la-route/cours/circulation/vitesse/inertie"
    },
    {
@@ -60784,7 +60784,7 @@
      "La loi des gaz parfaits",
      "La loi de la réfraction"
     ],
-    "explication": "Elle lui permet de démontrer les lois de Kepler.",
+    "explication": "Grâce à elle, il retrouve par le calcul les lois de Kepler.",
     "source": "https://www.techno-science.net/fr/definitions/lois-du-mouvement-de-newton"
    },
    {
@@ -60795,7 +60795,7 @@
      "Le poids d'un litre d'eau",
      "La force qui chauffe 1 g d'eau de 1 °C"
     ],
-    "explication": "Elle augmente la vitesse d'une masse de 1 kg de 1 m/s chaque seconde.",
+    "explication": "Appliquée à 1 kg, elle le fait accélérer de 1 m/s à chaque seconde.",
     "source": "https://areq.net/lang/fr/Newton_(unit%C3%A9).html"
    },
    {
@@ -61213,7 +61213,7 @@
     "source": "https://fr.vikidia.org/wiki/Vitesse"
    },
    {
-    "enonce": "Quelle vitesse mesurent le compteur d'une voiture et un radar de police ?",
+    "enonce": "Un radar de police ou le compteur d'une voiture : quelle vitesse indiquent-ils ?",
     "bonne": "La vitesse instantanée",
     "faux": [
      "La vitesse moyenne",
@@ -61275,7 +61275,7 @@
      "5 m/s²",
      "0,02 m/s²"
     ],
-    "explication": "Il atteint ainsi 108 km/h en 2 minutes 30 secondes.",
+    "explication": "Cela correspond à 108 km/h, atteints en deux minutes et demie.",
     "source": "https://fr.vikidia.org/wiki/Acc%C3%A9l%C3%A9ration"
    },
    {
@@ -61290,7 +61290,7 @@
     "source": "https://www.techno-science.net/fr/definitions/chute-libre-physique"
    },
    {
-    "enonce": "Quelle est la valeur approximative de l'accélération de la pesanteur à la surface de la Terre ?",
+    "enonce": "Que vaut environ, au sol sur Terre, l'accélération due à la pesanteur ?",
     "bonne": "9,81 m/s²",
     "faux": [
      "3,6 m/s²",
@@ -61506,7 +61506,7 @@
      "Un arrêt des moteurs",
      "Une disparition de la portance"
     ],
-    "explication": "C'est pourquoi les avions supersoniques ont souvent des ailes en flèche.",
+    "explication": "Voilà pourquoi on donne souvent aux appareils supersoniques une voilure en flèche.",
     "source": "https://www.futura-sciences.com/sciences/definitions/physique-nombre-mach-3569/"
    },
    {
@@ -61675,7 +61675,7 @@
     "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Land_speed_record"
    },
    {
-    "enonce": "Quel animal est considéré comme le plus rapide du monde ?",
+    "enonce": "Quel animal passe pour détenir le record de vitesse de la planète ?",
     "bonne": "Le faucon pèlerin",
     "faux": [
      "Le guépard",
