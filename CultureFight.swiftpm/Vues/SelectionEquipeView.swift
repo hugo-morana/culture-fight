@@ -161,8 +161,10 @@ struct SelectionEquipeView: View {
                 .keyframeAnimator(initialValue: 0.0, trigger: flash[modele.id, default: 0]) { vue, eclat in
                     vue.overlay(RoundedRectangle(cornerRadius: 14).fill(Charte.or.opacity(eclat)).allowsHitTesting(false))
                 } keyframes: { _ in
-                    LinearKeyframe(0.7, duration: 0.12)
-                    LinearKeyframe(0, duration: 0.5)
+                    KeyframeTrack {
+                        LinearKeyframe(0.7, duration: 0.12)
+                        LinearKeyframe(0, duration: 0.5)
+                    }
                 }
                 .transition(.asymmetric(
                     insertion: .scale(scale: 0.3).combined(with: .offset(y: 220)).combined(with: .opacity),
