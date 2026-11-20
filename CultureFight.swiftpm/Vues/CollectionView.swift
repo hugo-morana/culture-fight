@@ -1,15 +1,38 @@
 import SwiftUI
 
-/// « Ma collection » : tous les combattants en cartes, groupés par domaine.
+/// Façons d'afficher « Ma collection ». Le choix est mémorisé d'une visite à l'autre.
+enum ModeCollection: String, CaseIterable, Identifiable {
+    case liste, tuiles, paquet
+
+    var id: String { rawValue }
+
+    var titre: String {
+        switch self {
+        case .liste: "Liste"
+        case .tuiles: "Tuiles"
+        case .paquet: "Paquet"
+        }
+    }
+
+    var icone: String {
+        switch self {
+        case .liste: "list.bullet"
+        case .tuiles: "square.grid.2x2"
+        case .paquet: "rectangle.stack"
+        }
+    }
+}
+
+/// « Ma collection » : tous les combattants, en liste, en tuiles ou en paquet de cartes à effeuiller.
 struct CollectionView: View {
     let retour: () -> Void
 
+    @AppStorage("collection.mode") private var mode: ModeCollection = .tuiles
     @State private var detail: ModeleCombattant?
-    @State private var retournes: Set<String> = []
     @Namespace private var zoom
-    private let colonnes = [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)]
 
-    private var domaines: [String] {
+    /// Les domaines dans l'ordre du catalogue.
+    static var domaines: [String] {
         var vus: [String] = []
         for modele in Catalogue.prototype where !vus.contains(modele.specialite.domaine) {
             vus.append(modele.specialite.domaine)
@@ -17,44 +40,33 @@ struct CollectionView: View {
         return vus
     }
 
-    private func retourner(_ id: String) {
-        withAnimation(.spring(duration: 0.6, bounce: 0.3)) {
-            if retournes.contains(id) { retournes.remove(id) } else { retournes.insert(id) }
-        }
-    }
-
     var body: some View {
         NavigationStack {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 20) {
-                    ForEach(domaines, id: \.self) { domaine in
-                        let modeles = Catalogue.prototype.filter { $0.specialite.domaine == domaine }
-                        Text("\(Pictos.domaine(domaine)) \(domaine) · \(modeles.count)")
-                            .font(.titre(22, relativeTo: .title3))
-                            .lettrageLogo()
-                        LazyVGrid(columns: colonnes, spacing: 12) {
-                            ForEach(modeles) { modele in
-                                CarteAnimee(progression: retournes.contains(modele.id) ? 1 : 0,
-                                            modele: modele) { detail = modele }
-                                    .frame(height: 200)
-                                    .zIndex(retournes.contains(modele.id) ? 1 : 0)
-                                    .contentShape(RoundedRectangle(cornerRadius: 12))
-                                    .onTapGesture { retourner(modele.id) }
-                                    .modifier(SourceZoom(id: modele.id, espace: zoom))
-                                    .sensoryFeedback(.impact(weight: .light), trigger: retournes.contains(modele.id))
-                                .scrollTransition(.interactive, axis: .vertical) { carte, phase in
-                                    carte
-                                        .scaleEffect(phase.isIdentity ? 1 : 0.86)
-                                        .opacity(phase.isIdentity ? 1 : 0.55)
-                                        .rotation3DEffect(.degrees(phase.value * -22), axis: (x: 1, y: 0, z: 0))
-                                }
-                            }
-                        }
+            Group {
+                switch mode {
+                case .liste:
+                    ListeCollection(zoom: zoom) { detail = $0 }
+                case .tuiles:
+                    TuilesCollection(zoom: zoom) { detail = $0 }
+                case .paquet:
+                    PaquetCollection(zoom: zoom) { detail = $0 }
+                }
+            }
+            .transition(.opacity)
+            .safeAreaInset(edge: .top, spacing: 0) {
+                Picker("Affichage", selection: $mode.animation(.snappy)) {
+                    ForEach(ModeCollection.allCases) { choix in
+                        Label(choix.titre, systemImage: choix.icone).tag(choix)
                     }
                 }
-                .padding()
+                .pickerStyle(.segmented)
+                .padding(.horizontal)
+                .padding(.vertical, 8)
+                .background(.bar)
+                .sensoryFeedback(.selection, trigger: mode)
             }
             .navigationTitle("Ma collection")
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Button("Retour", action: retour)
@@ -64,6 +76,54 @@ struct CollectionView: View {
                 FicheCombattantView(modele: modele)
                     .modifier(TransitionZoom(id: modele.id, espace: zoom))
             }
+        }
+    }
+}
+
+/// Mode « Tuiles » : les cartes en grille de deux colonnes, groupées par domaine ;
+/// toucher une carte la retourne.
+struct TuilesCollection: View {
+    let zoom: Namespace.ID
+    let ouvrir: (ModeleCombattant) -> Void
+
+    @State private var retournes: Set<String> = []
+    private let colonnes = [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)]
+
+    private func retourner(_ id: String) {
+        withAnimation(.spring(duration: 0.6, bounce: 0.3)) {
+            if retournes.contains(id) { retournes.remove(id) } else { retournes.insert(id) }
+        }
+    }
+
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 20) {
+                ForEach(CollectionView.domaines, id: \.self) { domaine in
+                    let modeles = Catalogue.prototype.filter { $0.specialite.domaine == domaine }
+                    Text("\(Pictos.domaine(domaine)) \(domaine) · \(modeles.count)")
+                        .font(.titre(22, relativeTo: .title3))
+                        .lettrageLogo()
+                    LazyVGrid(columns: colonnes, spacing: 12) {
+                        ForEach(modeles) { modele in
+                            CarteAnimee(progression: retournes.contains(modele.id) ? 1 : 0,
+                                        modele: modele) { ouvrir(modele) }
+                                .frame(height: 200)
+                                .zIndex(retournes.contains(modele.id) ? 1 : 0)
+                                .contentShape(RoundedRectangle(cornerRadius: 12))
+                                .onTapGesture { retourner(modele.id) }
+                                .modifier(SourceZoom(id: modele.id, espace: zoom))
+                                .sensoryFeedback(.impact(weight: .light), trigger: retournes.contains(modele.id))
+                                .scrollTransition(.interactive, axis: .vertical) { carte, phase in
+                                    carte
+                                        .scaleEffect(phase.isIdentity ? 1 : 0.86)
+                                        .opacity(phase.isIdentity ? 1 : 0.55)
+                                        .rotation3DEffect(.degrees(phase.value * -22), axis: (x: 1, y: 0, z: 0))
+                                }
+                        }
+                    }
+                }
+            }
+            .padding()
         }
     }
 }

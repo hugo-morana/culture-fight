@@ -27,7 +27,7 @@ iOS 17 minimum.
 | `Moteur/Combat.swift` | Règles du combat (`Regles`) et état d'un combat, sans interface |
 | `Moteur/IAAdverse.swift` | L'adversaire : taux de réussite selon son niveau et la difficulté |
 | `Moteur/CombatController.swift` | Chronomètre, réponse de l'IA, enchaînement des tours |
-| `Vues/` | Accueil, choix de l'équipe, écran de combat |
+| `Vues/` | Accueil, choix de l'équipe, écran de combat, collection (`CollectionView.swift`, `CollectionModes.swift`) |
 | `Resources/` | `elements.json` (118 éléments), `pays_afrique.json` (54 pays et capitales) |
 
 ## Combattants du prototype
@@ -71,6 +71,17 @@ contente pas de redonner la réponse :
 Leur format commun est décrit dans [`outils/FORMAT.md`](outils/FORMAT.md) et leurs sources dans
 `outils/sources.py`. `python3 outils/verifier.py` détecte les champs manquants, les doublons, les
 questions ambiguës et les jeux sans source ; la compilation dans le cloud le lance à chaque envoi.
+
+## Ma collection
+
+L'écran « Ma collection » propose trois affichages, au choix en haut de l'écran (le choix est mémorisé) :
+
+- **Liste** : une ligne par combattant (vignette, rareté, PV, attaque, défense), groupée par domaine ;
+  toucher une ligne ouvre la fiche.
+- **Tuiles** : la grille de cartes, chaque carte se retourne au toucher.
+- **Paquet** : les cartes empilées. On effeuille la carte du dessus en la faisant glisser : elle s'envole
+  et repasse sous le paquet, pendant que les cartes du dessous s'ouvrent en éventail. Toucher la carte la
+  retourne, la réglette feuillette vite, et des puces filtrent le paquet par domaine.
 
 ## Sauvegarde
 
