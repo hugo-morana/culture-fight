@@ -52,6 +52,8 @@ struct ContentView: View {
                         niveau: joueur.niveauCompte,
                         xp: joueur.xpCompte,
                         seuil: joueur.seuilNiveauSuivant,
+                        prochainCoffre: Gains.prochainCoffre(apres: joueur.dernierCoffre),
+                        ouvrirCoffre: { Sauvegarde.ouvrirCoffre(joueur, dans: contexte) },
                         combattre: { ecran = .selection },
                         collection: { ecran = .collection })
         case .collection:
@@ -78,6 +80,8 @@ struct AccueilView: View {
     let niveau: Int
     let xp: Int
     let seuil: Int
+    let prochainCoffre: Date
+    let ouvrirCoffre: () -> Int?
     let combattre: () -> Void
     let collection: () -> Void
 
@@ -156,6 +160,9 @@ struct AccueilView: View {
             .offset(y: apparu ? 0 : 60)
             .opacity(apparu ? 1 : 0)
             .animation(.spring(duration: 0.6, bounce: 0.35).delay(0.62), value: apparu)
+            BoutonCoffre(prochain: prochainCoffre, ouvrir: ouvrirCoffre)
+                .opacity(apparu ? 1 : 0)
+                .animation(.easeOut(duration: 0.6).delay(0.75), value: apparu)
             Text("Prototype · \(Catalogue.prototype.count) combattants · combat contre l'IA")
                 .font(.footnote)
                 .foregroundStyle(.secondary)
@@ -248,5 +255,59 @@ struct BarrePV: View {
         }
         .frame(height: 8)
         .animation(.easeOut(duration: 0.4), value: pv)
+    }
+}
+
+/// Coffre gratuit de l'accueil : 20 à 60 Pièces toutes les 4 heures.
+struct BoutonCoffre: View {
+    let prochain: Date
+    let ouvrir: () -> Int?
+
+    @State private var gain: Int?
+    @State private var envol = false
+
+    var body: some View {
+        TimelineView(.periodic(from: .now, by: 1)) { contexte in
+            let pret = contexte.date >= prochain
+            Button {
+                guard let pieces = ouvrir() else { return }
+                gain = pieces
+                envol = false
+                withAnimation(.easeOut(duration: 1.4)) { envol = true }
+            } label: {
+                HStack(spacing: 8) {
+                    Image(systemName: pret ? "gift.fill" : "gift")
+                        .symbolEffect(.pulse, isActive: pret)
+                    Text(pret ? "Ouvrir le coffre gratuit" : "Coffre dans \(Self.attente(jusqua: prochain, depuis: contexte.date))")
+                        .font(.nom(15, relativeTo: .subheadline))
+                        .monospacedDigit()
+                }
+                .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.bordered)
+            .tint(pret ? Charte.or : .gray)
+            .disabled(!pret)
+        }
+        .overlay {
+            if let gain {
+                Text("+\(gain) Pièces")
+                    .font(.titre(26))
+                    .foregroundStyle(.yellow)
+                    .shadow(color: .black.opacity(0.6), radius: 3)
+                    .offset(y: envol ? -90 : 0)
+                    .opacity(envol ? 0 : 1)
+                    .scaleEffect(envol ? 1.4 : 0.8)
+                    .allowsHitTesting(false)
+            }
+        }
+        .sensoryFeedback(.success, trigger: gain)
+    }
+
+    /// « 3 h 05 min », « 12 min 40 s ».
+    static func attente(jusqua fin: Date, depuis maintenant: Date) -> String {
+        let reste = max(0, Int(fin.timeIntervalSince(maintenant)))
+        let h = reste / 3600, m = (reste % 3600) / 60, s = reste % 60
+        if h > 0 { return String(format: "%d h %02d min", h, m) }
+        return String(format: "%d min %02d s", m, s)
     }
 }

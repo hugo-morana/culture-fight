@@ -20,6 +20,8 @@ final class Joueur {
     var dateCreation: Date = Date()
     /// Consommables possédés (identifiant de l'objet → quantité).
     var inventaire: [String: Int] = [:]
+    /// Dernière ouverture du coffre gratuit (toutes les 4 heures).
+    var dernierCoffre: Date?
 
     @Relationship(deleteRule: .cascade, inverse: \CombattantPossede.joueur)
     var reserve: [CombattantPossede] = []
@@ -119,9 +121,27 @@ enum Sauvegarde {
         case 1?: joueur.defaites += 1
         default: joueur.nuls += 1
         }
-        joueur.pieces += controleur.piecesGagnees
-        joueur.gagnerXPCompte(controleur.xpCompteGagnee)
+        let bilan = controleur.bilan
+        joueur.pieces += bilan.pieces
+        controleur.niveauxCompteGagnes = joueur.gagnerXPCompte(bilan.xpCompte)
+        var niveaux: [String: Int] = [:]
+        for gain in bilan.combattants {
+            guard let possede = joueur.reserve.first(where: { $0.modeleID == gain.modele.id }) else { continue }
+            let n = possede.gagnerXP(gain.xp)
+            if n > 0 { niveaux[gain.modele.id] = n }
+        }
+        controleur.niveauxGagnes = niveaux
         enregistrer(contexte)
+    }
+
+    /// Ouvre le coffre gratuit s'il est prêt : renvoie les Pièces gagnées, ou nil s'il faut attendre.
+    static func ouvrirCoffre(_ joueur: Joueur, dans contexte: ModelContext, maintenant: Date = Date()) -> Int? {
+        guard maintenant >= Gains.prochainCoffre(apres: joueur.dernierCoffre) else { return nil }
+        let pieces = Int.random(in: Gains.coffre)
+        joueur.pieces += pieces
+        joueur.dernierCoffre = maintenant
+        enregistrer(contexte)
+        return pieces
     }
 
     /// Un abandon compte comme une défaite, sans gain.

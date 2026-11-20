@@ -100,8 +100,9 @@ struct CombatView: View {
         case .fin:
             VueFin(titre: controleur.titreFin,
                    victoire: controleur.estVictoire,
-                   pieces: controleur.piecesGagnees,
-                   xp: controleur.xpCompteGagnee,
+                   bilan: controleur.bilan,
+                   niveauxGagnes: controleur.niveauxGagnes,
+                   niveauxCompteGagnes: controleur.niveauxCompteGagnes,
                    rejouer: rejouer,
                    accueil: accueil)
         }
@@ -405,8 +406,9 @@ struct VueResultat: View {
 struct VueFin: View {
     let titre: String
     let victoire: Bool
-    let pieces: Int
-    let xp: Int
+    let bilan: BilanCombat
+    let niveauxGagnes: [String: Int]
+    let niveauxCompteGagnes: Int
     let rejouer: () -> Void
     let accueil: () -> Void
 
@@ -414,42 +416,123 @@ struct VueFin: View {
     @State private var piecesAffichees = 0
 
     var body: some View {
-        VStack(spacing: 16) {
-            Image(systemName: victoire ? "trophy.fill" : "flag.fill")
-                .font(.system(size: 64))
-                .foregroundStyle(victoire ? Color.yellow : Color.secondary)
-                .symbolEffect(.bounce, value: apparu)
-            Text(titre)
-                .font(.titre(38, relativeTo: .largeTitle))
-                .lettrageLogo()
-                .scaleEffect(apparu ? 1 : 0.3)
-                .opacity(apparu ? 1 : 0)
-                .animation(.spring(duration: 0.6, bounce: 0.5), value: apparu)
-            Label("+\(piecesAffichees) Pièces", systemImage: "dollarsign.circle.fill")
-                .font(.title3.monospacedDigit())
-                .foregroundStyle(.yellow)
-                .contentTransition(.numericText(value: Double(piecesAffichees)))
-            Label("+\(xp) XP", systemImage: "star.circle.fill")
-                .font(.headline.monospacedDigit())
-                .foregroundStyle(Charte.ivoire)
-                .opacity(apparu ? 1 : 0)
-                .animation(.easeOut(duration: 0.6).delay(0.9), value: apparu)
-            Button(action: rejouer) {
-                Text("Rejouer").font(.titre(19, relativeTo: .headline)).frame(maxWidth: .infinity)
+        ScrollView {
+            VStack(spacing: 16) {
+                Image(systemName: victoire ? "trophy.fill" : "flag.fill")
+                    .font(.system(size: 64))
+                    .foregroundStyle(victoire ? Color.yellow : Color.secondary)
+                    .symbolEffect(.bounce, value: apparu)
+                Text(titre)
+                    .font(.titre(38, relativeTo: .largeTitle))
+                    .lettrageLogo()
+                    .scaleEffect(apparu ? 1 : 0.3)
+                    .opacity(apparu ? 1 : 0)
+                    .animation(.spring(duration: 0.6, bounce: 0.5), value: apparu)
+                Label("+\(piecesAffichees) Pièces", systemImage: "dollarsign.circle.fill")
+                    .font(.titre(26, relativeTo: .title2).monospacedDigit())
+                    .foregroundStyle(.yellow)
+                    .contentTransition(.numericText(value: Double(piecesAffichees)))
+                detailPieces
+                experience
+                Button(action: rejouer) {
+                    Text("Rejouer").font(.titre(19, relativeTo: .headline)).frame(maxWidth: .infinity)
+                }
+                .buttonStyle(.borderedProminent)
+                .controlSize(.large)
+                .tint(.orange)
+                Button("Accueil", action: accueil)
+                    .font(.nom(16, relativeTo: .body))
             }
-            .buttonStyle(.borderedProminent)
-            .controlSize(.large)
-            .tint(.orange)
-            Button("Accueil", action: accueil)
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, 24)
         }
-        .frame(maxWidth: .infinity)
-        .padding(.vertical, 24)
         .sensoryFeedback(victoire ? .success : .warning, trigger: apparu)
         .onAppear {
             apparu = true
             withAnimation(.easeOut(duration: 1.2).delay(0.3)) {
-                piecesAffichees = pieces
+                piecesAffichees = bilan.pieces
             }
         }
+    }
+
+    private var detailPieces: some View {
+        VStack(spacing: 6) {
+            ForEach(Array(bilan.lignes.enumerated()), id: \.element.id) { index, ligne in
+                HStack {
+                    Text(ligne.libelle)
+                        .font(.nom(14, relativeTo: .subheadline))
+                        .foregroundStyle(Charte.ivoire.opacity(0.85))
+                    Spacer()
+                    Text("+\(ligne.pieces)")
+                        .font(.subheadline.monospacedDigit().bold())
+                        .foregroundStyle(.yellow)
+                }
+                .opacity(apparu ? 1 : 0)
+                .offset(x: apparu ? 0 : -20)
+                .animation(.spring(duration: 0.5).delay(0.5 + 0.12 * Double(index)), value: apparu)
+            }
+        }
+        .padding(12)
+        .background(Charte.marine.opacity(0.7), in: RoundedRectangle(cornerRadius: 14))
+        .overlay(RoundedRectangle(cornerRadius: 14).stroke(Charte.or.opacity(0.35), lineWidth: 1))
+    }
+
+    private var experience: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            HStack {
+                Label("+\(bilan.xpCompte) XP de compte", systemImage: "star.circle.fill")
+                    .font(.nom(15, relativeTo: .headline))
+                    .foregroundStyle(Charte.ivoire)
+                Spacer()
+                if niveauxCompteGagnes > 0 {
+                    BadgeNiveau(texte: "Niveau +\(niveauxCompteGagnes)")
+                }
+            }
+            ForEach(Array(bilan.combattants.enumerated()), id: \.element.id) { index, gain in
+                HStack(spacing: 10) {
+                    Avatar(modele: gain.modele, taille: 40)
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(gain.modele.nom)
+                            .font(.nom(14, relativeTo: .subheadline))
+                            .foregroundStyle(Charte.ivoire)
+                        Text(gain.bonnesReponses > 0
+                             ? "\(gain.bonnesReponses) bonne\(gain.bonnesReponses > 1 ? "s" : "") réponse\(gain.bonnesReponses > 1 ? "s" : "") en défense"
+                             : "Aucune bonne réponse en défense")
+                            .font(.caption2)
+                            .foregroundStyle(.secondary)
+                    }
+                    Spacer()
+                    if let n = niveauxGagnes[gain.modele.id] {
+                        BadgeNiveau(texte: n > 1 ? "+\(n) niveaux" : "Niveau +1")
+                    }
+                    Text("+\(gain.xp) XP")
+                        .font(.subheadline.monospacedDigit().bold())
+                        .foregroundStyle(gain.modele.specialite.couleur)
+                }
+                .opacity(apparu ? 1 : 0)
+                .offset(y: apparu ? 0 : 12)
+                .animation(.spring(duration: 0.5).delay(1.0 + 0.15 * Double(index)), value: apparu)
+            }
+        }
+        .padding(12)
+        .background(Charte.marine.opacity(0.7), in: RoundedRectangle(cornerRadius: 14))
+        .overlay(RoundedRectangle(cornerRadius: 14).stroke(Charte.or.opacity(0.35), lineWidth: 1))
+    }
+}
+
+/// Pastille dorée « Niveau +1 », qui pulse.
+struct BadgeNiveau: View {
+    let texte: String
+
+    var body: some View {
+        Label(texte, systemImage: "arrow.up.circle.fill")
+            .font(.nom(11, relativeTo: .caption2))
+            .foregroundStyle(Charte.marine)
+            .padding(.horizontal, 8)
+            .padding(.vertical, 4)
+            .background(Charte.or, in: Capsule())
+            .phaseAnimator([false, true]) { vue, fort in
+                vue.scaleEffect(fort ? 1.08 : 1).shadow(color: Charte.or.opacity(fort ? 0.8 : 0.2), radius: fort ? 8 : 2)
+            } animation: { _ in .easeInOut(duration: 0.8) }
     }
 }

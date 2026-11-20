@@ -28,6 +28,13 @@ final class CombatController {
     private(set) var malusTemps: Double = 0
 
     let ia: IAAdverse
+    /// Bonnes réponses données par le joueur, au total et par combattant (identifiant du modèle).
+    private(set) var bonnesReponsesJoueur = 0
+    private(set) var bonnesReponsesParCombattant: [String: Int] = [:]
+    /// Niveaux gagnés à la fin du combat, remplis par la sauvegarde (identifiant → niveaux).
+    var niveauxGagnes: [String: Int] = [:]
+    var niveauxCompteGagnes = 0
+
     /// Vrai une fois le résultat du combat enregistré dans la sauvegarde.
     @ObservationIgnored private var gainsVerses = false
     @ObservationIgnored private var tache: Task<Void, Never>?
@@ -123,8 +130,15 @@ final class CombatController {
         guard case .question = phase, let question else { return }
         let secondes = Date().timeIntervalSince(debutQuestion)
         let avant = combat.camps.map { pvActifs($0) }
+        let campDefenseur = combat.camps[combat.defenseur]
+        let joueurDefend = !campDefenseur.estIA
+        let defenseurID = campDefenseur.actif.modele.id
         let resultat = combat.resoudre(question: question, affinite: affinite,
                                        reponse: reponse, secondes: secondes)
+        if joueurDefend && resultat.correct {
+            bonnesReponsesJoueur += 1
+            bonnesReponsesParCombattant[defenseurID, default: 0] += 1
+        }
         for camp in combat.camps.indices {
             let delta = pvActifs(combat.camps[camp], apres: avant[camp].index) - avant[camp].pv
             if delta != 0 {
@@ -156,14 +170,36 @@ final class CombatController {
         }
     }
 
-    /// Pièces gagnées, d'après le tableau des gains du game design.
-    var piecesGagnees: Int {
+    /// Ce que rapporte le combat, d'après le tableau des gains du game design.
+    var bilan: BilanCombat {
+        var lignes: [LigneGain] = []
         switch combat.vainqueur {
-        case 0?: return 50 + 5 * combat.camps[1].nombreKO
-        case 1?: return 10
-        default: return 25
+        case 0?:
+            lignes.append(LigneGain(libelle: "Victoire", pieces: Gains.piecesVictoire))
+            let ko = combat.camps[1].nombreKO
+            if ko > 0 {
+                lignes.append(LigneGain(libelle: "Adversaires K.O. × \(ko)", pieces: Gains.piecesParKO * ko))
+            }
+        case 1?:
+            lignes.append(LigneGain(libelle: "Défaite (consolation)", pieces: Gains.piecesDefaite))
+        default:
+            lignes.append(LigneGain(libelle: "Match nul", pieces: Gains.piecesNul))
         }
+        if bonnesReponsesJoueur > 0 {
+            lignes.append(LigneGain(libelle: "Bonnes réponses × \(bonnesReponsesJoueur)",
+                                    pieces: Gains.piecesBonneReponse * bonnesReponsesJoueur))
+        }
+        let victoire = combat.vainqueur == 0
+        let combattants = combat.camps[0].combattants.map { c -> GainCombattant in
+            let bonnes = bonnesReponsesParCombattant[c.modele.id, default: 0]
+            let xp = Gains.xpCombattantCombat + (victoire ? Gains.xpCombattantVictoire : 0)
+                + Gains.xpCombattantBonneReponse * bonnes
+            return GainCombattant(modele: c.modele, bonnesReponses: bonnes, xp: xp)
+        }
+        return BilanCombat(lignes: lignes, xpCompte: xpCompteGagnee, combattants: combattants)
     }
+
+    var piecesGagnees: Int { bilan.pieces }
 
     /// XP de compte gagnée : +10 par combat terminé, +20 de plus en cas de victoire.
     var xpCompteGagnee: Int {
