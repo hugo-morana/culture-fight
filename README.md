@@ -80,6 +80,10 @@ La progression est stockée sur l'appareil avec SwiftData (`Modeles/Sauvegarde.s
 - **`CombattantPossede`** : un combattant de la réserve (identifiant du catalogue, niveau, XP, équipement).
   Le nom, la spécialité et les statistiques de base restent dans `Catalogue.swift`.
 
+- **`PartieJouee`** (`Modeles/Statistiques.swift`) : l'historique, une entrée par partie rattachée à son joueur
+  (résultat, niveau de l'IA, les deux équipes, tours, PV restants, réponses du joueur, Pièces, XP de compte
+  et niveau après la partie). Il nourrit les statistiques et se consulte dans le profil (`Vues/HistoriqueView.swift`).
+
 Le joueur est créé au premier lancement. À la fin d'un combat, les Pièces gagnées et le résultat sont
 enregistrés une seule fois ; un abandon compte comme une défaite, sans Pièces. L'app enregistre aussi
 quand elle passe en arrière-plan. Toutes les propriétés ont une valeur par défaut, pour que SwiftData

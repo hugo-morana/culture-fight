@@ -26,6 +26,13 @@ final class Joueur {
     @Relationship(deleteRule: .cascade, inverse: \CombattantPossede.joueur)
     var reserve: [CombattantPossede] = []
 
+    /// Toutes les parties jouées par ce joueur.
+    @Relationship(deleteRule: .cascade, inverse: \PartieJouee.joueur)
+    var parties: [PartieJouee] = []
+
+    /// Les parties, de la plus récente à la plus ancienne.
+    var historique: [PartieJouee] { parties.sorted { $0.date > $1.date } }
+
     init() {}
 
     /// Les combattants de la réserve, dans l'ordre du catalogue.
@@ -108,6 +115,11 @@ enum Sauvegarde {
         if toutOffertPendantLePrototype {
             Catalogue.prototype.forEach { joueur.ajouter($0.id) }
         }
+        // Parties enregistrées avant l'historique par joueur : rattachées au joueur de l'appareil.
+        let parties = (try? contexte.fetch(FetchDescriptor<PartieJouee>())) ?? []
+        for partie in parties where partie.joueur == nil {
+            partie.joueur = joueur
+        }
         enregistrer(contexte)
         return joueur
     }
@@ -115,7 +127,7 @@ enum Sauvegarde {
     /// Verse les gains d'un combat terminé, une seule fois par combat.
     static func crediter(_ controleur: CombatController, a joueur: Joueur, dans contexte: ModelContext) {
         guard controleur.estFini, controleur.marquerGainsVerses() else { return }
-        contexte.insert(controleur.partieJouee())
+        let partie = controleur.partieJouee()
         joueur.combatsJoues += 1
         switch controleur.combat.vainqueur {
         case 0?: joueur.victoires += 1
@@ -132,6 +144,10 @@ enum Sauvegarde {
             if n > 0 { niveaux[gain.modele.id] = n }
         }
         controleur.niveauxGagnes = niveaux
+        partie.pieces = bilan.pieces
+        partie.xpCompte = bilan.xpCompte
+        partie.niveauCompteApres = joueur.niveauCompte
+        joueur.parties.append(partie)
         enregistrer(contexte)
     }
 
@@ -148,10 +164,14 @@ enum Sauvegarde {
     /// Un abandon compte comme une défaite, sans Pièces : il coûte l'XP de compte d'une défaite.
     static func abandon(_ controleur: CombatController, de joueur: Joueur, dans contexte: ModelContext) {
         guard controleur.marquerGainsVerses() else { return }
-        contexte.insert(controleur.partieJouee(abandon: true))
+        let partie = controleur.partieJouee(abandon: true)
         joueur.combatsJoues += 1
         joueur.defaites += 1
-        controleur.niveauxCompteGagnes = joueur.gagnerXPCompte(NiveauCompte.xpDefaite(contre: controleur.ia.niveau))
+        let xp = NiveauCompte.xpDefaite(contre: controleur.ia.niveau)
+        controleur.niveauxCompteGagnes = joueur.gagnerXPCompte(xp)
+        partie.xpCompte = xp
+        partie.niveauCompteApres = joueur.niveauCompte
+        joueur.parties.append(partie)
         enregistrer(contexte)
     }
 
