@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftData
 
 /// Façons d'afficher « Ma collection ». Le choix est mémorisé d'une visite à l'autre.
 enum ModeCollection: String, CaseIterable, Identifiable {
@@ -51,6 +52,8 @@ struct GroupeCollection: Identifiable {
     let titre: String
     let picto: String
     let modeles: [ModeleCombattant]
+    /// Complétion du groupe entier (sans tenir compte de la recherche ni du filtre).
+    var completion = Completion()
     var id: String { titre }
 }
 
@@ -71,42 +74,58 @@ struct CollectionView: View {
 
     @AppStorage("collection.mode") private var mode: ModeCollection = .tuiles
     @AppStorage("collection.groupement") private var groupement: GroupementCollection = .domaine
+    @AppStorage("collection.possession") private var filtre: FiltrePossession = .tous
     @State private var recherche = ""
     @State private var detail: ModeleCombattant?
+    @State private var albumOuvert = false
     @Namespace private var zoom
+    @Query private var joueurs: [Joueur]
 
-    /// Les combattants retenus par la recherche, groupés selon `groupement`, dans l'ordre du catalogue.
-    static func groupes(_ groupement: GroupementCollection, recherche: String) -> [GroupeCollection] {
+    /// Identifiants des combattants de la réserve du joueur.
+    private var possedes: Set<String> { Set(joueurs.first?.reserve.map(\.modeleID) ?? []) }
+
+    private static func cle(_ modele: ModeleCombattant, _ groupement: GroupementCollection) -> (cle: String, picto: String) {
+        switch groupement {
+        case .domaine:
+            return (modele.specialite.domaine, Pictos.domaine(modele.specialite.domaine))
+        case .famille:
+            return (modele.specialite.famille, Pictos.famille(modele.specialite.famille, domaine: modele.specialite.domaine))
+        case .style:
+            return (modele.familleStyle.rawValue, modele.familleStyle.picto)
+        }
+    }
+
+    /// Les combattants retenus par la recherche et le filtre, groupés selon `groupement`,
+    /// dans l'ordre du catalogue ; chaque groupe porte la complétion de tous ses combattants.
+    static func groupes(_ groupement: GroupementCollection, recherche: String,
+                        filtre: FiltrePossession = .tous, possedes: Set<String> = []) -> [GroupeCollection] {
         let texte = recherche.trimmingCharacters(in: .whitespaces)
-        let modeles = texte.isEmpty ? Catalogue.prototype : Catalogue.prototype.filter { $0.correspond(a: texte) }
         var ordre: [String] = []
         var parCle: [String: [ModeleCombattant]] = [:]
         var pictos: [String: String] = [:]
-        for modele in modeles {
-            let cle: String
-            let picto: String
-            switch groupement {
-            case .domaine:
-                cle = modele.specialite.domaine
-                picto = Pictos.domaine(cle)
-            case .famille:
-                cle = modele.specialite.famille
-                picto = Pictos.famille(cle, domaine: modele.specialite.domaine)
-            case .style:
-                cle = modele.familleStyle.rawValue
-                picto = modele.familleStyle.picto
-            }
+        var completions: [String: Completion] = [:]
+        for modele in Catalogue.prototype {
+            let (cle, picto) = Self.cle(modele, groupement)
+            var completion = completions[cle, default: Completion()]
+            completion.total += 1
+            if possedes.contains(modele.id) { completion.possedes += 1 }
+            completions[cle] = completion
+            guard texte.isEmpty || modele.correspond(a: texte),
+                  filtre.garde(modele, possedes: possedes) else { continue }
             if parCle[cle] == nil {
                 ordre.append(cle)
                 pictos[cle] = picto
             }
             parCle[cle, default: []].append(modele)
         }
-        return ordre.map { GroupeCollection(titre: $0, picto: pictos[$0] ?? "", modeles: parCle[$0] ?? []) }
+        return ordre.map {
+            GroupeCollection(titre: $0, picto: pictos[$0] ?? "", modeles: parCle[$0] ?? [],
+                             completion: completions[$0] ?? Completion())
+        }
     }
 
     private var groupes: [GroupeCollection] {
-        Self.groupes(groupement, recherche: recherche)
+        Self.groupes(groupement, recherche: recherche, filtre: filtre, possedes: possedes)
     }
 
     var body: some View {
@@ -114,20 +133,29 @@ struct CollectionView: View {
             Group {
                 let groupes = groupes
                 if groupes.isEmpty {
-                    ContentUnavailableView.search(text: recherche)
+                    if recherche.trimmingCharacters(in: .whitespaces).isEmpty {
+                        ContentUnavailableView(filtre == .manquants ? "Collection complète !" : "Aucun combattant",
+                                               systemImage: filtre == .manquants ? "checkmark.seal.fill" : "rectangle.stack",
+                                               description: Text(filtre == .manquants
+                                                                 ? "Tu possèdes tous les combattants jouables."
+                                                                 : "Gagne des Pièces en combat pour en acheter à la boutique."))
+                    } else {
+                        ContentUnavailableView.search(text: recherche)
+                    }
                 } else {
                     switch mode {
                     case .liste:
-                        ListeCollection(groupes: groupes, zoom: zoom) { detail = $0 }
+                        ListeCollection(groupes: groupes, possedes: possedes, zoom: zoom) { detail = $0 }
                     case .tuiles:
-                        TuilesCollection(groupes: groupes, zoom: zoom) { detail = $0 }
+                        TuilesCollection(groupes: groupes, possedes: possedes, zoom: zoom) { detail = $0 }
                     case .paquet:
-                        PaquetCollection(groupes: groupes, zoom: zoom) { detail = $0 }
+                        PaquetCollection(groupes: groupes, possedes: possedes, zoom: zoom) { detail = $0 }
                     }
                 }
             }
             .transition(.opacity)
             .animation(.snappy, value: groupement)
+            .animation(.snappy, value: filtre)
             .searchable(text: $recherche, placement: .navigationBarDrawer(displayMode: .always),
                         prompt: "Nom, spécialité, style…")
             .autocorrectionDisabled()
@@ -140,8 +168,13 @@ struct CollectionView: View {
                 .pickerStyle(.segmented)
                 .padding(.horizontal)
                 .padding(.vertical, 8)
+                .frame(maxWidth: .infinity)
                 .background(.bar)
                 .sensoryFeedback(.selection, trigger: mode)
+            }
+            .safeAreaInset(edge: .top, spacing: 0) {
+                BandeauAlbum(completion: Completion(Catalogue.prototype, possedes: possedes)) { albumOuvert = true }
+                    .background(.bar)
             }
             .navigationTitle("Ma collection")
             .navigationBarTitleDisplayMode(.inline)
@@ -156,11 +189,19 @@ struct CollectionView: View {
                                 Label(choix.titre, systemImage: choix.icone).tag(choix)
                             }
                         }
+                        Picker("Afficher", selection: $filtre) {
+                            ForEach(FiltrePossession.allCases) { choix in
+                                Label(choix.titre, systemImage: choix.icone).tag(choix)
+                            }
+                        }
                     } label: {
                         Label("Grouper par \(groupement.titre.lowercased())", systemImage: "rectangle.3.group")
                     }
                     .sensoryFeedback(.selection, trigger: groupement)
                 }
+            }
+            .sheet(isPresented: $albumOuvert) {
+                AlbumView(possedes: possedes)
             }
             .sheet(item: $detail) { modele in
                 FicheCombattantView(modele: modele)
@@ -174,6 +215,7 @@ struct CollectionView: View {
 /// toucher une carte la retourne.
 struct TuilesCollection: View {
     let groupes: [GroupeCollection]
+    let possedes: Set<String>
     let zoom: Namespace.ID
     let ouvrir: (ModeleCombattant) -> Void
 
@@ -190,13 +232,12 @@ struct TuilesCollection: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
                 ForEach(groupes) { groupe in
-                    Text("\(groupe.picto) \(groupe.titre) · \(groupe.modeles.count)")
-                        .font(.titre(22, relativeTo: .title3))
-                        .lettrageLogo()
+                    EnteteGroupe(groupe: groupe)
                     LazyVGrid(columns: colonnes, spacing: 12) {
                         ForEach(groupe.modeles) { modele in
                             CarteAnimee(progression: retournes.contains(modele.id) ? 1 : 0,
                                         modele: modele) { ouvrir(modele) }
+                                .modifier(VoileNonPossede(possede: possedes.contains(modele.id)))
                                 .frame(height: 200)
                                 .zIndex(retournes.contains(modele.id) ? 1 : 0)
                                 .contentShape(RoundedRectangle(cornerRadius: 12))

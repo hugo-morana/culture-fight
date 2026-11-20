@@ -74,6 +74,13 @@ questions ambiguës et les jeux sans source ; la compilation dans le cloud le la
 
 ## Ma collection
 
+Tous les combattants jouables y figurent, possédés ou non : ceux qui ne sont pas encore dans la réserve
+sont grisés avec un cadenas, et le menu propose d'afficher tous les combattants, les possédés ou ceux
+« à découvrir ». Chaque groupe montre sa complétion (possédés / jouables, en %) et un sceau doré quand il
+est complet. Le bandeau « Album » ouvre l'écran de complétion : un anneau pour toute la collection, puis
+l'onglet **Domaines** (chaque domaine se déplie sur ses familles) et l'onglet **Styles** (chaque famille
+de styles se déplie sur ses styles : tous les ninjas, tous les vikings…), avec les vignettes des combattants.
+
 Le menu « Grouper par » (en haut à droite) range les combattants par **domaine**, par **famille** de
 spécialités ou par **style de combat** (les 10 familles de styles) ; le champ de recherche filtre sur le nom,
 la spécialité, la famille, le domaine, le style ou la rareté, sans tenir compte des accents. Le regroupement

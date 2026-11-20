@@ -5,6 +5,7 @@ import SwiftUI
 /// Mode « Liste » : une ligne par combattant, groupée, avec ses stats en bref.
 struct ListeCollection: View {
     let groupes: [GroupeCollection]
+    let possedes: Set<String>
     let zoom: Namespace.ID
     let ouvrir: (ModeleCombattant) -> Void
 
@@ -15,15 +16,13 @@ struct ListeCollection: View {
                     Section {
                         ForEach(groupe.modeles) { modele in
                             Button { ouvrir(modele) } label: {
-                                LigneCollection(modele: modele)
+                                LigneCollection(modele: modele, possede: possedes.contains(modele.id))
                             }
                             .buttonStyle(.plain)
                             .modifier(SourceZoom(id: modele.id, espace: zoom))
                         }
                     } header: {
-                        Text("\(groupe.picto) \(groupe.titre) · \(groupe.modeles.count)")
-                            .font(.titre(18, relativeTo: .headline))
-                            .lettrageLogo()
+                        EnteteGroupe(groupe: groupe, taille: 18)
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding(.vertical, 6)
                             .background(.bar)
@@ -39,6 +38,7 @@ struct ListeCollection: View {
 /// Une ligne de la liste : vignette, nom, spécialité, rareté et stats.
 struct LigneCollection: View {
     let modele: ModeleCombattant
+    var possede = true
 
     private static let fond = Color(red: 0.05, green: 0.08, blue: 0.2)
 
@@ -49,6 +49,7 @@ struct LigneCollection: View {
                 .overlay(alignment: .top) { IllustrationCombattant(modele: modele, taille: 20) }
                 .clipShape(RoundedRectangle(cornerRadius: 10))
                 .overlay(RoundedRectangle(cornerRadius: 10).stroke(modele.specialite.couleur.opacity(0.9), lineWidth: 1.5))
+                .modifier(VoileNonPossede(possede: possede, cadenas: false))
             VStack(alignment: .leading, spacing: 3) {
                 HStack(spacing: 6) {
                     Text(modele.nom)
@@ -62,7 +63,7 @@ struct LigneCollection: View {
                         .padding(.vertical, 2)
                         .background(Capsule().fill(modele.specialite.couleur.opacity(0.35)))
                 }
-                Text(modele.sousTitre)
+                Text(possede ? modele.sousTitre : "🔒 À découvrir · \(modele.sousTitre)")
                     .font(.nom(12, relativeTo: .caption))
                     .foregroundStyle(.secondary)
                     .lineLimit(1)
@@ -103,6 +104,7 @@ struct LigneCollection: View {
 /// pendant le geste. Toucher la carte du dessus la retourne ; la réglette en bas feuillette vite.
 struct PaquetCollection: View {
     let groupes: [GroupeCollection]
+    let possedes: Set<String>
     let zoom: Namespace.ID
     let ouvrir: (ModeleCombattant) -> Void
 
@@ -200,6 +202,7 @@ struct PaquetCollection: View {
 
         CarteAnimee(progression: dessus && retournee ? 1 : 0, modele: modele) { ouvrir(modele) }
             .frame(width: taille.width, height: taille.height)
+            .modifier(VoileNonPossede(possede: possedes.contains(modele.id)))
             .modifier(SourceZoom(id: modele.id, espace: zoom))
             .brightness(dessus ? 0 : -0.06 * r)
             .shadow(color: .black.opacity(dessus ? 0.5 : 0.25), radius: dessus ? 14 : 4, y: dessus ? 8 : 2)
