@@ -201,8 +201,8 @@ final class CombatController {
 
     var piecesGagnees: Int { bilan.pieces }
 
-    /// XP de compte gagnée : +10 par combat terminé, +20 de plus en cas de victoire.
+    /// XP de compte gagnée (ou perdue si négative), selon le résultat et le niveau de l'IA.
     var xpCompteGagnee: Int {
-        NiveauCompte.xpCombat + (combat.vainqueur == 0 ? NiveauCompte.xpVictoire : 0)
+        NiveauCompte.xp(vainqueur: combat.vainqueur, contre: ia.niveau)
     }
 }

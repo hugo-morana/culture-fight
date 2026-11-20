@@ -55,6 +55,9 @@ struct SelectionEquipeView: View {
                         }
                     }
                     .pickerStyle(.segmented)
+                    Text("Enjeu : victoire +\(NiveauCompte.xpVictoire(contre: niveau)) XP · défaite −\(abs(NiveauCompte.xpDefaite(contre: niveau))) XP de compte")
+                        .font(.caption.monospacedDigit())
+                        .foregroundStyle(.secondary)
                 } header: {
                     Text("Adversaire").font(.nom(15, relativeTo: .subheadline)).foregroundStyle(Charte.or).textCase(nil)
                 }
