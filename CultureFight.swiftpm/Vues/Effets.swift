@@ -295,9 +295,11 @@ struct CarteRetournable<Recto: View, Verso: View>: View, Animatable {
         ZStack {
             recto
                 .opacity(rectoVisible ? 1 : 0)
+                .allowsHitTesting(rectoVisible)
             verso
                 .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
                 .opacity(rectoVisible ? 0 : 1)
+                .allowsHitTesting(!rectoVisible)
         }
         .rotation3DEffect(.degrees(angle), axis: (x: 0, y: 1, z: 0), perspective: 0.5)
     }

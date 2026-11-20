@@ -5,6 +5,7 @@ struct CollectionView: View {
     let retour: () -> Void
 
     @State private var detail: ModeleCombattant?
+    @State private var retournes: Set<String> = []
     @Namespace private var zoom
     private let colonnes = [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)]
 
@@ -14,6 +15,12 @@ struct CollectionView: View {
             vus.append(modele.specialite.domaine)
         }
         return vus
+    }
+
+    private func retourner(_ id: String) {
+        withAnimation(.spring(duration: 0.6, bounce: 0.3)) {
+            if retournes.contains(id) { retournes.remove(id) } else { retournes.insert(id) }
+        }
     }
 
     var body: some View {
@@ -26,13 +33,14 @@ struct CollectionView: View {
                             .font(.title3.bold())
                         LazyVGrid(columns: colonnes, spacing: 12) {
                             ForEach(modeles) { modele in
-                                Button {
-                                    detail = modele
-                                } label: {
-                                    CarteCollection(modele: modele)
-                                        .modifier(SourceZoom(id: modele.id, espace: zoom))
-                                }
-                                .buttonStyle(.plain)
+                                CarteRetournable(angle: retournes.contains(modele.id) ? 180 : 0,
+                                                 recto: CarteCollection(modele: modele),
+                                                 verso: VersoCollection(modele: modele) { detail = modele })
+                                    .frame(height: 200)
+                                    .contentShape(RoundedRectangle(cornerRadius: 12))
+                                    .onTapGesture { retourner(modele.id) }
+                                    .modifier(SourceZoom(id: modele.id, espace: zoom))
+                                    .sensoryFeedback(.impact(weight: .light), trigger: retournes.contains(modele.id))
                                 .scrollTransition(.interactive, axis: .vertical) { carte, phase in
                                     carte
                                         .scaleEffect(phase.isIdentity ? 1 : 0.86)
@@ -89,7 +97,7 @@ struct CarteCollection: View {
     var body: some View {
         VStack(spacing: 0) {
             Color.clear
-                .frame(height: 130)
+                .frame(maxHeight: .infinity)
                 .overlay(alignment: .top) { IllustrationCombattant(modele: modele) }
                 .clipped()
             VStack(spacing: 2) {
@@ -254,5 +262,67 @@ struct VersoCarte: View {
             }
             .frame(height: 6)
         }
+    }
+}
+
+/// Dos d'une carte de la grille : les stats en bref et l'accès à la fiche.
+struct VersoCollection: View {
+    let modele: ModeleCombattant
+    let ouvrir: () -> Void
+
+    private static let fond = Color(red: 0.05, green: 0.08, blue: 0.2)
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            Text(modele.nom)
+                .font(.headline)
+                .lineLimit(1)
+                .minimumScaleFactor(0.6)
+            Text(modele.rarete.rawValue)
+                .font(.caption2.bold())
+                .foregroundStyle(modele.specialite.couleur)
+            ligne("heart.fill", "PV", modele.pvMax, sur: 150, couleur: .green)
+            ligne("bolt.fill", "Att", modele.attaque, sur: 80, couleur: .orange)
+            ligne("shield.fill", "Déf", modele.defense, sur: 20, couleur: .cyan)
+            Label(modele.familleStyle.effetVitesse.nom, systemImage: "hare.fill")
+                .font(.caption2.bold())
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
+            Spacer(minLength: 0)
+            Button(action: ouvrir) {
+                Label("Voir la fiche", systemImage: "arrow.up.left.and.arrow.down.right")
+                    .font(.caption.bold())
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.borderedProminent)
+            .controlSize(.small)
+            .tint(modele.specialite.couleur)
+        }
+        .padding(10)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+        .background(RoundedRectangle(cornerRadius: 12).fill(Self.fond))
+        .overlay(RoundedRectangle(cornerRadius: 12).stroke(modele.specialite.couleur.opacity(0.9), lineWidth: 2))
+        .shadow(color: modele.specialite.couleur.opacity(0.45), radius: 6)
+    }
+
+    private func ligne(_ icone: String, _ titre: String, _ valeur: Int, sur maximum: Int, couleur: Color) -> some View {
+        let part = min(1.0, Double(valeur) / Double(maximum))
+        return HStack(spacing: 6) {
+            Image(systemName: icone)
+                .foregroundStyle(couleur)
+                .frame(width: 14)
+            Capsule().fill(Color.white.opacity(0.12))
+                .frame(height: 5)
+                .overlay(alignment: .leading) {
+                    GeometryReader { geo in
+                        Capsule().fill(couleur.gradient).frame(width: geo.size.width * part)
+                    }
+                }
+            Text("\(valeur)")
+                .monospacedDigit()
+                .frame(width: 26, alignment: .trailing)
+        }
+        .font(.caption2.bold())
+        .accessibilityLabel("\(titre) \(valeur)")
     }
 }
