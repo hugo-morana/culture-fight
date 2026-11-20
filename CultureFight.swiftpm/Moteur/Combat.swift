@@ -74,7 +74,7 @@ struct Combat: Sendable {
     mutating func preparerQuestion() -> (question: Question, affinite: Affinite, retires: Set<Int>) {
         let att = camps[attaquant].actif
         let def = camps[defenseur].actif
-        let difficulte = att.profil.difficulte(base: att.modele.difficulte, rang: att.questionsPosees)
+        let difficulte = att.profil.difficulte(base: att.stade.difficulte, rang: att.questionsPosees)
         camps[attaquant].combattants[camps[attaquant].indexActif].questionsPosees += 1
         let question = att.modele.generateur.generer(difficulte: difficulte, exclues: questionsVues)
         questionsVues.insert(question.id)
@@ -124,8 +124,8 @@ struct Combat: Sendable {
                 case .soin:
                     let soin = (eclair ? 15 : 8) * k
                     let avant = camps[d].combattants[id].pv
-                    camps[d].combattants[id].pv = min(def.modele.pvMax, avant + soin)
-                    effetVitesse = "\(vitesse.nom) \(def.modele.nom) regagne \(camps[d].combattants[id].pv - avant) PV\(mention)"
+                    camps[d].combattants[id].pv = min(def.pvMax, avant + soin)
+                    effetVitesse = "\(vitesse.nom) \(def.nom) regagne \(camps[d].combattants[id].pv - avant) PV\(mention)"
                 case .bouclier:
                     let bouclier = (eclair ? 0.3 : 0.15) * Double(k)
                     camps[d].combattants[id].bouclier = max(camps[d].combattants[id].bouclier, bouclier)
@@ -141,9 +141,9 @@ struct Combat: Sendable {
             }
 
             // Contre-attaque : moitié des dégâts, avec l'Attaque du défenseur.
-            let base = Regles.degats(attaque: def.modele.attaque,
+            let base = Regles.degats(attaque: def.attaque,
                                      difficulte: question.difficulte,
-                                     defense: att.modele.defense)
+                                     defense: att.defense)
             degatsContre = max(Regles.degatsMin,
                                Int((Double(base) * 0.5 * affinite.multiplicateurContre * multiplicateurVitesse).rounded()))
             camps[a].combattants[ia].pv -= degatsContre
@@ -155,9 +155,9 @@ struct Combat: Sendable {
                 jaugeRemplie = true
             }
         } else {
-            var degats = Regles.degats(attaque: att.modele.attaque,
+            var degats = Regles.degats(attaque: att.attaque,
                                        difficulte: question.difficulte,
-                                       defense: def.modele.defense)
+                                       defense: def.defense)
             if att.capacitePrete {
                 degats *= 2
                 camps[a].combattants[ia].capacitePrete = false
@@ -190,8 +190,8 @@ struct Combat: Sendable {
                             affinite: affinite,
                             vitesse: vitesse,
                             effetVitesse: effetVitesse,
-                            attaquantNom: att.modele.nom,
-                            defenseurNom: def.modele.nom,
+                            attaquantNom: att.nom,
+                            defenseurNom: def.nom,
                             defenseurEstJoueur: d == 0,
                             degatsDefenseur: degatsDefenseur,
                             degatsAbsorbes: degatsAbsorbes,

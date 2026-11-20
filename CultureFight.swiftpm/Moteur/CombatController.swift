@@ -44,12 +44,15 @@ final class CombatController {
     @ObservationIgnored private var tache: Task<Void, Never>?
     @ObservationIgnored private var debutQuestion = Date()
 
+    /// Combattants du joueur qui ont changé de stade, remplis par la sauvegarde en fin de combat.
+    var evolutions: [EvolutionCombattant] = []
+
     init(equipeJoueur: [ModeleCombattant], equipeIA: [ModeleCombattant], ia: IAAdverse,
-         profils: [String: ProfilDifficulte] = [:]) {
+         profils: [String: ProfilDifficulte] = [:], niveaux: [String: Int] = [:]) {
         self.ia = ia
         self.combat = Combat(camps: [
-            Camp(nom: "Toi", estIA: false, equipe: equipeJoueur, profils: profils),
-            Camp(nom: "IA \(ia.niveau.rawValue.lowercased())", estIA: true, equipe: equipeIA),
+            Camp(nom: "Toi", estIA: false, equipe: equipeJoueur, profils: profils, niveaux: niveaux),
+            Camp(nom: "IA \(ia.niveau.rawValue.lowercased())", estIA: true, equipe: equipeIA, niveauParDefaut: Stade.pourIA(ia.niveau).niveauMin),
         ])
     }
 

@@ -52,11 +52,22 @@ struct CombattantEnJeu: Identifiable, Sendable {
     /// Nombre de questions déjà posées par ce combattant dans le combat.
     var questionsPosees = 0
 
-    init(modele: ModeleCombattant, profil: ProfilDifficulte = .aleatoire) {
+    /// Niveau du combattant (1 à 20) : fixe ses statistiques et son stade d'évolution.
+    var niveau: Int = 1
+
+    init(modele: ModeleCombattant, profil: ProfilDifficulte = .aleatoire, niveau: Int = 1) {
         self.modele = modele
-        self.pv = modele.pvMax
+        self.niveau = max(1, niveau)
+        self.pv = Progression.pv(modele, niveau: niveau)
         self.profil = profil
     }
+
+    var stade: Stade { Stade(niveau: niveau) }
+    var pvMax: Int { Progression.pv(modele, niveau: niveau) }
+    var attaque: Int { Progression.attaque(modele, niveau: niveau) }
+    var defense: Int { Progression.defense(modele, niveau: niveau) }
+    /// Nom avec le stade : « Méso-Néonja ».
+    var nom: String { stade.nom(de: modele.nom) }
 
     var estKO: Bool { pv <= 0 }
 }
@@ -68,10 +79,14 @@ struct Camp: Sendable {
     var combattants: [CombattantEnJeu]
     var indexActif: Int = 0
 
-    init(nom: String, estIA: Bool, equipe: [ModeleCombattant], profils: [String: ProfilDifficulte] = [:]) {
+    init(nom: String, estIA: Bool, equipe: [ModeleCombattant], profils: [String: ProfilDifficulte] = [:],
+         niveaux: [String: Int] = [:], niveauParDefaut: Int = 1) {
         self.nom = nom
         self.estIA = estIA
-        self.combattants = equipe.map { CombattantEnJeu(modele: $0, profil: profils[$0.id] ?? .aleatoire) }
+        self.combattants = equipe.map {
+            CombattantEnJeu(modele: $0, profil: profils[$0.id] ?? .aleatoire,
+                            niveau: niveaux[$0.id] ?? niveauParDefaut)
+        }
     }
 
     var actif: CombattantEnJeu { combattants[indexActif] }

@@ -4,6 +4,8 @@ import SwiftUI
 struct SelectionEquipeView: View {
     /// Les combattants de la réserve du joueur, parmi lesquels il compose son équipe.
     let reserve: [ModeleCombattant]
+    /// Niveau de chaque combattant de la réserve (stade d'évolution).
+    var niveaux: [String: Int] = [:]
     let retour: () -> Void
     let lancer: ([ModeleCombattant], IAAdverse.Niveau) -> Void
 
@@ -54,6 +56,7 @@ struct SelectionEquipeView: View {
                         LazyVGrid(columns: colonnes, spacing: 10) {
                             ForEach(visibles) { modele in
                                 CarteChoix(modele: modele,
+                                           niveau: niveaux[modele.id] ?? 1,
                                            choisi: choisis.contains(modele.id),
                                            toucher: { basculer(modele.id) },
                                            voirFiche: { fiche = modele })
@@ -147,7 +150,7 @@ struct SelectionEquipeView: View {
                             .frame(height: 78)
                             .overlay(alignment: .top) { IllustrationCombattant(modele: modele, taille: 30) }
                             .clipShape(RoundedRectangle(cornerRadius: 10))
-                        Text(modele.nom)
+                        Text(Stade(niveau: niveaux[modele.id] ?? 1).nom(de: modele.nom))
                             .font(.nom(12, relativeTo: .caption))
                             .foregroundStyle(Charte.ivoire)
                             .lineLimit(1)
@@ -328,6 +331,7 @@ struct SelectionEquipeView: View {
 /// Carte d'un combattant dans la grille de composition.
 struct CarteChoix: View {
     let modele: ModeleCombattant
+    var niveau: Int = 1
     let choisi: Bool
     let toucher: () -> Void
     let voirFiche: () -> Void
@@ -342,7 +346,10 @@ struct CarteChoix: View {
                     .overlay(alignment: .topLeading) {
                         PastillePicto(picto: modele.familleStyle.picto, taille: 24).padding(5)
                     }
-                Text(modele.nom)
+                    .overlay(alignment: .bottomLeading) {
+                        BadgeStade(stade: Stade(niveau: niveau)).padding(5)
+                    }
+                Text(Stade(niveau: niveau).nom(de: modele.nom))
                     .font(.nom(15, relativeTo: .subheadline))
                     .foregroundStyle(Charte.ivoire)
                     .lineLimit(1)

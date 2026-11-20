@@ -67,11 +67,11 @@ struct ContentView: View {
         case .boutique:
             BoutiqueView(joueur: joueur, retour: { ecran = .accueil })
         case .selection:
-            SelectionEquipeView(reserve: joueur.modelesReserve, retour: { ecran = .accueil }) { equipe, niveau in
+            SelectionEquipeView(reserve: joueur.modelesReserve, niveaux: joueur.niveaux, retour: { ecran = .accueil }) { equipe, niveau in
                 let ia = IAAdverse(niveau: niveau)
                 let adverse = ia.choisirEquipe(parmi: Catalogue.prototype)
                 ecran = .combat(CombatController(equipeJoueur: equipe, equipeIA: adverse, ia: ia,
-                                                 profils: joueur.profils))
+                                                 profils: joueur.profils, niveaux: joueur.niveaux))
             }
         case .combat(let controleur):
             CombatView(controleur: controleur,

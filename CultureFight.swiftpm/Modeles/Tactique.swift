@@ -47,12 +47,12 @@ enum ProfilDifficulte: String, CaseIterable, Identifiable, Sendable {
         case .frappe: d = base + 2 - rang
         case .constant: d = base
         }
-        return min(5, max(1, d))
+        return min(7, max(1, d))
     }
 
     /// Les 6 premières difficultés, pour l'aperçu (sans hasard pour Aléatoire : la base).
     func apercu(base: Int) -> [Int] {
-        (0..<6).map { self == .aleatoire ? min(5, max(1, base)) : difficulte(base: base, rang: $0) }
+        (0..<6).map { self == .aleatoire ? min(7, max(1, base)) : difficulte(base: base, rang: $0) }
     }
 }
 
@@ -123,7 +123,7 @@ struct CarteTactique: View {
                                 .font(.caption)
                                 .foregroundStyle(.secondary)
                                 .fixedSize(horizontal: false, vertical: true)
-                            ApercuDifficulte(valeurs: profil.apercu(base: modele.difficulte),
+                            ApercuDifficulte(valeurs: profil.apercu(base: possede.stade.difficulte),
                                              couleur: modele.specialite.couleur, aleatoire: profil == .aleatoire)
                         }
                         Spacer(minLength: 0)
@@ -158,7 +158,7 @@ struct ApercuDifficulte: View {
             ForEach(Array(valeurs.enumerated()), id: \.offset) { i, v in
                 RoundedRectangle(cornerRadius: 2)
                     .fill(couleur.gradient)
-                    .frame(width: 14, height: monte ? CGFloat(v) * 6 : 2)
+                    .frame(width: 14, height: monte ? CGFloat(v) * 4.5 : 2)
                     .overlay(alignment: .top) {
                         if aleatoire {
                             Text("?").font(.system(size: 8, weight: .bold)).foregroundStyle(Charte.ivoire).offset(y: -10)

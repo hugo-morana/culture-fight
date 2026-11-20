@@ -143,12 +143,18 @@ enum Sauvegarde {
         joueur.pieces += bilan.pieces
         controleur.niveauxCompteGagnes = joueur.gagnerXPCompte(bilan.xpCompte)
         var niveaux: [String: Int] = [:]
+        var evolutions: [EvolutionCombattant] = []
         for gain in bilan.combattants {
             guard let possede = joueur.reserve.first(where: { $0.modeleID == gain.modele.id }) else { continue }
+            let avant = possede.stade
             let n = possede.gagnerXP(gain.xp)
             if n > 0 { niveaux[gain.modele.id] = n }
+            if possede.stade > avant {
+                evolutions.append(EvolutionCombattant(modele: gain.modele, avant: avant, apres: possede.stade))
+            }
         }
         controleur.niveauxGagnes = niveaux
+        controleur.evolutions = evolutions
         partie.pieces = bilan.pieces
         partie.xpCompte = bilan.xpCompte
         partie.niveauCompteApres = joueur.niveauCompte

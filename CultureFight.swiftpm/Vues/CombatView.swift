@@ -166,6 +166,7 @@ struct CombatView: View {
                    bilan: controleur.bilan,
                    niveauxGagnes: controleur.niveauxGagnes,
                    niveauxCompteGagnes: controleur.niveauxCompteGagnes,
+                   evolutions: controleur.evolutions,
                    historique: controleur.historique,
                    rejouer: rejouer,
                    accueil: accueil)
@@ -194,14 +195,14 @@ struct CarteCamp: View {
                     Avatar(modele: actif.modele, taille: 64)
                     VStack(alignment: .leading, spacing: 4) {
                         HStack {
-                            Text(actif.modele.nom).font(.nom(18)).lineLimit(1).minimumScaleFactor(0.7)
+                            Text(actif.nom).font(.nom(18)).lineLimit(1).minimumScaleFactor(0.7)
                             Spacer()
-                            Text("\(actif.pv)/\(actif.modele.pvMax) PV")
+                            Text("\(actif.pv)/\(actif.pvMax) PV")
                                 .font(.subheadline.monospacedDigit())
                                 .contentTransition(.numericText(value: Double(actif.pv)))
                                 .animation(.snappy(duration: 0.5), value: actif.pv)
                         }
-                        BarrePV(pv: actif.pv, pvMax: actif.modele.pvMax)
+                        BarrePV(pv: actif.pv, pvMax: actif.pvMax)
                         HStack(spacing: 6) {
                             Text(actif.modele.sousTitre)
                                 .font(.nom(12, relativeTo: .caption))
@@ -482,6 +483,7 @@ struct VueFin: View {
     let bilan: BilanCombat
     let niveauxGagnes: [String: Int]
     let niveauxCompteGagnes: Int
+    var evolutions: [EvolutionCombattant] = []
     let historique: [ResultatTour]
     let rejouer: () -> Void
     let accueil: () -> Void
@@ -489,6 +491,7 @@ struct VueFin: View {
     @State private var apparu = false
     @State private var piecesAffichees = 0
     @State private var revue = false
+    @State private var evolutionMontree = 0
 
     private var aRefaire: Int { Revue.aRefaire(historique).count }
 
@@ -529,6 +532,15 @@ struct VueFin: View {
             apparu = true
             withAnimation(.easeOut(duration: 1.2).delay(0.3)) {
                 piecesAffichees = bilan.pieces
+            }
+        }
+        .overlay {
+            if evolutionMontree < evolutions.count {
+                SequenceEvolution(evolution: evolutions[evolutionMontree]) {
+                    withAnimation(.easeOut(duration: 0.3)) { evolutionMontree += 1 }
+                }
+                .id(evolutionMontree)
+                .transition(.opacity)
             }
         }
         .sheet(isPresented: $revue) {
