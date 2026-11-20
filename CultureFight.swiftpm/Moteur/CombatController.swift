@@ -267,7 +267,8 @@ final class CombatController {
         }
         let arrivee = TempsAttaque.arrivee
         if resultat.degatsAbsorbes > 0 { sons.jouer(.bouclier, apres: arrivee) }
-        if resultat.degatsDefenseur > 0 || resultat.degatsContre > 0 { sons.jouer(.impact, apres: arrivee) }
+        // Le coup lui-même (son d'attaque de la famille, ou impact seul) est joué par CombatView,
+        // qui sait si l'animation d'attaque est montrée.
         if variations.contains(where: { $0 > 0 }) { sons.jouer(.soin, apres: arrivee) }
         if resultat.koDefenseur || resultat.koAttaquant { sons.jouer(.ko, apres: arrivee + 0.15) }
     }

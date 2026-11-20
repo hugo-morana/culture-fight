@@ -116,11 +116,17 @@ struct CombatView: View {
         case .question:
             elans[controleur.combat.attaquant] += 1
         case .resultat(let resultat):
-            guard !mouvementReduit, let vise = campVise(resultat) else { return }
+            guard let vise = campVise(resultat) else { return }
             let tireur = 1 - vise
+            let famille = controleur.combat.camps[tireur].actif.modele.familleStyle
+            guard !mouvementReduit else {
+                ServiceSons.partage.jouer(.impact)
+                return
+            }
+            ServiceSons.partage.jouer(.attaque(famille))
             attaquesJouees += 1
             attaque = AttaqueJouee(id: attaquesJouees,
-                                   famille: controleur.combat.camps[tireur].actif.modele.familleStyle,
+                                   famille: famille,
                                    depuis: tireur, vers: vise, debut: .now)
         default:
             break

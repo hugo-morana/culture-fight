@@ -91,7 +91,8 @@ struct MentionsLegalesView: View {
                     VStack(alignment: .leading, spacing: 6) {
                         TexteFiche(texte: "Thème Intro, thème principal et thème de combat créés pour "
                                    + "Culture Fight par Hugo Morana avec Suno.")
-                        TexteFiche(texte: "Bruitages : Kenney (www.kenney.nl), domaine public (CC0).")
+                        TexteFiche(texte: "Bruitages : Kenney (www.kenney.nl), domaine public (CC0) ; sons d'attaque créés pour "
+                                   + "Culture Fight par Hugo Morana avec ElevenLabs.")
                     }
                 }
 

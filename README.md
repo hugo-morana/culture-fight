@@ -226,8 +226,20 @@ dans le profil (clé `effetsActifs`). En combat, `CombatController` joue la ques
 le bouclier, le soin et le K.O. au moment où l'animation touche (`TempsAttaque.arrivee`). Les vues jouent le
 choix d'un combattant, la carte retournée, les Pièces du coffre, l'achat et l'évolution.
 
-Les sons d'attaque des 10 familles de styles seront générés avec ElevenLabs (onglet « Bruitages » de la feuille
-« Culture Fight — Musiques »).
+Les sons d'attaque des 10 familles de styles (`son-attaque-*.wav`) ont été générés avec ElevenLabs
+(modèle `eleven_text_to_sound_v3`, forfait payant Creator, le 20/11/2026 ; flux « Culture Fight — Sons d'attaque »
+où restent les originaux). `CombatView` joue celui de la famille du tireur au départ de l'animation : chaque son
+est recadré pour que le coup tombe à 0,42 s (`TempsAttaque.arrivee`), dure 1,3 à 1,6 s avec un fondu de sortie,
+et est normalisé à −1 dB crête. Avec « Réduire les animations », seul l'impact Kenney est joué. Prompts : onglet
+« Bruitages » de la feuille « Culture Fight — Musiques ».
+
+| Famille | Fichier | Famille | Fichier |
+| --- | --- | --- | --- |
+| Ombres | `son-attaque-shurikens.wav` | Mages | `son-attaque-orbe.wav` |
+| Guerriers lourds | `son-attaque-marteau.wav` | Créatures | `son-attaque-feu.wav` |
+| Chevaliers | `son-attaque-lance.wav` | Morts-vivants | `son-attaque-ames.wav` |
+| Arts martiaux | `son-attaque-chi.wav` | Tireurs | `son-attaque-fleches.wav` |
+| Bretteurs | `son-attaque-botte.wav` | Soldats | `son-attaque-salve.wav` |
 
 | Fichier (`Resources/Sons/`) | Moment | Origine (Kenney, CC0) |
 | --- | --- | --- |
@@ -240,7 +252,7 @@ Les sons d'attaque des 10 familles de styles seront générés avec ElevenLabs (
 | `son-tic.wav` | Chrono, 5 dernières secondes | Interface Sounds, `tick_004` |
 | `son-eclair.wav` | Réponse Éclair | Digital Audio, `power_up_1` |
 | `son-jauge.wav` | Jauge de Savoir pleine | Digital Audio, `three_tone_1` |
-| `son-impact.wav` | Dégâts | Impact Sounds, `impact_punch_medium_000` |
+| `son-impact.wav` | Dégâts, quand les animations sont réduites | Impact Sounds, `impact_punch_medium_000` |
 | `son-bouclier.wav` | Dégâts absorbés | Impact Sounds, `impact_metal_medium_000` |
 | `son-ko.wav` | K.O. | Impact Sounds, `impact_punch_heavy_000` |
 | `son-soin.wav` | PV regagnés | Interface Sounds, `maximize_006` |

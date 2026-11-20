@@ -16,12 +16,41 @@ final class ServiceSons {
         case eclair, tic
         case tempsEcoule = "temps-ecoule"
         case jauge, impact, bouclier, ko, soin, objet, pieces, achat, evolution
+        // Un son d'attaque par famille de styles (ElevenLabs), calé pour que le coup tombe à 0,42 s.
+        case attaqueShurikens = "attaque-shurikens"
+        case attaqueMarteau = "attaque-marteau"
+        case attaqueLance = "attaque-lance"
+        case attaqueChi = "attaque-chi"
+        case attaqueBotte = "attaque-botte"
+        case attaqueOrbe = "attaque-orbe"
+        case attaqueFeu = "attaque-feu"
+        case attaqueAmes = "attaque-ames"
+        case attaqueFleches = "attaque-fleches"
+        case attaqueSalve = "attaque-salve"
+
+        /// Le son de l'animation d'attaque d'une famille de styles.
+        static func attaque(_ famille: FamilleStyle) -> Son {
+            switch famille {
+            case .ombres: return .attaqueShurikens
+            case .guerriersLourds: return .attaqueMarteau
+            case .chevaliers: return .attaqueLance
+            case .artsMartiaux: return .attaqueChi
+            case .bretteurs: return .attaqueBotte
+            case .mages: return .attaqueOrbe
+            case .creatures: return .attaqueFeu
+            case .mortsVivants: return .attaqueAmes
+            case .tireurs: return .attaqueFleches
+            case .soldats: return .attaqueSalve
+            }
+        }
 
         /// Volume propre à chaque son, pour qu'ils sonnent à peu près aussi fort les uns que les autres.
         var volume: Float {
             switch self {
             case .tic, .selection: return 0.5
             case .ko, .impact: return 0.9
+            case .attaqueShurikens, .attaqueMarteau, .attaqueLance, .attaqueChi, .attaqueBotte,
+                 .attaqueOrbe, .attaqueFeu, .attaqueAmes, .attaqueFleches, .attaqueSalve: return 0.8
             default: return 0.75
             }
         }
