@@ -49,8 +49,34 @@ qui écrit le fichier.
 | Au moins 4 y différents par relation | Il faut 3 mauvaises réponses plausibles |
 | Pas d'énoncé en double dans l'ensemble des fiches | Évite les questions répétées |
 
-## Ajouter un jeu de données
+## Une source par fait
 
-1. Écrire les données (fiche dans `outils/fiches.py`, ou nouveau fichier JSON + générateur Swift).
+Toute fiche créée après la tâche 52 doit donner, pour **chaque** paire et **chaque** question, l'URL https
+de la source consultée pour vérifier la réponse, les mauvaises réponses et le contexte :
+
+```python
+rel("Quel est le plus long fleuve de {x} ?", "{x} : {y}.",
+    [("France", "Loire", "Environ 1 000 km, de l'Ardèche à l'Atlantique.", "https://fr.wikipedia.org/wiki/Loire_(fleuve)")])
+q("Combien de pattes a un insecte ?", "6", ["4", "8", "10"],
+  "Trois paires, fixées au thorax.", source="https://fr.wikipedia.org/wiki/Insecte")
+```
+
+`fiches.py` et `verifier.py` refusent une nouvelle fiche à laquelle il manque une source, et la
+compilation dans le cloud échoue. Les fiches antérieures (`FICHES_ANTERIEURES` dans `sources.py`)
+reprennent les sources trouvées dans `verification/faits.csv` ; leurs faits restants sont à vérifier.
+
+## Ajouter un combattant à fiche
+
+1. Écrire la fiche (au moins 60 questions) dans un fichier `outils/ajouts_*.py`.
+2. Vérifier chaque fait un à un dans une source (méthode : `verification/CONSIGNES.md`) : bonne réponse
+   exacte, aucune mauvaise réponse elle aussi juste, chaque affirmation du contexte confirmée. Corriger ou
+   retirer ce qui n'est pas confirmé, puis noter l'URL consultée sur la paire ou la question.
+3. Ajouter les sources générales de la fiche dans `outils/sources.py` et lancer `python3 outils/sources.py`.
+4. Déclarer le combattant dans `Moteur/Catalogue.swift` (`aFiche(…)`).
+5. Lancer `python3 outils/fiches.py` puis `python3 outils/verifier.py` : aucune erreur ne doit rester.
+
+## Ajouter un autre jeu de données
+
+1. Écrire les données (nouveau fichier JSON + générateur Swift), avec une source par entrée.
 2. Ajouter ses sources dans `outils/sources.py`.
 3. Lancer `python3 outils/fiches.py` puis `python3 outils/verifier.py`.

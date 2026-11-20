@@ -13,6 +13,7 @@ import sys
 from ajouts_corps_terre_arts import AJOUTS as AJOUTS_CORPS_TERRE_ARTS
 from ajouts_vivant import AJOUTS as AJOUTS_VIVANT
 from contextes import CONTEXTES
+from sources import FICHES_ANTERIEURES
 
 # Nombre minimal de questions différentes par spécialité (tâche 20).
 MINIMUM = 60
@@ -26,8 +27,11 @@ def rel(modele, explication, paires, inverse=None):
             "paires": [list(p) for p in paires]}
 
 
-def q(enonce, bonne, faux, explication):
-    return {"enonce": enonce, "bonne": bonne, "faux": faux, "explication": explication}
+def q(enonce, bonne, faux, explication, source=None):
+    question = {"enonce": enonce, "bonne": bonne, "faux": faux, "explication": explication}
+    if source:
+        question["source"] = source
+    return question
 
 
 FICHES = [
@@ -616,8 +620,11 @@ def ajouter_contextes(fiche):
             texte = (p[2] if len(p) > 2 else contextes.get(p[0], "")).strip()
             if not texte:
                 erreurs.append(f"relation {n} : pas de contexte pour « {p[0]} »")
+            source = p[3] if len(p) > 3 else ""
             del p[2:]
             p.append(texte)
+            if source:
+                p.append(source)
         inconnus = set(contextes) - {p[0] for p in r["paires"]}
         for x in sorted(inconnus):
             erreurs.append(f"relation {n} : contexte sans paire pour « {x} »")
@@ -684,6 +691,42 @@ def recouvrent(relation, a, b):
     return a == b or any(a in g and b in g for g in relation.get("recouvrements", []))
 
 
+def sources_verifiees():
+    """Sources des faits vérifiés dans verification/faits.csv : {(fiche, fait): url}."""
+    import csv
+    import re
+    chemin = os.path.join(os.path.dirname(__file__), "..", "verification", "faits.csv")
+    if not os.path.exists(chemin):
+        return {}
+    trouvees = {}
+    for ligne in csv.DictReader(open(chemin, encoding="utf-8")):
+        url = re.search(r"https://\S+", ligne["source"])
+        if ligne["statut"] in ("vérifié", "corrigé") and url:
+            trouvees[(ligne["theme"], ligne["fait"])] = url.group(0).rstrip("),;")
+    return trouvees
+
+
+def ajouter_sources_verifiees():
+    """Reporte dans les fiches les sources trouvées lors de la vérification."""
+    trouvees = sources_verifiees()
+    for f in FICHES:
+        for r in f["relations"]:
+            for p in r["paires"]:
+                cle = trouvees.get((f["id"], r["modele"].replace("{x}", p[0]))) or trouvees.get((f["id"], p[0]))
+                if cle and len(p) == 3:
+                    p.append(cle)
+        for qq in f["questions"]:
+            cle = trouvees.get((f["id"], qq["enonce"]))
+            if cle and "source" not in qq:
+                qq["source"] = cle
+
+
+def sans_source(fiche):
+    """Nombre de paires et de questions sans source."""
+    n = sum(1 for r in fiche["relations"] for p in r["paires"] if len(p) < 4 or not p[3].startswith("https://"))
+    return n + sum(1 for qq in fiche["questions"] if not qq.get("source", "").startswith("https://"))
+
+
 def fusionner_ajouts():
     """Ajoute aux fiches les relations et questions des fichiers ajouts_*.py."""
     par_id = {f["id"]: f for f in FICHES}
@@ -699,7 +742,11 @@ def fusionner_ajouts():
 if __name__ == "__main__":
     fusionner_ajouts()
     ajouter_recouvrements()
+    for f in FICHES:
+        ajouter_contextes(f)
+    ajouter_sources_verifiees()
     ok = True
+    a_sourcer = 0
     for f in FICHES:
         total, erreurs = verifier(f)
         minimum = MINIMUM - COMPLEMENTS.get(f["id"], 0)
@@ -708,7 +755,13 @@ if __name__ == "__main__":
         enonces = [qq["enonce"] for qq in f["questions"]]
         for e in sorted({e for e in enonces if enonces.count(e) > 1}):
             erreurs.append(f"question en double : « {e} »")
-        print(f"{f['id']:22} {total:3} questions")
+        manque = sans_source(f)
+        if f["id"] in FICHES_ANTERIEURES:
+            a_sourcer += manque
+        elif manque:
+            erreurs.append(f"{manque} paires ou questions sans source : chaque fait d'une nouvelle fiche "
+                           "doit avoir l'URL https de la source consultée pour le vérifier")
+        print(f"{f['id']:22} {total:3} questions, {manque:3} sans source")
         for e in erreurs:
             ok = False
             print("   ERREUR :", e)
@@ -718,4 +771,6 @@ if __name__ == "__main__":
     with open(sortie, "w", encoding="utf-8") as fh:
         json.dump(FICHES, fh, ensure_ascii=False, indent=1)
     print(f"{len(FICHES)} fiches écrites dans Resources/fiches.json")
+    print(f"Fiches antérieures à la règle des sources : {a_sourcer} faits encore sans source "
+          "(voir verification/faits.csv)")
     sys.exit(0 if ok else 1)

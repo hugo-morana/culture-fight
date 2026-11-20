@@ -1,6 +1,6 @@
 """Questions ajoutées aux fiches du Vivant (tâche 20 : au moins 60 questions par spécialité).
 
-Chaque paire est (x, y, contexte) : le contexte s'affiche après la réponse.
+Chaque paire est (x, y, contexte) ou (x, y, contexte, source) : le contexte s'affiche après la réponse.
 """
 
 
@@ -9,8 +9,11 @@ def rel(modele, explication, paires, inverse=None):
             "paires": [list(p) for p in paires]}
 
 
-def q(enonce, bonne, faux, explication):
-    return {"enonce": enonce, "bonne": bonne, "faux": faux, "explication": explication}
+def q(enonce, bonne, faux, explication, source=None):
+    question = {"enonce": enonce, "bonne": bonne, "faux": faux, "explication": explication}
+    if source:
+        question["source"] = source
+    return question
 
 
 AJOUTS = {

@@ -296,12 +296,14 @@
      [
       "le gland",
       "Chêne",
-      "Les geais enterrent des glands pour l'hiver et en oublient : ils plantent ainsi des chênes."
+      "Les geais enterrent des glands pour l'hiver et en oublient : ils plantent ainsi des chênes.",
+      "https://www.techno-science.net/fr/definitions/geai-des-chenes"
      ],
      [
       "la faîne",
       "Hêtre",
-      "On tirait autrefois de l'huile de ces petites graines triangulaires."
+      "On tirait autrefois de l'huile de ces petites graines triangulaires.",
+      "https://www.techno-science.net/fr/definitions/hetre-europeen"
      ],
      [
       "le marron d'Inde",
@@ -311,37 +313,44 @@
      [
       "la châtaigne",
       "Châtaignier",
-      "Les marrons glacés sont faits avec de grosses châtaignes, pas avec le fruit du marronnier."
+      "Les marrons glacés sont faits avec de grosses châtaignes, pas avec le fruit du marronnier.",
+      "https://en.wikipedia.org/wiki/Marron_glac%C3%A9"
      ],
      [
       "la samare double, qui tournoie comme un hélicoptère",
       "Érable",
-      "Le vent emporte ces samares loin de l'arbre, ce qui aide l'érable à se disperser."
+      "Le vent emporte ces samares loin de l'arbre, ce qui aide l'érable à se disperser.",
+      "https://www.woodlands.co.uk/blog/flora-and-fauna/winged-seeds/"
      ],
      [
       "la pomme de pin",
       "Pin",
-      "Elle s'ouvre par temps sec pour libérer ses graines, comme les pignons du pin parasol."
+      "Elle s'ouvre par temps sec pour libérer ses graines, comme les pignons du pin parasol.",
+      "https://www.wwf.ch/sites/default/files/doc-2021-07/2021-07-materiel-pedagogique-science-des-pommes-de-pin.pdf"
      ],
      [
       "la noix",
       "Noyer",
-      "Le bois de noyer, dur et veiné, est très prisé en ébénisterie."
+      "Le bois de noyer, dur et veiné, est très prisé en ébénisterie.",
+      "https://www.techno-science.net/fr/definitions/noyer-commun"
      ],
      [
       "la noisette",
       "Noisetier",
-      "Le noisetier s'appelle aussi coudrier ; ses branches servaient de baguettes aux sourciers."
+      "Le noisetier s'appelle aussi coudrier ; ses branches servaient de baguettes aux sourciers.",
+      "https://www.techno-science.net/fr/definitions/noisetier-commun"
      ],
      [
       "l'olive",
       "Olivier",
-      "L'olivier peut vivre plus de mille ans et symbolise la paix depuis l'Antiquité."
+      "L'olivier peut vivre plus de mille ans et symbolise la paix depuis l'Antiquité.",
+      "https://www.futura-sciences.com/planete/definitions/botanique-olivier-8064/"
      ],
      [
       "la figue",
       "Figuier",
-      "La figue est en réalité une inflorescence : ses fleurs sont cachées à l'intérieur."
+      "La figue est en réalité une inflorescence : ses fleurs sont cachées à l'intérieur.",
+      "https://www.techno-science.net/fr/definitions/figue"
      ]
     ]
    },
@@ -552,42 +561,50 @@
      [
       "la tulipe",
       "Pays-Bas",
-      "Venue de Turquie, elle a déclenché aux Pays-Bas la « tulipomanie », une folle spéculation vers 1637."
+      "Venue de Turquie, elle a déclenché aux Pays-Bas la « tulipomanie », une folle spéculation vers 1637.",
+      "https://www.techno-science.net/fr/definitions/tulipomanie"
      ],
      [
       "la rose",
       "Angleterre",
-      "Elle rappelle la guerre des Deux-Roses entre les Lancastre (rose rouge) et les York (rose blanche)."
+      "Elle rappelle la guerre des Deux-Roses entre les Lancastre (rose rouge) et les York (rose blanche).",
+      "https://lepetitjournal.com/londres/angleterre-pays-de-galles-ecosse-et-irlande-du-nord-chacun-sa-fleur-281491"
      ],
      [
       "le chardon",
       "Écosse",
-      "Selon la légende, un Viking marchant pieds nus sur un chardon aurait crié et réveillé les Écossais."
+      "Selon la légende, un Viking marchant pieds nus sur un chardon aurait crié et réveillé les Écossais.",
+      "https://www.historic-uk.com/HistoryUK/HistoryofScotland/The-Thistle-National-Emblem-of-Scotland"
      ],
      [
       "la fleur de lys",
       "France",
-      "Elle était l'emblème des rois de France."
+      "Elle était l'emblème des rois de France.",
+      "https://www.universalis.fr/encyclopedie/fleurs-de-lis/"
      ],
      [
       "la fleur de cerisier",
       "Japon",
-      "Le hanami, la contemplation des cerisiers en fleurs, est une fête du printemps."
+      "Le hanami, la contemplation des cerisiers en fleurs, est une fête du printemps.",
+      "https://www.japan-experience.com/fr/preparer-voyage/savoir/comprendre-le-japon/hanami-hommage-aux-cerisiers-en-fleurs"
      ],
      [
       "le lotus",
       "Inde",
-      "Fleur nationale de l'Inde, il symbolise la pureté car il sort propre de l'eau boueuse."
+      "Fleur nationale de l'Inde, il symbolise la pureté car il sort propre de l'eau boueuse.",
+      "https://culturalindia.net/national-symbols/national-flower.html"
      ],
      [
       "l'edelweiss",
       "Suisse",
-      "Cette fleur laineuse de haute montagne pousse jusqu'à plus de 3 000 m dans les Alpes."
+      "Cette fleur laineuse de haute montagne pousse jusqu'à plus de 3 000 m dans les Alpes.",
+      "https://spot.creamontblanc.org/fiches-especes/edelweiss"
      ],
      [
       "le trèfle",
       "Irlande",
-      "Saint Patrick s'en serait servi pour expliquer la Trinité aux Irlandais."
+      "Saint Patrick s'en serait servi pour expliquer la Trinité aux Irlandais.",
+      "https://lepetitjournal.com/londres/angleterre-pays-de-galles-ecosse-et-irlande-du-nord-chacun-sa-fleur-281491"
      ]
     ]
    },
@@ -1392,57 +1409,68 @@
      [
       "Le plus grand félin du monde",
       "Tigre",
-      "Le tigre de Sibérie peut dépasser 3 m, queue comprise ; chaque tigre a des rayures uniques."
+      "Le tigre de Sibérie peut dépasser 3 m, queue comprise ; chaque tigre a des rayures uniques.",
+      "https://fr.wikipedia.org/wiki/Tigre_de_Sib%C3%A9rie"
      ],
      [
       "Le plus rapide, plus de 100 km/h en pointe",
       "Guépard",
-      "Il ne tient cette vitesse que quelques centaines de mètres et ne rentre pas complètement ses griffes."
+      "Il ne tient cette vitesse que quelques centaines de mètres et ne rentre pas complètement ses griffes.",
+      "https://www.nationalzoo.si.edu/node/6886"
      ],
      [
       "Le seul félin qui vit en groupe",
       "Lion",
-      "Ce groupe s'appelle une troupe ; ce sont surtout les lionnes qui chassent."
+      "Ce groupe s'appelle une troupe ; ce sont surtout les lionnes qui chassent.",
+      "https://www.larousse.fr/encyclopedie/vie-sauvage/lion/178160"
      ],
      [
       "Félin d'Amérique du Sud à la morsure redoutable",
       "Jaguar",
-      "Il peut percer le crâne de ses proies, et même la carapace des tortues."
+      "Il peut percer le crâne de ses proies, et même la carapace des tortues.",
+      "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Jaguar"
      ],
      [
       "Vit dans les montagnes d'Asie centrale, longue queue épaisse",
       "Panthère des neiges",
-      "Elle s'enroule dans sa queue comme dans une écharpe pour se protéger du froid."
+      "Elle s'enroule dans sa queue comme dans une écharpe pour se protéger du froid.",
+      "https://kids.nationalgeographic.com/animals/mammals/facts/snow-leopard"
      ],
      [
       "Félin d'Amérique aux nombreux noms, dont couguar",
       "Puma",
-      "Puma, couguar, lion des montagnes… c'est l'animal qui porte le plus de noms."
+      "Puma, couguar, lion des montagnes… c'est l'animal qui porte le plus de noms.",
+      "https://en.wikipedia.org/wiki/Cougar"
      ],
      [
       "Félin d'Europe aux oreilles terminées par des pinceaux",
       "Lynx",
-      "Disparu de France au XIXe siècle, le lynx boréal a été réintroduit dans les Vosges et est revenu dans le Jura depuis la Suisse."
+      "Disparu de France au XIXe siècle, le lynx boréal a été réintroduit dans les Vosges et est revenu dans le Jura depuis la Suisse.",
+      "https://fr.wikipedia.org/wiki/Lynx_bor%C3%A9al_en_France"
      ],
      [
       "Félin tacheté d'Afrique et d'Asie, souvent appelé panthère",
       "Léopard",
-      "En Afrique et en Asie, la panthère noire est un léopard noir : ses taches restent visibles sous une bonne lumière."
+      "En Afrique et en Asie, la panthère noire est un léopard noir : ses taches restent visibles sous une bonne lumière.",
+      "https://en.wikipedia.org/wiki/Black_panther"
      ],
      [
       "Petit félin des forêts d'Europe, qui ressemble à un gros chat tigré",
       "Chat forestier",
-      "On le reconnaît à sa queue épaisse terminée par des anneaux noirs."
+      "On le reconnaît à sa queue épaisse terminée par des anneaux noirs.",
+      "https://fr.wikipedia.org/wiki/Chat_sauvage_d'Europe"
      ],
      [
       "Félin d'Afrique aux grandes oreilles et aux longues pattes",
       "Serval",
-      "Ses grandes oreilles repèrent les rongeurs sous les herbes, qu'il attrape d'un bond."
+      "Ses grandes oreilles repèrent les rongeurs sous les herbes, qu'il attrape d'un bond.",
+      "https://en.wikipedia.org/wiki/Serval"
      ],
      [
       "Félin aux oreilles noires et pointues, grand sauteur",
       "Caracal",
-      "Il saute à près de 3 m de haut pour attraper des oiseaux en vol."
+      "Il saute à près de 3 m de haut pour attraper des oiseaux en vol.",
+      "https://en.wikipedia.org/wiki/Caracal"
      ]
     ]
    },
@@ -1464,12 +1492,14 @@
      [
       "Petit félin des déserts aux pattes couvertes de poils",
       "Chat des sables",
-      "Les poils sous ses pattes le protègent du sable brûlant."
+      "Les poils sous ses pattes le protègent du sable brûlant.",
+      "https://fr.wikipedia.org/wiki/Chat_des_sables"
      ],
      [
       "Plus petit félin d'Afrique, aux dessous des pattes noirs",
       "Chat à pieds noirs",
-      "Il pèse moins de 2,5 kg, mais réussit environ 6 attaques sur 10."
+      "Il pèse moins de 2,5 kg, mais réussit environ 6 attaques sur 10.",
+      "https://en.wikipedia.org/wiki/Black-footed_cat"
      ],
      [
       "Félin d'Asie centrale au poil long et à la face aplatie",
@@ -1479,7 +1509,8 @@
      [
       "Lynx d'Amérique du Nord à queue courte",
       "Lynx roux",
-      "On l'appelle aussi bobcat, à cause de sa queue courte ; il vit dans presque tous les États-Unis."
+      "On l'appelle aussi bobcat, à cause de sa queue courte ; il vit dans presque tous les États-Unis.",
+      "https://en.wikipedia.org/wiki/Bobcat"
      ],
      [
       "Lion qui ne survit plus qu'en Inde",
@@ -1489,7 +1520,8 @@
      [
       "Plus petit félin du monde, d'Inde et du Sri Lanka",
       "Chat rubigineux",
-      "Il pèse à peine plus d'un kilo."
+      "Il pèse à peine plus d'un kilo.",
+      "https://en.wikipedia.org/wiki/Felidae"
      ],
      [
       "Félin d'Amérique au corps allongé et à la tête de belette",
@@ -1499,12 +1531,14 @@
      [
       "Félin vénéré en Égypte antique",
       "Chat",
-      "Les Égyptiens honoraient la déesse-chatte Bastet et momifiaient leurs chats."
+      "Les Égyptiens honoraient la déesse-chatte Bastet et momifiaient leurs chats.",
+      "https://en.wikipedia.org/wiki/Cat"
      ],
      [
       "Hybride né d'un lion et d'une tigresse",
       "Ligre",
-      "Il peut dépasser 300 kg, plus que ses deux parents."
+      "Il peut dépasser 300 kg, plus que ses deux parents.",
+      "https://en.wikipedia.org/wiki/Panthera_hybrid"
      ]
     ]
    }
@@ -1558,7 +1592,8 @@
      "Le tigre",
      "Le jaguar"
     ],
-    "explication": "Les félins qui rugissent (lion, tigre, jaguar, léopard) ne ronronnent pas vraiment."
+    "explication": "Les félins qui rugissent (lion, tigre, jaguar, léopard) ne ronronnent pas vraiment.",
+    "source": "https://www.nationalzoo.si.edu/node/6886"
    },
    {
     "enonce": "À quoi servent les moustaches d'un chat ?",
@@ -1568,7 +1603,8 @@
      "À entendre",
      "À rien, elles sont décoratives"
     ],
-    "explication": "Ces vibrisses renseignent sur la largeur des passages et la position des objets dans le noir."
+    "explication": "Ces vibrisses renseignent sur la largeur des passages et la position des objets dans le noir.",
+    "source": "https://en.wikipedia.org/wiki/Cat"
    },
    {
     "enonce": "Pourquoi les pupilles du chat sont-elles en fente ?",
@@ -1578,7 +1614,8 @@
      "Pour voir plus loin",
      "Pour faire peur"
     ],
-    "explication": "En plein soleil la fente se resserre ; dans le noir, la pupille s'ouvre sur presque tout l'œil."
+    "explication": "En plein soleil la fente se resserre ; dans le noir, la pupille s'ouvre sur presque tout l'œil.",
+    "source": "https://en.wikipedia.org/wiki/Cat"
    },
    {
     "enonce": "Combien d'heures un lion peut-il dormir par jour ?",
@@ -1588,7 +1625,8 @@
      "8 heures",
      "Il ne dort jamais"
     ],
-    "explication": "Il économise son énergie entre deux chasses."
+    "explication": "Il économise son énergie entre deux chasses.",
+    "source": "https://www.larousse.fr/encyclopedie/vie-sauvage/lion/178160"
    },
    {
     "enonce": "Hormis l'Antarctique, quel continent n'a aucun félin sauvage d'origine ?",
@@ -1608,7 +1646,8 @@
      "À se rafraîchir",
      "À effrayer les éléphants"
     ],
-    "explication": "Ses proies distinguent mal l'orange du vert : pour elles, le tigre se fond dans la végétation."
+    "explication": "Ses proies distinguent mal l'orange du vert : pour elles, le tigre se fond dans la végétation.",
+    "source": "https://www.downtoearth.org.in/wildlife-biodiversity/why-do-tigers-have-stripes--74393"
    },
    {
     "enonce": "À quoi sert la langue râpeuse des félins ?",
@@ -1618,7 +1657,8 @@
      "À sentir les odeurs",
      "À ronronner"
     ],
-    "explication": "Elle est couverte de petits crochets tournés vers l'arrière."
+    "explication": "Elle est couverte de petits crochets tournés vers l'arrière.",
+    "source": "https://en.wikipedia.org/wiki/Felidae"
    },
    {
     "enonce": "En Amérique, quel félin noir appelle-t-on panthère noire ?",
@@ -1628,7 +1668,8 @@
      "L'ocelot",
      "Le lynx"
     ],
-    "explication": "En Afrique et en Asie, la panthère noire est un léopard."
+    "explication": "En Afrique et en Asie, la panthère noire est un léopard.",
+    "source": "https://en.wikipedia.org/wiki/Melanism"
    },
    {
     "enonce": "Quel félin est le plus menacé d'Europe ?",
@@ -1648,7 +1689,8 @@
      "6 mois",
      "1 an"
     ],
-    "explication": "Elle dure en moyenne 65 jours ; une portée compte souvent 3 chatons."
+    "explication": "Elle dure en moyenne 65 jours ; une portée compte souvent 3 chatons.",
+    "source": "https://en.wikipedia.org/wiki/Cat"
    },
    {
     "enonce": "Pourquoi les yeux des chats brillent-ils dans le noir ?",
@@ -1658,7 +1700,8 @@
      "Ils sont phosphorescents",
      "Ils reflètent la Lune seulement"
     ],
-    "explication": "Ce miroir, le tapetum lucidum, renvoie la lumière vers la rétine : le chat voit mieux la nuit."
+    "explication": "Ce miroir, le tapetum lucidum, renvoie la lumière vers la rétine : le chat voit mieux la nuit.",
+    "source": "https://en.wikipedia.org/wiki/Cat"
    },
    {
     "enonce": "Combien existe-t-il environ d'espèces de félins sauvages ?",
@@ -1668,7 +1711,8 @@
      "Environ 200",
      "Plus de 1 000"
     ],
-    "explication": "Elles vont du chat rubigineux, d'un kilo, au tigre, de plus de 300 kg."
+    "explication": "Elles vont du chat rubigineux, d'un kilo, au tigre, de plus de 300 kg.",
+    "source": "https://en.wikipedia.org/wiki/Felidae"
    },
    {
     "enonce": "Combien de doigts a un chat à une patte avant ?",
@@ -1678,7 +1722,8 @@
      "4",
      "6"
     ],
-    "explication": "Il en a 5 devant, dont un ergot placé plus haut, et 4 derrière."
+    "explication": "Il en a 5 devant, dont un ergot placé plus haut, et 4 derrière.",
+    "source": "https://en.wikipedia.org/wiki/Cat"
    }
   ]
  },
@@ -1693,12 +1738,14 @@
      [
       "Le plus grand primate vivant",
       "Gorille",
-      "Un mâle adulte, dit dos argenté, peut peser plus de 180 kg."
+      "Un mâle adulte, dit dos argenté, peut peser plus de 180 kg.",
+      "https://en.wikipedia.org/wiki/Gorilla"
      ],
      [
       "Grand singe d'Afrique qui fabrique et utilise des outils",
       "Chimpanzé",
-      "En 1960, Jane Goodall l'a observé pêcher des termites avec des brindilles."
+      "En 1960, Jane Goodall l'a observé pêcher des termites avec des brindilles.",
+      "https://en.wikipedia.org/wiki/Primate"
      ],
      [
       "Grand singe roux de Bornéo et de Sumatra",
@@ -1748,7 +1795,8 @@
      [
       "Singe aux très longs bras qui se balance de branche en branche",
       "Gibbon",
-      "Ce déplacement s'appelle la brachiation ; les gibbons le pratiquent de façon très acrobatique."
+      "Ce déplacement s'appelle la brachiation ; les gibbons le pratiquent de façon très acrobatique.",
+      "https://en.wikipedia.org/wiki/Primate"
      ]
     ]
    },
@@ -1775,7 +1823,8 @@
      [
       "Lémurien nocturne au long doigt fin pour chercher les larves",
       "Aye-aye",
-      "Ses dents de rongeur et son long doigt fin lui font jouer le rôle du pic dans la forêt."
+      "Ses dents de rongeur et son long doigt fin lui font jouer le rôle du pic dans la forêt.",
+      "https://en.wikipedia.org/wiki/Primate"
      ],
      [
       "Singe doré au nez retroussé des montagnes de Chine",
@@ -1919,7 +1968,8 @@
      "Une queue sans poils",
      "Une queue qui repousse"
     ],
-    "explication": "Certains singes d'Amérique s'en servent comme d'une cinquième main."
+    "explication": "Certains singes d'Amérique s'en servent comme d'une cinquième main.",
+    "source": "https://en.wikipedia.org/wiki/Primate"
    },
    {
     "enonce": "Où vivent les singes à queue préhensile ?",
@@ -1929,7 +1979,8 @@
      "En Asie",
      "En Europe"
     ],
-    "explication": "Aucun singe d'Afrique ou d'Asie n'a de queue préhensile."
+    "explication": "Aucun singe d'Afrique ou d'Asie n'a de queue préhensile.",
+    "source": "https://en.wikipedia.org/wiki/Primate"
    },
    {
     "enonce": "Quelle est la principale menace pour les orangs-outans ?",
@@ -1949,7 +2000,8 @@
      "Des poissons",
      "Uniquement des insectes"
     ],
-    "explication": "Ils mangent surtout des feuilles, des tiges et des fruits."
+    "explication": "Ils mangent surtout des feuilles, des tiges et des fruits.",
+    "source": "https://en.wikipedia.org/wiki/Gorilla"
    }
   ]
  },
@@ -2584,42 +2636,50 @@
      [
       "Grand carnivore du Crétacé aux bras minuscules",
       "Tyrannosaure",
-      "Il vivait il y a 68 à 66 millions d'années, à la toute fin des dinosaures."
+      "Il vivait il y a 68 à 66 millions d'années, à la toute fin des dinosaures.",
+      "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Tyrannosaurus"
      ],
      [
       "Herbivore à trois cornes et à collerette",
       "Tricératops",
-      "Son nom signifie « visage à trois cornes »."
+      "Son nom signifie « visage à trois cornes ».",
+      "https://www.wikiwand.com/en/articles/Triceratops"
      ],
      [
       "Herbivore à plaques sur le dos et à queue pointue",
       "Stégosaure",
-      "Son cerveau avait à peu près la taille d'une noix, pour un animal de 9 m."
+      "Son cerveau avait à peu près la taille d'une noix, pour un animal de 9 m.",
+      "https://www.guinnessworldrecords.com/world-records/70337-smallest-brained-dinosaurs"
      ],
      [
       "Herbivore géant au très long cou, du Jurassique",
       "Diplodocus",
-      "Il mesurait environ 25 m, en grande partie de cou et de queue."
+      "Il mesurait environ 25 m, en grande partie de cou et de queue.",
+      "https://www.wikiwand.com/en/Diplodocus"
      ],
      [
       "Petit carnivore rapide à griffe en forme de faucille",
       "Vélociraptor",
-      "Il avait la taille d'une dinde et des plumes, bien loin de celui des films."
+      "Il avait la taille d'une dinde et des plumes, bien loin de celui des films.",
+      "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Velociraptor"
      ],
      [
       "Herbivore à bec de canard et à longue crête tubulaire",
       "Parasaurolophus",
-      "Sa crête creuse servait sans doute à produire des sons graves, comme une trompette."
+      "Sa crête creuse servait sans doute à produire des sons graves, comme une trompette.",
+      "https://newsreleases.sandia.gov/scientists-use-digital-paleontology-to-produce-voice-of-parasaurolophus-dinosaur/"
      ],
      [
       "Herbivore cuirassé à queue en massue",
       "Ankylosaure",
-      "Des plaques osseuses couvraient son dos, et sa queue finissait par une massue d'os soudés."
+      "Des plaques osseuses couvraient son dos, et sa queue finissait par une massue d'os soudés.",
+      "https://www.mentalfloss.com/science/paleontology/10-facts-about-ankylosaurus"
      ],
      [
       "Grand carnivore à voile sur le dos, mangeur de poissons",
       "Spinosaure",
-      "Plus long que le tyrannosaure, il vivait en partie dans l'eau, en Afrique du Nord."
+      "Plus long que le tyrannosaure, il vivait en partie dans l'eau, en Afrique du Nord.",
+      "https://wikiwand.com/en/Spinosaurus"
      ],
      [
       "Grand carnivore du Jurassique, bien avant le tyrannosaure",
@@ -2651,22 +2711,26 @@
      [
       "Tyrannosaure",
       "Lézard tyran",
-      "Son nom complet, Tyrannosaurus rex, veut dire « roi des lézards tyrans »."
+      "Son nom complet, Tyrannosaurus rex, veut dire « roi des lézards tyrans ».",
+      "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Tyrannosaurus"
      ],
      [
       "Diplodocus",
       "Double poutre",
-      "Le nom vient d'os en double poutre sous sa queue."
+      "Le nom vient d'os en double poutre sous sa queue.",
+      "https://www.wikiwand.com/en/Diplodocus"
      ],
      [
       "Vélociraptor",
       "Voleur rapide",
-      "Un célèbre fossile le montre en plein combat avec un protocératops."
+      "Un célèbre fossile le montre en plein combat avec un protocératops.",
+      "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Velociraptor"
      ],
      [
       "Stégosaure",
       "Lézard à toit",
-      "On a d'abord cru que ses plaques formaient un toit couché sur son dos."
+      "On a d'abord cru que ses plaques formaient un toit couché sur son dos.",
+      "https://www.livescience.com/24184-stegosaurus-facts.html"
      ],
      [
       "Iguanodon",
@@ -2701,12 +2765,14 @@
      [
       "Ankylosaure",
       "Lézard soudé",
-      "Sa queue finissait par une massue faite de plaques osseuses soudées."
+      "Sa queue finissait par une massue faite de plaques osseuses soudées.",
+      "https://www.prehistoric-wildlife.com/species/Ankylosaurus/"
      ],
      [
       "Spinosaure",
       "Lézard à épines",
-      "Les longues épines de son dos soutenaient sa voile."
+      "Les longues épines de son dos soutenaient sa voile.",
+      "https://wikiwand.com/en/Spinosaurus"
      ],
      [
       "Ptéranodon",
@@ -2835,7 +2901,8 @@
      "Les cératopsiens",
      "Les ptérosaures"
     ],
-    "explication": "Le tyrannosaure et le vélociraptor en font partie."
+    "explication": "Le tyrannosaure et le vélociraptor en font partie.",
+    "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Velociraptor"
    }
   ]
  },
@@ -3469,62 +3536,74 @@
      [
       "pomper le sang dans tout le corps",
       "Le cœur",
-      "Il bat environ 100 000 fois par jour."
+      "Il bat environ 100 000 fois par jour.",
+      "https://www.letribunaldunet.fr/sante/battements-coeur-vie-entiere-chiffre.html"
      ],
      [
       "filtrer le sang et produire l'urine",
       "Les reins",
-      "Ils filtrent environ 180 litres de liquide par jour pour produire 1 à 2 litres d'urine."
+      "Ils filtrent environ 180 litres de liquide par jour pour produire 1 à 2 litres d'urine.",
+      "https://www.merckmanuals.com/fr-ca/accueil/troubles-rénaux/diagnostic-des-maladies-rénales/reins"
      ],
      [
       "faire passer l'oxygène de l'air dans le sang",
       "Les poumons",
-      "Déplissées, leurs alvéoles couvriraient environ 70 m²."
+      "Déplissées, leurs alvéoles couvriraient environ 70 m².",
+      "https://radiopaedia.org/articles/alveoli?lang=us"
      ],
      [
       "produire la bile et stocker des réserves",
       "Le foie",
-      "C'est le plus gros organe interne, et il peut se régénérer."
+      "C'est le plus gros organe interne, et il peut se régénérer.",
+      "https://www.merckmanuals.com/fr-ca/accueil/troubles-du-foie-et-de-la-vésicule-biliaire/biologie-du-foie-et-de-la-vésicule-biliaire/foie"
      ],
      [
       "produire l'insuline",
       "Le pancréas",
-      "L'insuline fait baisser le sucre dans le sang ; son manque provoque le diabète de type 1."
+      "L'insuline fait baisser le sucre dans le sang ; son manque provoque le diabète de type 1.",
+      "https://www.sante.fr/diabete-de-type-1-une-maladie-auto-immune-de-plus-en-plus-frequente-0"
      ],
      [
       "absorber les nutriments des aliments digérés",
       "L'intestin grêle",
-      "Il mesure environ 6 à 7 mètres de long."
+      "Il mesure environ 6 à 7 mètres de long.",
+      "https://www.vidal.fr/sante/nutrition/corps-aliments/digestion-aliments/intestin-grele.html"
      ],
      [
       "stocker l'urine",
       "La vessie",
-      "Elle contient environ un demi-litre."
+      "Elle contient environ un demi-litre.",
+      "https://www.kenhub.com/fr/library/anatomie/vessie"
      ],
      [
       "broyer et digérer les aliments avec des sucs acides",
       "L'estomac",
-      "Son acide est si fort que sa paroi doit se renouveler en permanence."
+      "Son acide est si fort que sa paroi doit se renouveler en permanence.",
+      "https://www.letribunaldunet.fr/insolite/pourquoi-estomac-ne-se-digere-pas-lui-meme.html"
      ],
      [
       "protéger le corps du milieu extérieur",
       "La peau",
-      "C'est le plus grand organe du corps : près de 2 m² chez l'adulte."
+      "C'est le plus grand organe du corps : près de 2 m² chez l'adulte.",
+      "https://fr.vikidia.org/wiki/Peau"
      ],
      [
       "commander le corps et penser",
       "Le cerveau",
-      "Il pèse environ 1,4 kg et compte quelque 86 milliards de neurones."
+      "Il pèse environ 1,4 kg et compte quelque 86 milliards de neurones.",
+      "https://www.futura-sciences.com/sante/actualites/biologie-votre-cerveau-15-chiffres-cles-51904/"
      ],
      [
       "stocker la bile entre les repas",
       "La vésicule biliaire",
-      "La bile aide à digérer les graisses ; on peut vivre sans vésicule."
+      "La bile aide à digérer les graisses ; on peut vivre sans vésicule.",
+      "https://www.allodocteurs.fr/peut-on-vivre-sans-vesicule-biliaire-43576.html"
      ],
      [
       "filtrer le sang et aider les défenses immunitaires",
       "La rate",
-      "Elle détruit les vieux globules rouges ; on peut vivre sans elle."
+      "Elle détruit les vieux globules rouges ; on peut vivre sans elle.",
+      "https://www.msdmanuals.com/fr/accueil/troubles-du-sang/maladies-de-la-rate/présentation-de-la-rate"
      ]
     ]
    },
@@ -3536,62 +3615,74 @@
      [
       "les cordes vocales",
       "Le larynx",
-      "On sent sa saillie à l'avant du cou : la pomme d'Adam."
+      "On sent sa saillie à l'avant du cou : la pomme d'Adam.",
+      "https://www.larousse.fr/encyclopedie/medical/larynx/14128"
      ],
      [
       "les néphrons",
       "Les reins",
-      "Chaque rein compte environ un million de ces petits filtres."
+      "Chaque rein compte environ un million de ces petits filtres.",
+      "https://www.merckmanuals.com/fr-ca/accueil/troubles-rénaux/diagnostic-des-maladies-rénales/reins"
      ],
      [
       "les villosités",
       "L'intestin grêle",
-      "Ces replis minuscules multiplient la surface qui absorbe les aliments."
+      "Ces replis minuscules multiplient la surface qui absorbe les aliments.",
+      "https://www.vidal.fr/sante/nutrition/corps-aliments/digestion-aliments/intestin-grele.html"
      ],
      [
       "la rétine",
       "L'œil",
-      "Elle capte la lumière et envoie l'image au cerveau par le nerf optique."
+      "Elle capte la lumière et envoie l'image au cerveau par le nerf optique.",
+      "https://www.futura-sciences.com/sante/definitions/corps-humain-retine-4322/"
      ],
      [
       "le tympan",
       "L'oreille",
-      "Cette fine membrane vibre sous l'effet des sons."
+      "Cette fine membrane vibre sous l'effet des sons.",
+      "https://www.hug.ch/node/24843"
      ],
      [
       "les ventricules et les oreillettes",
       "Le cœur",
-      "Les ventricules envoient le sang, les oreillettes le reçoivent."
+      "Les ventricules envoient le sang, les oreillettes le reçoivent.",
+      "https://www.larousse.fr/encyclopedie/divers/circulation_sanguine/34108"
      ],
      [
       "les îlots de Langerhans",
       "Le pancréas",
-      "Ces petits amas de cellules fabriquent l'insuline."
+      "Ces petits amas de cellules fabriquent l'insuline.",
+      "https://www.sante.fr/diabete-de-type-1-une-maladie-auto-immune-de-plus-en-plus-frequente-0"
      ],
      [
       "l'hippocampe",
       "Le cerveau",
-      "Cette zone en forme d'hippocampe joue un grand rôle dans la mémoire."
+      "Cette zone en forme d'hippocampe joue un grand rôle dans la mémoire.",
+      "https://www.kenhub.com/fr/library/anatomie/hippocampe"
      ],
      [
       "les bronches",
       "Les poumons",
-      "Elles se ramifient comme un arbre à l'envers jusqu'aux alvéoles."
+      "Elles se ramifient comme un arbre à l'envers jusqu'aux alvéoles.",
+      "https://www.msdmanuals.com/fr/accueil/troubles-pulmonaires-et-des-voies-aériennes/biologie-des-poumons-et-des-voies-respiratoires/présentation-du-système-respiratoire"
      ],
      [
       "l'appendice",
       "Le gros intestin",
-      "Ce petit prolongement s'enflamme parfois : c'est l'appendicite."
+      "Ce petit prolongement s'enflamme parfois : c'est l'appendicite.",
+      "https://www.elsan.care/fr/pathologie-et-traitement/glossaire-medical/hepato-gastro-enterologie/appendice"
      ],
      [
       "les papilles gustatives",
       "La langue",
-      "On en compte plusieurs milliers ; elles se renouvellent en une dizaine de jours."
+      "On en compte plusieurs milliers ; elles se renouvellent en une dizaine de jours.",
+      "https://www.alimentarium.org/fr/node/1178"
      ],
      [
       "les follicules pileux",
       "La peau",
-      "Chaque poil ou cheveu pousse dans un follicule."
+      "Chaque poil ou cheveu pousse dans un follicule.",
+      "https://www.techno-science.net/glossaire-definition/Peau.html"
      ]
     ]
    }
@@ -3655,7 +3746,8 @@
      "L'hypophyse",
      "La rate"
     ],
-    "explication": "Elle règle la vitesse à laquelle le corps utilise l'énergie."
+    "explication": "Elle règle la vitesse à laquelle le corps utilise l'énergie.",
+    "source": "https://www.msdmanuals.com/fr/accueil/troubles-hormonaux-et-m%C3%A9taboliques/troubles-de-la-thyro%C3%AFde/pr%C3%A9sentation-de-la-thyro%C3%AFde"
    },
    {
     "enonce": "Quelle glande du cerveau, grosse comme un petit pois, commande d'autres glandes ?",
@@ -3665,7 +3757,8 @@
      "Le pancréas",
      "La rate"
     ],
-    "explication": "Elle produit notamment l'hormone de croissance."
+    "explication": "Elle produit notamment l'hormone de croissance.",
+    "source": "https://www.msdmanuals.com/fr/accueil/troubles-hormonaux-et-métaboliques/troubles-de-l-hypophyse/présentation-de-l-hypophyse"
    },
    {
     "enonce": "Combien de litres de sang contient le corps d'un adulte ?",
@@ -3675,7 +3768,8 @@
      "15 litres",
      "50 litres"
     ],
-    "explication": "Au repos, le cœur fait circuler tout ce sang en environ une minute."
+    "explication": "Au repos, le cœur fait circuler tout ce sang en environ une minute.",
+    "source": "https://www.24matins.fr/notre-sang-fait-1500-fois-le-tour-de-notre-corps-chaque-jour-1331398"
    },
    {
     "enonce": "Quelle est la plus grosse artère du corps ?",
@@ -3685,7 +3779,8 @@
      "La veine porte",
      "L'artère radiale"
     ],
-    "explication": "Elle part du ventricule gauche du cœur."
+    "explication": "Elle part du ventricule gauche du cœur.",
+    "source": "https://www.kenhub.com/fr/library/anatomie/aorte"
    },
    {
     "enonce": "Combien mesure environ le gros intestin ?",
@@ -3695,7 +3790,8 @@
      "6 m",
      "20 m"
     ],
-    "explication": "Il absorbe surtout l'eau et forme les selles."
+    "explication": "Il absorbe surtout l'eau et forme les selles.",
+    "source": "https://www.larousse.fr/encyclopedie/medical/c%C3%B4lon/12088"
    },
    {
     "enonce": "Quelle glande fabrique les larmes ?",
@@ -3705,7 +3801,8 @@
      "La thyroïde",
      "Le pancréas"
     ],
-    "explication": "Elle se trouve au-dessus de l'œil, du côté de la tempe."
+    "explication": "Elle se trouve au-dessus de l'œil, du côté de la tempe.",
+    "source": "https://www.kenhub.com/fr/library/anatomie/glande-lacrymale"
    },
    {
     "enonce": "Combien de reins a l'être humain ?",
@@ -3715,7 +3812,8 @@
      "3",
      "4"
     ],
-    "explication": "On peut vivre normalement avec un seul rein."
+    "explication": "On peut vivre normalement avec un seul rein.",
+    "source": "https://www.merckmanuals.com/fr-ca/accueil/troubles-rénaux/diagnostic-des-maladies-rénales/reins"
    },
    {
     "enonce": "Où se trouve le foie ?",
@@ -3725,7 +3823,8 @@
      "Dans le thorax, à gauche",
      "Dans le bas du dos"
     ],
-    "explication": "Il est protégé par les côtes du côté droit."
+    "explication": "Il est protégé par les côtes du côté droit.",
+    "source": "https://fr.vikidia.org/wiki/Foie"
    },
    {
     "enonce": "Quel organe se trouve à gauche de l'estomac, sous les côtes ?",
@@ -3735,7 +3834,8 @@
      "La vésicule biliaire",
      "L'appendice"
     ],
-    "explication": "Elle est fragile : un choc violent peut la rompre."
+    "explication": "Elle est fragile : un choc violent peut la rompre.",
+    "source": "https://www.kenhub.com/fr/library/anatomie/rate"
    }
   ]
  },
@@ -3986,87 +4086,104 @@
      [
       "Etna",
       "Italie",
-      "Avec plus de 3 300 m, c'est le plus haut sommet d'Italie au sud des Alpes et l'un des plus hauts volcans actifs d'Europe."
+      "Avec plus de 3 300 m, c'est le plus haut sommet d'Italie au sud des Alpes et l'un des plus hauts volcans actifs d'Europe.",
+      "https://wikiwand.com/en/Mount_Etna"
      ],
      [
       "Vésuve",
       "Italie",
-      "Son éruption de l'an 79 a enseveli Pompéi et Herculanum."
+      "Son éruption de l'an 79 a enseveli Pompéi et Herculanum.",
+      "https://archive.blogs.harvard.edu/wheredisasterstrikes/volcano/vesuvius-79-c-e"
      ],
      [
       "Stromboli",
       "Italie",
-      "Ses petites explosions régulières l'ont fait surnommer le phare de la Méditerranée."
+      "Ses petites explosions régulières l'ont fait surnommer le phare de la Méditerranée.",
+      "https://blogs.egu.eu/divisions/nh/2019/09/18/stromboli-the-lighthouse-of-the-mediterranean/"
      ],
      [
       "Piton de la Fournaise",
       "France (La Réunion)",
-      "C'est l'un des volcans les plus actifs du monde, souvent plusieurs éruptions par an."
+      "C'est l'un des volcans les plus actifs du monde, souvent plusieurs éruptions par an.",
+      "https://en.wikipedia.org/wiki/Piton_de_la_Fournaise"
      ],
      [
       "Montagne Pelée",
       "France (Martinique)",
-      "Son éruption de 1902 a détruit Saint-Pierre et fait près de 30 000 morts."
+      "Son éruption de 1902 a détruit Saint-Pierre et fait près de 30 000 morts.",
+      "https://en.wikipedia.org/wiki/1902_eruption_of_Mount_Pel%C3%A9e"
      ],
      [
       "Kīlauea",
       "États-Unis (Hawaï)",
-      "Selon la légende hawaïenne, la déesse Pele vit dans son cratère."
+      "Selon la légende hawaïenne, la déesse Pele vit dans son cratère.",
+      "https://en.wikipedia.org/wiki/Pele_(deity"
      ],
      [
       "Mont Saint Helens",
       "États-Unis",
-      "En 1980, son explosion a emporté tout son flanc nord et 400 m de son sommet."
+      "En 1980, son explosion a emporté tout son flanc nord et 400 m de son sommet.",
+      "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/1980_eruption_of_Mount_St._Helens"
      ],
      [
       "Mont Fuji",
       "Japon",
-      "Avec 3 776 m, c'est le point culminant du Japon ; sa dernière éruption date de 1707."
+      "Avec 3 776 m, c'est le point culminant du Japon ; sa dernière éruption date de 1707.",
+      "https://www.newworldencyclopedia.org/entry/Mount_Fuji"
      ],
      [
       "Eyjafjallajökull",
       "Islande",
-      "Son éruption de 2010 a bloqué une grande partie du trafic aérien européen."
+      "Son éruption de 2010 a bloqué une grande partie du trafic aérien européen.",
+      "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Air_travel_disruption_after_the_2010_Eyjafjallaj%C3%B6kull_eruption.html"
      ],
      [
       "Hekla",
       "Islande",
-      "Au Moyen Âge, on le surnommait la porte de l'enfer."
+      "Au Moyen Âge, on le surnommait la porte de l'enfer.",
+      "https://earthsky.org/earth/mount-hekla-was-called-gateway-to-hell"
      ],
      [
       "Krakatoa",
       "Indonésie",
-      "Son explosion de 1883 s'est entendue à près de 5 000 km."
+      "Son explosion de 1883 s'est entendue à près de 5 000 km.",
+      "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/1883_eruption_of_Krakatoa"
      ],
      [
       "Merapi",
       "Indonésie",
-      "Son nom signifie « montagne de feu » ; c'est l'un des plus actifs d'Indonésie."
+      "Son nom signifie « montagne de feu » ; c'est l'un des plus actifs d'Indonésie.",
+      "https://en.wikipedia.org/wiki/Mount_Merapi"
      ],
      [
       "Popocatépetl",
       "Mexique",
-      "Il domine la région de Mexico ; son nom aztèque signifie « montagne qui fume »."
+      "Il domine la région de Mexico ; son nom aztèque signifie « montagne qui fume ».",
+      "https://en.wikipedia.org/wiki/Popocat%C3%A9petl"
      ],
      [
       "Erebus",
       "Antarctique",
-      "C'est le volcan actif le plus au sud du monde, avec un lac de lave permanent."
+      "C'est le volcan actif le plus au sud du monde, avec un lac de lave permanent.",
+      "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Mount_Erebus"
      ],
      [
       "Nyiragongo",
       "République démocratique du Congo",
-      "Son cratère abrite l'un des plus grands lacs de lave du monde, au-dessus de la ville de Goma."
+      "Son cratère abrite l'un des plus grands lacs de lave du monde, au-dessus de la ville de Goma.",
+      "https://worldatlas.com/articles/where-is-the-world-s-largest-lava-lake.html"
      ],
      [
       "Pinatubo",
       "Philippines",
-      "Son éruption de 1991 a refroidi la planète d'environ 0,5 °C entre 1991 et 1993."
+      "Son éruption de 1991 a refroidi la planète d'environ 0,5 °C entre 1991 et 1993.",
+      "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/1991_eruption_of_Mount_Pinatubo"
      ],
      [
       "Cotopaxi",
       "Équateur",
-      "Avec près de 5 900 m, c'est l'un des plus hauts volcans actifs du monde."
+      "Avec près de 5 900 m, c'est l'un des plus hauts volcans actifs du monde.",
+      "https://en.wikipedia.org/wiki/Cotopaxi"
      ]
     ],
     "recouvrements": [
@@ -4093,7 +4210,8 @@
      [
       "le nuage brûlant de gaz et de cendres qui dévale les pentes",
       "Une nuée ardente",
-      "C'est elle qui a détruit Saint-Pierre de la Martinique en 1902."
+      "C'est elle qui a détruit Saint-Pierre de la Martinique en 1902.",
+      "https://www.futura-sciences.com/sciences/questions-reponses/histoire-alfred-lacroix-reconstitue-eruption-meurtriere-montagne-pelee-martinique-17429/"
      ],
      [
       "la cavité au sommet d'un volcan",
@@ -4143,12 +4261,14 @@
      [
       "l'échelle de 0 à 8 de la puissance des éruptions",
       "L'indice d'explosivité volcanique",
-      "L'éruption du Pinatubo en 1991 atteignait 6."
+      "L'éruption du Pinatubo en 1991 atteignait 6.",
+      "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/1991_eruption_of_Mount_Pinatubo"
      ],
      [
       "une éruption de lave fluide qui coule sans exploser",
       "Une éruption effusive",
-      "C'est le style des volcans d'Hawaï et du Piton de la Fournaise."
+      "C'est le style des volcans d'Hawaï et du Piton de la Fournaise.",
+      "https://vulkane.net/en/volcanoes/la-reunion/piton-fournaise.html"
      ],
      [
       "la poche souterraine où s'accumule le magma",
@@ -4247,7 +4367,8 @@
      "Environ 50 000",
      "Plus d'un million"
     ],
-    "explication": "À tout moment, une vingtaine sont sans doute en éruption."
+    "explication": "À tout moment, une vingtaine sont sans doute en éruption.",
+    "source": "https://www.amnh.org/explore/ology/earth/volcanoes-magma-rising"
    },
    {
     "enonce": "Quel est le plus haut volcan de la chaîne des Puys ?",
@@ -4267,7 +4388,8 @@
      "Rome",
      "Syracuse"
     ],
-    "explication": "Herculanum a été recouverte par une épaisse couche de matériaux brûlants."
+    "explication": "Herculanum a été recouverte par une épaisse couche de matériaux brûlants.",
+    "source": "https://archive.blogs.harvard.edu/wheredisasterstrikes/volcano/vesuvius-79-c-e"
    },
    {
     "enonce": "Quel savant romain est mort en observant l'éruption du Vésuve en 79 ?",
@@ -4277,7 +4399,8 @@
      "Sénèque",
      "Jules César"
     ],
-    "explication": "Son neveu, Pline le Jeune, a décrit l'éruption dans des lettres."
+    "explication": "Son neveu, Pline le Jeune, a décrit l'éruption dans des lettres.",
+    "source": "https://archive.blogs.harvard.edu/wheredisasterstrikes/volcano/vesuvius-79-c-e"
    },
    {
     "enonce": "Quel couple de volcanologues alsaciens a filmé des éruptions du monde entier ?",
@@ -4648,27 +4771,32 @@
      [
       "la Seine",
       "Paris",
-      "Elle prend sa source sur le plateau de Langres et mesure environ 775 km."
+      "Elle prend sa source sur le plateau de Langres et mesure environ 775 km.",
+      "https://encycloreader.org/r/wikipedia.php?q=Seine"
      ],
      [
       "la Tamise",
       "Londres",
-      "Elle passe sous Tower Bridge et devant le palais de Westminster."
+      "Elle passe sous Tower Bridge et devant le palais de Westminster.",
+      "https://mirror2.polsri.ac.id/wiki/wp/r/River_Thames.htm"
      ],
      [
       "le Tibre",
       "Rome",
-      "Selon la légende, Romulus et Rémus furent abandonnés dans un panier sur ses eaux."
+      "Selon la légende, Romulus et Rémus furent abandonnés dans un panier sur ses eaux.",
+      "https://www.nationalgeographic.com/history/article/romulus-and-remus-rome-empire"
      ],
      [
       "le Danube",
       "Budapest",
-      "Il sépare Buda, sur la rive droite, de Pest, sur la rive gauche."
+      "Il sépare Buda, sur la rive droite, de Pest, sur la rive gauche.",
+      "https://encycloreader.org/r/wikipedia.php?q=Danube"
      ],
      [
       "le Tage",
       "Lisbonne",
-      "C'est le plus long fleuve de la péninsule Ibérique ; il prend sa source en Espagne."
+      "C'est le plus long fleuve de la péninsule Ibérique ; il prend sa source en Espagne.",
+      "https://en.wikipedia.org/wiki/Tagus"
      ],
      [
       "le Rhin",
@@ -4703,7 +4831,8 @@
      [
       "la Loire",
       "Nantes",
-      "C'est le plus long fleuve de France, avec environ 1 000 km."
+      "C'est le plus long fleuve de France, avec environ 1 000 km.",
+      "https://www.larousse.fr/encyclopedie/riviere-lac/wd/130237"
      ]
     ]
    },
@@ -4715,12 +4844,14 @@
      [
       "la Seine",
       "la Manche",
-      "Elle se jette entre Le Havre et Honfleur."
+      "Elle se jette entre Le Havre et Honfleur.",
+      "https://encycloreader.org/r/wikipedia.php?q=Seine"
      ],
      [
       "la Loire",
       "l'océan Atlantique",
-      "Elle rejoint l'océan à Saint-Nazaire."
+      "Elle rejoint l'océan à Saint-Nazaire.",
+      "https://www.larousse.fr/encyclopedie/riviere-lac/wd/130237"
      ],
      [
       "le Rhône",
@@ -4735,7 +4866,8 @@
      [
       "le Danube",
       "la mer Noire",
-      "Il traverse ou longe dix pays et passe par quatre capitales, plus qu'aucun autre fleuve."
+      "Il traverse ou longe dix pays et passe par quatre capitales, plus qu'aucun autre fleuve.",
+      "https://encycloreader.org/r/wikipedia.php?q=Danube"
      ],
      [
       "la Volga",
@@ -4785,7 +4917,8 @@
      [
       "le Danube",
       "Allemagne",
-      "Il naît dans la Forêt-Noire, à Donaueschingen."
+      "Il naît dans la Forêt-Noire, à Donaueschingen.",
+      "https://encycloreader.org/r/wikipedia.php?q=Danube"
      ],
      [
       "l'Elbe",
@@ -4825,7 +4958,8 @@
      [
       "le Tage",
       "Espagne",
-      "Il traverse Tolède avant de rejoindre Lisbonne."
+      "Il traverse Tolède avant de rejoindre Lisbonne.",
+      "https://en.wikipedia.org/wiki/Tagus"
      ],
      [
       "le Pô",
@@ -4882,7 +5016,8 @@
      [
       "Vienne, en Autriche",
       "Le Danube",
-      "Johann Strauss lui a dédié la valse Le Beau Danube bleu."
+      "Johann Strauss lui a dédié la valse Le Beau Danube bleu.",
+      "https://encycloreader.org/r/wikipedia.php?q=Danube"
      ],
      [
       "Liège",
@@ -5266,37 +5401,44 @@
      [
       "Titicaca",
       "Pérou et Bolivie",
-      "À environ 3 800 m d'altitude, c'est le plus haut grand lac navigable du monde."
+      "À environ 3 800 m d'altitude, c'est le plus haut grand lac navigable du monde.",
+      "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Lake_Titicaca"
      ],
      [
       "Baïkal",
       "Russie",
-      "C'est le lac le plus profond (plus de 1 600 m) et le plus ancien du monde."
+      "C'est le lac le plus profond (plus de 1 600 m) et le plus ancien du monde.",
+      "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Lake_Baikal"
      ],
      [
       "Léman",
       "Suisse et France",
-      "Le Rhône y entre en Valais et en ressort à Genève."
+      "Le Rhône y entre en Valais et en ressort à Genève.",
+      "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Lake_Geneva"
      ],
      [
       "Loch Ness",
       "Écosse",
-      "Il contient plus d'eau douce que tous les lacs d'Angleterre et du pays de Galles réunis."
+      "Il contient plus d'eau douce que tous les lacs d'Angleterre et du pays de Galles réunis.",
+      "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Loch_Ness"
      ],
      [
       "Victoria",
       "Ouganda, Kenya et Tanzanie",
-      "C'est le plus grand lac d'Afrique et la principale source du Nil Blanc."
+      "C'est le plus grand lac d'Afrique et la principale source du Nil Blanc.",
+      "https://newworldencyclopedia.org/entry/Lake_Victoria"
      ],
      [
       "Supérieur",
       "États-Unis et Canada",
-      "C'est le plus grand lac d'eau douce du monde par sa superficie."
+      "C'est le plus grand lac d'eau douce du monde par sa superficie.",
+      "https://www.worldatlas.com/lakes/how-loch-ness-compares-to-the-great-lakes.html"
      ],
      [
       "Michigan",
       "États-Unis",
-      "C'est le seul des Grands Lacs entièrement aux États-Unis ; Chicago est sur sa rive."
+      "C'est le seul des Grands Lacs entièrement aux États-Unis ; Chicago est sur sa rive.",
+      "https://www.worldatlas.com/lakes/how-loch-ness-compares-to-the-great-lakes.html"
      ],
      [
       "Balaton",
@@ -5547,7 +5689,8 @@
      "Évian",
      "Montreux"
     ],
-    "explication": "Le Rhône quitte le lac en traversant la ville."
+    "explication": "Le Rhône quitte le lac en traversant la ville.",
+    "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Lake_Geneva"
    },
    {
     "enonce": "Le lac Baïkal gèle-t-il en hiver ?",
@@ -5557,7 +5700,8 @@
      "Seulement sur les bords",
      "Une fois par siècle"
     ],
-    "explication": "En hiver, des véhicules roulent sur sa glace."
+    "explication": "En hiver, des véhicules roulent sur sa glace.",
+    "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Lake_Baikal"
    },
    {
     "enonce": "Quel est le plus petit des Grands Lacs par sa superficie ?",
@@ -5602,67 +5746,80 @@
      [
       "Marseille",
       "la mer Méditerranée",
-      "Fondée par des Grecs de Phocée vers 600 av. J.-C., c'est la plus ancienne ville de France."
+      "Fondée par des Grecs de Phocée vers 600 av. J.-C., c'est la plus ancienne ville de France.",
+      "https://fr.vikidia.org/wiki/Marseille_antique"
      ],
      [
       "Le Havre",
       "la Manche",
-      "Détruite en 1944, la ville a été reconstruite par l'architecte Auguste Perret."
+      "Détruite en 1944, la ville a été reconstruite par l'architecte Auguste Perret.",
+      "https://www.herodote.net/Le_Havre_d_Auguste_Perret-synthese-2334.php"
      ],
      [
       "Saint-Pétersbourg",
       "la mer Baltique",
-      "Pierre le Grand l'a fondée en 1703 pour ouvrir la Russie sur la mer."
+      "Pierre le Grand l'a fondée en 1703 pour ouvrir la Russie sur la mer.",
+      "https://www.britannica.com/place/St-Petersburg-Russia/History"
      ],
      [
       "Odessa",
       "la mer Noire",
-      "Son escalier du Potemkine est célèbre grâce au film d'Eisenstein."
+      "Son escalier du Potemkine est célèbre grâce au film d'Eisenstein.",
+      "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Battleship_Potemkin.html"
      ],
      [
       "Venise",
       "la mer Adriatique",
-      "Elle est bâtie sur plus d'une centaine d'îles d'une lagune."
+      "Elle est bâtie sur plus d'une centaine d'îles d'une lagune.",
+      "https://www.italia.it/fr/venetie/venise/faits-historiques"
      ],
      [
       "Rotterdam",
       "la mer du Nord",
-      "C'est le plus grand port d'Europe."
+      "C'est le plus grand port d'Europe.",
+      "https://static.hlt.bme.hu/semantics/external/pages/bakdaru/en.wikipedia.org/wiki/Port_of_Rotterdam.html"
      ],
      [
       "Bakou",
       "la mer Caspienne",
-      "Capitale de l'Azerbaïdjan, elle borde la plus grande étendue d'eau fermée du monde."
+      "Capitale de l'Azerbaïdjan, elle borde la plus grande étendue d'eau fermée du monde.",
+      "https://livescience.com/57999-caspian-sea-facts.html"
      ],
      [
       "Djeddah",
       "la mer Rouge",
-      "C'est la porte d'entrée des pèlerins vers La Mecque."
+      "C'est la porte d'entrée des pèlerins vers La Mecque.",
+      "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Jidda.html"
      ],
      [
       "Sydney",
       "l'océan Pacifique",
-      "Son opéra aux toits en forme de voiles borde la baie de Port Jackson."
+      "Son opéra aux toits en forme de voiles borde la baie de Port Jackson.",
+      "https://www.britannica.com/facts/Sydney-Opera-House"
      ],
      [
       "Bombay",
       "l'océan Indien",
-      "Aujourd'hui appelée Mumbai, c'est la capitale économique de l'Inde."
+      "Aujourd'hui appelée Mumbai, c'est la capitale économique de l'Inde.",
+      "https://www.techno-science.net/fr/definitions/mumbai"
      ],
      [
       "Rio de Janeiro",
       "l'océan Atlantique",
-      "Son nom, « rivière de janvier », vient d'une baie que les Portugais prirent pour un fleuve en 1502."
+      "Son nom, « rivière de janvier », vient d'une baie que les Portugais prirent pour un fleuve en 1502.",
+      "https://www.techno-science.net/fr/definitions/rio-de-janeiro"
      ],
      [
       "Vladivostok",
       "la mer du Japon",
-      "C'est le terminus du Transsibérien, à plus de 9 000 km de Moscou."
+      "C'est le terminus du Transsibérien, à plus de 9 000 km de Moscou.",
+      "https://www.doc.surf/wiki/trans-siberian-railway"
      ],
      [
       "Le Pirée, près d'Athènes",
       "la mer Égée",
-      "C'est le port d'Athènes depuis l'Antiquité."
+      "C'est le port d'Athènes depuis l'Antiquité.",
+      "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Piraeus.html"
      ]
     ],
     "recouvrements": [
@@ -5998,42 +6155,50 @@
      [
       "La Joconde",
       "Léonard de Vinci",
-      "Elle est exposée au Louvre ; François Ier l'avait acquise."
+      "Elle est exposée au Louvre ; François Ier l'avait acquise.",
+      "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Monalisa.html"
      ],
      [
       "La Cène",
       "Léonard de Vinci",
-      "Elle est peinte sur un mur du couvent Santa Maria delle Grazie, à Milan."
+      "Elle est peinte sur un mur du couvent Santa Maria delle Grazie, à Milan.",
+      "https://www.italia.it/fr/lombardie/milan/musee-du-cenacolo-vinciano"
      ],
      [
       "La Naissance de Vénus",
       "Sandro Botticelli",
-      "On peut la voir à la galerie des Offices, à Florence."
+      "On peut la voir à la galerie des Offices, à Florence.",
+      "https://www.visittuscany.com/fr/attractions/la-naissance-de-venus-de-sandro-botticelli/"
      ],
      [
       "Le Printemps",
       "Sandro Botticelli",
-      "Exposé lui aussi aux Offices, il montre près de 200 espèces de fleurs."
+      "Exposé lui aussi aux Offices, il montre près de 200 espèces de fleurs.",
+      "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Primavera_(Painting).html"
      ],
      [
       "La Création d'Adam",
       "Michel-Ange",
-      "Elle orne le plafond de la chapelle Sixtine, au Vatican."
+      "Elle orne le plafond de la chapelle Sixtine, au Vatican.",
+      "https://www.doc.surf/wiki/the-creation-of-adam"
      ],
      [
       "L'École d'Athènes",
       "Raphaël",
-      "Platon et Aristote sont au centre ; la fresque se trouve au Vatican."
+      "Platon et Aristote sont au centre ; la fresque se trouve au Vatican.",
+      "https://smarthistory.org/raphael-school-of-athens-2/"
      ],
      [
       "La Vénus d'Urbino",
       "Titien",
-      "Elle a inspiré l'Olympia de Manet."
+      "Elle a inspiré l'Olympia de Manet.",
+      "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Venus_of_Urbino.html"
      ],
      [
       "Le Jardin des délices",
       "Jérôme Bosch",
-      "Ce triptyque est exposé au musée du Prado, à Madrid."
+      "Ce triptyque est exposé au musée du Prado, à Madrid.",
+      "https://www.doc.surf/wiki/the-garden-of-earthly-delights"
      ],
      [
       "Les Époux Arnolfini",
@@ -6289,7 +6454,8 @@
      "6 mois",
      "30 ans"
     ],
-    "explication": "Il l'a peint de 1508 à 1512, perché sur un échafaudage."
+    "explication": "Il l'a peint de 1508 à 1512, perché sur un échafaudage.",
+    "source": "https://www.worldhistory.org/article/1607/michelangelos-sistine-chapel-ceiling/"
    },
    {
     "enonce": "Quel pape a commandé à Michel-Ange le plafond de la chapelle Sixtine ?",
@@ -6653,32 +6819,38 @@
      [
       "désinfecte l'eau des piscines",
       "Chlore",
-      "On l'emploie aussi pour rendre l'eau du robinet potable."
+      "On l'emploie aussi pour rendre l'eau du robinet potable.",
+      "https://encycloreader.org/r/wikipedia.php?q=Chlorine"
      ],
      [
       "protège les dents dans le dentifrice",
       "Fluor",
-      "On l'y met sous forme de fluorure."
+      "On l'y met sous forme de fluorure.",
+      "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/f/Fluorine.htm"
      ],
      [
       "se passait sur les plaies en teinture brune",
       "Iode",
-      "La teinture d'iode est un ancien antiseptique de la peau."
+      "La teinture d'iode est un ancien antiseptique de la peau.",
+      "https://en.wikipedia.org/wiki/Iodine"
      ],
      [
       "est un liquide rouge-brun aux vapeurs suffocantes",
       "Brome",
-      "C'est le seul non-métal liquide à température ambiante."
+      "C'est le seul non-métal liquide à température ambiante.",
+      "https://encycloreader.org/r/wikipedia.php?q=Bromine"
      ],
      [
       "est radioactif et presque introuvable dans la nature",
       "Astate",
-      "Il n'en existe à tout instant qu'une infime quantité dans la croûte terrestre."
+      "Il n'en existe à tout instant qu'une infime quantité dans la croûte terrestre.",
+      "https://en.wikipedia.org/wiki/Astatine"
      ],
      [
       "a été créé en 2010 par une équipe russo-américaine",
       "Tennessine",
-      "C'est l'élément 117, nommé d'après l'État du Tennessee."
+      "C'est l'élément 117, nommé d'après l'État du Tennessee.",
+      "https://cavac.at/cavacopedia/Tennessine"
      ]
     ]
    }
@@ -6692,7 +6864,8 @@
      "Qui brille",
      "Qui est lourd"
     ],
-    "explication": "Avec les métaux, les halogènes forment des sels, comme le sel de table."
+    "explication": "Avec les métaux, les halogènes forment des sels, comme le sel de table.",
+    "source": "https://en.wikipedia.org/wiki/Halogen"
    },
    {
     "enonce": "Dans quelle colonne du tableau périodique sont les halogènes ?",
@@ -6702,7 +6875,8 @@
      "La 2e",
      "La 18e"
     ],
-    "explication": "Juste avant les gaz nobles."
+    "explication": "Juste avant les gaz nobles.",
+    "source": "https://en.wikipedia.org/wiki/Halogen"
    },
    {
     "enonce": "Combien y a-t-il d'halogènes ?",
@@ -6712,7 +6886,8 @@
      "4",
      "8"
     ],
-    "explication": "Fluor, chlore, brome, iode, astate et tennessine."
+    "explication": "Fluor, chlore, brome, iode, astate et tennessine.",
+    "source": "https://en.wikipedia.org/wiki/Halogen"
    },
    {
     "enonce": "Quel halogène forme avec le sodium le sel de cuisine ?",
@@ -6722,7 +6897,8 @@
      "L'iode",
      "Le brome"
     ],
-    "explication": "Le sel de cuisine est du chlorure de sodium, NaCl."
+    "explication": "Le sel de cuisine est du chlorure de sodium, NaCl.",
+    "source": "https://encycloreader.org/r/wikipedia.php?q=Chlorine"
    },
    {
     "enonce": "Quel est l'élément le plus électronégatif ?",
@@ -6732,7 +6908,8 @@
      "L'oxygène",
      "L'iode"
     ],
-    "explication": "Il attire les électrons plus fort que tout autre élément."
+    "explication": "Il attire les électrons plus fort que tout autre élément.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/f/Fluorine.htm"
    },
    {
     "enonce": "Quelle est la couleur du chlore gazeux ?",
@@ -6742,7 +6919,8 @@
      "Incolore",
      "Rouge"
     ],
-    "explication": "Son nom vient du grec chlôros, « vert-jaune pâle »."
+    "explication": "Son nom vient du grec chlôros, « vert-jaune pâle ».",
+    "source": "https://encycloreader.org/r/wikipedia.php?q=Chlorine"
    },
    {
     "enonce": "Quelle couleur ont les vapeurs d'iode ?",
@@ -6752,7 +6930,8 @@
      "Jaune",
      "Bleue"
     ],
-    "explication": "Son nom vient du grec iôdês, « violet »."
+    "explication": "Son nom vient du grec iôdês, « violet ».",
+    "source": "https://en.wikipedia.org/wiki/Iodine"
    },
    {
     "enonce": "À quoi sert l'iode dans le corps ?",
@@ -6762,7 +6941,8 @@
      "À transporter l'oxygène",
      "À digérer les graisses"
     ],
-    "explication": "Son manque provoque le goitre ; on en ajoute au sel de table."
+    "explication": "Son manque provoque le goitre ; on en ajoute au sel de table.",
+    "source": "https://en.wikipedia.org/wiki/Iodine"
    },
    {
     "enonce": "Quel gaz a été utilisé comme arme en 1915 près d'Ypres ?",
@@ -6772,7 +6952,8 @@
      "Le néon",
      "L'azote"
     ],
-    "explication": "Ce fut la première grande attaque au gaz de l'histoire."
+    "explication": "Ce fut la première grande attaque au gaz de l'histoire.",
+    "source": "https://www.guinnessworldrecords.com/world-records/101311-first-large-scale-use-of-poison-gas-in-war"
    },
    {
     "enonce": "Quel revêtement antiadhésif des poêles contient du fluor ?",
@@ -6782,7 +6963,8 @@
      "Le kevlar",
      "Le PVC"
     ],
-    "explication": "Son nom chimique est le polytétrafluoroéthylène."
+    "explication": "Son nom chimique est le polytétrafluoroéthylène.",
+    "source": "https://cavac.at/cavacopedia/History%20of%20fluorine"
    },
    {
     "enonce": "Quel plastique très courant contient du chlore ?",
@@ -6792,7 +6974,8 @@
      "Le polyéthylène",
      "Le nylon"
     ],
-    "explication": "PVC veut dire polychlorure de vinyle."
+    "explication": "PVC veut dire polychlorure de vinyle.",
+    "source": "https://encycloreader.org/r/wikipedia.php?q=Chlorine"
    },
    {
     "enonce": "Quels gaz contenant du chlore ont abîmé la couche d'ozone ?",
@@ -6802,7 +6985,8 @@
      "Le méthane",
      "La vapeur d'eau"
     ],
-    "explication": "Le protocole de Montréal de 1987 a organisé leur interdiction."
+    "explication": "Le protocole de Montréal de 1987 a organisé leur interdiction.",
+    "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Montreal_Protocol"
    },
    {
     "enonce": "Que distribue-t-on à la population en cas d'accident nucléaire ?",
@@ -6812,7 +6996,8 @@
      "Des comprimés de fluor",
      "Des vitamines"
     ],
-    "explication": "Ils saturent la thyroïde, qui ne fixe alors plus l'iode radioactif."
+    "explication": "Ils saturent la thyroïde, qui ne fixe alors plus l'iode radioactif.",
+    "source": "https://en.wikipedia.org/wiki/Iodine"
    },
    {
     "enonce": "Quel chimiste français a isolé le fluor en 1886 ?",
@@ -6822,7 +7007,8 @@
      "Antoine Lavoisier",
      "Marie Curie"
     ],
-    "explication": "Il a reçu le prix Nobel de chimie en 1906."
+    "explication": "Il a reçu le prix Nobel de chimie en 1906.",
+    "source": "https://cavac.at/cavacopedia/History%20of%20fluorine"
    },
    {
     "enonce": "Quel halogène servait, avec l'argent, en photographie argentique ?",
@@ -6832,7 +7018,8 @@
      "L'astate",
      "La tennessine"
     ],
-    "explication": "Le bromure d'argent noircit à la lumière."
+    "explication": "Le bromure d'argent noircit à la lumière.",
+    "source": "https://encycloreader.org/r/wikipedia.php?q=Bromine"
    },
    {
     "enonce": "Quel produit ménager libère du chlore ?",
@@ -6842,7 +7029,8 @@
      "Le bicarbonate",
      "Le savon noir"
     ],
-    "explication": "Il ne faut jamais la mélanger à un acide : cela dégage du chlore toxique."
+    "explication": "Il ne faut jamais la mélanger à un acide : cela dégage du chlore toxique.",
+    "source": "https://www.vecteurbac.fr/wp-content/uploads/2024/06/Ne-jamais-melanger-eau-de-Javel-et-acide.pdf"
    },
    {
     "enonce": "Quel phénomène lumineux doit son nom à un minéral contenant du fluor ?",
@@ -6852,7 +7040,8 @@
      "L'incandescence",
      "Le laser"
     ],
-    "explication": "La fluorine, ce minéral, brille sous les ultraviolets."
+    "explication": "La fluorine, ce minéral, brille sous les ultraviolets.",
+    "source": "https://handwiki.org/wiki/Biology:Fluorescence"
    },
    {
     "enonce": "Pourquoi met-on du fluor dans le dentifrice ?",
@@ -6862,7 +7051,8 @@
      "Pour la couleur",
      "Pour faire mousser"
     ],
-    "explication": "Le fluorure rend l'émail plus résistant aux acides des bactéries."
+    "explication": "Le fluorure rend l'émail plus résistant aux acides des bactéries.",
+    "source": "https://www.colgate.com/fr-ca/oral-health/fluoride/how-fluoride-protects-your-smile-and-treatment-options"
    },
    {
     "enonce": "D'où extrait-on surtout le brome ?",
@@ -6872,7 +7062,8 @@
      "De l'air",
      "Des arbres"
     ],
-    "explication": "La mer Morte en est une grande source."
+    "explication": "La mer Morte en est une grande source.",
+    "source": "https://encycloreader.org/r/wikipedia.php?q=Bromine"
    },
    {
     "enonce": "Sous quelle forme est le chlore à température ambiante ?",
@@ -6882,7 +7073,8 @@
      "Un solide",
      "Un métal"
     ],
-    "explication": "Le fluor est aussi un gaz, le brome un liquide et l'iode un solide."
+    "explication": "Le fluor est aussi un gaz, le brome un liquide et l'iode un solide.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/f/Fluorine.htm"
    },
    {
     "enonce": "Sous quelle forme est l'iode à température ambiante ?",
@@ -6892,7 +7084,8 @@
      "Un liquide rouge",
      "Un gaz incolore"
     ],
-    "explication": "Il se sublime facilement : on s'en sert pour montrer le passage direct du solide à la vapeur violette."
+    "explication": "Il se sublime facilement : on s'en sert pour montrer le passage direct du solide à la vapeur violette.",
+    "source": "https://en.wikipedia.org/wiki/Iodine"
    },
    {
     "enonce": "Quel chimiste suédois a découvert le chlore en 1774 ?",
@@ -6902,7 +7095,8 @@
      "Dmitri Mendeleïev",
      "William Ramsay"
     ],
-    "explication": "Humphry Davy a montré en 1810 qu'il s'agissait d'un élément."
+    "explication": "Humphry Davy a montré en 1810 qu'il s'agissait d'un élément.",
+    "source": "https://encycloreader.org/r/wikipedia.php?q=Chlorine"
    },
    {
     "enonce": "Quel chimiste français a découvert l'iode en 1811 dans des cendres d'algues ?",
@@ -6912,7 +7106,8 @@
      "Antoine Lavoisier",
      "Henri Moissan"
     ],
-    "explication": "Il fabriquait du salpêtre à partir de ces cendres."
+    "explication": "Il fabriquait du salpêtre à partir de ces cendres.",
+    "source": "https://en.wikipedia.org/wiki/Iodine"
    },
    {
     "enonce": "Quel chimiste a découvert le brome en 1826, à Montpellier ?",
@@ -6922,7 +7117,8 @@
      "Bernard Courtois",
      "Joseph Proust"
     ],
-    "explication": "Il l'a découvert en étudiant les marais salants de Montpellier."
+    "explication": "Il l'a découvert en étudiant les marais salants de Montpellier.",
+    "source": "https://britannica.com/biography/Antoine-Jerome-Balard"
    },
    {
     "enonce": "Combien d'électrons manque-t-il aux halogènes pour compléter leur couche externe ?",
@@ -6932,7 +7128,8 @@
      "3",
      "0"
     ],
-    "explication": "C'est pourquoi ils captent facilement un électron et sont très réactifs."
+    "explication": "C'est pourquoi ils captent facilement un électron et sont très réactifs.",
+    "source": "https://en.wikipedia.org/wiki/Halogen"
    },
    {
     "enonce": "Quel acide de l'estomac contient du chlore ?",
@@ -6942,7 +7139,8 @@
      "L'acide lactique",
      "L'acide acétique"
     ],
-    "explication": "Il aide à digérer et tue de nombreux microbes."
+    "explication": "Il aide à digérer et tue de nombreux microbes.",
+    "source": "https://www.wikiwand.com/en/Stomach_acid"
    },
    {
     "enonce": "Quel acide contenant du fluor peut graver le verre ?",
@@ -6952,7 +7150,8 @@
      "L'acide sulfurique",
      "L'acide citrique"
     ],
-    "explication": "Les verriers s'en servent pour décorer le verre."
+    "explication": "Les verriers s'en servent pour décorer le verre.",
+    "source": "https://infovitrail.com/contenu.php/fr/d/---la-gravure-a-l-acide-fluorhydrique/4d5fdfab-9375-4156-aaae-613816d32ec6"
    },
    {
     "enonce": "Qu'est-ce qui pique surtout les yeux à la piscine ?",
@@ -6962,7 +7161,8 @@
      "L'eau froide",
      "Le sel"
     ],
-    "explication": "Elles se forment quand le chlore réagit avec la sueur et l'urine des baigneurs."
+    "explication": "Elles se forment quand le chlore réagit avec la sueur et l'urine des baigneurs.",
+    "source": "https://www.vidal.fr/actualites/30058-la-face-cachee-des-piscines-desinfectees-par-chloration.html"
    },
    {
     "enonce": "Quel isotope radioactif sert à traiter certains cancers de la thyroïde ?",
@@ -6972,7 +7172,8 @@
      "Le fluor 19",
      "Le brome 79"
     ],
-    "explication": "La thyroïde le capte et il détruit les cellules malades."
+    "explication": "La thyroïde le capte et il détruit les cellules malades.",
+    "source": "https://en.wikipedia.org/wiki/Iodine"
    },
    {
     "enonce": "Quel isotope radioactif sert dans les examens TEP pour repérer les tumeurs ?",
@@ -6982,7 +7183,8 @@
      "Le chlore 37",
      "Le brome 81"
     ],
-    "explication": "Fixé sur du sucre, il s'accumule dans les cellules qui en consomment beaucoup."
+    "explication": "Fixé sur du sucre, il s'accumule dans les cellules qui en consomment beaucoup.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/f/Fluorine.htm"
    },
    {
     "enonce": "Quel halogène est le plus abondant dans l'eau de mer ?",
@@ -6992,7 +7194,8 @@
      "L'iode",
      "L'astate"
     ],
-    "explication": "Les ions chlorure forment plus de la moitié du sel de mer."
+    "explication": "Les ions chlorure forment plus de la moitié du sel de mer.",
+    "source": "https://en.wikipedia.org/wiki/Halogen"
    }
   ]
  }

@@ -11,7 +11,7 @@ import re
 import sys
 from collections import Counter
 
-from sources import SOURCES
+from sources import FICHES_ANTERIEURES, SOURCES
 
 ICI = os.path.dirname(os.path.abspath(__file__))
 RESSOURCES = os.path.join(ICI, "..", "CultureFight.swiftpm", "Resources")
@@ -107,8 +107,12 @@ def verifier_fiches():
                 erreur(jeu, f"{ou} : la question inverse doit contenir {{y}}")
             paires = r.get("paires", [])
             for p in paires:
-                if not isinstance(p, list) or len(p) != 3 or not all(isinstance(t, str) and t.strip() for t in p):
-                    erreur(jeu, f"{ou} : paire incomplète {p} (attendu : x, y, contexte)")
+                if not isinstance(p, list) or len(p) not in (3, 4) or not all(isinstance(t, str) and t.strip() for t in p):
+                    erreur(jeu, f"{ou} : paire incomplète {p} (attendu : x, y, contexte, source)")
+                elif len(p) == 4 and not p[3].startswith("https://"):
+                    erreur(jeu, f"{ou} : source mal formée pour « {p[0]} » (URL https attendue)")
+                elif len(p) == 3 and jeu not in FICHES_ANTERIEURES:
+                    erreur(jeu, f"{ou} : pas de source pour « {p[0]} » (obligatoire pour une nouvelle fiche)")
             xs = [p[0] for p in paires if p]
             ys = [p[1] for p in paires if len(p) > 1]
             doublons(jeu, f"{ou} : x", xs)
@@ -126,6 +130,11 @@ def verifier_fiches():
                 erreur(jeu, f"{ou} : il faut au moins 3 mauvaises réponses différentes")
             if normaliser(qq.get("bonne", "")) in {normaliser(t) for t in faux}:
                 erreur(jeu, f"{ou} : la bonne réponse figure parmi les mauvaises")
+            source = qq.get("source")
+            if source is not None and not str(source).startswith("https://"):
+                erreur(jeu, f"{ou} : source mal formée (URL https attendue)")
+            elif source is None and jeu not in FICHES_ANTERIEURES:
+                erreur(jeu, f"{ou} : pas de source (obligatoire pour une nouvelle fiche)")
             tous_enonces.append(normaliser(qq.get("enonce", "")))
             total += 1
     doublons("fiches", "énoncé", tous_enonces)

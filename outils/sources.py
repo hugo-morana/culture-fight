@@ -43,6 +43,17 @@ SOURCES = {
 }
 
 
+# Fiches créées avant la règle « une source par question » (tâche 52). Leurs questions sans source
+# sont signalées sans bloquer ; verification/faits.csv suit leur vérification. Toute nouvelle fiche
+# doit donner une source pour chaque paire et chaque question.
+FICHES_ANTERIEURES = {
+    "cetaces", "arbres", "fleurs", "champignons", "rapaces", "felins", "primates", "insectes",
+    "reptiles", "dinosaures", "eres-geologiques", "os", "organes", "muscles", "volcans", "seismes",
+    "fleuves-europe", "fleuves-monde", "lacs", "oceans-mers", "peintres-renaissance",
+    "gaz-nobles", "halogenes",
+}
+
+
 def exporter():
     """Écrit Resources/sources.json, lu par la fiche des combattants."""
     import json
