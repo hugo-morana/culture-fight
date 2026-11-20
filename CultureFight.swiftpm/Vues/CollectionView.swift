@@ -122,19 +122,29 @@ struct FicheCombattantView: View {
 
     @Environment(\.dismiss) private var fermer
     @State private var exemple: String?
+    @State private var angle: Double = 0
+
+    private var recto: some View {
+        Color.clear
+            .overlay(alignment: .top) { IllustrationCombattant(modele: modele, taille: 80) }
+            .clipShape(RoundedRectangle(cornerRadius: 16))
+            .overlay(RoundedRectangle(cornerRadius: 16).stroke(Color.blue.opacity(0.85), lineWidth: 2))
+    }
+
+    private func retourner() {
+        withAnimation(.spring(duration: 0.7, bounce: 0.3)) { angle += 180 }
+    }
 
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 14) {
-                    Color.clear
+                    CarteRetournable(angle: angle, recto: recto, verso: VersoCarte(modele: modele))
                         .frame(height: 280)
-                        .overlay(alignment: .top) { IllustrationCombattant(modele: modele, taille: 80) }
-                        .clipShape(RoundedRectangle(cornerRadius: 16))
-                        .overlay(RoundedRectangle(cornerRadius: 16).stroke(Color.blue.opacity(0.85), lineWidth: 2))
                         .shadow(color: modele.specialite.couleur.opacity(0.6), radius: 16)
-                        .modifier(Holographique())
-                    Text("Incline la carte avec le doigt")
+                        .modifier(Holographique(toucher: retourner))
+                        .sensoryFeedback(.impact(weight: .medium), trigger: angle)
+                    Text("Touche la carte pour la retourner, glisse pour l'incliner")
                         .font(.caption2)
                         .foregroundStyle(.secondary)
                         .frame(maxWidth: .infinity)
@@ -182,6 +192,67 @@ struct FicheCombattantView: View {
         VStack(alignment: .leading, spacing: 4) {
             Text(titre).font(.caption.bold()).foregroundStyle(.secondary)
             Text(texte).font(.body).fixedSize(horizontal: false, vertical: true)
+        }
+    }
+}
+
+/// Dos de la carte : la fiche technique du combattant.
+struct VersoCarte: View {
+    let modele: ModeleCombattant
+
+    private static let fond = Color(red: 0.05, green: 0.08, blue: 0.2)
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            HStack {
+                Text(modele.nom)
+                    .font(.title2.bold())
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.6)
+                Spacer()
+                Text(modele.rarete.rawValue)
+                    .font(.caption.bold())
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 3)
+                    .background(Capsule().fill(modele.specialite.couleur.opacity(0.35)))
+            }
+            Text("\(modele.style) · \(modele.specialite.nom)")
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+            jauge("PV", "heart.fill", modele.pvMax, sur: 150, couleur: .green)
+            jauge("Attaque", "bolt.fill", modele.attaque, sur: 80, couleur: .orange)
+            jauge("Défense", "shield.fill", modele.defense, sur: 20, couleur: .cyan)
+            Spacer(minLength: 0)
+            Label("Bonus de vitesse : \(modele.familleStyle.effetVitesse.nom)", systemImage: "hare.fill")
+                .font(.footnote.bold())
+                .foregroundStyle(modele.specialite.couleur)
+        }
+        .padding(16)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+        .background(
+            RoundedRectangle(cornerRadius: 16)
+                .fill(Self.fond)
+        )
+        .overlay(RoundedRectangle(cornerRadius: 16).stroke(Color.blue.opacity(0.85), lineWidth: 2))
+    }
+
+    private func jauge(_ titre: String, _ icone: String, _ valeur: Int, sur maximum: Int, couleur: Color) -> some View {
+        let part = min(1.0, Double(valeur) / Double(maximum))
+        return VStack(alignment: .leading, spacing: 3) {
+            HStack {
+                Label(titre, systemImage: icone)
+                Spacer()
+                Text("\(valeur)").monospacedDigit()
+            }
+            .font(.caption.bold())
+            GeometryReader { geo in
+                ZStack(alignment: .leading) {
+                    Capsule().fill(Color.white.opacity(0.12))
+                    Capsule().fill(couleur.gradient)
+                        .frame(width: geo.size.width * part)
+                }
+            }
+            .frame(height: 6)
         }
     }
 }

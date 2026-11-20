@@ -245,6 +245,8 @@ struct TransitionZoom: ViewModifier {
 
 /// Incline la vue en 3D sous le doigt, avec un reflet qui suit le mouvement.
 struct Holographique: ViewModifier {
+    /// Appelé quand le doigt touche la carte sans la faire glisser.
+    var toucher: (() -> Void)? = nil
     @State private var inclinaison: CGSize = .zero
 
     func body(content: Content) -> some View {
@@ -264,9 +266,39 @@ struct Holographique: ViewModifier {
                         inclinaison = CGSize(width: max(-120, min(120, geste.translation.width)),
                                              height: max(-120, min(120, geste.translation.height)))
                     }
-                    .onEnded { _ in
+                    .onEnded { geste in
+                        let distance = abs(geste.translation.width) + abs(geste.translation.height)
+                        if distance < 10 { toucher?() }
                         withAnimation(.spring(duration: 0.6, bounce: 0.45)) { inclinaison = .zero }
                     }
             )
+    }
+}
+
+/// Carte à deux faces qui se retourne en 3D autour de l'axe vertical.
+/// L'angle est animable : la face visible change exactement à mi-rotation.
+struct CarteRetournable<Recto: View, Verso: View>: View, Animatable {
+    var angle: Double
+    let recto: Recto
+    let verso: Verso
+
+    var animatableData: Double {
+        get { angle }
+        set { angle = newValue }
+    }
+
+    private var rectoVisible: Bool {
+        cos(angle * Double.pi / 180) >= 0
+    }
+
+    var body: some View {
+        ZStack {
+            recto
+                .opacity(rectoVisible ? 1 : 0)
+            verso
+                .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
+                .opacity(rectoVisible ? 0 : 1)
+        }
+        .rotation3DEffect(.degrees(angle), axis: (x: 0, y: 1, z: 0), perspective: 0.5)
     }
 }
