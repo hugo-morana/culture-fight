@@ -23,36 +23,114 @@ enum ModeCollection: String, CaseIterable, Identifiable {
     }
 }
 
-/// « Ma collection » : tous les combattants, en liste, en tuiles ou en paquet de cartes à effeuiller.
+/// Critère de regroupement de « Ma collection ». Le choix est mémorisé d'une visite à l'autre.
+enum GroupementCollection: String, CaseIterable, Identifiable {
+    case domaine, famille, style
+
+    var id: String { rawValue }
+
+    var titre: String {
+        switch self {
+        case .domaine: "Domaine"
+        case .famille: "Famille"
+        case .style: "Style de combat"
+        }
+    }
+
+    var icone: String {
+        switch self {
+        case .domaine: "globe.europe.africa"
+        case .famille: "books.vertical"
+        case .style: "figure.martial.arts"
+        }
+    }
+}
+
+/// Un groupe de combattants affiché sous un même titre.
+struct GroupeCollection: Identifiable {
+    let titre: String
+    let picto: String
+    let modeles: [ModeleCombattant]
+    var id: String { titre }
+}
+
+extension ModeleCombattant {
+    /// Vrai si la recherche apparaît dans le nom, la spécialité, la famille, le domaine ou le style
+    /// (sans tenir compte des majuscules ni des accents).
+    func correspond(a recherche: String) -> Bool {
+        let champs = [nom, specialite.nom, specialite.famille, specialite.domaine, style, familleStyle.rawValue, rarete.rawValue]
+        let mots = recherche.split(separator: " ").map(String.init)
+        return mots.allSatisfy { mot in champs.contains { $0.localizedStandardContains(mot) } }
+    }
+}
+
+/// « Ma collection » : tous les combattants, en liste, en tuiles ou en paquet de cartes à effeuiller,
+/// groupés par domaine, famille ou style de combat, avec une recherche.
 struct CollectionView: View {
     let retour: () -> Void
 
     @AppStorage("collection.mode") private var mode: ModeCollection = .tuiles
+    @AppStorage("collection.groupement") private var groupement: GroupementCollection = .domaine
+    @State private var recherche = ""
     @State private var detail: ModeleCombattant?
     @Namespace private var zoom
 
-    /// Les domaines dans l'ordre du catalogue.
-    static var domaines: [String] {
-        var vus: [String] = []
-        for modele in Catalogue.prototype where !vus.contains(modele.specialite.domaine) {
-            vus.append(modele.specialite.domaine)
+    /// Les combattants retenus par la recherche, groupés selon `groupement`, dans l'ordre du catalogue.
+    static func groupes(_ groupement: GroupementCollection, recherche: String) -> [GroupeCollection] {
+        let texte = recherche.trimmingCharacters(in: .whitespaces)
+        let modeles = texte.isEmpty ? Catalogue.prototype : Catalogue.prototype.filter { $0.correspond(a: texte) }
+        var ordre: [String] = []
+        var parCle: [String: [ModeleCombattant]] = [:]
+        var pictos: [String: String] = [:]
+        for modele in modeles {
+            let cle: String
+            let picto: String
+            switch groupement {
+            case .domaine:
+                cle = modele.specialite.domaine
+                picto = Pictos.domaine(cle)
+            case .famille:
+                cle = modele.specialite.famille
+                picto = Pictos.famille(cle, domaine: modele.specialite.domaine)
+            case .style:
+                cle = modele.familleStyle.rawValue
+                picto = modele.familleStyle.picto
+            }
+            if parCle[cle] == nil {
+                ordre.append(cle)
+                pictos[cle] = picto
+            }
+            parCle[cle, default: []].append(modele)
         }
-        return vus
+        return ordre.map { GroupeCollection(titre: $0, picto: pictos[$0] ?? "", modeles: parCle[$0] ?? []) }
+    }
+
+    private var groupes: [GroupeCollection] {
+        Self.groupes(groupement, recherche: recherche)
     }
 
     var body: some View {
         NavigationStack {
             Group {
-                switch mode {
-                case .liste:
-                    ListeCollection(zoom: zoom) { detail = $0 }
-                case .tuiles:
-                    TuilesCollection(zoom: zoom) { detail = $0 }
-                case .paquet:
-                    PaquetCollection(zoom: zoom) { detail = $0 }
+                let groupes = groupes
+                if groupes.isEmpty {
+                    ContentUnavailableView.search(text: recherche)
+                } else {
+                    switch mode {
+                    case .liste:
+                        ListeCollection(groupes: groupes, zoom: zoom) { detail = $0 }
+                    case .tuiles:
+                        TuilesCollection(groupes: groupes, zoom: zoom) { detail = $0 }
+                    case .paquet:
+                        PaquetCollection(groupes: groupes, zoom: zoom) { detail = $0 }
+                    }
                 }
             }
             .transition(.opacity)
+            .animation(.snappy, value: groupement)
+            .searchable(text: $recherche, placement: .navigationBarDrawer(displayMode: .always),
+                        prompt: "Nom, spécialité, style…")
+            .autocorrectionDisabled()
             .safeAreaInset(edge: .top, spacing: 0) {
                 Picker("Affichage", selection: $mode.animation(.snappy)) {
                     ForEach(ModeCollection.allCases) { choix in
@@ -71,6 +149,18 @@ struct CollectionView: View {
                 ToolbarItem(placement: .topBarLeading) {
                     Button("Retour", action: retour)
                 }
+                ToolbarItem(placement: .topBarTrailing) {
+                    Menu {
+                        Picker("Grouper par", selection: $groupement) {
+                            ForEach(GroupementCollection.allCases) { choix in
+                                Label(choix.titre, systemImage: choix.icone).tag(choix)
+                            }
+                        }
+                    } label: {
+                        Label("Grouper par \(groupement.titre.lowercased())", systemImage: "rectangle.3.group")
+                    }
+                    .sensoryFeedback(.selection, trigger: groupement)
+                }
             }
             .sheet(item: $detail) { modele in
                 FicheCombattantView(modele: modele)
@@ -83,6 +173,7 @@ struct CollectionView: View {
 /// Mode « Tuiles » : les cartes en grille de deux colonnes, groupées par domaine ;
 /// toucher une carte la retourne.
 struct TuilesCollection: View {
+    let groupes: [GroupeCollection]
     let zoom: Namespace.ID
     let ouvrir: (ModeleCombattant) -> Void
 
@@ -98,13 +189,12 @@ struct TuilesCollection: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
-                ForEach(CollectionView.domaines, id: \.self) { domaine in
-                    let modeles = Catalogue.prototype.filter { $0.specialite.domaine == domaine }
-                    Text("\(Pictos.domaine(domaine)) \(domaine) · \(modeles.count)")
+                ForEach(groupes) { groupe in
+                    Text("\(groupe.picto) \(groupe.titre) · \(groupe.modeles.count)")
                         .font(.titre(22, relativeTo: .title3))
                         .lettrageLogo()
                     LazyVGrid(columns: colonnes, spacing: 12) {
-                        ForEach(modeles) { modele in
+                        ForEach(groupe.modeles) { modele in
                             CarteAnimee(progression: retournes.contains(modele.id) ? 1 : 0,
                                         modele: modele) { ouvrir(modele) }
                                 .frame(height: 200)

@@ -2,18 +2,18 @@ import SwiftUI
 
 // MARK: - Mode « Liste »
 
-/// Mode « Liste » : une ligne par combattant, groupée par domaine, avec ses stats en bref.
+/// Mode « Liste » : une ligne par combattant, groupée, avec ses stats en bref.
 struct ListeCollection: View {
+    let groupes: [GroupeCollection]
     let zoom: Namespace.ID
     let ouvrir: (ModeleCombattant) -> Void
 
     var body: some View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 8, pinnedViews: [.sectionHeaders]) {
-                ForEach(CollectionView.domaines, id: \.self) { domaine in
-                    let modeles = Catalogue.prototype.filter { $0.specialite.domaine == domaine }
+                ForEach(groupes) { groupe in
                     Section {
-                        ForEach(modeles) { modele in
+                        ForEach(groupe.modeles) { modele in
                             Button { ouvrir(modele) } label: {
                                 LigneCollection(modele: modele)
                             }
@@ -21,7 +21,7 @@ struct ListeCollection: View {
                             .modifier(SourceZoom(id: modele.id, espace: zoom))
                         }
                     } header: {
-                        Text("\(Pictos.domaine(domaine)) \(domaine) · \(modeles.count)")
+                        Text("\(groupe.picto) \(groupe.titre) · \(groupe.modeles.count)")
                             .font(.titre(18, relativeTo: .headline))
                             .lettrageLogo()
                             .frame(maxWidth: .infinity, alignment: .leading)
@@ -102,11 +102,12 @@ struct LigneCollection: View {
 /// du doigt : elle s'envole puis repasse sous le paquet, et les cartes du dessous s'ouvrent en éventail
 /// pendant le geste. Toucher la carte du dessus la retourne ; la réglette en bas feuillette vite.
 struct PaquetCollection: View {
+    let groupes: [GroupeCollection]
     let zoom: Namespace.ID
     let ouvrir: (ModeleCombattant) -> Void
 
-    /// Domaine filtré ; nil = tous les combattants.
-    @State private var domaine: String?
+    /// Groupe filtré (domaine, famille ou style selon le regroupement) ; nil = tous les combattants retenus.
+    @State private var groupeChoisi: String?
     /// Position de la carte du dessus dans `cartes`. Croît sans fin : on la ramène dans le paquet par modulo.
     @State private var haut = 0
     @State private var glisse: CGSize = .zero
@@ -117,8 +118,10 @@ struct PaquetCollection: View {
     private static let epaisseur = 5
 
     private var cartes: [ModeleCombattant] {
-        guard let domaine else { return Catalogue.prototype }
-        return Catalogue.prototype.filter { $0.specialite.domaine == domaine }
+        if let groupeChoisi, let groupe = groupes.first(where: { $0.titre == groupeChoisi }) {
+            return groupe.modeles
+        }
+        return groupes.flatMap(\.modeles)
     }
 
     private func position(_ i: Int) -> Int {
@@ -150,7 +153,16 @@ struct PaquetCollection: View {
         .padding(.vertical)
         .sensoryFeedback(.impact(weight: .light), trigger: haut)
         .sensoryFeedback(.selection, trigger: retournee)
-        .onChange(of: domaine) { _, _ in
+        .onChange(of: groupes.map(\.id)) { _, titres in
+            if let groupeChoisi, !titres.contains(groupeChoisi) { self.groupeChoisi = nil }
+        }
+        .onChange(of: cartes.map(\.id)) { _, _ in
+            withAnimation(.spring(duration: 0.5, bounce: 0.25)) {
+                haut = 0
+                retournee = false
+            }
+        }
+        .onChange(of: groupeChoisi) { _, _ in
             withAnimation(.spring(duration: 0.5, bounce: 0.25)) {
                 haut = 0
                 retournee = false
@@ -264,9 +276,9 @@ struct PaquetCollection: View {
     private var filtres: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 8) {
-                puce("Tous", choisi: domaine == nil) { domaine = nil }
-                ForEach(CollectionView.domaines, id: \.self) { d in
-                    puce("\(Pictos.domaine(d)) \(d)", choisi: domaine == d) { domaine = d }
+                puce("Tous", choisi: groupeChoisi == nil) { groupeChoisi = nil }
+                ForEach(groupes) { g in
+                    puce("\(g.picto) \(g.titre)", choisi: groupeChoisi == g.titre) { groupeChoisi = g.titre }
                 }
             }
             .padding(.horizontal)

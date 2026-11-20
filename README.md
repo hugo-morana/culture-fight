@@ -74,14 +74,17 @@ questions ambiguës et les jeux sans source ; la compilation dans le cloud le la
 
 ## Ma collection
 
-L'écran « Ma collection » propose trois affichages, au choix en haut de l'écran (le choix est mémorisé) :
+Le menu « Grouper par » (en haut à droite) range les combattants par **domaine**, par **famille** de
+spécialités ou par **style de combat** (les 10 familles de styles) ; le champ de recherche filtre sur le nom,
+la spécialité, la famille, le domaine, le style ou la rareté, sans tenir compte des accents. Le regroupement
+et la recherche valent pour les trois affichages, au choix en haut de l'écran (le choix est mémorisé) :
 
 - **Liste** : une ligne par combattant (vignette, rareté, PV, attaque, défense), groupée par domaine ;
   toucher une ligne ouvre la fiche.
 - **Tuiles** : la grille de cartes, chaque carte se retourne au toucher.
 - **Paquet** : les cartes empilées. On effeuille la carte du dessus en la faisant glisser : elle s'envole
   et repasse sous le paquet, pendant que les cartes du dessous s'ouvrent en éventail. Toucher la carte la
-  retourne, la réglette feuillette vite, et des puces filtrent le paquet par domaine.
+  retourne, la réglette feuillette vite, et des puces filtrent le paquet par groupe.
 
 ## Sauvegarde
 
