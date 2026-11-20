@@ -205,8 +205,8 @@ struct DessinAttaque {
             let angle = Double(i) * 1.05 + 0.4
             let long = 46 * CGFloat(min(1, k * 4))
             var trait = Path()
-            trait.move(to: CGPoint(x: b.x - cos(angle) * long, y: b.y - sin(angle) * long))
-            trait.addLine(to: CGPoint(x: b.x + cos(angle) * long, y: b.y + sin(angle) * long))
+            trait.move(to: CGPoint(x: b.x - cs(angle) * long, y: b.y - sn(angle) * long))
+            trait.addLine(to: CGPoint(x: b.x + cs(angle) * long, y: b.y + sn(angle) * long))
             ctx.stroke(trait, with: .color(.white.opacity(1 - k)), style: StrokeStyle(lineWidth: 3, lineCap: .round))
         }
         // Fumée.
@@ -214,9 +214,9 @@ struct DessinAttaque {
             couche.addFilter(.blur(radius: 8))
             for i in 0..<7 {
                 let angle = Double(i) / 7 * 2 * .pi
-                let d = 10 + 40 * k
-                let r = 14 + 16 * k
-                let c = CGPoint(x: b.x + cos(angle) * d, y: b.y + sin(angle) * d * 0.6)
+                let d = CGFloat(10 + 40 * k)
+                let r = CGFloat(14 + 16 * k)
+                let c = CGPoint(x: b.x + cs(angle) * d, y: b.y + sn(angle) * d * 0.6)
                 couche.fill(Path(ellipseIn: Geo.carre(c, r)), with: .color(violet.opacity(0.55 * (1 - k))))
             }
         }
@@ -250,20 +250,20 @@ struct DessinAttaque {
         let debut = Angle.degrees(200), fin = Angle.degrees(200 + 140 * min(1, k * 3))
         croissant.addArc(center: b, radius: 54, startAngle: debut, endAngle: fin, clockwise: false)
         ctx.stroke(croissant, with: .color(Color(red: 1, green: 0.55, blue: 0.1).opacity(1 - k)),
-                   style: StrokeStyle(lineWidth: 12 * (1 - k) + 2, lineCap: .round))
+                   style: StrokeStyle(lineWidth: CGFloat(12 * (1 - k) + 2), lineCap: .round))
         ctx.stroke(croissant, with: .color(.white.opacity(1 - k)), style: StrokeStyle(lineWidth: 3, lineCap: .round))
         // Onde de choc.
         for i in 0..<2 {
             let q = max(0, k - Double(i) * 0.15)
-            let r = 20 + 110 * Geo.sortie(q)
+            let r = CGFloat(20 + 110 * Geo.sortie(q))
             ctx.stroke(Path(ellipseIn: CGRect(x: b.x - r, y: b.y - r * 0.45, width: 2 * r, height: r * 0.9)),
-                       with: .color(.orange.opacity(0.8 * (1 - q))), lineWidth: 5 * (1 - q) + 1)
+                       with: .color(.orange.opacity(0.8 * (1 - q))), lineWidth: CGFloat(5 * (1 - q) + 1))
         }
         // Éclats.
         for i in 0..<10 {
             let angle = Double(i) / 10 * 2 * .pi + 0.3
-            let d = 70 * Geo.sortie(k)
-            let c = CGPoint(x: b.x + cos(angle) * d, y: b.y + sin(angle) * d - 30 * k + 60 * k * k)
+            let d = CGFloat(70 * Geo.sortie(k))
+            let c = CGPoint(x: b.x + cs(angle) * d, y: b.y + sn(angle) * d - CGFloat(30 * k - 60 * k * k))
             ctx.fill(Path(CGRect(x: c.x - 3, y: c.y - 3, width: 6, height: 6)), with: .color(.brown.opacity(1 - k)))
         }
     }
@@ -292,13 +292,15 @@ struct DessinAttaque {
             couche.blendMode = .plusLighter
             for i in 0..<4 {
                 let angle = Double(i) * .pi / 2 + .pi / 4 * k
-                let long = 80 * Geo.sortie(min(1, k * 2)) * (1 - k * 0.5)
+                let long = CGFloat(80 * Geo.sortie(min(1, k * 2)) * (1 - k * 0.5))
                 var rayon = Path()
                 rayon.move(to: b)
-                rayon.addLine(to: CGPoint(x: b.x + cos(angle) * long, y: b.y + sin(angle) * long))
-                couche.stroke(rayon, with: .color(or.opacity(1 - k)), style: StrokeStyle(lineWidth: 6 * (1 - k) + 1, lineCap: .round))
+                rayon.addLine(to: CGPoint(x: b.x + cs(angle) * long, y: b.y + sn(angle) * long))
+                let epaisseur = CGFloat(6 * (1 - k) + 1)
+                couche.stroke(rayon, with: .color(or.opacity(1 - k)), style: StrokeStyle(lineWidth: epaisseur, lineCap: .round))
             }
-            couche.fill(Path(ellipseIn: Geo.carre(b, 26 * (1 - k) + 4)),
+            let eclat = CGFloat(26 * (1 - k) + 4)
+            couche.fill(Path(ellipseIn: Geo.carre(b, eclat)),
                         with: .radialGradient(Gradient(colors: [.white, or.opacity(0)]), center: b, startRadius: 0, endRadius: 30))
         }
         var bouclier = ctx.resolve(Image(systemName: "shield.lefthalf.filled"))
@@ -356,7 +358,7 @@ struct DessinAttaque {
         // Onde de chi finale.
         let q = min(1, max(0, (impact - 0.36) / 0.64))
         if q > 0 {
-            let r = 18 + 90 * Geo.sortie(q)
+            let r = CGFloat(18 + 90 * Geo.sortie(q))
             ctx.stroke(Path(ellipseIn: Geo.carre(b, r)), with: .color(rouge.opacity(1 - q)), lineWidth: 4)
         }
     }
@@ -394,8 +396,8 @@ struct DessinAttaque {
         // Étincelles.
         for i in 0..<8 {
             let angle = Double(i) / 8 * 2 * .pi + 0.2
-            let d = 20 + 50 * Geo.sortie(impact)
-            let c = CGPoint(x: b.x + cos(angle) * d, y: b.y + sin(angle) * d)
+            let d = CGFloat(20 + 50 * Geo.sortie(impact))
+            let c = CGPoint(x: b.x + cs(angle) * d, y: b.y + sn(angle) * d)
             ctx.drawLayer { couche in
                 couche.opacity = 1 - impact
                 couche.translateBy(x: c.x, y: c.y)
@@ -418,7 +420,7 @@ struct DessinAttaque {
                     let q = max(0, p - Double(i) * 0.025)
                     let centre = Geo.courbe(a, b, q, bosse: 40)
                     let angle = q * 30 + Double(i)
-                    let c = CGPoint(x: centre.x + cos(angle) * 12, y: centre.y + sin(angle) * 12)
+                    let c = CGPoint(x: centre.x + cs(angle) * 12, y: centre.y + sn(angle) * 12)
                     couche.fill(Path(ellipseIn: Geo.carre(c, 3.5 - CGFloat(i) * 0.2)),
                                 with: .color((i.isMultiple(of: 2) ? cyan : mauve).opacity(1 - Double(i) / 14)))
                 }
@@ -428,7 +430,7 @@ struct DessinAttaque {
             return
         }
         let k = impact
-        let r: CGFloat = 30 + 24 * Geo.sortie(min(1, k * 2))
+        let r = CGFloat(30 + 24 * Geo.sortie(min(1, k * 2)))
         ctx.drawLayer { couche in
             couche.opacity = 1 - k * k
             couche.translateBy(x: b.x, y: b.y)
@@ -440,8 +442,8 @@ struct DessinAttaque {
             for i in 0..<12 {
                 let angle = Double(i) / 12 * 2 * .pi
                 var rune = Path()
-                rune.move(to: CGPoint(x: cos(angle) * r * 0.76, y: sin(angle) * r * 0.76))
-                rune.addLine(to: CGPoint(x: cos(angle + 0.12) * r * 0.95, y: sin(angle + 0.12) * r * 0.95))
+                rune.move(to: CGPoint(x: cs(angle) * r * 0.76, y: sn(angle) * r * 0.76))
+                rune.addLine(to: CGPoint(x: cs(angle + 0.12) * r * 0.95, y: sn(angle + 0.12) * r * 0.95))
                 couche.stroke(rune, with: .color(.white), lineWidth: 2)
             }
         }
@@ -449,8 +451,8 @@ struct DessinAttaque {
             couche.blendMode = .plusLighter
             for i in 0..<12 {
                 let angle = Double(i) / 12 * 2 * .pi
-                let d = 10 + 60 * Geo.sortie(k)
-                let c = CGPoint(x: b.x + cos(angle) * d, y: b.y + sin(angle) * d - 20 * k)
+                let d = CGFloat(10 + 60 * Geo.sortie(k))
+                let c = CGPoint(x: b.x + cs(angle) * d, y: b.y + sn(angle) * d - CGFloat(20 * k))
                 couche.opacity = 1 - k
                 couche.drawLayer { etoile in
                     etoile.translateBy(x: c.x, y: c.y)
@@ -492,9 +494,9 @@ struct DessinAttaque {
             couche.blendMode = .plusLighter
             for i in 0..<9 {
                 let angle = -Double.pi / 2 + (Double(i) - 4) * 0.28
-                let haut = (40 + Double(i % 3) * 14) * Geo.sortie(min(1, k * 2)) * (1 - k * 0.6)
-                let c = CGPoint(x: b.x + cos(angle) * haut * 0.6, y: b.y + sin(angle) * haut)
-                couche.fill(Path(ellipseIn: Geo.carre(c, 10 * (1 - k) + 2)), with: .color(Color.orange.opacity(1 - k)))
+                let haut = CGFloat((40 + Double(i % 3) * 14) * Geo.sortie(min(1, k * 2)) * (1 - k * 0.6))
+                let c = CGPoint(x: b.x + cs(angle) * haut * 0.6, y: b.y + sn(angle) * haut)
+                couche.fill(Path(ellipseIn: Geo.carre(c, CGFloat(10 * (1 - k) + 2))), with: .color(Color.orange.opacity(1 - k)))
             }
         }
     }
@@ -523,7 +525,7 @@ struct DessinAttaque {
         let k = impact
         ctx.drawLayer { couche in
             couche.addFilter(.blur(radius: 10))
-            let r = 30 + 50 * Geo.sortie(k)
+            let r = CGFloat(30 + 50 * Geo.sortie(k))
             couche.fill(Path(ellipseIn: CGRect(x: b.x - r, y: b.y - r * 0.6, width: 2 * r, height: 1.2 * r)),
                         with: .color(vert.opacity(0.45 * (1 - k))))
         }
@@ -577,7 +579,7 @@ struct DessinAttaque {
                 couche.stroke(plume, with: .color(.red), lineWidth: 2)
             }
             if p >= 1 && arrive {
-                let r = 4 + 18 * Geo.sortie(impact)
+                let r = CGFloat(4 + 18 * Geo.sortie(impact))
                 ctx.stroke(Path(ellipseIn: Geo.carre(cible, r)), with: .color(bois.opacity(0.7 * (1 - impact))), lineWidth: 1.5)
             }
         }
@@ -592,8 +594,8 @@ struct DessinAttaque {
             let k = t / 0.18
             ctx.drawLayer { couche in
                 couche.blendMode = .plusLighter
-                couche.fill(Path(ellipseIn: Geo.carre(a, 10 + 22 * k)),
-                            with: .radialGradient(Gradient(colors: [.white, feu.opacity(0)]), center: a, startRadius: 0, endRadius: 10 + 22 * k))
+                couche.fill(Path(ellipseIn: Geo.carre(a, CGFloat(10 + 22 * k))),
+                            with: .radialGradient(Gradient(colors: [.white, feu.opacity(0)]), center: a, startRadius: 0, endRadius: CGFloat(10 + 22 * k)))
             }
         }
         for i in 0..<3 {
@@ -616,7 +618,7 @@ struct DessinAttaque {
         let k = impact
         ctx.drawLayer { couche in
             couche.blendMode = .plusLighter
-            let r = 12 + 50 * Geo.sortie(min(1, k * 1.6))
+            let r = CGFloat(12 + 50 * Geo.sortie(min(1, k * 1.6)))
             couche.fill(Path(ellipseIn: Geo.carre(b, r)),
                         with: .radialGradient(Gradient(colors: [.white.opacity(1 - k), feu.opacity(1 - k), .red.opacity(0)]),
                                               center: b, startRadius: 0, endRadius: r))
@@ -625,15 +627,18 @@ struct DessinAttaque {
             couche.addFilter(.blur(radius: 6))
             for i in 0..<6 {
                 let angle = Double(i) / 6 * 2 * .pi
-                let d = 20 + 40 * k
-                let c = CGPoint(x: b.x + cos(angle) * d, y: b.y + sin(angle) * d * 0.7 - 20 * k)
-                couche.fill(Path(ellipseIn: Geo.carre(c, 12 + 10 * k)), with: .color(.gray.opacity(0.5 * (1 - k))))
+                let d = CGFloat(20 + 40 * k)
+                let c = CGPoint(x: b.x + cs(angle) * d, y: b.y + sn(angle) * d * 0.7 - CGFloat(20 * k))
+                couche.fill(Path(ellipseIn: Geo.carre(c, CGFloat(12 + 10 * k))), with: .color(.gray.opacity(0.5 * (1 - k))))
             }
         }
     }
 }
 
 // MARK: - Géométrie
+
+private func cs(_ angle: Double) -> CGFloat { CGFloat(Foundation.cos(angle)) }
+private func sn(_ angle: Double) -> CGFloat { CGFloat(Foundation.sin(angle)) }
 
 private enum Geo {
     static func ligne(_ a: CGPoint, _ b: CGPoint, _ t: Double) -> CGPoint {
@@ -664,7 +669,7 @@ private enum Geo {
         for i in 0..<(branches * 2) {
             let angle = Double(i) * .pi / Double(branches) - .pi / 2
             let r = i.isMultiple(of: 2) ? rayon : creux
-            let point = CGPoint(x: cos(angle) * r, y: sin(angle) * r)
+            let point = CGPoint(x: cs(angle) * r, y: sn(angle) * r)
             if i == 0 { p.move(to: point) } else { p.addLine(to: point) }
         }
         p.closeSubpath()
