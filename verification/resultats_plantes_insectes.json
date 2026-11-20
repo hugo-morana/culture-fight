@@ -1,0 +1,95 @@
+{
+ "13": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/geai-des-chenes",
+  "note": ""
+ },
+ "14": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/hetre-europeen",
+  "note": "Huile de faîne confirmée ; forme triangulaire non décrite par la source mais classique (akène trigone)."
+ },
+ "15": {
+  "statut": "corrigé",
+  "source": "https://www.futura-sciences.com/planete/questions-reponses/botanique-difference-chataigne-marron-5942/",
+  "note": "Ambigu : dans le langage courant, « marron » désigne aussi une variété de châtaigne, donc « Châtaignier » (autre réponse de la relation) serait aussi correct. Préciser « marron d'Inde ».",
+  "correction": {
+   "fait": "le marron d'Inde"
+  }
+ },
+ "16": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Marron_glac%C3%A9",
+  "note": "Marron glacé = châtaigne de Castanea sativa confite ; châtaigne et marron désignent tous deux le fruit du châtaignier."
+ },
+ "17": {
+  "statut": "vérifié",
+  "source": "https://www.woodlands.co.uk/blog/flora-and-fauna/winged-seeds/",
+  "note": ""
+ },
+ "18": {
+  "statut": "vérifié",
+  "source": "https://www.wwf.ch/sites/default/files/doc-2021-07/2021-07-materiel-pedagogique-science-des-pommes-de-pin.pdf",
+  "note": ""
+ },
+ "19": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/noyer-commun",
+  "note": ""
+ },
+ "20": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/noisetier-commun",
+  "note": ""
+ },
+ "21": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/definitions/botanique-olivier-8064/",
+  "note": "« parfois jusqu'à 1 000 ans ou plus » ; allégorie de la paix."
+ },
+ "22": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/figue",
+  "note": ""
+ },
+ "23": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/tulipomanie",
+  "note": "Venue de Constantinople (Empire ottoman), krach en février 1637."
+ },
+ "24": {
+  "statut": "vérifié",
+  "source": "https://lepetitjournal.com/londres/angleterre-pays-de-galles-ecosse-et-irlande-du-nord-chacun-sa-fleur-281491",
+  "note": ""
+ },
+ "25": {
+  "statut": "vérifié",
+  "source": "https://www.historic-uk.com/HistoryUK/HistoryofScotland/The-Thistle-National-Emblem-of-Scotland",
+  "note": "Légende de Largs (1263)."
+ },
+ "26": {
+  "statut": "vérifié",
+  "source": "https://www.universalis.fr/encyclopedie/fleurs-de-lis/",
+  "note": ""
+ },
+ "27": {
+  "statut": "vérifié",
+  "source": "https://www.japan-experience.com/fr/preparer-voyage/savoir/comprendre-le-japon/hanami-hommage-aux-cerisiers-en-fleurs",
+  "note": ""
+ },
+ "28": {
+  "statut": "vérifié",
+  "source": "https://culturalindia.net/national-symbols/national-flower.html",
+  "note": ""
+ },
+ "29": {
+  "statut": "vérifié",
+  "source": "https://spot.creamontblanc.org/fiches-especes/edelweiss",
+  "note": "Altitude 1300 à 3220 m, plante tomenteuse."
+ },
+ "30": {
+  "statut": "vérifié",
+  "source": "https://lepetitjournal.com/londres/angleterre-pays-de-galles-ecosse-et-irlande-du-nord-chacun-sa-fleur-281491",
+  "note": ""
+ }
+}

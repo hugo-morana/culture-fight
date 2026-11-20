@@ -16,6 +16,13 @@ struct FicheSpecialite: Decodable, Sendable {
         let explication: String
         /// [x, y, contexte] : le contexte est ajouté à l'explication.
         let paires: [[String]]
+        /// Groupes de réponses qui se recouvrent (une mer et son océan…) : jamais proposées
+        /// comme mauvaise réponse l'une de l'autre.
+        let recouvrements: [[String]]?
+
+        func recouvrent(_ a: String, _ b: String) -> Bool {
+            a == b || (recouvrements ?? []).contains { $0.contains(a) && $0.contains(b) }
+        }
     }
 
     struct QuestionFixe: Decodable, Sendable {
@@ -87,7 +94,7 @@ struct GenerateurFiche: GenerateurQuestions {
         }
         if inverse, let modele = relation.inverse {
             // Les autres x, sauf ceux qui partagent le même y (ils seraient aussi de bonnes réponses).
-            let faux = relation.paires.filter { $0[1] != y }.map { $0[0] }.shuffled()
+            let faux = relation.paires.filter { !relation.recouvrent($0[1], y) }.map { $0[0] }.shuffled()
             return .qcm(id: "\(fiche.id)-r\(numero)-\(i)-i",
                         specialite: specialite,
                         enonce: modele.replacingOccurrences(of: "{y}", with: y),
@@ -96,7 +103,7 @@ struct GenerateurFiche: GenerateurQuestions {
                         difficulte: difficulte,
                         explication: explication)
         }
-        let faux = relation.paires.map { $0[1] }.filter { $0 != y }.shuffled()
+        let faux = relation.paires.map { $0[1] }.filter { !relation.recouvrent($0, y) }.shuffled()
         return .qcm(id: "\(fiche.id)-r\(numero)-\(i)",
                     specialite: specialite,
                     enonce: relation.modele.replacingOccurrences(of: "{x}", with: x),

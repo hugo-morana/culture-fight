@@ -145,9 +145,9 @@
  },
  {
   "pays": "Guinée équatoriale",
-  "capitale": "Malabo",
+  "capitale": "Ciudad de la Paz",
   "notoriete": 3,
-  "note": "Elle se trouve sur l'île de Bioko, et non sur la partie continentale du pays."
+  "note": "Depuis un décret de janvier 2026, cette ville du continent remplace Malabo, sur l'île de Bioko."
  },
  {
   "pays": "Kenya",
@@ -177,7 +177,7 @@
   "pays": "Madagascar",
   "capitale": "Antananarivo",
   "notoriete": 2,
-  "note": "Son nom signifie « la ville des mille », d'après les mille soldats qui la gardaient."
+  "note": "Son nom signifie « la ville des mille », d'après, selon la tradition, les mille soldats du roi Andrianjaka."
  },
  {
   "pays": "Malawi",

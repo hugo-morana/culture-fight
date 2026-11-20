@@ -1,0 +1,529 @@
+{
+ "52": {
+  "statut": "vérifié",
+  "source": "https://fr.wikipedia.org/wiki/Tigre_de_Sib%C3%A9rie ; https://www.downtoearth.org.in/wildlife-biodiversity/why-do-tigers-have-stripes--74393",
+  "note": "Mâles jusqu'à environ 3,8 m queue comprise ; rayures propres à chaque individu."
+ },
+ "53": {
+  "statut": "vérifié",
+  "source": "https://www.nationalzoo.si.edu/node/6886",
+  "note": "96-112 km/h, tenus environ 274 m ; griffes semi-rétractiles."
+ },
+ "54": {
+  "statut": "vérifié",
+  "source": "https://www.larousse.fr/encyclopedie/vie-sauvage/lion/178160",
+  "note": "Larousse : seuls félins à vivre en groupe social, appelé troupe ; lionnes 80-90 % de la chasse."
+ },
+ "55": {
+  "statut": "vérifié",
+  "source": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Jaguar",
+  "note": "Morsure à travers le crâne des mammifères et carapace des tortues."
+ },
+ "56": {
+  "statut": "vérifié",
+  "source": "https://kids.nationalgeographic.com/animals/mammals/facts/snow-leopard",
+  "note": "12 pays d'Asie centrale ; enroule sa queue « comme une écharpe »."
+ },
+ "57": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Cougar",
+  "note": "Record Guinness du plus grand nombre de noms (plus de 40 en anglais)."
+ },
+ "58": {
+  "statut": "corrigé",
+  "source": "https://fr.wikipedia.org/wiki/Lynx_bor%C3%A9al_en_France",
+  "note": "Le lynx a été réintroduit dans les Vosges (1983-1993) mais est revenu naturellement dans le Jura depuis la Suisse ; « plus grand félin sauvage de France » non confirmé par la source.",
+  "correction": {
+   "contexte": "Disparu de France au XIXe siècle, le lynx boréal a été réintroduit dans les Vosges et est revenu dans le Jura depuis la Suisse."
+  }
+ },
+ "59": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Black_panther ; https://www.panthera.org/blog-post/wild-cats-101-black-cats-and-more-melanism",
+  "note": "« Le plus souvent » non confirmé : panthère noire = léopard (Afrique, Asie) ou jaguar (Amériques) mélanique ; taches visibles sous une bonne lumière.",
+  "correction": {
+   "contexte": "En Afrique et en Asie, la panthère noire est un léopard noir : ses taches restent visibles sous une bonne lumière."
+  }
+ },
+ "60": {
+  "statut": "vérifié",
+  "source": "https://fr.wikipedia.org/wiki/Chat_sauvage_d'Europe",
+  "note": "Queue épaisse à anneaux noirs, bout toujours noir."
+ },
+ "61": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Serval",
+  "note": "Repère les rongeurs à l'ouïe, bondit dessus."
+ },
+ "62": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Caracal",
+  "note": "Saute à plus de 3 m pour attraper des oiseaux en vol ; touffes noires aux oreilles."
+ },
+ "63": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Gorilla",
+  "note": "Dos argentés sauvages 136-227 kg."
+ },
+ "64": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Primate",
+  "note": "Goodall, 1960 : chimpanzé enfonçant des brins d'herbe dans une termitière (« brindilles » acceptable)."
+ },
+ "65": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "66": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "67": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "68": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "69": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "70": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "71": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "72": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "73": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "74": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Primate",
+  "note": "Brachiation confirmée ; « une dizaine de mètres d'un élan » non confirmé, retiré.",
+  "correction": {
+   "contexte": "Ce déplacement s'appelle la brachiation ; les gibbons le pratiquent de façon très acrobatique."
+  }
+ },
+ "75": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "76": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "77": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "78": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "79": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "80": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "81": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "82": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "83": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "84": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "85": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "531": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "532": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "533": {
+  "statut": "vérifié",
+  "source": "https://fr.wikipedia.org/wiki/Chat_des_sables",
+  "note": "Fourrure épaisse sous les pattes, isole du sable brûlant."
+ },
+ "534": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Black-footed_cat",
+  "note": "Poids 1,1-2,45 kg (pas 1 à 2 kg) ; environ 60 % de réussite observée à la chasse.",
+  "correction": {
+   "contexte": "Il pèse moins de 2,5 kg, mais réussit environ 6 attaques sur 10."
+  }
+ },
+ "535": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "536": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Bobcat",
+  "note": "« Félin sauvage le plus commun des États-Unis » non confirmé ; la source dit qu'il vit dans tous les États contigus sauf le Delaware et que son nom vient de sa queue courte.",
+  "correction": {
+   "contexte": "On l'appelle aussi bobcat, à cause de sa queue courte ; il vit dans presque tous les États-Unis."
+  }
+ },
+ "537": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "538": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Felidae",
+  "note": "Chat rubigineux 0,9-1,6 kg, plus petit félin."
+ },
+ "539": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "540": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Cat",
+  "note": "Bastet représentée en chatte ; chats embaumés à Bubastis."
+ },
+ "541": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Panthera_hybrid",
+  "note": "La plupart dépassent 400 kg ; plus grands que leurs deux parents."
+ },
+ "542": {
+  "statut": "vérifié",
+  "source": "https://www.nationalzoo.si.edu/node/6886 ; https://en.wikipedia.org/wiki/Felidae",
+  "note": "Le guépard ronronne et ne rugit pas ; seuls lion, léopard, tigre, jaguar rugissent et ne ronronnent que dans certaines circonstances."
+ },
+ "543": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Cat",
+  "note": "La source parle de la largeur des passages et de la position des objets dans le noir, pas des mouvements d'air.",
+  "correction": {
+   "contexte": "Ces vibrisses renseignent sur la largeur des passages et la position des objets dans le noir."
+  }
+ },
+ "544": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Cat",
+  "note": "Comparaison fente/pupille ronde non confirmée ; la source dit que la fente permet de gérer la lumière vive et que la pupille s'ouvre en grand dans le noir.",
+  "correction": {
+   "contexte": "En plein soleil la fente se resserre ; dans le noir, la pupille s'ouvre sur presque tout l'œil."
+  }
+ },
+ "545": {
+  "statut": "vérifié",
+  "source": "https://www.larousse.fr/encyclopedie/vie-sauvage/lion/178160",
+  "note": "Larousse : en moyenne 20 heures de repos par jour."
+ },
+ "546": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "547": {
+  "statut": "vérifié",
+  "source": "https://www.downtoearth.org.in/wildlife-biodiversity/why-do-tigers-have-stripes--74393",
+  "note": "Les cerfs ne voient que bleu et vert : l'orange leur paraît vert."
+ },
+ "548": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Felidae ; https://en.wikipedia.org/wiki/Cat",
+  "note": "Papilles cornées qui raclent la viande et servent à la toilette, tournées vers l'arrière."
+ },
+ "549": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Melanism ; https://en.wikipedia.org/wiki/Black_panther",
+  "note": "Léopards noirs en Afrique/Asie, jaguars noirs en Amérique."
+ },
+ "550": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "551": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Cat",
+  "note": "Gestation 64-67 jours confirmée ; « 3 à 5 chatons en général » non confirmé (étude : 1 à 6, moyenne 3).",
+  "correction": {
+   "contexte": "Elle dure en moyenne 65 jours ; une portée compte souvent 3 chatons."
+  }
+ },
+ "552": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Cat",
+  "note": "Tapetum lucidum renvoie la lumière dans l'œil."
+ },
+ "553": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Felidae",
+  "note": "41 espèces ; chat rubigineux 0,9-1,6 kg, tigre jusqu'à 325 kg."
+ },
+ "554": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Cat",
+  "note": "5 griffes devant (dont l'ergot), 4 derrière."
+ },
+ "555": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "556": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "557": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "558": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Primate",
+  "note": "Long doigt fin confirmé ; tapotement et écoute de l'écho non confirmés dans la source consultée, remplacés.",
+  "correction": {
+   "contexte": "Ses dents de rongeur et son long doigt fin lui font jouer le rôle du pic dans la forêt."
+  }
+ },
+ "559": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "560": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "561": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "562": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "563": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "564": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "565": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "566": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "567": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "568": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "569": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "570": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "571": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "572": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Primate",
+  "note": "Queues préhensiles chez les atélidés et capucins du Nouveau Monde ; « cinquième main » est une image."
+ },
+ "573": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Primate",
+  "note": "La source situe les queues préhensiles chez les singes du Nouveau Monde uniquement."
+ },
+ "574": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "575": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Gorilla ; https://en.wikipedia.org/wiki/Mountain_gorilla",
+  "note": "Feuilles, pousses, tiges ; fruits en part variable."
+ },
+ "605": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "606": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "607": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "608": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "609": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "610": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "611": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "612": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "613": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "614": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "615": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "616": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "617": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "618": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "619": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "620": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "621": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "622": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "623": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "624": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ },
+ "625": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : quota de recherches web de la session épuisé avant ce fait ; à reprendre."
+ }
+}

@@ -1,0 +1,409 @@
+{
+ "136": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/Mount_Etna",
+  "note": "Wikipédia dit seulement « l'un des plus hauts volcans actifs d'Europe » (3 369 m en 2024) ; le Teide (Canaries) est plus haut.",
+  "correction": {
+   "contexte": "Avec plus de 3 300 m, c'est le plus haut sommet d'Italie au sud des Alpes et l'un des plus hauts volcans actifs d'Europe."
+  }
+ },
+ "137": {
+  "statut": "vérifié",
+  "source": "https://archive.blogs.harvard.edu/wheredisasterstrikes/volcano/vesuvius-79-c-e",
+  "note": ""
+ },
+ "138": {
+  "statut": "vérifié",
+  "source": "https://blogs.egu.eu/divisions/nh/2019/09/18/stromboli-the-lighthouse-of-the-mediterranean/",
+  "note": ""
+ },
+ "139": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Piton_de_la_Fournaise",
+  "note": "Plus de 150 éruptions depuis le XVIIe siècle."
+ },
+ "140": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/1902_eruption_of_Mount_Pel%C3%A9e",
+  "note": "Environ 28 000 à 29 000 morts."
+ },
+ "141": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Pele_(deity)",
+  "note": "Pele réside dans le cratère Halemaʻumaʻu du Kīlauea. Attention : en relation, la mauvaise réponse « États-Unis » (Mont Saint Helens) serait aussi correcte pour le Kīlauea ; à exclure des leurres."
+ },
+ "142": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/1980_eruption_of_Mount_St._Helens",
+  "note": "Total retiré : 401 m (2 950 m → 2 549 m). L'USGS parle de 300 m pour le cône."
+ },
+ "143": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Mount_Fuji",
+  "note": ""
+ },
+ "145": {
+  "statut": "vérifié",
+  "source": "https://earthsky.org/earth/mount-hekla-was-called-gateway-to-hell",
+  "note": "Surnom apparu après l'éruption de 1104."
+ },
+ "146": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/1883_eruption_of_Krakatoa",
+  "note": "Entendu à Rodrigues, 4 800 km."
+ },
+ "147": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Mount_Merapi",
+  "note": "Wikipédia : le plus actif d'Indonésie."
+ },
+ "148": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Popocat%C3%A9petl",
+  "note": "Nahuatl popōca + tepētl ; à 70 km au sud-est de Mexico."
+ },
+ "149": {
+  "statut": "vérifié",
+  "source": "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Mount_Erebus",
+  "note": ""
+ },
+ "150": {
+  "statut": "vérifié",
+  "source": "https://worldatlas.com/articles/where-is-the-world-s-largest-lava-lake.html",
+  "note": "Environ 20 km au nord de Goma."
+ },
+ "151": {
+  "statut": "corrigé",
+  "source": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/1991_eruption_of_Mount_Pinatubo",
+  "note": "Refroidissement de 0,5 °C entre 1991 et 1993, pas « pendant un an ».",
+  "correction": {
+   "contexte": "Son éruption de 1991 a refroidi la planète d'environ 0,5 °C entre 1991 et 1993."
+  }
+ },
+ "152": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Cotopaxi",
+  "note": "5 897 m."
+ },
+ "212": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Lake_Titicaca",
+  "note": "3 812 m."
+ },
+ "213": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Lake_Baikal",
+  "note": "1 642 m ; 25 à 30 millions d'années."
+ },
+ "842": {
+  "statut": "corrigé",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Lake_Baikal",
+  "note": "La glace fait 0,5 à 1,4 m, pas toujours « plus d'un mètre ».",
+  "correction": {
+   "reponse": "Oui, chaque hiver"
+  }
+ },
+ "144": {
+  "statut": "vérifié",
+  "source": "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Air_travel_disruption_after_the_2010_Eyjafjallaj%C3%B6kull_eruption.html",
+  "note": "Plus grande fermeture du trafic aérien depuis la Seconde Guerre mondiale."
+ },
+ "214": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Lake_Geneva",
+  "note": "Le Rhône traverse le Valais et entre dans le lac entre Villeneuve et Le Bouveret ; sortie à Genève."
+ },
+ "215": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Loch_Ness",
+  "note": ""
+ },
+ "216": {
+  "statut": "vérifié",
+  "source": "https://newworldencyclopedia.org/entry/Lake_Victoria",
+  "note": "Partagé entre Tanzanie (51 %), Ouganda (43 %) et Kenya (6 %)."
+ },
+ "217": {
+  "statut": "vérifié",
+  "source": "https://www.worldatlas.com/lakes/how-loch-ness-compares-to-the-great-lakes.html",
+  "note": "Attention en relation : le leurre « États-Unis » (réponse du lac Michigan) est à moitié juste pour le lac Supérieur ; à exclure des leurres."
+ },
+ "218": {
+  "statut": "vérifié",
+  "source": "https://www.worldatlas.com/lakes/how-loch-ness-compares-to-the-great-lakes.html",
+  "note": "Seul Grand Lac entièrement aux États-Unis : confirmé. Chicago n'est pas mentionnée dans la source consultée."
+ },
+ "739": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/sciences/questions-reponses/histoire-alfred-lacroix-reconstitue-eruption-meurtriere-montagne-pelee-martinique-17429/",
+  "note": ""
+ },
+ "749": {
+  "statut": "vérifié",
+  "source": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/1991_eruption_of_Mount_Pinatubo",
+  "note": "VEI 6 dans l'infobox. L'étendue 0 à 8 de l'échelle n'a pas été vérifiée dans une source de la session."
+ },
+ "750": {
+  "statut": "vérifié",
+  "source": "https://vulkane.net/en/volcanoes/la-reunion/piton-fournaise.html",
+  "note": "Source : style d'éruption « hawaïen » pour le Piton de la Fournaise. Le mot « effusive » n'y figure pas."
+ },
+ "755": {
+  "statut": "corrigé",
+  "source": "https://www.amnh.org/explore/ology/earth/volcanoes-magma-rising",
+  "note": "Environ 1 500 confirmé ; « une cinquantaine par an » non confirmé, la source dit qu'une vingtaine sont sans doute en éruption en ce moment.",
+  "correction": {
+   "contexte": "À tout moment, une vingtaine sont sans doute en éruption."
+  }
+ },
+ "757": {
+  "statut": "vérifié",
+  "source": "https://archive.blogs.harvard.edu/wheredisasterstrikes/volcano/vesuvius-79-c-e",
+  "note": "Herculanum enfouie sous environ 20 m de matériaux."
+ },
+ "758": {
+  "statut": "vérifié",
+  "source": "https://archive.blogs.harvard.edu/wheredisasterstrikes/volcano/vesuvius-79-c-e",
+  "note": "Pline l'Ancien est mort à Stabies en tentant de porter secours ; Pline le Jeune a écrit deux lettres à Tacite."
+ },
+ "841": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Lake_Geneva",
+  "note": ""
+ },
+ "219": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "220": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "221": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "222": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "223": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "224": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "738": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "740": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "741": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "742": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "743": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "744": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "745": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "746": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "747": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "748": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "751": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "752": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait. Probable erreur : Olympus Mons culmine à environ 22 km au-dessus du niveau de référence martien, mais s'élève d'environ 26 km au-dessus des plaines. Proposition : « Il culmine à environ 22 km d'altitude, plus de deux fois et demie l'Everest. » À vérifier."
+ },
+ "753": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "754": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "756": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "759": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "760": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "761": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "762": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait. Certains décomptes placent les États-Unis devant l'Indonésie ; les leurres (France, Brésil, Australie) ne posent pas de problème. À vérifier."
+ },
+ "822": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "823": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "824": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "825": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "826": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait. Ambiguïté probable : la mer Caspienne, présente parmi les leurres de la relation, est plus longue que le Tanganyika. Proposition de fait : « Lac d'eau douce le plus long du monde, en Afrique de l'Est ». À vérifier."
+ },
+ "827": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "828": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "829": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "830": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "831": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "832": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "833": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait. Ambiguïté possible : la mer Caspienne (en partie en Europe) fait partie des leurres. Proposition : « Plus grand lac entièrement en Europe, près de Saint-Pétersbourg ». À vérifier."
+ },
+ "834": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "835": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "836": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "837": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "838": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "839": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "840": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "843": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait. Calcul à vérifier : lac Ontario environ 19 000 km², Corse environ 8 700 km²."
+ },
+ "844": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ },
+ "845": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherches web de la session épuisé avant ce fait."
+ }
+}

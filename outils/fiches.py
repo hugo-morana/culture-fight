@@ -66,7 +66,7 @@ FICHES = [
     {"id": "arbres", "relations": [
         rel("Quel arbre produit ce fruit : {x} ?",
             "Le fruit appelé {x} vient de cet arbre : {y}.",
-            [("le gland", "Chêne"), ("la faîne", "Hêtre"), ("le marron", "Marronnier"),
+            [("le gland", "Chêne"), ("la faîne", "Hêtre"), ("le marron d'Inde", "Marronnier"),
              ("la châtaigne", "Châtaignier"), ("la samare double, qui tournoie comme un hélicoptère", "Érable"),
              ("la pomme de pin", "Pin"), ("la noix", "Noyer"), ("la noisette", "Noisetier"),
              ("l'olive", "Olivier"), ("la figue", "Figuier")],
@@ -640,6 +640,9 @@ def verifier(fiche):
                     erreurs.append(f"inverse « {r['inverse']} » : trop peu de mauvaises réponses pour {y}")
             if len(set(ys)) != len(ys):
                 erreurs.append(f"inverse « {r['inverse']} » : y en double (question ambiguë)")
+        for p in r["paires"]:
+            if len({y for y in ys if not recouvrent(r, p[1], y)}) < 3:
+                erreurs.append(f"« {p[0]} » : moins de 3 mauvaises réponses possibles")
         total += len(r["paires"]) * (2 if r["inverse"] else 1)
     for qq in fiche["questions"]:
         if len(set(qq["faux"])) < 3 or qq["bonne"] in qq["faux"]:
@@ -647,6 +650,38 @@ def verifier(fiche):
         if not qq["explication"].strip():
             erreurs.append(f"question « {qq['enonce']} » : pas d'explication")
     return total, erreurs
+
+
+# Réponses qui se recouvrent (une mer et l'océan dont elle fait partie…) : le jeu ne les propose
+# jamais comme mauvaise réponse l'une de l'autre. Clé : (fiche, numéro de la relation).
+RECOUVREMENTS = {
+    ("oceans-mers", 0): [["l'océan Atlantique", "la Manche", "la mer du Nord", "la mer Baltique"],
+                         ["la mer Méditerranée", "la mer Adriatique", "la mer Égée", "la mer Noire"],
+                         ["l'océan Indien", "la mer Rouge"],
+                         ["l'océan Pacifique", "la mer du Japon"]],
+    ("oceans-mers", 2): [["l'océan Atlantique", "la mer Baltique"]],
+    ("fleuves-europe", 1): [["la mer Méditerranée", "la mer Adriatique", "la mer Noire"],
+                            ["l'océan Atlantique", "la Manche", "la mer du Nord", "la mer Baltique"]],
+    ("fleuves-monde", 2): [["l'océan Atlantique", "le golfe du Mexique", "le golfe de Guinée"],
+                           ["l'océan Indien", "le golfe du Bengale", "la mer d'Arabie"]],
+    ("volcans", 0): [["États-Unis", "États-Unis (Hawaï)"], ["France (La Réunion)", "France (Martinique)"]],
+    ("lacs", 0): [["États-Unis", "États-Unis et Canada"], ["France", "Suisse et France"]],
+    ("os", 0): [["la mâchoire", "le crâne", "l'oreille"]],
+}
+
+
+def ajouter_recouvrements():
+    par_id = {f["id"]: f for f in FICHES}
+    for (fid, n), groupes in RECOUVREMENTS.items():
+        relation = par_id[fid]["relations"][n]
+        ys = {p[1] for p in relation["paires"]}
+        for g in groupes:
+            assert set(g) <= ys, (fid, n, set(g) - ys)
+        relation["recouvrements"] = groupes
+
+
+def recouvrent(relation, a, b):
+    return a == b or any(a in g and b in g for g in relation.get("recouvrements", []))
 
 
 def fusionner_ajouts():
@@ -663,6 +698,7 @@ def fusionner_ajouts():
 
 if __name__ == "__main__":
     fusionner_ajouts()
+    ajouter_recouvrements()
     ok = True
     for f in FICHES:
         total, erreurs = verifier(f)

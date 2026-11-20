@@ -304,7 +304,7 @@
       "On tirait autrefois de l'huile de ces petites graines triangulaires."
      ],
      [
-      "le marron",
+      "le marron d'Inde",
       "Marronnier",
       "Le marron d'Inde n'est pas comestible, contrairement à la châtaigne."
      ],
@@ -1216,7 +1216,7 @@
       "Il est si rapide qu'il attrape des martinets en vol."
      ],
      [
-      "Rapace qui se nourrit surtout de serpents",
+      "Rapace d'Europe qui se nourrit surtout de serpents",
       "Circaète Jean-le-Blanc",
       "Il fait du surplace et avale les serpents tout entiers."
      ],
@@ -1422,12 +1422,12 @@
      [
       "Félin d'Europe aux oreilles terminées par des pinceaux",
       "Lynx",
-      "Le lynx boréal, réintroduit dans les Vosges et le Jura, est le plus grand félin sauvage de France."
+      "Disparu de France au XIXe siècle, le lynx boréal a été réintroduit dans les Vosges et est revenu dans le Jura depuis la Suisse."
      ],
      [
       "Félin tacheté d'Afrique et d'Asie, souvent appelé panthère",
       "Léopard",
-      "La panthère noire est le plus souvent un léopard noir : ses taches restent visibles en pleine lumière."
+      "En Afrique et en Asie, la panthère noire est un léopard noir : ses taches restent visibles sous une bonne lumière."
      ],
      [
       "Petit félin des forêts d'Europe, qui ressemble à un gros chat tigré",
@@ -1469,7 +1469,7 @@
      [
       "Plus petit félin d'Afrique, aux dessous des pattes noirs",
       "Chat à pieds noirs",
-      "Il ne pèse que 1 à 2 kg, mais c'est l'un des chasseurs les plus efficaces."
+      "Il pèse moins de 2,5 kg, mais réussit environ 6 attaques sur 10."
      ],
      [
       "Félin d'Asie centrale au poil long et à la face aplatie",
@@ -1479,7 +1479,7 @@
      [
       "Lynx d'Amérique du Nord à queue courte",
       "Lynx roux",
-      "On l'appelle aussi bobcat ; c'est le félin sauvage le plus commun des États-Unis."
+      "On l'appelle aussi bobcat, à cause de sa queue courte ; il vit dans presque tous les États-Unis."
      ],
      [
       "Lion qui ne survit plus qu'en Inde",
@@ -1568,7 +1568,7 @@
      "À entendre",
      "À rien, elles sont décoratives"
     ],
-    "explication": "Ces vibrisses détectent les mouvements d'air et la largeur des passages."
+    "explication": "Ces vibrisses renseignent sur la largeur des passages et la position des objets dans le noir."
    },
    {
     "enonce": "Pourquoi les pupilles du chat sont-elles en fente ?",
@@ -1578,7 +1578,7 @@
      "Pour voir plus loin",
      "Pour faire peur"
     ],
-    "explication": "Une fente se ferme bien plus qu'une pupille ronde en plein soleil."
+    "explication": "En plein soleil la fente se resserre ; dans le noir, la pupille s'ouvre sur presque tout l'œil."
    },
    {
     "enonce": "Combien d'heures un lion peut-il dormir par jour ?",
@@ -1648,7 +1648,7 @@
      "6 mois",
      "1 an"
     ],
-    "explication": "Elle met bas en général de 3 à 5 chatons."
+    "explication": "Elle dure en moyenne 65 jours ; une portée compte souvent 3 chatons."
    },
    {
     "enonce": "Pourquoi les yeux des chats brillent-ils dans le noir ?",
@@ -1748,7 +1748,7 @@
      [
       "Singe aux très longs bras qui se balance de branche en branche",
       "Gibbon",
-      "Ce déplacement s'appelle la brachiation ; il franchit ainsi une dizaine de mètres d'un élan."
+      "Ce déplacement s'appelle la brachiation ; les gibbons le pratiquent de façon très acrobatique."
      ]
     ]
    },
@@ -1775,7 +1775,7 @@
      [
       "Lémurien nocturne au long doigt fin pour chercher les larves",
       "Aye-aye",
-      "Il tapote le bois et écoute l'écho pour trouver les larves."
+      "Ses dents de rongeur et son long doigt fin lui font jouer le rôle du pic dans la forêt."
      ],
      [
       "Singe doré au nez retroussé des montagnes de Chine",
@@ -2589,7 +2589,7 @@
      [
       "Herbivore à trois cornes et à collerette",
       "Tricératops",
-      "Son nom signifie « tête à trois cornes »."
+      "Son nom signifie « visage à trois cornes »."
      ],
      [
       "Herbivore à plaques sur le dos et à queue pointue",
@@ -2614,7 +2614,7 @@
      [
       "Herbivore cuirassé à queue en massue",
       "Ankylosaure",
-      "Des plaques osseuses le protégeaient, jusque sur les paupières."
+      "Des plaques osseuses couvraient son dos, et sa queue finissait par une massue d'os soudés."
      ],
      [
       "Grand carnivore à voile sur le dos, mangeur de poissons",
@@ -2661,7 +2661,7 @@
      [
       "Vélociraptor",
       "Voleur rapide",
-      "Il chassait sans doute de petites proies."
+      "Un célèbre fossile le montre en plein combat avec un protocératops."
      ],
      [
       "Stégosaure",
@@ -2701,7 +2701,7 @@
      [
       "Ankylosaure",
       "Lézard soudé",
-      "Ses plaques osseuses étaient soudées comme une armure."
+      "Sa queue finissait par une massue faite de plaques osseuses soudées."
      ],
      [
       "Spinosaure",
@@ -3297,6 +3297,13 @@
       "le pariétal",
       "le crâne",
       "Il y en a deux, un de chaque côté du sommet du crâne."
+     ]
+    ],
+    "recouvrements": [
+     [
+      "la mâchoire",
+      "le crâne",
+      "l'oreille"
      ]
     ]
    },
@@ -3979,7 +3986,7 @@
      [
       "Etna",
       "Italie",
-      "Avec plus de 3 300 m, c'est le plus haut volcan actif d'Europe."
+      "Avec plus de 3 300 m, c'est le plus haut sommet d'Italie au sud des Alpes et l'un des plus hauts volcans actifs d'Europe."
      ],
      [
       "Vésuve",
@@ -4054,12 +4061,22 @@
      [
       "Pinatubo",
       "Philippines",
-      "Son éruption de 1991 a refroidi la planète d'environ 0,5 °C pendant un an."
+      "Son éruption de 1991 a refroidi la planète d'environ 0,5 °C entre 1991 et 1993."
      ],
      [
       "Cotopaxi",
       "Équateur",
       "Avec près de 5 900 m, c'est l'un des plus hauts volcans actifs du monde."
+     ]
+    ],
+    "recouvrements": [
+     [
+      "États-Unis",
+      "États-Unis (Hawaï)"
+     ],
+     [
+      "France (La Réunion)",
+      "France (Martinique)"
      ]
     ]
    },
@@ -4230,7 +4247,7 @@
      "Environ 50 000",
      "Plus d'un million"
     ],
-    "explication": "Une cinquantaine entrent en éruption chaque année."
+    "explication": "À tout moment, une vingtaine sont sans doute en éruption."
    },
    {
     "enonce": "Quel est le plus haut volcan de la chaîne des Puys ?",
@@ -4718,7 +4735,7 @@
      [
       "le Danube",
       "la mer Noire",
-      "Il traverse ou longe dix pays, un record pour un fleuve."
+      "Il traverse ou longe dix pays et passe par quatre capitales, plus qu'aucun autre fleuve."
      ],
      [
       "la Volga",
@@ -4734,6 +4751,19 @@
       "la Vistule",
       "la mer Baltique",
       "Elle rejoint la mer près de Gdańsk."
+     ]
+    ],
+    "recouvrements": [
+     [
+      "la mer Méditerranée",
+      "la mer Adriatique",
+      "la mer Noire"
+     ],
+     [
+      "l'océan Atlantique",
+      "la Manche",
+      "la mer du Nord",
+      "la mer Baltique"
      ]
     ]
    },
@@ -5137,6 +5167,18 @@
       "l'océan Atlantique",
       "Son delta, au Venezuela, est un labyrinthe de bras d'eau."
      ]
+    ],
+    "recouvrements": [
+     [
+      "l'océan Atlantique",
+      "le golfe du Mexique",
+      "le golfe de Guinée"
+     ],
+     [
+      "l'océan Indien",
+      "le golfe du Bengale",
+      "la mer d'Arabie"
+     ]
     ]
    }
   ],
@@ -5286,6 +5328,16 @@
       "Tchad, Cameroun, Niger et Nigeria",
       "Sa surface a diminué d'environ 90 % depuis les années 1960."
      ]
+    ],
+    "recouvrements": [
+     [
+      "États-Unis",
+      "États-Unis et Canada"
+     ],
+     [
+      "France",
+      "Suisse et France"
+     ]
     ]
    },
    {
@@ -5314,7 +5366,7 @@
       "Il occupe la caldeira du mont Mazama, effondré il y a environ 7 700 ans."
      ],
      [
-      "Lac le plus long du monde, en Afrique de l'Est",
+      "Lac d'eau douce le plus long du monde, en Afrique de l'Est",
       "Lac Tanganyika",
       "Il mesure environ 670 km de long et c'est le deuxième plus profond du monde."
      ],
@@ -5349,7 +5401,7 @@
       "C'est la seule île naturelle de Slovénie."
      ],
      [
-      "Plus grand lac d'Europe, près de Saint-Pétersbourg",
+      "Plus grand lac entièrement en Europe, près de Saint-Pétersbourg",
       "Lac Ladoga",
       "Pendant le siège de Léningrad, une route traversait sa glace."
      ],
@@ -5499,7 +5551,7 @@
    },
    {
     "enonce": "Le lac Baïkal gèle-t-il en hiver ?",
-    "bonne": "Oui, sur plus d'un mètre d'épaisseur",
+    "bonne": "Oui, chaque hiver",
     "faux": [
      "Non, jamais",
      "Seulement sur les bords",
@@ -5611,6 +5663,28 @@
       "Le Pirée, près d'Athènes",
       "la mer Égée",
       "C'est le port d'Athènes depuis l'Antiquité."
+     ]
+    ],
+    "recouvrements": [
+     [
+      "l'océan Atlantique",
+      "la Manche",
+      "la mer du Nord",
+      "la mer Baltique"
+     ],
+     [
+      "la mer Méditerranée",
+      "la mer Adriatique",
+      "la mer Égée",
+      "la mer Noire"
+     ],
+     [
+      "l'océan Indien",
+      "la mer Rouge"
+     ],
+     [
+      "l'océan Pacifique",
+      "la mer du Japon"
      ]
     ]
    },
@@ -5740,6 +5814,12 @@
       "Malte",
       "la mer Méditerranée",
       "Ses temples mégalithiques sont parmi les plus anciens du monde."
+     ]
+    ],
+    "recouvrements": [
+     [
+      "l'océan Atlantique",
+      "la mer Baltique"
      ]
     ]
    }
@@ -5933,7 +6013,7 @@
      [
       "Le Printemps",
       "Sandro Botticelli",
-      "Exposé lui aussi aux Offices, il montre près de 200 espèces de plantes."
+      "Exposé lui aussi aux Offices, il montre près de 200 espèces de fleurs."
      ],
      [
       "La Création d'Adam",
@@ -6518,7 +6598,7 @@
      "Le néon",
      "L'hélium"
     ],
-    "explication": "On compte environ une molécule de xénon pour 11 millions de molécules d'air."
+    "explication": "On compte environ un atome de xénon pour 11 millions de molécules d'air."
    },
    {
     "enonce": "Quel gaz noble remplit souvent les doubles vitrages ?",
@@ -6583,7 +6663,7 @@
      [
       "se passait sur les plaies en teinture brune",
       "Iode",
-      "La teinture d'iode, dissoute dans l'alcool, est un ancien antiseptique."
+      "La teinture d'iode est un ancien antiseptique de la peau."
      ],
      [
       "est un liquide rouge-brun aux vapeurs suffocantes",
@@ -6662,7 +6742,7 @@
      "Incolore",
      "Rouge"
     ],
-    "explication": "Son nom vient du grec chlôros, « vert pâle »."
+    "explication": "Son nom vient du grec chlôros, « vert-jaune pâle »."
    },
    {
     "enonce": "Quelle couleur ont les vapeurs d'iode ?",
@@ -6812,7 +6892,7 @@
      "Un liquide rouge",
      "Un gaz incolore"
     ],
-    "explication": "Chauffé, il passe directement en vapeur violette : c'est la sublimation."
+    "explication": "Il se sublime facilement : on s'en sert pour montrer le passage direct du solide à la vapeur violette."
    },
    {
     "enonce": "Quel chimiste suédois a découvert le chlore en 1774 ?",
@@ -6842,7 +6922,7 @@
      "Bernard Courtois",
      "Joseph Proust"
     ],
-    "explication": "Il l'a tiré des eaux des marais salants."
+    "explication": "Il l'a découvert en étudiant les marais salants de Montpellier."
    },
    {
     "enonce": "Combien d'électrons manque-t-il aux halogènes pour compléter leur couche externe ?",

@@ -101,7 +101,7 @@
   "nom": "Aluminium",
   "famille": "",
   "notoriete": 1,
-  "anecdote": "Le métal le plus abondant de la croûte terrestre ; il était plus cher que l'or sous Napoléon III."
+  "anecdote": "Le métal le plus abondant de la croûte terrestre ; vers 1855, il coûtait aussi cher que l'or."
  },
  {
   "numero": 14,
@@ -133,7 +133,7 @@
   "nom": "Chlore",
   "famille": "halogène",
   "notoriete": 1,
-  "anecdote": "Son nom vient du grec « vert pâle », la couleur de ce gaz ; il désinfecte l'eau des piscines."
+  "anecdote": "Son nom vient du grec chlôros, « vert-jaune pâle », la couleur de ce gaz ; il désinfecte l'eau des piscines."
  },
  {
   "numero": 18,
@@ -461,7 +461,7 @@
   "nom": "Cérium",
   "famille": "",
   "notoriete": 3,
-  "anecdote": "Nommé d'après l'astéroïde Cérès ; il sert dans les pierres à briquet."
+  "anecdote": "Nommé d'après la planète naine Cérès ; il sert dans les pierres à briquet."
  },
  {
   "numero": 59,
@@ -509,7 +509,7 @@
   "nom": "Gadolinium",
   "famille": "",
   "notoriete": 3,
-  "anecdote": "Nommé d'après le chimiste finlandais Johan Gadolin ; il sert de produit de contraste en IRM."
+  "anecdote": "Nommé d'après la gadolinite, un minéral qui honore le chimiste finlandais Johan Gadolin ; il sert de produit de contraste en IRM."
  },
  {
   "numero": 65,

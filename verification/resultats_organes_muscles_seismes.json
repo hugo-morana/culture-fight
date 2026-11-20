@@ -1,0 +1,487 @@
+{
+ "111": {
+  "statut": "vérifié",
+  "source": "https://www.letribunaldunet.fr/sante/battements-coeur-vie-entiere-chiffre.html",
+  "note": "« environ 100 000 battements par jour »."
+ },
+ "112": {
+  "statut": "vérifié",
+  "source": "https://www.merckmanuals.com/fr-ca/accueil/troubles-rénaux/diagnostic-des-maladies-rénales/reins",
+  "note": "Merck : environ 180 litres filtrés par jour, 1,5 à 2 % excrétés en urine (soit 1 à 2 L courant, ordre de grandeur cohérent)."
+ },
+ "113": {
+  "statut": "vérifié",
+  "source": "https://radiopaedia.org/articles/alveoli?lang=us",
+  "note": "« 300 million to 1 billion alveoli ... covering an area of 70 square meters »."
+ },
+ "114": {
+  "statut": "vérifié",
+  "source": "https://www.merckmanuals.com/fr-ca/accueil/troubles-du-foie-et-de-la-vésicule-biliaire/biologie-du-foie-et-de-la-vésicule-biliaire/foie",
+  "note": "Merck : plus grand organe interne, produit la bile, stocke le glycogène. Régénération : https://www.allodocteurs.fr/est-ce-que-le-foie-repousse-43585.html"
+ },
+ "115": {
+  "statut": "vérifié",
+  "source": "https://www.sante.fr/diabete-de-type-1-une-maladie-auto-immune-de-plus-en-plus-frequente-0",
+  "note": "Insuline produite par les cellules bêta des îlots de Langerhans ; production insuffisante ou nulle dans le diabète de type 1."
+ },
+ "116": {
+  "statut": "vérifié",
+  "source": "https://www.vidal.fr/sante/nutrition/corps-aliments/digestion-aliments/intestin-grele.html",
+  "note": "VIDAL : « Il mesure de 6,5 à 7 mètres de long »."
+ },
+ "117": {
+  "statut": "vérifié",
+  "source": "https://www.kenhub.com/fr/library/anatomie/vessie",
+  "note": "Kenhub : capacité moyenne 400 à 600 mL (Larousse dit 300 à 400 mL) ; « environ un demi-litre » acceptable."
+ },
+ "118": {
+  "statut": "vérifié",
+  "source": "https://www.letribunaldunet.fr/insolite/pourquoi-estomac-ne-se-digere-pas-lui-meme.html",
+  "note": "« Les cellules de la muqueuse gastrique se renouvellent entièrement tous les 2 à 4 jours »."
+ },
+ "119": {
+  "statut": "vérifié",
+  "source": "https://fr.vikidia.org/wiki/Peau",
+  "note": "« organe le plus étendu et le plus lourd du corps » ; « chez l'adulte, sa surface est d'environ 2 m2 »."
+ },
+ "120": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/sante/actualites/biologie-votre-cerveau-15-chiffres-cles-51904/",
+  "note": "Futura : environ 1,5 kg chez l'homme, 1,3 kg chez la femme (1,4 kg en moyenne, cohérent) ; 86 milliards de neurones (aussi https://www.allodocteurs.fr/quatre-choses-a-savoir-sur-le-cerveau-32620.html)."
+ },
+ "121": {
+  "statut": "vérifié",
+  "source": "https://www.allodocteurs.fr/peut-on-vivre-sans-vesicule-biliaire-43576.html",
+  "note": "Bile stockée dans la vésicule, indispensable à la digestion des graisses ; on peut vivre sans vésicule."
+ },
+ "122": {
+  "statut": "vérifié",
+  "source": "https://www.msdmanuals.com/fr/accueil/troubles-du-sang/maladies-de-la-rate/présentation-de-la-rate",
+  "note": "Pulpe rouge filtre le sang et détruit les globules rouges trop vieux ; pulpe blanche = défenses ; « Il est possible de vivre sans rate »."
+ },
+ "123": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "124": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "125": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "126": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "127": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "128": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "129": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "130": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "131": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "132": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "133": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "134": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "135": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "153": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "154": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "155": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "156": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "157": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "158": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "159": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "160": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "161": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "162": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "700": {
+  "statut": "vérifié",
+  "source": "https://www.larousse.fr/encyclopedie/medical/larynx/14128",
+  "note": "Cordes vocales partie intégrante du larynx ; saillie du cartilage thyroïde « communément appelé pomme d'Adam »."
+ },
+ "701": {
+  "statut": "vérifié",
+  "source": "https://www.merckmanuals.com/fr-ca/accueil/troubles-rénaux/diagnostic-des-maladies-rénales/reins",
+  "note": "« Chaque rein contient environ 1 million de néphrons. »"
+ },
+ "702": {
+  "statut": "vérifié",
+  "source": "https://www.vidal.fr/sante/nutrition/corps-aliments/digestion-aliments/intestin-grele.html",
+  "note": "Villosités et microvillosités multiplient la surface d'absorption (environ 30 m²)."
+ },
+ "703": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/sante/definitions/corps-humain-retine-4322/",
+  "note": "La rétine capte la lumière ; l'information remonte au cerveau par le nerf optique."
+ },
+ "704": {
+  "statut": "vérifié",
+  "source": "https://www.hug.ch/node/24843",
+  "note": "HUG : le tympan, « fine lame de tissu conjonctif », vibre quand les ondes sonores le frappent."
+ },
+ "705": {
+  "statut": "vérifié",
+  "source": "https://www.larousse.fr/encyclopedie/divers/circulation_sanguine/34108",
+  "note": "Larousse : oreillettes à paroi mince = réservoirs ; ventricules = pompes."
+ },
+ "706": {
+  "statut": "vérifié",
+  "source": "https://www.sante.fr/diabete-de-type-1-une-maladie-auto-immune-de-plus-en-plus-frequente-0",
+  "note": "Insuline produite par les cellules bêta des îlots de Langerhans du pancréas."
+ },
+ "707": {
+  "statut": "vérifié",
+  "source": "https://www.kenhub.com/fr/library/anatomie/hippocampe",
+  "note": "Nom tiré de la ressemblance avec le poisson hippocampe ; rôle majeur dans la mémoire."
+ },
+ "708": {
+  "statut": "vérifié",
+  "source": "https://www.msdmanuals.com/fr/accueil/troubles-pulmonaires-et-des-voies-aériennes/biologie-des-poumons-et-des-voies-respiratoires/présentation-du-système-respiratoire",
+  "note": "Bronches ramifiées en bronchioles, arbre bronchique décrit comme un « arbre renversé », alvéoles à l'extrémité."
+ },
+ "709": {
+  "statut": "vérifié",
+  "source": "https://www.elsan.care/fr/pathologie-et-traitement/glossaire-medical/hepato-gastro-enterologie/appendice",
+  "note": "« petite excroissance du gros intestin » ; son inflammation est l'appendicite."
+ },
+ "710": {
+  "statut": "vérifié",
+  "source": "https://www.alimentarium.org/fr/node/1178",
+  "note": "Adulte : 2 000 à 4 000 papilles ; cellules sensorielles d'une durée de vie de 10 jours, renouvelées en permanence."
+ },
+ "711": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/glossaire-definition/Peau.html",
+  "note": "Schéma de la peau : poil, follicule pileux, bulbe (le follicule pileux appartient à la peau)."
+ },
+ "712": {
+  "statut": "vérifié",
+  "source": "https://www.msdmanuals.com/fr/accueil/troubles-hormonaux-et-m%C3%A9taboliques/troubles-de-la-thyro%C3%AFde/pr%C3%A9sentation-de-la-thyro%C3%AFde",
+  "note": "Forme de papillon, sous la peau du cou ; hormones qui contrôlent la vitesse des fonctions chimiques (métabolisme)."
+ },
+ "713": {
+  "statut": "vérifié",
+  "source": "https://www.msdmanuals.com/fr/accueil/troubles-hormonaux-et-métaboliques/troubles-de-l-hypophyse/présentation-de-l-hypophyse",
+  "note": "« taille d'un petit pois », contrôle la plupart des autres glandes endocrines, produit l'hormone de croissance."
+ },
+ "714": {
+  "statut": "vérifié",
+  "source": "https://www.24matins.fr/notre-sang-fait-1500-fois-le-tour-de-notre-corps-chaque-jour-1331398",
+  "note": "5 litres de sang, parcours en une minute environ au repos ; débit cardiaque ~5 L/min confirmé par https://www.larousse.fr/encyclopedie/divers/circulation_sanguine/34108"
+ },
+ "715": {
+  "statut": "vérifié",
+  "source": "https://www.kenhub.com/fr/library/anatomie/aorte",
+  "note": "« C'est la plus grande artère du corps » ; naît du ventricule gauche."
+ },
+ "716": {
+  "statut": "vérifié",
+  "source": "https://www.larousse.fr/encyclopedie/medical/c%C3%B4lon/12088",
+  "note": "Larousse : côlon d'environ 1,40 m ; absorbe l'eau, formation des selles."
+ },
+ "717": {
+  "statut": "vérifié",
+  "source": "https://www.kenhub.com/fr/library/anatomie/glande-lacrymale",
+  "note": "Située au-dessus du globe oculaire, face supéro-temporale de l'orbite ; sécrète les larmes."
+ },
+ "718": {
+  "statut": "vérifié",
+  "source": "https://www.merckmanuals.com/fr-ca/accueil/troubles-rénaux/diagnostic-des-maladies-rénales/reins",
+  "note": "Un seul rein sain peut assurer les fonctions des deux."
+ },
+ "719": {
+  "statut": "vérifié",
+  "source": "https://fr.vikidia.org/wiki/Foie",
+  "note": "« Le foie se trouve sur le côté droit et au centre, à la hauteur de l'estomac, sous le diaphragme. » La protection par les côtes droites n'est pas citée mot pour mot."
+ },
+ "720": {
+  "statut": "vérifié",
+  "source": "https://www.kenhub.com/fr/library/anatomie/rate",
+  "note": "Kenhub : rate en arrière et à gauche de l'estomac, au niveau des côtes 9 et 10 ; rupture de la rate citée comme indication de splénectomie. MSD (https://www.msdmanuals.com/fr/accueil/troubles-du-sang/maladies-de-la-rate/présentation-de-la-rate) : lésion après accident de la route."
+ },
+ "721": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "722": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "723": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "724": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "725": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "726": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "727": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "728": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "729": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "730": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "731": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "732": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "733": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "734": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "735": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "736": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "737": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "763": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "764": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "765": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "766": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "767": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "768": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "769": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "770": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "771": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "772": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "773": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "774": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "775": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "776": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "777": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "778": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "779": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "780": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "781": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "782": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "783": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "784": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "785": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ },
+ "786": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Aucune erreur évidente à la relecture ; à revérifier."
+ }
+}

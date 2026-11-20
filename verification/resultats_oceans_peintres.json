@@ -1,0 +1,415 @@
+{
+ "225": {
+  "statut": "vérifié",
+  "source": "https://fr.vikidia.org/wiki/Marseille_antique",
+  "note": "Fondée vers 600 av. J.-C. par des Grecs de Phocée ; présentée comme « la plus vieille ville de France » (titre parfois disputé, mais tradition admise)."
+ },
+ "226": {
+  "statut": "vérifié",
+  "source": "https://www.herodote.net/Le_Havre_d_Auguste_Perret-synthese-2334.php",
+  "note": "Ambiguïté possible : les mauvaises réponses de cette relation incluent « l'océan Atlantique » ; la Manche fait partie de l'Atlantique. Envisager d'exclure les océans comme distracteurs pour les villes au bord d'une mer bordière."
+ },
+ "227": {
+  "statut": "vérifié",
+  "source": "https://www.britannica.com/place/St-Petersburg-Russia/History",
+  "note": "Fondation en 1703 par Pierre Ier, recherche d'un débouché maritime vers l'ouest (aussi https://www.herodote.net/16_mai_1703-evenement-17030516.php)."
+ },
+ "228": {
+  "statut": "vérifié",
+  "source": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Battleship_Potemkin.html",
+  "note": "Scène des escaliers d'Odessa (escalier du Potemkine) dans le film d'Eisenstein de 1925."
+ },
+ "229": {
+  "statut": "vérifié",
+  "source": "https://www.italia.it/fr/venetie/venise/faits-historiques",
+  "note": "118 îles. Ambiguïté possible : les mauvaises réponses de cette relation incluent « la mer Méditerranée » (réponse de Marseille) ; l'Adriatique fait partie de la Méditerranée, donc ce distracteur est aussi correct."
+ },
+ "230": {
+  "statut": "vérifié",
+  "source": "https://static.hlt.bme.hu/semantics/external/pages/bakdaru/en.wikipedia.org/wiki/Port_of_Rotterdam.html",
+  "note": "« the largest port in Europe », sur la mer du Nord. Ambiguïté possible : les mauvaises réponses de cette relation incluent « l'océan Atlantique » (la mer du Nord en est une mer bordière)."
+ },
+ "231": {
+  "statut": "vérifié",
+  "source": "https://livescience.com/57999-caspian-sea-facts.html",
+  "note": "Caspienne = plus grande étendue d'eau intérieure, entièrement fermée ; Bakou capitale sur sa rive ouest (https://www.newworldencyclopedia.org/entry/Baku)."
+ },
+ "232": {
+  "statut": "vérifié",
+  "source": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Jidda.html",
+  "note": "« principal gateway to Mecca », sur la mer Rouge. Ambiguïté possible : les mauvaises réponses de cette relation incluent « l'océan Indien » (la mer Rouge en est un bras)."
+ },
+ "233": {
+  "statut": "vérifié",
+  "source": "https://www.britannica.com/facts/Sydney-Opera-House",
+  "note": "Bennelong Point, Port Jackson ; toit en coques en forme de voiles."
+ },
+ "234": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/mumbai",
+  "note": "Mumbai depuis 1995, « capitale économique de l'Inde », sur la mer d'Oman (partie de l'océan Indien)."
+ },
+ "235": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/rio-de-janeiro",
+  "note": "Découverte le 1er janvier 1502 par une expédition au service du Portugal (Amerigo Vespucci), qui prit la baie de Guanabara pour l'embouchure d'un fleuve."
+ },
+ "236": {
+  "statut": "vérifié",
+  "source": "https://www.doc.surf/wiki/trans-siberian-railway",
+  "note": "Moscou–Vladivostok : 9 289 km ; Vladivostok est le terminus oriental. Ambiguïté possible : les mauvaises réponses de cette relation incluent « l'océan Pacifique » (la mer du Japon en fait partie)."
+ },
+ "237": {
+  "statut": "vérifié",
+  "source": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Piraeus.html",
+  "note": "Port d'Athènes depuis le début du Ve s. av. J.-C. ; la source le situe sur le golfe Saronique (golfe de la mer Égée, non dit explicitement par la source). Ambiguïté possible : les mauvaises réponses de cette relation incluent « la mer Méditerranée », aussi correcte."
+ },
+ "238": {
+  "statut": "vérifié",
+  "source": "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Monalisa.html",
+  "note": "« It was acquired by King Francis I of France » ; exposée au Louvre."
+ },
+ "239": {
+  "statut": "vérifié",
+  "source": "https://www.italia.it/fr/lombardie/milan/musee-du-cenacolo-vinciano",
+  "note": "Peinte (à sec) sur un mur de l'ancien réfectoire du couvent dominicain de Santa Maria delle Grazie."
+ },
+ "240": {
+  "statut": "vérifié",
+  "source": "https://www.visittuscany.com/fr/attractions/la-naissance-de-venus-de-sandro-botticelli/",
+  "note": "Conservée à la galerie des Offices, dans la même salle que Le Printemps."
+ },
+ "241": {
+  "statut": "corrigé",
+  "source": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Primavera_(Painting).html",
+  "note": "Environ 500 espèces de plantes identifiées, dont environ 190 espèces de fleurs : « près de 200 espèces de plantes » était faux. Aux Offices depuis 1919.",
+  "correction": {
+   "contexte": "Exposé lui aussi aux Offices, il montre près de 200 espèces de fleurs."
+  }
+ },
+ "242": {
+  "statut": "vérifié",
+  "source": "https://www.doc.surf/wiki/the-creation-of-adam",
+  "note": "Fresque de Michel-Ange faisant partie du plafond de la chapelle Sixtine, au Vatican."
+ },
+ "243": {
+  "statut": "vérifié",
+  "source": "https://smarthistory.org/raphael-school-of-athens-2/",
+  "note": "Platon et Aristote au centre ; Chambre de la Signature, Vatican."
+ },
+ "244": {
+  "statut": "vérifié",
+  "source": "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Venus_of_Urbino.html",
+  "note": "« one of the inspirations for Édouard Manet's 1863 Olympia »."
+ },
+ "245": {
+  "statut": "vérifié",
+  "source": "https://www.doc.surf/wiki/the-garden-of-earthly-delights",
+  "note": "Triptyque de Bosch, au Prado depuis 1939."
+ },
+ "246": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "247": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "248": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "249": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "846": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "847": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "848": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "849": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "850": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "851": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "852": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "853": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "854": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "855": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "856": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "857": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "858": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "859": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "860": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "861": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "862": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "863": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "864": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "865": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "866": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "867": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "868": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "869": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "870": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "871": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "872": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "873": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "874": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "875": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "876": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "877": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "878": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "879": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "880": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "881": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "882": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "883": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "884": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "885": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "886": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "887": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "888": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "889": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "890": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "891": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "892": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "893": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "894": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "895": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "896": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "897": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "898": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "899": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "900": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de recherche web de la session épuisé avant ce fait."
+ },
+ "901": {
+  "statut": "vérifié",
+  "source": "https://www.worldhistory.org/article/1607/michelangelos-sistine-chapel-ceiling/",
+  "note": "Contrat en mai 1508, quatre ans de travail, sur un échafaudage conçu par Michel-Ange."
+ },
+ "902": {
+  "statut": "non trouvé",
+  "source": "https://www.worldhistory.org/article/1607/michelangelos-sistine-chapel-ceiling/",
+  "note": "Réponse confirmée (commande de Jules II). Affirmation du contexte sur la reconstruction de Saint-Pierre non confirmée par la source consultée (budget de recherche épuisé)."
+ }
+}

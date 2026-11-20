@@ -1,0 +1,509 @@
+{
+ "86": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Tyrannosaurus",
+  "note": "Maastrichtien, 68 à 66 Ma."
+ },
+ "87": {
+  "statut": "corrigé",
+  "source": "https://www.wikiwand.com/en/articles/Triceratops",
+  "note": "Triceratops signifie « visage à trois cornes » (ops = visage), pas « tête ».",
+  "correction": {
+   "contexte": "Son nom signifie « visage à trois cornes »."
+  }
+ },
+ "88": {
+  "statut": "vérifié",
+  "source": "https://www.guinnessworldrecords.com/world-records/70337-smallest-brained-dinosaurs",
+  "note": "Guinness : jusqu'à 9 m, cerveau de la taille d'une noix (70 g). Le NHM compare plutôt à une prune : comparaison approximative."
+ },
+ "89": {
+  "statut": "vérifié",
+  "source": "https://www.wikiwand.com/en/Diplodocus",
+  "note": "D. carnegii : 24 à 26 m ; Jurassique supérieur."
+ },
+ "90": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Velociraptor",
+  "note": "Taille d'une dinde ; plumes attestées par des insertions de plumes (quill knobs) sur l'avant-bras."
+ },
+ "91": {
+  "statut": "vérifié",
+  "source": "https://newsreleases.sandia.gov/scientists-use-digital-paleontology-to-produce-voice-of-parasaurolophus-dinosaur/",
+  "note": "Crête à cavités d'air, son grave ; Sandia compare la forme à un trombone."
+ },
+ "92": {
+  "statut": "corrigé",
+  "source": "https://www.mentalfloss.com/science/paleontology/10-facts-about-ankylosaurus",
+  "note": "Les paupières osseuses sont documentées chez son parent Euoplocephalus (Mental Floss) ; prehistoric-wildlife.com l'affirme pour l'ankylosaure, sources en désaccord : phrase remplacée par un fait sûr.",
+  "correction": {
+   "contexte": "Des plaques osseuses couvraient son dos, et sa queue finissait par une massue d'os soudés."
+  }
+ },
+ "93": {
+  "statut": "vérifié",
+  "source": "https://wikiwand.com/en/Spinosaurus",
+  "note": "Plus long carnivore terrestre connu (env. 14 m), semi-aquatique, Afrique du Nord, mangeur de poissons."
+ },
+ "94": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Allosaure non vérifié (environ 155-145 Ma selon les sources usuelles)."
+ },
+ "95": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "96": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "97": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "98": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "99": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "100": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "101": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "102": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "103": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "104": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "105": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Ambiguïté possible : la mandibule est un os du crâne (le contexte le dit), or « le crâne » est la réponse du pariétal (n° 110) et peut être proposé comme mauvaise réponse. Piste : réponse du 110 « le sommet du crâne »."
+ },
+ "106": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "107": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "108": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "109": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "110": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. Voir 105 : « le crâne » peut être une mauvaise réponse proposée pour la mandibule ou l'étrier ; piste : « le sommet du crâne »."
+ },
+ "626": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Tyrannosaurus",
+  "note": ""
+ },
+ "627": {
+  "statut": "vérifié",
+  "source": "https://www.wikiwand.com/en/Diplodocus",
+  "note": "Marsh 1878, chevrons en double poutre sous la queue."
+ },
+ "628": {
+  "statut": "corrigé",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Velociraptor",
+  "note": "« Voleur rapide » confirmé (velox + raptor, https://thedinosaurs.org/dinosaurs/Velociraptor). « Petites proies » non confirmé : Wikipédia cite le protocératops, de taille comparable.",
+  "correction": {
+   "contexte": "Un célèbre fossile le montre en plein combat avec un protocératops."
+  }
+ },
+ "629": {
+  "statut": "vérifié",
+  "source": "https://www.livescience.com/24184-stegosaurus-facts.html",
+  "note": "« Roofed lizard » ; on croyait les plaques posées à plat comme des tuiles (voir aussi https://www.nhm.ac.uk/discover/dino-directory/stegosaurus)."
+ },
+ "630": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "631": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "632": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "633": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "634": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "635": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "636": {
+  "statut": "corrigé",
+  "source": "https://www.prehistoric-wildlife.com/species/Ankylosaurus/",
+  "note": "Nom « lézard soudé » confirmé (Barnum Brown, 1908). Mais ses plaques n'étaient pas toutes soudées : seule la massue de la queue est décrite comme faite d'ostéodermes soudés.",
+  "correction": {
+   "contexte": "Sa queue finissait par une massue faite de plaques osseuses soudées."
+  }
+ },
+ "637": {
+  "statut": "vérifié",
+  "source": "https://wikiwand.com/en/Spinosaurus",
+  "note": "« Lézard à épines » ; les épines neurales soutenaient probablement une voile de peau (certains auteurs évoquent une bosse)."
+ },
+ "638": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "639": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "640": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "641": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "642": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "643": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "644": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "645": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "646": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Velociraptor",
+  "note": "Vélociraptor : théropode dromaeosauridé ; le tyrannosaure est « le théropode archétypal » (https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Tyrannosaurus)."
+ },
+ "647": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "648": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "649": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "650": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "651": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "652": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "653": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "654": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "655": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "656": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "657": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "658": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "659": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. À contrôler : l'Édiacarien appartient à l'ère Néoprotérozoïque ; le Précambrien n'est pas une ère au sens strict."
+ },
+ "660": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "661": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "662": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "663": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "664": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "665": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "666": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "667": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "668": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "669": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. À contrôler : le Dimétrodon est un synapside plus proche des mammifères que des reptiles, pas leur ancêtre direct ; « parent » serait plus juste."
+ },
+ "670": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "671": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "672": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "673": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "674": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "675": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "676": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "677": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "678": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "679": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "680": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "681": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "682": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "683": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "684": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "685": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "686": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "687": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "688": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "689": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. À contrôler : dans la nomenclature anatomique française actuelle, le nom savant du marteau est « malléus » ; « Marteau » est le nom courant."
+ },
+ "690": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé. À contrôler : nom savant actuel « incus » ; « Enclume » est le nom courant."
+ },
+ "691": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "692": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "693": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "694": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "695": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "696": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "697": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "698": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ },
+ "699": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Pas de source consultée : quota de recherches web de la session épuisé."
+ }
+}
