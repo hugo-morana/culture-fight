@@ -54,6 +54,18 @@ FICHES_ANTERIEURES = {
 }
 
 
+def _ajouter_vague2():
+    import os
+    import sys
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import vague2
+    for module in vague2.modules():
+        SOURCES[module.FICHE["id"]] = list(module.SOURCES_GENERALES)
+
+
+_ajouter_vague2()
+
+
 def exporter():
     """Écrit Resources/sources.json, lu par la fiche des combattants."""
     import json

@@ -731,6 +731,9 @@ def sans_source(fiche):
 def fusionner_ajouts():
     """Ajoute aux fiches les relations et questions des fichiers ajouts_*.py."""
     par_id = {f["id"]: f for f in FICHES}
+    import vague2
+    for module in vague2.modules():
+        FICHES.append(module.FICHE)
     for ajouts in (AJOUTS_VIVANT, AJOUTS_CORPS_TERRE_ARTS):
         for id_fiche, contenu in ajouts.items():
             if id_fiche not in par_id:
