@@ -33,10 +33,10 @@ struct CollectionView: View {
                             .font(.title3.bold())
                         LazyVGrid(columns: colonnes, spacing: 12) {
                             ForEach(modeles) { modele in
-                                CarteRetournable(angle: retournes.contains(modele.id) ? 180 : 0,
-                                                 recto: CarteCollection(modele: modele),
-                                                 verso: VersoCollection(modele: modele) { detail = modele })
+                                CarteAnimee(progression: retournes.contains(modele.id) ? 1 : 0,
+                                            modele: modele) { detail = modele }
                                     .frame(height: 200)
+                                    .zIndex(retournes.contains(modele.id) ? 1 : 0)
                                     .contentShape(RoundedRectangle(cornerRadius: 12))
                                     .onTapGesture { retourner(modele.id) }
                                     .modifier(SourceZoom(id: modele.id, espace: zoom))
@@ -101,10 +101,11 @@ struct CarteCollection: View {
                 .overlay(alignment: .top) { IllustrationCombattant(modele: modele) }
                 .clipped()
             VStack(spacing: 2) {
+                // Place réservée : le nom est dessiné par CarteAnimee pour pouvoir pivoter.
                 Text(modele.nom)
                     .font(.headline)
                     .lineLimit(1)
-                    .minimumScaleFactor(0.6)
+                    .hidden()
                 Text("\(modele.style) · \(modele.specialite.nom)")
                     .font(.caption2)
                     .foregroundStyle(.secondary)
@@ -274,10 +275,6 @@ struct VersoCollection: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
-            Text(modele.nom)
-                .font(.headline)
-                .lineLimit(1)
-                .minimumScaleFactor(0.6)
             Text(modele.rarete.rawValue)
                 .font(.caption2.bold())
                 .foregroundStyle(modele.specialite.couleur)
@@ -299,6 +296,7 @@ struct VersoCollection: View {
             .tint(modele.specialite.couleur)
         }
         .padding(10)
+        .padding(.leading, 26) // le nom vertical occupe le bord gauche
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         .background(RoundedRectangle(cornerRadius: 12).fill(Self.fond))
         .overlay(RoundedRectangle(cornerRadius: 12).stroke(modele.specialite.couleur.opacity(0.9), lineWidth: 2))
@@ -324,5 +322,50 @@ struct VersoCollection: View {
         }
         .font(.caption2.bold())
         .accessibilityLabel("\(titre) \(valeur)")
+    }
+}
+
+/// Carte de la grille animée de bout en bout par une seule valeur, de 0 (recto) à 1 (verso) :
+/// la carte pivote en 3D, grossit à mi-course, et le nom glisse du bas de la carte
+/// jusqu'au bord gauche en tournant de 90° et en grossissant.
+struct CarteAnimee: View, Animatable {
+    var progression: Double
+    let modele: ModeleCombattant
+    let ouvrir: () -> Void
+
+    var animatableData: Double {
+        get { progression }
+        set { progression = newValue }
+    }
+
+    private static func melange(_ a: CGFloat, _ b: CGFloat, _ t: CGFloat) -> CGFloat {
+        a + (b - a) * t
+    }
+
+    var body: some View {
+        let t = CGFloat(progression)
+        let zoom = 1 + 0.16 * sin(progression * Double.pi)
+        return GeometryReader { geo in
+            let w = geo.size.width
+            let h = geo.size.height
+            ZStack {
+                CarteRetournable(angle: progression * 180,
+                                 recto: CarteCollection(modele: modele),
+                                 verso: VersoCollection(modele: modele, ouvrir: ouvrir))
+                Text(modele.nom)
+                    .font(.system(size: Self.melange(17, 21, t), weight: .heavy, design: .rounded))
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.5)
+                    .foregroundStyle(.white)
+                    .shadow(color: .black.opacity(0.6), radius: 2)
+                    .frame(width: Self.melange(w - 16, h - 24, t))
+                    .rotationEffect(.degrees(-90 * progression))
+                    .position(x: Self.melange(w / 2, 20, t),
+                              y: Self.melange(h - 49, h / 2, t))
+                    .allowsHitTesting(false)
+            }
+        }
+        .scaleEffect(zoom)
+        .shadow(color: modele.specialite.couleur.opacity(0.5 * sin(progression * Double.pi)), radius: 14)
     }
 }
