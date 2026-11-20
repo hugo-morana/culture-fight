@@ -42,7 +42,7 @@ struct SelectionEquipeView: View {
                             .buttonStyle(.plain)
                         }
                     } header: {
-                        Text(domaine).font(.nom(15, relativeTo: .subheadline)).foregroundStyle(Charte.or).textCase(nil)
+                        Text("\(Pictos.domaine(domaine)) \(domaine)").font(.nom(15, relativeTo: .subheadline)).foregroundStyle(Charte.or).textCase(nil)
                     }
                 }
 
@@ -107,14 +107,18 @@ struct LigneCombattant: View {
             Avatar(modele: modele, taille: 64)
             VStack(alignment: .leading, spacing: 4) {
                 Text(modele.nom).font(.nom(18))
-                Text("\(modele.style) · \(modele.specialite.nom)")
-                    .font(.subheadline)
+                Text(modele.sousTitre)
+                    .font(.nom(14, relativeTo: .subheadline))
                     .foregroundStyle(.secondary)
+                Text("\(modele.classement) · \(modele.type)")
+                    .font(.nom(12, relativeTo: .caption))
+                    .foregroundStyle(modele.specialite.couleur)
+                    .fixedSize(horizontal: false, vertical: true)
                 Text("\(modele.rarete.rawValue) · PV \(modele.pvMax) · Att \(modele.attaque) · Déf \(modele.defense)")
                     .font(.caption)
                     .foregroundStyle(.secondary)
                 Text(modele.apparence)
-                    .font(.caption)
+                    .font(.system(.caption, design: .serif))
                     .italic()
                     .fixedSize(horizontal: false, vertical: true)
                 Text("Questions : \(modele.questions)")

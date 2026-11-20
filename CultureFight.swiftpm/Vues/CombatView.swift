@@ -125,8 +125,10 @@ struct CarteCamp: View {
                         }
                         BarrePV(pv: actif.pv, pvMax: actif.modele.pvMax)
                         HStack(spacing: 6) {
-                            Text("\(actif.modele.style) · \(actif.modele.specialite.nom)")
-                                .font(.caption)
+                            Text(actif.modele.sousTitre)
+                                .font(.nom(12, relativeTo: .caption))
+                                .lineLimit(1)
+                                .minimumScaleFactor(0.7)
                                 .foregroundStyle(.secondary)
                             Spacer()
                             if actif.bouclier > 0 {

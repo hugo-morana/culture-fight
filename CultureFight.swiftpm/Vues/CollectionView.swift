@@ -29,7 +29,7 @@ struct CollectionView: View {
                 VStack(alignment: .leading, spacing: 20) {
                     ForEach(domaines, id: \.self) { domaine in
                         let modeles = Catalogue.prototype.filter { $0.specialite.domaine == domaine }
-                        Text("\(domaine) · \(modeles.count)")
+                        Text("\(Pictos.domaine(domaine)) \(domaine) · \(modeles.count)")
                             .font(.titre(22, relativeTo: .title3))
                             .lettrageLogo()
                         LazyVGrid(columns: colonnes, spacing: 12) {
@@ -101,20 +101,27 @@ struct CarteCollection: View {
                 .frame(maxHeight: .infinity)
                 .overlay(alignment: .top) { IllustrationCombattant(modele: modele) }
                 .clipped()
+                .overlay(alignment: .topLeading) {
+                    PastillePicto(picto: modele.familleStyle.picto).padding(6)
+                }
+                .overlay(alignment: .topTrailing) {
+                    PastillePicto(picto: modele.specialite.pictoDomaine).padding(6)
+                }
             VStack(spacing: 2) {
                 // Place réservée : le nom est dessiné par CarteAnimee pour pouvoir pivoter.
                 Text(modele.nom)
                     .font(.nom(17))
                     .lineLimit(1)
                     .hidden()
-                Text("\(modele.style) · \(modele.specialite.nom)")
-                    .font(.caption2)
+                Text(modele.sousTitre)
+                    .font(.nom(11, relativeTo: .caption2))
                     .foregroundStyle(.secondary)
                     .lineLimit(1)
                     .minimumScaleFactor(0.6)
-                Text(modele.specialite.domaine)
-                    .font(.caption.bold())
+                Text("\(modele.specialite.pictoDomaine) \(modele.specialite.domaine)")
+                    .font(.nom(12, relativeTo: .caption))
                     .foregroundStyle(modele.specialite.couleur)
+                    .lineLimit(1)
             }
             .padding(8)
             .frame(maxWidth: .infinity)
@@ -155,18 +162,21 @@ struct FicheCombattantView: View {
                         .modifier(Holographique(toucher: retourner))
                         .sensoryFeedback(.impact(weight: .medium), trigger: angle)
                     Text("Touche la carte pour la retourner, glisse pour l'incliner")
-                        .font(.caption2)
+                        .font(.system(.caption2, design: .serif).italic())
                         .foregroundStyle(.secondary)
                         .frame(maxWidth: .infinity)
 
                     VStack(alignment: .leading, spacing: 4) {
                         Text(modele.nom).font(.titre(32, relativeTo: .largeTitle)).lettrageLogo()
-                        Text("\(modele.style) · \(modele.specialite.nom)")
-                            .font(.headline)
-                            .foregroundStyle(.secondary)
-                        Text("\(modele.specialite.domaine) · \(modele.specialite.famille)")
-                            .font(.subheadline.bold())
+                        Text(modele.sousTitre)
+                            .font(.nom(18, relativeTo: .headline))
+                            .foregroundStyle(Charte.ivoire.opacity(0.8))
+                        Text(modele.classement)
+                            .font(.nom(15, relativeTo: .subheadline))
                             .foregroundStyle(modele.specialite.couleur)
+                        Text("Type \(modele.type) › \(modele.pictoStyle) \(modele.style)")
+                            .font(.nom(15, relativeTo: .subheadline))
+                            .foregroundStyle(Charte.or)
                     }
 
                     HStack(spacing: 16) {
@@ -174,13 +184,13 @@ struct FicheCombattantView: View {
                         Label("Att \(modele.attaque)", systemImage: "bolt.fill")
                         Label("Déf \(modele.defense)", systemImage: "shield.fill")
                     }
-                    .font(.subheadline.monospacedDigit())
+                    .font(.nom(15, relativeTo: .subheadline).monospacedDigit())
 
                     rubrique("Rareté", modele.rarete.rawValue)
                     rubrique("Apparence", modele.apparence)
                     rubrique("Questions", modele.questions)
                     rubrique("Bonus de vitesse (\(modele.familleStyle.effetVitesse.nom))",
-                             "Famille \(modele.familleStyle.rawValue) : \(modele.familleStyle.effetVitesse.description).")
+                             "Type \(modele.type) : \(modele.familleStyle.effetVitesse.description).")
                     if let exemple {
                         rubrique("Exemple de question", "« \(exemple) »")
                     }
@@ -200,8 +210,13 @@ struct FicheCombattantView: View {
 
     private func rubrique(_ titre: String, _ texte: String) -> some View {
         VStack(alignment: .leading, spacing: 4) {
-            Text(titre).font(.caption.bold()).foregroundStyle(.secondary)
-            Text(texte).font(.body).fixedSize(horizontal: false, vertical: true)
+            Text(titre)
+                .font(.nom(13, relativeTo: .caption))
+                .foregroundStyle(Charte.or)
+            Text(texte)
+                .font(.system(.body, design: .serif))
+                .foregroundStyle(Charte.ivoire.opacity(0.92))
+                .fixedSize(horizontal: false, vertical: true)
         }
     }
 }
@@ -226,15 +241,22 @@ struct VersoCarte: View {
                     .padding(.vertical, 3)
                     .background(Capsule().fill(modele.specialite.couleur.opacity(0.35)))
             }
-            Text("\(modele.style) · \(modele.specialite.nom)")
-                .font(.subheadline)
+            Text(modele.sousTitre)
+                .font(.nom(14, relativeTo: .subheadline))
                 .foregroundStyle(.secondary)
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
+            Text(modele.classement)
+                .font(.nom(12, relativeTo: .caption))
+                .foregroundStyle(modele.specialite.couleur)
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
             jauge("PV", "heart.fill", modele.pvMax, sur: 150, couleur: .green)
             jauge("Attaque", "bolt.fill", modele.attaque, sur: 80, couleur: .orange)
             jauge("Défense", "shield.fill", modele.defense, sur: 20, couleur: .cyan)
             Spacer(minLength: 0)
-            Label("Bonus de vitesse : \(modele.familleStyle.effetVitesse.nom)", systemImage: "hare.fill")
-                .font(.footnote.bold())
+            Label("\(modele.type) · bonus \(modele.familleStyle.effetVitesse.nom)", systemImage: "hare.fill")
+                .font(.nom(13, relativeTo: .footnote))
                 .foregroundStyle(modele.specialite.couleur)
         }
         .padding(16)
@@ -254,7 +276,7 @@ struct VersoCarte: View {
                 Spacer()
                 Text("\(valeur)").monospacedDigit()
             }
-            .font(.caption.bold())
+            .font(.nom(12, relativeTo: .caption))
             GeometryReader { geo in
                 ZStack(alignment: .leading) {
                     Capsule().fill(Color.white.opacity(0.12))
@@ -277,19 +299,24 @@ struct VersoCollection: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
             Text(modele.rarete.rawValue)
-                .font(.caption2.bold())
+                .font(.nom(11, relativeTo: .caption2))
                 .foregroundStyle(modele.specialite.couleur)
+            Text(modele.type)
+                .font(.nom(11, relativeTo: .caption2))
+                .foregroundStyle(Charte.or)
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
             ligne("heart.fill", "PV", modele.pvMax, sur: 150, couleur: .green)
             ligne("bolt.fill", "Att", modele.attaque, sur: 80, couleur: .orange)
             ligne("shield.fill", "Déf", modele.defense, sur: 20, couleur: .cyan)
             Label(modele.familleStyle.effetVitesse.nom, systemImage: "hare.fill")
-                .font(.caption2.bold())
+                .font(.nom(11, relativeTo: .caption2))
                 .lineLimit(1)
                 .minimumScaleFactor(0.7)
             Spacer(minLength: 0)
             Button(action: ouvrir) {
                 Label("Voir la fiche", systemImage: "arrow.up.left.and.arrow.down.right")
-                    .font(.caption.bold())
+                    .font(.nom(12, relativeTo: .caption))
                     .frame(maxWidth: .infinity)
             }
             .buttonStyle(.borderedProminent)
