@@ -1,0 +1,356 @@
+{
+ "1": {
+  "statut": "vérifié",
+  "source": "https://www.britannica.com/animal/blue-whale",
+  "note": "Plus de 30 m, environ 150 t (180 t mesurées), « most massive animal ever to have lived »."
+ },
+ "2": {
+  "statut": "vérifié",
+  "source": "https://animaldiversity.org/accounts/Monodontidae/",
+  "note": "Défense = dent gauche spiralée jusqu'à 2,7 m, chez les mâles."
+ },
+ "3": {
+  "statut": "vérifié",
+  "source": "https://wiki.neonvagabond.xyz/content/wikipedia_en_all_maxi_2024-01/A/Cachalot",
+  "note": "Plus grand des cétacés à dents ; plongées jusqu'à 2 250 m ; chasse notamment le calmar géant."
+ },
+ "4": {
+  "statut": "corrigé",
+  "source": "https://animaldiversity.org/accounts/Monodontidae/",
+  "note": "La source explique le surnom par des sons en trilles, pas par « sifflements et cliquetis ».",
+  "correction": {
+   "contexte": "On l'appelle ainsi à cause de ses cris aigus en trilles, comme un chant d'oiseau."
+  }
+ },
+ "5": {
+  "statut": "vérifié",
+  "source": "https://orca.org.uk/species-sightings/whales/humpback-whale",
+  "note": "Pectorales ~5 m, environ 1/3 du corps ; chants des mâles pendant la parade."
+ },
+ "6": {
+  "statut": "vérifié",
+  "source": "https://www.britannica.com/animal/killer-whale",
+  "note": "« largest member of the dolphin family »."
+ },
+ "7": {
+  "statut": "vérifié",
+  "source": "https://animaldiversity.org/site/accounts/information/Inia_geoffrensis.html",
+  "note": "Nom boto ; jeunes gris, adultes roses ; mâles nettement plus roses."
+ },
+ "8": {
+  "statut": "vérifié",
+  "source": "https://seashepherd.org/wp-content/uploads/2025/10/VaquitaSurvey-ExecSummary-2025-FINAL.pdf",
+  "note": "Relevé 2025 : 7 à 10 individus vus (probabilité 67 %). Plus petit cétacé et menace de la pêche illégale du totoaba au filet maillant : https://www.ifaw.org/international/animals/vaquitas"
+ },
+ "9": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "10": {
+  "statut": "corrigé",
+  "source": "https://www.livescience.com/50487-western-gray-whale-migration.html",
+  "note": "16 000 km sous-estime : l'aller-retour suivi atteint 22 511 km (record des mammifères) ; WorldAtlas donne 22 500 km (https://www.worldatlas.com/oceans/the-longest-migrations-in-the-ocean.html).",
+  "correction": {
+   "contexte": "Cet aller-retour peut dépasser 20 000 km : c'est l'une des plus longues migrations connues chez les mammifères."
+  }
+ },
+ "11": {
+  "statut": "corrigé",
+  "source": "https://iucn.org/fr/blog/202602/le-rorqual-commun-de-mediterranee-le-levrier-des-mers",
+  "note": "UICN : jusqu'à 22 m, jusqu'à 40 km/h, surnom lévrier des mers ; 25 m non confirmé (Québec : 17-20 m, deuxième après le rorqual bleu : https://www.quebec.ca/agriculture-environnement-et-ressources-naturelles/faune/animaux-sauvages-quebec/fiches-especes-fauniques/rorqual-commun).",
+  "correction": {
+   "contexte": "Il dépasse souvent 20 m et peut atteindre 40 km/h, d'où son surnom de lévrier des mers."
+  }
+ },
+ "12": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "41": {
+  "statut": "vérifié",
+  "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/p/Peregrine_Falcon.htm",
+  "note": "« fastest member of the animal kingdom », piqué à plus de 320 km/h ; niche sur des cathédrales et des rebords de gratte-ciel."
+ },
+ "42": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/owl",
+  "note": "Le disque facial dirige les sons vers les oreilles et les effraies, strictement nocturnes, dépendent beaucoup de l'ouïe ; « dans le noir total » non confirmé, retiré.",
+  "correction": {
+   "contexte": "Son disque facial guide les sons vers ses oreilles : elle peut chasser à l'ouïe, de nuit."
+  }
+ },
+ "43": {
+  "statut": "vérifié",
+  "source": "https://wikiwand.com/en/owl",
+  "note": "Aigrettes = simples touffes de plumes ; oreilles sur les côtés de la tête."
+ },
+ "44": {
+  "statut": "vérifié",
+  "source": "https://www.history.com/this-day-in-history/june-28/bald-eagle-removed-from-list-of-threatened-species",
+  "note": "Retiré de la liste le 28 juin 2007 ; déclin dû notamment au DDT ; oiseau national des États-Unis."
+ },
+ "45": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/faucon-crecerelle",
+  "note": "Vol stationnaire appelé « vol du Saint-Esprit » ; proies : rongeurs."
+ },
+ "46": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/gypaete-barbu",
+  "note": "Os lâchés de 50 à 100 m sur les rochers ; réintroduction dans les Alpes dès 1986 (Autriche) et 1987 (Haute-Savoie). Moelle : https://listverse.com/2010/04/21/top-10-formidable-birds-of-prey/"
+ },
+ "47": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "48": {
+  "statut": "vérifié",
+  "source": "https://animals.worldatlas.com/animals/the-world-s-largest-eagles-v2.html",
+  "note": "Envergure de l'aigle royal : 2,34 m dans le classement."
+ },
+ "49": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "50": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/cheveche-d-athena",
+  "note": "Attribut d'Athéna, déesse de la Sagesse ; figure sur les drachmes d'Athènes avec un rameau d'olivier."
+ },
+ "51": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "422": {
+  "statut": "vérifié",
+  "source": "https://www.wikiwand.com/en/articles/Cetacea",
+  "note": "Évent : une ouverture chez les odontocètes, deux chez les mysticètes."
+ },
+ "423": {
+  "statut": "vérifié",
+  "source": "https://www.wikiwand.com/en/articles/Cetacea",
+  "note": "Fanons en kératine à la place des dents."
+ },
+ "424": {
+  "statut": "vérifié",
+  "source": "https://www.wikiwand.com/en/articles/Cetacea",
+  "note": "Nageoire caudale horizontale, mouvements verticaux."
+ },
+ "425": {
+  "statut": "vérifié",
+  "source": "https://www.wikiwand.com/en/articles/Cetacea",
+  "note": "Lard jusqu'à 50 cm chez les grandes espèces."
+ },
+ "426": {
+  "statut": "vérifié",
+  "source": "https://www.wikiwand.com/en/articles/Cetacea",
+  "note": "Melon utilisé pour l'écholocation."
+ },
+ "427": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "428": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait. Valeur en parfumerie confirmée (https://wiki.neonvagabond.xyz/content/wikipedia_en_all_maxi_2024-01/A/Cachalot), pas l'échouage sur les plages."
+ },
+ "429": {
+  "statut": "vérifié",
+  "source": "https://wiki.neonvagabond.xyz/content/wikipedia_en_all_maxi_2024-01/A/Cachalot",
+  "note": "Spermaceti utilisé dans les lampes ; chasse au cachalot industrie majeure au XIXe siècle."
+ },
+ "430": {
+  "statut": "corrigé",
+  "source": "https://aquariumofpacific.org/onlinelearningcenter/species/blue_whale",
+  "note": "Sources divergentes : ~3,5 t/jour (Aquarium of the Pacific), jusqu'à 8 t (https://www.britannica.com/animal/blue-whale) ; chiffre précis retiré.",
+  "correction": {
+   "contexte": "Une baleine bleue peut en avaler plusieurs tonnes par jour."
+  }
+ },
+ "431": {
+  "statut": "vérifié",
+  "source": "https://www.britannica.com/animal/killer-whale",
+  "note": "Dorsale des vieux mâles jusqu'à 1,8 m."
+ },
+ "432": {
+  "statut": "vérifié",
+  "source": "https://www.wikiwand.com/en/articles/Cetacea",
+  "note": "Membres antérieurs en palette avec bras raccourcis et os des doigts allongés."
+ },
+ "433": {
+  "statut": "vérifié",
+  "source": "https://wiki.neonvagabond.xyz/content/wikipedia_en_all_maxi_2024-01/A/Cachalot",
+  "note": "Plongées de plus d'une heure (60-90 min selon https://www.wikiwand.com/en/articles/Cetacea)."
+ },
+ "434": {
+  "statut": "vérifié",
+  "source": "https://www.wikiwand.com/en/articles/Cetacea",
+  "note": "Sommeil avec un hémisphère à la fois, pour continuer à nager et respirer."
+ },
+ "435": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "436": {
+  "statut": "vérifié",
+  "source": "https://www.wikiwand.com/en/articles/Cetacea",
+  "note": "Hippopotames plus proches parents actuels ; lignée des baleines dès ~55,8 Ma (Éocène inférieur)."
+ },
+ "437": {
+  "statut": "vérifié",
+  "source": "https://aquariumofpacific.org/onlinelearningcenter/species/blue_whale",
+  "note": "Gestation d'environ 11 mois ; baleineau de 7-8 m (Britannica : 12 mois, 8 m)."
+ },
+ "438": {
+  "statut": "corrigé",
+  "source": "https://news.mongabay.com/short-article/2026/05/iceland-plans-to-resume-whale-hunting-this-summer/",
+  "note": "Japon, Norvège et Islande seuls pays autorisant la chasse commerciale, mais l'Islande n'a rien chassé en 2024 et 2025 ; date du moratoire variable selon les sources (1982 adoption, 1985-1986 application) : retirée.",
+  "correction": {
+   "contexte": "Le Japon, la Norvège et l'Islande l'autorisent encore malgré le moratoire de la Commission baleinière internationale."
+  }
+ },
+ "439": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "440": {
+  "statut": "vérifié",
+  "source": "https://wiki.neonvagabond.xyz/content/wikipedia_en_all_maxi_2024-01/A/Cachalot",
+  "note": "Tête jusqu'à un tiers de la longueur ; aucune mauvaise réponse proposée (dauphin, narval, marsouin) n'est concurrente."
+ },
+ "441": {
+  "statut": "vérifié",
+  "source": "https://www.guinnessworldrecords.com/news/2019/6/the-animal-from-which-great-whites-flee-five-killer-records-held-by-orcas-576308.html",
+  "note": "Chasse en groupe, requins blancs ; phoques et autres cétacés (Britannica) ; petits de cachalots tués par des groupes d'orques (https://wiki.neonvagabond.xyz/content/wikipedia_en_all_maxi_2024-01/A/Cachalot)."
+ },
+ "442": {
+  "statut": "vérifié",
+  "source": "https://www.wikiwand.com/en/articles/Cetacea",
+  "note": "Les odontocètes n'ont presque pas d'odorat ni de goût."
+ },
+ "509": {
+  "statut": "vérifié",
+  "source": "https://occitanie.lpo.fr/wp-content/uploads/2024/08/livret-vautour-des-grands-causses.pdf",
+  "note": "Réintroduit avec succès dans les Grands Causses à partir des années 1980 ; grand planeur qui prospecte toujours à plusieurs."
+ },
+ "510": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "511": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "512": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "513": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait. Question déjà précisée (« Rapace d'Europe ») dans outils/ajouts_vivant.py ; contexte non sourcé."
+ },
+ "514": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "515": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "516": {
+  "statut": "vérifié",
+  "source": "https://www.discoverwildlife.com/animal-facts/birds/most-powerful-eagles-world",
+  "note": "Serres « as long as the claws of a grizzly bear » ; proies : paresseux, singes hurleurs."
+ },
+ "517": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait. Doute de la note non levé : le nom « secrétaire » viendrait plutôt des plumes de la nuque."
+ },
+ "518": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "519": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait. La source LPO consultée ne mentionne pas l'usage de pierres."
+ },
+ "520": {
+  "statut": "corrigé",
+  "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/p/Peregrine_Falcon.htm",
+  "note": "La source parle du gerfaut « associated with kings » ; « seuls les rois pouvaient en posséder » est une exagération. « Plus grand faucon » et l'aire arctique n'ont pas pu être sourcés (budget de recherches épuisé).",
+  "correction": {
+   "contexte": "Dans la fauconnerie médiévale, il était associé aux rois."
+  }
+ },
+ "521": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "522": {
+  "statut": "vérifié",
+  "source": "https://animals.worldatlas.com/animals/the-world-s-largest-eagles-v2.html",
+  "note": "Aigle le plus lourd du monde, jusqu'à environ 9 kg ; Extrême-Orient russe : https://www.discoverwildlife.com/animal-facts/birds/most-powerful-eagles-world"
+ },
+ "523": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "524": {
+  "statut": "vérifié",
+  "source": "https://thecanadianencyclopedia.ca/en/article/peregrine-falcon",
+  "note": "Mâles du pèlerin environ un tiers plus petits que les femelles ; femelles plus grandes chez les chouettes aussi (https://wikiwand.com/en/owl)."
+ },
+ "525": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "526": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait. Tête dénudée confirmée (https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/b/Bird_of_prey.htm), pas la raison."
+ },
+ "527": {
+  "statut": "vérifié",
+  "source": "https://wikiwand.com/en/owl",
+  "note": "Rotation jusqu'à 270° ; yeux fixes dans les orbites."
+ },
+ "528": {
+  "statut": "corrigé",
+  "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/p/Peregrine_Falcon.htm",
+  "note": "Les sources confirment l'amincissement des coquilles et la baisse des éclosions, pas explicitement la casse pendant la couvaison.",
+  "correction": {
+   "contexte": "Il amincissait la coquille des œufs, dont beaucoup n'arrivaient plus à l'éclosion."
+  }
+ },
+ "529": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ },
+ "530": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait."
+ }
+}

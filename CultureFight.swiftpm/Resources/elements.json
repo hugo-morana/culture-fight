@@ -317,7 +317,7 @@
   "nom": "Zirconium",
   "famille": "",
   "notoriete": 2,
-  "anecdote": "Il gaine le combustible des réacteurs nucléaires ; la zircone, qui en contient, imite le diamant."
+  "anecdote": "Il sert à gainer le combustible des réacteurs nucléaires."
  },
  {
   "numero": 41,
@@ -381,7 +381,7 @@
   "nom": "Cadmium",
   "famille": "",
   "notoriete": 2,
-  "anecdote": "Toxique, il servait dans les batteries nickel-cadmium, aujourd'hui presque abandonnées."
+  "anecdote": "Il entre dans les batteries nickel-cadmium ; son usage est restreint pour des raisons environnementales."
  },
  {
   "numero": 49,
@@ -437,7 +437,7 @@
   "nom": "Césium",
   "famille": "",
   "notoriete": 2,
-  "anecdote": "Il définit la seconde dans les horloges atomiques ; son nom veut dire « bleu ciel »."
+  "anecdote": "Il sert dans les horloges atomiques ; son nom veut dire « bleu ciel »."
  },
  {
   "numero": 56,
@@ -445,7 +445,7 @@
   "nom": "Baryum",
   "famille": "",
   "notoriete": 2,
-  "anecdote": "Son nom vient du grec « lourd » ; on en avale avant une radio de l'estomac."
+  "anecdote": "Son nom vient du grec « lourd » ; son sulfate sert aux examens aux rayons X."
  },
  {
   "numero": 57,
@@ -469,7 +469,7 @@
   "nom": "Praséodyme",
   "famille": "",
   "notoriete": 3,
-  "anecdote": "Son nom veut dire « jumeau vert » ; il colore le verre en jaune-vert."
+  "anecdote": "Son nom veut dire « jumeau vert » ; il teinte en jaune les lunettes des soudeurs."
  },
  {
   "numero": 60,
@@ -477,7 +477,7 @@
   "nom": "Néodyme",
   "famille": "",
   "notoriete": 3,
-  "anecdote": "Il sert à fabriquer les aimants les plus puissants, dans les éoliennes et les écouteurs."
+  "anecdote": "Allié au fer et au bore, il donne de puissants aimants permanents."
  },
  {
   "numero": 61,
@@ -541,7 +541,7 @@
   "nom": "Erbium",
   "famille": "",
   "notoriete": 3,
-  "anecdote": "Nommé d'après Ytterby, en Suède ; il amplifie la lumière dans les fibres optiques."
+  "anecdote": "Nommé d'après Ytterby, en Suède ; son oxyde rose colore le verre."
  },
  {
   "numero": 69,
@@ -749,7 +749,7 @@
   "nom": "Plutonium",
   "famille": "",
   "notoriete": 2,
-  "anecdote": "Nommé d'après Pluton ; il a servi à la bombe de Nagasaki."
+  "anecdote": "Nommé d'après Pluton ; il sert de combustible nucléaire et dans les armes nucléaires."
  },
  {
   "numero": 95,
@@ -813,7 +813,7 @@
   "nom": "Nobélium",
   "famille": "",
   "notoriete": 3,
-  "anecdote": "Nommé d'après Alfred Nobel, créateur des prix Nobel."
+  "anecdote": "Nommé d'après Alfred Nobel, chimiste et ingénieur suédois."
  },
  {
   "numero": 103,

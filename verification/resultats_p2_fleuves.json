@@ -1,0 +1,443 @@
+{
+ "170": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Vistula",
+  "note": "Plus long fleuve de Pologne (1 047 km), traverse Cracovie et Varsovie."
+ },
+ "182": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Vistula",
+  "note": "Embouchure dans la baie de Gdańsk (Baltique), à Mikoszewo, environ 12 km à l'est de Gdańsk."
+ },
+ "177": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/rhone",
+  "note": "Finit son cours dans le delta de Camargue et se jette dans la Méditerranée. Ambiguïté avec le Pô (Adriatique) déjà gérée par RECOUVREMENTS (outils/fiches.py)."
+ },
+ "788": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/rhone",
+  "note": "Source dans le glacier du Rhône, à Gletsch (Valais, Suisse)."
+ },
+ "799": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/rhone",
+  "note": "Reçoit la Saône, son plus long affluent, à Lyon."
+ },
+ "178": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Rhine",
+  "note": "Delta Rhin-Meuse-Escaut aux Pays-Bas, la Nieuwe Maas passe à Rotterdam ; se jette dans la mer du Nord. Ambiguïté avec l'Atlantique déjà gérée par RECOUVREMENTS."
+ },
+ "787": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Rhine",
+  "note": "Naît dans le canton des Grisons, dans les Alpes suisses."
+ },
+ "790": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/elbe-fleuve",
+  "note": "Source en République tchèque dans les monts des Géants ; nom tchèque Labe."
+ },
+ "169": {
+  "statut": "vérifié",
+  "source": "https://www.tourmag.com/Dresde-La-Florence-de-l-Elbe_a60546.html",
+  "note": "Article intitulé « Dresde, la Florence de l'Elbe » ; ville sur les bords de l'Elbe."
+ },
+ "180": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Volga",
+  "note": "Plus long fleuve d'Europe (3 531 km), se jette dans la Caspienne, étendue d'eau endoréique sans lien naturel avec les océans."
+ },
+ "193": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Volga ; https://worldatlas.com/rivers/volga-river.html",
+  "note": "Wikipédia : plus long fleuve d'Europe ; WorldAtlas : « flows entirely through Russia »."
+ },
+ "181": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Po_(river)",
+  "note": "Plus long fleuve d'Italie, traverse Turin, delta sur l'Adriatique près de Venise. Ambiguïté avec la Méditerranée déjà gérée par RECOUVREMENTS."
+ },
+ "798": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Po_(river)",
+  "note": "Source à Pian del Re, sous la face nord-ouest du Mont Viso (Alpes cottiennes)."
+ },
+ "806": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Po_(river) ; https://wikiwand.com/en/Po_River",
+  "note": "« Plus grande ville sur le Pô » non confirmé par les sources consultées (Turin seulement citée parmi les villes importantes). Remplacé par un fait vérifié.",
+  "correction": {
+   "contexte": "C'est le plus long fleuve d'Italie."
+  }
+ },
+ "791": {
+  "statut": "vérifié",
+  "source": "https://www.wikiwand.com/en/River_Douro",
+  "note": "Naît près de Duruelo de la Sierra (province de Soria, Espagne) et se jette dans l'Atlantique à Porto."
+ },
+ "801": {
+  "statut": "corrigé",
+  "source": "https://www.wikiwand.com/en/River_Douro",
+  "note": "La source situe les caves à Vila Nova de Gaia, juste en face de Porto, sans dire qu'elles bordent la rive. Formulation alignée sur la source.",
+  "correction": {
+   "contexte": "Les caves de porto se trouvent à Vila Nova de Gaia, juste en face de Porto."
+  }
+ },
+ "795": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Scheldt",
+  "note": "Source à Gouy (Aisne, France), Anvers plus grande ville sur ses rives, embouchure en mer du Nord."
+ },
+ "804": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Scheldt",
+  "note": "Le port d'Anvers, développé sur ses rives, est le deuxième d'Europe."
+ },
+ "792": {
+  "statut": "vérifié",
+  "source": "https://www.rtbf.be/article/perles-d-eau-a-la-recherche-de-la-source-de-la-meuse-en-france-11034770",
+  "note": "Source à Pouilly-en-Bassigny (Haute-Marne, France) ; traverse la Belgique (frontière à Givet) puis les Pays-Bas."
+ },
+ "794": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Dnieper",
+  "note": "Naît dans les collines de Valdaï près de Smolensk (Russie), traverse la Biélorussie et l'Ukraine."
+ },
+ "802": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Dnieper",
+  "note": "La source dit « the longest river of Ukraine and Belarus », pas « le plus grand ».",
+  "correction": {
+   "contexte": "C'est le plus long fleuve d'Ukraine."
+  }
+ },
+ "184": {
+  "statut": "vérifié",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Nil : 6 650 km ; la page signale le désaccord sur le titre de plus long fleuve, l'Amazone étant jugé plus long par certaines études."
+ },
+ "185": {
+  "statut": "vérifié",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Système Mississippi–Missouri : 6 275 km, 4e plus long réseau fluvial du monde."
+ },
+ "192": {
+  "statut": "vérifié",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Le système Murray–Darling (3 672 km) est le plus long d'Australie ; aucun autre fleuve d'Océanie plus long dans la liste."
+ },
+ "810": {
+  "statut": "vérifié",
+  "source": "https://sais.webspace.durham.ac.uk/?p=106 ; https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Exutoire : Méditerranée ; le delta commence au nord du Caire."
+ },
+ "811": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length ; https://courses.ems.psu.edu/earth107/book/export/html/1084",
+  "note": "Réponse vérifiée (golfe du Mexique ; ambiguïté avec l'Atlantique gérée par RECOUVREMENTS). « Delta en patte d'oiseau » non confirmé par les sources consultées.",
+  "correction": {
+   "contexte": "La Nouvelle-Orléans se trouve à environ 80 km de son embouchure."
+  }
+ },
+ "812": {
+  "statut": "vérifié",
+  "source": "https://wikiwand.com/en/Yangtze_River",
+  "note": "Atteint la mer de Chine orientale à Shanghai."
+ },
+ "813": {
+  "statut": "corrigé",
+  "source": "https://dlab.epfl.ch/wikispeedia/wpcd/wp/g/Ganges_River.htm ; https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Réponse vérifiée (golfe du Bengale ; ambiguïté avec l'océan Indien gérée par RECOUVREMENTS). « Plus grand delta du monde » non confirmé par la source consultée (qui parle d'un grand delta et des Sundarbans).",
+  "correction": {
+   "contexte": "Il s'y jette par un grand delta, où s'étendent les mangroves des Sundarbans."
+  }
+ },
+ "814": {
+  "statut": "vérifié",
+  "source": "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Mekong.html",
+  "note": "Entre dans la mer de Chine méridionale par un delta complexe au Viêt Nam (péninsule de Cà Mau, Hô Chi Minh-Ville)."
+ },
+ "815": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/River_Congo",
+  "note": "Réponse vérifiée (Atlantique). Canyon sous-marin non mentionné par la source consultée ; remplacé par un fait vérifié.",
+  "correction": {
+   "contexte": "Il est le fleuve le plus profond connu, avec environ 220 m par endroits."
+  }
+ },
+ "816": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Réponse vérifiée (mer d'Arabie ; ambiguïté avec l'océan Indien gérée par RECOUVREMENTS). « Près de Karachi » non confirmé ; remplacé.",
+  "correction": {
+   "contexte": "Le Pakistan couvre 93 % de son bassin."
+  }
+ },
+ "818": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Réponse vérifiée (mer de Béring). « Traverse tout l'Alaska » non confirmé ; remplacé par la répartition du bassin.",
+  "correction": {
+   "contexte": "Son bassin s'étend sur les États-Unis (60 %) et le Canada (40 %)."
+  }
+ },
+ "819": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Réponse vérifiée (golfe de Guinée ; ambiguïté avec l'Atlantique gérée par RECOUVREMENTS). « Vaste delta au Nigeria » non confirmé ; remplacé.",
+  "correction": {
+   "contexte": "Son bassin s'étend sur dix pays, dont le Mali, le Niger et le Nigeria."
+  }
+ },
+ "820": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Exutoire : canal du Mozambique (océan Indien) ; contexte précisé avec le fait vérifié.",
+  "correction": {
+   "contexte": "Il s'y jette par le canal du Mozambique."
+  }
+ },
+ "821": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Réponse vérifiée (Atlantique). « Delta labyrinthe » non confirmé ; remplacé.",
+  "correction": {
+   "contexte": "Son bassin s'étend sur le Venezuela, la Colombie et le Guyana."
+  }
+ },
+ "183": {
+  "statut": "vérifié",
+  "source": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Amazon_River.html",
+  "note": "Plus grand débit du monde ; 20 % du débit fluvial mondial vers l'océan."
+ },
+ "809": {
+  "statut": "vérifié",
+  "source": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Amazon_River.html",
+  "note": "Embouchure dans l'Atlantique ; panache d'eau douce de 400 km de long, eau douce signalée par les navires hors de vue des côtes."
+ },
+ "200": {
+  "statut": "corrigé",
+  "source": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Amazon_River.html",
+  "note": "« Plus grande ville du monde sans route » non confirmé par la source consultée. Remplacé par un fait vérifié de la même page.",
+  "correction": {
+   "contexte": "Les navires de haute mer peuvent remonter l'Amazone jusqu'à Iquitos, au Pérou, à 3 600 km de la mer."
+  }
+ },
+ "189": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/River_Congo",
+  "note": "La source dit « measured depths of around 220 m », pas « plus de 220 m ».",
+  "correction": {
+   "contexte": "C'est le fleuve le plus profond du monde, avec environ 220 m par endroits."
+  }
+ },
+ "207": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/River_Congo",
+  "note": "Kinshasa et Brazzaville sur des rives opposées : confirmé. Le classement « capitales les plus proches après Rome et le Vatican » n'est pas confirmé par la source consultée ; retiré.",
+  "correction": {
+   "contexte": "Kinshasa et Brazzaville, deux capitales, se font face de part et d'autre du fleuve."
+  }
+ },
+ "187": {
+  "statut": "vérifié",
+  "source": "https://dlab.epfl.ch/wikispeedia/wpcd/wp/g/Ganges_River.htm",
+  "note": "Selon la croyance hindoue, s'y baigner purifie l'âme de ses péchés."
+ },
+ "202": {
+  "statut": "corrigé",
+  "source": "https://dlab.epfl.ch/wikispeedia/wpcd/wp/g/Ganges_River.htm",
+  "note": "La source dit « the most important city sacred to Hinduism on the banks of the River Ganga » ; les ghats ne sont pas mentionnés par la source consultée, retirés.",
+  "correction": {
+   "contexte": "Varanasi est la plus importante ville sacrée de l'hindouisme sur les rives du Gange."
+  }
+ },
+ "186": {
+  "statut": "vérifié",
+  "source": "https://wikiwand.com/en/Yangtze_River",
+  "note": "« Longest river in Asia » (plus long d'Eurasie) ; le barrage des Trois-Gorges est sur le Yangzi."
+ },
+ "203": {
+  "statut": "vérifié",
+  "source": "https://wikiwand.com/en/Yangtze_River",
+  "note": "À Wuhan, le Yangzi reçoit son plus grand affluent, la Han."
+ },
+ "199": {
+  "statut": "vérifié",
+  "source": "https://sais.webspace.durham.ac.uk/?p=106",
+  "note": "« The Delta begins north of Cairo », formé par la division du Nil en bras."
+ },
+ "173": {
+  "statut": "vérifié",
+  "source": "https://www.routard.com/contenu-dossier/cid140111-le-sud-ouest-de-la-france-au-fil-de-la-garonne.html",
+  "note": "« La Garonne dessine un croissant, ce qui a valu le surnom de Port de la Lune à ce secteur de la ville »."
+ },
+ "803": {
+  "statut": "corrigé",
+  "source": "https://www.routard.com/contenu-dossier/cid140111-le-sud-ouest-de-la-france-au-fil-de-la-garonne.html ; https://www.larousse.fr/encyclopedie/riviere-lac/wd/111428",
+  "note": "Garonne à Toulouse confirmée ; « s'étend sur ses deux rives » non confirmé par les sources consultées. Remplacé par un fait du Routard.",
+  "correction": {
+   "contexte": "Avec celles du canal du Midi, ses rives sont un site incontournable de Toulouse."
+  }
+ },
+ "201": {
+  "statut": "corrigé",
+  "source": "https://courses.ems.psu.edu/earth107/book/export/html/1084",
+  "note": "La source dit qu'environ 53 % de la ville est au niveau de la mer ou au-dessus (le reste en dessous) et que des digues bordent le bas Mississippi ; « sous le niveau du fleuve » non confirmé.",
+  "correction": {
+   "contexte": "La Nouvelle-Orléans est en partie sous le niveau de la mer ; des digues bordent le fleuve."
+  }
+ },
+ "188": {
+  "statut": "corrigé",
+  "source": "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Mekong.html",
+  "note": "Six pays confirmés, mais il sert de frontière Birmanie-Laos (100 km) et Laos-Thaïlande (850 km) : « traverse ou longe ». Delta au Viêt Nam confirmé (« complex delta system »).",
+  "correction": {
+   "contexte": "Il traverse ou longe six pays, de la Chine au Viêt Nam, où il forme un vaste delta."
+  }
+ },
+ "206": {
+  "statut": "vérifié",
+  "source": "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Mekong.html",
+  "note": "« At Phnom Penh the river is joined on the right bank by ... the Tonlé Sap »."
+ },
+ "817": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Exutoire : golfe du Saint-Laurent (Atlantique). « Qu'on l'appelle parfois la mer » non confirmé ; remplacé.",
+  "correction": {
+   "contexte": "Il s'y jette par le golfe du Saint-Laurent."
+  }
+ },
+ "196": {
+  "statut": "vérifié",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Système « St. Lawrence (Great Lakes system) », exutoire golfe du Saint-Laurent (Atlantique)."
+ },
+ "168": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Rhine",
+  "note": "Cologne est sur le Rhin ; la cathédrale n'est pas mentionnée par la source consultée. Remplacé.",
+  "correction": {
+   "contexte": "Cologne compte parmi les plus grandes villes du Rhin."
+  }
+ },
+ "800": {
+  "statut": "corrigé",
+  "source": "https://www.techno-science.net/fr/definitions/elbe-fleuve",
+  "note": "La source dit « premier port d'Allemagne », pas « l'un des plus grands d'Europe ».",
+  "correction": {
+   "contexte": "Son port sur l'Elbe est le premier d'Allemagne."
+  }
+ },
+ "190": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Réponse (Afrique) vérifiée par la liste des pays du bassin. Arc saharien et Tombouctou non sourcés faute de budget ; remplacé par un fait vérifié (à rétablir si une source le confirme).",
+  "correction": {
+   "contexte": "Son bassin s'étend sur dix pays, dont la Guinée, le Mali et le Nigeria."
+  }
+ },
+ "191": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Réponse (Afrique) vérifiée. Chutes Victoria non sourcées faute de budget ; remplacé par un fait vérifié (à rétablir si une source le confirme).",
+  "correction": {
+   "contexte": "Il se jette dans l'océan Indien par le canal du Mozambique."
+  }
+ },
+ "194": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Réponse (Amérique du Sud) vérifiée. Barrage d'Itaipu non sourcé faute de budget ; remplacé par un fait vérifié (à rétablir si une source le confirme).",
+  "correction": {
+   "contexte": "Son bassin s'étend sur le Brésil, l'Argentine, le Paraguay, la Bolivie et l'Uruguay."
+  }
+ },
+ "195": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Réponse vérifiée ; exutoire Atlantique confirmé. « Surtout au Venezuela » et « grand delta » non confirmés ; remplacé.",
+  "correction": {
+   "contexte": "Il se jette dans l'Atlantique ; son bassin s'étend sur le Venezuela et la Colombie."
+  }
+ },
+ "197": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "Bassin aux États-Unis (59,8 %) et au Canada (40,2 %) confirmé ; Klondike non sourcé faute de budget ; retiré.",
+  "correction": {
+   "contexte": "Son bassin s'étend sur les États-Unis et le Canada ; il se jette dans la mer de Béring."
+  }
+ },
+ "198": {
+  "statut": "corrigé",
+  "source": "https://wikiwand.com/en/articles/List_of_river_systems_by_length",
+  "note": "« Surtout au Pakistan » confirmé (93 % du bassin) ; étymologie du nom de l'Inde non sourcée faute de budget ; retirée.",
+  "correction": {
+   "contexte": "Il coule surtout au Pakistan, qui couvre 93 % de son bassin."
+  }
+ },
+ "171": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé avant ce fait (étymologie arabe du Guadalquivir)."
+ },
+ "172": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé avant ce fait (Ponte Vecchio, XIVe siècle)."
+ },
+ "793": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé avant ce fait (source de l'Oder en Tchéquie, frontière germano-polonaise)."
+ },
+ "796": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé avant ce fait (source de l'Inn en Engadine, confluence à Passau)."
+ },
+ "805": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé avant ce fait (Vltava à Prague, La Moldau de Smetana)."
+ },
+ "808": {
+  "statut": "non trouvé",
+  "source": "https://www.rtbf.be/article/perles-d-eau-a-la-recherche-de-la-source-de-la-meuse-en-france-11034770",
+  "note": "Meuse traversant la Belgique puis les Pays-Bas confirmée ; passage à Liège non confirmé par les sources consultées."
+ },
+ "204": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé avant ce fait (Hudson, 1609)."
+ },
+ "205": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé avant ce fait (étymologie algonquine de Québec)."
+ },
+ "208": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé avant ce fait (Bamako sur le Niger)."
+ },
+ "209": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé avant ce fait (Tigre, Bagdad, Mésopotamie)."
+ },
+ "210": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé avant ce fait (Chao Phraya, « Venise de l'Orient »)."
+ },
+ "211": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé avant ce fait (Potomac, Washington/Virginie)."
+ }
+}

@@ -1,0 +1,308 @@
+{
+ "219": {
+  "statut": "vérifié",
+  "source": "https://www.britannica.com/place/Lake-Balaton",
+  "note": "« largest lake of central Europe » (Britannica ; aussi https://areq.net/lang/fr/Lac_Balaton.html). L'expression « la mer hongroise » est employée par https://www.slate.fr/story/194130/lac-balaton-hongrie-histoire-culture-tourisme."
+ },
+ "220": {
+  "statut": "vérifié",
+  "source": "https://www.wikiwand.com/en/articles/Italian_Lakes",
+  "note": "« Lake Garda (largest in Italy) »."
+ },
+ "221": {
+  "statut": "vérifié",
+  "source": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Lario.html",
+  "note": "« shaped much like an inverted letter Y » ; « At over 400 metres deep, it is one of the deepest lakes in Europe » (425 m)."
+ },
+ "829": {
+  "statut": "vérifié",
+  "source": "https://www.doc.surf/wiki/lake-maggiore",
+  "note": "Partagé entre Piémont, Lombardie et le canton du Tessin ; îles Borromées entre Verbania et Stresa."
+ },
+ "222": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Lake_Constance",
+  "note": "Le Rhin alpin entre au sud-est et ressort en Rhin supérieur à l'ouest ; « there is no legally binding agreement as to where the borders lie between the three countries »."
+ },
+ "223": {
+  "statut": "corrigé",
+  "source": "https://ccla.fr/wp-content/uploads/2020/09/Gestion-et-protection.pdf",
+  "note": "Le réseau de collecte qui « ceinture le lac » a été achevé en 1976 (syndicat créé en 1957) ; « dès les années 1960 » non confirmé. Le lac se dit « lac le plus pur d'Europe » (https://reporterre.net/Au-lac-d-Annecy-une-restauration-ecologique-reussie).",
+  "correction": {
+   "contexte": "On le dit l'un des lacs les plus purs d'Europe, grâce à un égout faisant le tour du lac, achevé en 1976."
+  }
+ },
+ "224": {
+  "statut": "vérifié",
+  "source": "https://www.worldbank.org/en/news/feature/2014/03/27/restoring-a-disappearing-giant-lake-chad",
+  "note": "« shrunk a massive 90% compared with that it was in the 1960s » ; bordé par le Tchad, le Nigeria, le Cameroun et le Niger."
+ },
+ "822": {
+  "statut": "vérifié",
+  "source": "https://www.britannica.com/question/At-what-elevation-is-the-Dead-Sea",
+  "note": "Surface « about 430 metres below sea level » au milieu des années 2010, « the lowest body of water on the surface of Earth »."
+ },
+ "823": {
+  "statut": "vérifié",
+  "source": "https://www.britannica.com/place/Caspian-Sea",
+  "note": "« world's largest inland body of water » ; bordée par le Kazakhstan, le Turkménistan, l'Iran, l'Azerbaïdjan et la Russie."
+ },
+ "840": {
+  "statut": "vérifié",
+  "source": "https://www.britannica.com/place/Caspian-Sea",
+  "note": "Cinq pays riverains : Kazakhstan, Turkménistan, Iran, Azerbaïdjan, Russie."
+ },
+ "824": {
+  "statut": "corrigé",
+  "source": "https://kun.uz/en/news/2024/08/01/aral-sea-tragedy-causes-impacts-and-possible-solutions",
+  "note": "La source donne environ 90 % du volume perdu en 2007 (déclin commencé dans les années 1960, dû au détournement des fleuves pour l'irrigation) ; le chiffre de 90 % de la surface n'a pas été confirmé.",
+  "correction": {
+   "contexte": "Entre les années 1960 et 2007, elle a perdu environ 90 % de son volume d'eau."
+  }
+ },
+ "825": {
+  "statut": "vérifié",
+  "source": "https://home.nps.gov/crla/learn/nature/crater-lake.htm",
+  "note": "« A massive eruption occurred about 7,700 years ago », puis effondrement du mont Mazama ; lac « widely known for its rich blue color »."
+ },
+ "826": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Lake_Tanganyika",
+  "note": "« the world's longest freshwater lake » (673 km), deuxième plus profond après le Baïkal. La précision « d'eau douce » déjà appliquée dans la source est confirmée."
+ },
+ "837": {
+  "statut": "corrigé",
+  "source": "https://www.guinnessworldrecords.com/world-records/720749-lake-with-most-fish-species",
+  "note": "Ambiguïté : le lac Tanganyika, aussi réponse de cette relation, abrite lui aussi « at least 250 species of cichlid fish » (https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Lake_Tanganyika). Guinness : le lac Malawi est le lac qui compte le plus d'espèces de poissons, au moins 700 cichlidés.",
+  "correction": {
+   "fait": "Quel lac correspond à cette description : « Lac africain qui compte le plus d'espèces de poissons au monde » ?",
+   "contexte": "Il abrite au moins 700 espèces de poissons cichlidés."
+  }
+ },
+ "843": {
+  "statut": "vérifié",
+  "source": "https://thecanadianencyclopedia.ca/en/article/lake-ontario",
+  "note": "« the smallest in surface area » des Grands Lacs, 18 960 km². Corse : 8 681 km² (https://en.wikipedia.org/wiki/List_of_islands_in_the_Mediterranean) ; rapport 2,18."
+ },
+ "856": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/List_of_islands_in_the_Mediterranean",
+  "note": "Corse 4e (8 681 km²) après Sicile, Sardaigne, Chypre."
+ },
+ "864": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/List_of_islands_in_the_Mediterranean",
+  "note": "Chypre 3e (9 251 km²)."
+ },
+ "860": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/List_of_European_islands_by_area",
+  "note": "Gotland : « Largest island of Sweden. Largest island in the Baltic Sea. »"
+ },
+ "866": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/List_of_European_islands_by_area",
+  "note": "Belle-Île 87 km² ; la seule île française plus grande de la liste (hors Corse) est Oléron, qui n'est pas en Bretagne. Déduction à partir de la liste."
+ },
+ "830": {
+  "statut": "vérifié",
+  "source": "https://www.livescience.com/29312-great-lakes.html",
+  "note": "« Lake Erie and Lake Ontario are connected by the Niagara River, including Niagara Falls »."
+ },
+ "836": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Lake_Nyos_disaster",
+  "note": "21 août 1986, 100 000 à 300 000 t de CO2, 1 746 morts au Cameroun."
+ },
+ "838": {
+  "statut": "vérifié",
+  "source": "https://www.geographyrealm.com/finland-many-lakes/",
+  "note": "« approximately 187,000 lakes » ; surnom « Land of a Thousand Lakes »."
+ },
+ "848": {
+  "statut": "vérifié",
+  "source": "https://www.eia.gov/international/content/analysis/special_topics/World_Oil_Transit_Chokepoints",
+  "note": "Le Bosphore relie la mer Noire à la mer de Marmara ; les détroits turcs séparent l'Asie de l'Europe."
+ },
+ "852": {
+  "statut": "vérifié",
+  "source": "https://www.eia.gov/international/content/analysis/special_topics/World_Oil_Transit_Chokepoints",
+  "note": "Entre Oman et l'Iran ; environ 20 % de la consommation mondiale de produits pétroliers liquides y transite."
+ },
+ "853": {
+  "statut": "corrigé",
+  "source": "https://www.eia.gov/international/content/analysis/special_topics/World_Oil_Transit_Chokepoints",
+  "note": "La source consultée dit « the largest chokepoint in the world in terms of oil transit volume », sans parler de fréquentation générale ; contexte remplacé par l'affirmation sourcée.",
+  "correction": {
+   "contexte": "C'est le détroit par lequel passe le plus de pétrole au monde."
+  }
+ },
+ "867": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/List_of_European_islands_by_area",
+  "note": "« Largest island of Germany » (926 km²) confirmé ; les falaises de craie n'ont pas pu être vérifiées dans le budget, retirées.",
+  "correction": {
+   "contexte": "C'est la plus grande île d'Allemagne."
+  }
+ },
+ "874": {
+  "statut": "vérifié",
+  "source": "https://figaronautisme.meteoconsult.fr/actus-nautisme-escales/2025-06-25/79032-baie-du-mont-saint-michel-naviguer-au-rythme-des-marees",
+  "note": "« marnages pouvant dépasser 14 mètres lors des grandes marées » ; « plus grandes marées d'Europe » (aussi https://www.tourismebretagne.com/destinations/les-10-destinations/cap-frehel-saint-malo-baie-du-mont-saint-michel/la-baie-du-mont-saint-michel/)."
+ },
+ "875": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Great_Barrier_Reef",
+  "note": "« world's largest coral reef system », « over 2,300 kilometres », « can be seen from outer space »."
+ },
+ "827": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "828": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "831": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "832": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "833": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2). La description corrigée « entièrement en Europe » reste à sourcer."
+ },
+ "834": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "835": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "839": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "844": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "845": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "846": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "847": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "849": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "850": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "851": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "854": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2). Sens du nom (« porte des lamentations ») non confirmé."
+ },
+ "855": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "857": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "858": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "859": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "861": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "862": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "863": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "865": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "868": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "869": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "870": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "871": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "872": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ },
+ "873": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches web épuisé avant ce fait (passe 2)."
+ }
+}

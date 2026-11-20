@@ -16,6 +16,16 @@ relation (`rel`), les mauvaises réponses sont les autres réponses de la même 
 
 ## Méthode
 
+**Budget : 18 recherches WebSearch au maximum** (la limite de la session est partagée entre 10 agents).
+Pour tenir le budget, une recherche doit servir à plusieurs faits : chercher la page qui couvre un thème
+(article Wikipédia du sujet, liste, page de musée…), puis l'ouvrir avec WebFetch en demandant de confirmer
+ou d'infirmer toute une série de faits d'un coup. WebFetch ne compte pas dans le budget de recherches.
+
+Ne traiter que les lignes dont le `statut` est `à vérifier` ou `corrigé (logique), source à trouver`.
+La colonne `note` peut contenir des doutes relevés lors d'une première passe : les vérifier en priorité.
+Le texte à vérifier est celui des sources actuelles (`outils/`, `CultureFight.swiftpm/Resources/`), qui
+peut avoir été corrigé depuis la création du CSV.
+
 - Une source par fait au minimum : WebSearch, puis WebFetch d'un lien des résultats si l'extrait ne suffit pas.
   Préférer Wikipédia (fr ou en, ou ses copies), les sites officiels, scientifiques ou de musées.
 - Ne citer que des sources réellement consultées dans cette session (URL exacte).
@@ -23,7 +33,7 @@ relation (`rel`), les mauvaises réponses sont les autres réponses de la même 
 
 ## Résultat
 
-Fichier JSON `verification/resultats_<groupe>.json` : un objet dont les clés sont les `n` (texte) :
+Fichier JSON indiqué dans ta mission (`verification/resultats_<groupe>.json`) : un objet dont les clés sont les `n` (texte) :
 
 ```json
 {"12": {"statut": "vérifié", "source": "https://…", "note": ""},

@@ -10,42 +10,50 @@
      [
       "Plus grand animal ayant jamais existé",
       "Baleine bleue",
-      "Elle peut dépasser 30 m et 150 tonnes, plus que n'importe quel dinosaure."
+      "Elle peut dépasser 30 m et 150 tonnes, plus que n'importe quel dinosaure.",
+      "https://www.britannica.com/animal/blue-whale"
      ],
      [
       "Défense torsadée, surnommé la licorne des mers",
       "Narval",
-      "Sa « défense » est une dent, surtout chez le mâle, qui peut dépasser 2,5 m."
+      "Sa « défense » est une dent, surtout chez le mâle, qui peut dépasser 2,5 m.",
+      "https://animaldiversity.org/accounts/Monodontidae/"
      ],
      [
       "Plus grand cétacé à dents, grand plongeur des abysses",
       "Cachalot",
-      "Il plonge à plus de 2 000 m pour chasser le calmar géant."
+      "Il plonge à plus de 2 000 m pour chasser le calmar géant.",
+      "https://wiki.neonvagabond.xyz/content/wikipedia_en_all_maxi_2024-01/A/Cachalot"
      ],
      [
       "Cétacé blanc de l'Arctique, surnommé le canari des mers",
       "Béluga",
-      "On l'appelle ainsi pour la variété de ses sifflements et cliquetis."
+      "On l'appelle ainsi à cause de ses cris aigus en trilles, comme un chant d'oiseau.",
+      "https://animaldiversity.org/accounts/Monodontidae/"
      ],
      [
       "Célèbre pour ses chants et ses très longues nageoires pectorales",
       "Baleine à bosse",
-      "Ses nageoires pectorales mesurent jusqu'à 5 m, le tiers de son corps ; seuls les mâles chantent."
+      "Ses nageoires pectorales mesurent jusqu'à 5 m, le tiers de son corps ; seuls les mâles chantent.",
+      "https://orca.org.uk/species-sightings/whales/humpback-whale"
      ],
      [
       "Prédateur noir et blanc qui chasse en groupe",
       "Orque",
-      "Malgré son surnom de baleine tueuse, c'est le plus grand des dauphins."
+      "Malgré son surnom de baleine tueuse, c'est le plus grand des dauphins.",
+      "https://www.britannica.com/animal/killer-whale"
      ],
      [
       "Dauphin d'eau douce rose d'Amérique du Sud",
       "Dauphin de l'Amazone",
-      "Aussi appelé boto, il devient plus rose avec l'âge, surtout les mâles."
+      "Aussi appelé boto, il devient plus rose avec l'âge, surtout les mâles.",
+      "https://animaldiversity.org/site/accounts/information/Inia_geoffrensis.html"
      ],
      [
       "Plus petit cétacé, gravement menacé dans le golfe de Californie",
       "Vaquita",
-      "Il en resterait une dizaine, victimes des filets de pêche illégaux."
+      "Il en resterait une dizaine, victimes des filets de pêche illégaux.",
+      "https://seashepherd.org/wp-content/uploads/2025/10/VaquitaSurvey-ExecSummary-2025-FINAL.pdf"
      ],
      [
       "Dauphin à bec court, le plus connu des côtes et des aquariums",
@@ -55,12 +63,14 @@
      [
       "Migre chaque année entre l'Arctique et la Basse-Californie",
       "Baleine grise",
-      "Cet aller-retour d'environ 16 000 km est l'une des plus longues migrations des mammifères."
+      "Cet aller-retour peut dépasser 20 000 km : c'est l'une des plus longues migrations connues chez les mammifères.",
+      "https://www.livescience.com/50487-western-gray-whale-migration.html"
      ],
      [
       "Deuxième plus grand animal du monde",
       "Rorqual commun",
-      "Il mesure jusqu'à 25 m et nage à plus de 35 km/h, d'où son surnom de lévrier des mers."
+      "Il dépasse souvent 20 m et peut atteindre 40 km/h, d'où son surnom de lévrier des mers.",
+      "https://iucn.org/fr/blog/202602/le-rorqual-commun-de-mediterranee-le-levrier-des-mers"
      ],
      [
       "Petit cétacé côtier sans bec, cousin du dauphin",
@@ -77,27 +87,32 @@
      [
       "la narine sur le dessus de la tête",
       "Évent",
-      "Les baleines à fanons en ont deux, les cétacés à dents un seul."
+      "Les baleines à fanons en ont deux, les cétacés à dents un seul.",
+      "https://www.wikiwand.com/en/articles/Cetacea"
      ],
      [
       "les lames cornées qui filtrent la nourriture",
       "Fanons",
-      "Faits de kératine, comme nos ongles, ils remplacent les dents."
+      "Faits de kératine, comme nos ongles, ils remplacent les dents.",
+      "https://www.wikiwand.com/en/articles/Cetacea"
      ],
      [
       "la nageoire horizontale de la queue",
       "Nageoire caudale",
-      "Horizontale chez les cétacés, elle est verticale chez les poissons."
+      "Horizontale chez les cétacés, elle est verticale chez les poissons.",
+      "https://www.wikiwand.com/en/articles/Cetacea"
      ],
      [
       "l'épaisse couche de graisse sous la peau",
       "Lard",
-      "Elle isole du froid et peut atteindre plusieurs dizaines de centimètres."
+      "Elle isole du froid et peut atteindre plusieurs dizaines de centimètres.",
+      "https://www.wikiwand.com/en/articles/Cetacea"
      ],
      [
       "l'organe graisseux du front qui concentre les sons",
       "Melon",
-      "Il sert de lentille acoustique pour l'écholocation."
+      "Il sert de lentille acoustique pour l'écholocation.",
+      "https://www.wikiwand.com/en/articles/Cetacea"
      ],
      [
       "le jet de vapeur rejeté en surface",
@@ -112,22 +127,26 @@
      [
       "l'huile de la tête du cachalot, autrefois brûlée dans les lampes",
       "Spermaceti",
-      "C'est elle qui a fait chasser intensément le cachalot au XIXe siècle."
+      "C'est elle qui a fait chasser intensément le cachalot au XIXe siècle.",
+      "https://wiki.neonvagabond.xyz/content/wikipedia_en_all_maxi_2024-01/A/Cachalot"
      ],
      [
       "les petits crustacés dont se nourrit la baleine bleue",
       "Krill",
-      "Une baleine bleue peut en avaler environ 4 tonnes par jour."
+      "Une baleine bleue peut en avaler plusieurs tonnes par jour.",
+      "https://aquariumofpacific.org/onlinelearningcenter/species/blue_whale"
      ],
      [
       "la nageoire sur le dos",
       "Nageoire dorsale",
-      "Celle de l'orque mâle peut mesurer 1,8 m de haut."
+      "Celle de l'orque mâle peut mesurer 1,8 m de haut.",
+      "https://www.britannica.com/animal/killer-whale"
      ],
      [
       "les nageoires de chaque côté du corps",
       "Nageoires pectorales",
-      "Elles contiennent des os semblables à ceux de notre main."
+      "Elles contiennent des os semblables à ceux de notre main.",
+      "https://www.wikiwand.com/en/articles/Cetacea"
      ]
     ]
    }
@@ -191,7 +210,8 @@
      "Une journée",
      "Une semaine"
     ],
-    "explication": "Il retient sa respiration plus d'une heure lors de ses plongées profondes."
+    "explication": "Il retient sa respiration plus d'une heure lors de ses plongées profondes.",
+    "source": "https://wiki.neonvagabond.xyz/content/wikipedia_en_all_maxi_2024-01/A/Cachalot"
    },
    {
     "enonce": "Comment dorment les dauphins ?",
@@ -201,7 +221,8 @@
      "Au fond de l'eau, sans respirer",
      "Hors de l'eau, sur les plages"
     ],
-    "explication": "Une moitié du cerveau reste éveillée pour respirer et surveiller."
+    "explication": "Une moitié du cerveau reste éveillée pour respirer et surveiller.",
+    "source": "https://www.wikiwand.com/en/articles/Cetacea"
    },
    {
     "enonce": "Quel animal est Moby Dick dans le roman de Melville ?",
@@ -221,7 +242,8 @@
      "L'éléphant",
      "Le phoque"
     ],
-    "explication": "Cétacés et hippopotames ont un ancêtre commun qui vivait il y a plus de 50 millions d'années."
+    "explication": "Cétacés et hippopotames ont un ancêtre commun qui vivait il y a plus de 50 millions d'années.",
+    "source": "https://www.wikiwand.com/en/articles/Cetacea"
    },
    {
     "enonce": "Combien de temps dure la gestation d'une baleine bleue ?",
@@ -231,7 +253,8 @@
      "2 ans",
      "5 ans"
     ],
-    "explication": "Le baleineau mesure déjà environ 7 m à la naissance."
+    "explication": "Le baleineau mesure déjà environ 7 m à la naissance.",
+    "source": "https://aquariumofpacific.org/onlinelearningcenter/species/blue_whale"
    },
    {
     "enonce": "Lequel de ces pays pratique encore la chasse commerciale à la baleine ?",
@@ -241,7 +264,8 @@
      "Le Brésil",
      "L'Australie"
     ],
-    "explication": "Le Japon, la Norvège et l'Islande la pratiquent encore malgré le moratoire de 1986."
+    "explication": "Le Japon, la Norvège et l'Islande l'autorisent encore malgré le moratoire de la Commission baleinière internationale.",
+    "source": "https://news.mongabay.com/short-article/2026/05/iceland-plans-to-resume-whale-hunting-this-summer/"
    },
    {
     "enonce": "Comment s'appelle le petit du dauphin ?",
@@ -261,7 +285,8 @@
      "Le narval",
      "Le marsouin"
     ],
-    "explication": "Sa tête représente environ un tiers de sa longueur."
+    "explication": "Sa tête représente environ un tiers de sa longueur.",
+    "source": "https://wiki.neonvagabond.xyz/content/wikipedia_en_all_maxi_2024-01/A/Cachalot"
    },
    {
     "enonce": "Les orques chassent-elles d'autres cétacés ?",
@@ -271,7 +296,8 @@
      "Elles ne mangent que des algues",
      "Elles ne mangent que du plancton"
     ],
-    "explication": "Chassant en groupe, elles attaquent phoques, requins et petits de grandes baleines."
+    "explication": "Chassant en groupe, elles attaquent phoques, requins et petits de grandes baleines.",
+    "source": "https://www.guinnessworldrecords.com/news/2019/6/the-animal-from-which-great-whites-flee-five-killer-records-held-by-orcas-576308.html"
    },
    {
     "enonce": "Quel sens est presque absent chez les dauphins ?",
@@ -281,7 +307,8 @@
      "Le toucher",
      "La vue"
     ],
-    "explication": "Les cétacés à dents ont perdu presque tout leur odorat."
+    "explication": "Les cétacés à dents ont perdu presque tout leur odorat.",
+    "source": "https://www.wikiwand.com/en/articles/Cetacea"
    }
   ]
  },
@@ -308,7 +335,8 @@
      [
       "le marron d'Inde",
       "Marronnier",
-      "Le marron d'Inde n'est pas comestible, contrairement à la châtaigne."
+      "Le marron d'Inde n'est pas comestible, contrairement à la châtaigne.",
+      "https://www.futura-sciences.com/planete/questions-reponses/botanique-difference-chataigne-marron-5942/"
      ],
      [
       "la châtaigne",
@@ -362,12 +390,14 @@
      [
       "son écorce donne le liège des bouchons",
       "Chêne-liège",
-      "On peut l'écorcer tous les 9 à 12 ans sans le tuer."
+      "On lève son liège tous les 9 à 15 ans selon les régions, et il repousse.",
+      "https://www.techno-science.net/fr/definitions/chene-liege"
      ],
      [
-      "sa sève donne le sirop d'érable",
+      "son eau, récoltée au printemps, donne le sirop d'érable",
       "Érable à sucre",
-      "Il faut environ 40 litres de sève pour un litre de sirop."
+      "Il faut environ 40 litres d'eau d'érable pour un litre de sirop.",
+      "https://www.techno-science.net/fr/definitions/erable-a-sucre"
      ],
      [
       "son écorce a donné l'aspirine",
@@ -377,12 +407,14 @@
      [
       "ses feuilles en éventail ; il a survécu à la bombe d'Hiroshima",
       "Ginkgo",
-      "Apparu il y a plus de 200 millions d'années, on le dit fossile vivant."
+      "Apparu il y a plus de 200 millions d'années, on le dit fossile vivant.",
+      "https://www.inverse.com/article/47833-hiroshima-gingko-trees-atomic-bomb"
      ],
      [
       "c'est l'arbre le plus haut du monde, en Californie",
       "Séquoia",
-      "Le plus haut, surnommé Hyperion, mesure environ 116 m."
+      "Le plus haut, surnommé Hyperion, mesure environ 116 m.",
+      "https://www.guinnessworldrecords.com/world-records/tallest-tree-living"
      ],
      [
       "son bois très léger sert aux maquettes",
@@ -392,7 +424,8 @@
      [
       "son tronc énorme stocke l'eau, en Afrique",
       "Baobab",
-      "Son tronc peut stocker des milliers de litres d'eau."
+      "Il stocke de grandes quantités d'eau dans le bois très tendre de son tronc.",
+      "https://wiki.riteme.site/wiki/Tallest_tree"
      ],
      [
       "ses fèves donnent le chocolat",
@@ -616,32 +649,38 @@
      [
       "Plante carnivore qui referme ses feuilles sur les insectes",
       "Dionée attrape-mouche",
-      "Ses pièges se ferment en moins d'une seconde quand on touche deux fois leurs poils."
+      "Ses pièges se ferment en moins d'une seconde quand on touche deux fois leurs poils.",
+      "https://en.wikipedia.org/wiki/Venus_flytrap"
      ],
      [
       "Plus grande fleur du monde, à l'odeur de viande pourrie",
       "Rafflésie",
-      "Elle peut dépasser 1 m de diamètre et pousse en Indonésie."
+      "Elle peut dépasser 1 m de diamètre et pousse en Indonésie.",
+      "https://en.wikipedia.org/wiki/Rafflesia_arnoldii"
      ],
      [
       "Petite fleur bleue dont le nom évoque le souvenir",
       "Myosotis",
-      "En anglais, on l'appelle forget-me-not, « ne m'oubliez pas »."
+      "En anglais, on l'appelle forget-me-not, « ne m'oubliez pas ».",
+      "https://en.wikipedia.org/wiki/Myosotis"
      ],
      [
       "Fleur blanche des prés qu'on effeuille : « il m'aime, un peu… »",
       "Marguerite",
-      "Son cœur jaune est formé de centaines de toutes petites fleurs."
+      "Son cœur jaune est formé de nombreuses toutes petites fleurs, les fleurons.",
+      "https://en.wikipedia.org/wiki/Leucanthemum_vulgare"
      ],
      [
       "Plante jaune dont les graines s'envolent en parachutes",
       "Pissenlit",
-      "Ses feuilles se mangent en salade ; on l'appelle aussi dent-de-lion."
+      "Ses feuilles se mangent en salade ; on l'appelle aussi dent-de-lion.",
+      "https://en.wikipedia.org/wiki/Taraxacum_officinale"
      ],
      [
       "Fleur bleue des blés, symbole du souvenir des soldats en France",
       "Bleuet",
-      "Les jeunes recrues de 1915, en uniforme bleu horizon, étaient surnommées les bleuets."
+      "Le Bleuet de France, créé en 1920, est porté le 8 mai et le 11 novembre en mémoire des soldats.",
+      "https://en.wikipedia.org/wiki/Centaurea_cyanus"
      ],
      [
       "Plante grimpante aux grappes mauves parfumées",
@@ -651,7 +690,8 @@
      [
       "Arbuste aux grosses boules de fleurs dont la couleur dépend du sol",
       "Hortensia",
-      "Ses fleurs sont bleues en sol acide et roses en sol calcaire."
+      "Ses fleurs sont bleues en sol acide et roses en sol calcaire.",
+      "https://en.wikipedia.org/wiki/Hydrangea_macrophylla"
      ],
      [
       "Plante aquatique aux feuilles rondes qui flottent sur les étangs",
@@ -661,17 +701,20 @@
      [
       "Plante du désert couverte d'épines, qui stocke l'eau",
       "Cactus",
-      "Ses épines sont des feuilles transformées, qui limitent la perte d'eau."
+      "Ses épines sont des feuilles transformées, qui servent surtout à le défendre.",
+      "https://en.wikipedia.org/wiki/Opuntia_engelmannii"
      ],
      [
       "Plante qui pique la peau et dont on fait de la soupe",
       "Ortie",
-      "Ses poils libèrent un liquide irritant au moindre contact."
+      "Ses poils libèrent un liquide irritant au moindre contact.",
+      "https://en.wikipedia.org/wiki/Urtica_dioica"
      ],
      [
       "Plante dont les feuilles se replient quand on les touche",
       "Mimosa pudique",
-      "Il replie ses feuilles en quelques secondes pour décourager les herbivores."
+      "Il replie vivement ses feuilles au toucher, ce qui le protégerait des insectes herbivores.",
+      "https://en.wikipedia.org/wiki/Mimosa_pudica"
      ],
      [
       "Plante grasse dont le gel apaise les brûlures",
@@ -681,17 +724,20 @@
      [
       "Fleur exotique qui ressemble à la tête d'un oiseau à crête orange",
       "Oiseau de paradis",
-      "Originaire d'Afrique du Sud, elle s'appelle aussi strelitzia."
+      "Originaire d'Afrique du Sud, elle s'appelle aussi strelitzia.",
+      "https://en.wikipedia.org/wiki/Strelitzia_reginae"
      ],
      [
       "Petite fleur blanche qui perce la neige en fin d'hiver",
       "Perce-neige",
-      "C'est l'une des premières fleurs de l'année, dès janvier ou février."
+      "C'est l'une des premières fleurs de l'année, dès janvier ou février.",
+      "https://en.wikipedia.org/wiki/Galanthus"
      ],
      [
       "Fleur bleue des Alpes en forme de trompette",
       "Gentiane",
-      "La racine d'une cousine, la gentiane jaune, sert à fabriquer des apéritifs."
+      "La racine d'une cousine, la gentiane jaune, sert à fabriquer des apéritifs.",
+      "https://en.wikipedia.org/wiki/Gentiana_lutea"
      ]
     ]
    }
@@ -815,7 +861,8 @@
      "Le persil",
      "La coriandre"
     ],
-    "explication": "Le pesto génois mêle basilic, pignons, ail, parmesan et huile d'olive."
+    "explication": "Le pesto génois mêle basilic, pignons, ail, parmesan et huile d'olive.",
+    "source": "https://en.wikipedia.org/wiki/Pesto"
    },
    {
     "enonce": "Quelle plante aux fleurs bleues donne une fibre pour faire du tissu ?",
@@ -825,7 +872,8 @@
      "Le tournesol",
      "La lavande"
     ],
-    "explication": "La France est le premier producteur mondial de lin textile."
+    "explication": "La France est le premier producteur mondial de lin textile.",
+    "source": "https://en.wikipedia.org/wiki/Flax"
    }
   ]
  },
@@ -840,52 +888,62 @@
      [
       "Responsable de la plupart des empoisonnements mortels en Europe",
       "Amanite phalloïde",
-      "Ses toxines détruisent le foie, et les premiers symptômes n'apparaissent qu'après 6 à 12 heures."
+      "Ses toxines détruisent le foie, et les premiers symptômes n'apparaissent qu'après 6 à 12 heures.",
+      "https://www.britannica.com/story/7-of-the-worlds-most-poisonous-mushrooms"
      ],
      [
       "Chapeau rouge à points blancs, le champignon des contes",
       "Amanite tue-mouches",
-      "Toxique et hallucinogène, on la mettait autrefois dans du lait pour tuer les mouches."
+      "Toxique et hallucinogène, on la mettait autrefois dans du lait pour tuer les mouches.",
+      "https://fr.vikidia.org/wiki/Amanite_tue-mouches"
      ],
      [
       "Pousse sous terre, très recherché dans le Périgord",
       "Truffe noire",
-      "On la cherche avec des chiens ou des cochons, qui la sentent sous la terre."
+      "On la cherche avec des chiens ou des cochons, qui la sentent sous la terre.",
+      "https://www.france.fr/fr/article/truffe/"
      ],
      [
       "Gros pied et chapeau brun, roi des sous-bois",
       "Cèpe de Bordeaux",
-      "C'est un bolet : sous son chapeau, pas de lamelles mais des tubes, comme une éponge."
+      "C'est un bolet : sous son chapeau, pas de lamelles mais des tubes, comme une éponge.",
+      "https://www.futura-sciences.com/maison/questions-reponses/jardinage-cepes-bolets-champignons-savez-vous-vraiment-differencier-23446/"
      ],
      [
       "Jaune orangé en forme d'entonnoir, aussi appelé chanterelle",
       "Girolle",
-      "Attention à la fausse girolle, qui lui ressemble mais a de vraies lamelles serrées."
+      "Attention à la fausse girolle, qui lui ressemble mais a de vraies lamelles.",
+      "https://www.vapko.ch/phocadownload/public/FR/A-Z/confusions.pdf"
      ],
      [
       "Le champignon cultivé le plus vendu",
       "Champignon de Paris",
-      "On le cultivait au XIXe siècle dans les anciennes carrières sous Paris."
+      "On le cultivait au XIXe siècle dans les anciennes carrières sous Paris.",
+      "https://www.pariszigzag.fr/insolite/histoire-insolite-paris/champignons-paris/"
      ],
      [
       "Chapeau alvéolé comme une éponge, cueilli au printemps",
       "Morille",
-      "Elle est toxique crue : il faut toujours bien la cuire."
+      "Elle est toxique crue : il faut toujours bien la cuire.",
+      "https://fr.vikidia.org/wiki/Champignon_comestible"
      ],
      [
       "Noir en forme d'entonnoir, au nom inquiétant mais comestible",
       "Trompette de la mort",
-      "On dit que son nom vient de sa couleur noire et de sa pousse vers la Toussaint."
+      "Malgré son aspect sombre, c'est un comestible de choix.",
+      "https://wiki.riteme.site/wiki/Trompette_de_la_mort"
      ],
      [
       "Pousse en touffes sur le bois, très facile à cultiver",
       "Pleurote",
-      "On le cultive sur de la paille, et même sur du marc de café."
+      "On le cultive même sur du marc de café récupéré dans les cafés.",
+      "https://www.linfodurable.fr/conso/pleurotes-sur-marc-de-cafe-quand-lagriculture-urbaine-recycle-les-dechets-de-la-ville-9699"
      ],
      [
       "Grand chapeau écailleux sur un long pied, aussi appelé coulemelle",
       "Lépiote élevée",
-      "Son chapeau peut dépasser 30 cm ; son anneau coulisse le long du pied."
+      "Son anneau coulisse le long du pied : c'est un bon critère pour la reconnaître.",
+      "https://fr.vikidia.org/wiki/Champignon_comestible"
      ]
     ]
    },
@@ -897,27 +955,32 @@
      [
       "la partie du dessus, en forme de parapluie",
       "Chapeau",
-      "Sous le chapeau se forment les spores, comme des graines microscopiques."
+      "Sous le chapeau se forment les spores, comme des graines microscopiques.",
+      "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Mushroom"
      ],
      [
       "la partie qui porte le chapeau",
       "Pied",
-      "On l'appelle aussi le stipe."
+      "On l'appelle aussi le stipe.",
+      "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Mushroom"
      ],
      [
       "les fines lames sous le chapeau de certains champignons",
       "Lamelles",
-      "C'est entre les lamelles que se forment les spores."
+      "C'est entre les lamelles que se forment les spores.",
+      "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Mushroom"
      ],
      [
       "la collerette de peau autour du pied",
       "Anneau",
-      "C'est le reste d'un voile qui protégeait les lamelles du jeune champignon."
+      "C'est le reste d'un voile qui protégeait les lamelles du jeune champignon.",
+      "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Mushroom"
      ],
      [
       "la poche à la base du pied des amanites",
       "Volve",
-      "Elle signale souvent une amanite : il faut déterrer le pied entier pour la voir."
+      "Elle signale souvent une amanite : il faut déterrer le pied entier pour la voir.",
+      "https://www.britannica.com/science/death-cap"
      ],
      [
       "les cellules microscopiques qui servent à se reproduire",
@@ -927,12 +990,14 @@
      [
       "le cercle de champignons qui pousse dans l'herbe",
       "Rond de sorcière",
-      "Il marque le bord d'un mycélium qui s'étend année après année."
+      "Il marque le bord d'un mycélium qui s'étend année après année.",
+      "https://www.futura-sciences.com/planete/definitions/champignon-rond-sorciere-21012/"
      ],
      [
       "les petits trous sous le chapeau des bolets",
       "Pores",
-      "Ce sont les ouvertures de tubes, que les bolets ont à la place des lamelles."
+      "Ce sont les ouvertures de tubes, que les bolets ont à la place des lamelles.",
+      "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Mushroom"
      ]
     ]
    },
@@ -944,27 +1009,32 @@
      [
       "la levure de boulanger",
       "Le pain",
-      "Elle produit du gaz carbonique, qui fait gonfler la pâte."
+      "Elle produit du gaz carbonique, qui fait gonfler la pâte.",
+      "https://www.futura-sciences.com/planete/definitions/zoologie-levure-12772/"
      ],
      [
       "Penicillium camemberti",
       "La croûte blanche du camembert",
-      "Ce duvet blanc se forme pendant l'affinage."
+      "Ce duvet blanc se forme pendant l'affinage.",
+      "https://startercultures.eu/top-5-most-popular-molds-used-for-fermentation"
      ],
      [
       "la levure de brasserie",
       "La bière",
-      "Elle transforme le sucre du malt en alcool et en gaz."
+      "Elle transforme le sucre du malt en alcool et en gaz.",
+      "https://cofalec.com/fr/questions-levure/"
      ],
      [
       "le koji, une moisissure",
       "La sauce soja",
-      "Ce champignon fait fermenter le soja et le blé pendant des mois."
+      "Ce champignon fait fermenter le soja et le blé pendant des mois.",
+      "https://davidmoore.org.uk/21st_Century_Guidebook_to_Fungi_PLATINUM/Ch17_25.htm"
      ],
      [
       "le Botrytis, ou pourriture noble",
       "Le sauternes",
-      "Il concentre le sucre des raisins, ce qui donne ce vin blanc liquoreux."
+      "Il concentre le sucre des raisins, ce qui donne ce vin blanc liquoreux.",
+      "https://startercultures.eu/top-5-most-popular-molds-used-for-fermentation"
      ]
     ]
    }
@@ -1028,7 +1098,8 @@
      "Le mildiou",
      "La truffe"
     ],
-    "explication": "Le pain contaminé provoquait hallucinations et gangrènes."
+    "explication": "Le pain contaminé provoquait hallucinations et gangrènes.",
+    "source": "https://pressbooks.calstate.edu/biol102/chapter/fungi/"
    },
    {
     "enonce": "Quel est le plus grand être vivant connu ?",
@@ -1038,7 +1109,8 @@
      "Un séquoia",
      "Un éléphant d'Afrique"
     ],
-    "explication": "Le mycélium d'un armillaire s'étend sur près de 10 km² en Oregon, aux États-Unis."
+    "explication": "Le mycélium d'un armillaire s'étend sur près de 10 km² en Oregon, aux États-Unis.",
+    "source": "https://scientificamerican.com/article/strange-but-true-largest-organism-is-fungus"
    },
    {
     "enonce": "Que faire d'un champignon cueilli dont on n'est pas sûr ?",
@@ -1048,7 +1120,8 @@
      "Le faire bouillir longtemps",
      "Vérifier qu'une limace l'a mangé"
     ],
-    "explication": "En France, de nombreux pharmaciens identifient gratuitement les champignons."
+    "explication": "En France, le pharmacien est un interlocuteur de première ligne pour identifier une cueillette.",
+    "source": "https://www.vidal.fr/actualites/38418-cepes-et-bolets-gastronomiques-mais-parfois-toxiques.html"
    },
    {
     "enonce": "Les champignons font-ils de la photosynthèse ?",
@@ -1058,7 +1131,8 @@
      "Seulement la nuit",
      "Seulement les champignons verts"
     ],
-    "explication": "Ils décomposent la matière morte ou vivent en association avec d'autres êtres."
+    "explication": "Ils décomposent la matière morte ou vivent en association avec d'autres êtres.",
+    "source": "https://pressbooks.calstate.edu/biol102/chapter/fungi/"
    },
    {
     "enonce": "Comment s'appelle l'association entre un champignon et les racines d'un arbre ?",
@@ -1068,7 +1142,8 @@
      "La germination",
      "La pollinisation"
     ],
-    "explication": "Le champignon apporte eau et minéraux à l'arbre, qui lui donne des sucres."
+    "explication": "Le champignon apporte eau et minéraux à l'arbre, qui lui donne des sucres.",
+    "source": "https://pressbooks.calstate.edu/biol102/chapter/fungi/"
    },
    {
     "enonce": "Un lichen associe un champignon et quoi ?",
@@ -1078,7 +1153,8 @@
      "Un insecte",
      "Une fougère"
     ],
-    "explication": "Le champignon protège l'algue, qui fabrique des sucres grâce à la lumière."
+    "explication": "Le champignon protège l'algue, qui fabrique des sucres grâce à la lumière.",
+    "source": "https://pressbooks.calstate.edu/biol102/chapter/fungi/"
    },
    {
     "enonce": "Quelle infection de la peau courante est due à un champignon ?",
@@ -1088,7 +1164,8 @@
      "La rougeole",
      "L'acné"
     ],
-    "explication": "Le pied d'athlète est une mycose fréquente entre les orteils."
+    "explication": "Le pied d'athlète est une mycose courante de la peau du pied.",
+    "source": "https://pressbooks.calstate.edu/biol102/chapter/fungi/"
    },
    {
     "enonce": "Les champignons sont-ils plus proches des plantes ou des animaux ?",
@@ -1098,7 +1175,8 @@
      "Des bactéries",
      "Des minéraux"
     ],
-    "explication": "L'étude de leur ADN montre qu'ils sont plus proches des animaux que des plantes."
+    "explication": "L'étude de leur ADN montre qu'ils sont plus proches des animaux que des plantes.",
+    "source": "https://pressbooks.calstate.edu/biol102/chapter/fungi/"
    },
    {
     "enonce": "Quel champignon cultivé sur bois est très consommé en Asie ?",
@@ -1108,7 +1186,8 @@
      "Le cèpe",
      "La girolle"
     ],
-    "explication": "C'est l'un des champignons les plus consommés au monde."
+    "explication": "Originaire de Chine et du Japon, c'est le deuxième champignon le plus cultivé au monde.",
+    "source": "https://www.lanutrition.fr/les-differentes-varietes-de-champignons-cultives"
    },
    {
     "enonce": "En quelle saison cueille-t-on le plus de champignons en France ?",
@@ -1118,7 +1197,8 @@
      "Le plein été",
      "Le début du printemps"
     ],
-    "explication": "La pluie et la douceur de l'automne favorisent leur pousse."
+    "explication": "Ils sortent souvent en nombre deux semaines après les pluies de septembre ou d'octobre.",
+    "source": "https://fr.vikidia.org/wiki/Champignon_comestible"
    },
    {
     "enonce": "Quel champignon toxique au pied rouge ressemble à un cèpe ?",
@@ -1128,7 +1208,8 @@
      "Le pied-de-mouton",
      "La coulemelle"
     ],
-    "explication": "Son pied rouge et sa chair qui bleuit le distinguent du cèpe."
+    "explication": "Son pied rouge et sa chair qui bleuit le distinguent du cèpe.",
+    "source": "https://www.futura-sciences.com/maison/questions-reponses/jardinage-cepes-bolets-champignons-savez-vous-vraiment-differencier-23446/"
    },
    {
     "enonce": "Quelle truffe, récoltée autour d'Alba en Italie, est la plus chère ?",
@@ -1138,7 +1219,8 @@
      "La truffe d'été",
      "La truffe de Bourgogne"
     ],
-    "explication": "Elle peut se vendre plusieurs milliers d'euros le kilo."
+    "explication": "Elle peut se vendre plusieurs milliers d'euros le kilo.",
+    "source": "https://fauchon.com/en/mag/advice/difference-between-black-white-truffles"
    }
   ]
  },
@@ -1153,32 +1235,38 @@
      [
       "Le plus rapide, plus de 300 km/h en piqué",
       "Faucon pèlerin",
-      "C'est l'animal le plus rapide du monde ; il niche même sur les cathédrales et les gratte-ciel."
+      "C'est l'animal le plus rapide du monde ; il niche même sur les cathédrales et les gratte-ciel.",
+      "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/p/Peregrine_Falcon.htm"
      ],
      [
       "Nocturne au visage blanc en forme de cœur",
       "Effraie des clochers",
-      "Son disque facial guide les sons vers ses oreilles : elle chasse à l'ouïe dans le noir total."
+      "Son disque facial guide les sons vers ses oreilles : elle peut chasser à l'ouïe, de nuit.",
+      "https://wikiwand.com/en/owl"
      ],
      [
       "Grand rapace nocturne aux aigrettes en forme d'oreilles",
       "Grand-duc d'Europe",
-      "Ses aigrettes sont des plumes : ses vraies oreilles sont cachées sur les côtés de la tête."
+      "Ses aigrettes sont des plumes : ses vraies oreilles sont cachées sur les côtés de la tête.",
+      "https://wikiwand.com/en/owl"
      ],
      [
       "Emblème des États-Unis, à tête blanche",
       "Pygargue à tête blanche",
-      "Presque disparu à cause du DDT, il a été retiré de la liste des espèces menacées en 2007."
+      "Presque disparu à cause du DDT, il a été retiré de la liste des espèces menacées en 2007.",
+      "https://www.history.com/this-day-in-history/june-28/bald-eagle-removed-from-list-of-threatened-species"
      ],
      [
       "Fait du surplace au-dessus des champs pour repérer les campagnols",
       "Faucon crécerelle",
-      "Ce vol sur place s'appelle le vol en Saint-Esprit."
+      "Ce vol sur place s'appelle le vol en Saint-Esprit.",
+      "https://www.techno-science.net/fr/definitions/faucon-crecerelle"
      ],
      [
       "Vautour des montagnes qui brise les os pour en manger la moelle",
       "Gypaète barbu",
-      "Il lâche les os de haut sur les rochers pour les briser ; il a été réintroduit dans les Alpes."
+      "Il lâche les os de haut sur les rochers pour les briser ; il a été réintroduit dans les Alpes.",
+      "https://www.techno-science.net/fr/definitions/gypaete-barbu"
      ],
      [
       "Pêcheur qui plonge pattes en avant pour attraper les poissons",
@@ -1188,7 +1276,8 @@
      [
       "Grand aigle des montagnes, présent sur de nombreux blasons",
       "Aigle royal",
-      "Ses ailes peuvent dépasser 2 m d'envergure."
+      "Ses ailes peuvent dépasser 2 m d'envergure.",
+      "https://animals.worldatlas.com/animals/the-world-s-largest-eagles-v2.html"
      ],
      [
       "Plus grand oiseau volant d'Amérique du Sud",
@@ -1198,7 +1287,8 @@
      [
       "Petite chouette symbole d'Athéna et de la sagesse",
       "Chevêche d'Athéna",
-      "Elle figurait sur les pièces de monnaie de l'Athènes antique."
+      "Elle figurait sur les pièces de monnaie de l'Athènes antique.",
+      "https://www.techno-science.net/fr/definitions/cheveche-d-athena"
      ],
      [
       "Roux à la queue fourchue, souvent vu au-dessus des campagnes",
@@ -1215,7 +1305,8 @@
      [
       "Vautour le plus commun en France, au cou dénudé",
       "Vautour fauve",
-      "Réintroduit dans les Grands Causses, il plane en grands groupes."
+      "Réintroduit dans les Grands Causses, il plane en grands groupes.",
+      "https://occitanie.lpo.fr/wp-content/uploads/2024/08/livret-vautour-des-grands-causses.pdf"
      ],
      [
       "Chouette des bois dont on entend le « hou-hou » la nuit",
@@ -1250,7 +1341,8 @@
      [
       "Aigle d'Amérique tropicale aux serres énormes, chasseur de singes",
       "Harpie féroce",
-      "Ses serres rivalisent avec les griffes d'un ours ; elle chasse aussi les paresseux."
+      "Ses serres rivalisent avec les griffes d'un ours ; elle chasse aussi les paresseux.",
+      "https://www.discoverwildlife.com/animal-facts/birds/most-powerful-eagles-world"
      ],
      [
       "Rapace d'Afrique à longues pattes qui tue les serpents à coups de pied",
@@ -1270,7 +1362,8 @@
      [
       "Plus grand faucon du monde, très prisé des fauconniers",
       "Faucon gerfaut",
-      "Il vit dans l'Arctique ; au Moyen Âge, seuls les rois pouvaient en posséder."
+      "Dans la fauconnerie médiévale, il était associé aux rois.",
+      "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/p/Peregrine_Falcon.htm"
      ],
      [
       "Petit hibou du Midi au chant flûté répété toute la nuit",
@@ -1280,7 +1373,8 @@
      [
       "Aigle marin géant de l'Extrême-Orient russe",
       "Pygargue de Steller",
-      "C'est l'aigle le plus lourd du monde : il peut dépasser 8 kg."
+      "C'est l'aigle le plus lourd du monde : il peut dépasser 8 kg.",
+      "https://animals.worldatlas.com/animals/the-world-s-largest-eagles-v2.html"
      ]
     ]
    }
@@ -1334,7 +1428,8 @@
      "Ils ont la même taille",
      "Cela dépend de la saison"
     ],
-    "explication": "La femelle peut être un tiers plus grande que le mâle."
+    "explication": "La femelle peut être un tiers plus grande que le mâle.",
+    "source": "https://thecanadianencyclopedia.ca/en/article/peregrine-falcon"
    },
    {
     "enonce": "Comment s'appelle le petit de l'aigle ?",
@@ -1364,7 +1459,8 @@
      "180",
      "360"
     ],
-    "explication": "Ses yeux sont fixes dans leurs orbites : elle doit tourner la tête pour regarder ailleurs."
+    "explication": "Ses yeux sont fixes dans leurs orbites : elle doit tourner la tête pour regarder ailleurs.",
+    "source": "https://wikiwand.com/en/owl"
    },
    {
     "enonce": "Quel pesticide a presque fait disparaître de nombreux rapaces dans les années 1960 ?",
@@ -1374,7 +1470,8 @@
      "Le fluor",
      "Le sel"
     ],
-    "explication": "Il amincissait la coquille des œufs, qui se cassaient pendant la couvaison."
+    "explication": "Il amincissait la coquille des œufs, dont beaucoup n'arrivaient plus à l'éclosion.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/p/Peregrine_Falcon.htm"
    },
    {
     "enonce": "Quel rapace figure sur les armoiries de l'Allemagne ?",
@@ -1482,12 +1579,14 @@
      [
       "Félin d'Asie du Sud-Est aux taches en forme de nuages",
       "Panthère nébuleuse",
-      "Elle a les plus longues canines de tous les félins par rapport à sa taille."
+      "Elle a les plus longues canines de tous les félins par rapport à sa taille.",
+      "https://animals.sandiegozoo.org/node/163"
      ],
      [
       "Petit félin tacheté d'Amérique, longtemps chassé pour sa fourrure",
       "Ocelot",
-      "Salvador Dalí se promenait avec un ocelot apprivoisé."
+      "Salvador Dalí emmenait presque partout son ocelot Babou, tenu en laisse.",
+      "https://anothermag.com/design-living/2472/salvador-dalis-ocelot"
      ],
      [
       "Petit félin des déserts aux pattes couvertes de poils",
@@ -1504,7 +1603,8 @@
      [
       "Félin d'Asie centrale au poil long et à la face aplatie",
       "Manul",
-      "Ses pupilles restent rondes, contrairement à celles du chat domestique."
+      "Ses pupilles restent rondes, contrairement à celles du chat domestique.",
+      "https://petbook-magazine.com/wildlife/hardly-anyone-knows-these-16-wild-cats"
      ],
      [
       "Lynx d'Amérique du Nord à queue courte",
@@ -1526,7 +1626,8 @@
      [
       "Félin d'Amérique au corps allongé et à la tête de belette",
       "Jaguarondi",
-      "Il chasse surtout le jour, ce qui est rare chez les félins."
+      "Il chasse le jour, surtout des petits mammifères, des oiseaux et des reptiles.",
+      "https://www.nhm.ac.uk/discover/a-world-of-wild-cats.html"
      ],
      [
       "Félin vénéré en Égypte antique",
@@ -1636,7 +1737,8 @@
      "L'Asie",
      "L'Amérique du Sud"
     ],
-    "explication": "Les chats sauvages d'Australie descendent de chats domestiques importés."
+    "explication": "Les félins sauvages vivent en Europe, en Afrique, en Asie et dans les Amériques.",
+    "source": "https://www.nhm.ac.uk/discover/a-world-of-wild-cats.html"
    },
    {
     "enonce": "À quoi servent les rayures du tigre ?",
@@ -1679,7 +1781,8 @@
      "Le chat forestier",
      "Le chat des sables"
     ],
-    "explication": "Ce lynx d'Espagne et du Portugal est passé de moins de 100 à plus de 2 000 individus."
+    "explication": "Ce lynx d'Espagne et du Portugal est passé de moins de 100 à plus de 2 000 individus.",
+    "source": "https://earth.com/news/saving-the-iberian-lynx-how-humans-rescued-this-rare-feline-from-extinction"
    },
    {
     "enonce": "Combien de temps dure la gestation d'une chatte ?",
@@ -1750,32 +1853,38 @@
      [
       "Grand singe roux de Bornéo et de Sumatra",
       "Orang-outan",
-      "Son nom signifie « homme de la forêt » en malais."
+      "Son nom signifie « homme de la forêt » en malais.",
+      "https://www.newworldencyclopedia.org/entry/Orangutan"
      ],
      [
       "Cousin pacifique du chimpanzé, vit au Congo",
       "Bonobo",
-      "Il ne vit qu'au sud du fleuve Congo, qui l'a séparé du chimpanzé."
+      "Il ne vit qu'au sud du fleuve Congo, qui l'a séparé du chimpanzé.",
+      "https://safekipedia.com/J8/wiki/Bonobo"
      ],
      [
       "Lémurien de Madagascar à la queue annelée noir et blanc",
       "Maki catta",
-      "Les lémuriens ne vivent à l'état sauvage qu'à Madagascar."
+      "Les lémuriens ne vivent à l'état sauvage qu'à Madagascar.",
+      "https://www.newworldencyclopedia.org/entry/Lemur"
      ],
      [
       "Singe d'Amérique au cri très puissant",
       "Singe hurleur",
-      "Son cri porte à plusieurs kilomètres, amplifié par un os de la gorge qui sert de caisse de résonance."
+      "Son cri s'entend jusqu'à près de 5 km, grâce à un os de la gorge, l'hyoïde, très développé.",
+      "https://www.newworldencyclopedia.org/entry/Howler_monkey"
      ],
      [
       "Le seul singe sauvage d'Europe, à Gibraltar",
       "Magot",
-      "Selon la légende, Gibraltar restera britannique tant que ces singes y vivront."
+      "Selon la légende, Gibraltar restera britannique tant que ces singes y vivront.",
+      "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Gibraltar_Barbary_Macaques.html"
      ],
      [
       "Singe qui se baigne dans les sources chaudes du Japon",
       "Macaque japonais",
-      "C'est le primate qui vit le plus au nord, après l'homme."
+      "C'est le primate qui vit le plus au nord, après l'homme.",
+      "https://www.newworldencyclopedia.org/entry/Primate"
      ],
      [
       "Singe de Bornéo au nez énorme",
@@ -1785,12 +1894,14 @@
      [
       "Singe au visage rouge et bleu",
       "Mandrill",
-      "C'est le plus grand des singes, si l'on met à part les grands singes."
+      "C'est le plus grand des singes, si l'on met à part les grands singes.",
+      "https://www.newworldencyclopedia.org/entry/Old_World_monkey"
      ],
      [
       "Petit primate nocturne d'Asie aux yeux énormes",
       "Tarsier",
-      "Chacun de ses yeux est plus gros que son cerveau."
+      "Chacun de ses yeux est aussi gros que son cerveau, parfois même plus.",
+      "https://encycloreader.org/r/wikipedia.php?q=Tarsier"
      ],
      [
       "Singe aux très longs bras qui se balance de branche en branche",
@@ -1808,17 +1919,20 @@
      [
       "Le plus petit singe du monde, d'Amazonie",
       "Ouistiti pygmée",
-      "Il pèse environ 100 g."
+      "Il pèse moins de 200 g.",
+      "https://www.newworldencyclopedia.org/entry/Marmoset"
      ],
      [
       "Singe d'Amérique très habile, qui casse les noix avec des pierres",
       "Capucin",
-      "Il doit son nom à la couleur de sa tête, qui rappelle la capuche des moines capucins."
+      "Il doit son nom à la couleur de sa tête, qui rappelle la capuche des moines capucins.",
+      "https://www.newworldencyclopedia.org/entry/Capuchin_monkey"
      ],
      [
       "Singe d'Afrique au museau de chien, qui vit en grandes troupes",
       "Babouin",
-      "Les Égyptiens l'associaient au dieu Thot."
+      "Les Égyptiens l'associaient au dieu Thot.",
+      "https://www.newworldencyclopedia.org/entry/Baboon"
      ],
      [
       "Lémurien nocturne au long doigt fin pour chercher les larves",
@@ -1834,7 +1948,8 @@
      [
       "Singe d'Afrique noir et blanc aux longs poils, presque sans pouce",
       "Colobe",
-      "Son nom vient du grec « mutilé », à cause de son pouce minuscule."
+      "Son nom vient du grec « mutilé », à cause de son pouce minuscule.",
+      "https://www.newworldencyclopedia.org/entry/Black-and-white_colobus"
      ],
      [
       "Lémurien qui se déplace au sol en sautant de côté",
@@ -1844,7 +1959,8 @@
      [
       "Petit primate lent d'Asie, à la morsure venimeuse",
       "Loris lent",
-      "C'est le seul primate venimeux : son venin vient d'une glande du bras."
+      "C'est le seul primate venimeux : son venin vient d'une glande du bras.",
+      "https://www.ifaw.org/animals/slow-lorises"
      ],
      [
       "Singe d'Amazonie au visage chauve rouge vif",
@@ -1859,7 +1975,8 @@
      [
       "Petit singe à crinière dorée de la forêt atlantique du Brésil",
       "Tamarin-lion doré",
-      "Grâce à sa protection, il est passé de quelques centaines à plusieurs milliers d'individus."
+      "Grâce à sa protection, il est passé de quelques centaines à plusieurs milliers d'individus.",
+      "https://csmonitor.com/Environment/2023/0803/Brazil-s-golden-monkeys-swing-from-near-extinction-to-thousands"
      ],
      [
       "Plus grand lémurien vivant, à la queue très courte",
@@ -1918,7 +2035,8 @@
      "L'orang-outan",
      "Le babouin"
     ],
-    "explication": "Nous partageons environ 98,7 % de notre ADN avec eux."
+    "explication": "Nous partageons environ 98,7 % de notre ADN avec eux.",
+    "source": "https://www.motherjones.com/politics/2014/02/evolution-creationism-bonobos-neanderthals-denisovans-chromosome-two/"
    },
    {
     "enonce": "Combien de chromosomes a l'être humain ?",
@@ -1928,7 +2046,8 @@
      "48",
      "52"
     ],
-    "explication": "Les grands singes en ont 48 : deux de leurs chromosomes ont fusionné chez nous."
+    "explication": "Les grands singes en ont 48 : deux de leurs chromosomes ont fusionné chez nous.",
+    "source": "https://www.pbs.org/wgbh/nova/education/evolution/human-chromosome-2.html"
    },
    {
     "enonce": "Quelle primatologue a étudié les orangs-outans à Bornéo ?",
@@ -1938,7 +2057,8 @@
      "Dian Fossey",
      "Marie Curie"
     ],
-    "explication": "Avec Goodall et Fossey, elle formait les « anges de Leakey »."
+    "explication": "Avec Goodall et Fossey, elle formait les « anges de Leakey ».",
+    "source": "https://www.newworldencyclopedia.org/entry/Louis_Leakey"
    },
    {
     "enonce": "Quel paléontologue a envoyé Goodall, Fossey et Galdikas étudier les grands singes ?",
@@ -1948,7 +2068,8 @@
      "Jacques-Yves Cousteau",
      "Yves Coppens"
     ],
-    "explication": "Il pensait que les grands singes éclaireraient l'évolution humaine."
+    "explication": "Il pensait que les grands singes éclaireraient l'évolution humaine.",
+    "source": "https://www.newworldencyclopedia.org/entry/Louis_Leakey"
    },
    {
     "enonce": "Comment s'appelle le célèbre fossile d'australopithèque découvert en 1974 ?",
@@ -1958,7 +2079,8 @@
      "Néandertal",
      "Cro-Magnon"
     ],
-    "explication": "Elle a vécu il y a environ 3,2 millions d'années en Éthiopie."
+    "explication": "Elle a vécu il y a environ 3,2 millions d'années en Éthiopie.",
+    "source": "https://education.nationalgeographic.org/resource/lucy-discovered-africa"
    },
    {
     "enonce": "Qu'est-ce qu'une queue préhensile ?",
@@ -1990,7 +2112,8 @@
      "Les requins",
      "La pollution de l'air"
     ],
-    "explication": "Leurs forêts de Bornéo et de Sumatra reculent face aux plantations de palmiers à huile."
+    "explication": "Leurs forêts de Bornéo et de Sumatra reculent face aux plantations de palmiers à huile.",
+    "source": "https://www.newworldencyclopedia.org/entry/Orangutan"
    },
    {
     "enonce": "Que mangent surtout les gorilles ?",
@@ -2016,7 +2139,8 @@
      [
       "Chasseur rapide au bord de l'eau, aux quatre ailes transparentes",
       "Libellule",
-      "Ses ancêtres, avant les dinosaures, atteignaient 70 cm d'envergure."
+      "Ses proches cousins disparus, les méganeures, atteignaient 70 cm d'envergure avant les dinosaures.",
+      "https://fr.vikidia.org/wiki/Meganeura"
      ],
      [
       "Insecte vert aux très longues antennes, qui saute loin",
@@ -2031,7 +2155,8 @@
      [
       "Petite bête rouge à points noirs, mangeuse de pucerons",
       "Coccinelle",
-      "Une coccinelle peut manger des dizaines de pucerons par jour."
+      "Une coccinelle peut manger des dizaines de pucerons par jour.",
+      "https://espace-sciences.org/juniors/animaux/le-bebe-coccinelle-devore-les-pucerons"
      ],
      [
       "Plus grand coléoptère d'Europe, aux mandibules en bois de cerf",
@@ -2041,12 +2166,14 @@
      [
       "Insecte qui ressemble à une brindille",
       "Phasme",
-      "Certains phasmes dépassent 50 cm : ce sont les plus longs insectes."
+      "Certains phasmes dépassent 50 cm : ce sont les plus longs insectes.",
+      "https://www.wikiwand.com/en/articles/Pharnacia_maxima"
      ],
      [
       "Insecte qui élève des pucerons pour leur miellat",
       "Fourmi",
-      "Une fourmi peut porter plusieurs fois son propre poids."
+      "Certaines fourmis protègent les pucerons et se nourrissent de leurs excrétions sucrées.",
+      "https://biblio.naturalsciences.be/rbins-publications/boekjes-opvoedkundige-dienst-carnets-du-service-educatif/expo/micro-macro-un-monde-sur-six-pattes-1994.pdf"
      ],
      [
       "Insecte sauteur qui suce le sang des chiens et des chats",
@@ -2071,7 +2198,8 @@
      [
       "Coléoptère rayé qui dévore les feuilles de pomme de terre",
       "Doryphore",
-      "Venu d'Amérique, il a envahi l'Europe au XXe siècle."
+      "Venu d'Amérique, il a envahi l'Europe au XXe siècle.",
+      "https://gd.eppo.int/taxon/LPTNDE/datasheet"
      ],
      [
       "Coléoptère dont les larves creusent les charpentes",
@@ -2081,7 +2209,8 @@
      [
       "Insecte des cuisines qui fuit la lumière",
       "Blatte",
-      "Ses ancêtres existaient déjà il y a plus de 300 millions d'années."
+      "Ses ancêtres existaient déjà il y a plus de 300 millions d'années.",
+      "https://www.larousse.fr/encyclopedie/divers/paléozoïque/186093"
      ],
      [
       "Mouche rayée qui imite la guêpe pour se protéger",
@@ -2260,7 +2389,8 @@
      "Les mandibules",
      "Les ocelles"
     ],
-    "explication": "Les coccinelles et les hannetons les soulèvent pour s'envoler."
+    "explication": "Les coccinelles et les hannetons les soulèvent pour s'envoler.",
+    "source": "https://biblio.naturalsciences.be/rbins-publications/boekjes-opvoedkundige-dienst-carnets-du-service-educatif/expo/micro-macro-un-monde-sur-six-pattes-1994.pdf"
    },
    {
     "enonce": "Comment s'appelle la transformation de la chenille en papillon ?",
@@ -2270,7 +2400,8 @@
      "La germination",
      "La migration"
     ],
-    "explication": "Entre les deux, la chenille s'enferme dans une chrysalide."
+    "explication": "Entre les deux, la chenille se transforme en chrysalide.",
+    "source": "https://biblio.naturalsciences.be/rbins-publications/boekjes-opvoedkundige-dienst-carnets-du-service-educatif/expo/micro-macro-un-monde-sur-six-pattes-1994.pdf"
    },
    {
     "enonce": "Comment s'appelle l'enveloppe où la chenille devient papillon ?",
@@ -2290,7 +2421,8 @@
      "Par des branchies",
      "Par la bouche"
     ],
-    "explication": "Ces stigmates mènent l'air dans des tubes, les trachées."
+    "explication": "Ces stigmates mènent l'air dans des tubes, les trachées.",
+    "source": "https://espacepourlavie.ca/quest-ce-quun-insecte"
    },
    {
     "enonce": "Comment s'appellent les gros yeux des insectes, faits de milliers de facettes ?",
@@ -2300,7 +2432,8 @@
      "Des palpes",
      "Des antennes"
     ],
-    "explication": "Une libellule a jusqu'à environ 30 000 facettes par œil."
+    "explication": "Une libellule a jusqu'à environ 30 000 facettes par œil.",
+    "source": "https://biblio.naturalsciences.be/rbins-publications/boekjes-opvoedkundige-dienst-carnets-du-service-educatif/expo/micro-macro-un-monde-sur-six-pattes-1994.pdf"
    },
    {
     "enonce": "De quel sexe sont les abeilles ouvrières ?",
@@ -2320,17 +2453,19 @@
      "En changeant de couleur",
      "En laissant des traces de miel"
     ],
-    "explication": "Karl von Frisch a reçu le prix Nobel en 1973 pour avoir décodé cette danse."
+    "explication": "Karl von Frisch, qui a décodé cette danse, a partagé le prix Nobel de médecine en 1973.",
+    "source": "https://en.wikipedia.org/wiki/Karl_von_Frisch"
    },
    {
-    "enonce": "Quel naturaliste français a observé les insectes toute sa vie en Provence ?",
+    "enonce": "Quel naturaliste français a étudié les insectes dans son jardin provençal, l'Harmas ?",
     "bonne": "Jean-Henri Fabre",
     "faux": [
      "Buffon",
      "Lamarck",
      "Cuvier"
     ],
-    "explication": "Ses Souvenirs entomologiques lui ont valu le surnom d'Homère des insectes."
+    "explication": "Ses Souvenirs entomologiques lui ont valu le surnom d'Homère des insectes.",
+    "source": "https://www.larousse.fr/encyclopedie/personnage/Jean_Henri_Casimir_Fabre/118915"
    },
    {
     "enonce": "Comment s'appelle la science des insectes ?",
@@ -2340,7 +2475,8 @@
      "L'ichtyologie",
      "L'herpétologie"
     ],
-    "explication": "L'ornithologie étudie les oiseaux, l'ichtyologie les poissons."
+    "explication": "L'ornithologie étudie les oiseaux, l'ichtyologie les poissons.",
+    "source": "https://www.newworldencyclopedia.org/entry/insect"
    },
    {
     "enonce": "Quel insecte abîme les vêtements en laine ?",
@@ -2360,7 +2496,8 @@
      "Non, des crustacés",
      "Non, des reptiles"
     ],
-    "explication": "Elles ont 8 pattes et 2 parties du corps, sans antennes ni ailes."
+    "explication": "Comme les scorpions, ce sont des arachnides : 8 pattes et pas d'antennes.",
+    "source": "https://biblio.naturalsciences.be/rbins-publications/boekjes-opvoedkundige-dienst-carnets-du-service-educatif/expo/micro-macro-un-monde-sur-six-pattes-1994.pdf"
    },
    {
     "enonce": "Combien de paires d'ailes ont la plupart des insectes volants ?",
@@ -2370,7 +2507,8 @@
      "3",
      "4"
     ],
-    "explication": "Les mouches font exception : leur seconde paire est devenue de petits balanciers."
+    "explication": "Les mouches font exception : leur seconde paire est devenue de petits balanciers.",
+    "source": "https://biblio.naturalsciences.be/rbins-publications/boekjes-opvoedkundige-dienst-carnets-du-service-educatif/expo/micro-macro-un-monde-sur-six-pattes-1994.pdf"
    }
   ]
  },
@@ -2385,57 +2523,68 @@
      [
       "Le plus grand reptile vivant, il vit aussi en eau salée",
       "Crocodile marin",
-      "Les mâles dépassent 6 m ; il nage d'île en île entre l'Asie et l'Australie."
+      "Les mâles mesurent de 3,5 à 6 m, rarement plus ; il parcourt de longues distances en mer en se laissant porter par les courants.",
+      "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Saltwater_crocodile"
      ],
      [
       "Lézard qui change de couleur et bouge ses yeux indépendamment",
       "Caméléon",
-      "Il change de couleur surtout pour communiquer et régler sa température, pas pour se camoufler."
+      "Il ne change pas de couleur pour imiter son décor : ses teintes varient avec la lumière, la température et ses émotions, et servent à communiquer.",
+      "https://www.newworldencyclopedia.org/entry/Chameleon"
      ],
      [
       "Le plus grand lézard du monde, en Indonésie",
       "Dragon de Komodo",
-      "Il atteint 3 m, et sa morsure injecte un venin qui empêche le sang de coaguler."
+      "C'est le plus grand lézard vivant : il atteint 3 m de long et plus de 50 kg.",
+      "https://www.newworldencyclopedia.org/entry/Monitor_lizard"
      ],
      [
       "Le plus long serpent du monde",
       "Python réticulé",
-      "Il peut dépasser 6 m ; le record mesuré approche les 8 m."
+      "Il est probablement le plus long serpent du monde, devant l'anaconda, qui est plus lourd.",
+      "https://www.newworldencyclopedia.org/entry/Python"
      ],
      [
       "Le serpent le plus lourd, dans les fleuves d'Amérique du Sud",
       "Anaconda vert",
-      "Il peut peser plus de 100 kg et étouffe ses proies dans l'eau."
+      "Il rivalise en longueur avec le python réticulé mais il est bien plus lourd ; il étouffe ses proies en s'enroulant autour d'elles.",
+      "https://www.newworldencyclopedia.org/entry/Anaconda"
      ],
      [
       "Serpent venimeux qui se dresse en déployant une collerette",
       "Cobra",
-      "Le cobra royal, le plus long serpent venimeux, dépasse parfois 5 m."
+      "Le cobra royal, le plus long serpent venimeux, dépasse parfois 5 m.",
+      "https://www.newworldencyclopedia.org/entry/Cobra"
      ],
      [
       "La plus grande tortue marine, grande mangeuse de méduses",
       "Tortue luth",
-      "Sa carapace est faite de cuir ; elle confond souvent les sacs plastiques avec des méduses."
+      "Sa carapace sans écailles est couverte d'une peau épaisse comme du cuir ; elle peut peser 650 kg.",
+      "https://www.newworldencyclopedia.org/entry/Sea_turtle"
      ],
      [
       "Cousin du crocodile en Amérique, au museau large et arrondi",
       "Alligator",
-      "Gueule fermée, on voit les dents du bas d'un crocodile, mais pas celles d'un alligator."
+      "Gueule fermée, on voit les dents du bas d'un crocodile, mais pas celles d'un alligator.",
+      "https://www.newworldencyclopedia.org/entry/Alligator"
      ],
      [
       "Lézard qui grimpe aux murs et aux plafonds grâce à ses doigts",
       "Gecko",
-      "Ses doigts portent des millions de poils microscopiques qui adhèrent à presque tout."
+      "Ses doigts portent des millions de poils microscopiques qui adhèrent à presque tout.",
+      "https://www.newworldencyclopedia.org/entry/Gecko"
      ],
      [
       "Tortue géante des îles Galápagos",
       "Tortue des Galápagos",
-      "Elle peut vivre plus de 100 ans ; ses différences d'une île à l'autre ont inspiré Darwin."
+      "Elle peut vivre plus de 100 ans ; certaines ont dépassé 150 ans.",
+      "https://www.newworldencyclopedia.org/entry/Tortoise"
      ],
      [
       "Serpent venimeux de France, à la pupille verticale",
       "Vipère",
-      "Les couleuvres, inoffensives, ont au contraire une pupille ronde."
+      "Les couleuvres, inoffensives, ont au contraire une pupille ronde.",
+      "https://abc.naturefrance.fr/sites/default/files/2024-08/Outils%20-%20Reptiles%20PNRMV.pdf"
      ]
     ]
    },
@@ -2457,27 +2606,32 @@
      [
       "Reptile de Nouvelle-Zélande, dernier survivant d'un groupe très ancien",
       "Sphénodon",
-      "On l'appelle aussi tuatara ; il a un « troisième œil » sur le dessus de la tête."
+      "On l'appelle aussi tuatara ; il a un « troisième œil » sur le dessus de la tête.",
+      "https://www.aucklandzoo.co.nz/animals/tuatara"
      ],
      [
       "Lézard sans pattes qu'on prend pour un serpent",
       "Orvet",
-      "Contrairement au serpent, il a des paupières et peut perdre sa queue."
+      "Contrairement au serpent, il a des paupières et peut perdre sa queue.",
+      "https://www.newworldencyclopedia.org/entry/Lizard"
      ],
      [
       "Serpent d'Amérique dont le bout de la queue fait du bruit",
       "Serpent à sonnette",
-      "Sa sonnette est faite d'anneaux de peau morte, un de plus à chaque mue."
+      "Sa sonnette est faite d'anneaux de peau morte, un de plus à chaque mue.",
+      "https://www.newworldencyclopedia.org/entry/Rattlesnake"
      ],
      [
       "Serpent terrestre au venin le plus puissant, en Australie",
       "Taïpan du désert",
-      "Il est pourtant timide et ne mord presque jamais l'homme."
+      "Son venin est le plus puissant de tous les serpents terrestres.",
+      "https://www.newworldencyclopedia.org/entry/Elapidae"
      ],
      [
       "Serpent africain très rapide, à l'intérieur de la gueule noir",
       "Mamba noir",
-      "Il peut se déplacer à environ 15 km/h."
+      "C'est le plus grand serpent venimeux d'Afrique ; il doit son nom à l'intérieur noir de sa gueule.",
+      "https://www.newworldencyclopedia.org/entry/Mamba"
      ],
      [
       "Crocodilien d'Inde au museau très long et fin",
@@ -2487,37 +2641,44 @@
      [
       "Tortue marine dont la carapace fournissait l'écaille",
       "Tortue imbriquée",
-      "Le commerce de l'écaille a été interdit, mais elle reste en danger critique."
+      "L'écaille venait des plaques de sa carapace ; elle est aujourd'hui en danger critique d'extinction.",
+      "https://www.newworldencyclopedia.org/entry/Sea_turtle"
      ],
      [
-      "Lézard vert vif des haies de France, à la gorge bleue au printemps",
+      "Lézard vert vif de France, dont le mâle a la gorge bleue",
       "Lézard vert",
-      "C'est le mâle qui arbore la gorge bleue pendant la saison des amours."
+      "Seul le mâle a la gorge bleue ; on l'appelle aussi lézard à deux raies.",
+      "https://abc.naturefrance.fr/sites/default/files/2024-08/Outils%20-%20Reptiles%20PNRMV.pdf"
      ],
      [
       "Le lézard le plus commun de France, qui se chauffe sur les murs",
       "Lézard des murailles",
-      "Il vit même en ville, dans les fissures des vieux murs."
+      "On le rencontre près des murs, des pierres et des maisons, où il chasse les insectes.",
+      "https://www.grandlyon.com/fileadmin/user_upload/media/pdf/environnement/guide-biodiversite/20200623_guidebiodiversite_reptiles.pdf"
      ],
      [
       "Seule tortue terrestre sauvage de France",
       "Tortue d'Hermann",
-      "Elle vit dans le Var et en Corse."
+      "Elle vit dans le Var et en Corse.",
+      "https://www.techno-science.net/fr/definitions/tortue-d-hermann"
      ],
      [
       "Lézard venimeux d'Amérique du Nord, aux écailles comme des perles",
       "Monstre de Gila",
-      "Un médicament contre le diabète a été mis au point à partir de sa salive."
+      "Un médicament contre le diabète a été mis au point à partir de sa salive.",
+      "https://www.nhm.ac.uk/discover/the-monster-whose-bite-saves-lives.html"
      ],
      [
       "Le seul lézard qui plonge en mer pour brouter des algues",
       "Iguane marin",
-      "Il vit aux îles Galápagos et rejette le sel par des glandes du nez."
+      "Il vit aux îles Galápagos et rejette le sel par des glandes du nez.",
+      "https://www.nhm.ac.uk/discover/shrinking-galapagos-marine-iguanas.html"
      ],
      [
       "Couleuvre d'eau qui fait la morte quand on l'attrape",
       "Couleuvre à collier",
-      "Elle simule la mort et dégage une odeur nauséabonde."
+      "Pour se défendre, elle simule la mort : c'est la thanatose.",
+      "https://www.grandlyon.com/fileadmin/user_upload/media/pdf/environnement/guide-biodiversite/20200623_guidebiodiversite_reptiles.pdf"
      ]
     ]
    }
@@ -2571,7 +2732,8 @@
      "L'entomologiste",
      "Le primatologue"
     ],
-    "explication": "Le mot vient du grec herpeton, « ce qui rampe »."
+    "explication": "Le mot vient du grec herpeton, « ce qui rampe ».",
+    "source": "https://www.newworldencyclopedia.org/entry/Herpetology"
    },
    {
     "enonce": "Qu'est-ce qui décide souvent du sexe des bébés crocodiles et tortues ?",
@@ -2581,7 +2743,8 @@
      "La saison",
      "La couleur du nid"
     ],
-    "explication": "Quelques degrés de plus ou de moins dans le nid changent le sexe des petits."
+    "explication": "Quelques degrés de plus ou de moins dans le nid changent le sexe des petits.",
+    "source": "https://www.newworldencyclopedia.org/entry/Crocodile"
    },
    {
     "enonce": "Les serpents ont-ils des paupières ?",
@@ -2591,7 +2754,8 @@
      "Seulement les serpents venimeux",
      "Seulement la nuit"
     ],
-    "explication": "C'est pourquoi un serpent semble ne jamais cligner des yeux."
+    "explication": "C'est pourquoi un serpent semble ne jamais cligner des yeux.",
+    "source": "https://www.newworldencyclopedia.org/entry/Snake"
    },
    {
     "enonce": "Comment un serpent avale-t-il une proie plus grosse que sa tête ?",
@@ -2601,7 +2765,8 @@
      "Il la fait fondre avec son venin",
      "Il la mâche longuement"
     ],
-    "explication": "Les deux moitiés de sa mâchoire inférieure ne sont pas soudées."
+    "explication": "Les deux moitiés de sa mâchoire inférieure ne sont pas soudées.",
+    "source": "https://www.newworldencyclopedia.org/entry/Snake"
    },
    {
     "enonce": "Quel est le groupe de reptiles le plus nombreux ?",
@@ -2611,7 +2776,8 @@
      "Les crocodiliens",
      "Les sphénodons"
     ],
-    "explication": "Ce groupe, les squamates, compte plus de 10 000 espèces."
+    "explication": "Ce groupe, les squamates, rassemble près de 96 % des reptiles actuels.",
+    "source": "https://www.newworldencyclopedia.org/entry/Squamata"
    },
    {
     "enonce": "Une tortue peut-elle sortir de sa carapace ?",
@@ -2621,7 +2787,8 @@
      "Oui, quand elle grandit",
      "Seulement les tortues marines"
     ],
-    "explication": "La carapace est formée en partie de ses côtes et de sa colonne vertébrale."
+    "explication": "La carapace est formée en partie de ses côtes et de sa colonne vertébrale.",
+    "source": "https://www.newworldencyclopedia.org/entry/Turtle"
    }
   ]
  },
@@ -2684,22 +2851,26 @@
      [
       "Grand carnivore du Jurassique, bien avant le tyrannosaure",
       "Allosaure",
-      "Il vivait il y a environ 150 millions d'années, plus de 80 millions d'années avant le tyrannosaure."
+      "Il vivait il y a environ 150 millions d'années, plus de 80 millions d'années avant le tyrannosaure.",
+      "https://www.newworldencyclopedia.org/entry/Allosaurus"
      ],
      [
       "Dinosaure à plumes de Bavière, proche des premiers oiseaux",
       "Archéoptéryx",
-      "Découvert en 1861, il mêle dents, griffes et plumes : un lien entre dinosaures et oiseaux."
+      "Découvert en 1861, il mêle dents, griffes et plumes : un lien entre dinosaures et oiseaux.",
+      "https://www.newworldencyclopedia.org/entry/Archaeopteryx"
      ],
      [
       "Herbivore au crâne en dôme très épais",
       "Pachycéphalosaure",
-      "Le dôme de son crâne pouvait atteindre 25 cm d'épaisseur."
+      "Le dôme de son crâne pouvait atteindre 25 cm d'épaisseur.",
+      "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Pachycephalosaurus"
      ],
      [
       "Reptile volant à crête, qui n'est pas un dinosaure",
       "Ptéranodon",
-      "C'est un ptérosaure, cousin des dinosaures, et il n'avait pas de dents."
+      "C'est un ptérosaure, cousin des dinosaures, et il n'avait pas de dents.",
+      "https://enchantedlearning.com/subjects/dinosaurs/facts/Pteranodon"
      ]
     ]
    },
@@ -2735,32 +2906,38 @@
      [
       "Iguanodon",
       "Dent d'iguane",
-      "C'est l'un des premiers dinosaures découverts, en Angleterre, dans les années 1820."
+      "C'est l'un des premiers dinosaures découverts, en Angleterre, dans les années 1820.",
+      "https://www.nhm.ac.uk/discover/200-years-of-dinosaur-discoveries.html"
      ],
      [
       "Brachiosaure",
       "Lézard bras",
-      "Ses pattes avant étaient plus longues que ses pattes arrière."
+      "Ses pattes avant étaient plus longues que ses pattes arrière.",
+      "https://www.newworldencyclopedia.org/entry/Brachiosaurus"
      ],
      [
       "dinosaure",
       "Lézard terrible",
-      "Le mot a été inventé en 1842 par le Britannique Richard Owen."
+      "Le mot a été inventé en 1842 par le Britannique Richard Owen.",
+      "https://www.newworldencyclopedia.org/entry/Dinosaur"
      ],
      [
       "Mégalosaure",
       "Grand lézard",
-      "C'est le premier dinosaure à avoir été décrit et nommé, en 1824."
+      "C'est le premier dinosaure à avoir été décrit et nommé, en 1824.",
+      "https://www.nhm.ac.uk/discover/200-years-of-dinosaur-discoveries.html"
      ],
      [
       "Oviraptor",
       "Voleur d'œufs",
-      "On l'a cru voleur d'œufs, mais il couvait en fait les siens."
+      "On l'a cru voleur d'œufs, mais il couvait en fait les siens.",
+      "https://www.enchantedlearning.com/subjects/dinosaurs/allabout/Names.shtml"
      ],
      [
       "Archéoptéryx",
       "Aile ancienne",
-      "Ce lien entre dinosaures et oiseaux a été découvert en 1861."
+      "Ce lien entre dinosaures et oiseaux a été découvert en 1861.",
+      "https://enchantedlearning.com/subjects/dinosaurs/allabout/Nameroots.shtml"
      ],
      [
       "Ankylosaure",
@@ -2777,7 +2954,8 @@
      [
       "Ptéranodon",
       "Ailé et sans dents",
-      "Il attrapait sans doute les poissons comme un pélican."
+      "Il n'avait aucune dent et se nourrissait surtout de poissons.",
+      "https://enchantedlearning.com/subjects/dinosaurs/facts/Pteranodon"
      ]
     ]
    }
@@ -2831,7 +3009,8 @@
      "Le diplodocus",
      "Le mammouth"
     ],
-    "explication": "Ce n'était pas un dinosaure, mais un reptile marin."
+    "explication": "Ce n'était pas un dinosaure, mais un reptile marin.",
+    "source": "https://www.newworldencyclopedia.org/entry/Plesiosaur"
    },
    {
     "enonce": "Les humains ont-ils côtoyé les dinosaures (hors oiseaux) ?",
@@ -2841,7 +3020,8 @@
      "Oui, au Moyen Âge",
      "Seulement en Amérique"
     ],
-    "explication": "Les dinosaures non aviens ont disparu il y a 66 millions d'années ; notre espèce a environ 300 000 ans."
+    "explication": "Les dinosaures non aviens ont disparu il y a 66 millions d'années, bien avant l'apparition de notre espèce.",
+    "source": "https://en.wikipedia.org/wiki/Chicxulub_crater"
    },
    {
     "enonce": "Quel dinosaure géant, parmi les plus lourds connus, a été découvert en Argentine ?",
@@ -2851,7 +3031,8 @@
      "Le stégosaure",
      "Le compsognathus"
     ],
-    "explication": "Il pesait peut-être 70 tonnes."
+    "explication": "Il pesait sans doute plusieurs dizaines de tonnes.",
+    "source": "https://www.newworldencyclopedia.org/entry/Dinosaur"
    },
    {
     "enonce": "Comment s'appelle un excrément fossilisé ?",
@@ -2871,7 +3052,8 @@
      "Vredefort",
      "Rochechouart"
     ],
-    "explication": "Il mesure environ 180 km de diamètre, dans la péninsule du Yucatán."
+    "explication": "Large d'environ 200 km, il est enfoui sous la péninsule du Yucatán.",
+    "source": "https://en.wikipedia.org/wiki/Chicxulub_crater"
    },
    {
     "enonce": "Les dinosaures pondaient-ils des œufs ?",
@@ -2881,7 +3063,8 @@
      "Seulement les carnivores",
      "Seulement les dinosaures volants"
     ],
-    "explication": "On a trouvé des nids entiers, comme ceux du Maiasaura dans le Montana."
+    "explication": "On a trouvé des nids entiers, comme ceux du Maiasaura dans le Montana.",
+    "source": "https://www.newworldencyclopedia.org/entry/Dinosaur"
    },
    {
     "enonce": "Quel petit dinosaure, de la taille d'un poulet, a été trouvé en Bavière et dans le Var ?",
@@ -2891,7 +3074,8 @@
      "Le tyrannosaure",
      "Le tricératops"
     ],
-    "explication": "C'est l'un des plus petits dinosaures connus."
+    "explication": "C'est l'un des plus petits dinosaures connus.",
+    "source": "https://en.wikipedia.org/wiki/Compsognathus"
    },
    {
     "enonce": "Comment s'appelle le groupe des dinosaures carnivores bipèdes, dont descendent les oiseaux ?",
@@ -2917,67 +3101,80 @@
      [
       "Cambrien",
       "Paléozoïque",
-      "C'est la première période du Paléozoïque, qui commence il y a environ 540 millions d'années."
+      "C'est la première période du Paléozoïque, qui commence il y a environ 540 millions d'années.",
+      "https://courses.lumenlearning.com/suny-purchase-physicalgeology/chapter/8-1-the-geological-time-scale/"
      ],
      [
       "Ordovicien",
       "Paléozoïque",
-      "Il se termine par l'une des cinq grandes extinctions."
+      "Il se termine par l'une des cinq grandes extinctions.",
+      "https://webcf.waybackmachine.org/web/20220428221745/https://en.wikipedia.org/wiki/Silurian"
      ],
      [
       "Silurien",
       "Paléozoïque",
-      "Il doit son nom aux Silures, un ancien peuple du pays de Galles."
+      "Il doit son nom aux Silures, un ancien peuple du pays de Galles.",
+      "https://webcf.waybackmachine.org/web/20220428221745/https://en.wikipedia.org/wiki/Silurian"
      ],
      [
       "Dévonien",
       "Paléozoïque",
-      "On l'appelle l'âge des poissons."
+      "On l'appelle l'âge des poissons.",
+      "https://www.futura-sciences.com/planete/definitions/paleontologie-devonien-3767/"
      ],
      [
       "Carbonifère",
       "Paléozoïque",
-      "Ses forêts ont formé une grande partie du charbon."
+      "Ses forêts ont formé une grande partie du charbon.",
+      "https://www.larousse.fr/encyclopedie/divers/paléozoïque/186093"
      ],
      [
       "Permien",
       "Paléozoïque",
-      "Il se termine par la plus grande extinction de l'histoire."
+      "Il se termine par la plus grande extinction de l'histoire.",
+      "https://encycloreader.org/r/wikipedia.php?q=Mesozoic"
      ],
      [
       "Trias",
       "Mésozoïque",
-      "Les premiers dinosaures et les premiers mammifères y apparaissent."
+      "Les premiers dinosaures et les premiers mammifères y apparaissent.",
+      "https://encycloreader.org/r/wikipedia.php?q=Mesozoic"
      ],
      [
       "Jurassique",
       "Mésozoïque",
-      "Il doit son nom au massif du Jura."
+      "Il doit son nom au massif du Jura.",
+      "https://courses.lumenlearning.com/suny-purchase-physicalgeology/chapter/8-1-the-geological-time-scale/"
      ],
      [
       "Crétacé",
       "Mésozoïque",
-      "Il se termine par la chute d'un astéroïde, il y a 66 millions d'années."
+      "Il se termine par la chute d'un astéroïde, il y a 66 millions d'années.",
+      "https://encycloreader.org/r/wikipedia.php?q=Mesozoic"
      ],
      [
       "Paléogène",
       "Cénozoïque",
-      "Les mammifères s'y diversifient après la disparition des dinosaures."
+      "Les mammifères s'y diversifient après la disparition des dinosaures.",
+      "https://www.futura-sciences.com/planete/definitions/terre-cenozoique-3766/"
      ],
      [
       "Néogène",
       "Cénozoïque",
-      "Les premiers hominidés y apparaissent en Afrique."
+      "Les premiers hominidés y apparaissent en Afrique.",
+      "https://www.hominides.com/?p=20"
      ],
      [
       "Quaternaire",
       "Cénozoïque",
-      "C'est notre période, marquée par les grandes glaciations."
+      "C'est notre période, marquée par les grandes glaciations.",
+      "https://www.futura-sciences.com/planete/definitions/terre-cenozoique-3766/"
      ],
      [
       "Édiacarien",
-      "Précambrien",
-      "On y trouve les plus anciens fossiles d'animaux de grande taille."
+      "Néoprotérozoïque",
+      "Dernière période du Précambrien, elle livre les plus anciens fossiles d'animaux de grande taille.",
+      "https://fr.vikidia.org/wiki/%C3%89chelle_des_temps_g%C3%A9ologiques"
      ]
     ]
    },
@@ -2989,37 +3186,44 @@
      [
       "les premiers dinosaures",
       "Trias",
-      "Ils sont apparus il y a environ 230 millions d'années."
+      "Ils sont apparus il y a environ 230 millions d'années.",
+      "https://fr.vikidia.org/wiki/Dinosaure"
      ],
      [
       "les premières plantes à fleurs",
       "Crétacé",
-      "Elles se sont répandues rapidement, avec les insectes pollinisateurs."
+      "Les plus anciennes apparaissent au début du Crétacé.",
+      "https://encycloreader.org/r/wikipedia.php?q=Mesozoic"
      ],
      [
       "la plupart des grands groupes d'animaux, avec coquilles et squelettes",
       "Cambrien",
-      "On parle d'explosion cambrienne, il y a environ 540 millions d'années."
+      "On parle d'explosion cambrienne, il y a environ 540 millions d'années.",
+      "https://courses.lumenlearning.com/suny-purchase-physicalgeology/chapter/8-1-the-geological-time-scale/"
      ],
      [
       "les premiers vertébrés à quatre pattes",
       "Dévonien",
-      "Ces tétrapodes descendent de poissons aux nageoires charnues."
+      "Ces tétrapodes descendent de poissons aux nageoires charnues.",
+      "https://www.futura-sciences.com/planete/definitions/paleontologie-devonien-3767/"
      ],
      [
       "les insectes géants, comme des libellules de 70 cm",
       "Carbonifère",
-      "L'air était alors plus riche en oxygène qu'aujourd'hui."
+      "L'air était alors plus riche en oxygène qu'aujourd'hui.",
+      "https://www.futura-sciences.com/sciences/actualites/prehistoire-insectes-geants-theorie-oxygene-vacille-face-nouvelle-etude-133362/"
      ],
      [
       "les premiers oiseaux",
       "Jurassique",
-      "L'archéoptéryx date d'environ 150 millions d'années."
+      "L'archéoptéryx date d'environ 150 millions d'années.",
+      "https://www.futura-sciences.com/planete/questions-reponses/terre-sont-apparus-premiers-oiseaux-20638/"
      ],
      [
       "l'Homo sapiens",
       "Quaternaire",
-      "Notre espèce est apparue il y a environ 300 000 ans, en Afrique."
+      "Notre espèce est apparue il y a environ 300 000 ans, en Afrique.",
+      "https://hominides.com/?p=861"
      ],
      [
       "les premières plantes terrestres",
@@ -3029,12 +3233,14 @@
      [
       "les premiers poissons à mâchoires",
       "Silurien",
-      "Avant eux, les poissons n'avaient pas de mâchoires."
+      "Avant eux, les poissons n'avaient pas de mâchoires.",
+      "https://www.larousse.fr/encyclopedie/divers/paléozoïque/186093"
      ],
      [
-      "le Dimétrodon, ancêtre à voile des mammifères",
+      "le Dimétrodon, lointain parent à voile des mammifères",
       "Permien",
-      "Malgré sa voile, ce n'était pas un dinosaure."
+      "Malgré sa voile, ce n'était pas un dinosaure.",
+      "https://en.wikipedia.org/wiki/Dimetrodon"
      ],
      [
       "les premiers chevaux et les premières baleines",
@@ -3044,7 +3250,8 @@
      [
       "les premiers hominidés bipèdes, comme Toumaï ou Lucy",
       "Néogène",
-      "Toumaï a environ 7 millions d'années, Lucy environ 3,2 millions."
+      "Toumaï, découvert au Tchad en 2002, est le plus ancien hominidé connu.",
+      "https://www.hominides.com/?p=20"
      ]
     ]
    }
@@ -3178,7 +3385,8 @@
      "Vie récente",
      "Sans vie"
     ],
-    "explication": "Paléozoïque veut dire vie ancienne, Cénozoïque vie récente."
+    "explication": "Paléozoïque veut dire vie ancienne, Cénozoïque vie récente.",
+    "source": "https://encycloreader.org/r/wikipedia.php?q=Mesozoic"
    },
    {
     "enonce": "Combien de temps a duré le Mésozoïque ?",
@@ -3188,7 +3396,8 @@
      "1 million d'années",
      "2 milliards d'années"
     ],
-    "explication": "Il va d'environ 252 à 66 millions d'années."
+    "explication": "Il va d'environ 252 à 66 millions d'années.",
+    "source": "https://encycloreader.org/r/wikipedia.php?q=Mesozoic"
    },
    {
     "enonce": "Quelle limite entre deux périodes marque la disparition des dinosaures ?",
@@ -3198,7 +3407,8 @@
      "Permien-Trias",
      "Silurien-Dévonien"
     ],
-    "explication": "On l'appelait autrefois la limite Crétacé-Tertiaire, ou K-T."
+    "explication": "On l'appelait autrefois la limite Crétacé-Tertiaire, ou K-T.",
+    "source": "https://encycloreader.org/r/wikipedia.php?q=Mesozoic"
    },
    {
     "enonce": "Comment appelle-t-on le très long temps avant le Cambrien ?",
@@ -3208,7 +3418,8 @@
      "Le Jurassique",
      "Le Néogène"
     ],
-    "explication": "Il couvre près de 90 % de l'histoire de la Terre."
+    "explication": "Il couvre près de 90 % de l'histoire de la Terre.",
+    "source": "https://courses.lumenlearning.com/suny-purchase-physicalgeology/chapter/8-1-the-geological-time-scale/"
    },
    {
     "enonce": "Quels êtres vivants ont rempli l'atmosphère d'oxygène il y a plus de 2 milliards d'années ?",
@@ -3238,7 +3449,8 @@
      "Le Jurassique",
      "Le Dévonien"
     ],
-    "explication": "En 2024, les géologues ont refusé d'en faire officiellement une époque."
+    "explication": "En 2024, les géologues ont refusé d'en faire officiellement une époque.",
+    "source": "https://www.philstar.com/headlines/climate-and-environment/2024/03/24/2342961/no-human-era-earths-geological-history-scientists-say"
    },
    {
     "enonce": "Quelle roche a donné son nom au Crétacé ?",
@@ -3248,7 +3460,8 @@
      "Le basalte",
      "Le marbre"
     ],
-    "explication": "Crétacé vient du latin creta, la craie, comme celle des falaises d'Étretat."
+    "explication": "Il doit son nom aux couches de craie d'Angleterre et de France.",
+    "source": "https://courses.lumenlearning.com/suny-purchase-physicalgeology/chapter/8-1-the-geological-time-scale/"
    },
    {
     "enonce": "D'où vient le nom du Dévonien ?",
@@ -3258,7 +3471,8 @@
      "Du mot « devenir »",
      "D'un volcan"
     ],
-    "explication": "Beaucoup de périodes portent le nom du lieu où leurs roches ont été étudiées."
+    "explication": "Beaucoup de périodes portent le nom du lieu où leurs roches ont été étudiées.",
+    "source": "https://courses.lumenlearning.com/suny-purchase-physicalgeology/chapter/8-1-the-geological-time-scale/"
    },
    {
     "enonce": "D'où vient le nom du Permien ?",
@@ -3268,7 +3482,8 @@
      "D'un savant nommé Perm",
      "D'une île grecque"
     ],
-    "explication": "Le géologue écossais Roderick Murchison l'a nommé en 1841."
+    "explication": "Le géologue britannique Roderick Murchison l'a nommé en 1841.",
+    "source": "https://webcf.waybackmachine.org/web/20211008000241/http://en.wikipedia.org/wiki/Permian"
    },
    {
     "enonce": "Que signifie le nom « Trias » ?",
@@ -3278,7 +3493,8 @@
      "Sec",
      "Rouge"
     ],
-    "explication": "Il doit son nom à trois couches de roches observées en Allemagne."
+    "explication": "Il doit son nom à trois couches de roches observées en Allemagne.",
+    "source": "https://www.universalis.fr/encyclopedie/trias/"
    },
    {
     "enonce": "Quel félin préhistorique avait des canines en forme de sabre ?",
@@ -3303,7 +3519,8 @@
      [
       "le fémur",
       "la cuisse",
-      "C'est l'os le plus long et le plus solide du corps humain."
+      "C'est l'os le plus long et le plus solide du corps humain.",
+      "https://www.techno-science.net/fr/definitions/femur"
      ],
      [
       "le tibia",
@@ -3313,57 +3530,68 @@
      [
       "le radius",
       "l'avant-bras",
-      "Il est du côté du pouce ; l'autre os de l'avant-bras est l'ulna, ou cubitus."
+      "Il est du côté du pouce ; l'autre os de l'avant-bras est l'ulna, ou cubitus.",
+      "https://www.futura-sciences.com/sante/definitions/medecine-radius-8256/"
      ],
      [
       "l'humérus",
       "le bras",
-      "Le nerf qui fait mal quand on se cogne le coude passe juste derrière son extrémité."
+      "Le nerf qui fait mal quand on se cogne le coude passe juste derrière son extrémité.",
+      "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Ulnar_nerve"
      ],
      [
       "la rotule",
       "le genou",
-      "Aussi appelée patella, elle est enfermée dans le tendon du quadriceps."
+      "Aussi appelée patella, elle reçoit le tendon du quadriceps.",
+      "https://www.kenhub.com/fr/library/anatomie/muscle-quadriceps-femoral"
      ],
      [
       "l'omoplate",
       "l'épaule",
-      "Son nom savant est la scapula ; elle ne tient au reste du squelette que par la clavicule."
+      "Son nom savant est la scapula ; elle s'articule avec l'humérus et la clavicule, et des muscles la tiennent au thorax.",
+      "https://www.kenhub.com/fr/library/anatomie/scapula-omoplate"
      ],
      [
       "le sternum",
       "le thorax",
-      "Les côtes s'y rattachent à l'avant par des cartilages."
+      "Les côtes s'y rattachent à l'avant par des cartilages.",
+      "https://www.techno-science.net/fr/definitions/squelette-humain"
      ],
      [
       "la mandibule",
       "la mâchoire",
-      "C'est le seul os mobile du crâne."
+      "C'est le seul os mobile du crâne.",
+      "https://www.futura-sciences.com/sante/definitions/medecine-mandibule-2120/"
      ],
      [
       "l'étrier",
       "l'oreille",
-      "C'est le plus petit os du corps, environ 3 mm."
+      "C'est le plus petit os du corps, environ 3 mm.",
+      "https://fr.vikidia.org/wiki/Squelette_humain"
      ],
      [
       "les phalanges",
       "les doigts",
-      "Chaque doigt en a trois, sauf le pouce qui n'en a que deux."
+      "Chaque doigt en a trois, sauf le pouce qui n'en a que deux.",
+      "https://www.techno-science.net/fr/definitions/squelette-humain"
      ],
      [
       "le calcanéum",
       "le talon",
-      "C'est le plus gros os du pied ; le tendon d'Achille s'y attache."
+      "C'est le plus gros os du pied ; le tendon d'Achille s'y attache.",
+      "https://www.techno-science.net/fr/definitions/squelette-humain"
      ],
      [
       "les vertèbres",
       "le dos",
-      "La colonne en compte environ 33 : 7 cervicales, 12 dorsales, 5 lombaires, puis le sacrum et le coccyx."
+      "La colonne en compte environ 33 : 7 cervicales, 12 dorsales, 5 lombaires, puis le sacrum et le coccyx.",
+      "https://www.techno-science.net/fr/definitions/squelette-humain"
      ],
      [
       "le pariétal",
       "le crâne",
-      "Il y en a deux, un de chaque côté du sommet du crâne."
+      "Il y en a deux, un de chaque côté du sommet du crâne.",
+      "https://www.techno-science.net/fr/definitions/squelette-humain"
      ]
     ],
     "recouvrements": [
@@ -3382,72 +3610,86 @@
      [
       "l'omoplate",
       "Scapula",
-      "Elle ne tient au reste du squelette que par la clavicule."
+      "Elle s'articule avec l'humérus et la clavicule ; des muscles la tiennent au thorax.",
+      "https://www.kenhub.com/fr/library/anatomie/scapula-omoplate"
      ],
      [
       "la rotule",
       "Patella",
-      "Elle est enfermée dans le tendon du quadriceps."
+      "Le tendon du quadriceps s'attache sur elle.",
+      "https://www.kenhub.com/fr/library/anatomie/muscle-quadriceps-femoral"
      ],
      [
       "le cubitus",
       "Ulna",
-      "Le cubitus est l'os de l'avant-bras du côté du petit doigt."
+      "Le cubitus est l'os de l'avant-bras du côté du petit doigt.",
+      "https://www.futura-sciences.com/sante/definitions/medecine-ulna-8254/"
      ],
      [
       "l'os du bassin",
       "Os coxal",
-      "Il est formé de trois os soudés : l'ilion, l'ischion et le pubis."
+      "Il est formé de trois os soudés : l'ilion, l'ischion et le pubis.",
+      "https://www.kenhub.com/fr/library/anatomie/os-coxal"
      ],
      [
       "l'os de la pommette",
       "Os zygomatique",
-      "Il forme aussi une partie du bord de l'orbite de l'œil."
+      "On l'appelle aussi os malaire ; le muscle du sourire, le grand zygomatique, s'y attache.",
+      "https://www.futura-sciences.com/sante/definitions/corps-humain-muscle-zygomatique-15034/"
      ],
      [
       "l'osselet de l'oreille relié au tympan",
-      "Marteau",
-      "Avec l'enclume et l'étrier, il transmet les vibrations du tympan."
+      "Malléus",
+      "Avec l'enclume et l'étrier, il transmet les vibrations du tympan.",
+      "https://www.kenhub.com/fr/library/anatomie/oreille-moyenne"
      ],
      [
       "l'osselet du milieu de l'oreille",
-      "Enclume",
-      "Il doit son nom à sa forme d'enclume de forgeron."
+      "Incus",
+      "C'est l'osselet central de la chaîne, en forme d'enclume.",
+      "https://www.kenhub.com/fr/library/anatomie/oreille-moyenne"
      ],
      [
       "l'os du front",
       "Os frontal",
-      "Chez le nouveau-né, il est encore formé de deux moitiés."
+      "Chez le nouveau-né, il est encore formé de deux moitiés.",
+      "https://www.kenhub.com/fr/library/anatomie/os-frontal"
      ],
      [
       "l'os de l'arrière du crâne",
       "Os occipital",
-      "Il est percé du grand trou par où passe la moelle épinière."
+      "Il est percé du grand trou par où passe la moelle épinière.",
+      "https://www.kenhub.com/fr/library/anatomie/foramen-magnum-fr"
      ],
      [
       "la vertèbre qui porte le crâne",
       "Atlas",
-      "Elle doit son nom au titan Atlas, qui portait le ciel."
+      "Elle doit son nom au titan Atlas, qui portait le ciel.",
+      "https://worddisk.com/wiki/Atlas_(anatomy"
      ],
      [
       "la deuxième vertèbre du cou, autour de laquelle tourne la tête",
       "Axis",
-      "Une petite dent de l'axis sert de pivot à l'atlas."
+      "Une petite dent de l'axis sert de pivot à l'atlas.",
+      "https://worddisk.com/wiki/Atlas_(anatomy"
      ],
      [
       "le petit os de la jambe, à côté du tibia",
       "Fibula",
-      "On l'appelait autrefois le péroné."
+      "On l'appelait autrefois le péroné.",
+      "https://www.kenhub.com/fr/library/anatomie/fibula-perone"
      ],
      [
       "l'os en forme de U sous la langue",
       "Os hyoïde",
-      "C'est le seul os qui ne touche aucun autre os."
+      "C'est le seul os qui ne touche aucun autre os.",
+      "https://wikipedia.classicistranieri.com/en/articles/h/y/o/Hyoid_bone.html"
      ],
      [
       "l'os de la cuisse",
       "Fémur",
-      "Fémur est à la fois son nom courant et son nom savant ; il vient du latin « cuisse »."
+      "Fémur est à la fois son nom courant et son nom savant ; c'est l'os le plus long du corps.",
+      "https://www.techno-science.net/fr/definitions/femur"
      ]
     ]
    }
@@ -3511,7 +3753,8 @@
      "Environ 100",
      "Environ 500"
     ],
-    "explication": "Beaucoup se soudent en grandissant, d'où 206 chez l'adulte."
+    "explication": "Beaucoup se soudent en grandissant, d'où 206 chez l'adulte.",
+    "source": "https://www.healthline.com/health/how-many-bones-does-a-baby-have"
    },
    {
     "enonce": "Comment s'appelle le tissu au cœur des os qui fabrique le sang ?",
@@ -3521,7 +3764,8 @@
      "Le cartilage",
      "Le tendon"
     ],
-    "explication": "Elle produit chaque jour des milliards de cellules sanguines."
+    "explication": "Elle fabrique la plupart des globules rouges et des globules blancs.",
+    "source": "https://www.healthline.com/health/how-many-bones-does-a-baby-have"
    }
   ]
  },
@@ -3850,17 +4094,20 @@
      [
       "le biceps",
       "l'avant du bras",
-      "Il plie le coude ; son nom veut dire « à deux têtes »."
+      "Il plie le coude ; son nom veut dire « à deux têtes ».",
+      "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf"
      ],
      [
       "le triceps",
       "l'arrière du bras",
-      "Il tend le bras et a trois têtes, comme son nom l'indique."
+      "Il tend le bras et a trois têtes, comme son nom l'indique.",
+      "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf"
      ],
      [
       "le quadriceps",
       "l'avant de la cuisse",
-      "Ses quatre chefs tendent le genou ; c'est l'un des muscles les plus puissants."
+      "Ses quatre chefs tendent le genou ; c'est l'un des muscles les plus puissants.",
+      "https://www.kenhub.com/fr/library/anatomie/muscle-quadriceps-femoral"
      ],
      [
       "les ischio-jambiers",
@@ -3885,17 +4132,20 @@
      [
       "le grand fessier",
       "les fesses",
-      "C'est le plus gros muscle du corps ; il nous tient debout et fait monter les escaliers."
+      "C'est le plus gros muscle du corps ; il sert surtout à étendre la hanche.",
+      "https://www.livescience.com/32823-strongest-human-muscles.html"
      ],
      [
       "le diaphragme",
       "sous les poumons",
-      "En se contractant, il fait entrer l'air dans les poumons ; ses spasmes donnent le hoquet."
+      "C'est le principal muscle de la respiration : en se contractant, il fait entrer l'air dans les poumons.",
+      "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf"
      ],
      [
       "le masséter",
       "la mâchoire",
-      "Rapporté à sa taille, c'est l'un des muscles les plus puissants du corps."
+      "Rapporté à sa taille, c'est l'un des muscles les plus puissants du corps.",
+      "https://www.livescience.com/32823-strongest-human-muscles.html"
      ],
      [
       "le trapèze",
@@ -3905,12 +4155,14 @@
      [
       "le myocarde",
       "le cœur",
-      "Il travaille sans jamais se reposer, sans qu'on ait à le commander."
+      "Ce muscle creux se contracte sans arrêt toute la vie pour propulser le sang.",
+      "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf"
      ],
      [
       "le gastrocnémien",
       "le mollet",
-      "Avec le soléaire, il forme le triceps sural, qui se termine par le tendon d'Achille."
+      "Avec le soléaire, il forme le triceps sural, qui se termine par le tendon d'Achille.",
+      "https://www.kenhub.com/fr/library/anatomie/muscles-de-la-jambe"
      ]
     ]
    },
@@ -3922,37 +4174,44 @@
      [
       "fermer les paupières",
       "L'orbiculaire de l'œil",
-      "Il fait cligner les yeux environ 15 fois par minute."
+      "Il entoure l'orbite et ferme doucement les paupières à chaque clignement.",
+      "https://www.kenhub.com/fr/library/anatomie/muscles-du-visage"
      ],
      [
       "sourire en relevant le coin des lèvres",
       "Le grand zygomatique",
-      "On l'appelle parfois le muscle du sourire."
+      "On l'appelle parfois le muscle du sourire.",
+      "https://www.futura-sciences.com/sante/definitions/corps-humain-muscle-zygomatique-15034/"
      ],
      [
       "relever la pointe du pied",
       "Le tibial antérieur",
-      "On le sent travailler à l'avant de la jambe quand on marche sur les talons."
+      "Situé à l'avant de la jambe, on l'appelle aussi jambier antérieur.",
+      "https://www.kenhub.com/fr/library/anatomie/muscles-de-la-jambe"
      ],
      [
       "se mettre sur la pointe des pieds",
       "Le triceps sural",
-      "C'est le muscle du mollet, relié au talon par le tendon d'Achille."
+      "C'est le muscle du mollet, relié au talon par le tendon d'Achille.",
+      "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf"
      ],
      [
       "tourner la tête sur le côté",
       "Le sterno-cléido-mastoïdien",
-      "Son nom décrit ses attaches : sternum, clavicule et os derrière l'oreille."
+      "Il contribue aux mouvements latéraux de la tête, de chaque côté du cou.",
+      "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf"
      ],
      [
-      "plier le genou",
+      "plier le genou, à l'arrière de la cuisse",
       "Les ischio-jambiers",
-      "Ils partent de l'os du bassin sur lequel on s'assoit."
+      "Ils partent pour la plupart de l'ischion, l'os du bassin sur lequel on s'assoit.",
+      "https://www.techno-science.net/fr/definitions/muscle-triceps-sural"
      ],
      [
       "tendre le genou pour shooter",
       "Le quadriceps",
-      "C'est le muscle de l'avant de la cuisse."
+      "C'est le muscle de l'avant de la cuisse.",
+      "https://www.kenhub.com/fr/library/anatomie/muscle-quadriceps-femoral"
      ],
      [
       "lever le bras sur le côté",
@@ -3962,12 +4221,14 @@
      [
       "serrer les mâchoires",
       "Le masséter",
-      "On le sent durcir sur la joue quand on serre les dents."
+      "Rapporté à son poids, c'est le muscle le plus fort du corps.",
+      "https://www.livescience.com/32823-strongest-human-muscles.html"
      ],
      [
       "tendre le coude",
       "Le triceps",
-      "Il représente environ les deux tiers du volume du bras."
+      "C'est le seul muscle de l'arrière du bras ; il a trois chefs.",
+      "https://www.kenhub.com/fr/library/anatomie/membre-superieur-anatomie"
      ],
      [
       "tirer le corps vers une barre, en grimpant",
@@ -3982,12 +4243,14 @@
      [
       "serrer les cuisses l'une contre l'autre",
       "Les adducteurs",
-      "Les cavaliers s'en servent pour tenir à cheval."
+      "Ce groupe de muscles rapproche les genoux l'un de l'autre.",
+      "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf"
      ],
      [
       "plisser le front et lever les sourcils",
       "Le muscle frontal",
-      "Il travaille quand on fait une tête surprise."
+      "Il travaille quand on fait une tête surprise.",
+      "https://www.kenhub.com/fr/library/anatomie/muscles-du-visage"
      ]
     ]
    }
@@ -4051,7 +4314,8 @@
      "Le masséter",
      "Le deltoïde"
     ],
-    "explication": "Dans l'oreille, il tire sur l'étrier et protège des bruits forts."
+    "explication": "Dans l'oreille, il tire sur l'étrier et protège des bruits forts.",
+    "source": "https://en.wikipedia.org/wiki/Stapedius_muscle"
    },
    {
     "enonce": "Quels sont les trois types de muscles ?",
@@ -4061,7 +4325,8 @@
      "Court, long et moyen",
      "Interne, externe et osseux"
     ],
-    "explication": "Les muscles lisses, comme ceux de l'intestin, travaillent sans qu'on y pense."
+    "explication": "Les muscles lisses, comme ceux de l'intestin, travaillent sans qu'on y pense.",
+    "source": "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf"
    },
    {
     "enonce": "Que produit un muscle qui travaille, en plus du mouvement ?",
@@ -4071,7 +4336,8 @@
      "Du sang",
      "De l'oxygène"
     ],
-    "explication": "C'est pourquoi on frissonne quand on a froid : les muscles réchauffent le corps."
+    "explication": "C'est pourquoi on frissonne quand on a froid : les muscles réchauffent le corps.",
+    "source": "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf"
    }
   ]
  },
@@ -4205,7 +4471,8 @@
      [
       "la roche en fusion qui sort du volcan",
       "La lave",
-      "Elle peut dépasser 1 100 °C."
+      "Elle peut dépasser 1 100 °C.",
+      "https://ent2d.ac-bordeaux.fr/disciplines/svt/ressources/pedagogiques/ressources-academiques-diverses/thematique-la-planete-et-les-enjeux-contemporains/volcanisme-dans-la-chaine-des-puy/a-finir-lexique/"
      ],
      [
       "le nuage brûlant de gaz et de cendres qui dévale les pentes",
@@ -4216,7 +4483,8 @@
      [
       "la cavité au sommet d'un volcan",
       "Le cratère",
-      "Il peut contenir un lac de lave ou un lac d'eau."
+      "Il peut contenir un lac de lave ou un lac d'eau.",
+      "https://ent2d.ac-bordeaux.fr/disciplines/svt/ressources/pedagogiques/ressources-academiques-diverses/thematique-la-planete-et-les-enjeux-contemporains/volcanisme-dans-la-chaine-des-puy/a-finir-lexique/"
      ],
      [
       "le grand effondrement laissé par un volcan qui s'est vidé",
@@ -4226,7 +4494,8 @@
      [
       "le scientifique qui étudie les volcans",
       "Un volcanologue",
-      "Haroun Tazieff a rendu ce métier célèbre en France."
+      "Les livres et les films d'Haroun Tazieff ont donné à Katia Krafft le goût des volcans.",
+      "https://www.futura-sciences.com/planete/personnalites/volcanologie-katia-krafft-901/"
      ],
      [
       "les petites pierres de lave projetées, de la taille d'un pois",
@@ -4251,12 +4520,14 @@
      [
       "la coulée de boue volcanique",
       "Un lahar",
-      "En 1985, un lahar du Nevado del Ruiz a fait plus de 20 000 morts en Colombie."
+      "En 1985, un lahar du Nevado del Ruiz a fait plus de 20 000 morts en Colombie.",
+      "https://en.wikipedia.org/wiki/Armero_tragedy"
      ],
      [
       "un volcan éteint d'Auvergne",
       "Un puy",
-      "La chaîne des Puys compte environ 80 volcans, inscrits au patrimoine mondial."
+      "La chaîne des Puys compte environ 80 volcans, inscrits au patrimoine mondial.",
+      "https://www.culture.gouv.fr/Actualites/Patrimoine-mondial-de-l-Unesco-une-victoire-volcanique"
      ],
      [
       "l'échelle de 0 à 8 de la puissance des éruptions",
@@ -4337,7 +4608,8 @@
      "Le mont Fuji",
      "Le Kilimandjaro"
     ],
-    "explication": "Il culmine à environ 22 km au-dessus des plaines alentour."
+    "explication": "Il culmine à environ 22 km d'altitude, soit environ deux fois et demie l'Everest.",
+    "source": "https://www.wikiwand.com/en/articles/Olympus_Mons"
    },
    {
     "enonce": "Quel volcan est le point culminant de l'Afrique ?",
@@ -4357,7 +4629,8 @@
      "L'Etna",
      "Le Fuji"
     ],
-    "explication": "Depuis le fond de l'océan, il s'élève de plus de 9 000 m."
+    "explication": "Depuis le fond de l'océan, il s'élève de plus de 9 000 m.",
+    "source": "https://en.wikipedia.org/wiki/Mauna_Loa"
    },
    {
     "enonce": "Combien y a-t-il environ de volcans actifs sur les terres émergées ?",
@@ -4378,7 +4651,8 @@
      "Le puy de Côme",
      "Le puy de Lemptégy"
     ],
-    "explication": "Avec 1 465 m, il domine Clermont-Ferrand."
+    "explication": "Avec 1 465 m, il domine Clermont-Ferrand.",
+    "source": "https://www.culture.gouv.fr/Actualites/Patrimoine-mondial-de-l-Unesco-une-victoire-volcanique"
    },
    {
     "enonce": "Quelle autre ville le Vésuve a-t-il ensevelie avec Pompéi ?",
@@ -4410,7 +4684,8 @@
      "Les frères Lumière",
      "Jacques-Yves et Philippe Cousteau"
     ],
-    "explication": "Ils sont morts en 1991 au mont Unzen, au Japon."
+    "explication": "Ils sont morts en 1991 au mont Unzen, au Japon.",
+    "source": "https://en.wikipedia.org/wiki/Katia_and_Maurice_Krafft"
    },
    {
     "enonce": "Comment appelle-t-on un volcan aux éruptions surtout explosives ?",
@@ -4420,7 +4695,8 @@
      "Un volcan bleu",
      "Un volcan vert"
     ],
-    "explication": "Les volcans rouges, comme le Piton de la Fournaise, émettent surtout des coulées de lave."
+    "explication": "Les volcans rouges, comme le Piton de la Fournaise, émettent surtout des coulées de lave.",
+    "source": "https://fr.vikidia.org/wiki/Volcan_gris"
    },
    {
     "enonce": "Sur quelle île grecque une éruption a-t-elle frappé la civilisation minoenne ?",
@@ -4455,7 +4731,8 @@
      [
       "Lisbonne",
       "1755",
-      "Suivi d'un tsunami et d'incendies, il a bouleversé l'Europe et inspiré à Voltaire un poème célèbre."
+      "Suivi d'un tsunami et d'incendies, il a bouleversé l'Europe et inspiré à Voltaire un poème célèbre.",
+      "https://mirror2.polsri.ac.id/wiki/wp/1/1755_Lisbon_earthquake.htm"
      ],
      [
       "San Francisco",
@@ -4465,32 +4742,38 @@
      [
       "Messine",
       "1908",
-      "C'est le séisme le plus meurtrier d'Europe au XXe siècle, avec plus de 80 000 morts."
+      "C'est le séisme le plus meurtrier d'Europe au XXe siècle, avec plus de 80 000 morts.",
+      "https://en.wikipedia.org/wiki/1908_Messina_earthquake"
      ],
      [
       "Valdivia (Chili)",
       "1960",
-      "De magnitude 9,5, c'est le plus puissant séisme jamais mesuré."
+      "De magnitude 9,5, c'est le plus puissant séisme jamais mesuré.",
+      "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Largest_earthquakes"
      ],
      [
       "l'Alaska",
       "1964",
-      "De magnitude 9,2, c'est le plus puissant séisme mesuré en Amérique du Nord."
+      "De magnitude 9,2, c'est le plus puissant séisme mesuré en Amérique du Nord.",
+      "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Largest_earthquakes"
      ],
      [
       "Kobe",
       "1995",
-      "Il a fait plus de 6 000 morts et poussé le Japon à renforcer ses normes de construction."
+      "Ce séisme du 17 janvier 1995 a fait plus de 6 400 morts.",
+      "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_20th-century_earthquakes"
      ],
      [
       "Sumatra, suivi d'un tsunami",
       "2004",
-      "Le tsunami du 26 décembre a fait environ 230 000 morts autour de l'océan Indien."
+      "Le tsunami du 26 décembre a fait environ 230 000 morts autour de l'océan Indien.",
+      "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_21st-century_earthquakes"
      ],
      [
       "Haïti",
       "2010",
-      "Il a dévasté Port-au-Prince et fait plus de 200 000 morts."
+      "Il a dévasté Port-au-Prince et fait plus de 100 000 morts.",
+      "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_21st-century_earthquakes"
      ],
      [
       "Tōhoku (Japon)",
@@ -4500,7 +4783,8 @@
      [
       "Turquie et Syrie",
       "2023",
-      "Le 6 février, deux séismes de magnitude 7,8 et 7,5 ont fait plus de 50 000 morts."
+      "Le 6 février, deux très forts séismes, dont le premier de magnitude 7,8, ont fait plus de 50 000 morts.",
+      "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_21st-century_earthquakes"
      ]
     ]
    },
@@ -4512,22 +4796,26 @@
      [
       "le point en profondeur où commence la rupture",
       "Le foyer",
-      "Il peut se trouver de quelques kilomètres à plus de 600 km de profondeur."
+      "Il peut se trouver de quelques kilomètres à plus de 600 km de profondeur.",
+      "https://www.thecanadianencyclopedia.ca/fr/article/plate-tectonics"
      ],
      [
       "les secousses plus faibles qui suivent un grand séisme",
       "Les répliques",
-      "Elles peuvent durer des mois, voire des années."
+      "Elles peuvent durer des mois, voire des années.",
+      "https://www.larousse.fr/encyclopedie/divers/sismologie/92120"
      ],
      [
       "une cassure de la croûte le long de laquelle les roches glissent",
       "Une faille",
-      "La faille de San Andreas traverse la Californie sur plus de 1 000 km."
+      "La faille de San Andreas traverse la Californie sur plus de 1 000 km.",
+      "https://www.futura-sciences.com/planete/definitions/terre-faille-san-andreas-21103/"
      ],
      [
       "la mesure de l'énergie libérée par un séisme",
       "La magnitude",
-      "Un degré de plus correspond à environ 32 fois plus d'énergie."
+      "Un degré de plus correspond à environ 32 fois plus d'énergie.",
+      "https://kaweah.freedombox.rocks/kiwix/content/wikipedia_en_all_maxi_2023-10/A/Seismic_magnitude_scales"
      ],
      [
       "la mesure des effets et des dégâts observés",
@@ -4537,22 +4825,26 @@
      [
       "l'endroit où une plaque plonge sous une autre",
       "Une zone de subduction",
-      "Les plus grands séismes, comme au Chili ou au Japon, s'y produisent."
+      "Les plus grands séismes, comme au Chili ou au Japon, s'y produisent.",
+      "https://en.wikipedia.org/wiki/Ring_of_Fire"
      ],
      [
       "le scientifique qui étudie les séismes",
       "Un sismologue",
-      "Grâce aux ondes sismiques, il étudie aussi l'intérieur de la Terre."
+      "Grâce aux ondes sismiques, il étudie aussi l'intérieur de la Terre.",
+      "https://www.larousse.fr/encyclopedie/divers/sismologie/92120"
      ],
      [
       "les ondes sismiques qui arrivent en premier",
       "Les ondes P",
-      "P veut dire « premières » ; elles traversent aussi les liquides."
+      "P veut dire « primaires » : ce sont les plus rapides, et elles traversent aussi les liquides.",
+      "https://www.schoolmouv.fr/cours/sismologie-et-structure-de-la-terre/fiche-de-cours"
      ],
      [
       "la ceinture de séismes et de volcans autour du Pacifique",
       "La ceinture de feu",
-      "La grande majorité des plus forts séismes s'y produisent."
+      "La grande majorité des plus forts séismes s'y produisent.",
+      "https://en.wikipedia.org/wiki/Ring_of_Fire"
      ],
      [
       "un séisme trop faible pour être ressenti",
@@ -4562,7 +4854,14 @@
      [
       "l'échelle de magnitude créée en 1935 en Californie",
       "L'échelle de Richter",
-      "On utilise aujourd'hui surtout la magnitude de moment, plus précise pour les grands séismes."
+      "On utilise aujourd'hui surtout la magnitude de moment, plus précise pour les grands séismes.",
+      "https://kaweah.freedombox.rocks/kiwix/content/wikipedia_en_all_maxi_2023-10/A/Seismic_magnitude_scales"
+     ]
+    ],
+    "recouvrements": [
+     [
+      "La magnitude",
+      "L'échelle de Richter"
      ]
     ]
    }
@@ -4636,7 +4935,8 @@
      "Le séisme de Lyon",
      "Le séisme de Brest"
     ],
-    "explication": "Ce séisme de Provence a fait une quarantaine de morts."
+    "explication": "Ce séisme de Provence a fait une quarantaine de morts.",
+    "source": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-risques-naturels/25-seismes-en-metropole-et-en"
    },
    {
     "enonce": "Quels territoires français sont les plus exposés aux séismes ?",
@@ -4646,7 +4946,8 @@
      "La Normandie",
      "La Beauce"
     ],
-    "explication": "Elles sont proches d'une zone de subduction."
+    "explication": "Elles sont proches d'une zone de subduction.",
+    "source": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-risques-naturels/25-seismes-en-metropole-et-en"
    },
    {
     "enonce": "Que faut-il faire à l'intérieur pendant un séisme ?",
@@ -4656,17 +4957,19 @@
      "Prendre l'ascenseur",
      "Se mettre près d'une fenêtre"
     ],
-    "explication": "On s'éloigne des vitres et on ne sort qu'une fois les secousses finies."
+    "explication": "On s'éloigne des vitres et on ne sort qu'une fois les secousses finies.",
+    "source": "https://www.guadeloupe.developpement-durable.gouv.fr/IMG/pdf/affiche-sismik-594x841-hd-2.pdf"
    },
    {
-    "enonce": "Quelle ville a été frappée en 1989 pendant un grand match de baseball ?",
+    "enonce": "Quelle ville a été frappée en 1989 juste avant un match des World Series de baseball ?",
     "bonne": "San Francisco",
     "faux": [
      "Los Angeles",
      "San Diego",
      "Seattle"
     ],
-    "explication": "Le séisme de Loma Prieta a interrompu les World Series."
+    "explication": "Le séisme de Loma Prieta a fait suspendre les World Series pendant dix jours.",
+    "source": "https://www.britannica.com/event/San-Francisco-Oakland-earthquake-of-1989"
    },
    {
     "enonce": "Quel pays arrête automatiquement ses trains à grande vitesse dès les premières ondes ?",
@@ -4686,7 +4989,8 @@
      "Shanghai",
      "Pékin"
     ],
-    "explication": "Il aurait fait au moins 240 000 morts."
+    "explication": "Il aurait fait au moins 240 000 morts.",
+    "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_20th-century_earthquakes"
    },
    {
     "enonce": "Quelle ville marocaine a été détruite par un séisme en 1960 ?",
@@ -4696,7 +5000,8 @@
      "Tanger",
      "Fès"
     ],
-    "explication": "La ville a été reconstruite un peu plus au sud."
+    "explication": "Ce séisme du 29 février 1960 a fait plus de 10 000 morts.",
+    "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_20th-century_earthquakes"
    },
    {
     "enonce": "Quelle région du Maroc a été frappée par un fort séisme en septembre 2023 ?",
@@ -4726,7 +5031,8 @@
      "L'Islande",
      "Le Portugal"
     ],
-    "explication": "Le séisme de Gorkha a fait près de 9 000 morts."
+    "explication": "Le séisme de Gorkha a fait près de 9 000 morts.",
+    "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_21st-century_earthquakes"
    },
    {
     "enonce": "Quel scientifique allemand a proposé la dérive des continents en 1912 ?",
@@ -4736,7 +5042,8 @@
      "Charles Richter",
      "Alexander von Humboldt"
     ],
-    "explication": "Ses idées n'ont été acceptées qu'avec la tectonique des plaques, dans les années 1960."
+    "explication": "Ses idées n'ont été acceptées qu'avec la tectonique des plaques, dans les années 1960.",
+    "source": "https://www.futura-sciences.com/planete/actualites/geologie-derive-continents-alfred-wegener-100-ans-43241/"
    },
    {
     "enonce": "Dans quel pays se trouve la faille de San Andreas ?",
@@ -4746,7 +5053,8 @@
      "Le Canada",
      "Le Chili"
     ],
-    "explication": "Elle sépare la plaque pacifique de la plaque nord-américaine."
+    "explication": "Elle sépare la plaque pacifique de la plaque nord-américaine.",
+    "source": "https://www.futura-sciences.com/planete/definitions/terre-faille-san-andreas-21103/"
    },
    {
     "enonce": "Quel savant chinois a inventé vers l'an 132 un détecteur de séismes à billes ?",
@@ -4756,7 +5064,8 @@
      "Marco Polo",
      "Sun Tzu"
     ],
-    "explication": "Lors d'une secousse, une bille tombait de la gueule d'un dragon dans celle d'un crapaud."
+    "explication": "Lors d'une secousse, une bille tombait de la gueule d'un dragon dans celle d'un crapaud.",
+    "source": "https://www.atlasobscura.com/places/zhang-heng-seismoscope"
    }
   ]
  },
@@ -4801,17 +5110,20 @@
      [
       "le Rhin",
       "Cologne",
-      "La cathédrale de Cologne domine ses rives."
+      "Cologne compte parmi les plus grandes villes du Rhin.",
+      "https://en.wikipedia.org/wiki/Rhine"
      ],
      [
       "l'Elbe",
       "Dresde",
-      "Dresde est surnommée la Florence de l'Elbe."
+      "Dresde est surnommée la Florence de l'Elbe.",
+      "https://www.tourmag.com/Dresde-La-Florence-de-l-Elbe_a60546.html"
      ],
      [
       "la Vistule",
       "Varsovie",
-      "C'est le plus long fleuve de Pologne ; il traverse aussi Cracovie."
+      "C'est le plus long fleuve de Pologne ; il traverse aussi Cracovie.",
+      "https://en.wikipedia.org/wiki/Vistula"
      ],
      [
       "le Guadalquivir",
@@ -4826,7 +5138,8 @@
      [
       "la Garonne",
       "Bordeaux",
-      "Elle forme à Bordeaux le port de la Lune, en forme de croissant."
+      "Elle forme à Bordeaux le port de la Lune, en forme de croissant.",
+      "https://www.routard.com/contenu-dossier/cid140111-le-sud-ouest-de-la-france-au-fil-de-la-garonne.html"
      ],
      [
       "la Loire",
@@ -4856,12 +5169,14 @@
      [
       "le Rhône",
       "la mer Méditerranée",
-      "Avant la mer, il forme le delta de la Camargue."
+      "Avant la mer, il forme le delta de la Camargue.",
+      "https://www.techno-science.net/fr/definitions/rhone"
      ],
      [
       "le Rhin",
       "la mer du Nord",
-      "Il forme avec la Meuse un grand delta aux Pays-Bas, près de Rotterdam."
+      "Il forme avec la Meuse un grand delta aux Pays-Bas, près de Rotterdam.",
+      "https://en.wikipedia.org/wiki/Rhine"
      ],
      [
       "le Danube",
@@ -4872,17 +5187,20 @@
      [
       "la Volga",
       "la mer Caspienne",
-      "C'est le plus long fleuve d'Europe ; la Caspienne où il se jette est une mer fermée."
+      "C'est le plus long fleuve d'Europe ; la Caspienne où il se jette est une mer fermée.",
+      "https://en.wikipedia.org/wiki/Volga"
      ],
      [
       "le Pô",
       "la mer Adriatique",
-      "C'est le plus long fleuve d'Italie ; il traverse Turin."
+      "C'est le plus long fleuve d'Italie ; il traverse Turin.",
+      "https://en.wikipedia.org/wiki/Po_(river"
      ],
      [
       "la Vistule",
       "la mer Baltique",
-      "Elle rejoint la mer près de Gdańsk."
+      "Elle rejoint la mer près de Gdańsk.",
+      "https://en.wikipedia.org/wiki/Vistula"
      ]
     ],
     "recouvrements": [
@@ -4907,12 +5225,14 @@
      [
       "le Rhin",
       "Suisse",
-      "Il naît dans les Alpes suisses, dans le canton des Grisons."
+      "Il naît dans les Alpes suisses, dans le canton des Grisons.",
+      "https://en.wikipedia.org/wiki/Rhine"
      ],
      [
       "le Rhône",
       "Suisse",
-      "Il sort du glacier du Rhône, dans le Valais."
+      "Il sort du glacier du Rhône, dans le Valais.",
+      "https://www.techno-science.net/fr/definitions/rhone"
      ],
      [
       "le Danube",
@@ -4923,17 +5243,20 @@
      [
       "l'Elbe",
       "Tchéquie",
-      "Elle naît dans les monts des Géants, où on l'appelle Labe."
+      "Elle naît dans les monts des Géants, où on l'appelle Labe.",
+      "https://www.techno-science.net/fr/definitions/elbe-fleuve"
      ],
      [
       "le Douro",
       "Espagne",
-      "Il finit sa course à Porto, au Portugal."
+      "Il finit sa course à Porto, au Portugal.",
+      "https://www.wikiwand.com/en/River_Douro"
      ],
      [
       "la Meuse",
       "France",
-      "Elle traverse ensuite la Belgique et les Pays-Bas."
+      "Elle traverse ensuite la Belgique et les Pays-Bas.",
+      "https://www.rtbf.be/article/perles-d-eau-a-la-recherche-de-la-source-de-la-meuse-en-france-11034770"
      ],
      [
       "l'Oder",
@@ -4943,12 +5266,14 @@
      [
       "le Dniepr",
       "Russie",
-      "Il traverse ensuite la Biélorussie et l'Ukraine."
+      "Il traverse ensuite la Biélorussie et l'Ukraine.",
+      "https://en.wikipedia.org/wiki/Dnieper"
      ],
      [
       "l'Escaut",
       "France",
-      "Il naît dans l'Aisne et passe par Anvers avant la mer du Nord."
+      "Il naît dans l'Aisne et passe par Anvers avant la mer du Nord.",
+      "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Scheldt"
      ],
      [
       "l'Inn",
@@ -4964,7 +5289,8 @@
      [
       "le Pô",
       "Italie",
-      "Il naît au pied du mont Viso, dans les Alpes."
+      "Il naît au pied du mont Viso, dans les Alpes.",
+      "https://en.wikipedia.org/wiki/Po_(river"
      ]
     ]
    },
@@ -4976,32 +5302,38 @@
      [
       "Lyon",
       "Le Rhône",
-      "Il y reçoit la Saône, au confluent."
+      "Il y reçoit la Saône, au confluent.",
+      "https://www.techno-science.net/fr/definitions/rhone"
      ],
      [
       "Hambourg",
       "L'Elbe",
-      "Son port sur l'Elbe est l'un des plus grands d'Europe."
+      "Son port sur l'Elbe est le premier d'Allemagne.",
+      "https://www.techno-science.net/fr/definitions/elbe-fleuve"
      ],
      [
       "Porto",
       "Le Douro",
-      "Les caves de porto bordent sa rive, à Vila Nova de Gaia."
+      "Les caves de porto se trouvent à Vila Nova de Gaia, juste en face de Porto.",
+      "https://www.wikiwand.com/en/River_Douro"
      ],
      [
       "Kiev",
       "Le Dniepr",
-      "C'est le plus grand fleuve d'Ukraine."
+      "C'est le plus long fleuve d'Ukraine.",
+      "https://en.wikipedia.org/wiki/Dnieper"
      ],
      [
       "Toulouse",
       "La Garonne",
-      "La Ville rose s'étend sur ses deux rives."
+      "Avec celles du canal du Midi, ses rives sont un site incontournable de Toulouse.",
+      "https://www.routard.com/contenu-dossier/cid140111-le-sud-ouest-de-la-france-au-fil-de-la-garonne.html"
      ],
      [
       "Anvers",
       "L'Escaut",
-      "Anvers est l'un des plus grands ports d'Europe grâce à l'Escaut."
+      "Anvers est l'un des plus grands ports d'Europe grâce à l'Escaut.",
+      "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Scheldt"
      ],
      [
       "Prague",
@@ -5011,7 +5343,8 @@
      [
       "Turin",
       "Le Pô",
-      "C'est la plus grande ville sur le Pô."
+      "C'est le plus long fleuve d'Italie.",
+      "https://en.wikipedia.org/wiki/Po_(river"
      ],
      [
       "Vienne, en Autriche",
@@ -5081,82 +5414,98 @@
      [
       "Amazone",
       "Amérique du Sud",
-      "C'est le fleuve au plus fort débit du monde : environ un cinquième de l'eau douce qui arrive aux océans."
+      "C'est le fleuve au plus fort débit du monde : environ un cinquième de l'eau douce qui arrive aux océans.",
+      "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Amazon_River.html"
      ],
      [
       "Nil",
       "Afrique",
-      "Avec environ 6 650 km, il dispute à l'Amazone le titre de plus long fleuve du monde."
+      "Avec environ 6 650 km, il dispute à l'Amazone le titre de plus long fleuve du monde.",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ],
      [
       "Mississippi",
       "Amérique du Nord",
-      "Avec le Missouri, il forme l'un des plus longs réseaux fluviaux du monde."
+      "Avec le Missouri, il forme l'un des plus longs réseaux fluviaux du monde.",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ],
      [
       "Yangzi Jiang",
       "Asie",
-      "C'est le plus long fleuve d'Asie ; il alimente le barrage des Trois-Gorges."
+      "C'est le plus long fleuve d'Asie ; il alimente le barrage des Trois-Gorges.",
+      "https://wikiwand.com/en/Yangtze_River"
      ],
      [
       "Gange",
       "Asie",
-      "C'est un fleuve sacré pour les hindous, qui s'y baignent pour se purifier."
+      "C'est un fleuve sacré pour les hindous, qui s'y baignent pour se purifier.",
+      "https://dlab.epfl.ch/wikispeedia/wpcd/wp/g/Ganges_River.htm"
      ],
      [
       "Mékong",
       "Asie",
-      "Il traverse six pays, de la Chine au Viêt Nam, où il forme un immense delta."
+      "Il traverse ou longe six pays, de la Chine au Viêt Nam, où il forme un vaste delta.",
+      "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Mekong.html"
      ],
      [
       "Congo",
       "Afrique",
-      "C'est le fleuve le plus profond du monde, avec plus de 220 m par endroits."
+      "C'est le fleuve le plus profond du monde, avec environ 220 m par endroits.",
+      "https://wikiwand.com/en/River_Congo"
      ],
      [
       "Niger",
       "Afrique",
-      "Il fait un grand arc au bord du Sahara, en passant près de Tombouctou."
+      "Son bassin s'étend sur dix pays, dont la Guinée, le Mali et le Nigeria.",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ],
      [
       "Zambèze",
       "Afrique",
-      "Il forme les chutes Victoria, entre la Zambie et le Zimbabwe."
+      "Il se jette dans l'océan Indien par le canal du Mozambique.",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ],
      [
       "Murray",
       "Océanie",
-      "C'est le plus long fleuve d'Australie."
+      "C'est le plus long fleuve d'Australie.",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ],
      [
       "Volga",
       "Europe",
-      "C'est le plus long fleuve d'Europe ; il coule entièrement en Russie."
+      "C'est le plus long fleuve d'Europe ; il coule entièrement en Russie.",
+      "https://en.wikipedia.org/wiki/Volga"
      ],
      [
       "Paraná",
       "Amérique du Sud",
-      "Il alimente le barrage d'Itaipu, entre le Brésil et le Paraguay, l'un des plus puissants du monde."
+      "Son bassin s'étend sur le Brésil, l'Argentine, le Paraguay, la Bolivie et l'Uruguay.",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ],
      [
       "Orénoque",
       "Amérique du Sud",
-      "Il coule surtout au Venezuela et se jette dans l'Atlantique par un grand delta."
+      "Il se jette dans l'Atlantique ; son bassin s'étend sur le Venezuela et la Colombie.",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ],
      [
       "Saint-Laurent",
       "Amérique du Nord",
-      "Il relie les Grands Lacs à l'océan Atlantique."
+      "Il relie les Grands Lacs à l'océan Atlantique.",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ],
      [
       "Yukon",
       "Amérique du Nord",
-      "Il traverse le Canada et l'Alaska ; ses rives ont connu la ruée vers l'or du Klondike."
+      "Son bassin s'étend sur les États-Unis et le Canada ; il se jette dans la mer de Béring.",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ],
      [
       "Indus",
       "Asie",
-      "Il a donné son nom à l'Inde et coule aujourd'hui surtout au Pakistan."
+      "Il coule surtout au Pakistan, qui couvre 93 % de son bassin.",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ]
     ]
    },
@@ -5168,27 +5517,32 @@
      [
       "le Nil",
       "Le Caire",
-      "Juste après Le Caire, il se divise pour former son delta."
+      "Juste après Le Caire, il se divise pour former son delta.",
+      "https://sais.webspace.durham.ac.uk/?p=106"
      ],
      [
       "l'Amazone",
       "Iquitos",
-      "Iquitos, au Pérou, est la plus grande ville du monde qu'aucune route ne relie au reste du pays."
+      "Les navires de haute mer peuvent remonter l'Amazone jusqu'à Iquitos, au Pérou, à 3 600 km de la mer.",
+      "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Amazon_River.html"
      ],
      [
       "le Mississippi",
       "La Nouvelle-Orléans",
-      "La Nouvelle-Orléans est construite en partie sous le niveau du fleuve, protégée par des digues."
+      "La Nouvelle-Orléans est en partie sous le niveau de la mer ; des digues bordent le fleuve.",
+      "https://courses.ems.psu.edu/earth107/book/export/html/1084"
      ],
      [
       "le Gange",
       "Varanasi",
-      "Varanasi, ou Bénarès, est la ville sainte de l'hindouisme, avec ses escaliers de bain, les ghats."
+      "Varanasi est la plus importante ville sacrée de l'hindouisme sur les rives du Gange.",
+      "https://dlab.epfl.ch/wikispeedia/wpcd/wp/g/Ganges_River.htm"
      ],
      [
       "le Yangzi Jiang",
       "Wuhan",
-      "Wuhan est au confluent du Yangzi et de son affluent, la Han."
+      "Wuhan est au confluent du Yangzi et de son affluent, la Han.",
+      "https://wikiwand.com/en/Yangtze_River"
      ],
      [
       "l'Hudson",
@@ -5203,12 +5557,14 @@
      [
       "le Mékong",
       "Phnom Penh",
-      "Phnom Penh, capitale du Cambodge, est au confluent du Mékong et du Tonlé Sap."
+      "Phnom Penh, capitale du Cambodge, est au confluent du Mékong et du Tonlé Sap.",
+      "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Mekong.html"
      ],
      [
       "le Congo",
       "Kinshasa",
-      "Kinshasa fait face à Brazzaville : ce sont les capitales les plus proches du monde, après Rome et le Vatican."
+      "Kinshasa et Brazzaville, deux capitales, se font face de part et d'autre du fleuve.",
+      "https://wikiwand.com/en/River_Congo"
      ],
      [
       "le Niger",
@@ -5240,67 +5596,80 @@
      [
       "l'Amazone",
       "l'océan Atlantique",
-      "Son eau douce se repère encore loin au large."
+      "Son eau douce se repère encore loin au large.",
+      "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Amazon_River.html"
      ],
      [
       "le Nil",
       "la mer Méditerranée",
-      "Il forme un grand delta au nord du Caire."
+      "Il forme un grand delta au nord du Caire.",
+      "https://sais.webspace.durham.ac.uk/?p=106"
      ],
      [
       "le Mississippi",
       "le golfe du Mexique",
-      "Il y forme un delta en patte d'oiseau, au sud de La Nouvelle-Orléans."
+      "La Nouvelle-Orléans se trouve à environ 80 km de son embouchure.",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ],
      [
       "le Yangzi Jiang",
       "la mer de Chine orientale",
-      "Il s'y jette près de Shanghai."
+      "Il s'y jette près de Shanghai.",
+      "https://wikiwand.com/en/Yangtze_River"
      ],
      [
       "le Gange",
       "le golfe du Bengale",
-      "Avec le Brahmapoutre, il y forme le plus grand delta du monde."
+      "Il s'y jette par un grand delta, où s'étendent les mangroves des Sundarbans.",
+      "https://dlab.epfl.ch/wikispeedia/wpcd/wp/g/Ganges_River.htm"
      ],
      [
       "le Mékong",
       "la mer de Chine méridionale",
-      "Il s'y jette par un delta au sud du Viêt Nam."
+      "Il s'y jette par un delta au sud du Viêt Nam.",
+      "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Mekong.html"
      ],
      [
       "le Congo",
       "l'océan Atlantique",
-      "Il est si puissant qu'il a creusé un canyon sous-marin au large."
+      "Il est le fleuve le plus profond connu, avec environ 220 m par endroits.",
+      "https://wikiwand.com/en/River_Congo"
      ],
      [
       "l'Indus",
       "la mer d'Arabie",
-      "Il s'y jette au sud du Pakistan, près de Karachi."
+      "Le Pakistan couvre 93 % de son bassin.",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ],
      [
       "le Saint-Laurent",
       "l'océan Atlantique",
-      "Son estuaire est si large qu'on l'appelle parfois la mer."
+      "Il s'y jette par le golfe du Saint-Laurent.",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ],
      [
       "le Yukon",
       "la mer de Béring",
-      "Il traverse tout l'Alaska avant de s'y jeter."
+      "Son bassin s'étend sur les États-Unis (60 %) et le Canada (40 %).",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ],
      [
       "le Niger",
       "le golfe de Guinée",
-      "Il y forme un vaste delta au Nigeria."
+      "Son bassin s'étend sur dix pays, dont le Mali, le Niger et le Nigeria.",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ],
      [
       "le Zambèze",
       "l'océan Indien",
-      "Il s'y jette au Mozambique."
+      "Il s'y jette par le canal du Mozambique.",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ],
      [
       "l'Orénoque",
       "l'océan Atlantique",
-      "Son delta, au Venezuela, est un labyrinthe de bras d'eau."
+      "Son bassin s'étend sur le Venezuela, la Colombie et le Guyana.",
+      "https://wikiwand.com/en/articles/List_of_river_systems_by_length"
      ]
     ],
     "recouvrements": [
@@ -5443,32 +5812,38 @@
      [
       "Balaton",
       "Hongrie",
-      "C'est le plus grand lac d'Europe centrale, surnommé la mer hongroise."
+      "C'est le plus grand lac d'Europe centrale, surnommé la mer hongroise.",
+      "https://www.britannica.com/place/Lake-Balaton"
      ],
      [
       "de Garde",
       "Italie",
-      "C'est le plus grand lac d'Italie."
+      "C'est le plus grand lac d'Italie.",
+      "https://www.wikiwand.com/en/articles/Italian_Lakes"
      ],
      [
       "de Côme",
       "Italie",
-      "Il a la forme d'un Y à l'envers et compte parmi les lacs les plus profonds d'Europe."
+      "Il a la forme d'un Y à l'envers et compte parmi les lacs les plus profonds d'Europe.",
+      "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Lario.html"
      ],
      [
       "de Constance",
       "Allemagne, Suisse et Autriche",
-      "Le Rhin le traverse ; ses frontières sur l'eau n'ont jamais été fixées par un traité."
+      "Le Rhin le traverse ; ses frontières sur l'eau n'ont jamais été fixées par un traité.",
+      "https://en.wikipedia.org/wiki/Lake_Constance"
      ],
      [
       "d'Annecy",
       "France",
-      "On le dit l'un des lacs les plus purs d'Europe, grâce à un égout construit tout autour dès les années 1960."
+      "On le dit l'un des lacs les plus purs d'Europe, grâce à un égout faisant le tour du lac, achevé en 1976.",
+      "https://ccla.fr/wp-content/uploads/2020/09/Gestion-et-protection.pdf"
      ],
      [
       "Tchad",
       "Tchad, Cameroun, Niger et Nigeria",
-      "Sa surface a diminué d'environ 90 % depuis les années 1960."
+      "Sa surface a diminué d'environ 90 % depuis les années 1960.",
+      "https://www.worldbank.org/en/news/feature/2014/03/27/restoring-a-disappearing-giant-lake-chad"
      ]
     ],
     "recouvrements": [
@@ -5490,27 +5865,32 @@
      [
       "Lac salé où l'on flotte sans effort, au point le plus bas des terres",
       "Mer Morte",
-      "Sa surface est à plus de 430 m sous le niveau de la mer."
+      "Sa surface est à plus de 430 m sous le niveau de la mer.",
+      "https://www.britannica.com/question/At-what-elevation-is-the-Dead-Sea"
      ],
      [
       "Plus grande étendue d'eau fermée du monde, appelée mer",
       "Mer Caspienne",
-      "Elle borde cinq pays, dont la Russie, l'Iran et le Kazakhstan."
+      "Elle borde cinq pays, dont la Russie, l'Iran et le Kazakhstan.",
+      "https://www.britannica.com/place/Caspian-Sea"
      ],
      [
       "Mer intérieure d'Asie centrale presque asséchée par l'irrigation",
       "Mer d'Aral",
-      "Elle a perdu près de 90 % de sa surface depuis les années 1960."
+      "Entre les années 1960 et 2007, elle a perdu environ 90 % de son volume d'eau.",
+      "https://kun.uz/en/news/2024/08/01/aral-sea-tragedy-causes-impacts-and-possible-solutions"
      ],
      [
       "Lac de cratère très bleu de l'Oregon",
       "Crater Lake",
-      "Il occupe la caldeira du mont Mazama, effondré il y a environ 7 700 ans."
+      "Il occupe la caldeira du mont Mazama, effondré il y a environ 7 700 ans.",
+      "https://home.nps.gov/crla/learn/nature/crater-lake.htm"
      ],
      [
       "Lac d'eau douce le plus long du monde, en Afrique de l'Est",
       "Lac Tanganyika",
-      "Il mesure environ 670 km de long et c'est le deuxième plus profond du monde."
+      "Il mesure environ 670 km de long et c'est le deuxième plus profond du monde.",
+      "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Lake_Tanganyika"
      ],
      [
       "Grand lac salé de l'Utah",
@@ -5525,12 +5905,14 @@
      [
       "Lac italien des îles Borromées",
       "Lac Majeur",
-      "Il est partagé entre l'Italie et la Suisse."
+      "Il est partagé entre l'Italie et la Suisse.",
+      "https://www.doc.surf/wiki/lake-maggiore"
      ],
      [
       "Lac dont l'eau s'écoule par les chutes du Niagara",
       "Lac Érié",
-      "Les chutes relient le lac Érié au lac Ontario."
+      "Les chutes relient le lac Érié au lac Ontario.",
+      "https://www.livescience.com/29312-great-lakes.html"
      ],
      [
       "Lac artificiel géant formé par le barrage d'Assouan",
@@ -5560,12 +5942,14 @@
      [
       "Lac du Cameroun qui a libéré un nuage de gaz mortel en 1986",
       "Lac Nyos",
-      "Le gaz carbonique sorti du lac a tué environ 1 700 personnes."
+      "Le gaz carbonique sorti du lac a tué environ 1 700 personnes.",
+      "https://en.wikipedia.org/wiki/Lake_Nyos_disaster"
      ],
      [
-      "Lac africain aux centaines d'espèces de poissons colorés",
+      "Lac africain qui compte le plus d'espèces de poissons au monde",
       "Lac Malawi",
-      "Il abrite des centaines d'espèces de poissons cichlidés."
+      "Il abrite au moins 700 espèces de poissons cichlidés.",
+      "https://www.guinnessworldrecords.com/world-records/720749-lake-with-most-fish-species"
      ]
     ]
    }
@@ -5659,7 +6043,8 @@
      "Le Canada",
      "L'Italie"
     ],
-    "explication": "Elle en compte en réalité près de 190 000."
+    "explication": "Elle en compte en réalité près de 190 000.",
+    "source": "https://www.geographyrealm.com/finland-many-lakes/"
    },
    {
     "enonce": "Comment s'appelle la science des lacs ?",
@@ -5679,7 +6064,8 @@
      "3",
      "8"
     ],
-    "explication": "La Russie, le Kazakhstan, le Turkménistan, l'Iran et l'Azerbaïdjan."
+    "explication": "La Russie, le Kazakhstan, le Turkménistan, l'Iran et l'Azerbaïdjan.",
+    "source": "https://www.britannica.com/place/Caspian-Sea"
    },
    {
     "enonce": "Quelle ville se trouve à la sortie du lac Léman ?",
@@ -5711,7 +6097,8 @@
      "Le lac Michigan",
      "Le lac Huron"
     ],
-    "explication": "Il est malgré tout plus de deux fois plus grand que la Corse."
+    "explication": "Il est malgré tout plus de deux fois plus grand que la Corse.",
+    "source": "https://thecanadianencyclopedia.ca/en/article/lake-ontario"
    },
    {
     "enonce": "Comment appelle-t-on un lac formé dans une ancienne boucle de fleuve ?",
@@ -5863,7 +6250,8 @@
      [
       "l'Europe de l'Asie à Istanbul",
       "Le Bosphore",
-      "Il relie la mer Noire à la mer de Marmara."
+      "Il relie la mer Noire à la mer de Marmara.",
+      "https://www.eia.gov/international/content/analysis/special_topics/World_Oil_Transit_Chokepoints"
      ],
      [
       "la Sicile du reste de l'Italie",
@@ -5883,12 +6271,14 @@
      [
       "l'Iran de la péninsule Arabique",
       "Le détroit d'Ormuz",
-      "Une grande part du pétrole mondial transite par lui."
+      "Une grande part du pétrole mondial transite par lui.",
+      "https://www.eia.gov/international/content/analysis/special_topics/World_Oil_Transit_Chokepoints"
      ],
      [
       "la péninsule Malaise de Sumatra",
       "Le détroit de Malacca",
-      "C'est l'une des routes maritimes les plus fréquentées du monde."
+      "C'est le détroit par lequel passe le plus de pétrole au monde.",
+      "https://www.eia.gov/international/content/analysis/special_topics/World_Oil_Transit_Chokepoints"
      ],
      [
       "l'Afrique de la péninsule Arabique, au sud de la mer Rouge",
@@ -5910,7 +6300,8 @@
      [
       "Corse",
       "la mer Méditerranée",
-      "C'est la quatrième île de Méditerranée par sa superficie."
+      "C'est la quatrième île de Méditerranée par sa superficie.",
+      "https://en.wikipedia.org/wiki/List_of_islands_in_the_Mediterranean"
      ],
      [
       "Madagascar",
@@ -5930,7 +6321,8 @@
      [
       "Gotland",
       "la mer Baltique",
-      "C'est la plus grande île de Suède."
+      "C'est la plus grande île de Suède.",
+      "https://en.wikipedia.org/wiki/List_of_European_islands_by_area"
      ],
      [
       "Crète",
@@ -5950,7 +6342,8 @@
      [
       "Chypre",
       "la mer Méditerranée",
-      "C'est la troisième île de Méditerranée."
+      "C'est la troisième île de Méditerranée.",
+      "https://en.wikipedia.org/wiki/List_of_islands_in_the_Mediterranean"
      ],
      [
       "Tahiti",
@@ -5960,12 +6353,14 @@
      [
       "Belle-Île",
       "l'océan Atlantique",
-      "C'est la plus grande île de Bretagne."
+      "C'est la plus grande île de Bretagne.",
+      "https://en.wikipedia.org/wiki/List_of_European_islands_by_area"
      ],
      [
       "Rügen",
       "la mer Baltique",
-      "C'est la plus grande île d'Allemagne, célèbre pour ses falaises de craie."
+      "C'est la plus grande île d'Allemagne.",
+      "https://en.wikipedia.org/wiki/List_of_European_islands_by_area"
      ],
      [
       "Malte",
@@ -6130,7 +6525,8 @@
      "En mer Baltique",
      "En mer Noire"
     ],
-    "explication": "L'écart entre marée haute et marée basse peut y dépasser 14 m."
+    "explication": "L'écart entre marée haute et marée basse peut y dépasser 14 m.",
+    "source": "https://figaronautisme.meteoconsult.fr/actus-nautisme-escales/2025-06-25/79032-baie-du-mont-saint-michel-naviguer-au-rythme-des-marees"
    },
    {
     "enonce": "Quel est le plus grand récif de corail du monde ?",
@@ -6140,7 +6536,8 @@
      "Le lagon de Nouvelle-Calédonie",
      "Le récif de la mer Rouge"
     ],
-    "explication": "Elle s'étend sur plus de 2 300 km et se voit depuis l'espace."
+    "explication": "Elle s'étend sur plus de 2 300 km et se voit depuis l'espace.",
+    "source": "https://en.wikipedia.org/wiki/Great_Barrier_Reef"
    }
   ]
  },
@@ -6203,22 +6600,26 @@
      [
       "Les Époux Arnolfini",
       "Jan van Eyck",
-      "Un miroir au fond reflète deux personnages, peut-être le peintre lui-même."
+      "Un miroir au fond reflète deux personnages, peut-être le peintre lui-même.",
+      "https://en.wikipedia.org/wiki/Arnolfini_Portrait"
      ],
      [
       "Les Ambassadeurs",
       "Hans Holbein le Jeune",
-      "Une tête de mort déformée n'apparaît qu'en regardant le tableau de biais."
+      "Une tête de mort déformée n'apparaît qu'en regardant le tableau de biais.",
+      "https://en.wikipedia.org/wiki/The_Ambassadors_(Holbein"
      ],
      [
       "Les Chasseurs dans la neige",
       "Pieter Bruegel l'Ancien",
-      "Peint en 1565, il fait partie d'une série sur les saisons."
+      "Peint en 1565, il fait partie d'une série sur les saisons.",
+      "https://en.wikipedia.org/wiki/The_Hunters_in_the_Snow"
      ],
      [
       "Autoportrait à la fourrure",
       "Albrecht Dürer",
-      "Peint en 1500, Dürer s'y représente de face, à la manière du Christ."
+      "Peint en 1500, Dürer s'y représente de face, à la manière du Christ.",
+      "https://en.wikipedia.org/wiki/Self-Portrait_(D%C3%BCrer,_Munich"
      ]
     ]
    },
@@ -6230,87 +6631,104 @@
      [
       "Peintre d'Urbino mort à 37 ans, célèbre pour ses Madones",
       "Raphaël",
-      "Il est mort en 1520 à Rome, où il est enterré au Panthéon."
+      "Il est mort en 1520 à Rome, où il est enterré au Panthéon.",
+      "https://en.wikipedia.org/wiki/Raphael"
      ],
      [
       "Maître vénitien de la couleur, portraitiste de Charles Quint",
       "Titien",
-      "Il a travaillé pendant près de soixante-dix ans."
+      "Il a dominé la peinture vénitienne pendant une soixantaine d'années.",
+      "https://en.wikipedia.org/wiki/Titian"
      ],
      [
       "Peintre et ingénieur qui dessinait des machines volantes",
       "Léonard de Vinci",
-      "Ses carnets, écrits de droite à gauche, comptent des milliers de pages."
+      "Ses carnets, écrits de droite à gauche, comptent des milliers de pages.",
+      "https://en.wikipedia.org/wiki/Science_and_inventions_of_Leonardo_da_Vinci"
      ],
      [
       "Sculpteur du David de Florence, aussi peintre et architecte",
       "Michel-Ange",
-      "Son David de marbre mesure plus de 5 m."
+      "Son David de marbre mesure plus de 5 m.",
+      "https://en.wikipedia.org/wiki/Michelangelo's_David"
      ],
      [
       "Graveur de Nuremberg, auteur d'un célèbre Rhinocéros",
       "Albrecht Dürer",
-      "Il a dessiné le rhinocéros sans l'avoir vu, d'après une description."
+      "Il a dessiné le rhinocéros sans l'avoir vu, d'après une description.",
+      "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer"
      ],
      [
       "Peintre flamand des paysans et de la tour de Babel",
       "Pieter Bruegel l'Ancien",
-      "Ses deux fils, Pieter et Jan, sont aussi devenus peintres."
+      "Ses deux fils, Pieter et Jan, sont aussi devenus peintres.",
+      "https://en.wikipedia.org/wiki/Pieter_Bruegel_the_Elder"
      ],
      [
       "Peintre néerlandais de monstres et de créatures fantastiques",
       "Jérôme Bosch",
-      "Il a passé sa vie à Bois-le-Duc, aux Pays-Bas actuels."
+      "Il a passé sa vie à Bois-le-Duc, aux Pays-Bas actuels.",
+      "https://en.wikipedia.org/wiki/Hieronymus_Bosch"
      ],
      [
       "Peintre florentin de Vénus sortant des eaux",
       "Sandro Botticelli",
-      "Son surnom, Botticelli, signifie « petit tonneau »."
+      "Son surnom, Botticelli, « petit tonneau », vient de celui de son frère Giovanni.",
+      "https://en.wikipedia.org/wiki/Sandro_Botticelli"
      ],
      [
       "Peintre allemand des portraits de la cour d'Henri VIII",
       "Hans Holbein le Jeune",
-      "Son portrait d'Henri VIII a fixé l'image du roi."
+      "Son portrait d'Henri VIII a fixé l'image du roi.",
+      "https://en.wikipedia.org/wiki/Hans_Holbein_the_Younger"
      ],
      [
       "Maître flamand de la peinture à l'huile, auteur de L'Agneau mystique",
       "Jan van Eyck",
-      "Ce grand retable se trouve dans la cathédrale de Gand."
+      "Ce grand retable se trouve dans la cathédrale de Gand.",
+      "https://en.wikipedia.org/wiki/List_of_works_by_Jan_van_Eyck"
      ],
      [
       "Moine peintre des fresques du couvent San Marco, à Florence",
       "Fra Angelico",
-      "Il a été béatifié en 1982."
+      "Il a été béatifié en 1982.",
+      "https://en.wikipedia.org/wiki/Fra_Angelico"
      ],
      [
       "Peintre de Padoue d'un Christ mort vu depuis les pieds",
       "Andrea Mantegna",
-      "Ce raccourci saisissant montre sa maîtrise de la perspective."
+      "Ce raccourci saisissant montre sa maîtrise de la perspective.",
+      "https://en.wikipedia.org/wiki/Lamentation_of_Christ_(Mantegna"
      ],
      [
       "Peintre vénitien de La Tempête, mort jeune de la peste",
       "Giorgione",
-      "On ne lui attribue avec certitude qu'une poignée de tableaux."
+      "On ne lui attribue avec certitude qu'une poignée de tableaux.",
+      "https://en.wikipedia.org/wiki/Giorgione"
      ],
      [
       "Peintre allemand de Wittemberg, ami de Luther",
       "Lucas Cranach l'Ancien",
-      "Il a peint de nombreux portraits du réformateur."
+      "Il a peint de nombreux portraits du réformateur.",
+      "https://en.wikipedia.org/wiki/Lucas_Cranach_the_Elder"
      ],
      [
       "Pionnier florentin de la perspective, auteur de La Trinité",
       "Masaccio",
-      "Il est mort vers 26 ans, après avoir révolutionné la peinture."
+      "Il est mort vers 26 ans, après avoir révolutionné la peinture.",
+      "https://en.wikipedia.org/wiki/Masaccio"
      ],
      [
-      "Peintre vénitien des immenses Noces de Cana",
+      "Peintre vénitien des immenses Noces de Cana du Louvre",
       "Véronèse",
-      "C'est le plus grand tableau du Louvre, près de 70 m²."
+      "La toile, au Louvre, mesure près de 7 m sur 10 m.",
+      "https://en.wikipedia.org/wiki/Paolo_Veronese"
      ],
      [
       "Peintre vénitien surnommé le petit teinturier",
       "Le Tintoret",
-      "Son père était teinturier, d'où son surnom."
+      "Son père était teinturier, d'où son surnom.",
+      "https://en.wikipedia.org/wiki/Tintoretto"
      ]
     ]
    }
@@ -6374,7 +6792,8 @@
      "La chevalerie",
      "L'art préhistorique"
     ],
-    "explication": "Les artistes redécouvrent l'art grec et romain."
+    "explication": "Les artistes redécouvrent l'art grec et romain.",
+    "source": "https://en.wikipedia.org/wiki/Renaissance"
    },
    {
     "enonce": "Sur quoi peint-on une fresque ?",
@@ -6384,7 +6803,8 @@
      "Sur du papier",
      "Sur du verre"
     ],
-    "explication": "Fresco veut dire « frais » en italien ; la couleur sèche avec l'enduit."
+    "explication": "Fresco veut dire « frais » en italien ; la couleur sèche avec l'enduit.",
+    "source": "https://en.wikipedia.org/wiki/Fresco_painting"
    },
    {
     "enonce": "Comment s'appelle la technique de Léonard de Vinci aux contours flous et vaporeux ?",
@@ -6394,7 +6814,8 @@
      "Le collage",
      "La mosaïque"
     ],
-    "explication": "On la voit dans le sourire de La Joconde."
+    "explication": "On la voit dans le sourire de La Joconde.",
+    "source": "https://en.wikipedia.org/wiki/Italian_Renaissance_painting"
    },
    {
     "enonce": "Quel roi de France a invité Léonard de Vinci près d'Amboise ?",
@@ -6404,7 +6825,8 @@
      "Henri IV",
      "Louis XI"
     ],
-    "explication": "Léonard y a passé les trois dernières années de sa vie."
+    "explication": "Léonard y a passé les trois dernières années de sa vie.",
+    "source": "https://en.wikipedia.org/wiki/Personal_life_of_Leonardo_da_Vinci"
    },
    {
     "enonce": "Qui a écrit les Vies des meilleurs peintres, sculpteurs et architectes ?",
@@ -6414,7 +6836,8 @@
      "Dante",
      "Pétrarque"
     ],
-    "explication": "Il y emploie le mot rinascita, « renaissance »."
+    "explication": "Il y emploie le mot rinascita, « renaissance ».",
+    "source": "https://en.wikipedia.org/wiki/Renaissance"
    },
    {
     "enonce": "Quel architecte a construit le dôme de la cathédrale de Florence ?",
@@ -6424,7 +6847,8 @@
      "Le Bernin",
      "Raphaël"
     ],
-    "explication": "Achevé en 1436, c'est encore le plus grand dôme en briques du monde."
+    "explication": "Achevé en 1436, c'est encore le plus grand dôme en maçonnerie jamais construit.",
+    "source": "https://en.wikipedia.org/wiki/Florence_Cathedral"
    },
    {
     "enonce": "Quelle invention de Gutenberg a aidé la Renaissance à se répandre ?",
@@ -6434,7 +6858,8 @@
      "Le télescope",
      "La machine à vapeur"
     ],
-    "explication": "Vers 1450, il met au point l'imprimerie à caractères mobiles."
+    "explication": "Au milieu du XVe siècle, à Mayence, il met au point l'imprimerie à caractères mobiles.",
+    "source": "https://en.wikipedia.org/wiki/Renaissance"
    },
    {
     "enonce": "Quelle ville était la grande rivale artistique de Florence, sur une lagune ?",
@@ -6444,7 +6869,8 @@
      "Gênes",
      "Naples"
     ],
-    "explication": "Titien, Giorgione et Véronèse y ont travaillé."
+    "explication": "Titien, Giorgione et Véronèse y ont travaillé.",
+    "source": "https://en.wikipedia.org/wiki/Italian_Renaissance_painting"
    },
    {
     "enonce": "Combien de temps Michel-Ange a-t-il mis pour peindre le plafond de la Sixtine ?",
@@ -6465,7 +6891,8 @@
      "Pie XII",
      "Grégoire Ier"
     ],
-    "explication": "Ce pape a aussi lancé la reconstruction de la basilique Saint-Pierre."
+    "explication": "Ce pape a aussi lancé la reconstruction de la basilique Saint-Pierre.",
+    "source": "https://en.wikipedia.org/wiki/Pope_Julius_II"
    }
   ]
  },
@@ -6480,37 +6907,44 @@
      [
       "donne la lumière rouge orangé des enseignes",
       "Néon",
-      "Les autres couleurs des « néons » viennent d'autres gaz ou de poudres."
+      "Les autres couleurs des « néons » viennent d'autres gaz ou de poudres.",
+      "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Neon_light.html"
      ],
      [
       "gonfle les ballons qui s'envolent",
       "Hélium",
-      "Plus léger que l'air, il ne brûle pas, contrairement à l'hydrogène."
+      "Plus léger que l'air, il ne brûle pas, contrairement à l'hydrogène.",
+      "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/h/Helium.htm"
      ],
      [
       "protège le métal pendant les soudures",
       "Argon",
-      "C'est le gaz noble le plus abondant de l'air."
+      "C'est le gaz noble le plus abondant de l'air.",
+      "https://wiki.riteme.site/wiki/Aerogen"
      ],
      [
       "s'accumule dans les caves des régions granitiques",
       "Radon",
-      "Radioactif, c'est la deuxième cause de cancer du poumon après le tabac."
+      "Radioactif, c'est la deuxième cause de cancer du poumon après le tabac.",
+      "https://bretagne.ars.sante.fr/media/114970/download"
      ],
      [
       "propulse des sondes spatiales à moteur ionique",
       "Xénon",
-      "Il sert aussi d'anesthésiant en médecine."
+      "Il sert aussi d'anesthésiant en médecine.",
+      "https://wiki.riteme.site/wiki/Aerogen"
      ],
      [
       "a servi à définir le mètre de 1960 à 1983",
       "Krypton",
-      "Le mètre était défini à partir d'une raie orange de sa lumière."
+      "Le mètre était défini à partir de la longueur d'onde d'une raie de sa lumière.",
+      "https://en.wikipedia.org/wiki/Krypton"
      ],
      [
       "est le plus lourd, créé en laboratoire à Doubna",
       "Oganesson",
-      "Seuls quelques atomes en ont été produits."
+      "Seuls quelques atomes en ont été produits.",
+      "https://en.wikipedia.org/wiki/Timeline_of_chemical_element_discoveries"
      ]
     ]
    }
@@ -6524,7 +6958,8 @@
      "Des nobles les ont découverts",
      "Ils brillent la nuit"
     ],
-    "explication": "Leur couche externe d'électrons est complète, ce qui les rend très stables."
+    "explication": "Leur couche externe d'électrons est complète, ce qui les rend très stables.",
+    "source": "https://wiki.riteme.site/wiki/Aerogen"
    },
    {
     "enonce": "Dans quelle colonne du tableau périodique sont les gaz nobles ?",
@@ -6534,7 +6969,8 @@
      "La 2e",
      "La 13e"
     ],
-    "explication": "On les appelle aussi le groupe 18."
+    "explication": "On les appelle aussi le groupe 18.",
+    "source": "https://wiki.riteme.site/wiki/Aerogen"
    },
    {
     "enonce": "Combien y a-t-il de gaz nobles ?",
@@ -6544,7 +6980,8 @@
      "5",
      "10"
     ],
-    "explication": "Hélium, néon, argon, krypton, xénon, radon et oganesson."
+    "explication": "Hélium, néon, argon, krypton, xénon, radon et oganesson.",
+    "source": "https://www.britannica.com/science/noble-gas"
    },
    {
     "enonce": "Quel est le gaz noble le plus léger ?",
@@ -6554,7 +6991,8 @@
      "L'argon",
      "Le radon"
     ],
-    "explication": "C'est aussi le deuxième élément le plus abondant de l'Univers."
+    "explication": "C'est aussi le deuxième élément le plus abondant de l'Univers.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/h/Helium.htm"
    },
    {
     "enonce": "Quel gaz noble est le plus abondant dans l'air ?",
@@ -6564,7 +7002,8 @@
      "L'hélium",
      "Le krypton"
     ],
-    "explication": "Il représente près de 1 % de l'air, bien plus que le CO₂."
+    "explication": "Il représente près de 1 % de l'air, bien plus que le CO₂.",
+    "source": "https://scied.ucar.edu/learning-zone/air-quality/whats-in-the-air"
    },
    {
     "enonce": "Quel chimiste écossais a découvert plusieurs gaz nobles à la fin du XIXe siècle ?",
@@ -6574,7 +7013,8 @@
      "Dmitri Mendeleïev",
      "Marie Curie"
     ],
-    "explication": "Il a reçu le prix Nobel de chimie en 1904."
+    "explication": "Il a reçu le prix Nobel de chimie en 1904.",
+    "source": "https://en.wikipedia.org/wiki/Krypton"
    },
    {
     "enonce": "À quelle température l'hélium devient-il liquide ?",
@@ -6584,7 +7024,8 @@
      "−78 °C",
      "−196 °C"
     ],
-    "explication": "Il refroidit les aimants des appareils d'IRM."
+    "explication": "Il refroidit les aimants des appareils d'IRM.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/h/Helium.htm"
    },
    {
     "enonce": "Pourquoi la voix devient-elle aiguë après avoir inspiré de l'hélium ?",
@@ -6594,7 +7035,8 @@
      "L'hélium est électrique",
      "L'hélium est froid"
     ],
-    "explication": "C'est dangereux : on manque alors d'oxygène."
+    "explication": "C'est dangereux : on manque alors d'oxygène.",
+    "source": "https://wikidoc.org/index.php/Helium"
    },
    {
     "enonce": "Quel gaz a remplacé l'hydrogène dans les dirigeables après la catastrophe de l'Hindenburg ?",
@@ -6604,7 +7046,8 @@
      "L'argon",
      "Le radon"
     ],
-    "explication": "L'Hindenburg, gonflé à l'hydrogène, a brûlé en 1937."
+    "explication": "L'Hindenburg, gonflé à l'hydrogène, a brûlé en 1937.",
+    "source": "https://wiki.riteme.site/wiki/Aerogen"
    },
    {
     "enonce": "D'où vient l'hélium que l'on extrait sur Terre ?",
@@ -6614,7 +7057,8 @@
      "Des océans",
      "De la Lune"
     ],
-    "explication": "Il est produit lentement par la radioactivité des roches."
+    "explication": "Il est produit lentement par la radioactivité des roches.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/h/Helium.htm"
    },
    {
     "enonce": "Quel autre nom donne-t-on aux gaz nobles ?",
@@ -6624,7 +7068,8 @@
      "Les halogènes",
      "Les gaz alcalins"
     ],
-    "explication": "Ils sont en effet rares dans l'air, à part l'argon."
+    "explication": "Ils sont en effet rares dans l'air, à part l'argon.",
+    "source": "https://wiki.riteme.site/wiki/Aerogen"
    },
    {
     "enonce": "Le xénon peut-il former des composés chimiques ?",
@@ -6634,7 +7079,8 @@
      "Seulement dans les étoiles",
      "Seulement à l'état liquide"
     ],
-    "explication": "Neil Bartlett a créé le premier composé d'un gaz noble en 1962."
+    "explication": "Neil Bartlett a créé le premier composé d'un gaz noble en 1962.",
+    "source": "https://wiki.riteme.site/wiki/Aerogen"
    },
    {
     "enonce": "Pourquoi met-on de l'argon dans les ampoules à filament ?",
@@ -6644,7 +7090,8 @@
      "Pour alourdir l'ampoule",
      "Pour faire baisser le prix"
     ],
-    "explication": "Sans oxygène autour de lui, le filament chaud ne s'oxyde pas."
+    "explication": "Inerte, l'argon ne réagit pas avec le filament, même très chaud.",
+    "source": "https://www.newworldencyclopedia.org/entry/Argon"
    },
    {
     "enonce": "Que signifie « argon » en grec ?",
@@ -6654,7 +7101,8 @@
      "Caché",
      "Nouveau"
     ],
-    "explication": "Il ne réagit avec presque rien."
+    "explication": "Il ne réagit avec presque rien.",
+    "source": "https://wiki.riteme.site/wiki/Aerogen"
    },
    {
     "enonce": "Que signifie « krypton » en grec ?",
@@ -6664,7 +7112,8 @@
      "Étranger",
      "Nouveau"
     ],
-    "explication": "Ramsay l'a trouvé caché dans de l'air liquéfié, en 1898."
+    "explication": "Ramsay l'a trouvé caché dans de l'air liquéfié, en 1898.",
+    "source": "https://en.wikipedia.org/wiki/Krypton"
    },
    {
     "enonce": "Que signifie « xénon » en grec ?",
@@ -6674,7 +7123,8 @@
      "Nouveau",
      "Soleil"
     ],
-    "explication": "Ramsay et Travers l'ont découvert juste après le krypton."
+    "explication": "Ramsay et Travers l'ont découvert juste après le krypton.",
+    "source": "https://en.wikipedia.org/wiki/Xenon"
    },
    {
     "enonce": "Que signifie « néon » en grec ?",
@@ -6684,7 +7134,8 @@
      "Étranger",
      "Lumière"
     ],
-    "explication": "Il a été découvert en 1898, la même année que le krypton et le xénon."
+    "explication": "Il a été découvert en 1898, la même année que le krypton et le xénon.",
+    "source": "https://en.wikipedia.org/wiki/Timeline_of_chemical_element_discoveries"
    },
    {
     "enonce": "D'où vient le nom « hélium » ?",
@@ -6694,7 +7145,8 @@
      "D'un savant nommé Hélius",
      "Du mot « hélice »"
     ],
-    "explication": "Il a été repéré en 1868 dans la lumière du Soleil."
+    "explication": "Il a été repéré en 1868 dans la lumière du Soleil.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/h/Helium.htm"
    },
    {
     "enonce": "Quel gaz noble produit la lumière des flashs photographiques ?",
@@ -6704,17 +7156,19 @@
      "L'argon",
      "Le radon"
     ],
-    "explication": "Il donne une lumière blanche très intense."
+    "explication": "On l'emploie dans les flashs photo et les stroboscopes.",
+    "source": "https://en.wikipedia.org/wiki/Xenon"
    },
    {
-    "enonce": "Quel mélange de gaz nobles donne le rayon rouge d'un laser courant ?",
+    "enonce": "Quel mélange de gaz nobles fait fonctionner un laser courant ?",
     "bonne": "Hélium et néon",
     "faux": [
      "Radon et xénon",
      "Argon et oganesson",
      "Krypton et radon"
     ],
-    "explication": "Le laser hélium-néon a longtemps servi dans les lecteurs de codes-barres."
+    "explication": "Le milieu actif du laser hélium-néon est un mélange de ces deux gaz.",
+    "source": "https://wikidoc.org/index.php/Helium"
    },
    {
     "enonce": "Les gaz nobles ont-ils une odeur ?",
@@ -6724,7 +7178,8 @@
      "Oui, de citron",
      "Seulement le néon"
     ],
-    "explication": "Ils sont aussi incolores."
+    "explication": "Ils sont aussi incolores.",
+    "source": "https://wiki.riteme.site/wiki/Aerogen"
    },
    {
     "enonce": "Où trouve-t-on de l'hélium en énorme quantité ?",
@@ -6734,7 +7189,8 @@
      "Dans les arbres",
      "Dans l'eau de mer"
     ],
-    "explication": "Le Soleil fusionne l'hydrogène en hélium."
+    "explication": "Le Soleil fusionne l'hydrogène en hélium.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/h/Helium.htm"
    },
    {
     "enonce": "Quelle couleur donne l'argon dans un tube lumineux ?",
@@ -6744,7 +7200,8 @@
      "Jaune",
      "Vert"
     ],
-    "explication": "Le néon, lui, donne du rouge orangé."
+    "explication": "Le néon, lui, donne du rouge orangé.",
+    "source": "https://wiki.riteme.site/wiki/Aerogen"
    },
    {
     "enonce": "Quel gaz noble mélange-t-on à l'oxygène pour les plongées très profondes ?",
@@ -6754,7 +7211,8 @@
      "Le krypton",
      "Le xénon"
     ],
-    "explication": "Il évite l'ivresse des profondeurs due à l'azote."
+    "explication": "Il évite l'ivresse des profondeurs due à l'azote.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/h/Helium.htm"
    },
    {
     "enonce": "Lequel de ces gaz est le plus rare dans l'air ?",
@@ -6764,7 +7222,8 @@
      "Le néon",
      "L'hélium"
     ],
-    "explication": "On compte environ un atome de xénon pour 11 millions de molécules d'air."
+    "explication": "On compte environ un atome de xénon pour 11 millions de molécules d'air.",
+    "source": "https://en.wikipedia.org/wiki/Xenon"
    },
    {
     "enonce": "Quel gaz noble remplit souvent les doubles vitrages ?",
@@ -6774,7 +7233,8 @@
      "L'hélium",
      "L'oganesson"
     ],
-    "explication": "Moins conducteur que l'air, il isole mieux."
+    "explication": "Il améliore l'isolation thermique des fenêtres.",
+    "source": "https://www.newworldencyclopedia.org/entry/Argon"
    },
    {
     "enonce": "Quel gaz noble ne gèle pas, même près du zéro absolu, à pression normale ?",
@@ -6784,7 +7244,8 @@
      "Le radon",
      "L'argon"
     ],
-    "explication": "Il ne devient solide que sous forte pression."
+    "explication": "Il ne devient solide que sous forte pression.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/h/Helium.htm"
    },
    {
     "enonce": "Quel liquide très froid devient superfluide, capable de grimper le long des parois ?",
@@ -6794,7 +7255,8 @@
      "L'argon liquide",
      "Le krypton liquide"
     ],
-    "explication": "En dessous d'environ −271 °C, il coule sans aucun frottement."
+    "explication": "En dessous d'environ −271 °C, il coule sans aucun frottement.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/h/Helium.htm"
    },
    {
     "enonce": "Quel physicien a découvert l'argon avec William Ramsay en 1894 ?",
@@ -6804,7 +7266,8 @@
      "Ernest Rutherford",
      "Niels Bohr"
     ],
-    "explication": "Ils l'ont trouvé en remarquant que l'azote tiré de l'air était un peu trop lourd."
+    "explication": "Ils l'ont trouvé en remarquant que l'azote tiré de l'air était un peu trop lourd.",
+    "source": "https://en.wikipedia.org/wiki/Timeline_of_chemical_element_discoveries"
    }
   ]
  },

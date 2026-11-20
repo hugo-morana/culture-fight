@@ -1,0 +1,356 @@
+{
+ "98": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/femur",
+  "note": "Plus long, et plus solide (résistance aux contraintes mécaniques)."
+ },
+ "99": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Aucune source consultée ne décrit le tibia comme sous-cutané à l'avant de la jambe (budget de recherches épuisé)."
+ },
+ "100": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/sante/definitions/medecine-radius-8256/",
+  "note": "Radius « du côté du pouce » ; l'ulna du côté du petit doigt, anciennement cubitus."
+ },
+ "101": {
+  "statut": "vérifié",
+  "source": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Ulnar_nerve",
+  "note": "Nerf ulnaire coincé entre l'os et la peau à l'arrière de l'épicondyle médial de l'humérus (« funny bone »)."
+ },
+ "102": {
+  "statut": "corrigé",
+  "source": "https://www.kenhub.com/fr/library/anatomie/muscle-quadriceps-femoral",
+  "note": "Non confirmé : « enfermée dans le tendon ». Confirmé : le tendon commun du quadriceps s'insère sur la base de la patella.",
+  "correction": {
+   "contexte": "Aussi appelée patella, elle reçoit le tendon du quadriceps."
+  }
+ },
+ "103": {
+  "statut": "corrigé",
+  "source": "https://www.kenhub.com/fr/library/anatomie/scapula-omoplate",
+  "note": "Faux : la scapula s'articule avec l'humérus ET la clavicule ; elle est maintenue au thorax surtout par des muscles.",
+  "correction": {
+   "contexte": "Son nom savant est la scapula ; elle s'articule avec l'humérus et la clavicule, et des muscles la tiennent au thorax."
+  }
+ },
+ "104": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/squelette-humain",
+  "note": "Les 7 paires de vraies côtes s'articulent au sternum par un cartilage ; les fausses côtes par un cartilage commun."
+ },
+ "105": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/sante/definitions/medecine-mandibule-2120/",
+  "note": "« unique os mobile du crâne humain ». Ambiguïté mâchoire/crâne/oreille déjà gérée par RECOUVREMENTS dans fiches.py."
+ },
+ "106": {
+  "statut": "vérifié",
+  "source": "https://fr.vikidia.org/wiki/Squelette_humain",
+  "note": "Vikidia : les plus petits os, dans l'oreille, mesurent 3 mm ; techno-science : l'étrier est le plus petit os."
+ },
+ "107": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/squelette-humain",
+  "note": "« Chaque doigt possède trois phalanges, sauf le pouce qui n'en a que deux. »"
+ },
+ "108": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/squelette-humain",
+  "note": "« Le calcanéum est l'os le plus volumineux du tarse » ; le tendon calcanéen (d'Achille) se fixe sur la tubérosité du calcanéus (https://www.techno-science.net/fr/definitions/muscle-triceps-sural)."
+ },
+ "109": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/squelette-humain",
+  "note": "7 cervicales, 12 dorsales, 5 lombaires, 5 sacrées soudées, 4-5 coccygiennes : environ 33."
+ },
+ "110": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/squelette-humain",
+  "note": "« Les pariétaux sont situés de chaque côté. » Ambiguïté crâne déjà gérée par RECOUVREMENTS (fiches.py)."
+ },
+ "123": {
+  "statut": "vérifié",
+  "source": "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf",
+  "note": "Fléchisseur de l'avant-bras sur le bras ; « formé de deux portions (ou chefs) »."
+ },
+ "124": {
+  "statut": "vérifié",
+  "source": "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf",
+  "note": "« formé de trois portions » ; étend l'avant-bras sur le bras."
+ },
+ "125": {
+  "statut": "vérifié",
+  "source": "https://www.kenhub.com/fr/library/anatomie/muscle-quadriceps-femoral",
+  "note": "Quatre chefs (droit fémoral, trois vastes), extenseur le plus puissant du genou."
+ },
+ "126": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Flexion du genou et fréquence des déchirures chez les sprinteurs non trouvées dans les sources consultées (budget épuisé)."
+ },
+ "127": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Étymologie (delta) non trouvée dans les sources consultées."
+ },
+ "128": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Rôle d'adduction du grand pectoral non trouvé dans les sources consultées."
+ },
+ "129": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Intersections tendineuses du grand droit non trouvées dans les sources consultées."
+ },
+ "130": {
+  "statut": "corrigé",
+  "source": "https://www.livescience.com/32823-strongest-human-muscles.html",
+  "note": "Confirmé : plus gros muscle (en masse), sert surtout à étendre la hanche. Non confirmé : « nous tient debout et fait monter les escaliers ».",
+  "correction": {
+   "contexte": "C'est le plus gros muscle du corps ; il sert surtout à étendre la hanche."
+  }
+ },
+ "131": {
+  "statut": "corrigé",
+  "source": "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf",
+  "note": "Hoquet non confirmé par les sources consultées ; afm-téléthon : « muscle respiratoire principal ».",
+  "correction": {
+   "contexte": "C'est le principal muscle de la respiration : en se contractant, il fait entrer l'air dans les poumons."
+  }
+ },
+ "132": {
+  "statut": "vérifié",
+  "source": "https://www.livescience.com/32823-strongest-human-muscles.html",
+  "note": "« the strongest muscle by weight is the masseter »."
+ },
+ "133": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Étymologie et rôle de haussement des épaules non trouvés dans les sources consultées."
+ },
+ "134": {
+  "statut": "corrigé",
+  "source": "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf",
+  "note": "« sans qu'on ait à le commander » non confirmé explicitement pour le cœur ; afm : myocarde = muscle creux qui propulse le sang ; Live Science : il se contracte en continu.",
+  "correction": {
+   "contexte": "Ce muscle creux se contracte sans arrêt toute la vie pour propulser le sang."
+  }
+ },
+ "135": {
+  "statut": "vérifié",
+  "source": "https://www.kenhub.com/fr/library/anatomie/muscles-de-la-jambe",
+  "note": "Gastrocnémien + soléaire = triceps sural ; tendon calcanéen (d'Achille)."
+ },
+ "684": {
+  "statut": "corrigé",
+  "source": "https://www.kenhub.com/fr/library/anatomie/scapula-omoplate",
+  "note": "Faux : la scapula s'articule avec l'humérus ET la clavicule ; elle est maintenue au thorax surtout par des muscles.",
+  "correction": {
+   "contexte": "Elle s'articule avec l'humérus et la clavicule ; des muscles la tiennent au thorax."
+  }
+ },
+ "685": {
+  "statut": "corrigé",
+  "source": "https://www.kenhub.com/fr/library/anatomie/muscle-quadriceps-femoral",
+  "note": "Non confirmé : « enfermée dans le tendon ». Confirmé : le tendon commun du quadriceps s'insère sur la base de la patella.",
+  "correction": {
+   "contexte": "Le tendon du quadriceps s'attache sur elle."
+  }
+ },
+ "686": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/sante/definitions/medecine-ulna-8254/",
+  "note": "« l'ulna se trouve du côté du petit doigt » ; « anciennement appelé cubitus »."
+ },
+ "687": {
+  "statut": "vérifié",
+  "source": "https://www.kenhub.com/fr/library/anatomie/os-coxal",
+  "note": "Ilion, ischion et pubis fusionnent à la puberté."
+ },
+ "688": {
+  "statut": "corrigé",
+  "source": "https://www.futura-sciences.com/sante/definitions/corps-humain-muscle-zygomatique-15034/",
+  "note": "Participation au bord de l'orbite non confirmée par les sources consultées ; remplacé par des faits vérifiés (autres noms, attache du grand zygomatique).",
+  "correction": {
+   "contexte": "On l'appelle aussi os malaire ; le muscle du sourire, le grand zygomatique, s'y attache."
+  }
+ },
+ "689": {
+  "statut": "corrigé",
+  "source": "https://www.kenhub.com/fr/library/anatomie/oreille-moyenne",
+  "note": "Le nom savant (nomenclature actuelle) est « malléus », « marteau » étant le nom courant. Le manche du malléus est relié au tympan.",
+  "correction": {
+   "reponse": "Malléus"
+  }
+ },
+ "690": {
+  "statut": "corrigé",
+  "source": "https://www.kenhub.com/fr/library/anatomie/oreille-moyenne",
+  "note": "Le nom savant est « incus », « enclume » étant le nom courant ; l'étymologie (latin) n'a pas été sourcée, d'où un contexte reformulé.",
+  "correction": {
+   "reponse": "Incus",
+   "contexte": "C'est l'osselet central de la chaîne, en forme d'enclume."
+  }
+ },
+ "691": {
+  "statut": "vérifié",
+  "source": "https://www.kenhub.com/fr/library/anatomie/os-frontal",
+  "note": "Chez l'enfant, les deux moitiés sont séparées par la suture métopique, qui fusionne dans les premières années."
+ },
+ "692": {
+  "statut": "vérifié",
+  "source": "https://www.kenhub.com/fr/library/anatomie/foramen-magnum-fr",
+  "note": "Le foramen magnum, dans l'os occipital, laisse passer la moelle épinière."
+ },
+ "693": {
+  "statut": "vérifié",
+  "source": "https://worddisk.com/wiki/Atlas_(anatomy)",
+  "note": "« named for Atlas of Greek mythology » ; il soutient la tête."
+ },
+ "694": {
+  "statut": "vérifié",
+  "source": "https://worddisk.com/wiki/Atlas_(anatomy)",
+  "note": "« The dens acts as a pivot that allows the atlas and attached head to rotate on the axis »."
+ },
+ "695": {
+  "statut": "vérifié",
+  "source": "https://www.kenhub.com/fr/library/anatomie/fibula-perone",
+  "note": "« Dans l'ancienne nomenclature, la fibula est connue sous le nom de péroné »."
+ },
+ "696": {
+  "statut": "vérifié",
+  "source": "https://wikipedia.classicistranieri.com/en/articles/h/y/o/Hyoid_bone.html",
+  "note": "« the only bone in the human skeleton not articulated to any other bone » ; forme en U (kenhub)."
+ },
+ "697": {
+  "statut": "corrigé",
+  "source": "https://www.techno-science.net/fr/definitions/femur",
+  "note": "Étymologie latine non confirmée par les sources consultées : retirée.",
+  "correction": {
+   "contexte": "Fémur est à la fois son nom courant et son nom savant ; c'est l'os le plus long du corps."
+  }
+ },
+ "698": {
+  "statut": "vérifié",
+  "source": "https://www.healthline.com/health/how-many-bones-does-a-baby-have",
+  "note": "« born with around 300 bones » ; 206 chez l'adulte par soudure. (techno-science dit environ 270 : « Environ 300 » reste la meilleure option.)"
+ },
+ "699": {
+  "statut": "corrigé",
+  "source": "https://www.healthline.com/health/how-many-bones-does-a-baby-have",
+  "note": "Chiffre « des milliards par jour » non confirmé ; Healthline : « Most red and white blood cells in the body are created in bone marrow ».",
+  "correction": {
+   "contexte": "Elle fabrique la plupart des globules rouges et des globules blancs."
+  }
+ },
+ "721": {
+  "statut": "corrigé",
+  "source": "https://www.kenhub.com/fr/library/anatomie/muscles-du-visage",
+  "note": "Fréquence de 15 clignements par minute non trouvée ; kenhub : la portion palpébrale ferme doucement les paupières lors du clignement.",
+  "correction": {
+   "contexte": "Il entoure l'orbite et ferme doucement les paupières à chaque clignement."
+  }
+ },
+ "722": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/sante/definitions/corps-humain-muscle-zygomatique-15034/",
+  "note": "« Les zygomatiques, les muscles du sourire » ; le grand zygomatique tire l'angle de la bouche en haut et en dehors."
+ },
+ "723": {
+  "statut": "corrigé",
+  "source": "https://www.kenhub.com/fr/library/anatomie/muscles-de-la-jambe",
+  "note": "Confirmé : dorsiflexion, loge antérieure (kenhub) ; « jambier antérieur » relève la pointe du pied (afm-téléthon). Non confirmé : la marche sur les talons.",
+  "correction": {
+   "contexte": "Situé à l'avant de la jambe, on l'appelle aussi jambier antérieur."
+  }
+ },
+ "724": {
+  "statut": "vérifié",
+  "source": "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf",
+  "note": "« Le triceps sural (mollet) est le principal muscle qui permet de monter sur la pointe des pieds » ; tendon calcanéen fixé sur le calcanéus (techno-science triceps sural)."
+ },
+ "725": {
+  "statut": "corrigé",
+  "source": "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf",
+  "note": "Réponse confirmée (afm : les sterno-cléido-mastoïdiens contribuent aux mouvements latéraux de la tête). Attaches (sternum, clavicule, mastoïde) non confirmées par les sources consultées.",
+  "correction": {
+   "contexte": "Il contribue aux mouvements latéraux de la tête, de chaque côté du cou."
+  }
+ },
+ "726": {
+  "statut": "corrigé",
+  "source": "https://www.techno-science.net/fr/definitions/muscle-triceps-sural",
+  "note": "Ambiguïté : le gastrocnémien (dans le triceps sural, autre réponse de la relation) fléchit aussi le genou selon techno-science. Préciser la question. Insertion des ischio-jambiers sur la tubérosité ischiatique, qui porte le poids du corps assis, confirmée par https://www.kenhub.com/fr/library/anatomie/os-coxal (sauf chef court du biceps fémoral : « pour la plupart »). Leur action de flexion du genou n'a pas été trouvée explicitement.",
+  "correction": {
+   "fait": "Quel muscle permet de plier le genou, à l'arrière de la cuisse ?",
+   "contexte": "Ils partent pour la plupart de l'ischion, l'os du bassin sur lequel on s'assoit."
+  }
+ },
+ "727": {
+  "statut": "vérifié",
+  "source": "https://www.kenhub.com/fr/library/anatomie/muscle-quadriceps-femoral",
+  "note": "Extension de la jambe au genou ; muscle de la cuisse (tendon sur la patella)."
+ },
+ "728": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Abduction et forme arrondie de l'épaule non trouvées dans les sources consultées."
+ },
+ "729": {
+  "statut": "corrigé",
+  "source": "https://www.livescience.com/32823-strongest-human-muscles.html",
+  "note": "« On le sent durcir sur la joue » non sourcé ; remplacé par un fait vérifié (Live Science). Masséter = muscle de la mastication (afm).",
+  "correction": {
+   "contexte": "Rapporté à son poids, c'est le muscle le plus fort du corps."
+  }
+ },
+ "730": {
+  "statut": "corrigé",
+  "source": "https://www.kenhub.com/fr/library/anatomie/membre-superieur-anatomie",
+  "note": "« Deux tiers du volume du bras » non trouvé. Kenhub : le compartiment postérieur du bras ne contient que le triceps ; afm : trois portions, extension de l'avant-bras.",
+  "correction": {
+   "contexte": "C'est le seul muscle de l'arrière du bras ; il a trois chefs."
+  }
+ },
+ "731": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Rôle dans la traction et « plus large muscle du dos » non trouvés ; afm confirme seulement que les grands dorsaux occupent le milieu du dos."
+ },
+ "732": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Flexion du tronc et insertions du grand droit non trouvées dans les sources consultées."
+ },
+ "733": {
+  "statut": "corrigé",
+  "source": "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf",
+  "note": "Usage par les cavaliers non sourcé ; afm-téléthon : les adducteurs permettent de rapprocher les genoux.",
+  "correction": {
+   "contexte": "Ce groupe de muscles rapproche les genoux l'un de l'autre."
+  }
+ },
+ "734": {
+  "statut": "vérifié",
+  "source": "https://www.kenhub.com/fr/library/anatomie/muscles-du-visage",
+  "note": "Le muscle occipitofrontal plisse le front et élève les sourcils, « créant une expression de surprise »."
+ },
+ "735": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Stapedius_muscle",
+  "note": "« The stapedius is the smallest skeletal muscle in the human body » ; tire sur le col de l'étrier ; réflexe acoustique."
+ },
+ "736": {
+  "statut": "vérifié",
+  "source": "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf",
+  "note": "Trois sortes de tissu musculaire ; contraction des muscles lisses (tube digestif) indépendante de la volonté."
+ },
+ "737": {
+  "statut": "vérifié",
+  "source": "https://www.afm-telethon.fr/sites/default/files/le_systeme_musculaire_squelettique_0309.pdf",
+  "note": "« La contraction musculaire produit ... aussi de la chaleur » ; le frisson produit de la chaleur quand il fait froid."
+ }
+}

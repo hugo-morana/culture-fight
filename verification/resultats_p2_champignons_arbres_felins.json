@@ -1,0 +1,349 @@
+{
+ "31": {
+  "statut": "vérifié",
+  "source": "https://www.britannica.com/story/7-of-the-worlds-most-poisonous-mushrooms ; https://www.britannica.com/science/death-cap",
+  "note": "Britannica : responsable de la majorité des empoisonnements par champignons dans le monde ; amatoxines → insuffisance hépatique et rénale ; symptômes 6 à 12 h après ingestion."
+ },
+ "488": {
+  "statut": "vérifié",
+  "source": "https://www.britannica.com/science/death-cap",
+  "note": "Voile universel devenant la volve ; « sometimes may be identified only by fully digging up the mushroom »."
+ },
+ "484": {
+  "statut": "vérifié",
+  "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Mushroom",
+  "note": "Copie Wikipédia (Mushroom) : spores produites sur les lamelles sous le chapeau."
+ },
+ "485": {
+  "statut": "vérifié",
+  "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Mushroom",
+  "note": "« The stalk (also called the stipe, or stem) »."
+ },
+ "486": {
+  "statut": "vérifié",
+  "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Mushroom",
+  "note": "Spores produites sur les lamelles."
+ },
+ "487": {
+  "statut": "vérifié",
+  "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Mushroom",
+  "note": "Voile partiel couvrant les lamelles ; ses restes forment l'anneau."
+ },
+ "491": {
+  "statut": "vérifié",
+  "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Mushroom",
+  "note": "Hyménium tapissant les tubes des bolets ; pores sous le chapeau."
+ },
+ "490": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/definitions/champignon-rond-sorciere-21012/",
+  "note": "Le mycélium s'étend, rayon +5 à 40 cm par an, champignons en cercle."
+ },
+ "493": {
+  "statut": "vérifié",
+  "source": "https://startercultures.eu/top-5-most-popular-molds-used-for-fermentation",
+  "note": "Croûte blanche du camembert et du brie, formée pendant l'affinage."
+ },
+ "495": {
+  "statut": "vérifié",
+  "source": "https://davidmoore.org.uk/21st_Century_Guidebook_to_Fungi_PLATINUM/Ch17_25.htm",
+  "note": "Koji : soja + blé + Aspergillus oryzae ; le moromi fermente plusieurs mois (6 mois ou plus)."
+ },
+ "496": {
+  "statut": "vérifié",
+  "source": "https://startercultures.eu/top-5-most-popular-molds-used-for-fermentation",
+  "note": "Botrytis perce la peau, l'eau s'évapore, sucres concentrés ; Sauternes cité."
+ },
+ "492": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/definitions/zoologie-levure-12772/ ; https://cofalec.com/fr/questions-levure/",
+  "note": "Le CO2 produit fait lever la pâte."
+ },
+ "494": {
+  "statut": "vérifié",
+  "source": "https://cofalec.com/fr/questions-levure/",
+  "note": "La levure transforme les sucres en alcool et dioxyde de carbone. Malt non cité mais c'est la source de sucres de la bière."
+ },
+ "33": {
+  "statut": "vérifié",
+  "source": "https://www.france.fr/fr/article/truffe/",
+  "note": "Pousse sous terre ; renommée faite dans le Périgord ; cavage au chien, parfois remplacé par des cochons truffiers."
+ },
+ "508": {
+  "statut": "vérifié",
+  "source": "https://fauchon.com/en/mag/advice/difference-between-black-white-truffles ; https://www.france.fr/fr/article/truffe/",
+  "note": "Truffe d'Alba 5 000 à 7 000 €/kg (Fauchon) ; truffe blanche jusqu'à 4 500 €/kg contre 800-1 200 € pour la noire (france.fr)."
+ },
+ "34": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/maison/questions-reponses/jardinage-cepes-bolets-champignons-savez-vous-vraiment-differencier-23446/ ; https://www.vidal.fr/actualites/38418-cepes-et-bolets-gastronomiques-mais-parfois-toxiques.html",
+  "note": "Cèpes du genre bolet ; chapeau à tubes et pores ; chapeau brun, pied trapu."
+ },
+ "507": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/maison/questions-reponses/jardinage-cepes-bolets-champignons-savez-vous-vraiment-differencier-23446/ ; https://www.vapko.ch/phocadownload/public/FR/A-Z/confusions.pdf",
+  "note": "Toxique, pied jaune en haut et rouge en bas (Futura), réseau rouge, chair bleuissante (VAPKO)."
+ },
+ "35": {
+  "statut": "corrigé",
+  "source": "https://www.vapko.ch/phocadownload/public/FR/A-Z/confusions.pdf",
+  "note": "VAPKO : la fausse girolle (Hygrophoropsis aurantiaca) « possède des lamelles » ; « serrées » non confirmé.",
+  "correction": {
+   "contexte": "Attention à la fausse girolle, qui lui ressemble mais a de vraies lamelles."
+  }
+ },
+ "38": {
+  "statut": "corrigé",
+  "source": "https://wiki.riteme.site/wiki/Trompette_de_la_mort",
+  "note": "Copie Wikipédia : entonnoir noir, comestible de choix ; aucune source pour l'origine du nom (Toussaint), l'article n'avance qu'une hypothèse non sourcée différente.",
+  "correction": {
+   "contexte": "Malgré son aspect sombre, c'est un comestible de choix."
+  }
+ },
+ "36": {
+  "statut": "vérifié",
+  "source": "https://www.pariszigzag.fr/insolite/histoire-insolite-paris/champignons-paris/ ; https://www.lanutrition.fr/les-differentes-varietes-de-champignons-cultives",
+  "note": "XIXe siècle : culture dans des carrières au sud de Paris (Chambry) ; variété la plus cultivée au monde (le « plus vendu » non dit explicitement)."
+ },
+ "39": {
+  "statut": "corrigé",
+  "source": "https://www.linfodurable.fr/conso/pleurotes-sur-marc-de-cafe-quand-lagriculture-urbaine-recycle-les-dechets-de-la-ville-9699 ; https://www.vapko.ch/phocadownload/public/FR/A-Z/confusions.pdf",
+  "note": "Culture sur marc de café confirmée ; culture sur paille non confirmée par les sources consultées. Pousse sur le bois (VAPKO).",
+  "correction": {
+   "contexte": "On le cultive même sur du marc de café récupéré dans les cafés."
+  }
+ },
+ "505": {
+  "statut": "corrigé",
+  "source": "https://www.lanutrition.fr/les-differentes-varietes-de-champignons-cultives",
+  "note": "« L'un des plus consommés au monde » non trouvé tel quel ; la source dit : deuxième champignon le plus cultivé, originaire de Chine et du Japon.",
+  "correction": {
+   "contexte": "Originaire de Chine et du Japon, c'est le deuxième champignon le plus cultivé au monde."
+  }
+ },
+ "498": {
+  "statut": "vérifié",
+  "source": "https://scientificamerican.com/article/strange-but-true-largest-organism-is-fungus ; https://www.oregonencyclopedia.org/articles/humongous-fungus-armillaria-ostoyae/",
+  "note": "2 384 acres (965 ha), « nearly … 10 square kilometers », Blue Mountains, Oregon."
+ },
+ "499": {
+  "statut": "corrigé",
+  "source": "https://www.vidal.fr/actualites/38418-cepes-et-bolets-gastronomiques-mais-parfois-toxiques.html",
+  "note": "Vidal : le pharmacien est « un interlocuteur de première ligne » pour identifier les récoltes ; la gratuité n'est pas confirmée.",
+  "correction": {
+   "contexte": "En France, le pharmacien est un interlocuteur de première ligne pour identifier une cueillette."
+  }
+ },
+ "443": {
+  "statut": "corrigé",
+  "source": "https://www.techno-science.net/fr/definitions/chene-liege",
+  "note": "Le liège se lève tous les 9 à 15 ans selon les régions (pas 9 à 12) ; il se reforme (liège femelle).",
+  "correction": {
+   "contexte": "On lève son liège tous les 9 à 15 ans selon les régions, et il repousse."
+  }
+ },
+ "444": {
+  "statut": "corrigé",
+  "source": "https://www.techno-science.net/fr/definitions/erable-a-sucre ; https://www.alimentarium.org/fr/node/1281",
+  "note": "40 litres pour 1 litre de sirop confirmé, mais les deux sources précisent qu'on récolte l'eau d'érable, pas la sève. Le fait « sa sève donne le sirop » pourrait aussi devenir « son eau d'érable donne le sirop ».",
+  "correction": {
+   "contexte": "Il faut environ 40 litres d'eau d'érable pour un litre de sirop."
+  }
+ },
+ "446": {
+  "statut": "vérifié",
+  "source": "https://www.inverse.com/article/47833-hiroshima-gingko-trees-atomic-bomb",
+  "note": "Ginkgos survivants d'Hiroshima (environ 170 encore vivants) ; « 200-million-year history » ; « living fossils »."
+ },
+ "531": {
+  "statut": "vérifié",
+  "source": "https://animals.sandiegozoo.org/node/163",
+  "note": "« The canine teeth of the clouded leopard are the longest, relative to body size, of any feline » ; taches en nuages ; Asie du Sud-Est."
+ },
+ "532": {
+  "statut": "corrigé",
+  "source": "https://anothermag.com/design-living/2472/salvador-dalis-ocelot",
+  "note": "Dalí emmenait son ocelot Babou presque partout, en laisse ; « apprivoisé » non affirmé par la source (animal sauvage, territorial, s'est échappé). La chasse pour la fourrure (énoncé) n'a pas été vérifiée dans cette passe.",
+  "correction": {
+   "contexte": "Salvador Dalí emmenait presque partout son ocelot Babou, tenu en laisse."
+  }
+ },
+ "539": {
+  "statut": "corrigé",
+  "source": "https://www.nhm.ac.uk/discover/a-world-of-wild-cats.html",
+  "note": "NHM : « They hunt during the day » confirmé ; « rare chez les félins » non affirmé (Felidae : activité nocturne à diurne selon les espèces).",
+  "correction": {
+   "contexte": "Il chasse le jour, surtout des petits mammifères, des oiseaux et des reptiles."
+  }
+ },
+ "546": {
+  "statut": "corrigé",
+  "source": "https://www.nhm.ac.uk/discover/a-world-of-wild-cats.html",
+  "note": "NHM : félins sauvages en Europe, Afrique, Asie et Amériques (donc pas en Océanie) ; l'origine domestique des chats harets d'Australie n'est pas affirmée par la source consultée.",
+  "correction": {
+   "contexte": "Les félins sauvages vivent en Europe, en Afrique, en Asie et dans les Amériques."
+  }
+ },
+ "550": {
+  "statut": "vérifié",
+  "source": "https://earth.com/news/saving-the-iberian-lynx-how-humans-rescued-this-rare-feline-from-extinction ; https://bigcatswildcats.com/conservation/endangered-wild-cats/",
+  "note": "Moins de 100 individus en 2002 (sud de l'Espagne), plus de 2 000 en 2024 ; Espagne et Portugal. Attention : l'UICN l'a reclassé « vulnérable » en 2024 ; « le plus menacé » vaut surtout historiquement (pas de félin d'Europe plus menacé parmi les mauvaises réponses)."
+ },
+ "32": {
+  "statut": "vérifié",
+  "source": "https://fr.vikidia.org/wiki/Amanite_tue-mouches ; https://www.lanutrition.fr/tout-savoir-sur-les-champignons",
+  "note": "Chapeau rouge à verrues blanches, très toxique ; chapeaux laissés dans un bol de lait sucré pour tuer les mouches (Vikidia) ; hallucinations dues au muscimol (LaNutrition). Rôle dans les contes non sourcé (énoncé descriptif)."
+ },
+ "37": {
+  "statut": "vérifié",
+  "source": "https://fr.vikidia.org/wiki/Champignon_comestible",
+  "note": "Alvéoles profondes ; « la morille doit obligatoirement se consommer cuite, car crue elle se révèle toxique »."
+ },
+ "40": {
+  "statut": "corrigé",
+  "source": "https://fr.vikidia.org/wiki/Champignon_comestible",
+  "note": "Anneau coulissant confirmé ; chapeau de plus de 30 cm non confirmé (la source dit seulement de ne pas cueillir en dessous de 10 cm).",
+  "correction": {
+   "contexte": "Son anneau coulisse le long du pied : c'est un bon critère pour la reconnaître."
+  }
+ },
+ "506": {
+  "statut": "corrigé",
+  "source": "https://fr.vikidia.org/wiki/Champignon_comestible",
+  "note": "La source relie la pousse aux pluies de septembre-octobre ; la « douceur » n'est pas confirmée.",
+  "correction": {
+   "contexte": "Ils sortent souvent en nombre deux semaines après les pluies de septembre ou d'octobre."
+  }
+ },
+ "500": {
+  "statut": "vérifié",
+  "source": "https://pressbooks.calstate.edu/biol102/chapter/fungi/ ; https://thecanadianencyclopedia.ca/en/article/fungus",
+  "note": "Pas de chlorophylle, pas de photosynthèse ; décomposeurs, symbiotes ou parasites."
+ },
+ "501": {
+  "statut": "vérifié",
+  "source": "https://pressbooks.calstate.edu/biol102/chapter/fungi/",
+  "note": "Les hyphes apportent eau et minéraux à la plante et reçoivent les produits de la photosynthèse."
+ },
+ "502": {
+  "statut": "vérifié",
+  "source": "https://pressbooks.calstate.edu/biol102/chapter/fungi/",
+  "note": "Champignon + algue ou cyanobactérie ; le champignon apporte protection et minéraux, le partenaire photosynthétique des glucides. Aucune mauvaise réponse (mousse, insecte, fougère) n'est correcte."
+ },
+ "503": {
+  "statut": "corrigé",
+  "source": "https://pressbooks.calstate.edu/biol102/chapter/fungi/",
+  "note": "Mycoses cutanées et pied d'athlète confirmés ; localisation « entre les orteils » non confirmée par la source.",
+  "correction": {
+   "contexte": "Le pied d'athlète est une mycose courante de la peau du pied."
+  }
+ },
+ "504": {
+  "statut": "vérifié",
+  "source": "https://pressbooks.calstate.edu/biol102/chapter/fungi/ ; https://thecanadianencyclopedia.ca/en/article/fungus",
+  "note": "« DNA evidence shows they're actually more akin to animals »."
+ },
+ "497": {
+  "statut": "vérifié",
+  "source": "https://pressbooks.calstate.edu/biol102/chapter/fungi/",
+  "note": "Ergot : convulsions, hallucinations, gangrène. Le nom historique « mal des ardents » n'est pas cité par la source (non contredit)."
+ },
+ "489": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Nombre de spores (milliards) non trouvé dans les sources consultées ; budget de recherches épuisé."
+ },
+ "535": {
+  "statut": "vérifié",
+  "source": "https://petbook-magazine.com/wildlife/hardly-anyone-knows-these-16-wild-cats ; https://petmojo.com/wildcat-species-known-as-some-of-the-rarest",
+  "note": "Pupilles rondes contrairement aux chats domestiques ; Asie centrale, fourrure la plus longue et dense (blog.nature.org)."
+ },
+ "537": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Forêt de Gir non trouvée dans les sources consultées ; budget de recherches épuisé."
+ },
+ "447": {
+  "statut": "vérifié",
+  "source": "https://www.guinnessworldrecords.com/world-records/tallest-tree-living ; https://wiki.riteme.site/wiki/Tallest_tree",
+  "note": "Hyperion, séquoia à feuilles d'if, parc national Redwood (Californie), 116,07 m en 2019."
+ },
+ "449": {
+  "statut": "corrigé",
+  "source": "https://wiki.riteme.site/wiki/Tallest_tree",
+  "note": "Copie Wikipédia : les baobabs stockent de grandes quantités d'eau dans le bois tendre du tronc ; aucun chiffre en litres trouvé.",
+  "correction": {
+   "contexte": "Il stocke de grandes quantités d'eau dans le bois très tendre de son tronc."
+  }
+ },
+ "445": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches épuisé avant ce fait ; à reprendre."
+ },
+ "448": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches épuisé avant ce fait ; à reprendre."
+ },
+ "450": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches épuisé avant ce fait ; à reprendre."
+ },
+ "451": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches épuisé avant ce fait ; à reprendre."
+ },
+ "452": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches épuisé avant ce fait ; à reprendre."
+ },
+ "453": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches épuisé avant ce fait ; à reprendre."
+ },
+ "454": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches épuisé avant ce fait ; à reprendre."
+ },
+ "455": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches épuisé avant ce fait ; à reprendre."
+ },
+ "456": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches épuisé avant ce fait ; à reprendre."
+ },
+ "457": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches épuisé avant ce fait ; à reprendre."
+ },
+ "458": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches épuisé avant ce fait ; à reprendre."
+ },
+ "459": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches épuisé avant ce fait ; à reprendre."
+ },
+ "460": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches épuisé avant ce fait ; à reprendre."
+ },
+ "461": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Non vérifié : budget de 18 recherches épuisé avant ce fait ; à reprendre."
+ }
+}

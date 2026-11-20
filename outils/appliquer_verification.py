@@ -2,12 +2,15 @@
 et remplit les colonnes statut, source et note de verification/faits.csv.
 
 Corrections appliquées automatiquement : contexte, fait (énoncé), reponse, faux.
-Usage : python3 outils/appliquer_verification.py
+Usage : python3 outils/appliquer_verification.py [fichiers de résultats dont appliquer les corrections]
+Sans argument, seuls les statuts sont mis à jour ; les corrections ne sont appliquées que pour les
+fichiers donnés (pour ne pas réappliquer celles d'une passe précédente).
 """
 import csv
 import glob
 import json
 import os
+import sys
 
 RACINE = os.path.join(os.path.dirname(__file__), "..")
 SOURCES = [os.path.join(RACINE, "outils", f) for f in
@@ -61,8 +64,15 @@ def main():
     lignes = list(csv.DictReader(open(chemin_csv, encoding="utf-8")))
     par_n = {l["n"]: l for l in lignes}
     resultats = {}
-    for f in sorted(glob.glob(os.path.join(RACINE, "verification", "resultats*.json"))):
-        resultats.update(json.load(open(f, encoding="utf-8")))
+    fichiers = sorted(glob.glob(os.path.join(RACINE, "verification", "resultats*.json")), key=os.path.getmtime)
+    a_appliquer = {os.path.abspath(f) for f in sys.argv[1:]}
+    for f in fichiers:
+        for n, r in json.load(open(f, encoding="utf-8")).items():
+            if os.path.abspath(f) not in a_appliquer:
+                r = {k: v for k, v in r.items() if k != "correction"}
+            if r.get("statut") in ("non trouvé", ""):
+                continue  # pas encore cherché : la ligne reste « à vérifier »
+            resultats[n] = r
 
     pays_p = os.path.join(RES, "pays_afrique.json")
     elements_p = os.path.join(RES, "elements.json")

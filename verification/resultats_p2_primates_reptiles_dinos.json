@@ -1,0 +1,446 @@
+{
+ "65": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Orangutan",
+  "note": "orang (personne) + hutan (forêt) en malais/indonésien ; vit seulement à Bornéo et Sumatra."
+ },
+ "574": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Orangutan",
+  "note": "Destruction de l'habitat (exploitation forestière, incendies, conversion en plantations de palmiers à huile)."
+ },
+ "66": {
+  "statut": "vérifié",
+  "source": "https://safekipedia.com/J8/wiki/Bonobo",
+  "note": "Vit au sud du fleuve Congo et au nord du Kasaï ; la formation du fleuve aurait isolé le bonobo (« possibly »)."
+ },
+ "67": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Lemur",
+  "note": "Endémiques de Madagascar ; présents aussi aux Comores, où ils ont probablement été introduits par l'homme."
+ },
+ "68": {
+  "statut": "corrigé",
+  "source": "https://www.newworldencyclopedia.org/entry/Howler_monkey",
+  "note": "La source dit que l'os hyoïde agrandi aide à produire le cri (portée environ 3 miles) mais ne parle pas de caisse de résonance.",
+  "correction": {
+   "contexte": "Son cri s'entend jusqu'à près de 5 km, grâce à un os de la gorge, l'hyoïde, très développé."
+  }
+ },
+ "70": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Primate",
+  "note": "Les primates vont en Asie jusqu'au nord du Japon ; bains en sources chaudes confirmés par https://www.newworldencyclopedia.org/entry/Macaque"
+ },
+ "72": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Old_World_monkey",
+  "note": "« the largest is the male mandrill » (jusqu'à 50 kg)."
+ },
+ "555": {
+  "statut": "corrigé",
+  "source": "https://www.newworldencyclopedia.org/entry/Marmoset",
+  "note": "Plus petit singe du monde confirmé ; poids donné : 119 g (Marmoset) ou 120 à 190 g (https://www.newworldencyclopedia.org/entry/New_World_monkey). « Environ 100 g » est un peu bas.",
+  "correction": {
+   "contexte": "Il pèse moins de 200 g."
+  }
+ },
+ "556": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Capuchin_monkey",
+  "note": "Nom tiré de sa coloration et de sa calotte, qui rappellent le capuchon des capucins ; casse noix et coquillages avec des pierres."
+ },
+ "557": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Baboon",
+  "note": "Le babouin hamadryas était sacré, attribut de Thot ; museau de chien ; troupes de 5 à 250."
+ },
+ "560": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Black-and-white_colobus",
+  "note": "Grec ekolobóse, « il a écourté, mutilé » ; pouce absent ou réduit à un moignon."
+ },
+ "69": {
+  "statut": "vérifié",
+  "source": "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Gibraltar_Barbary_Macaques.html",
+  "note": "Seule population de singes sauvages d'Europe ; légende : Gibraltar restera britannique tant que les macaques y vivront."
+ },
+ "569": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Louis_Leakey",
+  "note": "Les trois chercheuses choisies par Leakey, « Leakey's Angels » ; Galdikas étudie les orangs-outans à Bornéo dès 1971."
+ },
+ "570": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Louis_Leakey",
+  "note": "Il voyait l'étude des primates sauvages comme une clé de l'évolution humaine. La source le présente comme archéologue aux travaux paléoanthropologiques (« paléontologue » acceptable)."
+ },
+ "73": {
+  "statut": "corrigé",
+  "source": "https://encycloreader.org/r/wikipedia.php?q=Tarsier",
+  "note": "Wikipédia (en) : chaque œil est aussi gros que le cerveau, et parfois plus gros ; « plus gros » systématiquement est exagéré.",
+  "correction": {
+   "contexte": "Chacun de ses yeux est aussi gros que son cerveau, parfois même plus."
+  }
+ },
+ "76": {
+  "statut": "corrigé",
+  "source": "https://www.newworldencyclopedia.org/entry/Chameleon",
+  "note": "Yeux indépendants confirmés. La source dit qu'il ne change pas de couleur pour imiter son décor ; les changements dépendent de la lumière, de la température, du stress et servent aussi à communiquer. « Surtout pour communiquer et régler sa température » non confirmé tel quel.",
+  "correction": {
+   "contexte": "Il ne change pas de couleur pour imiter son décor : ses teintes varient avec la lumière, la température et ses émotions, et servent à communiquer."
+  }
+ },
+ "77": {
+  "statut": "corrigé",
+  "source": "https://www.newworldencyclopedia.org/entry/Monitor_lizard",
+  "note": "Plus grand lézard vivant, 3 m et 54 kg confirmés. Venin anticoagulant non confirmé (la source parle seulement d'un venin probablement faible).",
+  "correction": {
+   "contexte": "C'est le plus grand lézard vivant : il atteint 3 m de long et plus de 50 kg."
+  }
+ },
+ "78": {
+  "statut": "corrigé",
+  "source": "https://www.newworldencyclopedia.org/entry/Python",
+  "note": "« Probablement le plus long serpent du monde » ; la source ne donne ni le seuil de 6 m ni un record mesuré proche de 8 m (elle cite un maximum de 10,1 m souvent avancé).",
+  "correction": {
+   "contexte": "Il est probablement le plus long serpent du monde, devant l'anaconda, qui est plus lourd."
+  }
+ },
+ "79": {
+  "statut": "corrigé",
+  "source": "https://www.newworldencyclopedia.org/entry/Anaconda",
+  "note": "Plus lourd que le python réticulé, rivières d'Amazonie et de l'Orénoque, tue par constriction. « Plus de 100 kg » et « dans l'eau » non confirmés.",
+  "correction": {
+   "contexte": "Il rivalise en longueur avec le python réticulé mais il est bien plus lourd ; il étouffe ses proies en s'enroulant autour d'elles."
+  }
+ },
+ "80": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Cobra",
+  "note": "Collerette (capuchon) confirmée ; cobra royal, plus long serpent venimeux, 5,7 m."
+ },
+ "81": {
+  "statut": "corrigé",
+  "source": "https://www.newworldencyclopedia.org/entry/Sea_turtle",
+  "note": "Plus grande tortue marine, mangeuse de méduses : confirmé. Carapace : peau coriace sur une mosaïque de petites plaques osseuses, pas « faite de cuir ». Confusion avec les sacs plastiques non confirmée par la source.",
+  "correction": {
+   "contexte": "Sa carapace sans écailles est couverte d'une peau épaisse comme du cuir ; elle peut peser 650 kg."
+  }
+ },
+ "82": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Alligator",
+  "note": "Gueule fermée : seules les dents du haut de l'alligator sont visibles ; chez le crocodile, celles du haut et du bas. Tête en U."
+ },
+ "83": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Gecko",
+  "note": "Près de 500 000 sétules par patte, des millions au total ; adhérence par forces de van der Waals sur une grande variété de surfaces."
+ },
+ "84": {
+  "statut": "corrigé",
+  "source": "https://www.newworldencyclopedia.org/entry/Tortoise",
+  "note": "Plus de 100 ans confirmé (espérance de vie estimée à 200 ans, individus de plus de 150 ans). Influence sur Darwin non confirmée par la source consultée : retirée.",
+  "correction": {
+   "contexte": "Elle peut vivre plus de 100 ans ; certaines ont dépassé 150 ans."
+  }
+ },
+ "85": {
+  "statut": "vérifié",
+  "source": "https://abc.naturefrance.fr/sites/default/files/2024-08/Outils%20-%20Reptiles%20PNRMV.pdf",
+  "note": "Vipères : « Pupilles verticales » ; couleuvres : « Pupilles rondes ». Voir aussi https://www.newworldencyclopedia.org/entry/Viperidae"
+ },
+ "608": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Lizard",
+  "note": "Les lézards sans pattes se distinguent des serpents par leurs paupières, leurs oreilles et leur queue qui peut se détacher."
+ },
+ "609": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Rattlesnake",
+  "note": "Segments cornés creux de peau ; un nouveau segment à chaque mue."
+ },
+ "611": {
+  "statut": "corrigé",
+  "source": "https://www.newworldencyclopedia.org/entry/Mamba",
+  "note": "Intérieur noir de la gueule et Afrique confirmés ; vitesse de 15 km/h non confirmée par la source.",
+  "correction": {
+   "contexte": "C'est le plus grand serpent venimeux d'Afrique ; il doit son nom à l'intérieur noir de sa gueule."
+  }
+ },
+ "613": {
+  "statut": "corrigé",
+  "source": "https://www.newworldencyclopedia.org/entry/Sea_turtle",
+  "note": "Écaille tirée de sa carapace et danger critique confirmés ; interdiction du commerce non décrite dans le texte de la source.",
+  "correction": {
+   "contexte": "L'écaille venait des plaques de sa carapace ; elle est aujourd'hui en danger critique d'extinction."
+  }
+ },
+ "621": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Crocodile",
+  "note": "Sexe déterminé par la température d'incubation chez les crocodiles ; chez les tortues marines, le sable plus chaud donne plus de femelles (https://www.newworldencyclopedia.org/entry/Sea_turtle)."
+ },
+ "622": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Snake",
+  "note": "Pas de paupières mobiles ; écaille transparente (lunette) qui reste fermée."
+ },
+ "623": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Snake",
+  "note": "Les deux moitiés de la mâchoire inférieure ne sont pas rigidement attachées."
+ },
+ "624": {
+  "statut": "corrigé",
+  "source": "https://www.newworldencyclopedia.org/entry/Squamata",
+  "note": "Bonne réponse confirmée (près de 96 % des reptiles vivants). Le chiffre de 10 000 espèces n'est pas dans la source (elle donne environ 7 500 espèces, chiffres anciens).",
+  "correction": {
+   "contexte": "Ce groupe, les squamates, rassemble près de 96 % des reptiles actuels."
+  }
+ },
+ "610": {
+  "statut": "corrigé",
+  "source": "https://www.newworldencyclopedia.org/entry/Elapidae",
+  "note": "« The most venomous land snake » confirmé ; sa timidité et la rareté des morsures ne sont pas confirmées par la source.",
+  "correction": {
+   "contexte": "Son venin est le plus puissant de tous les serpents terrestres."
+  }
+ },
+ "620": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Herpetology",
+  "note": "Étude des reptiles et des amphibiens ; grec herpeton, « animal rampant »."
+ },
+ "625": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Turtle",
+  "note": "La couche interne de la carapace compte environ 60 os, dont une partie de la colonne vertébrale et des côtes ; la tortue ne peut pas en sortir."
+ },
+ "94": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Allosaurus",
+  "note": "Jurassique supérieur, 155 à 145 millions d'années ; le Crétacé finit vers 66 Ma, d'où plus de 80 Ma d'écart avec le tyrannosaure (fin du Crétacé)."
+ },
+ "95": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Archaeopteryx",
+  "note": "Plume trouvée en 1860, décrite en 1861 ; squelette trouvé en 1861 près de Solnhofen (Bavière) ; dents, doigts griffus et plumes. Son rôle d'ancêtre direct des oiseaux est discuté, mais le contexte dit seulement « un lien »."
+ },
+ "630": {
+  "statut": "vérifié",
+  "source": "https://www.nhm.ac.uk/discover/200-years-of-dinosaur-discoveries.html",
+  "note": "« Iguana tooth » ; dents trouvées par les Mantell, décrit vers 1825, un an après le mégalosaure."
+ },
+ "631": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Brachiosaurus",
+  "note": "« Arm lizard » (grec brachion + sauros) ; pattes avant plus longues que les pattes arrière."
+ },
+ "632": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Dinosaur",
+  "note": "Owen nomme Dinosauria en 1842 ; deinos (terrible) + sauros (lézard)."
+ },
+ "633": {
+  "statut": "vérifié",
+  "source": "https://www.nhm.ac.uk/discover/200-years-of-dinosaur-discoveries.html",
+  "note": "Buckland le décrit le 20 février 1824, premier dinosaure décrit. Étymologie : megal- (grand) + saurus (lézard) selon https://enchantedlearning.com/subjects/dinosaurs/allabout/Nameroots.shtml"
+ },
+ "634": {
+  "statut": "vérifié",
+  "source": "https://www.enchantedlearning.com/subjects/dinosaurs/allabout/Names.shtml",
+  "note": "« Egg thief (even though it wasn't) » ; un oviraptor a été trouvé en position de couvaison en 1993 (https://www.newworldencyclopedia.org/entry/Dinosaur)."
+ },
+ "635": {
+  "statut": "vérifié",
+  "source": "https://enchantedlearning.com/subjects/dinosaurs/allabout/Nameroots.shtml",
+  "note": "archaeo = ancien, pteryx = aile ; premier squelette trouvé en Allemagne en 1861 (https://www.nhm.ac.uk/discover/200-years-of-dinosaur-discoveries.html)."
+ },
+ "639": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Plesiosaur",
+  "note": "Reptiles marins du Mésozoïque, pas des dinosaures ; long cou chez les vrais plésiosaures (pas chez les pliosaures)."
+ },
+ "644": {
+  "statut": "vérifié",
+  "source": "https://www.newworldencyclopedia.org/entry/Dinosaur",
+  "note": "Site de nidification de Maiasaura découvert par Horner en 1978 dans le Montana ; nids et œufs connus pour la plupart des grands groupes."
+ },
+ "97": {
+  "statut": "vérifié",
+  "source": "https://enchantedlearning.com/subjects/dinosaurs/facts/Pteranodon",
+  "note": "Reptile volant à crête, « not a dinosaur » mais proche parent, « no teeth at all »."
+ },
+ "638": {
+  "statut": "corrigé",
+  "source": "https://enchantedlearning.com/subjects/dinosaurs/facts/Pteranodon",
+  "note": "Sens « Winged and Toothless » confirmé. La pêche « comme un pélican » n'est pas confirmée (https://www.astrosafe.co/article/pteranodon évoque plutôt une capture en rase-mottes au-dessus de l'eau).",
+  "correction": {
+   "contexte": "Il n'avait aucune dent et se nourrissait surtout de poissons."
+  }
+ },
+ "96": {
+  "statut": "vérifié",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Pachycephalosaurus",
+  "note": "Dôme « up to 25 cm (10 in) thick » ; décrit comme herbivore (régime exact discuté)."
+ },
+ "643": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Chicxulub_crater",
+  "note": "L'anneau de 180 km est la paroi interne ; le cratère est estimé à environ 200 km (voire plus selon des études récentes).",
+  "correction": {
+   "contexte": "Large d'environ 200 km, il est enfoui sous la péninsule du Yucatán."
+  }
+ },
+ "640": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Chicxulub_crater",
+  "note": "66 millions d'années confirmé ; l'âge de 300 000 ans de notre espèce n'a pas pu être vérifié dans le budget de recherches : retiré.",
+  "correction": {
+   "contexte": "Les dinosaures non aviens ont disparu il y a 66 millions d'années, bien avant l'apparition de notre espèce."
+  }
+ },
+ "616": {
+  "statut": "vérifié",
+  "source": "https://www.techno-science.net/fr/definitions/tortue-d-hermann",
+  "note": "« La seule tortue terrestre de France » ; plaine et massif des Maures (Var) et Corse."
+ },
+ "615": {
+  "statut": "corrigé",
+  "source": "https://www.grandlyon.com/fileadmin/user_upload/media/pdf/environnement/guide-biodiversite/20200623_guidebiodiversite_reptiles.pdf",
+  "note": "« Le plus commun, on le rencontre vers les murs et les pierres », près des maisons ; « fissures des vieux murs » non précisé.",
+  "correction": {
+   "contexte": "On le rencontre près des murs, des pierres et des maisons, où il chasse les insectes."
+  }
+ },
+ "619": {
+  "statut": "corrigé",
+  "source": "https://www.grandlyon.com/fileadmin/user_upload/media/pdf/environnement/guide-biodiversite/20200623_guidebiodiversite_reptiles.pdf",
+  "note": "Thanatose (fait la morte) confirmée ; odeur nauséabonde non confirmée par la source.",
+  "correction": {
+   "contexte": "Pour se défendre, elle simule la mort : c'est la thanatose."
+  }
+ },
+ "614": {
+  "statut": "corrigé",
+  "source": "https://abc.naturefrance.fr/sites/default/files/2024-08/Outils%20-%20Reptiles%20PNRMV.pdf",
+  "note": "Lézard à deux raies (Lacerta bilineata), vert ponctué de noir, « Mâle à gorge bleue ». Les mentions « des haies » et « au printemps / saison des amours » ne sont pas confirmées.",
+  "correction": {
+   "fait": "Lézard vert vif de France, dont le mâle a la gorge bleue",
+   "contexte": "Seul le mâle a la gorge bleue ; on l'appelle aussi lézard à deux raies."
+  }
+ },
+ "562": {
+  "statut": "vérifié",
+  "source": "https://www.ifaw.org/animals/slow-lorises",
+  "note": "« The world's only venomous primates » ; huile de la glande brachiale (intérieur du bras) mêlée à la salive ; Asie du Sud et du Sud-Est."
+ },
+ "571": {
+  "statut": "vérifié",
+  "source": "https://education.nationalgeographic.org/resource/lucy-discovered-africa",
+  "note": "Découverte le 24 novembre 1974 à Hadar (Éthiopie), Australopithecus afarensis, environ 3,2 millions d'années."
+ },
+ "567": {
+  "statut": "vérifié",
+  "source": "https://www.motherjones.com/politics/2014/02/evolution-creationism-bonobos-neanderthals-denisovans-chromosome-two/",
+  "note": "Génomes bonobo et humain identiques à 98,7 % (étude Prüfer, Max Planck) ; pour le chimpanzé, 98 à 99,4 % selon https://www.newworldencyclopedia.org/entry/Chimpanzee ; chimpanzés et bonobos sont nos plus proches parents (https://safekipedia.com/J8/wiki/Bonobo)."
+ },
+ "568": {
+  "statut": "vérifié",
+  "source": "https://www.pbs.org/wgbh/nova/education/evolution/human-chromosome-2.html",
+  "note": "Grands singes : 24 paires (48) ; humains : 23 paires (46) ; chromosome 2 issu de la fusion de deux chromosomes ancestraux."
+ },
+ "641": {
+  "statut": "corrigé",
+  "source": "https://www.newworldencyclopedia.org/entry/Dinosaur",
+  "note": "La source consultée donne 80 000 à 100 000 kg, pas 70 t ; les estimations varient selon les auteurs : chiffre remplacé par une formulation prudente.",
+  "correction": {
+   "contexte": "Il pesait sans doute plusieurs dizaines de tonnes."
+  }
+ },
+ "617": {
+  "statut": "vérifié",
+  "source": "https://www.nhm.ac.uk/discover/the-monster-whose-bite-saves-lives.html",
+  "note": "Seul lézard venimeux natif des États-Unis ; l'exendine-4 de sa salive a mené à l'exénatide (Byetta), approuvé en 2005 contre le diabète de type 2. Les « écailles comme des perles » de l'énoncé ne sont pas décrites par la source."
+ },
+ "607": {
+  "statut": "vérifié",
+  "source": "https://www.aucklandzoo.co.nz/animals/tuatara",
+  "note": "Sphenodon punctatus, endémique de Nouvelle-Zélande, derniers survivants des rhynchocéphales ; « troisième œil » pariétal sur le dessus de la tête."
+ },
+ "645": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Compsognathus",
+  "note": "Taille d'un poulet ; spécimens de Bavière et de Canjuers (plateau du Var, la source dit « near Nice ») ; longtemps le plus petit dinosaure non avien connu, depuis dépassé par Mahakala et Microraptor (« l'un des plus petits » reste exact)."
+ },
+ "618": {
+  "statut": "vérifié",
+  "source": "https://www.nhm.ac.uk/discover/shrinking-galapagos-marine-iguanas.html",
+  "note": "Seuls lézards connus à se nourrir en mer (algues) ; uniquement aux Galápagos ; une glande filtre le sel, expulsé par les narines."
+ },
+ "565": {
+  "statut": "vérifié",
+  "source": "https://csmonitor.com/Environment/2023/0803/Brazil-s-golden-monkeys-swing-from-near-extinction-to-thousands",
+  "note": "Environ 200 individus sauvages dans les années 1970, environ 4 800 aujourd'hui ; forêt atlantique du Brésil."
+ },
+ "75": {
+  "statut": "corrigé",
+  "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Saltwater_crocodile",
+  "note": "Plus grand reptile vivant confirmé. Les mâles mesurent 3,5 à 6 m ; seuls de rares vieux mâles dépassent 6 m. Il utilise les courants pour de longs trajets en mer, mais « d'île en île » n'est pas décrit.",
+  "correction": {
+   "contexte": "Les mâles mesurent de 3,5 à 6 m, rarement plus ; il parcourt de longues distances en mer en se laissant porter par les courants."
+  }
+ },
+ "71": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé ; https://www.newworldencyclopedia.org/entry/Old_World_monkey dit seulement que le nasique a « an extraordinary nose ». Rôle du nez dans les cris non vérifié."
+ },
+ "559": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé ; non vérifié."
+ },
+ "561": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé ; https://www.newworldencyclopedia.org/entry/Sifaka n'était pas accessible."
+ },
+ "563": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé ; non vérifié."
+ },
+ "564": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé ; non vérifié."
+ },
+ "566": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé. https://www.newworldencyclopedia.org/entry/Lemur donne l'indri à 10 kg (le plus lourd cité) mais dit « Indri indri lacks a tail », ce qui contredit « queue très courte » (en réalité vestigiale) : à revérifier, ainsi que les 2 km."
+ },
+ "605": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé ; non vérifié."
+ },
+ "606": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé ; non vérifié."
+ },
+ "612": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé ; https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Saltwater_crocodile confirme seulement que le gavial a un crâne plus long et plus fin ; Inde et régime piscivore non vérifiés."
+ },
+ "642": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé ; https://www.newworldencyclopedia.org/entry/Dinosaur cite les excréments parmi les traces fossiles sans employer le mot coprolithe."
+ }
+}

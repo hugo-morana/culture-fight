@@ -674,6 +674,7 @@ RECOUVREMENTS = {
     ("volcans", 0): [["États-Unis", "États-Unis (Hawaï)"], ["France (La Réunion)", "France (Martinique)"]],
     ("lacs", 0): [["États-Unis", "États-Unis et Canada"], ["France", "Suisse et France"]],
     ("os", 0): [["la mâchoire", "le crâne", "l'oreille"]],
+    ("seismes", 1): [["La magnitude", "L'échelle de Richter"]],
 }
 
 

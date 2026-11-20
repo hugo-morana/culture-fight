@@ -1,0 +1,292 @@
+{
+ "153": {
+  "statut": "vérifié",
+  "source": "https://mirror2.polsri.ac.id/wiki/wp/1/1755_Lisbon_earthquake.htm",
+  "note": "Tsunami et incendies, influence sur les Lumières, Poème sur le désastre de Lisbonne de Voltaire confirmés."
+ },
+ "155": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/1908_Messina_earthquake",
+  "note": "Wikipédia : séisme le plus meurtrier de l'histoire de l'Europe, environ 120 000 morts (82 000 dans d'autres listes) ; « plus de 80 000 » reste exact."
+ },
+ "159": {
+  "statut": "vérifié",
+  "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_21st-century_earthquakes",
+  "note": "26 décembre 2004, 227 898 morts."
+ },
+ "160": {
+  "statut": "corrigé",
+  "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_21st-century_earthquakes",
+  "note": "La liste Wikipédia donne 160 000 morts ; « plus de 200 000 » n'est qu'une des estimations (bilans très discutés).",
+  "correction": {
+   "contexte": "Il a dévasté Port-au-Prince et fait plus de 100 000 morts."
+  }
+ },
+ "162": {
+  "statut": "corrigé",
+  "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_21st-century_earthquakes",
+  "note": "Wikipédia donne 7,8 et 7,7 pour les deux chocs (l'USGS avait annoncé 7,5 pour le second) ; plus de 59 000 morts. Magnitude du second choc retirée.",
+  "correction": {
+   "contexte": "Le 6 février, deux très forts séismes, dont le premier de magnitude 7,8, ont fait plus de 50 000 morts."
+  }
+ },
+ "779": {
+  "statut": "vérifié",
+  "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_20th-century_earthquakes",
+  "note": "28 juillet 1976, 242 469 morts (bilan officiel)."
+ },
+ "783": {
+  "statut": "vérifié",
+  "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_21st-century_earthquakes",
+  "note": "25 avril 2015, magnitude 7,8, 8 964 morts. Katmandou non vérifié explicitement dans cette source mais c'est la capitale du Népal (énoncé)."
+ },
+ "156": {
+  "statut": "vérifié",
+  "source": "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Largest_earthquakes",
+  "note": "Alaska 1964 est le deuxième plus grand séisme de l'histoire, derrière Valdivia 1960 ; magnitude 9,5 dans https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_20th-century_earthquakes."
+ },
+ "157": {
+  "statut": "vérifié",
+  "source": "https://kaweah.freedombox.rocks/kiwix/wikipedia_en_all_maxi_2023-10/Largest_earthquakes",
+  "note": "Magnitude 9,2, « largest earthquake ever recorded in North America »."
+ },
+ "766": {
+  "statut": "vérifié",
+  "source": "https://kaweah.freedombox.rocks/kiwix/content/wikipedia_en_all_maxi_2023-10/A/Seismic_magnitude_scales",
+  "note": "Chaque unité = 10^1,5 ≈ 32 fois plus d'énergie. Attention : « L'échelle de Richter » figure parmi les leurres de la même relation et est elle aussi une mesure de magnitude, donc de l'énergie libérée ; ambiguïté possible (sens direct et inverse)."
+ },
+ "773": {
+  "statut": "vérifié",
+  "source": "https://kaweah.freedombox.rocks/kiwix/content/wikipedia_en_all_maxi_2023-10/A/Seismic_magnitude_scales",
+  "note": "Échelle développée en 1935 par Charles F. Richter pour la Californie du Sud ; l'USGS publie la magnitude de moment au-dessus de 4 ; ML sous-estime les séismes de plus de M 7. Aussi https://www.larousse.fr/encyclopedie/divers/sismologie/92120 (1935)."
+ },
+ "764": {
+  "statut": "vérifié",
+  "source": "https://www.larousse.fr/encyclopedie/divers/sismologie/92120",
+  "note": "Les répliques « s'échelonnent parfois sur quelques jours, quelques mois, ou même quelques années »."
+ },
+ "769": {
+  "statut": "vérifié",
+  "source": "https://www.larousse.fr/encyclopedie/divers/sismologie/92120",
+  "note": "Les ondes sismiques servent à étudier la structure interne du globe."
+ },
+ "771": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Ring_of_Fire",
+  "note": "Environ 90 % des séismes du monde, dont la plupart des plus grands."
+ },
+ "768": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Ring_of_Fire",
+  "note": "Les plus grands séismes sont des séismes de mégachevauchement en zone de subduction (Valdivia 1960, Tōhoku 2011)."
+ },
+ "760": {
+  "statut": "vérifié",
+  "source": "https://fr.vikidia.org/wiki/Volcan_gris",
+  "note": "Volcan gris = volcan explosif confirmé. La partie « volcans rouges, comme le Piton de la Fournaise » n'est pas dans cette source ; le style hawaïen/effusif du Piton est confirmé pour le n°750 (vulkane.net)."
+ },
+ "738": {
+  "statut": "vérifié",
+  "source": "https://ent2d.ac-bordeaux.fr/disciplines/svt/ressources/pedagogiques/ressources-academiques-diverses/thematique-la-planete-et-les-enjeux-contemporains/volcanisme-dans-la-chaine-des-puy/a-finir-lexique/",
+  "note": "Lave émise entre 700 et 1 200 °C : « peut dépasser 1 100 °C » est exact."
+ },
+ "740": {
+  "statut": "vérifié",
+  "source": "https://ent2d.ac-bordeaux.fr/disciplines/svt/ressources/pedagogiques/ressources-academiques-diverses/thematique-la-planete-et-les-enjeux-contemporains/volcanisme-dans-la-chaine-des-puy/a-finir-lexique/",
+  "note": "Lexique : un maar est un « lac ou marais occupant un cratère ». Lac de lave dans un cratère : cas du Nyiragongo et de l'Erebus (faits 149-150, vérifiés lors d'une passe précédente, non reconsultés ici)."
+ },
+ "752": {
+  "statut": "corrigé",
+  "source": "https://www.wikiwand.com/en/articles/Olympus_Mons",
+  "note": "Environ 21,9 km au-dessus du niveau de référence martien ; au-dessus des plaines (Amazonis Planitia), le dénivelé approche 26 km. La note de la première passe est confirmée. Bonne réponse exacte (plus haut volcan ; à égalité avec Rheasilvia sur Vesta pour les montagnes, mais Rheasilvia n'est pas un volcan).",
+  "correction": {
+   "contexte": "Il culmine à environ 22 km d'altitude, soit environ deux fois et demie l'Everest."
+  }
+ },
+ "754": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Mauna_Loa",
+  "note": "« Earth's largest active volcano by both mass and volume » ; environ 9 170 m de la base au sommet."
+ },
+ "765": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/definitions/terre-faille-san-andreas-21103/",
+  "note": "Environ 1 200 km à travers la Californie."
+ },
+ "785": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/definitions/terre-faille-san-andreas-21103/",
+  "note": "Limite entre plaque pacifique et plaque nord-américaine, en Californie. Leurre « Le Mexique » : la faille se termine près de la frontière (Bombay Beach, Californie) et ne traverse pas le Mexique selon la source ; acceptable."
+ },
+ "747": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Armero_tragedy",
+  "note": "13 novembre 1985 : les lahars du Nevado del Ruiz ont tué plus de 20 000 des quelque 29 000 habitants d'Armero (environ 23 000 morts au total)."
+ },
+ "748": {
+  "statut": "vérifié",
+  "source": "https://www.culture.gouv.fr/Actualites/Patrimoine-mondial-de-l-Unesco-une-victoire-volcanique",
+  "note": "80 volcans, inscription au patrimoine mondial en 2018. Définition du puy : « nom local donné à un cône strombolien » (lexique ac-bordeaux)."
+ },
+ "756": {
+  "statut": "vérifié",
+  "source": "https://www.culture.gouv.fr/Actualites/Patrimoine-mondial-de-l-Unesco-une-victoire-volcanique",
+  "note": "Puy de Dôme, point culminant de la chaîne, 1 465 m."
+ },
+ "759": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Katia_and_Maurice_Krafft",
+  "note": "Nés à Guebwiller et Mulhouse (Haut-Rhin) ; morts le 3 juin 1991 au mont Unzen (Japon) dans un écoulement pyroclastique. Futura (https://www.futura-sciences.com/planete/personnalites/volcanologie-katia-krafft-901/) : ils ont parcouru le monde pour filmer les éruptions."
+ },
+ "742": {
+  "statut": "corrigé",
+  "source": "https://www.futura-sciences.com/planete/personnalites/volcanologie-katia-krafft-901/",
+  "note": "La source dit seulement que Tazieff est un célèbre volcanologue dont les livres et les films ont donné à Katia Krafft le goût des volcans ; « a rendu ce métier célèbre en France » non confirmé.",
+  "correction": {
+   "contexte": "Les livres et les films d'Haroun Tazieff ont donné à Katia Krafft le goût des volcans."
+  }
+ },
+ "786": {
+  "statut": "vérifié",
+  "source": "https://www.atlasobscura.com/places/zhang-heng-seismoscope",
+  "note": "132 apr. J.-C. ; huit têtes de dragon lâchent une bille de bronze dans la gueule d'un crapaud."
+ },
+ "763": {
+  "statut": "vérifié",
+  "source": "https://www.thecanadianencyclopedia.ca/fr/article/plate-tectonics",
+  "note": "Les foyers dessinent les plaques plongeantes jusqu'à environ 700 km ; Larousse : la majorité entre 0 et 20 km."
+ },
+ "770": {
+  "statut": "corrigé",
+  "source": "https://www.schoolmouv.fr/cours/sismologie-et-structure-de-la-terre/fiche-de-cours",
+  "note": "P signifie « primaires » (Larousse, L'Étudiant, SchoolMouv), pas « premières ». Elles arrivent en premier et traversent tous les milieux, liquides compris.",
+  "correction": {
+   "contexte": "P veut dire « primaires » : ce sont les plus rapides, et elles traversent aussi les liquides."
+  }
+ },
+ "774": {
+  "statut": "vérifié",
+  "source": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-risques-naturels/25-seismes-en-metropole-et-en",
+  "note": "11 juin 1909, 46 morts, « le plus meurtrier et destructeur du XXe siècle » en métropole. Aussi Universalis."
+ },
+ "775": {
+  "statut": "vérifié",
+  "source": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-risques-naturels/25-seismes-en-metropole-et-en",
+  "note": "Seuls départements entièrement en zone de sismicité forte ; subduction de la lithosphère atlantique sous l'arc des Petites Antilles."
+ },
+ "776": {
+  "statut": "vérifié",
+  "source": "https://www.guadeloupe.developpement-durable.gouv.fr/IMG/pdf/affiche-sismik-594x841-hd-2.pdf",
+  "note": "Affiche officielle : ne pas évacuer pendant la secousse, s'abriter « sous une table solide » ou contre un mur porteur, s'éloigner des fenêtres."
+ },
+ "777": {
+  "statut": "corrigé",
+  "source": "https://www.britannica.com/event/San-Francisco-Oakland-earthquake-of-1989",
+  "note": "Le séisme a frappé juste avant le début du 3e match des World Series (Candlestick Park), pas pendant le match ; la série a été suspendue 10 jours.",
+  "correction": {
+   "fait": "Quelle ville a été frappée en 1989 juste avant un match des World Series de baseball ?",
+   "contexte": "Le séisme de Loma Prieta a fait suspendre les World Series pendant dix jours."
+  }
+ },
+ "782": {
+  "statut": "incertain",
+  "source": "https://www.thecanadianencyclopedia.ca/fr/article/plate-tectonics",
+  "note": "L'Encyclopédie canadienne : « sept plaques rigides principales » et plusieurs petites ; L'Étudiant (https://www.letudiant.fr/college/methodologie-college/article/les-seismes-fiche-de-revision-brevet-svt.html) : « une douzaine de grandes plaques » ; Futura : 15 majeures et 40 mineures. Les leurres (2, 50, plus de 500) restent clairement faux."
+ },
+ "784": {
+  "statut": "vérifié",
+  "source": "https://www.futura-sciences.com/planete/actualites/geologie-derive-continents-alfred-wegener-100-ans-43241/",
+  "note": "Météorologue allemand, dérive des continents en 1912, idées acceptées dans les années 1960 avec la tectonique des plaques (1968)."
+ },
+ "158": {
+  "statut": "corrigé",
+  "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_20th-century_earthquakes",
+  "note": "6 434 morts confirmé ; le renforcement des normes de construction n'a pas été vérifié dans une source de la session (budget épuisé), donc retiré.",
+  "correction": {
+   "contexte": "Ce séisme du 17 janvier 1995 a fait plus de 6 400 morts."
+  }
+ },
+ "780": {
+  "statut": "corrigé",
+  "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_20th-century_earthquakes",
+  "note": "29 février 1960, 10 000 à 15 000 morts confirmé ; la reconstruction « un peu plus au sud » n'a pas été vérifiée (budget épuisé), donc remplacée.",
+  "correction": {
+   "contexte": "Ce séisme du 29 février 1960 a fait plus de 10 000 morts."
+  }
+ },
+ "781": {
+  "statut": "non trouvé",
+  "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_21st-century_earthquakes",
+  "note": "Contexte confirmé (séisme d'Al Haouz, 8 septembre 2023, 2 960 morts) ; la localisation « Haut Atlas, près de Marrakech » n'a pas été lue dans une source de la session."
+ },
+ "762": {
+  "statut": "incertain",
+  "source": "https://en.wikipedia.org/wiki/Ring_of_Fire",
+  "note": "La page ne désigne pas de pays ayant le plus de volcans actifs ; son tableau donne le Japon en tête (81 volcans holocènes liés à la subduction, environ 10 % des volcans actifs du monde), mais il exclut une partie de l'Indonésie (îles occidentales hors ceinture selon certains). Le contexte « sur la ceinture de feu » n'est que partiellement vrai (l'Indonésie est à la jonction ceinture de feu / ceinture alpine). Proposition si l'on garde la question : « Ses îles sont à la jonction de la ceinture de feu du Pacifique et de la ceinture alpine. » ; les leurres (France, Brésil, Australie) restent faux."
+ },
+ "767": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Intensité = effets/secousse confirmé (https://kaweah.freedombox.rocks/kiwix/content/wikipedia_en_all_maxi_2023-10/A/Seismic_magnitude_scales). EMS-98 en Europe, graduée de I à XII : non lu dans une source (Larousse cite l'échelle MSK à 12 degrés, L'Étudiant l'échelle de Mercalli à 12 degrés)."
+ },
+ "772": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Aucune source lue sur le sens « séisme trop faible pour être ressenti » ni sur « des milliers par jour ». Attention : Larousse (https://www.larousse.fr/encyclopedie/divers/sismologie/92120) emploie « bruit microsismique » pour le bruit de fond du sol (houle, atmosphère), autre sens du mot ; envisager « Un séisme imperceptible » ou une autre formulation."
+ },
+ "744": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Vikidia (https://fr.vikidia.org/wiki/Volcan_gris) confirme seulement que la ponce est une « pierre très légère » ; bulles de gaz et flottaison non lues dans une source (budget épuisé)."
+ },
+ "154": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Date (18 avril 1906) et 3 000 morts confirmés par https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_20th-century_earthquakes ; rôle des incendies non vérifié (budget de recherches épuisé)."
+ },
+ "161": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "11 mars 2011, Mw 9,0-9,1 confirmés par https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/List_of_21st-century_earthquakes ; lien avec Fukushima non lu dans une source (budget épuisé)."
+ },
+ "741": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé : dimensions de la caldeira de Yellowstone non vérifiées."
+ },
+ "743": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Lexique ac-bordeaux : lapilli de 2 à 64 mm (cohérent avec « taille d'un pois », plutôt petite). Étymologie italienne non vérifiée (budget épuisé)."
+ },
+ "745": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé : lames d'obsidienne aztèques non vérifiées."
+ },
+ "746": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé : étymologie Geysir non vérifiée."
+ },
+ "751": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget épuisé ; Vikidia mentionne la chambre magmatique sans profondeur."
+ },
+ "753": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé : altitude 5 895 m et Tanzanie non vérifiées."
+ },
+ "761": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé : éruption minoenne de Santorin non vérifiée."
+ },
+ "778": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé : arrêt automatique des Shinkansen non vérifié dans une source de la session."
+ }
+}

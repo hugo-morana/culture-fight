@@ -1,0 +1,390 @@
+{
+ "246": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Arnolfini_Portrait",
+  "note": "Le miroir convexe reflète deux figures près de la porte, la seconde, en rouge, « presumably the artist »."
+ },
+ "247": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/The_Ambassadors_(Holbein)",
+  "note": "Crâne anamorphique, visible correctement seulement de biais."
+ },
+ "248": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/The_Hunters_in_the_Snow",
+  "note": "Peint en 1565, une des séries (cinq subsistent) représentant différents moments de l'année (mois/saisons)."
+ },
+ "249": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Self-Portrait_(D%C3%BCrer,_Munich)",
+  "note": "Achevé début 1500, pose frontale, ressemblance avec les représentations du Christ ; titre allemand « Selbstbildnis im Pelzrock »."
+ },
+ "876": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Raphael",
+  "note": "Né à Urbino, mort à Rome le 6 avril 1520 à 37 ans, enterré au Panthéon."
+ },
+ "877": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Titian",
+  "note": "Né vers 1488-1490, mort en 1576 : la source parle d'une domination de la peinture vénitienne pendant une soixantaine d'années, pas « près de soixante-dix ans ». Portraits de Charles Quint confirmés.",
+  "correction": {
+   "contexte": "Il a dominé la peinture vénitienne pendant une soixantaine d'années."
+  }
+ },
+ "878": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Science_and_inventions_of_Leonardo_da_Vinci",
+  "note": "Machines volantes ; écriture en miroir ; plus de 5 000 pages sur les machines (« thousands of pages » selon https://en.wikipedia.org/wiki/Personal_life_of_Leonardo_da_Vinci)."
+ },
+ "879": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Michelangelo's_David",
+  "note": "5,17 m, marbre de Carrare."
+ },
+ "880": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer",
+  "note": "Né à Nuremberg ; gravure de 1515 d'après une description écrite et un croquis, « never saw the animal himself »."
+ },
+ "881": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Pieter_Bruegel_the_Elder",
+  "note": "Scènes paysannes, Tour de Babel ; ses fils Pieter le Jeune et Jan l'Ancien sont devenus peintres."
+ },
+ "882": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Hieronymus_Bosch",
+  "note": "A vécu « all his life in and near » 's-Hertogenbosch ; « inventor of monsters and chimeras »."
+ },
+ "883": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Sandro_Botticelli",
+  "note": "« Petit tonneau » exact, mais le surnom vient de son frère Giovanni, dit Botticello : précision ajoutée.",
+  "correction": {
+   "contexte": "Son surnom, Botticelli, « petit tonneau », vient de celui de son frère Giovanni."
+  }
+ },
+ "884": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Hans_Holbein_the_Younger",
+  "note": "Peintre allemand, peintre du roi Henri VIII ; « created the standard image of Henry VIII »."
+ },
+ "885": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/List_of_works_by_Jan_van_Eyck",
+  "note": "Retable de Gand conservé à la cathédrale Saint-Bavon de Gand (3,4 m × 5,2 m ouvert). Usage de l'huile : https://en.wikipedia.org/wiki/Early_Netherlandish_painting."
+ },
+ "886": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Fra_Angelico",
+  "note": "Frère dominicain, fresques du couvent San Marco, béatifié par Jean-Paul II le 3 octobre 1982."
+ },
+ "887": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Lamentation_of_Christ_(Mantegna)",
+  "note": "Spectateur placé aux pieds du Christ en raccourci. Lien avec Padoue (né près de Padoue, formé chez Squarcione) : https://en.wikipedia.org/wiki/Andrea_Mantegna."
+ },
+ "888": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Giorgione",
+  "note": "École vénitienne, La Tempête, mort de la peste en 1510 ; « only about six surviving paintings are firmly attributed to him »."
+ },
+ "889": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Lucas_Cranach_the_Elder",
+  "note": "Peintre de cour à Wittemberg, proche de Luther ; onze portraits du réformateur conservés."
+ },
+ "890": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Masaccio",
+  "note": "Florentin, 1401-1428, mort à 26 ans ; La Trinité, première peinture conservée en perspective linéaire systématique."
+ },
+ "891": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Paolo_Veronese",
+  "note": "677 × 994 cm (environ 67 m²) au Louvre : « près de 70 m² » acceptable, mais « plus grand tableau du Louvre » non confirmé par la source. Ambiguïté : Le Tintoret, autre mauvaise réponse de la relation, a aussi peint des Noces de Cana (1561, Santa Maria della Salute, https://en.wikipedia.org/wiki/Tintoretto) ; préciser « du Louvre ».",
+  "correction": {
+   "fait": "Peintre vénitien des immenses Noces de Cana du Louvre",
+   "contexte": "La toile, au Louvre, mesure près de 7 m sur 10 m."
+  }
+ },
+ "892": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Tintoretto",
+  "note": "Père teinturier (tintore), d'où « petit teinturier »."
+ },
+ "893": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Renaissance",
+  "note": "« rediscovery and revival of the literary, philosophical, and artistic achievements of classical antiquity » ; textes latins et grecs."
+ },
+ "894": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Fresco_painting",
+  "note": "Italien « frais », peinture sur enduit de chaux frais ; la réaction chimique au séchage fixe les pigments."
+ },
+ "895": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Italian_Renaissance_painting",
+  "note": "Sfumato : adoucissement des transitions, associé à Léonard. La Joconde, exemple classique : non citée explicitement par la source, mais c'est l'œuvre emblématique de Léonard (Joconde attribuée à Léonard, ligne 238)."
+ },
+ "896": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Personal_life_of_Leonardo_da_Vinci",
+  "note": "Parti en France en 1516 au service de François Ier, qui lui donne le Clos Lucé ; mort en 1519, soit environ trois ans."
+ },
+ "897": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Renaissance",
+  "note": "« The term rinascita (rebirth) first appeared... in Giorgio Vasari's Lives of the Artists » (1550)."
+ },
+ "898": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Florence_Cathedral",
+  "note": "Dôme achevé en 1436 ; la source dit « largest masonry dome ever constructed » (coques en briques) : formulation alignée sur la source.",
+  "correction": {
+   "contexte": "Achevé en 1436, c'est encore le plus grand dôme en maçonnerie jamais construit."
+  }
+ },
+ "899": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Renaissance",
+  "note": "La source situe l'imprimerie à caractères mobiles de Gutenberg à Mayence vers 1440 ; « vers 1450 » remplacé par une datation plus large.",
+  "correction": {
+   "contexte": "Au milieu du XVe siècle, à Mayence, il met au point l'imprimerie à caractères mobiles."
+  }
+ },
+ "900": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Italian_Renaissance_painting",
+  "note": "Venise, second grand centre ; Giorgione fondateur du style vénitien, Titien dominant à Venise plus de 60 ans ; Véronèse vénitien (https://en.wikipedia.org/wiki/Paolo_Veronese)."
+ },
+ "902": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Pope_Julius_II",
+  "note": "Pose de la première pierre du nouveau Saint-Pierre le 18 avril 1506 ; commande du plafond de la Sixtine en 1508."
+ },
+ "281": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Bamako",
+  "note": "« situated on both sides of the Niger River »."
+ },
+ "282": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/List_of_cities_in_Africa_by_population",
+  "note": "Casablanca (4,5 M) devant Rabat (2,15 M), plus grande ville du Maroc."
+ },
+ "285": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Maputo",
+  "note": "Anciennement Lourenço Marques, renommée en février 1976 (3 février 1976 selon https://en.wikipedia.org/wiki/List_of_national_capital_city_name_etymologies)."
+ },
+ "286": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Windhoek",
+  "note": "« Most believe it is derived from the Afrikaans words wind and hoek (corner) » ; autre hypothèse (monts Winterhoek), d'où le conditionnel."
+ },
+ "287": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Niamey",
+  "note": "« lies on the Niger River » ; le pays « was named for the Niger River » (https://en.wikipedia.org/wiki/Outline_of_Niger)."
+ },
+ "288": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/List_of_cities_in_Africa_by_population",
+  "note": "Lagos (21,9 M) plus grande ville du Nigeria. Abuja capitale depuis 1991 (confirmé en première passe)."
+ },
+ "289": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Kampala",
+  "note": "Construite à l'origine sur sept collines ; point bas sur les rives du lac Victoria."
+ },
+ "290": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Plastic_bag_ban",
+  "note": "« Rwanda's plastic bag ban went into effect in 2008 » ; Kigali classée « cleanest city in Africa » (https://en.wikipedia.org/wiki/Kigali)."
+ },
+ "291": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/List_of_national_capitals_by_area",
+  "note": "São Tomé : 17 km², parmi les plus petites capitales africaines (chiffre marqué citation needed)."
+ },
+ "292": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Dakar",
+  "note": "« the westernmost city on the African mainland »."
+ },
+ "293": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Victoria,_Seychelles",
+  "note": "Sur la côte nord-est de Mahé ; environ 30 000 habitants ; 20,1 km² (https://en.wikipedia.org/wiki/List_of_national_capitals_by_area)."
+ },
+ "294": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Freetown",
+  "note": "« Formally, Freetown was founded in 1792 » par plus de 1 100 Néo-Écossais, en majorité anciens esclaves affranchis (première colonie de 1787)."
+ },
+ "295": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé avant ce fait (fait géographique très probable, non sourcé dans cette session)."
+ },
+ "296": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Khartoum",
+  "note": "« located at the confluence of the Blue Nile and the White Nile » ; décrite comme capitale du Soudan."
+ },
+ "297": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/South_Sudan",
+  "note": "Indépendance le 9 juillet 2011 ; « most recent sovereign state with widespread recognition as of 2026 »."
+ },
+ "299": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/List_of_national_capital_city_name_etymologies",
+  "note": "« Known as Fort Lamy from 1900 to September 6, 1973 »."
+ },
+ "300": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Lom%C3%A9",
+  "note": "Sa limite ouest longe la frontière du Ghana (région de la Volta)."
+ },
+ "301": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de recherches épuisé avant ce fait (Carthage, banlieue de Tunis : non sourcé dans cette session)."
+ },
+ "302": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Lusaka",
+  "note": "« Lusaka formally became the capital in May 1935 », à la place de Livingstone (Rhodésie du Nord)."
+ },
+ "303": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/List_of_renamed_places_in_Zimbabwe",
+  "note": "Salisbury renommée Harare lors de la campagne lancée en 1982, au deuxième anniversaire de l'indépendance."
+ },
+ "462": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Venus_flytrap",
+  "note": "Fermeture en environ 0,1 s ; deux poils touchés en moins de 20 s (ou un poil touché deux fois)."
+ },
+ "463": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Rafflesia_arnoldii",
+  "note": "Plus grande fleur individuelle ; environ 1 m, record mesuré 1,14 m ; odeur de chair en décomposition ; Sumatra et Bornéo (Indonésie, aussi Malaisie)."
+ },
+ "464": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Myosotis",
+  "note": "Nom commun forget-me-not ; fleurs typiquement bleues."
+ },
+ "465": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Leucanthemum_vulgare",
+  "note": "La source ne donne pas de nombre de fleurons pour la marguerite ; « des centaines » vaut seulement pour certaines Astéracées (https://en.wikipedia.org/wiki/Asteraceae). Formulation sans chiffre.",
+  "correction": {
+   "contexte": "Son cœur jaune est formé de nombreuses toutes petites fleurs, les fleurons."
+  }
+ },
+ "466": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Taraxacum_officinale",
+  "note": "Aigrettes en parachute portées par le vent ; jeunes feuilles en salade ; « dent de lion » à l'origine de dandelion."
+ },
+ "467": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Centaurea_cyanus",
+  "note": "L'origine liée aux recrues de 1915 en bleu horizon n'est pas confirmée par la source consultée ; remplacée par des faits vérifiés (Bleuet de France créé en 1920, porté le 8 mai et le 11 novembre).",
+  "correction": {
+   "contexte": "Le Bleuet de France, créé en 1920, est porté le 8 mai et le 11 novembre en mémoire des soldats."
+  }
+ },
+ "468": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait : aucune source consultée dans cette session."
+ },
+ "469": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Hydrangea_macrophylla",
+  "note": "Sol acide : bleu ; sol alcalin : rose ou rouge (rôle de l'aluminium)."
+ },
+ "470": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait : aucune source consultée dans cette session."
+ },
+ "471": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Opuntia_engelmannii",
+  "note": "« Cactus spines are nonvascularized, modified leaves » confirmé, mais la source attribue aux épines un rôle surtout défensif, pas la limitation de la perte d'eau.",
+  "correction": {
+   "contexte": "Ses épines sont des feuilles transformées, qui servent surtout à le défendre."
+  }
+ },
+ "472": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Urtica_dioica",
+  "note": "Poils urticants (trichomes) qui injectent histamine, sérotonine, acétylcholine au contact ; soupe d'ortie courante."
+ },
+ "473": {
+  "statut": "corrigé",
+  "source": "https://en.wikipedia.org/wiki/Mimosa_pudica",
+  "note": "Repli rapide au toucher confirmé, mais pas de durée en secondes ; rôle protecteur contre les insectes herbivores (étude 2022).",
+  "correction": {
+   "contexte": "Il replie vivement ses feuilles au toucher, ce qui le protégerait des insectes herbivores."
+  }
+ },
+ "474": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait : aucune source consultée dans cette session."
+ },
+ "475": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Strelitzia_reginae",
+  "note": "Originaire d'Afrique du Sud ; nom bird of paradise ; spathe en forme de tête et bec d'oiseau, sépales orange."
+ },
+ "476": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Galanthus",
+  "note": "Fleur blanche ; G. nivalis fleurit de janvier à avril, parmi les premiers bulbes ; « perce-neige » car elle sort à travers la neige."
+ },
+ "477": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Gentiana_lutea",
+  "note": "Racine de gentiane jaune utilisée pour des liqueurs amères et apéritifs (Avèze, Salers ; Suze selon https://en.wikipedia.org/wiki/Gentiana). Fleurs bleues d'habitats alpins confirmées par https://en.wikipedia.org/wiki/Gentiana ; forme en trompette non explicitement citée."
+ },
+ "478": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait : aucune source consultée dans cette session."
+ },
+ "479": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait : aucune source consultée dans cette session."
+ },
+ "480": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait : aucune source consultée dans cette session."
+ },
+ "481": {
+  "statut": "non trouvé",
+  "source": "",
+  "note": "Budget de 18 recherches épuisé avant ce fait : aucune source consultée dans cette session."
+ },
+ "482": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Pesto",
+  "note": "Basilic génois, sel, ail, huile d'olive, pignons, fromage râpé (parmesan ou grana, avec pecorino)."
+ },
+ "483": {
+  "statut": "vérifié",
+  "source": "https://en.wikipedia.org/wiki/Flax",
+  "note": "Fibre pour le lin textile ; France 1re productrice mondiale de lin brut ou roui en 2022 (environ 75 %). Fleurs bleues chez le lin cultivé."
+ }
+}
