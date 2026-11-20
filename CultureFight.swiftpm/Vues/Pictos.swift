@@ -71,6 +71,7 @@ enum Pictos {
         case "Mathématiciens": return "📐"
         case "Inventions": return "💡"
         case "Molécules et réactions": return "⚗️"
+        case "Mécanique": return "⚙️"
         default: return Pictos.domaine(domaine)
         }
     }
@@ -151,6 +152,8 @@ enum Pictos {
         case "Cowboy": return "🤠"
         case "Robot": return "🤖"
         case "Minotaure": return "🐃"
+        case "Kung-fu": return "🐉"
+        case "Raptor": return "🦖"
         default: return famille.picto
         }
     }

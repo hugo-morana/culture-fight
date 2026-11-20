@@ -13,12 +13,14 @@ enum Catalogue {
     /// Un combattant commun dont les questions viennent d'une fiche.
     private static func aFiche(id: String, nom: String, style: String, familleStyle: FamilleStyle,
                                specialite: String, famille: String, domaine: String, fiche: String,
-                               apparence: String, questions: String) -> ModeleCombattant {
+                               apparence: String, questions: String,
+                               rarete: Rarete = .commun) -> ModeleCombattant {
         guard let donnees = fiches[fiche] else { fatalError("Fiche « \(fiche) » introuvable dans fiches.json") }
         let spec = Specialite(id: fiche, nom: specialite, famille: famille, domaine: domaine)
+        let rare = rarete == .rare
         return ModeleCombattant(id: id, nom: nom, style: style, familleStyle: familleStyle,
-                                specialite: spec, rarete: .commun,
-                                pvMax: 100, attaque: 50, defense: 0, difficulte: 2,
+                                specialite: spec, rarete: rarete,
+                                pvMax: rare ? 110 : 100, attaque: rare ? 54 : 50, defense: rare ? 4 : 0, difficulte: 2,
                                 apparence: apparence, questions: questions,
                                 generateur: GenerateurFiche(specialite: spec, fiche: donnees))
     }

@@ -1,0 +1,58 @@
+"""Les 6 combattants de la vague 4 (Matière) : fiche, style, monde et histoire.
+
+Ajoutés au catalogue quand leurs 6 fiches sont prêtes : python3 outils/vague4/_integrer.py.
+Même format que outils/vague3/_combattants.py ; « rare » : True pour un combattant Rare (110 PV, 54 Att, 4 Déf).
+"""
+
+COMBATTANTS = [
+    dict(id="alcoolosse", nom="Alcoolosse", style="Colosse", familleStyle="guerriersLourds",
+         specialite="Chimie organique", famille="Molécules et réactions", domaine="Matière",
+         fiche="chimie-organique", generateur=None, difficulte=2,
+         pays="atomie", lieu="Les Alambics de Lavoisierre",
+         apparence="Colosse de cristal ambré dont le corps est traversé de chaînes de molécules à boules noires et blanches, au milieu des alambics.",
+         questions="Chimie organique : carbone, hydrocarbures, alcools, acides, esters et familles de molécules.",
+         histoire="Né d'une goutte d'ambre tombée dans un alambic de Lavoisierre, Alcoolosse est un colosse bâti sur un squelette de carbone. Chaque chaîne de son corps est une molécule qu'il sait nommer. Molécowboy tente de le prendre au lasso ; Caramélusionniste lui emprunte du sucre.",
+         liens=["molecowboy", "caramelusionniste"]),
+    dict(id="caramelusionniste", nom="Caramélusionniste", style="Illusionniste", familleStyle="mages",
+         specialite="Chimie en cuisine", famille="Molécules et réactions", domaine="Matière",
+         fiche="chimie-cuisine", generateur=None, difficulte=2,
+         pays="atomie", lieu="Les Alambics de Lavoisierre",
+         apparence="Pâtissière illusionniste en toque et cape violette, qui fait jaillir d'une casserole de cuivre un phénix de caramel doré, entourée de gâteaux et de macarons.",
+         questions="Chimie en cuisine : Maillard, caramel, levures, émulsions, gélifiants et cuisson.",
+         histoire="Magicienne des cuisines de Lavoisierre, Caramélusionniste transforme le sucre en phénix d'or et la crème en nuage. Elle connaît la réaction cachée derrière chaque recette. Combustibarbare règle la flamme de ses fourneaux ; Alcoolosse lui fournit l'arôme de vanille.",
+         liens=["combustibarbare", "alcoolosse"]),
+    dict(id="newtonfu", nom="Newtonfu", style="Kung-fu", familleStyle="artsMartiaux", rare=True,
+         specialite="Lois de Newton", famille="Mécanique", domaine="Matière",
+         fiche="lois-newton", generateur=None, difficulte=2,
+         pays="atomie", lieu="Les Ateliers de Newtonne",
+         apparence="Maître de kung-fu à perruque bouclée du XVIIe siècle, robe rouge et or brodée de flèches de forces, une pomme qui flotte au-dessus de sa main.",
+         questions="Isaac Newton et ses trois lois du mouvement : inertie, F = ma, action-réaction.",
+         histoire="Grand maître des Ateliers de Newtonne, Newtonfu a fondé son style le jour où une pomme lui est tombée dessus. Chaque coup qu'il porte lui revient avec la même force, et il le sait. Graviking est son élève le plus lourd ; Dynamomie fait la mesure de ses frappes.",
+         liens=["graviking", "dynamomie"]),
+    dict(id="dynamomie", nom="Dynamomie", style="Momie", familleStyle="mortsVivants",
+         specialite="Forces", famille="Mécanique", domaine="Matière",
+         fiche="forces", generateur=None, difficulte=2,
+         pays="atomie", lieu="Les Ateliers de Newtonne",
+         apparence="Momie aux bandelettes tendues comme des ressorts, flèches de forces lumineuses qui tirent dans tous les sens, entre des colonnes à hiéroglyphes.",
+         questions="Les forces : poids, frottements, tension, poussée d'Archimède, ressorts, leviers et pression.",
+         histoire="Réveillée dans une crypte des Ateliers de Newtonne, Dynamomie tient debout grâce à des bandelettes tendues comme des ressorts. Elle mesure chaque force à l'étirement de ses bandes. Radiomomie est sa cousine ; Newtonfu lui demande de peser ses coups.",
+         liens=["radiomomie", "newtonfu"]),
+    dict(id="acceleraptor", nom="Accéléraptor", style="Raptor", familleStyle="creatures",
+         specialite="Vitesse et accélération", famille="Mécanique", domaine="Matière",
+         fiche="vitesse-acceleration", generateur=None, difficulte=2,
+         pays="atomie", lieu="Les Ateliers de Newtonne",
+         apparence="Raptor rayé lancé à pleine vitesse, laissant derrière lui une traînée d'images vertes et des étincelles dorées.",
+         questions="Vitesse et accélération : unités, conversions, records, son, lumière et chute libre.",
+         histoire="Échappé de la Vallée Fossile, Accéléraptor court si vite dans les Ateliers de Newtonne qu'il laisse des copies de lui derrière lui. Il connaît la vitesse de chaque animal et de chaque engin. Judocus ne l'a jamais rattrapé ; Graviking le ralentit à chaque montée.",
+         liens=["judocus", "graviking"]),
+    dict(id="graviking", nom="Graviking", style="Viking", familleStyle="guerriersLourds", rare=True,
+         specialite="Gravitation", famille="Mécanique", domaine="Matière",
+         fiche="gravitation", generateur=None, difficulte=2,
+         pays="atomie", lieu="Les Ateliers de Newtonne",
+         apparence="Viking à tresses blondes et casque à cornes, qui brandit un marteau à tête de météorite autour duquel tournent des planètes.",
+         questions="Gravitation : loi de Newton, pesanteur des astres, orbites, marées, relativité et trous noirs.",
+         histoire="Venu des Fjords de Fer, Graviking a forgé son marteau dans une météorite et fait tourner les planètes autour. Tout ce qu'il lance finit par retomber, sauf ce qu'il met en orbite. Mendéléviking est son frère d'armes ; Newtonfu lui a appris pourquoi la pomme tombe.",
+         liens=["mendeleviking", "newtonfu"]),
+]
+
+assert len(COMBATTANTS) == 6

@@ -60,7 +60,8 @@ def _ajouter_vague2():
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     import vague2
     import vague3
-    for vague in (vague2, vague3):
+    import vague4
+    for vague in (vague2, vague3, vague4):
         for module in vague.modules():
             SOURCES[module.FICHE["id"]] = list(module.SOURCES_GENERALES)
 

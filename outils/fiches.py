@@ -736,7 +736,8 @@ def fusionner_ajouts():
     par_id = {f["id"]: f for f in FICHES}
     import vague2
     import vague3
-    for vague in (vague2, vague3):
+    import vague4
+    for vague in (vague2, vague3, vague4):
         for module in vague.modules():
             FICHES.append(module.FICHE)
     for ajouts in (AJOUTS_VIVANT, AJOUTS_CORPS_TERRE_ARTS):
