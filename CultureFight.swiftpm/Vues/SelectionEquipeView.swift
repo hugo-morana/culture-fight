@@ -1,5 +1,6 @@
 import SwiftUI
 
+/// Composition de l'équipe : 3 places en haut, grille filtrable au milieu, lancement en bas.
 struct SelectionEquipeView: View {
     /// Les combattants de la réserve du joueur, parmi lesquels il compose son équipe.
     let reserve: [ModeleCombattant]
@@ -8,10 +9,16 @@ struct SelectionEquipeView: View {
 
     @State private var choisis: [String] = []
     @State private var niveau: IAAdverse.Niveau = .moyen
-    /// Un exemple de question par combattant, tiré une seule fois à l'ouverture.
-    @State private var exemples: [String: String] = [:]
+    @State private var filtre: String?
+    @State private var recherche = ""
+    @State private var fiche: ModeleCombattant?
+    @State private var depart = false
+    @State private var flash: [String: Int] = [:]
+    /// Dernière équipe lancée, identifiants séparés par des virgules.
+    @AppStorage("derniereEquipe") private var derniereEquipe = ""
 
-    /// Les domaines du catalogue, dans l'ordre où ils apparaissent.
+    private let colonnes = [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)]
+
     private var domaines: [String] {
         var vus: [String] = []
         for modele in reserve where !vus.contains(modele.specialite.domaine) {
@@ -24,130 +31,360 @@ struct SelectionEquipeView: View {
         choisis.compactMap { id in reserve.first { $0.id == id } }
     }
 
+    private var visibles: [ModeleCombattant] {
+        let q = recherche.trimmingCharacters(in: .whitespaces).lowercased()
+        return reserve.filter { m in
+            (filtre == nil || m.specialite.domaine == filtre)
+                && (q.isEmpty || m.nom.lowercased().contains(q) || m.specialite.nom.lowercased().contains(q)
+                    || m.style.lowercased().contains(q))
+        }
+    }
+
+    private var complete: Bool { choisis.count == Regles.tailleEquipe }
+
     var body: some View {
         NavigationStack {
-            List {
-                Section {
-                    Text("Choisis \(Regles.tailleEquipe) combattants parmi \(reserve.count) (\(choisis.count)/\(Regles.tailleEquipe))")
-                        .font(.subheadline.bold())
-                }
-                ForEach(domaines, id: \.self) { domaine in
-                    Section {
-                        ForEach(reserve.filter { $0.specialite.domaine == domaine }) { modele in
-                            Button {
-                                basculer(modele.id)
-                            } label: {
-                                LigneCombattant(modele: modele,
-                                                exemple: exemples[modele.id],
-                                                choisi: choisis.contains(modele.id))
+            ZStack {
+                FondAnime().ignoresSafeArea()
+                VStack(spacing: 10) {
+                    places
+                    resume
+                    filtres
+                    ScrollView {
+                        LazyVGrid(columns: colonnes, spacing: 10) {
+                            ForEach(visibles) { modele in
+                                CarteChoix(modele: modele,
+                                           choisi: choisis.contains(modele.id),
+                                           toucher: { basculer(modele.id) },
+                                           voirFiche: { fiche = modele })
+                                    .scrollTransition(.interactive, axis: .vertical) { carte, phase in
+                                        carte
+                                            .scaleEffect(phase.isIdentity ? 1 : 0.9)
+                                            .opacity(phase.isIdentity ? 1 : 0.6)
+                                            .rotation3DEffect(.degrees(phase.value * -14), axis: (x: 1, y: 0, z: 0))
+                                    }
                             }
-                            .buttonStyle(.plain)
                         }
-                    } header: {
-                        Text("\(Pictos.domaine(domaine)) \(domaine)").font(.nom(15, relativeTo: .subheadline)).foregroundStyle(Charte.or).textCase(nil)
+                        .padding(.horizontal)
+                        .padding(.bottom, 12)
+                        .animation(.spring(duration: 0.45, bounce: 0.25), value: filtre)
+                        .animation(.spring(duration: 0.45, bounce: 0.25), value: recherche)
                     }
-                }
-
-                Section {
-                    Picker("Niveau de l'IA", selection: $niveau) {
-                        ForEach(IAAdverse.Niveau.allCases) { n in
-                            Text(n.rawValue).tag(n)
-                        }
-                    }
-                    .pickerStyle(.segmented)
-                    Text("Enjeu : victoire +\(NiveauCompte.xpVictoire(contre: niveau)) XP · défaite −\(abs(NiveauCompte.xpDefaite(contre: niveau))) XP de compte")
-                        .font(.caption.monospacedDigit())
-                        .foregroundStyle(.secondary)
-                } header: {
-                    Text("Adversaire").font(.nom(15, relativeTo: .subheadline)).foregroundStyle(Charte.or).textCase(nil)
                 }
             }
             .navigationTitle("Ton équipe")
-            .sensoryFeedback(.selection, trigger: choisis)
-            .onAppear {
-                guard exemples.isEmpty else { return }
-                for modele in reserve {
-                    exemples[modele.id] = modele.exempleDeQuestion()
-                }
-            }
+            .navigationBarTitleDisplayMode(.inline)
+            .searchable(text: $recherche, placement: .navigationBarDrawer(displayMode: .automatic),
+                        prompt: "Nom, spécialité ou style")
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Button("Retour", action: retour)
                 }
-            }
-            .safeAreaInset(edge: .bottom) {
-                Button {
-                    lancer(equipe, niveau)
-                } label: {
-                    Text("Lancer le combat")
-                        .font(.titre(19, relativeTo: .headline))
-                        .frame(maxWidth: .infinity)
+                ToolbarItem(placement: .topBarTrailing) {
+                    Menu {
+                        Button("Équipe aléatoire", systemImage: "dice") { aleatoire() }
+                        if !derniereEquipe.isEmpty {
+                            Button("Dernière équipe", systemImage: "clock.arrow.circlepath") { reprendre() }
+                        }
+                        if !choisis.isEmpty {
+                            Button("Vider l'équipe", systemImage: "xmark.circle", role: .destructive) {
+                                withAnimation(.spring(duration: 0.4)) { choisis = [] }
+                            }
+                        }
+                    } label: {
+                        Image(systemName: "wand.and.stars")
+                    }
                 }
-                .buttonStyle(.borderedProminent)
-                .controlSize(.large)
-                .tint(.orange)
-                .disabled(choisis.count != Regles.tailleEquipe)
-                .padding()
-                .background(.bar)
+            }
+            .safeAreaInset(edge: .bottom) { barreLancement }
+            .sensoryFeedback(.selection, trigger: choisis)
+            .sensoryFeedback(.success, trigger: complete) { _, nouveau in nouveau }
+            .sheet(item: $fiche) { modele in FicheCombattantView(modele: modele) }
+        }
+    }
+
+    // MARK: Places
+
+    private var places: some View {
+        ZStack {
+            if Equipe.synergie(equipe) != nil {
+                Capsule()
+                    .fill(Charte.or.opacity(0.9))
+                    .frame(height: 4)
+                    .padding(.horizontal, 40)
+                    .shadow(color: Charte.or, radius: 8)
+                    .phaseAnimator([0.6, 1.0]) { vue, o in vue.opacity(o) } animation: { _ in .easeInOut(duration: 0.9) }
+                    .transition(.opacity)
+            }
+            HStack(spacing: 10) {
+                ForEach(0..<Regles.tailleEquipe, id: \.self) { index in
+                    place(index)
+                }
+            }
+        }
+        .padding(.horizontal)
+        .padding(.top, 6)
+        .scaleEffect(depart ? 0.8 : 1)
+        .offset(y: depart ? -30 : 0)
+        .opacity(depart ? 0 : 1)
+        .animation(.spring(duration: 0.5, bounce: 0.3), value: equipe.map(\.id))
+    }
+
+    @ViewBuilder
+    private func place(_ index: Int) -> some View {
+        let modele = index < equipe.count ? equipe[index] : nil
+        ZStack {
+            RoundedRectangle(cornerRadius: 14)
+                .strokeBorder(modele == nil ? Charte.ivoire.opacity(0.3) : modele!.specialite.couleur,
+                              style: StrokeStyle(lineWidth: modele == nil ? 1.5 : 2.5, dash: modele == nil ? [6, 5] : []))
+                .background(RoundedRectangle(cornerRadius: 14).fill(Charte.marine.opacity(0.75)))
+            if let modele {
+                Button {
+                    basculer(modele.id)
+                } label: {
+                    VStack(spacing: 4) {
+                        Color.clear
+                            .frame(height: 78)
+                            .overlay(alignment: .top) { IllustrationCombattant(modele: modele, taille: 30) }
+                            .clipShape(RoundedRectangle(cornerRadius: 10))
+                        Text(modele.nom)
+                            .font(.nom(12, relativeTo: .caption))
+                            .foregroundStyle(Charte.ivoire)
+                            .lineLimit(1)
+                            .minimumScaleFactor(0.6)
+                        Text("\(modele.familleStyle.picto) \(modele.specialite.pictoDomaine)")
+                            .font(.caption2)
+                    }
+                    .padding(6)
+                }
+                .buttonStyle(.plain)
+                .keyframeAnimator(initialValue: 0.0, trigger: flash[modele.id, default: 0]) { vue, eclat in
+                    vue.overlay(RoundedRectangle(cornerRadius: 14).fill(Charte.or.opacity(eclat)).allowsHitTesting(false))
+                } keyframes: { _ in
+                    LinearKeyframe(0.7, duration: 0.12)
+                    LinearKeyframe(0, duration: 0.5)
+                }
+                .transition(.asymmetric(
+                    insertion: .scale(scale: 0.3).combined(with: .offset(y: 220)).combined(with: .opacity),
+                    removal: .scale(scale: 0.5).combined(with: .opacity)))
+            } else {
+                VStack(spacing: 4) {
+                    Image(systemName: "plus")
+                        .font(.title2)
+                        .foregroundStyle(Charte.ivoire.opacity(0.45))
+                        .symbolEffect(.pulse, isActive: index == equipe.count)
+                    Text("Place libre")
+                        .font(.caption2)
+                        .foregroundStyle(.secondary)
+                }
+            }
+        }
+        .frame(maxWidth: .infinity)
+        .frame(height: 128)
+    }
+
+    // MARK: Résumé de l'équipe
+
+    @ViewBuilder
+    private var resume: some View {
+        let familles = Dictionary(grouping: equipe, by: \.familleStyle)
+        Group {
+            if let synergie = Equipe.synergie(equipe) {
+                Label("Synergie \(synergie.rawValue) : bonus de vitesse \(synergie.effetVitesse.nom) ×2",
+                      systemImage: "sparkles")
+                    .foregroundStyle(Charte.or)
+                    .symbolEffect(.bounce, value: synergie.rawValue)
+            } else if equipe.count == 2, let paire = familles.first(where: { $0.value.count == 2 })?.key {
+                Label("Encore un combattant \(paire.rawValue) \(paire.picto) pour la synergie ×2", systemImage: "link")
+                    .foregroundStyle(Charte.ivoire.opacity(0.85))
+            } else if equipe.isEmpty {
+                Label("Choisis \(Regles.tailleEquipe) combattants. Même famille de styles : bonus ×2.",
+                      systemImage: "hand.tap")
+                    .foregroundStyle(.secondary)
+            } else {
+                Label("Domaines : \(Array(Set(equipe.map(\.specialite.pictoDomaine))).sorted().joined(separator: " ")) · effets : \(Array(Set(equipe.map(\.familleStyle.effetVitesse.nom))).sorted().joined(separator: ", "))",
+                      systemImage: "square.grid.3x3")
+                    .foregroundStyle(Charte.ivoire.opacity(0.85))
+            }
+        }
+        .font(.nom(12, relativeTo: .caption))
+        .lineLimit(2)
+        .minimumScaleFactor(0.8)
+        .padding(.horizontal)
+        .contentTransition(.opacity)
+        .animation(.snappy, value: equipe.map(\.id))
+    }
+
+    // MARK: Filtres
+
+    private var filtres: some View {
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack(spacing: 8) {
+                pastille(nil, "Tous")
+                ForEach(domaines, id: \.self) { d in
+                    pastille(d, "\(Pictos.domaine(d)) \(d)")
+                }
+            }
+            .padding(.horizontal)
+        }
+    }
+
+    private func pastille(_ domaine: String?, _ texte: String) -> some View {
+        let actif = filtre == domaine
+        return Button {
+            withAnimation(.spring(duration: 0.35)) { filtre = domaine }
+        } label: {
+            Text(texte)
+                .font(.nom(13, relativeTo: .caption))
+                .padding(.horizontal, 12)
+                .padding(.vertical, 7)
+                .background(actif ? Charte.or : Charte.marine.opacity(0.7), in: Capsule())
+                .foregroundStyle(actif ? Charte.marine : Charte.ivoire)
+                .overlay(Capsule().stroke(Charte.or.opacity(actif ? 0 : 0.4), lineWidth: 1))
+        }
+        .buttonStyle(.plain)
+        .sensoryFeedback(.selection, trigger: actif)
+    }
+
+    // MARK: Lancement
+
+    private var barreLancement: some View {
+        VStack(spacing: 8) {
+            Picker("Niveau de l'IA", selection: $niveau) {
+                ForEach(IAAdverse.Niveau.allCases) { n in
+                    Text(n.rawValue).tag(n)
+                }
+            }
+            .pickerStyle(.segmented)
+            Text("Enjeu : victoire +\(NiveauCompte.xpVictoire(contre: niveau)) XP · défaite −\(abs(NiveauCompte.xpDefaite(contre: niveau))) XP de compte")
+                .font(.caption.monospacedDigit())
+                .foregroundStyle(.secondary)
+            Button {
+                partir()
+            } label: {
+                Label(complete ? "Combattre" : "Choisis encore \(Regles.tailleEquipe - choisis.count)",
+                      systemImage: complete ? "flame.fill" : "person.badge.plus")
+                    .font(.titre(19, relativeTo: .headline))
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.borderedProminent)
+            .controlSize(.large)
+            .tint(complete ? .orange : .gray)
+            .disabled(!complete)
+            .phaseAnimator(complete ? [1.0, 1.04] : [1.0]) { vue, echelle in
+                vue.scaleEffect(echelle).shadow(color: .orange.opacity(complete ? 0.6 : 0), radius: echelle > 1 ? 14 : 4)
+            } animation: { _ in .easeInOut(duration: 0.7) }
+        }
+        .padding(.horizontal)
+        .padding(.vertical, 10)
+        .background(.ultraThinMaterial)
+    }
+
+    // MARK: Actions
+
+    private func basculer(_ id: String) {
+        withAnimation(.spring(duration: 0.5, bounce: 0.35)) {
+            if let i = choisis.firstIndex(of: id) {
+                choisis.remove(at: i)
+            } else if choisis.count < Regles.tailleEquipe {
+                choisis.append(id)
+                flash[id, default: 0] += 1
             }
         }
     }
 
-    private func basculer(_ id: String) {
-        if let i = choisis.firstIndex(of: id) {
-            choisis.remove(at: i)
-        } else if choisis.count < Regles.tailleEquipe {
-            choisis.append(id)
+    private func aleatoire() {
+        let tirage = Array(reserve.shuffled().prefix(Regles.tailleEquipe)).map(\.id)
+        withAnimation(.spring(duration: 0.5, bounce: 0.35)) {
+            choisis = []
+        }
+        for (i, id) in tirage.enumerated() {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.15 + 0.18 * Double(i)) { basculer(id) }
+        }
+    }
+
+    private func reprendre() {
+        let ids = derniereEquipe.split(separator: ",").map(String.init).filter { id in reserve.contains { $0.id == id } }
+        withAnimation(.spring(duration: 0.5, bounce: 0.35)) { choisis = [] }
+        for (i, id) in ids.prefix(Regles.tailleEquipe).enumerated() {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.15 + 0.18 * Double(i)) { basculer(id) }
+        }
+    }
+
+    private func partir() {
+        guard complete else { return }
+        derniereEquipe = choisis.joined(separator: ",")
+        let equipeLancee = equipe
+        let niveauLance = niveau
+        withAnimation(.spring(duration: 0.45, bounce: 0.2)) { depart = true }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.45) {
+            lancer(equipeLancee, niveauLance)
         }
     }
 }
 
-struct LigneCombattant: View {
+/// Carte d'un combattant dans la grille de composition.
+struct CarteChoix: View {
     let modele: ModeleCombattant
-    let exemple: String?
     let choisi: Bool
+    let toucher: () -> Void
+    let voirFiche: () -> Void
 
     var body: some View {
-        HStack(alignment: .top, spacing: 12) {
-            Avatar(modele: modele, taille: 64)
+        Button(action: toucher) {
             VStack(alignment: .leading, spacing: 4) {
-                Text(modele.nom).font(.nom(18))
+                Color.clear
+                    .frame(height: 110)
+                    .overlay(alignment: .top) { IllustrationCombattant(modele: modele, taille: 34) }
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
+                    .overlay(alignment: .topLeading) {
+                        PastillePicto(picto: modele.familleStyle.picto, taille: 24).padding(5)
+                    }
+                Text(modele.nom)
+                    .font(.nom(15, relativeTo: .subheadline))
+                    .foregroundStyle(Charte.ivoire)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.6)
                 Text(modele.sousTitre)
-                    .font(.nom(14, relativeTo: .subheadline))
+                    .font(.caption2)
                     .foregroundStyle(.secondary)
-                Text("\(modele.classement) · \(modele.type)")
-                    .font(.nom(12, relativeTo: .caption))
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.7)
+                Label(modele.familleStyle.effetVitesse.nom, systemImage: "hare.fill")
+                    .font(.nom(11, relativeTo: .caption2))
                     .foregroundStyle(modele.specialite.couleur)
-                    .fixedSize(horizontal: false, vertical: true)
-                Text("\(modele.rarete.rawValue) · PV \(modele.pvMax) · Att \(modele.attaque) · Déf \(modele.defense)")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                Text(modele.apparence)
-                    .font(.system(.caption, design: .serif))
-                    .italic()
-                    .fixedSize(horizontal: false, vertical: true)
-                Text("Questions : \(modele.questions)")
-                    .font(.caption)
-                    .fixedSize(horizontal: false, vertical: true)
-                Text("Bonus de vitesse (\(modele.familleStyle.effetVitesse.nom)) : \(modele.familleStyle.effetVitesse.description)")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                    .fixedSize(horizontal: false, vertical: true)
-                if let exemple {
-                    Text("Exemple : « \(exemple) »")
-                        .font(.caption.weight(.semibold))
-                        .foregroundStyle(modele.specialite.couleur)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
             }
-            Spacer()
-            Image(systemName: choisi ? "checkmark.circle.fill" : "circle")
-                .font(.title2)
-                .foregroundStyle(choisi ? Color.orange : Color.secondary)
-                .contentTransition(.symbolEffect(.replace))
-                .symbolEffect(.bounce, value: choisi)
+            .padding(8)
+            .background(Charte.marine.opacity(0.8), in: RoundedRectangle(cornerRadius: 14))
+            .overlay(RoundedRectangle(cornerRadius: 14)
+                .stroke(choisi ? Charte.or : modele.specialite.couleur.opacity(0.5), lineWidth: choisi ? 2.5 : 1))
+            .overlay(alignment: .topTrailing) {
+                ZStack {
+                    if choisi {
+                        Image(systemName: "checkmark.circle.fill")
+                            .font(.title2)
+                            .foregroundStyle(Charte.marine, Charte.or)
+                            .transition(.scale.combined(with: .opacity))
+                    } else {
+                        Button(action: voirFiche) {
+                            Image(systemName: "info.circle.fill")
+                                .font(.title3)
+                                .foregroundStyle(Charte.ivoire.opacity(0.85), Charte.marine.opacity(0.6))
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+                .padding(6)
+            }
+            .opacity(choisi ? 0.55 : 1)
+            .scaleEffect(choisi ? 0.96 : 1)
         }
-        .contentShape(Rectangle())
-        .padding(.vertical, 4)
+        .buttonStyle(.plain)
+        .animation(.spring(duration: 0.4, bounce: 0.4), value: choisi)
+        .contextMenu {
+            Button("Voir la fiche", systemImage: "doc.text.magnifyingglass", action: voirFiche)
+            Button(choisi ? "Retirer de l'équipe" : "Ajouter à l'équipe",
+                   systemImage: choisi ? "minus.circle" : "plus.circle", action: toucher)
+        }
     }
 }

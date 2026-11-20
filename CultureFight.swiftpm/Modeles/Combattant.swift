@@ -70,6 +70,9 @@ struct Camp: Sendable {
     }
 
     var actif: CombattantEnJeu { combattants[indexActif] }
+
+    /// La famille de styles partagée par toute l'équipe (3 combattants), si c'est le cas.
+    var synergie: FamilleStyle? { Equipe.synergie(combattants.map(\.modele)) }
     var estElimine: Bool { combattants.allSatisfy(\.estKO) }
     var pvTotal: Int { combattants.reduce(0) { $0 + max(0, $1.pv) } }
     var nombreKO: Int { combattants.filter(\.estKO).count }
@@ -78,5 +81,15 @@ struct Camp: Sendable {
     mutating func remplacerSiKO() {
         guard actif.estKO, let suivant = combattants.firstIndex(where: { !$0.estKO }) else { return }
         indexActif = suivant
+    }
+}
+
+/// Règles de composition d'équipe partagées par l'écran de sélection et le combat.
+enum Equipe {
+    /// La famille de styles commune à une équipe complète de 3 combattants, sinon nil.
+    static func synergie(_ modeles: [ModeleCombattant]) -> FamilleStyle? {
+        guard modeles.count == Regles.tailleEquipe, let premiere = modeles.first?.familleStyle,
+              modeles.allSatisfy({ $0.familleStyle == premiere }) else { return nil }
+        return premiere
     }
 }

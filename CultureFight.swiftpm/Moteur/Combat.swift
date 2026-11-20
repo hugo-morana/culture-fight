@@ -111,27 +111,31 @@ struct Combat: Sendable {
             // Bonus de vitesse : son effet dépend de la famille de styles de celui qui a répondu.
             var multiplicateurVitesse = 1.0
             var casesEnPlus = 0
+            // Synergie d'équipe : 3 combattants de la même famille de styles doublent le bonus.
+            let k = camps[d].synergie == def.modele.familleStyle ? 2 : 1
+            let mention = k == 2 ? " (synergie ×2)" : ""
             if vitesse != .normale {
                 switch def.modele.familleStyle.effetVitesse {
                 case .contreAttaque:
-                    multiplicateurVitesse = eclair ? 1.5 : 1.25
-                    effetVitesse = "\(vitesse.nom) Contre-attaque +\(eclair ? 50 : 25) %"
+                    let bonus = (eclair ? 50 : 25) * k
+                    multiplicateurVitesse = 1 + Double(bonus) / 100
+                    effetVitesse = "\(vitesse.nom) Contre-attaque +\(bonus) %\(mention)"
                 case .soin:
-                    let soin = eclair ? 15 : 8
+                    let soin = (eclair ? 15 : 8) * k
                     let avant = camps[d].combattants[id].pv
                     camps[d].combattants[id].pv = min(def.modele.pvMax, avant + soin)
-                    effetVitesse = "\(vitesse.nom) \(def.modele.nom) regagne \(camps[d].combattants[id].pv - avant) PV"
+                    effetVitesse = "\(vitesse.nom) \(def.modele.nom) regagne \(camps[d].combattants[id].pv - avant) PV\(mention)"
                 case .bouclier:
-                    let bouclier = eclair ? 0.3 : 0.15
+                    let bouclier = (eclair ? 0.3 : 0.15) * Double(k)
                     camps[d].combattants[id].bouclier = max(camps[d].combattants[id].bouclier, bouclier)
-                    effetVitesse = "\(vitesse.nom) Bouclier : sa prochaine erreur coûtera \(Int(bouclier * 100)) % de PV en moins"
+                    effetVitesse = "\(vitesse.nom) Bouclier : sa prochaine erreur coûtera \(Int(bouclier * 100)) % de PV en moins\(mention)"
                 case .savoir:
-                    casesEnPlus = eclair ? 2 : 1
-                    effetVitesse = "\(vitesse.nom) Jauge de Savoir +\(casesEnPlus) case\(casesEnPlus > 1 ? "s" : "") en plus"
+                    casesEnPlus = (eclair ? 2 : 1) * k
+                    effetVitesse = "\(vitesse.nom) Jauge de Savoir +\(casesEnPlus) case\(casesEnPlus > 1 ? "s" : "") en plus\(mention)"
                 case .pression:
-                    let malus = eclair ? 4.0 : 2.0
+                    let malus = (eclair ? 4.0 : 2.0) * Double(k)
                     malusTemps[a] = malus
-                    effetVitesse = "\(vitesse.nom) Pression : l'adversaire aura \(Int(malus)) s de moins à sa prochaine réponse"
+                    effetVitesse = "\(vitesse.nom) Pression : l'adversaire aura \(Int(malus)) s de moins à sa prochaine réponse\(mention)"
                 }
             }
 
