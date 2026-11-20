@@ -23,6 +23,24 @@ enum Catalogue {
                                 generateur: GenerateurFiche(specialite: spec, fiche: donnees))
     }
 
+    /// Un combattant commun dont les questions viennent d'un générateur (calcul, éléments…).
+    private static func aGenerateur(id: String, nom: String, style: String, familleStyle: FamilleStyle,
+                                    specialite: String, famille: String, domaine: String, idSpecialite: String,
+                                    difficulte: Int, apparence: String, questions: String,
+                                    generateur: (Specialite) -> any GenerateurQuestions) -> ModeleCombattant {
+        let spec = Specialite(id: idSpecialite, nom: specialite, famille: famille, domaine: domaine)
+        return ModeleCombattant(id: id, nom: nom, style: style, familleStyle: familleStyle,
+                                specialite: spec, rarete: .commun,
+                                pvMax: 100, attaque: 50, defense: 0, difficulte: difficulte,
+                                apparence: apparence, questions: questions,
+                                generateur: generateur(spec))
+    }
+
+    /// Éléments d'une famille du tableau, par numéro atomique.
+    private static func elementsNumeros(_ numeros: [Int]) -> [ElementChimique] {
+        elements.filter { numeros.contains($0.numero) }
+    }
+
     /// Questions sur les éléments (nom, symbole, numéro) complétées par une fiche de culture.
     private static func elementsEtFiche(_ specialite: Specialite, selection: [ElementChimique],
                                         difficulte: Int, fiche: String) -> GenerateurMixte {

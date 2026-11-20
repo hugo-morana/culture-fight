@@ -19,7 +19,10 @@ from sources import FICHES_ANTERIEURES
 MINIMUM = 60
 # Fiches qui complètent un autre générateur : nombre de questions que ce générateur apporte déjà
 # (GenerateurElements : 6 éléments × 3 formes pour Néonja et Iodiateur).
-COMPLEMENTS = {"gaz-nobles": 18, "halogenes": 18}
+COMPLEMENTS = {"gaz-nobles": 18, "halogenes": 18,
+               # vague 3 : générateur d'éléments (nom, symbole, numéro) + fiche
+               "metaux-alcalins": 18, "alcalino-terreux": 18, "metalloides": 18,
+               "lanthanides": 45, "actinides": 45}
 
 
 def rel(modele, explication, paires, inverse=None):
@@ -732,8 +735,10 @@ def fusionner_ajouts():
     """Ajoute aux fiches les relations et questions des fichiers ajouts_*.py."""
     par_id = {f["id"]: f for f in FICHES}
     import vague2
-    for module in vague2.modules():
-        FICHES.append(module.FICHE)
+    import vague3
+    for vague in (vague2, vague3):
+        for module in vague.modules():
+            FICHES.append(module.FICHE)
     for ajouts in (AJOUTS_VIVANT, AJOUTS_CORPS_TERRE_ARTS):
         for id_fiche, contenu in ajouts.items():
             if id_fiche not in par_id:

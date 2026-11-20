@@ -16,7 +16,7 @@ struct ElementChimique: Decodable, Sendable {
 /// Questions sur une sélection d'éléments (gaz nobles, halogènes, tous les éléments…).
 struct GenerateurElements: GenerateurQuestions {
     enum Forme: Sendable {
-        case nomDuSymbole, symboleDuNom, numeroAtomique
+        case nomDuSymbole, symboleDuNom, numeroAtomique, nomDuNumero
     }
 
     let specialite: Specialite
@@ -69,6 +69,14 @@ struct GenerateurElements: GenerateurQuestions {
                         enonce: "Quel est le symbole de l'élément « \(e.nom) » ?",
                         bonne: e.symbole,
                         distracteurs: autres.map(\.symbole),
+                        difficulte: difficulte,
+                        explication: explication)
+        case .nomDuNumero:
+            return .qcm(id: "el-nomnum-\(e.numero)",
+                        specialite: specialite,
+                        enonce: "Quel élément a le numéro atomique \(e.numero) ?",
+                        bonne: e.nom,
+                        distracteurs: autres.map(\.nom),
                         difficulte: difficulte,
                         explication: explication)
         case .numeroAtomique:
