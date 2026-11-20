@@ -49,6 +49,9 @@ struct ContentView: View {
         switch ecran {
         case .accueil:
             AccueilView(pieces: joueur.pieces,
+                        niveau: joueur.niveauCompte,
+                        xp: joueur.xpCompte,
+                        seuil: joueur.seuilNiveauSuivant,
                         combattre: { ecran = .selection },
                         collection: { ecran = .collection })
         case .collection:
@@ -72,6 +75,9 @@ struct ContentView: View {
 
 struct AccueilView: View {
     let pieces: Int
+    let niveau: Int
+    let xp: Int
+    let seuil: Int
     let combattre: () -> Void
     let collection: () -> Void
 
@@ -87,14 +93,17 @@ struct AccueilView: View {
 
     private var contenu: some View {
         VStack(spacing: 24) {
-            HStack {
-                Spacer()
+            HStack(alignment: .center) {
+                JaugeNiveau(niveau: niveau, xp: xp, seuil: seuil)
+                Spacer(minLength: 8)
                 Label("\(pieces) Pièces", systemImage: "dollarsign.circle.fill")
                     .font(.headline.monospacedDigit())
                     .foregroundStyle(.yellow)
                     .padding(.horizontal, 14)
                     .padding(.vertical, 8)
                     .background(.ultraThinMaterial, in: Capsule())
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.7)
                     .accessibilityLabel("\(pieces) Pièces")
             }
             .opacity(apparu ? 1 : 0)

@@ -164,4 +164,9 @@ final class CombatController {
         default: return 25
         }
     }
+
+    /// XP de compte gagnée : +10 par combat terminé, +20 de plus en cas de victoire.
+    var xpCompteGagnee: Int {
+        NiveauCompte.xpCombat + (combat.vainqueur == 0 ? NiveauCompte.xpVictoire : 0)
+    }
 }

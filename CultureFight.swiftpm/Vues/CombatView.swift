@@ -101,6 +101,7 @@ struct CombatView: View {
             VueFin(titre: controleur.titreFin,
                    victoire: controleur.estVictoire,
                    pieces: controleur.piecesGagnees,
+                   xp: controleur.xpCompteGagnee,
                    rejouer: rejouer,
                    accueil: accueil)
         }
@@ -405,6 +406,7 @@ struct VueFin: View {
     let titre: String
     let victoire: Bool
     let pieces: Int
+    let xp: Int
     let rejouer: () -> Void
     let accueil: () -> Void
 
@@ -427,6 +429,11 @@ struct VueFin: View {
                 .font(.title3.monospacedDigit())
                 .foregroundStyle(.yellow)
                 .contentTransition(.numericText(value: Double(piecesAffichees)))
+            Label("+\(xp) XP", systemImage: "star.circle.fill")
+                .font(.headline.monospacedDigit())
+                .foregroundStyle(Charte.ivoire)
+                .opacity(apparu ? 1 : 0)
+                .animation(.easeOut(duration: 0.6).delay(0.9), value: apparu)
             Button(action: rejouer) {
                 Text("Rejouer").font(.titre(19, relativeTo: .headline)).frame(maxWidth: .infinity)
             }

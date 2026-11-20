@@ -85,6 +85,14 @@ enregistrés une seule fois ; un abandon compte comme une défaite, sans Pièces
 quand elle passe en arrière-plan. Toutes les propriétés ont une valeur par défaut, pour que SwiftData
 puisse ajouter un champ dans une version suivante sans perdre la sauvegarde.
 
+### Niveau de compte et ligue
+
+En haut à gauche de l'accueil, un écusson aux couleurs de la ligue porte le niveau de compte, avec une
+barre vers le niveau suivant (`Modeles/NiveauCompte.swift`). Un combat terminé rapporte 10 XP de compte,
+plus 20 en cas de victoire ; un abandon ne rapporte rien. Passer au niveau suivant demande 100 × niveau
+actuel. En attendant le classement Glicko-2, la ligue suit le niveau : Bronze (1 à 4), Argent (5 à 9),
+Or (10 à 14), Platine (15 à 19), Savant (20 et plus).
+
 Pendant le prototype, `Sauvegarde.toutOffertPendantLePrototype` offre tout le catalogue (y compris les
 combattants ajoutés dans une version suivante). Quand la boutique arrivera, le passer à `false` : un
 nouveau joueur ne recevra plus que les 3 Communs de `Sauvegarde.reserveDeDepart`.

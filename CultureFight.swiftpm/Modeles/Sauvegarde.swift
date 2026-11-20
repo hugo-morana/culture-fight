@@ -11,6 +11,8 @@ import SwiftData
 final class Joueur {
     var pieces: Int = 0
     var niveauCompte: Int = 1
+    /// XP de compte réunie depuis le dernier passage de niveau.
+    var xpCompte: Int = 0
     var combatsJoues: Int = 0
     var victoires: Int = 0
     var defaites: Int = 0
@@ -118,6 +120,7 @@ enum Sauvegarde {
         default: joueur.nuls += 1
         }
         joueur.pieces += controleur.piecesGagnees
+        joueur.gagnerXPCompte(controleur.xpCompteGagnee)
         enregistrer(contexte)
     }
 
