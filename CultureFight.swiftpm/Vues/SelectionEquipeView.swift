@@ -101,6 +101,7 @@ struct SelectionEquipeView: View {
             }
             .safeAreaInset(edge: .bottom) { barreLancement }
             .sensoryFeedback(.selection, trigger: choisis)
+            .onChange(of: choisis) { _, _ in ServiceSons.partage.jouer(.selection) }
             .sensoryFeedback(.success, trigger: complete) { _, nouveau in nouveau }
             .sheet(item: $fiche) { modele in FicheCombattantView(modele: modele) }
         }

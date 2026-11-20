@@ -232,6 +232,9 @@ struct SequenceEvolution: View {
             }
         }
         .sensoryFeedback(.success, trigger: phase)
+        .onChange(of: phase) { _, nouvelle in
+            if nouvelle == 1 { ServiceSons.partage.jouer(.evolution) }
+        }
     }
 
     private var carte: some View {

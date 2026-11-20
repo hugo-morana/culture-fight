@@ -87,9 +87,12 @@ struct MentionsLegalesView: View {
                     }
                 }
 
-                CarteFiche(titre: "Musiques", icone: "music.note", accent: .orange) {
-                    TexteFiche(texte: "Thème Intro, thème principal et thème de combat créés pour "
-                               + "Culture Fight par Hugo Morana avec Suno.")
+                CarteFiche(titre: "Musiques et bruitages", icone: "music.note", accent: .orange) {
+                    VStack(alignment: .leading, spacing: 6) {
+                        TexteFiche(texte: "Thème Intro, thème principal et thème de combat créés pour "
+                                   + "Culture Fight par Hugo Morana avec Suno.")
+                        TexteFiche(texte: "Bruitages : Kenney (www.kenney.nl), domaine public (CC0).")
+                    }
                 }
 
                 CarteFiche(titre: "Icônes", icone: "star.circle.fill", accent: .yellow) {

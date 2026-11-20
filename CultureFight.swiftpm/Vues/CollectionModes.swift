@@ -155,6 +155,7 @@ struct PaquetCollection: View {
         .padding(.vertical)
         .sensoryFeedback(.impact(weight: .light), trigger: haut)
         .sensoryFeedback(.selection, trigger: retournee)
+        .onChange(of: retournee) { _, _ in ServiceSons.partage.jouer(.carte) }
         .onChange(of: groupes.map(\.id)) { _, titres in
             if let groupeChoisi, !titres.contains(groupeChoisi) { self.groupeChoisi = nil }
         }

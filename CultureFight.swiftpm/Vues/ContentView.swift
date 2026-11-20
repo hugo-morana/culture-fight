@@ -40,6 +40,7 @@ struct ContentView: View {
         }
         .onAppear {
             if joueur == nil { joueur = Sauvegarde.joueur(dans: contexte) }
+            ServiceSons.partage.precharger()
         }
         .onChange(of: scenePhase) { _, phase in
             if phase != .active { Sauvegarde.enregistrer(contexte) }
@@ -351,6 +352,9 @@ struct BoutonCoffre: View {
             }
         }
         .sensoryFeedback(.success, trigger: gain)
+        .onChange(of: gain) { _, nouveau in
+            if nouveau != nil { ServiceSons.partage.jouer(.pieces) }
+        }
     }
 
     /// « 3 h 05 min », « 12 min 40 s ».

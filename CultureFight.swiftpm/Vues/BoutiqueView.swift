@@ -49,6 +49,7 @@ struct BoutiqueView: View {
             }
             .onReceive(horloge) { maintenant = $0 }
             .sensoryFeedback(.success, trigger: fete)
+            .onChange(of: fete) { _, _ in ServiceSons.partage.jouer(.achat) }
             .confirmationDialog(titreConfirmation, isPresented: Binding(
                 get: { aConfirmer != nil }, set: { if !$0 { aConfirmer = nil } }), titleVisibility: .visible) {
                 if let choix = aConfirmer {

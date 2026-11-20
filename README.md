@@ -28,6 +28,7 @@ iOS 17 minimum.
 | `Moteur/IAAdverse.swift` | L'adversaire : taux de réussite selon son niveau et la difficulté |
 | `Moteur/CombatController.swift` | Chronomètre, réponse de l'IA, enchaînement des tours |
 | `Moteur/ServiceAudio.swift` | Musiques : thème Intro puis principal hors combat, thème de combat (voir « Musiques ») |
+| `Moteur/ServiceSons.swift` | Bruitages (voir « Bruitages ») |
 | `Vues/` | Accueil, choix de l'équipe, écran de combat, collection (`CollectionView.swift`, `CollectionModes.swift`) |
 | `Resources/` | `elements.json` (118 éléments), `pays_afrique.json` (54 pays et capitales) ; `Sons/` : les 3 musiques |
 
@@ -216,3 +217,37 @@ les conditions de Suno en autorisent l'usage commercial. Les fichiers d'origine 
 160 kbit/s pour iOS, en gardant la marque de provenance de Suno dans leurs métadonnées (obligatoire, à ne pas
 retirer). Commande : `ffmpeg -i source.m4a -map 0:a -map_metadata 0 -c:a aac -b:a 160k -ar 44100
 -movflags +faststart+use_metadata_tags musique-<nom>.m4a`.
+
+## Bruitages
+
+`Moteur/ServiceSons.swift` joue les bruitages : deux lecteurs préchargés par son, réglage **Effets sonores**
+dans le profil (clé `effetsActifs`). En combat, `CombatController` joue la question, la réponse du joueur
+(bonne, mauvaise, temps écoulé), l'Éclair, la jauge de Savoir, le tic des 5 dernières secondes, puis l'impact,
+le bouclier, le soin et le K.O. au moment où l'animation touche (`TempsAttaque.arrivee`). Les vues jouent le
+choix d'un combattant, la carte retournée, les Pièces du coffre, l'achat et l'évolution.
+
+Les sons d'attaque des 10 familles de styles seront générés avec ElevenLabs (onglet « Bruitages » de la feuille
+« Culture Fight — Musiques »).
+
+| Fichier (`Resources/Sons/`) | Moment | Origine (Kenney, CC0) |
+| --- | --- | --- |
+| `son-selection.wav` | Choix d'un combattant | Interface Sounds, `select_001` |
+| `son-carte.wav` | Carte retournée (collection) | Casino Audio, `cardSlide1` |
+| `son-question.wav` | Nouvelle question | RPG Audio, `book_flip_2` |
+| `son-bonne-reponse.wav` | Bonne réponse | Interface Sounds, `confirmation_002` |
+| `son-mauvaise-reponse.wav` | Mauvaise réponse | Interface Sounds, `error_006` |
+| `son-temps-ecoule.wav` | Temps écoulé | Interface Sounds, `error_003` |
+| `son-tic.wav` | Chrono, 5 dernières secondes | Interface Sounds, `tick_004` |
+| `son-eclair.wav` | Réponse Éclair | Digital Audio, `power_up_1` |
+| `son-jauge.wav` | Jauge de Savoir pleine | Digital Audio, `three_tone_1` |
+| `son-impact.wav` | Dégâts | Impact Sounds, `impact_punch_medium_000` |
+| `son-bouclier.wav` | Dégâts absorbés | Impact Sounds, `impact_metal_medium_000` |
+| `son-ko.wav` | K.O. | Impact Sounds, `impact_punch_heavy_000` |
+| `son-soin.wav` | PV regagnés | Interface Sounds, `maximize_006` |
+| `son-objet.wav` | Objet utilisé | Digital Audio, `pep_sound_1` |
+| `son-pieces.wav` | Pièces du coffre | RPG Audio, `handle_coins` |
+| `son-achat.wav` | Achat en boutique | Casino Audio, `chipsStack1` |
+| `son-evolution.wav` | Évolution révélée | Digital Audio, `phaser_up_1` |
+
+Les packs Kenney sont sous licence CC0 (domaine public) : usage commercial libre, sans crédit obligatoire
+(un crédit figure quand même dans les Mentions légales). Fichiers convertis en WAV mono 44,1 kHz.

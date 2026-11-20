@@ -482,9 +482,10 @@ struct CarteCollectionProfil: View {
 
 // MARK: - Réglages du son
 
-/// Réglage « Musique » (thème principal et thème de combat), mémorisé sur l'appareil.
+/// Réglages « Musique » (thèmes) et « Effets » (bruitages), mémorisés sur l'appareil.
 struct CarteReglagesSon: View {
     @AppStorage(ServiceAudio.cleMusique) private var musique = true
+    @AppStorage(ServiceSons.cleEffets) private var effets = true
 
     var body: some View {
         CarteFiche(titre: "Son", icone: "speaker.wave.2.fill", accent: Charte.or) {
@@ -493,12 +494,19 @@ struct CarteReglagesSon: View {
                     Label("Musique", systemImage: "music.note")
                 }
                 .tint(Charte.or)
-                TexteFiche(texte: "La musique se coupe aussi quand l'iPhone est en mode silencieux "
-                           + "ou quand vous écoutez déjà votre propre musique.")
+                Toggle(isOn: $effets) {
+                    Label("Effets sonores", systemImage: "speaker.wave.1")
+                }
+                .tint(Charte.or)
+                TexteFiche(texte: "Le son se coupe aussi quand l'iPhone est en mode silencieux "
+                           + "ou, pour la musique, quand vous écoutez déjà la vôtre.")
             }
         }
         .onChange(of: musique) { _, _ in
             ServiceAudio.partage.reglageModifie()
+        }
+        .onChange(of: effets) { _, actif in
+            if actif { ServiceSons.partage.jouer(.selection) }
         }
     }
 }

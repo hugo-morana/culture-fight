@@ -160,6 +160,7 @@ final class CombatController {
         }
         messageObjet = message
         compteurObjets += 1
+        ServiceSons.partage.jouer(.objet)
     }
 
     // MARK: - Déroulé
@@ -184,6 +185,9 @@ final class CombatController {
         tempsTotal = max(Regles.tempsMin, Regles.tempsReponse + tirage.affinite.bonusTemps + bonusEquipement - malusTemps)
         tempsRestant = tempsTotal
         phase = .question
+        ServiceSons.partage.jouer(.question)
+        let joueurReponds = !combat.camps[combat.defenseur].estIA
+        let secondesInitiales = Int(tempsTotal.rounded(.up))
 
         let reponseIA: Int? = combat.camps[combat.defenseur].estIA
             ? ia.repondre(question: tirage.question, affinite: tirage.affinite, retires: tirage.retires)
@@ -193,11 +197,18 @@ final class CombatController {
         debutQuestion = debut
 
         tache = Task { [weak self] in
+            var dernierTic = secondesInitiales
             while !Task.isCancelled {
                 try? await Task.sleep(for: .milliseconds(100))
                 guard let self, !Task.isCancelled else { return }
                 let ecoule = Date().timeIntervalSince(debut)
                 self.tempsRestant = max(0, self.tempsTotal - ecoule)
+                // Tic du chrono sur les 5 dernières secondes, quand c'est le joueur qui répond.
+                let seconde = Int(self.tempsRestant.rounded(.up))
+                if joueurReponds, seconde < dernierTic, seconde <= 5, seconde > 0 {
+                    ServiceSons.partage.jouer(.tic)
+                }
+                dernierTic = seconde
                 if let reponseIA, ecoule >= delaiIA {
                     self.valider(reponseIA)
                     return
@@ -240,6 +251,25 @@ final class CombatController {
             }
         }
         phase = .resultat(resultat)
+        jouerSons(resultat, joueurDefend: joueurDefend)
+    }
+
+    /// Bruitages d'un tour : la réponse du joueur tout de suite, puis l'impact au moment où
+    /// l'animation d'attaque touche (`TempsAttaque.arrivee`).
+    private func jouerSons(_ resultat: ResultatTour, joueurDefend: Bool) {
+        let sons = ServiceSons.partage
+        if joueurDefend {
+            if resultat.reponse == nil { sons.jouer(.tempsEcoule) }
+            else if resultat.correct { sons.jouer(.bonneReponse) }
+            else { sons.jouer(.mauvaiseReponse) }
+            if resultat.correct, resultat.vitesse == .eclair { sons.jouer(.eclair, apres: 0.25) }
+            if resultat.jaugeRemplie { sons.jouer(.jauge, apres: 0.5) }
+        }
+        let arrivee = TempsAttaque.arrivee
+        if resultat.degatsAbsorbes > 0 { sons.jouer(.bouclier, apres: arrivee) }
+        if resultat.degatsDefenseur > 0 || resultat.degatsContre > 0 { sons.jouer(.impact, apres: arrivee) }
+        if variations.contains(where: { $0 > 0 }) { sons.jouer(.soin, apres: arrivee) }
+        if resultat.koDefenseur || resultat.koAttaquant { sons.jouer(.ko, apres: arrivee + 0.15) }
     }
 
     /// PV du combattant actif d'un camp (ou de celui d'un index donné), pour mesurer ce qu'il a gagné ou perdu.
