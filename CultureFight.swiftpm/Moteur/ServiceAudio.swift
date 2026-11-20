@@ -52,6 +52,18 @@ final class ServiceAudio: NSObject, AVAudioPlayerDelegate {
 
     func reglageModifie() { appliquer() }
 
+    /// Baisse la musique de combat le temps d'un jingle de fin de combat, puis la remet.
+    func attenuer(pendant duree: Double) {
+        guard let lecteur = lecteurCombat, lecteur.isPlaying else { return }
+        let numero = ordre
+        lecteur.setVolume(0.12, fadeDuration: 0.3)
+        Task { @MainActor [weak self] in
+            try? await Task.sleep(for: .seconds(duree))
+            guard let self, self.ordre == numero, self.ambiance == .combat else { return }
+            lecteur.setVolume(Self.volumeCombat, fadeDuration: 1.0)
+        }
+    }
+
     func premierPlan(_ actif: Bool) {
         auPremierPlan = actif
         if actif {

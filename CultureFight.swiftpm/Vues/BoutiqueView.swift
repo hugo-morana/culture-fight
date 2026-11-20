@@ -49,7 +49,6 @@ struct BoutiqueView: View {
             }
             .onReceive(horloge) { maintenant = $0 }
             .sensoryFeedback(.success, trigger: fete)
-            .onChange(of: fete) { _, _ in ServiceSons.partage.jouer(.achat) }
             .confirmationDialog(titreConfirmation, isPresented: Binding(
                 get: { aConfirmer != nil }, set: { if !$0 { aConfirmer = nil } }), titleVisibility: .visible) {
                 if let choix = aConfirmer {
@@ -201,7 +200,16 @@ struct BoutiqueView: View {
     private func acheter(_ article: Boutique.Article, offre: Bool) {
         let resultat = Boutique.acheter(article, offreDuJour: offre, joueur: joueur, dans: contexte)
         dernierAchat = resultat
-        if case .refuse = resultat { return }
+        switch resultat {
+        case .refuse:
+            ServiceSons.partage.jouer(.erreur)
+            return
+        case .nouveauCombattant:
+            ServiceSons.partage.jouer(.achat)
+            ServiceSons.partage.jouer(.nouveauCombattant, apres: 0.3)
+        default:
+            ServiceSons.partage.jouer(.achat)
+        }
         fete += 1
     }
 

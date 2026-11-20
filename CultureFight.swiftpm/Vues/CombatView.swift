@@ -485,6 +485,19 @@ struct VueResultat: View {
 // MARK: - Fin
 
 struct VueFin: View {
+    /// Jingle du résultat, Pièces qui défilent, puis montée de niveau s'il y en a une.
+    private func jouerSonsDeFin() {
+        let sons = ServiceSons.partage
+        if ServiceSons.effetsActifs { ServiceAudio.partage.attenuer(pendant: 3.8) }
+        if victoire { sons.jouer(.victoire) }
+        else if titre == "Match nul" { sons.jouer(.nul) }
+        else { sons.jouer(.defaite) }
+        if bilan.pieces > 0 { sons.jouer(.pieces, apres: 0.5) }
+        if niveauxCompteGagnes > 0 || niveauxGagnes.values.contains(where: { $0 > 0 }) {
+            sons.jouer(.niveau, apres: 1.8)
+        }
+    }
+
     let titre: String
     let victoire: Bool
     let bilan: BilanCombat
@@ -537,6 +550,7 @@ struct VueFin: View {
         .sensoryFeedback(victoire ? .success : .warning, trigger: apparu)
         .onAppear {
             apparu = true
+            jouerSonsDeFin()
             withAnimation(.easeOut(duration: 1.2).delay(0.3)) {
                 piecesAffichees = bilan.pieces
             }

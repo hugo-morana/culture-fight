@@ -49,6 +49,25 @@ struct ContentView: View {
         .onChange(of: enCombat, initial: true) { _, combat in
             ServiceAudio.partage.entrer(combat ? .combat : .menus)
         }
+        .onChange(of: nomEcran) { _, nouveau in
+            // Navigation : clic en avant, son de retour vers l'accueil ; le combat a ses propres sons.
+            switch nouveau {
+            case "accueil": ServiceSons.partage.jouer(.retour)
+            case "combat": break
+            default: ServiceSons.partage.jouer(.tap)
+            }
+        }
+    }
+
+    private var nomEcran: String {
+        switch ecran {
+        case .accueil: return "accueil"
+        case .selection: return "selection"
+        case .collection: return "collection"
+        case .profil: return "profil"
+        case .boutique: return "boutique"
+        case .combat: return "combat"
+        }
     }
 
     /// Le thème de combat joue pendant le combat, le thème principal partout ailleurs.

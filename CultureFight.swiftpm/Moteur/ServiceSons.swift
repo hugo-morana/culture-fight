@@ -16,6 +16,10 @@ final class ServiceSons {
         case eclair, tic
         case tempsEcoule = "temps-ecoule"
         case jauge, impact, bouclier, ko, soin, objet, pieces, achat, evolution
+        case tap, retour, erreur, changement
+        // Jingles (ElevenLabs).
+        case victoire, defaite, nul, niveau
+        case nouveauCombattant = "nouveau-combattant"
         // Un son d'attaque par famille de styles (ElevenLabs), calé pour que le coup tombe à 0,42 s.
         case attaqueShurikens = "attaque-shurikens"
         case attaqueMarteau = "attaque-marteau"
@@ -47,7 +51,8 @@ final class ServiceSons {
         /// Volume propre à chaque son, pour qu'ils sonnent à peu près aussi fort les uns que les autres.
         var volume: Float {
             switch self {
-            case .tic, .selection: return 0.5
+            case .tic, .selection, .tap, .retour: return 0.45
+            case .victoire, .defaite, .nul, .niveau, .nouveauCombattant: return 0.7
             case .ko, .impact: return 0.9
             case .attaqueShurikens, .attaqueMarteau, .attaqueLance, .attaqueChi, .attaqueBotte,
                  .attaqueOrbe, .attaqueFeu, .attaqueAmes, .attaqueFleches, .attaqueSalve: return 0.8
