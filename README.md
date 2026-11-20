@@ -160,6 +160,24 @@ Les journaux sont publiés sur les branches `build-log` (compilation) et `testfl
 Ce dépôt est public pour être compilé gratuitement par GitHub Actions, mais il **n'est pas open source** :
 tous droits réservés. Voir le fichier `LICENSE`.
 
+## Propriété intellectuelle et mentions
+
+Ce qui est protégé, et comment (tâche 63 de la feuille de route) :
+
+| Élément | Protection | Ce qu'il faut faire |
+|---|---|---|
+| Code, textes, histoires, monde de Culturia | Droit d'auteur, automatique dès la création | Garder les preuves de date : historique Git, et au besoin dépôt e-Soleau à l'INPI |
+| Base de questions (fiches, explications) | Droit d'auteur sur les textes + droit du producteur de base de données (CPI, L341-1) | Garder la trace de l'investissement (vérification, `verification/`) ; mention dans l'app |
+| Nom « Culture Fight » et logo | Marque, seulement si elle est déposée | Recherche d'antériorité puis dépôt INPI (France) ou EUIPO (UE), classes 9, 28 et 41 |
+| Noms des combattants | Pas protégés seuls ; risque s'ils ressemblent à une marque | Tâche 39 : vérifier les noms avant la sortie |
+| Illustrations | Droit d'auteur sur ce qui vient d'un apport humain ; une image d'IA brute est mal protégée | Retoucher et composer les cartes ; garder prompts et fichiers de travail |
+| Faits (dates, capitales, symboles) | Aucune, pour personne | Reformuler, ne pas copier les phrases des sources |
+| Police Cinzel | Licence OFL de ses auteurs | Fournir le texte de la licence (fait, dans l'app) |
+
+L'écran **Mentions légales et crédits** (`Vues/MentionsLegalesView.swift`, depuis le bas du profil) affiche
+le © Hugo Morana, l'éditeur, l'absence de collecte de données, la licence de Cinzel avec son texte complet,
+les sources des questions et les marques citées. L'année du © s'étend seule (« 2026–2027 »).
+
 ## Illustrations
 
 Les illustrations des combattants sont dans `illustrations/` (512 px de large). Celles des combattants du

@@ -37,6 +37,19 @@ struct ProfilView: View {
                         .lettrageLogo()
                         .padding(.top, 6)
                     StatistiquesView(parties: parties)
+                    NavigationLink {
+                        MentionsLegalesView()
+                    } label: {
+                        Label("Mentions légales et crédits", systemImage: "c.circle")
+                            .font(.footnote)
+                            .frame(maxWidth: .infinity)
+                    }
+                    .tint(Charte.ivoire.opacity(0.8))
+                    .padding(.top, 12)
+                    Text("© \(MentionsLegalesView.annees) Hugo Morana · Tous droits réservés")
+                        .font(.caption2)
+                        .foregroundStyle(.secondary)
+                        .frame(maxWidth: .infinity)
                 }
                 .padding()
             }
