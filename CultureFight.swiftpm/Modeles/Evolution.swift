@@ -187,7 +187,7 @@ struct SequenceEvolution: View {
     @State private var phase = 0
 
     private struct Mouvement {
-        var echelle = 0.4
+        var echelle = 1.0
         var rotation = 0.0
         var eclat = 0.0
     }
@@ -242,7 +242,7 @@ struct SequenceEvolution: View {
             .clipShape(RoundedRectangle(cornerRadius: 18))
             .overlay(RoundedRectangle(cornerRadius: 18).stroke(stade.degrade, lineWidth: 5))
             .overlay(alignment: .topTrailing) { BadgeStade(stade: stade, taille: 13).padding(8) }
-            .keyframeAnimator(initialValue: Mouvement(), trigger: phase == 0) { vue, m in
+            .keyframeAnimator(initialValue: Mouvement(), trigger: phase) { vue, m in
                 vue
                     .scaleEffect(m.echelle)
                     .rotation3DEffect(.degrees(m.rotation), axis: (x: 0, y: 1, z: 0), perspective: 0.5)
@@ -250,8 +250,8 @@ struct SequenceEvolution: View {
                     .shadow(color: stade.couleurs.0.opacity(0.9), radius: 30)
             } keyframes: { _ in
                 KeyframeTrack(\.echelle) {
-                    SpringKeyframe(1.0, duration: 0.5, spring: .bouncy)
-                    LinearKeyframe(1.15, duration: 0.6)
+                    SpringKeyframe(0.85, duration: 0.3)
+                    LinearKeyframe(1.2, duration: 0.8)
                     SpringKeyframe(1.0, duration: 0.6, spring: .bouncy)
                 }
                 KeyframeTrack(\.rotation) {
