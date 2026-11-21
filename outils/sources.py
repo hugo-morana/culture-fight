@@ -63,7 +63,8 @@ def _ajouter_vague2():
     import vague4
     import vague5
     import vague6
-    for vague in (vague2, vague3, vague4, vague5, vague6):
+    import vague7
+    for vague in (vague2, vague3, vague4, vague5, vague6, vague7):
         for module in vague.modules():
             SOURCES[module.FICHE["id"]] = list(module.SOURCES_GENERALES)
 

@@ -167,7 +167,7 @@ enum Catalogue {
             id: "conversorcier", nom: "Conversorcier", style: "Sorcier", familleStyle: .mages,
             specialite: conversions, rarete: .rare,
             pvMax: 110, attaque: 54, defense: 4, difficulte: 1,
-            apparence: "Vieux sorcier en robe bleu nuit couverte de pouces, de litres et de degrés, bâton terminé par un cadran de balance, chapeau en verre doseur.",
+            apparence: "Vieux sorcier à longue barbe blanche en robe bleu nuit brodée de « in », « mi » et « lb », chapeau en verre doseur et bâton orné d'une balance.",
             questions: "Conversions d'unités : longueurs, masses, volumes et durées (km, kg, L, h…).",
             generateur: GenerateurConversions(specialite: conversions)),
 

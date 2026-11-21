@@ -75,6 +75,9 @@ enum Pictos {
         case "Électricité et magnétisme": return "⚡"
         case "Lumière et ondes": return "🌈"
         case "Chaleur et énergie": return "🔥"
+        case "Matériaux": return "🧱"
+        case "Savants et laboratoire": return "🧪"
+        case "Système solaire": return "🪐"
         default: return Pictos.domaine(domaine)
         }
     }
@@ -180,6 +183,16 @@ enum Pictos {
         case "Moine guerrier": return "📿"
         case "Maître d'armes": return "🤺"
         case "Titan": return "⛰️"
+        case "Officier": return "🧭"
+        case "Espion": return "🕶️"
+        case "Templier": return "✝️"
+        case "Pieuvre": return "🐙"
+        case "Ferrailleur": return "⚒️"
+        case "Assassin": return "🗡️"
+        case "Artificier": return "🎆"
+        case "Valkyrie": return "🪽"
+        case "Cowboy hors-la-loi": return "🤠"
+        case "Bandit": return "🦹"
         default: return famille.picto
         }
     }
