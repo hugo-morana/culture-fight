@@ -11,6 +11,8 @@ struct FicheCombattantView: View {
     @Environment(\.dismiss) private var fermer
     @State private var exemple: String?
     @State private var angle: Double = 0
+    /// Change quand le joueur porte ou retire une tenue : redessine l'en-tête et la carte.
+    @AppStorage("tenuesVersion") private var versionTenues = 0
 
     private var accent: Color { modele.specialite.couleur }
     private var tableaux: [TableauDonnees] { modele.generateur.apercu }
@@ -20,6 +22,7 @@ struct FicheCombattantView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 18) {
                     EnTeteFiche(modele: modele)
+                        .id(versionTenues)
                     TuilesFiche(modele: modele, nombreDeQuestions: Self.compter(tableaux))
                     carteDeCombat
                     if let histoire = modele.histoire {
@@ -40,6 +43,7 @@ struct FicheCombattantView: View {
                     CarteEvolution(modele: modele)
                     CarteTactique(modele: modele)
                     CarteEquipement(modele: modele)
+                    CarteTenue(modele: modele)
                     CarteFiche(titre: "Bonus de vitesse · \(modele.familleStyle.effetVitesse.nom)",
                                icone: "hare.fill", accent: accent) {
                         TexteFiche(texte: "Type \(modele.type) : \(modele.familleStyle.effetVitesse.description).")
@@ -76,6 +80,7 @@ struct FicheCombattantView: View {
                    accent: accent) {
             VStack(spacing: 8) {
                 CarteRetournable(angle: angle, recto: recto, verso: VersoCarte(modele: modele))
+                    .id(versionTenues)
                     .frame(height: 280)
                     .shadow(color: accent.opacity(0.6), radius: 16)
                     .modifier(Holographique(toucher: retourner))

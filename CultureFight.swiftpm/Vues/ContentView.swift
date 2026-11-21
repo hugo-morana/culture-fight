@@ -286,8 +286,10 @@ final class Illustrations: @unchecked Sendable {
     static let partage = Illustrations()
     private let cache = NSCache<NSString, UIImage>()
 
+    /// Illustration du combattant, ou sa tenue alternative si le joueur la porte.
     func image(pour id: String) -> UIImage? {
-        ressource("combattant-\(id)", type: "jpg")
+        if Tenues.portee(id), let tenue = ressource("tenue-\(id)", type: "jpg") { return tenue }
+        return ressource("combattant-\(id)", type: "jpg")
     }
 
     /// Une image des ressources de l'app (illustration, logo…), gardée en cache.
