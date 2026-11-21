@@ -395,6 +395,13 @@ struct CarteChoix: View {
                     .foregroundStyle(.secondary)
                     .lineLimit(1)
                     .minimumScaleFactor(0.7)
+                if let accroche = modele.accroche {
+                    Text(accroche)
+                        .font(.system(.caption2, design: .serif).italic())
+                        .foregroundStyle(Charte.or.opacity(0.9))
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.75)
+                }
                 Label(modele.familleStyle.effetVitesse.nom, systemImage: "hare.fill")
                     .font(.nom(11, relativeTo: .caption2))
                     .foregroundStyle(modele.specialite.couleur)

@@ -12,6 +12,7 @@ struct BoutiqueView: View {
     @State private var dernierAchat: Boutique.ResultatAchat?
     @State private var fete = 0
     @State private var maintenant = Date()
+    @State private var fiche: ModeleCombattant?
 
     private let colonnes = [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)]
     private let horloge = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
@@ -48,6 +49,7 @@ struct BoutiqueView: View {
                 }
             }
             .onReceive(horloge) { maintenant = $0 }
+            .sheet(item: $fiche) { modele in FicheCombattantView(modele: modele) }
             .sensoryFeedback(.success, trigger: fete)
             .confirmationDialog(titreConfirmation, isPresented: Binding(
                 get: { aConfirmer != nil }, set: { if !$0 { aConfirmer = nil } }), titleVisibility: .visible) {
@@ -99,7 +101,8 @@ struct BoutiqueView: View {
                     ForEach(offre) { article in
                         CarteArticle(article: article,
                                      etat: etat(article, offre: true),
-                                     possede: article.modele.map { joueur.possede($0.id) } ?? false) {
+                                     possede: article.modele.map { joueur.possede($0.id) } ?? false,
+                                     voirFiche: { fiche = article.modele }) {
                             aConfirmer = (article, true)
                         }
                     }
@@ -134,7 +137,8 @@ struct BoutiqueView: View {
                     let article = Boutique.Article.combattant(modele.id)
                     CarteArticle(article: article,
                                  etat: etat(article, offre: false),
-                                 possede: joueur.possede(modele.id)) {
+                                 possede: joueur.possede(modele.id),
+                                 voirFiche: { fiche = modele }) {
                         aConfirmer = (article, false)
                     }
                 }
@@ -167,7 +171,7 @@ struct BoutiqueView: View {
                             .foregroundStyle(Charte.ivoire)
                     }
                 }
-                Text("Les objets s'équipent et s'utilisent en combat avec la prochaine mise à jour (tâche 25).")
+                Text("Les équipements se portent depuis la fiche d'un combattant ; les consommables s'utilisent en combat (2 par combat).")
                     .font(.caption2)
                     .foregroundStyle(.secondary)
             }
@@ -250,6 +254,8 @@ struct CarteArticle: View {
     let article: Boutique.Article
     let etat: Etat
     let possede: Bool
+    /// Ouvre la fiche du combattant (nil pour un objet).
+    var voirFiche: (() -> Void)? = nil
     let acheter: () -> Void
 
     private var accent: Color {
@@ -259,11 +265,31 @@ struct CarteArticle: View {
     var body: some View {
         VStack(spacing: 8) {
             visuel
+                .overlay(alignment: .bottomTrailing) {
+                    if article.modele != nil, voirFiche != nil {
+                        Image(systemName: "info.circle.fill")
+                            .font(.title3)
+                            .foregroundStyle(Charte.ivoire, Charte.marine)
+                            .offset(x: 10, y: 4)
+                    }
+                }
+                .contentShape(Rectangle())
+                .onTapGesture { if article.modele != nil { voirFiche?() } }
+                .accessibilityAddTraits(article.modele != nil ? .isButton : [])
+                .accessibilityHint(article.modele != nil ? "Ouvre la fiche du combattant" : "")
             Text(article.nom)
                 .font(.nom(14, relativeTo: .subheadline))
                 .foregroundStyle(Charte.ivoire)
                 .lineLimit(1)
                 .minimumScaleFactor(0.7)
+            if let accroche = article.modele?.accroche {
+                Text(accroche)
+                    .font(.system(.caption2, design: .serif).italic())
+                    .foregroundStyle(Charte.or.opacity(0.9))
+                    .multilineTextAlignment(.center)
+                    .lineLimit(2, reservesSpace: true)
+                    .minimumScaleFactor(0.85)
+            }
             Text(sousTitre)
                 .font(.caption2)
                 .foregroundStyle(.secondary)

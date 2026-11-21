@@ -268,6 +268,29 @@ def verifier_monde_et_histoires():
     return len(monde.get("pays", [])), len(histoires), len(ids)
 
 
+def verifier_accroches():
+    """Accroche (une ligne) et 1 ou 2 blagues pour chaque combattant du catalogue."""
+    accroches = charger("accroches.json")
+    ids = ids_du_catalogue()
+    doublons("accroches", "accroche du combattant", [a.get("id") for a in accroches])
+    for a in accroches:
+        ou = f"accroche de « {a.get('id', '?')} »"
+        champs("accroches", ou, a, {"id": str, "accroche": str, "blagues": list})
+        if a.get("id") not in ids:
+            erreur("accroches", f"{ou} : combattant absent du catalogue")
+        if not 10 <= len(a.get("accroche", "")) <= 80:
+            erreur("accroches", f"{ou} : l'accroche doit faire de 10 à 80 caractères (une ligne)")
+        blagues = a.get("blagues", [])
+        if not 1 <= len(blagues) <= 2:
+            erreur("accroches", f"{ou} : il faut 1 ou 2 blagues")
+        for b in blagues:
+            if not isinstance(b, str) or not 15 <= len(b) <= 180:
+                erreur("accroches", f"{ou} : chaque blague doit faire de 15 à 180 caractères")
+    for manquant in sorted(set(ids) - {a.get("id") for a in accroches}):
+        erreur("accroches", f"« {manquant} » n'a pas d'accroche")
+    return len(accroches)
+
+
 if __name__ == "__main__":
     n_elements = verifier_elements()
     n_pays = verifier_pays()
@@ -275,11 +298,13 @@ if __name__ == "__main__":
     verifier_sources(["elements", "pays-afrique"] + [f["id"] for f in fiches])
     verifier_sources_json()
     n_pays_monde, n_histoires, n_combattants = verifier_monde_et_histoires()
+    n_accroches = verifier_accroches()
     print(f"elements.json      {n_elements} éléments")
     print(f"pays_afrique.json  {n_pays} pays")
     print(f"fiches.json        {len(fiches)} fiches, {n_questions} questions")
     print(f"{2 + len(fiches)} jeux de données, {len(SOURCES)} avec sources")
     print(f"monde.json         {n_pays_monde} pays ; histoires.json {n_histoires} histoires pour {n_combattants} combattants")
+    print(f"accroches.json     {n_accroches} accroches")
     if erreurs:
         for e in erreurs:
             print("ERREUR", e)

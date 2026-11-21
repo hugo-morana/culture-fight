@@ -24,6 +24,8 @@ struct FicheCombattantView: View {
                     EnTeteFiche(modele: modele)
                         .id(versionTenues)
                     TuilesFiche(modele: modele, nombreDeQuestions: Self.compter(tableaux))
+                    CartePresentation(modele: modele, accent: accent)
+                    CarteExemples(modele: modele, accent: accent)
                     carteDeCombat
                     if let histoire = modele.histoire {
                         CarteFiche(titre: "Histoire", icone: "book.closed.fill", accent: accent) {
