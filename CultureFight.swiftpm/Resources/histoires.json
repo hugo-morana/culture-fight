@@ -2110,5 +2110,305 @@
    "bang-zai",
    "galactaekwondo"
   ]
+ },
+ {
+  "id": "sombrassin",
+  "pays": "astralis",
+  "lieu": "Le Puits de l'Infini",
+  "histoire": "Assassin du Puits de l'Infini, Sombrassin agit sans être vu : on ne devine sa présence qu'à ses effets sur les galaxies. Il sait que la matière ordinaire ne forme qu'une petite part de l'Univers, le reste étant matière et énergie noires. Expansionnaire le soupçonne de pousser l'Univers ; Amaskarade le remercie de retenir ses galaxies.",
+  "liens": [
+   "expansionnaire",
+   "amaskarade"
+  ]
+ },
+ {
+  "id": "amaskarade",
+  "pays": "astralis",
+  "lieu": "Le Puits de l'Infini",
+  "histoire": "Bandit du Puits de l'Infini, Amaskarade rassemble les galaxies par milliers, comme on rassemble un butin. Il sait que la Voie lactée et Andromède font partie du Groupe local, lui-même rattaché au superamas Laniakea. Andromèdecin le soigne après chaque collision ; Sombrassin, son complice invisible, l'aide à garder sa bande soudée.",
+  "liens": [
+   "andromedecin",
+   "sombrassin"
+  ]
+ },
+ {
+  "id": "cosmosentinelle",
+  "pays": "astralis",
+  "lieu": "Le Puits de l'Infini",
+  "histoire": "Sentinelle du Puits de l'Infini, Cosmosentinelle garde la frontière de l'univers observable, au-delà de laquelle la lumière n'a pas encore eu le temps de nous parvenir. Elle rappelle que regarder loin, c'est regarder dans le passé. Fossilier lui apporte les plus vieilles nouvelles du cosmos ; Expansionnaire recule sans cesse sa frontière.",
+  "liens": [
+   "fossilier",
+   "expansionnaire"
+  ]
+ },
+ {
+  "id": "fossilier",
+  "pays": "astralis",
+  "lieu": "Le Puits de l'Infini",
+  "histoire": "Fusilier du Puits de l'Infini, Fossilier garde la plus vieille lumière de l'Univers, le fond diffus cosmologique. Il en a dressé la carte tache par tache, du bleu le plus froid au rouge le plus chaud. Bang-Zaï lui confie ses souvenirs d'enfance ; Cosmosentinelle compte sur lui pour éclairer la frontière.",
+  "liens": [
+   "bang-zai",
+   "cosmosentinelle"
+  ]
+ },
+ {
+  "id": "andromedecin",
+  "pays": "astralis",
+  "lieu": "Le Puits de l'Infini",
+  "histoire": "Médecin du Puits de l'Infini, Andromèdecin soigne les galaxies blessées et connaît chacune par son surnom : Tourbillon, Sombrero ou Roue de chariot. Elle prépare déjà ses bandages pour la rencontre lointaine d'Andromède et de la Voie lactée. Lait-gendaire l'attend de pied ferme ; Persée-Vérant lui rappelle qu'il a sauvé sa marraine.",
+  "liens": [
+   "lait-gendaire",
+   "persee-verant"
+  ]
+ },
+ {
+  "id": "cosmogorgone",
+  "pays": "astralis",
+  "lieu": "Le Puits de l'Infini",
+  "histoire": "Gorgone du Puits de l'Infini, Cosmogorgone change en pierre quiconque prétend avoir une théorie définitive de l'Univers. Elle connaît les sphères d'Aristote, l'état stationnaire, l'inflation et toutes les fins imaginées, du Big Crunch au Big Rip. Persée-Vérant la poursuit avec son bouclier-miroir ; Bang-Zaï, son modèle préféré, est le seul qu'elle n'a jamais pétrifié.",
+  "liens": [
+   "persee-verant",
+   "bang-zai"
+  ]
+ },
+ {
+  "id": "eclipse-toi",
+  "pays": "astralis",
+  "lieu": "Les Terrasses des Éclipses",
+  "histoire": "Ombre des Terrasses des Éclipses, à Orbitopolis, Éclipse-Toi aime cacher le Soleil pour le plaisir de voir sa couronne. Elle sait qu'une éclipse de Soleil n'arrive qu'à la nouvelle lune, et celle de Lune qu'à la pleine. Lunagarou lui prête la Lune à chaque fois ; Sol-Dat déteste qu'elle lui fasse de l'ombre.",
+  "liens": [
+   "lunagarou",
+   "sol-dat"
+  ]
+ },
+ {
+  "id": "valkyrie-boreale",
+  "pays": "astralis",
+  "lieu": "Les Terrasses des Éclipses",
+  "histoire": "Valkyrie Boréale chevauche chaque nuit au-dessus des Terrasses des Éclipses, drapée de voiles verts et pourpres. Elle sait que les aurores naissent quand les particules du Soleil heurtent la haute atmosphère, et que le vert vient de l'oxygène. Corsolaire se vante de lui fournir ses couleurs ; Polaviking la suit partout, persuadée qu'elle lui indique le nord.",
+  "liens": [
+   "corsolaire",
+   "polaviking"
+  ]
+ },
+ {
+  "id": "pluie-de-lames",
+  "pays": "astralis",
+  "lieu": "Les Terrasses des Éclipses",
+  "histoire": "Escrimeur des Terrasses des Éclipses, Pluie-de-Lames attend chaque mois d'août pour livrer sa grande averse d'épées : les Perséides. Il compte les étoiles filantes à l'heure et se souvient des tempêtes de météores d'autrefois. Météorc lui reproche de voler la vedette ; Étoile Filou fait des vœux à chacune de ses passes.",
+  "liens": [
+   "meteorc",
+   "etoile-filou"
+  ]
+ },
+ {
+  "id": "equinoxe-cavalier",
+  "pays": "astralis",
+  "lieu": "Les Terrasses des Éclipses",
+  "histoire": "Équinoxe Cavalier fait le tour des Terrasses des Éclipses sans jamais descendre de selle, et c'est elle qui annonce le changement de saison. Elle répète que les saisons viennent de l'inclinaison de l'axe terrestre, et non de la distance au Soleil. Calendaztèque lui dispute la date exacte des solstices ; Crépusculaire déteste ses longues journées de juin.",
+  "liens": [
+   "calendazteque",
+   "crepusculaire"
+  ]
+ },
+ {
+  "id": "maree-chaussee",
+  "pays": "astralis",
+  "lieu": "Les Terrasses des Éclipses",
+  "histoire": "Marée-Chaussée veille sur les Terrasses des Éclipses, carnet en main, à verbaliser les vagues qui débordent. Il sait que les marées viennent surtout de l'attraction de la Lune, et que les plus fortes arrivent quand Soleil et Lune s'alignent. Lunarcher est son indicatrice favorite ; Alignator se fait régulièrement arrêter pour avoir trop aligné les astres.",
+  "liens": [
+   "lunarcher",
+   "alignator"
+  ]
+ },
+ {
+  "id": "crepusculaire",
+  "pays": "astralis",
+  "lieu": "Les Terrasses des Éclipses",
+  "histoire": "Crépusculaire hante les Terrasses des Éclipses, toujours sur la ligne exacte où le jour bascule dans la nuit. Il sait que la Terre fait un tour sur elle-même par rapport aux étoiles en un peu moins de vingt-quatre heures, et compte bien voler les minutes restantes. Équinoxe Cavalier lui gâche ses étés ; Lunagarou lui tient compagnie jusqu'à l'aube.",
+  "liens": [
+   "equinoxe-cavalier",
+   "lunagarou"
+  ]
+ },
+ {
+  "id": "alignator",
+  "pays": "astralis",
+  "lieu": "Les Terrasses des Éclipses",
+  "histoire": "Alignator rôde dans les bassins des Terrasses des Éclipses et ne supporte pas que les astres ne soient pas rangés droit. Il sait que la grande conjonction de Jupiter et Saturne revient environ tous les vingt ans, mais que les planètes ne sont jamais parfaitement alignées. Planétroll le laisse ranger ses grelots ; Marée-Chaussée l'a déjà verbalisé.",
+  "liens": [
+   "planetroll",
+   "maree-chaussee"
+  ]
+ },
+ {
+  "id": "corsolaire",
+  "pays": "astralis",
+  "lieu": "Les Terrasses des Éclipses",
+  "histoire": "Corsolaire écume le ciel au-dessus des Terrasses des Éclipses, gonflant ses voiles au vent solaire. Elle raconte à la taverne la tempête de 1859, quand une éruption du Soleil fit crépiter les télégraphes. Valkyrie Boréale lui doit ses plus belles aurores ; Sol-Dat surveille de près cette matelote qui se dit sa fille.",
+  "liens": [
+   "valkyrie-boreale",
+   "sol-dat"
+  ]
+ },
+ {
+  "id": "oeil-de-lynx",
+  "pays": "astralis",
+  "lieu": "Les Terrasses des Éclipses",
+  "histoire": "Œil-de-Lynx monte la garde sur la plus haute marche des Terrasses des Éclipses, sans le moindre instrument. Il sait repérer à l'œil nu la galaxie d'Andromède, à condition d'avoir un ciel bien noir. Loupe-Garou le trouve vieux jeu avec ses yeux nus ; Ceinture Noire d'Orion lui sert de repère chaque soir d'hiver.",
+  "liens": [
+   "loupe-garou",
+   "ceinture-noire-d-orion"
+  ]
+ },
+ {
+  "id": "calendazteque",
+  "pays": "astralis",
+  "lieu": "Les Terrasses des Éclipses",
+  "histoire": "Calendaztèque compte les jours sur les Terrasses des Éclipses, gravant chaque matin une nouvelle date sur son bouclier de pierre. Il sait que les Aztèques combinaient un calendrier de 365 jours et un calendrier rituel de 260 jours. Équinoxe Cavalier lui conteste les solstices ; Sablibustier lui emprunte son sablier pour vérifier ses heures.",
+  "liens": [
+   "equinoxe-cavalier",
+   "sablibustier"
+  ]
+ },
+ {
+  "id": "apollhoplite",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Apollhoplite garde le Cosmodrome d'Astralis, bouclier rond comme la Lune et lance pointée vers le ciel. Il sait que douze hommes ont marché sur la Lune entre 1969 et 1972, et qu'Apollo 13 a été sauvée de justesse. Fusée-Lier lui prête ses fusées pour chaque défilé ; Lunarcher lui reproche d'avoir laissé des empreintes partout.",
+  "liens": [
+   "fusee-lier",
+   "lunarcher"
+  ]
+ },
+ {
+  "id": "sondassin",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Sondassin se faufile dans les hangars du Cosmodrome d'Astralis et disparaît pendant des décennies sans donner de nouvelles. Il sait que Voyager 1, lancée en 1977, emporte un disque d'or destiné à d'éventuels extraterrestres. Neptuniaire jure l'avoir vu passer ; Sombrassin admire sa discrétion absolue.",
+  "liens": [
+   "neptuniaire",
+   "sombrassin"
+  ]
+ },
+ {
+  "id": "fusee-lier",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Fusée-Lier tient la tour de lancement du Cosmodrome d'Astralis et ne tire jamais sans compte à rebours. Il connaît toutes les fusées, de la V2 aux lanceurs réutilisables qui reviennent se poser seuls. Ariannazone se moque de ses vieux modèles ; Apollhoplite ne monte que dans ses fusées.",
+  "liens": [
+   "ariannazone",
+   "apollhoplite"
+  ]
+ },
+ {
+  "id": "spoutnikosaque",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Spoutnikosaque galope autour du Cosmodrome d'Astralis en lançant des « bip-bip » à chaque foulée. Il raconte que Spoutnik 1, lancé le 4 octobre 1957, fut le premier satellite artificiel et ouvrit la course à l'espace. Orbitruand se dit son héritier ; Gagarinja, son cadet, lui doit d'avoir été le premier à faire le tour de la Terre.",
+  "liens": [
+   "orbitruand",
+   "gagarinja"
+  ]
+ },
+ {
+  "id": "orbitaire",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Orbitaire commande la garnison du Cosmodrome d'Astralis comme une station spatiale : tout le monde dort sanglé au mur. Elle sait que la Station spatiale internationale fait le tour de la Terre en une heure et demie environ, si bien qu'on y voit plusieurs levers de soleil par jour. Astronamazone est sa meilleure recrue ; Orbitruand lui tourne autour sans cesse.",
+  "liens": [
+   "astronamazone",
+   "orbitruand"
+  ]
+ },
+ {
+  "id": "rodeover",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Rodéover dompte les robots les plus rétifs dans l'arène du Cosmodrome d'Astralis, où la poussière est aussi rouge que sur Mars. Il cite volontiers Opportunity, un rover prévu pour trois mois qui a roulé près de quinze ans sur la planète rouge. Colonel Martien compte sur lui pour ouvrir la route ; Fusée-Lier le dépose là-haut.",
+  "liens": [
+   "colonel-martien",
+   "fusee-lier"
+  ]
+ },
+ {
+  "id": "agent-spatial",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Agent Spatial travaille dans l'ombre du Cosmodrome d'Astralis, et nul ne sait vraiment pour quelle agence elle roule. Elle connaît par cœur les sigles, les sièges et les salles de contrôle de toutes les agences spatiales du monde. Spoutnikosaque est son vieil adversaire ; Ariannazone lui confie ses dossiers les plus secrets.",
+  "liens": [
+   "spoutnikosaque",
+   "ariannazone"
+  ]
+ },
+ {
+  "id": "orbitruand",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Orbitruand tourne sans fin au-dessus du Cosmodrome d'Astralis, guettant les signaux qu'il pourrait détourner. Il sait que les satellites géostationnaires, à environ 36 000 kilomètres d'altitude, semblent immobiles dans le ciel. Spoutnikosaque se dit son ancêtre ; Cosmosentinelle a juré de nettoyer ses débris.",
+  "liens": [
+   "spoutnikosaque",
+   "cosmosentinelle"
+  ]
+ },
+ {
+  "id": "ariannazone",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Ariannazone règne sur le pas de tir du Cosmodrome d'Astralis, qu'elle appelle tendrement sa petite Guyane. Elle rappelle que les fusées Ariane décollent de Kourou depuis 1979, et qu'Ariane 5 a lancé le télescope James-Webb. Fusée-Lier trouve qu'elle prend trop de place sur les affiches ; Astronamazone et elle se disputent le titre de reine du Cosmodrome.",
+  "liens": [
+   "fusee-lier",
+   "astronamazone"
+  ]
+ },
+ {
+  "id": "colonel-martien",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Colonel Martien prépare au Cosmodrome d'Astralis des expéditions qui n'ont pas encore de date. Il sait que le programme Artemis vise à renvoyer des humains sur la Lune, première étape avant Mars. Rodéover lui ouvre la route ; Apollhoplite lui raconte comment on marchait là-haut, il y a plus d'un demi-siècle.",
+  "liens": [
+   "rodeover",
+   "apollhoplite"
+  ]
+ },
+ {
+  "id": "cosmocatch",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Cosmocatch fait le show sur le ring du Cosmodrome d'Astralis, en annonçant chaque prise comme un décollage. Il connaît les astronautes célèbres, de Neil Armstrong aux recordmen des séjours en orbite. Gagarinja refuse de lui servir de partenaire d'entraînement ; Spatiomousquetaire lui dispute la ceinture.",
+  "liens": [
+   "gagarinja",
+   "spatiomousquetaire"
+  ]
+ },
+ {
+  "id": "gagarinja",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Gagarinja s'entraîne en secret dans le Cosmodrome d'Astralis, et lance son cri de guerre, « Poyekhali ! », à chaque attaque. Il sait que Iouri Gagarine fut le premier humain dans l'espace, le 12 avril 1961, à bord de Vostok 1. Spoutnikosaque se vante d'avoir ouvert la voie ; Cosmocatch le défie au catch tous les ans.",
+  "liens": [
+   "spoutnikosaque",
+   "cosmocatch"
+  ]
+ },
+ {
+  "id": "spatiomousquetaire",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Spatiomousquetaire défend l'honneur de la France au Cosmodrome d'Astralis, toujours prêt à crier « Un pour tous, tous en orbite ! ». Il sait qu'en 1982, Jean-Loup Chrétien devint le premier Français à voler dans l'espace. Dumasquetaire lui envie ses aventures en apesanteur ; Cosmocatch lui dispute la ceinture de champion.",
+  "liens": [
+   "dumasquetaire",
+   "cosmocatch"
+  ]
+ },
+ {
+  "id": "astronamazone",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Astronamazone commande les cavalières du Cosmodrome d'Astralis et n'accepte que des candidates prêtes à décoller. Elle sait que Valentina Terechkova devint en 1963 la première femme à voler dans l'espace, seule à bord de son vaisseau. Orbitaire l'a prise sous son aile ; Ariannazone et elle se disputent le titre de reine du Cosmodrome.",
+  "liens": [
+   "orbitaire",
+   "ariannazone"
+  ]
  }
 ]

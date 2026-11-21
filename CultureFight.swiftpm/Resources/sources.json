@@ -9736,5 +9736,1771 @@
     "url": "https://en.wikipedia.org/wiki/Libra_(constellation)"
    }
   ]
+ },
+ {
+  "id": "agences-spatiales",
+  "sources": [
+   {
+    "titre": "List of government space agencies (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_government_space_agencies"
+   },
+   {
+    "titre": "List of government space agencies (copie IPFS de Wikipédia)",
+    "url": "https://en.wikipedia-on-ipfs.org/wiki/List_of_government_space_agencies"
+   },
+   {
+    "titre": "What space agencies are there besides NASA? (Planetary Society)",
+    "url": "https://www.planetary.org/space-agencies"
+   },
+   {
+    "titre": "European Space Agency (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/ESA"
+   },
+   {
+    "titre": "Centres de l'ESA (ESA Kids)",
+    "url": "https://www.esa.int/kids/fr/Apprendre/Centres_de_l_ESA"
+   },
+   {
+    "titre": "Establishments and facilities (ESA)",
+    "url": "https://www.esa.int/About_Us/Welcome_to_ESA/Establishments_and_facilities"
+   },
+   {
+    "titre": "L'ESA : faits et chiffres (ESA)",
+    "url": "https://www.esa.int/Space_in_Member_States/France/L_ESA_faits_et_chiffres"
+   },
+   {
+    "titre": "Le siège de l'ESA (ESA)",
+    "url": "https://www.esa.int/Space_in_Member_States/France/Le_Siege_de_l_ESA"
+   },
+   {
+    "titre": "Agence spatiale européenne (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/agence-spatiale-europeenne"
+   },
+   {
+    "titre": "NASA worm et insignes de la NASA (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/NASA_worm"
+   },
+   {
+    "titre": "NASA (Wikipédia, archive de 2022)",
+    "url": "https://webcf.waybackmachine.org/web/20221211230438/https://en.wikipedia.org/wiki/NASA"
+   },
+   {
+    "titre": "Budget of NASA (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Budget_of_NASA"
+   },
+   {
+    "titre": "Centre national d'études spatiales (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/centre-national-d-etudes-spatiales"
+   },
+   {
+    "titre": "CNES (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/CNES"
+   },
+   {
+    "titre": "Les établissements du CNES (CNES)",
+    "url": "https://cnes.fr/fr/web/CNES-fr/3360-les-etablissements-du-cnes.php"
+   },
+   {
+    "titre": "Histoire du CNES, 1961-1981 (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/histoire-du-centre-national-d-etudes-spatiales-1961-1981"
+   },
+   {
+    "titre": "Roscosmos (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Roscosmos"
+   },
+   {
+    "titre": "General Director of Roscosmos (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/General_Director_of_Roscosmos"
+   },
+   {
+    "titre": "Roscosmos (Kiddle)",
+    "url": "https://kids.kiddle.co/Roscosmos"
+   },
+   {
+    "titre": "JAXA (HandWiki)",
+    "url": "https://handwiki.org/wiki/Organization:JAXA"
+   },
+   {
+    "titre": "History of ISAS (JAXA)",
+    "url": "https://www.isas.jaxa.jp/en/about/history/"
+   },
+   {
+    "titre": "JAXA: Japan's Aerospace Exploration Agency (Space.com)",
+    "url": "https://www.space.com/22672-japan-aerospace-exploration-agency.html"
+   }
+  ]
+ },
+ {
+  "id": "amas-galaxies",
+  "sources": [
+   {
+    "titre": "Superamas de la Vierge (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Superamas_de_la_Vierge"
+   },
+   {
+    "titre": "Great Attractor (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Great_Attractor"
+   },
+   {
+    "titre": "Amas de la Vierge (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Amas_de_la_Vierge"
+   },
+   {
+    "titre": "Coma Cluster (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Coma_Cluster"
+   },
+   {
+    "titre": "Coma Berenices (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Coma_Berenices"
+   },
+   {
+    "titre": "Vide (astronomie) (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Vide_(astronomie)"
+   },
+   {
+    "titre": "Filament galactique (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Filament_galactique"
+   },
+   {
+    "titre": "Toile cosmique (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Toile_cosmique"
+   },
+   {
+    "titre": "Superamas de Shapley (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Superamas_de_Shapley"
+   },
+   {
+    "titre": "Laniakea Supercluster (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Laniakea_Supercluster"
+   },
+   {
+    "titre": "Boötes Void (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Bo%C3%B6tes_Void"
+   },
+   {
+    "titre": "List of largest cosmic structures (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/List_of_largest_cosmic_structures"
+   },
+   {
+    "titre": "Quintette de Stephan (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Quintette_de_Stephan"
+   },
+   {
+    "titre": "Hickson Compact Group (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Hickson_compact_group"
+   },
+   {
+    "titre": "Abell catalogue (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Abell_catalogue"
+   },
+   {
+    "titre": "Local Group (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Local_Group"
+   },
+   {
+    "titre": "Perseus Cluster (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Perseus_Cluster"
+   },
+   {
+    "titre": "Bullet Cluster (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Bullet_Cluster"
+   },
+   {
+    "titre": "Galaxy groups and clusters (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Galaxy_groups_and_clusters"
+   },
+   {
+    "titre": "Sculptor Group (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Sculptor_Group"
+   }
+  ]
+ },
+ {
+  "id": "astronautes-celebres",
+  "sources": [
+   {
+    "titre": "Neil Armstrong (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/Neil_Armstrong"
+   },
+   {
+    "titre": "Buzz Aldrin (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Buzz_Aldrin"
+   },
+   {
+    "titre": "Michael Collins (astronaut) (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/Michael_Collins_(astronaut)"
+   },
+   {
+    "titre": "Astronaut Michael Collins (History.com)",
+    "url": "https://www.history.com/articles/astronaut-michael-collins"
+   },
+   {
+    "titre": "Jim Lovell (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/articles/Jim_Lovell"
+   },
+   {
+    "titre": "Valeri Polyakov (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Valeri_Polyakov"
+   },
+   {
+    "titre": "Sergei Krikalev (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Sergei_Krikalev"
+   },
+   {
+    "titre": "Chris Hadfield (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Chris_Hadfield"
+   },
+   {
+    "titre": "Scott Kelly: The American Astronaut Who Spent a Year in Space (Space.com)",
+    "url": "https://www.space.com/32907-scott-kelly-astronaut-biography.html"
+   },
+   {
+    "titre": "Peggy Whitson (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/articles/Peggy_Whitson"
+   },
+   {
+    "titre": "Samantha Cristoforetti (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/articles/Samantha_Cristoforetti"
+   }
+  ]
+ },
+ {
+  "id": "astronautes-francais",
+  "sources": [
+   {
+    "titre": "Les astronautes français (CNES)",
+    "url": "https://cnes.fr/node/532"
+   },
+   {
+    "titre": "Les vols habités et astronautes français (ministère de l'Enseignement supérieur et de la Recherche)",
+    "url": "https://www.enseignementsup-recherche.gouv.fr/fr/les-vols-habites-et-astronautes-francais-46441"
+   },
+   {
+    "titre": "List of French astronauts (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_French_astronauts"
+   },
+   {
+    "titre": "Historique des astronautes européens (ESA)",
+    "url": "https://www.esa.int/Space_in_Member_States/France/Historique_des_astronautes_europeens"
+   },
+   {
+    "titre": "40 ans du PVH : le 24 juin 1982, un Français dans l'espace (CNES)",
+    "url": "https://cnes.fr/actualites/40-ans-pvh-24-juin-1982-un-francais-lespace"
+   },
+   {
+    "titre": "L'astronaute française Sophie Adenot (CNES)",
+    "url": "https://cnes.fr/projets/mission-epsilon/sophie-adenot"
+   },
+   {
+    "titre": "εpsilon, la première mission de Sophie Adenot (ESA)",
+    "url": "https://www.esa.int/Space_in_Member_States/France/epsilon"
+   },
+   {
+    "titre": "Thomas Pesquet (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Thomas_Pesquet"
+   }
+  ]
+ },
+ {
+  "id": "aurores-polaires",
+  "sources": [
+   {
+    "titre": "Aurore polaire (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/aurore-polaire"
+   },
+   {
+    "titre": "D'où viennent les aurores boréales ou australes ? (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/actualites/d-ou-viennent-les-aurores-boreales-ou-australes-24587"
+   },
+   {
+    "titre": "A brief history of aurora science (BBC Sky at Night)",
+    "url": "https://www.skyatnightmagazine.com/space-science/brief-history-aurora-science"
+   },
+   {
+    "titre": "What do aurorae look like on other planets? (BBC Sky at Night)",
+    "url": "https://www.skyatnightmagazine.com/space-science/what-do-aurora-look-like-on-other-planets"
+   },
+   {
+    "titre": "Names and definition of the aurora (Geophysical Institute, Alaska)",
+    "url": "https://www.gi.alaska.edu/alaska-science-forum/names-and-definition-aurora"
+   },
+   {
+    "titre": "Useless information on the aurora (Geophysical Institute, Alaska)",
+    "url": "https://www.gi.alaska.edu/alaska-science-forum/useless-information-aurora"
+   },
+   {
+    "titre": "Aurores boréales : mythes et légendes (Hurtigruten)",
+    "url": "https://www.hurtigruten.com/fr-fr/inspiration/les-aurores-boreales/mythes-et-legendes"
+   },
+   {
+    "titre": "Aurora myths, legends and misconceptions (Space.com)",
+    "url": "https://www.space.com/aurora-northern-lights-myths-legends-misconceptions"
+   },
+   {
+    "titre": "Aurores boréales en France les 10 et 11 mai 2024 (Stelvision)",
+    "url": "https://www.stelvision.com/astro/aurores-boreales-france-10-11-mai-2024/"
+   },
+   {
+    "titre": "Ce que la NASA a appris de la tempête solaire de mai 2024 (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/actualites/soleil-aurores-magnifiques-degats-invisibles-ce-nasa-appris-plus-puissante-tempete-solaire-depuis-20-ans-121869/"
+   },
+   {
+    "titre": "The exceptional magnetic storm observed by the IPGP (IPGP)",
+    "url": "https://www.ipgp.fr/en/news-and-agenda/news/the-exceptional-magnetic-storm-observed-by-the-ipgp/"
+   },
+   {
+    "titre": "Space physicists and citizen scientists shed light on STEVE (University of Calgary)",
+    "url": "https://www.ucalgary.ca/news/space-physicists-and-citizen-scientists-shed-light-mystery-steve"
+   },
+   {
+    "titre": "Meet « Steve », a totally new kind of aurora (National Geographic)",
+    "url": "https://www.nationalgeographic.com/science/article/steve-auroras-identified-plasma"
+   },
+   {
+    "titre": "The Kp-index (SpaceWeatherLive)",
+    "url": "https://spaceweatherlive.com/en/help/the-kp-index.html"
+   },
+   {
+    "titre": "Le magnétomètre de Kiruna (SpaceWeatherLive)",
+    "url": "https://www.spaceweatherlive.com/fr/aide/le-magnetometre-de-kiruna.html"
+   },
+   {
+    "titre": "Tips on viewing the aurora (NOAA, Space Weather Prediction Center)",
+    "url": "https://swpc-drupal.woc.noaa.gov/content/tips-viewing-aurora"
+   },
+   {
+    "titre": "Aurore polaire : morphologie (Encyclopædia Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/aurore-polaire/2-morphologie-des-phenomenes-auroraux/"
+   },
+   {
+    "titre": "Northern lights (L'Encyclopédie canadienne)",
+    "url": "https://www.thecanadianencyclopedia.ca/fr/article/northern-lights"
+   },
+   {
+    "titre": "History of aurora research (NASA Goddard)",
+    "url": "https://pwg.gsfc.nasa.gov/Education/whaur1.html"
+   },
+   {
+    "titre": "A brief history of magnetospheric physics (D. P. Stern, NASA Goddard)",
+    "url": "https://pwg.gsfc.nasa.gov/Education/bh1-2.html"
+   },
+   {
+    "titre": "The Planeterrella experiment (J. Lilensten et al., arXiv)",
+    "url": "https://arxiv.org/pdf/1207.1866"
+   }
+  ]
+ },
+ {
+  "id": "calendriers-astronomie",
+  "sources": [
+   {
+    "titre": "Les calendriers mayas (IMCCE)",
+    "url": "https://www.imcce.fr/newsletter/docs/Les_calendriers_mayas.pdf"
+   },
+   {
+    "titre": "Pierre du Soleil (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-12125/pierre-du-soleil/"
+   },
+   {
+    "titre": "Calendrier aztèque (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/2-896/calendrier-azteque/"
+   },
+   {
+    "titre": "Calendrier de l'Égypte antique (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/calendrier-de-l-egypte-antique"
+   },
+   {
+    "titre": "Le calendrier chinois (IMCCE)",
+    "url": "https://www.imcce.fr/newsletter/docs/article_chinois.pdf"
+   },
+   {
+    "titre": "Hebrew calendar (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/Hebrew_Calendar"
+   },
+   {
+    "titre": "Calendrier musulman (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/calendrier-musulman"
+   },
+   {
+    "titre": "Calendrier musulman (Geneawiki)",
+    "url": "https://fr.geneawiki.com/wiki/Calendrier_Musulman"
+   },
+   {
+    "titre": "Calcul des dates de Pâques (IMCCE)",
+    "url": "https://promenade.imcce.fr/fr/pages4/440.html"
+   },
+   {
+    "titre": "Calcul de la date de Pâques (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/calcul-de-la-date-de-paques"
+   },
+   {
+    "titre": "Calendrier républicain (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-21125/calendrier-republicain/"
+   },
+   {
+    "titre": "Metonic cycle (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Metonic_cycle"
+   }
+  ]
+ },
+ {
+  "id": "ciel-oeil-nu",
+  "sources": [
+   {
+    "titre": "Bortle scale (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Bortle_scale"
+   },
+   {
+    "titre": "Naked eye (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Naked_eye"
+   },
+   {
+    "titre": "Pollution lumineuse : 80 % d'entre nous ne voient plus les étoiles (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/actualites/astronomie-pollution-lumineuse-80-nous-ne-voient-plus-etoiles-63150/"
+   },
+   {
+    "titre": "Pollution lumineuse (ministère de la Transition écologique)",
+    "url": "https://www.ecologie.gouv.fr/politiques-publiques/pollution-lumineuse"
+   },
+   {
+    "titre": "Pic du Midi International Dark Sky Reserve (International Dark-Sky Association)",
+    "url": "https://darksky.org/app/uploads/2015/01/PdM_press_release_FINAL.pdf"
+   },
+   {
+    "titre": "7 spots incroyables pour observer les étoiles en France (France.fr)",
+    "url": "https://www.france.fr/fr/article/observer-etoiles-spots/"
+   },
+   {
+    "titre": "Dossier de presse RICE (Parc national des Cévennes)",
+    "url": "https://www.cevennes-parcnational.fr/sites/cevennes-parcnational.fr/files/dossierpressrice1_bd.pdf"
+   },
+   {
+    "titre": "Identifier les lumières du ciel (Orbital Radar)",
+    "url": "https://orbitalradar.com/fr/what-is-that-light-in-the-sky"
+   },
+   {
+    "titre": "Observer l'ISS (Sterngucker)",
+    "url": "https://www.sterngucker.de/fr/observer-iss/"
+   },
+   {
+    "titre": "Pourquoi l'ISS n'est-elle pas visible tous les soirs ? (Espace des sciences)",
+    "url": "https://www.espace-sciences.org/planetarium/article/pourquoi-la-station-spatiale-internationale-iss-n-est-elle-pas-visible-tous-les-soirs"
+   },
+   {
+    "titre": "Lumière zodiacale (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/lumiere-zodiacale"
+   },
+   {
+    "titre": "La vision décalée (Star Walk)",
+    "url": "https://starwalk.space/fr/news/averted-vision"
+   },
+   {
+    "titre": "Combien d'étoiles peut-on voir à l'œil nu ? (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/questions-reponses/astronomie-etoiles-peut-on-voir-oeil-nu-6254/"
+   },
+   {
+    "titre": "Observation du ciel pour débutants, sans télescope ni jumelles (Star Walk)",
+    "url": "https://starwalk.space/fr/news/stargazing-with-unaided-eye"
+   },
+   {
+    "titre": "The « Nuits des étoiles » events, 1991-2008 (Cambridge University Press)",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/013266B29E2361992D28AE6F2F65E046/S1743921311003097a.pdf/nuits_des_etoiles_events_19912008_and_their_impact_on_the_french_astronomical_leisure_landscape.pdf"
+   }
+  ]
+ },
+ {
+  "id": "conjonctions",
+  "sources": [
+   {
+    "titre": "Transit de Vénus (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/transit-de-venus"
+   },
+   {
+    "titre": "Transit of Venus (SolarSPELL, copie de Wikipédia)",
+    "url": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/t/Transit_of_Venus.htm"
+   },
+   {
+    "titre": "Transit of Mercury (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Transit_of_mercury"
+   },
+   {
+    "titre": "La grande conjonction : rapprochement maximal depuis 1623 (Star Walk)",
+    "url": "https://starwalk.space/fr/news/the-great-conjunction-jupiter-and-saturn-appear-the-closest-since-1623"
+   },
+   {
+    "titre": "Les conjonctions géocentriques entre Jupiter et Saturne (IMCCE)",
+    "url": "https://www.imcce.fr/newsletter/medias/2020/12/docs/conjonctions.pdf"
+   },
+   {
+    "titre": "What was the Christmas Star? (Royal Museums Greenwich)",
+    "url": "https://www.rmg.co.uk/stories/space-astronomy/what-was-christmas-star"
+   },
+   {
+    "titre": "Primer on Mars oppositions (Jacques Laskar, IMCCE)",
+    "url": "https://perso.imcce.fr/jacques-laskar/en/general-audience/minimal-distance-earth-mars/"
+   },
+   {
+    "titre": "Opposition : définition (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/astronomie-opposition-313/"
+   },
+   {
+    "titre": "Les positions relatives des planètes (Familles rurales)",
+    "url": "https://www.famillesrurales.org/maillet/sites/multisite.famillesrurales.org._maillet/files/ckeditor/actualites/Fiches%20astro/Les%20positions%20relatives%20des%20plan%C3%A8tes.pdf"
+   },
+   {
+    "titre": "The Jupiter Effect (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/The_Jupiter_Effect"
+   },
+   {
+    "titre": "Planetary parade (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Planetary_parade"
+   },
+   {
+    "titre": "Alignement planétaire : dates et signification de la parade des planètes (Star Walk)",
+    "url": "https://starwalk.space/fr/news/what-is-planet-parade"
+   },
+   {
+    "titre": "Occultation : définition (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/univers-occultation-950/"
+   },
+   {
+    "titre": "Naked eye (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Naked_eye"
+   }
+  ]
+ },
+ {
+  "id": "course-espace",
+  "sources": [
+   {
+    "titre": "Spoutnik 1 (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/spoutnik-1"
+   },
+   {
+    "titre": "Explorer 1 (NASA Science)",
+    "url": "https://science.nasa.gov/mission/explorer-1"
+   },
+   {
+    "titre": "Animaux dans l'espace (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Animaux_dans_l%27espace"
+   },
+   {
+    "titre": "Sergei Korolev (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Sergei_Korolev"
+   },
+   {
+    "titre": "Wernher von Braun (Britannica)",
+    "url": "https://www.britannica.com/biography/Wernher-von-Braun"
+   },
+   {
+    "titre": "We choose to go to the Moon (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/We_choose_to_go_to_the_Moon"
+   },
+   {
+    "titre": "45 Years Ago: Historic Handshake in Space (NASA)",
+    "url": "https://www.nasa.gov/history/45-years-ago-historic-handshake-in-space/"
+   },
+   {
+    "titre": "Gemini spacecraft and space program (Britannica)",
+    "url": "https://www.britannica.com/topic/Gemini-spacecraft-and-space-program"
+   },
+   {
+    "titre": "Project Mercury (NASA)",
+    "url": "https://www.nasa.gov/project-mercury"
+   },
+   {
+    "titre": "Chronology of Notable Astronauts (Britannica)",
+    "url": "https://www.britannica.com/topic/Chronology-of-Notable-Astronauts-1846693"
+   }
+  ]
+ },
+ {
+  "id": "eclipses",
+  "sources": [
+   {
+    "titre": "Éclipse solaire (AREQ, copie de Wikipédia)",
+    "url": "https://areq.net/lang/fr/%C3%89clipse_solaire.html"
+   },
+   {
+    "titre": "Éclipse lunaire (AREQ, copie de Wikipédia)",
+    "url": "https://areq.net/lang/fr/%C3%89clipse_lunaire.html"
+   },
+   {
+    "titre": "Solar eclipse (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/Solar_eclipse"
+   },
+   {
+    "titre": "Glossaire des termes d'une éclipse solaire (PhotoEphemeris)",
+    "url": "https://photoephemeris.com/fr/articles/a-solar-eclipse-glossary-of-terms/"
+   },
+   {
+    "titre": "Danjon scale (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Danjon_scale"
+   },
+   {
+    "titre": "Comprendre la teinte rouge d'une lune de sang (IMEP)",
+    "url": "https://www.imep-cnrs.com/comprendre-la-teinte-rouge-dune-lune-de-sang-ou-lune-rouge/"
+   },
+   {
+    "titre": "Éclipse lunaire (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/eclipse-lunaire"
+   },
+   {
+    "titre": "Éclipse solaire du 12 août 2026 (CNES)",
+    "url": "https://cnes.fr/evenements/eclipse-solaire-12-aout-2026-un-phenomene-solaire-visible-france"
+   },
+   {
+    "titre": "Éclipse solaire du 12 août 2026 : la France face à son plus grand spectacle céleste (Pleine-lune.org)",
+    "url": "https://www.pleine-lune.org/actus/eclipse-solaire-du-12-aout-2026-la-france-face-a-son-plus-grand-spectacle-celeste-depuis-1999/"
+   },
+   {
+    "titre": "Éclipse solaire du 11 août 1999 (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/eclipse-solaire-du-11-aout-1999"
+   },
+   {
+    "titre": "Solar eclipse of August 11, 1999 (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_August_11,_1999"
+   },
+   {
+    "titre": "L'éclipse solaire du 11 août 1999 (Paris Zigzag)",
+    "url": "https://www.pariszigzag.fr/paris-au-quotidien/actualites-paris/eclipse-solaire-france/"
+   },
+   {
+    "titre": "Éclipse manquée ? Voyager pour voir l'éclipse du siècle de 2027 (Euronews)",
+    "url": "https://fr.euronews.com/2026/08/13/eclipse-manquee-ou-voyager-pour-voir-leclipse-du-siecle-de-2027"
+   }
+  ]
+ },
+ {
+  "id": "femmes-astronautes",
+  "sources": [
+   {
+    "titre": "Valentina Tereshkova (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Tereshkova"
+   },
+   {
+    "titre": "Vostok 6 (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/articles/Vostok_6"
+   },
+   {
+    "titre": "Svetlana Savitskaya (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Svetlana_Savitskaya"
+   },
+   {
+    "titre": "Svetlana Savitskaya: Second woman in space, 1st female spacewalker (Space.com)",
+    "url": "https://www.space.com/svetlana-savitskaya-biography"
+   },
+   {
+    "titre": "Sally Ride (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Sally_Ride"
+   },
+   {
+    "titre": "Eileen Collins (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Eileen_Collins"
+   },
+   {
+    "titre": "Mae Jemison (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Mae_Jemison"
+   },
+   {
+    "titre": "Helen Sharman (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Helen_Sharman"
+   },
+   {
+    "titre": "Chiaki Mukai (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Chiaki_Mukai"
+   },
+   {
+    "titre": "Liu Yang (taikonaut) (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Liu_Yang_(taikonaut)"
+   },
+   {
+    "titre": "Christina Hammock Koch: Record-breaking NASA astronaut (Space.com)",
+    "url": "https://space.com/christina-koch"
+   },
+   {
+    "titre": "2 U.S. Astronauts Venture Out For 1st All-Female Spacewalk (NPR)",
+    "url": "https://www.npr.org/2019/10/18/771224479/2-american-women-astronauts-venture-out-for-first-all-female-spacewalk"
+   },
+   {
+    "titre": "Christina Koch and Jessica Meir (Time 100, 2020)",
+    "url": "https://time.com/collection/100-most-influential-people-2020/5888216/all-women-spacewalk-christina-koch-jessica-meir"
+   },
+   {
+    "titre": "List of women astronauts (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_women_astronauts"
+   }
+  ]
+ },
+ {
+  "id": "fond-diffus",
+  "sources": [
+   {
+    "titre": "Fond diffus cosmologique (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Fond_diffus_cosmologique"
+   },
+   {
+    "titre": "Cosmic microwave background (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Cosmic_microwave_background"
+   },
+   {
+    "titre": "Surface de dernière diffusion (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Surface_de_derni%C3%A8re_diffusion"
+   },
+   {
+    "titre": "Recombinaison (cosmologie) (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Recombinaison_(cosmologie)"
+   },
+   {
+    "titre": "CMB cold spot (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/CMB_cold_spot"
+   },
+   {
+    "titre": "Axis of evil (cosmology) (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Axis_of_evil_(cosmology)"
+   },
+   {
+    "titre": "Sunyaev–Zeldovich effect (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Sunyaev%E2%80%93Zeldovich_effect"
+   },
+   {
+    "titre": "Cosmic Background Explorer (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Cosmic_Background_Explorer"
+   },
+   {
+    "titre": "George Smoot (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/George_Smoot"
+   },
+   {
+    "titre": "John C. Mather (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/John_C._Mather"
+   },
+   {
+    "titre": "Wilkinson Microwave Anisotropy Probe (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Wilkinson_Microwave_Anisotropy_Probe"
+   },
+   {
+    "titre": "RELIKT-1 (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/RELIKT-1"
+   },
+   {
+    "titre": "List of cosmic microwave background experiments (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/List_of_cosmic_microwave_background_experiments"
+   },
+   {
+    "titre": "La neige des vieux téléviseurs et le Big Bang (Le Tribunal du Net)",
+    "url": "https://www.letribunaldunet.fr/science/neige-vieux-televiseurs-big-bang-fond-diffus-cosmologique.html"
+   },
+   {
+    "titre": "Noise (video) (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/Noise_(video)"
+   }
+  ]
+ },
+ {
+  "id": "fusees-lanceurs",
+  "sources": [
+   {
+    "titre": "Saturn V (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Saturn_V"
+   },
+   {
+    "titre": "History of rockets (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/History_of_rockets"
+   },
+   {
+    "titre": "Brief History of Rockets (NASA Glenn Research Center)",
+    "url": "https://www.grc.nasa.gov/www/K-12/TRC/Rockets/history_of_rockets.html"
+   },
+   {
+    "titre": "Konstantine Edouardovitch Tsiolkovski (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/personnage/Konstantine_Edouardovitch_Tsiolkovski/147593"
+   },
+   {
+    "titre": "Tsiolkovsky rocket equation (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation"
+   },
+   {
+    "titre": "Équation de Tsiolkowski (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/equation-de-tsiolkowski"
+   },
+   {
+    "titre": "Falcon 9 (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Falcon_9"
+   },
+   {
+    "titre": "Falcon 9 : qu'est-ce que c'est ? (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/falcon-9-falcon-9-18030/"
+   },
+   {
+    "titre": "SpaceX : atterrissage réussi pour Falcon 9 (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/actualites/spacex-atterrissage-reussi-falcon-9-spacex-91117/"
+   },
+   {
+    "titre": "Soyuz (rocket family) (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Soyuz_(rocket_family)"
+   },
+   {
+    "titre": "R-7 (rocket family) (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/R-7_(rocket_family)"
+   },
+   {
+    "titre": "Space Shuttle Era Facts (NASA)",
+    "url": "https://www3.nasa.gov/centers/kennedy/pdf/566306main_shuttle-era-facts.pdf"
+   },
+   {
+    "titre": "SpaceX Starship (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/Starship_(SpaceX)"
+   },
+   {
+    "titre": "Long March (rocket family) (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Long_March_(rocket_family)"
+   }
+  ]
+ },
+ {
+  "id": "futur-exploration",
+  "sources": [
+   {
+    "titre": "Artemis, NASA's Moon landing program (The Planetary Society)",
+    "url": "https://www.planetary.org/space-missions/artemis"
+   },
+   {
+    "titre": "Artemis (NASA)",
+    "url": "https://www.nasa.gov/humans-in-space/artemis/"
+   },
+   {
+    "titre": "What is the Artemis program? (Smithsonian National Air and Space Museum)",
+    "url": "https://airandspace.si.edu/stories/editorial/what-artemis-program"
+   },
+   {
+    "titre": "Programme Artemis : retour d'humains sur la Lune (CNES)",
+    "url": "https://cnes.fr/actualites/programme-artemis-retour-dhumains-lune"
+   },
+   {
+    "titre": "SpaceX Starship (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/Starship_(SpaceX)"
+   },
+   {
+    "titre": "Mars Sample Return (The Planetary Society)",
+    "url": "https://www.planetary.org/space-missions/mars-sample-return"
+   },
+   {
+    "titre": "Earth Return Orbiter, the first round trip to Mars (ESA)",
+    "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Earth_Return_Orbiter_the_first_round-trip_to_Mars"
+   },
+   {
+    "titre": "Human mission to Mars (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/Human_mission_to_Mars"
+   },
+   {
+    "titre": "Human mission to Mars (Wikipédia, archive de 2022)",
+    "url": "https://webcf.waybackmachine.org/web/20220325183856/https://en.wikipedia.org/wiki/Human_mission_to_Mars"
+   },
+   {
+    "titre": "Terraformation de Mars (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/terraformation-de-mars"
+   },
+   {
+    "titre": "Terraforming (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/Terraforming"
+   },
+   {
+    "titre": "Terraformation : rendre Mars habitable serait impossible (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/actualites/astronomie-terraformation-rendre-mars-habitable-serait-impossible-instant-71713/"
+   },
+   {
+    "titre": "Space tourism (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/articles/Space_hotels"
+   },
+   {
+    "titre": "Ascenseur spatial (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/ascenseur-spatial"
+   },
+   {
+    "titre": "Ascenseur spatial : qu'est-ce que c'est ? (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/univers-ascenseur-spatial-3668/"
+   }
+  ]
+ },
+ {
+  "id": "galaxies-celebres",
+  "sources": [
+   {
+    "titre": "List of galaxies (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/List_of_galaxies"
+   },
+   {
+    "titre": "Messier 82 (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Messier_82"
+   },
+   {
+    "titre": "Antennae Galaxies (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Antennae_Galaxies"
+   },
+   {
+    "titre": "Tadpole Galaxy (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Tadpole_Galaxy"
+   },
+   {
+    "titre": "Cartwheel Galaxy (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Cartwheel_Galaxy"
+   },
+   {
+    "titre": "Pinwheel Galaxy (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Pinwheel_Galaxy"
+   },
+   {
+    "titre": "Messier 63 (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Sunflower_Galaxy"
+   },
+   {
+    "titre": "Centaurus A (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Centaurus_A"
+   },
+   {
+    "titre": "Centaurus A/M83 Group (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Centaurus_A/M83_Group"
+   },
+   {
+    "titre": "Ring galaxy (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Ring_galaxy"
+   },
+   {
+    "titre": "Interacting galaxy (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Interacting_galaxy"
+   },
+   {
+    "titre": "Atlas of Peculiar Galaxies (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Atlas_of_Peculiar_Galaxies"
+   },
+   {
+    "titre": "Coma Berenices (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Coma_Berenices"
+   },
+   {
+    "titre": "Galaxie naine du Sagittaire (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Galaxie_naine_du_Sagittaire"
+   },
+   {
+    "titre": "Dwarf spheroidal galaxy (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Dwarf_spheroidal_galaxy"
+   },
+   {
+    "titre": "Galaxie naine du Fourneau (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Galaxie_naine_du_Fourneau"
+   },
+   {
+    "titre": "Local Group (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Local_Group"
+   },
+   {
+    "titre": "Sculptor Group (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Sculptor_Group"
+   }
+  ]
+ },
+ {
+  "id": "jour-nuit",
+  "sources": [
+   {
+    "titre": "Jour sidéral (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/jour-sideral"
+   },
+   {
+    "titre": "Crépuscule civil, nautique et astronomique (Sterngucker)",
+    "url": "https://www.sterngucker.de/fr/crepuscule/"
+   },
+   {
+    "titre": "International Date Line (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/International_Date_Line"
+   },
+   {
+    "titre": "Heure d'été (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Heure_d%27%C3%A9t%C3%A9"
+   },
+   {
+    "titre": "Fact or Fiction: The Days (and Nights) Are Getting Longer (Scientific American)",
+    "url": "https://www.scientificamerican.com/article/earth-rotation-summer-solstice/"
+   },
+   {
+    "titre": "For a billion years, Earth's day lasted just 19.5 hours (Université de Toronto, 2023)",
+    "url": "https://www.utoronto.ca/news/astrophysicists-reveal-why-earths-day-was-constant-over-billion-years"
+   },
+   {
+    "titre": "Pourquoi ne sent-on pas la Terre tourner ? (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/questions-reponses/astronomie-ne-sent-on-pas-terre-tourne-6304/"
+   },
+   {
+    "titre": "We lost 1.59 milliseconds June 29 when the Earth spun a little faster (NPR, 2022)",
+    "url": "https://www.npr.org/2022/08/07/1116218384/we-lost-1-59-milliseconds-june-29-when-the-earth-spun-a-little-faster"
+   },
+   {
+    "titre": "1 670 km/h : la vitesse de rotation de la Terre (Nomad Education)",
+    "url": "https://www.nomadeducation.fr/revisions/seconde-generale-tout-le-programme-lb3c5f27/1-670-kmh-la-vitesse-de-rotation-de-la-terre-cy1bb648"
+   }
+  ]
+ },
+ {
+  "id": "lanceurs-europeens",
+  "sources": [
+   {
+    "titre": "Ariane (rocket family) (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Ariane_rocket"
+   },
+   {
+    "titre": "La fusée Ariane, un succès français (CNES)",
+    "url": "https://cnes.fr/node/660"
+   },
+   {
+    "titre": "Ariane 1 à 4 (CNES)",
+    "url": "https://cnes.fr/en/projects/ariane"
+   },
+   {
+    "titre": "Ariane 5 (CNES)",
+    "url": "https://cnes.fr/projets/ariane-5"
+   },
+   {
+    "titre": "Le nouveau lanceur européen Ariane 6 a pris son envol (CNES)",
+    "url": "https://cnes.fr/communiques/nouveau-lanceur-europeen-ariane-6-pris-envol"
+   },
+   {
+    "titre": "Vol 501 d'Ariane 5 (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/vol-501-d-ariane-5"
+   },
+   {
+    "titre": "Le Centre spatial guyanais, une porte vers l'espace (CNES)",
+    "url": "https://cnes.fr/node/659"
+   },
+   {
+    "titre": "Diamant (Centre spatial guyanais, CNES)",
+    "url": "https://centrespatialguyanais.cnes.fr/en/diamant"
+   },
+   {
+    "titre": "Vega (CNES)",
+    "url": "https://cnes.fr/projets/vega"
+   },
+   {
+    "titre": "Vega-C (CNES)",
+    "url": "https://cnes.fr/projets/vega-c"
+   },
+   {
+    "titre": "Europa (rocket) (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Europa_(rocket)"
+   },
+   {
+    "titre": "Fifty years since first ELDO launch (ESA)",
+    "url": "https://www.esa.int/About_Us/ESA_history/Fifty_years_since_first_ELDO_launch"
+   }
+  ]
+ },
+ {
+  "id": "marees",
+  "sources": [
+   {
+    "titre": "Marée (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/glossaire-definition/Maree.html"
+   },
+   {
+    "titre": "Glossaire des marées (maree.info)",
+    "url": "https://maree.info/?z=1"
+   },
+   {
+    "titre": "Mascaret (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/mascaret"
+   },
+   {
+    "titre": "Mascaret (AREQ, copie de Wikipédia)",
+    "url": "https://areq.net/lang/fr/Mascaret.html"
+   },
+   {
+    "titre": "Tidal bore (chemeurope, d'après Wikipédia)",
+    "url": "https://www.chemeurope.com/en/encyclopedia/Tidal_bore.html"
+   },
+   {
+    "titre": "Highest tides in the world (Bay of Fundy Tourism)",
+    "url": "https://www.bayoffundy.com/about/highest-tides/"
+   },
+   {
+    "titre": "Bay of Fundy (New World Encyclopedia)",
+    "url": "https://newworldencyclopedia.org/entry/Bay_of_Fundy"
+   },
+   {
+    "titre": "Full moon pulls LHC from its protons (CERN, 2012)",
+    "url": "https://home.cern/about/updates/2012/06/full-moon-pulls-lhc-its-protons"
+   },
+   {
+    "titre": "Moon's Tides Affect Humongous Atom Smasher, Too (Space.com)",
+    "url": "https://space.com/16202-moon-tides-lhc-atom-smasher.html"
+   }
+  ]
+ },
+ {
+  "id": "matiere-noire",
+  "sources": [
+   {
+    "titre": "A History of Dark Matter (G. Bertone et D. Hooper, arXiv, version ar5iv)",
+    "url": "https://ar5iv.arxiv.org/html/1605.04909"
+   },
+   {
+    "titre": "The beginnings of the dark matter problem and rotation curves (K. Freese, NED, Caltech)",
+    "url": "https://ned.ipac.caltech.edu/level5/Sept17/Freese/Freese2.html"
+   },
+   {
+    "titre": "Amas du Boulet (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/amas-du-boulet"
+   },
+   {
+    "titre": "Bullet cluster : qu'est-ce que c'est ? (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/astronomie-bullet-cluster-4981/"
+   },
+   {
+    "titre": "A Direct Empirical Proof of the Existence of Dark Matter (Clowe et al., résumé ADS)",
+    "url": "https://ui.adsabs.harvard.edu/abs/2006ApJ...648L.109C/abstract"
+   },
+   {
+    "titre": "Euclid en détails (CNES)",
+    "url": "https://cnes.fr/projets/euclid/en-details"
+   },
+   {
+    "titre": "Euclid lifts off (communiqué de l'Agence spatiale européenne, 2023)",
+    "url": "https://m.esa.int/Newsroom/Press_Releases/ESA_s_Euclid_lifts_off_on_quest_to_unravel_the_cosmic_mystery_of_dark_matter_and_dark_energy"
+   },
+   {
+    "titre": "Vera Rubin (National Women's History Museum)",
+    "url": "https://www.womenshistory.org/education-resources/biographies/vera-rubin"
+   },
+   {
+    "titre": "Vera Rubin: the astronomer who brought dark matter to light (Space.com)",
+    "url": "https://www.space.com/vera-rubin.html"
+   },
+   {
+    "titre": "Fritz Zwicky (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Fritz_Zwicky"
+   },
+   {
+    "titre": "Observable universe (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Observable_universe"
+   },
+   {
+    "titre": "Dark energy may evolve over time (University College London, 2025)",
+    "url": "https://www.ucl.ac.uk/mathematical-physical-sciences/news/2025/mar/dark-energy-may-evolve-over-time-suggests-largest-3d-map-universe"
+   }
+  ]
+ },
+ {
+  "id": "missions-apollo",
+  "sources": [
+   {
+    "titre": "Apollo Call Signs (NASA, SP-4029)",
+    "url": "https://www.nasa.gov/wp-content/uploads/static/history/SP-4029/Apollo_18-17_Call_Signs.htm"
+   },
+   {
+    "titre": "Spacecraft call signs (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Spacecraft_call_signs"
+   },
+   {
+    "titre": "Apollo space program (Britannica)",
+    "url": "https://britannica.com/science/Apollo-space-program"
+   },
+   {
+    "titre": "Programme Apollo (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Programme_Apollo"
+   },
+   {
+    "titre": "The Apollo Program (NASA NSSDCA)",
+    "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo.html"
+   },
+   {
+    "titre": "List of Apollo missions (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Apollo_missions"
+   },
+   {
+    "titre": "Missions before the Moon landing (Royal Museums Greenwich)",
+    "url": "https://www.rmg.co.uk/discover/explore/missions-before-moon-landing"
+   },
+   {
+    "titre": "Apollo 11: the story of the Moon landing (BBC Sky at Night Magazine)",
+    "url": "https://www.skyatnightmagazine.com/space-missions/apollo-11-story-of-moon-landing"
+   },
+   {
+    "titre": "55 years ago: Apollo 11's one small step (NASA)",
+    "url": "https://www.nasa.gov/history/55-years-ago-apollo-11s-one-small-step-one-giant-leap"
+   },
+   {
+    "titre": "Apollo missions and Moon samples (Natural History Museum)",
+    "url": "https://www.nhm.ac.uk/discover/apollo-missions-moon-samples-museum-history.html"
+   },
+   {
+    "titre": "Apollo 13: facts about NASA's near-disaster moon mission (Space.com)",
+    "url": "https://www.space.com/17250-apollo-13-facts.html?jwsource=cl"
+   },
+   {
+    "titre": "Apollo 13 accident (NASA NSSDCA)",
+    "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/ap13acc.html"
+   },
+   {
+    "titre": "Apollo 13: the successful failure (NASA)",
+    "url": "https://www.nasa.gov/history/apollo/apollo-13-the-successful-failure/"
+   },
+   {
+    "titre": "Lunar Roving Vehicle (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/Lunar_Roving_Vehicle"
+   },
+   {
+    "titre": "The Apollo Lunar Roving Vehicle (NASA NSSDCA)",
+    "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+   },
+   {
+    "titre": "A car for the Moon: the Lunar Roving Vehicle (Astronomy)",
+    "url": "https://www.astronomy.com/observing/a-car-for-the-moon-the-lunar-roving-vehicle/"
+   },
+   {
+    "titre": "Moon rock (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Moon_rock"
+   },
+   {
+    "titre": "Big Muley (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/Big_Muley"
+   },
+   {
+    "titre": "Genesis Rock (NASA Science)",
+    "url": "https://science.nasa.gov/moon/moon-rocks/genesis-rock/"
+   },
+   {
+    "titre": "What the Apollo Moon rocks told us (Astronomy)",
+    "url": "https://www.astronomy.com/observing/what-the-apollo-moon-rocks-told-us/"
+   }
+  ]
+ },
+ {
+  "id": "pluies-meteores",
+  "sources": [
+   {
+    "titre": "Zenithal hourly rate (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Zenithal_hourly_rate"
+   },
+   {
+    "titre": "Advanced meteor observing (Sky & Telescope)",
+    "url": "https://skyandtelescope.org/observing/advanced-meteor-observing/"
+   },
+   {
+    "titre": "Calendrier 2018 des pluies météoriques (International Meteor Organization)",
+    "url": "https://www.imo.net/files/meteor-shower/cal2018fr.pdf"
+   },
+   {
+    "titre": "The meteor observer's year (Society for Popular Astronomy)",
+    "url": "https://www.popastro.com/meteor/?p=1404"
+   },
+   {
+    "titre": "Meteor streams (NASA JPL)",
+    "url": "https://ssd.jpl.nasa.gov/sb/meteor_streams.html"
+   },
+   {
+    "titre": "Calendrier des pluies de météores (Star Walk)",
+    "url": "https://starwalk.space/fr/news/meteor-shower-calendar"
+   },
+   {
+    "titre": "Des étoiles filantes et des bolides diurnes en juin (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/breves/astronomie-etoiles-filantes-bolides-diurnes-juin-6638/"
+   },
+   {
+    "titre": "The greatest meteor storms of all time (Space.com)",
+    "url": "https://www.space.com/greatest-meteor-storms-in-history"
+   },
+   {
+    "titre": "60 years ago the Leonids produced 144,000 meteors per hour (Space.com)",
+    "url": "https://space.com/stargazing/meteor-showers/60-years-ago-the-leonid-meteor-shower-produced-144-000-meteors-per-hour-could-it-happen-again"
+   },
+   {
+    "titre": "The Leonids of 1833 (Space.com)",
+    "url": "https://www.space.com/scienceastronomy/astronomy/leonids_1833_011114.html"
+   },
+   {
+    "titre": "The mother of all meteor storms (P. Jenniskens, Space.com)",
+    "url": "https://www.space.com/5200-mother-meteor-storms.html"
+   },
+   {
+    "titre": "History of the Leonid meteors (KFUPM)",
+    "url": "https://faculty.kfupm.edu.sa/PHYS/alshukri/Leonids/history.html"
+   },
+   {
+    "titre": "The ghost of Biela's comet (EarthSky)",
+    "url": "https://earthsky.org/astronomy-essentials/the-ghost-of-bielas-comet-andromedids-storm/"
+   },
+   {
+    "titre": "Andromedids (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Andromedids"
+   },
+   {
+    "titre": "The Earth narrowly missed a meteor storm on October 9 (Severe Weather Europe)",
+    "url": "https://www.severe-weather.eu/recent-events/the-earth-narrowly-missed-a-meteor-storm-on-october-9"
+   }
+  ]
+ },
+ {
+  "id": "premiers-humains-espace",
+  "sources": [
+   {
+    "titre": "The flight of Vostok 1 (ESA)",
+    "url": "https://esa.int/About_Us/ESA_history/50_years_of_humans_in_space/The_flight_of_Vostok_1"
+   },
+   {
+    "titre": "Yuri Gagarin and Vostok 1 (The Planetary Society)",
+    "url": "https://planetary.org/space-missions/vostok-1"
+   },
+   {
+    "titre": "10 Facts About Yuri Gagarin (History Hit)",
+    "url": "https://www.historyhit.com/?p=5152874"
+   },
+   {
+    "titre": "Yuri Gagarin: the first human in space (BBC Sky at Night)",
+    "url": "https://www.skyatnightmagazine.com/space-missions/yuri-gagarin-first-human-in-space"
+   },
+   {
+    "titre": "Chronology of Notable Astronauts (Britannica)",
+    "url": "https://www.britannica.com/topic/Chronology-of-Notable-Astronauts-1846693"
+   },
+   {
+    "titre": "List of space travelers by nationality (copie de Wikipédia)",
+    "url": "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/List_of_astronauts_by_nationality.html"
+   },
+   {
+    "titre": "Timeline of astronauts by nationality (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/articles/Timeline_of_astronauts_by_nationality"
+   },
+   {
+    "titre": "List of astronauts by first flight (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/articles/List_of_astronauts_by_first_flight"
+   },
+   {
+    "titre": "Sergei Korolev (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Sergei_Korolev"
+   },
+   {
+    "titre": "Project Mercury (NASA)",
+    "url": "https://www.nasa.gov/project-mercury"
+   }
+  ]
+ },
+ {
+  "id": "rovers-martiens",
+  "sources": [
+   {
+    "titre": "How Mars rovers have evolved in 25 years (Science News)",
+    "url": "https://www.sciencenews.org/article/mars-rover-robot-red-planet-history-nasa-china"
+   },
+   {
+    "titre": "Mars rover (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/Mars_Rover"
+   },
+   {
+    "titre": "Mars rovers (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/Mars_rovers"
+   },
+   {
+    "titre": "Mars rovers: a complete guide (Space.com)",
+    "url": "https://www.space.com/mars-rovers.html"
+   },
+   {
+    "titre": "How many rovers have been on Mars? (WorldAtlas)",
+    "url": "https://worldatlas.com/space/how-many-rovers-have-been-on-mars.html"
+   },
+   {
+    "titre": "Comparing off-world rover driving distances (NASA)",
+    "url": "https://science.nasa.gov/photojournal/comparing-off-world-rover-driving-distances/"
+   },
+   {
+    "titre": "Perseverance (rover) (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/Perseverance_(rover)"
+   },
+   {
+    "titre": "Five years of the Perseverance rover on Mars (Smithsonian)",
+    "url": "https://www.airandspace.si.edu/stories/editorial/five-years-perseverance-rover-mars"
+   },
+   {
+    "titre": "Ingenuity Mars Helicopter (NASA)",
+    "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/"
+   },
+   {
+    "titre": "Ingenuity, NASA's Mars helicopter (The Planetary Society)",
+    "url": "https://www.planetary.org/space-missions/ingenuity"
+   },
+   {
+    "titre": "ExoMars / Rosalind Franklin (CNES)",
+    "url": "https://cnes.fr/projets/exomars"
+   },
+   {
+    "titre": "ExoMars Rosalind Franklin rover will have a European landing platform (ESA)",
+    "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_Rosalind_Franklin_rover_will_have_a_European_landing_platform"
+   },
+   {
+    "titre": "ExoMars Rosalind Franklin rover (BBC Sky at Night Magazine)",
+    "url": "https://www.skyatnightmagazine.com/space-missions/exomars-rosalind-franklin-rover"
+   }
+  ]
+ },
+ {
+  "id": "saisons",
+  "sources": [
+   {
+    "titre": "Saison (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/saison"
+   },
+   {
+    "titre": "Solstice (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Solstice"
+   },
+   {
+    "titre": "Équinoxe (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/equinoxe"
+   },
+   {
+    "titre": "Celestial Stonehenge (English Heritage)",
+    "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/things-to-do/stone-circle/celestial-stonehenge/"
+   },
+   {
+    "titre": "Tropic of Cancer (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Tropic_of_Cancer"
+   },
+   {
+    "titre": "Cercle polaire : qu'est-ce que c'est ? (Futura)",
+    "url": "https://www.futura-sciences.com/planete/definitions/terre-cercle-polaire-16868/"
+   },
+   {
+    "titre": "Jour polaire (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/glossaire-definition/Jour-polaire.html"
+   }
+  ]
+ },
+ {
+  "id": "satellites-artificiels",
+  "sources": [
+   {
+    "titre": "Geostationary orbit (Britannica)",
+    "url": "https://www.britannica.com/science/geostationary-orbit"
+   },
+   {
+    "titre": "Système de positionnement par satellites (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/systeme-de-positionnement-par-satellites"
+   },
+   {
+    "titre": "Galileo, le GPS européen (CNES)",
+    "url": "https://cnes.fr/node/627"
+   },
+   {
+    "titre": "Les débris spatiaux (CNES)",
+    "url": "https://cnes.fr/node/340"
+   },
+   {
+    "titre": "About space debris (ESA)",
+    "url": "https://www.esa.int/Space_Safety/Space_Debris/About_space_debris"
+   },
+   {
+    "titre": "Starlink (eoPortal)",
+    "url": "https://directory.eoportal.org/satellite-missions/starlink"
+   },
+   {
+    "titre": "Catching a ride on the Starlink satellite train (Universe Today)",
+    "url": "https://www.universetoday.com/142320/catching-a-ride-on-the-starlink-satellite-train-marvel-or-night-sky-menace"
+   },
+   {
+    "titre": "Celebrating 65 years of the world's first weather satellite (NOAA NESDIS)",
+    "url": "https://www.nesdis.noaa.gov/news/celebrating-65-years-of-the-worlds-first-weather-satellite"
+   },
+   {
+    "titre": "50 years of Earth Observation (ESA)",
+    "url": "https://www.esa.int/About_Us/ESA_history/50_years_of_Earth_Observation"
+   },
+   {
+    "titre": "Forty years of Meteosat (ESA)",
+    "url": "https://www.esa.int/articles/forty-years-of-meteosat"
+   },
+   {
+    "titre": "Télescope spatial Hubble (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/télescope_spatial_Hubble/124352"
+   },
+   {
+    "titre": "30 years ago: STS-61, the first Hubble servicing mission (NASA)",
+    "url": "https://www.nasa.gov/history/30-years-ago-sts-61-the-first-hubble-servicing-mission/?rand=772114"
+   }
+  ]
+ },
+ {
+  "id": "sondes-spatiales",
+  "sources": [
+   {
+    "titre": "Programme Voyager (AREQ, copie de Wikipédia)",
+    "url": "https://areq.net/lang/fr/Programme_Voyager.html"
+   },
+   {
+    "titre": "Programme Voyager (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/programme-voyager"
+   },
+   {
+    "titre": "Pioneer 10 (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/pioneer-10"
+   },
+   {
+    "titre": "Plaque de Pioneer (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/plaque-de-pioneer"
+   },
+   {
+    "titre": "Programme Pioneer (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/programme-pioneer"
+   },
+   {
+    "titre": "Mariner Program (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Mariner_Program"
+   },
+   {
+    "titre": "Viking 1 and 2, NASA's first Mars landers (The Planetary Society)",
+    "url": "https://planetary.org/space-missions/viking"
+   },
+   {
+    "titre": "Viking : qu'est-ce que c'est ? (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/univers-viking-4520/"
+   },
+   {
+    "titre": "Galileo (spacecraft) (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/Galileo_(spacecraft)"
+   },
+   {
+    "titre": "Venus : spacecraft exploration (Britannica)",
+    "url": "https://www.Britannica.Com/place/Venus-planet/Spacecraft-exploration"
+   },
+   {
+    "titre": "Venera 7 (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/articles/Venera_7"
+   },
+   {
+    "titre": "BepiColombo factsheet (ESA)",
+    "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/BepiColombo_factsheet"
+   },
+   {
+    "titre": "BepiColombo en détails (CNES)",
+    "url": "https://cnes.fr/projets/bepicolombo/en-details"
+   },
+   {
+    "titre": "Mercure : la sonde Messenger va s'écraser (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/actualites/mercure-mission-terminee-sonde-messenger-va-ecraser-mercure-57959/"
+   },
+   {
+    "titre": "NASA spacecraft achieves unprecedented success studying Mercury (NASA)",
+    "url": "https://www.nasa.gov/news-release/nasa-spacecraft-achieves-unprecedented-success-studying-mercury/"
+   }
+  ]
+ },
+ {
+  "id": "stations-spatiales",
+  "sources": [
+   {
+    "titre": "Space exploration : space stations (Britannica)",
+    "url": "https://www.britannica.com/science/space-exploration/Space-stations"
+   },
+   {
+    "titre": "The first space stations (Smithsonian National Air and Space Museum)",
+    "url": "https://airandspace.si.edu/stories/editorial/first-space-stations"
+   },
+   {
+    "titre": "ISS : data and modules (DLR)",
+    "url": "https://www.dlr.de/en/research-and-transfer/projects-and-missions/iss/data-and-modules"
+   },
+   {
+    "titre": "Les cargos (CNES)",
+    "url": "https://cnes.fr/node/667"
+   },
+   {
+    "titre": "Mir FAQs : facts and history (ESA)",
+    "url": "https://www.esa.int/esaCP/ESA28WTM5JC_Life_2.html"
+   },
+   {
+    "titre": "Station spatiale Mir, de son lancement en 1986 à sa désorbitation en 2001 (Star Walk)",
+    "url": "https://starwalk.space/fr/news/mir-space-station"
+   },
+   {
+    "titre": "Tiangong, China's space station (The Planetary Society)",
+    "url": "https://www.planetary.org:443/space-missions/chinese-space-station"
+   },
+   {
+    "titre": "Space station : Tiangong (Britannica)",
+    "url": "https://www.britannica.com/technology/space-station/Tiangong"
+   },
+   {
+    "titre": "Daily life (ESA)",
+    "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Astronauts/Daily_life"
+   },
+   {
+    "titre": "The International Space Station : life in space (Science in School)",
+    "url": "https://scienceinschool.web.cern.ch/article/2009/the-international-space-station-life-in-space"
+   }
+  ]
+ },
+ {
+  "id": "theories-cosmologiques",
+  "sources": [
+   {
+    "titre": "Astronomical systems (Museo Galileo, Florence)",
+    "url": "https://catalogue.museogalileo.it/indepth/AstronomicalSystems.html"
+   },
+   {
+    "titre": "Ptolemaic system (Encyclopædia Britannica)",
+    "url": "https://www.britannica.com/science/Ptolemaic-system"
+   },
+   {
+    "titre": "Le berceau du cosmos (Ciel & Espace, Association française d'astronomie)",
+    "url": "https://media.afastronomie.fr/Expo-CMC/pdf/Articles/Grece_berceau_cosmos.pdf"
+   },
+   {
+    "titre": "Mondes sans dieux (Association française d'astronomie)",
+    "url": "https://media.afastronomie.fr/Expo-CMC/pdf/Articles/Mondes_sans_dieux.pdf"
+   },
+   {
+    "titre": "Einstein's static universe (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Einstein%27s_static_universe"
+   },
+   {
+    "titre": "Einstein's aborted attempt at a dynamic steady-state universe (H. Nussbaumer, arXiv)",
+    "url": "https://arxiv.org/pdf/1402.4099"
+   },
+   {
+    "titre": "Cyclic model (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/articles/Cyclic_model"
+   },
+   {
+    "titre": "Big Bounce (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Big_Bounce"
+   },
+   {
+    "titre": "Multiverse (Encyclopædia Britannica)",
+    "url": "https://www.britannica.com/science/multiverse"
+   },
+   {
+    "titre": "The Multiverse Hierarchy (M. Tegmark, arXiv, version ar5iv)",
+    "url": "https://ar5iv.labs.arxiv.org/html/0905.1283"
+   },
+   {
+    "titre": "Heat death of the universe (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Heat_death_of_the_universe"
+   },
+   {
+    "titre": "Phantom Energy and Cosmic Doomsday (Caldwell, Kamionkowski et Weinberg, arXiv, version ar5iv)",
+    "url": "https://ar5iv.labs.arxiv.org/html/astro-ph/0302506"
+   },
+   {
+    "titre": "How will the universe end? (Live Science)",
+    "url": "https://www.livescience.com/65299-how-will-the-universe-end.html"
+   }
+  ]
+ },
+ {
+  "id": "univers-observable",
+  "sources": [
+   {
+    "titre": "Observable universe (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Observable_universe"
+   },
+   {
+    "titre": "Hubble's deep fields (NASA)",
+    "url": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-deep-fields/"
+   },
+   {
+    "titre": "When Hubble stared at nothing for 100 hours (National Geographic)",
+    "url": "https://www.nationalgeographic.com/science/article/when-hubble-stared-at-nothing-for-100-hours"
+   },
+   {
+    "titre": "Webb finds most distant known galaxy (Agence spatiale européenne)",
+    "url": "https://www.esa.int/ESA_Multimedia/Images/2024/05/Webb_finds_most_distant_known_galaxy"
+   },
+   {
+    "titre": "Le télescope James-Webb observe une galaxie 290 millions d'années après le Big Bang (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/actualites/astronomie-telescope-james-webb-observe-galaxie-290-millions-annees-seulement-apres-big-bang-113767/"
+   },
+   {
+    "titre": "Webb's MoM-z14, the most distant galaxy (BBC Sky at Night Magazine)",
+    "url": "https://skyatnightmagazine.com/news/webb-mom-z14"
+   },
+   {
+    "titre": "List of the most distant astronomical objects (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/articles/List_of_the_most_distant_astronomical_objects"
+   },
+   {
+    "titre": "Observable Universe contains ten times more galaxies than previously thought (ESA/Hubble, heic1620)",
+    "url": "https://esahubble.org/news/heic1620/"
+   },
+   {
+    "titre": "Olbers' paradox (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Olbers%27_paradox"
+   },
+   {
+    "titre": "Why is the sky dark at night? (University of Western Australia, d'après The Conversation)",
+    "url": "https://www.uwa.edu.au/news/article/2023/june/why-is-the-sky-dark-at-night-the-200-year-history-of-a-question-that-transformed-our-understanding-of-the-universe"
+   }
+  ]
+ },
+ {
+  "id": "vent-solaire",
+  "sources": [
+   {
+    "titre": "Vent solaire (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/vent-solaire"
+   },
+   {
+    "titre": "Solar wind (EBSCO Research Starters)",
+    "url": "https://ebsco.com/research-starters/astronomy-and-astrophysics/solar-wind"
+   },
+   {
+    "titre": "The solar wind (Oxford Research Encyclopedia of Physics, arXiv)",
+    "url": "https://arxiv.org/html/2507.13460v1"
+   },
+   {
+    "titre": "A brief history of magnetospheric physics (D. P. Stern, NASA Goddard)",
+    "url": "https://pwg.gsfc.nasa.gov/Education/bh1-2.html"
+   },
+   {
+    "titre": "Que sont les éruptions solaires ? (SpaceWeatherLive)",
+    "url": "https://www.spaceweatherlive.com/fr/aide/que-sont-les-eruptions-solaires.html"
+   },
+   {
+    "titre": "Qu'est-ce qu'une éjection de masse coronale ? (SpaceWeatherLive)",
+    "url": "https://www.spaceweatherlive.com/fr/aide/qu-est-ce-qu-une-ejection-de-masse-coronale-cme.html"
+   },
+   {
+    "titre": "The Kp-index et échelle G (SpaceWeatherLive)",
+    "url": "https://spaceweatherlive.com/en/help/the-kp-index.html"
+   },
+   {
+    "titre": "What are solar flares? (ESA)",
+    "url": "https://www.esa.int/Science_Exploration/Space_Science/What_are_solar_flares"
+   },
+   {
+    "titre": "La tempête de mars 1989 (Hydro-Québec)",
+    "url": "https://hydroquebec.com/learning/notions-de-base/tempete-mars-1989.html"
+   },
+   {
+    "titre": "March 1989 geomagnetic storm (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/March_1989_geomagnetic_storm"
+   },
+   {
+    "titre": "40 satellites de SpaceX font naufrage à cause d'une tempête solaire (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/actualites/soleil-40-satellites-spacex-font-naufrage-atmosphere-cause-tempete-solaire-96679/"
+   },
+   {
+    "titre": "Geomagnetic storm leads to loss of up to 40 Starlink satellites (ARRL)",
+    "url": "https://www.arrl.org/news/geomagnetic-storm-leads-to-loss-of-up-to-40-starlink-satellites"
+   },
+   {
+    "titre": "Ce que la NASA a appris de la tempête solaire de mai 2024 (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/actualites/soleil-aurores-magnifiques-degats-invisibles-ce-nasa-appris-plus-puissante-tempete-solaire-depuis-20-ans-121869/"
+   },
+   {
+    "titre": "Solar Orbiter en détails (CNES)",
+    "url": "https://cnes.fr/projets/solar-orbiter/en-details"
+   },
+   {
+    "titre": "Solar Orbiter factsheet (ESA)",
+    "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_factsheet"
+   }
+  ]
  }
 ]
