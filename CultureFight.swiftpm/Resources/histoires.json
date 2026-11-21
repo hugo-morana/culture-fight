@@ -1000,5 +1000,185 @@
    "mendeleviking",
    "newtonfu"
   ]
+ },
+ {
+  "id": "joulutteur",
+  "pays": "atomie",
+  "lieu": "Les Ateliers de Newtonne",
+  "histoire": "Lutteur des Ateliers de Newtonne, Joulutteur soulève chaque matin le même rocher pour stocker de l'énergie dans ses bras. Il compte tout en joules, même ses petits-déjeuners. Catapultueux lui prête un treuil quand il est fatigué ; Newtonfu lui rappelle que rien ne se perd.",
+  "liens": [
+   "catapultueux",
+   "newtonfu"
+  ]
+ },
+ {
+  "id": "catapultueux",
+  "pays": "atomie",
+  "lieu": "Les Ateliers de Newtonne",
+  "histoire": "Ingénieure des remparts de Newtonne, Catapultueux soulève des tours entières avec une poulie et un bon levier. Elle a construit les trébuchets de la Citadelle médiévale. Azincourt-Circuit lui reproche de tirer plus loin que lui ; Joulutteur lui emprunte sa roue.",
+  "liens": [
+   "azincourt-circuit",
+   "joulutteur"
+  ]
+ },
+ {
+  "id": "pascaladin",
+  "pays": "atomie",
+  "lieu": "Les Ateliers de Newtonne",
+  "histoire": "Paladin des cimes de Newtonne, Pascaladin a gravi le Puy de Dôme un baromètre à la main pour prouver que l'air pèse moins là-haut. Son bouclier mesure la pression de chaque coup. Archimédusa l'emmène parfois sous la mer ; Everyeti lui montre les sommets.",
+  "liens": [
+   "archimedusa",
+   "everyeti"
+  ]
+ },
+ {
+  "id": "archimedusa",
+  "pays": "atomie",
+  "lieu": "Les Ateliers de Newtonne",
+  "histoire": "Reine des bassins profonds de Newtonne, Archimédusa ne coule jamais : elle sait exactement combien d'eau elle déplace. Elle explique aux navires pourquoi ils flottent et aux avions pourquoi ils volent. Pascaladin vient la voir en scaphandre ; Flibustlantique lui doit plusieurs naufrages évités.",
+  "liens": [
+   "pascaladin",
+   "flibustlantique"
+  ]
+ },
+ {
+  "id": "galileopard",
+  "pays": "atomie",
+  "lieu": "Les Ateliers de Newtonne",
+  "histoire": "Guetteur de la tour penchée de Newtonne, Galiléopard lâche chaque jour deux boulets de poids différents pour vérifier qu'ils touchent le sol ensemble. Il retombe toujours sur ses pattes. Graviking lui fournit les boulets ; Accéléraptor chronomètre leur chute.",
+  "liens": [
+   "graviking",
+   "acceleraptor"
+  ]
+ },
+ {
+  "id": "machabee",
+  "pays": "atomie",
+  "lieu": "Les Ateliers de Newtonne",
+  "histoire": "Messager des Ateliers de Newtonne, Machabée court depuis l'Antiquité pour annoncer chaque nouveau record, du marathon aux sondes spatiales. Il n'a jamais été rattrapé, sauf par Accéléraptor, une fois, sur un sprint. Thermopyl-ou-Face prétend qu'il venait de Sparte.",
+  "liens": [
+   "acceleraptor",
+   "thermopyl-ou-face"
+  ]
+ },
+ {
+  "id": "court-jus-jitsu",
+  "pays": "atomie",
+  "lieu": "La Centrale d'Ampérage",
+  "histoire": "Maître du dojo de la Centrale d'Ampérage, Court-Jus-Jitsu referme ses prises comme on ferme un circuit : sans le moindre faux contact. Il repère un court-circuit d'un seul regard. Voltigeur lui dispute la salle d'entraînement ; Transistorc répare ses gants.",
+  "liens": [
+   "voltigeur",
+   "transistorc"
+  ]
+ },
+ {
+  "id": "voltigeur",
+  "pays": "atomie",
+  "lieu": "La Centrale d'Ampérage",
+  "histoire": "Acrobate des voûtes de la Centrale d'Ampérage, Voltigeur saute de cadran en cadran sans jamais confondre un volt et un ampère. Elle connaît le savant caché derrière chaque unité. Ampère-Empereur la nomme chaque année grande mesureuse du royaume ; Court-Jus-Jitsu lui laisse la salle le soir.",
+  "liens": [
+   "ampere-empereur",
+   "court-jus-jitsu"
+  ]
+ },
+ {
+  "id": "aimantazone",
+  "pays": "atomie",
+  "lieu": "La Centrale d'Ampérage",
+  "histoire": "Guerrière des tours de la Centrale d'Ampérage, Aimantazone attire à elle toutes les flèches en fer et repousse celles de ses rivales. Elle s'oriente toujours vers le nord, même les yeux fermés. Électromage lui a fabriqué son aimant ; Boussolat lui demande souvent son chemin.",
+  "liens": [
+   "electromage",
+   "boussolat"
+  ]
+ },
+ {
+  "id": "electromage",
+  "pays": "atomie",
+  "lieu": "La Centrale d'Ampérage",
+  "histoire": "Doyen de la Centrale d'Ampérage, Électromage enroule des fils de cuivre comme d'autres tricotent, et chaque bobine devient un sortilège. Il a découvert qu'un courant fait tourner l'aiguille d'une boussole. Aimantazone est son élève ; Turbinja fait tourner ses alternateurs.",
+  "liens": [
+   "aimantazone",
+   "turbinja"
+  ]
+ },
+ {
+  "id": "transistorc",
+  "pays": "atomie",
+  "lieu": "La Centrale d'Ampérage",
+  "histoire": "Bricoleur des ateliers de la Centrale d'Ampérage, Transistorc a de grosses mains mais soude les composants les plus minuscules. Il lit le code couleur d'une résistance plus vite qu'un livre. Siliconquistador lui livre ses tranches de silicium ; Court-Jus-Jitsu lui confie ses gants à réparer.",
+  "liens": [
+   "siliconquistador",
+   "court-jus-jitsu"
+  ]
+ },
+ {
+  "id": "turbinja",
+  "pays": "atomie",
+  "lieu": "La Centrale d'Ampérage",
+  "histoire": "Gardien des barrages de la Centrale d'Ampérage, Turbinja se glisse dans les cascades pour faire tourner les turbines sans un bruit. Il connaît chaque façon de produire du courant, du vent à l'atome. Électromage lui confie ses alternateurs ; Néonja lui a appris à se fondre dans l'eau.",
+  "liens": [
+   "electromage",
+   "neonja"
+  ]
+ },
+ {
+  "id": "foudroyeti",
+  "pays": "atomie",
+  "lieu": "La Centrale d'Ampérage",
+  "histoire": "Cousin d'Everyeti, Foudroyéti s'est tellement frotté aux nuages que sa fourrure ne retombe plus. Chaque poil crépite et chaque rugissement finit en coup de tonnerre. Il compte les secondes entre l'éclair et le grondement pour savoir où frapper. Voltacatcheur recharge ses brassards à ses côtés.",
+  "liens": [
+   "everyeti",
+   "voltacatcheur"
+  ]
+ },
+ {
+  "id": "voltacatcheur",
+  "pays": "atomie",
+  "lieu": "La Centrale d'Ampérage",
+  "histoire": "Champion du ring de la Centrale d'Ampérage, Voltacatcheur entre en scène avec un brassard positif et un brassard négatif, et ne se décharge jamais avant la fin du match. Il connaît chaque pile, de Volta au lithium. Foudroyéti tente de le recharger d'un éclair, sans succès.",
+  "liens": [
+   "foudroyeti",
+   "ampere-empereur"
+  ]
+ },
+ {
+  "id": "radiopirate",
+  "pays": "atomie",
+  "lieu": "La Centrale d'Ampérage",
+  "histoire": "Capitaine d'un navire-émetteur ancré au large de la Centrale d'Ampérage, Radiopirate diffuse sa musique sur toutes les fréquences interdites. Il connaît l'histoire de chaque onde, de Hertz au Wi-Fi. Flibustlantique est son ancien second ; Voltigeur capte ses émissions pendant ses acrobaties.",
+  "liens": [
+   "flibustlantique",
+   "voltigeur"
+  ]
+ },
+ {
+  "id": "ampere-empereur",
+  "pays": "atomie",
+  "lieu": "La Centrale d'Ampérage",
+  "histoire": "Souverain de la Centrale d'Ampérage, Ampère-Empereur a donné son nom à l'unité de courant et règne sur tous ceux qui ont apprivoisé l'électricité. Son trône est relié à un galvanomètre qui s'affole à chaque audience. Il arbitre la vieille querelle entre partisans du courant continu et de l'alternatif.",
+  "liens": [
+   "voltigeur",
+   "electromage"
+  ]
+ },
+ {
+  "id": "spectre-lumineux",
+  "pays": "atomie",
+  "lieu": "Le Phare des Prismes",
+  "histoire": "Esprit du Phare des Prismes, Spectre Lumineux est né le jour où un rayon de soleil a traversé le grand prisme du phare. Il se décompose en sept couleurs quand il a peur. Chevalier Renoir lui emprunte ses teintes ; Loupe-Garou le traque à la loupe.",
+  "liens": [
+   "chevalier-renoir",
+   "loupe-garou"
+  ]
+ },
+ {
+  "id": "loupe-garou",
+  "pays": "atomie",
+  "lieu": "Le Phare des Prismes",
+  "histoire": "Savant du Phare des Prismes, Loupe-Garou se transforme les nuits de pleine lune, mais ne quitte jamais sa loupe. Il voit plus loin que tout le monde grâce à ses lunettes et ses télescopes. Il traque Spectre Lumineux à travers ses lentilles ; Pythagorgone lui a prêté ses lunettes de soleil.",
+  "liens": [
+   "spectre-lumineux",
+   "pythagorgone"
+  ]
  }
 ]

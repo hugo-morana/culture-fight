@@ -3341,5 +3341,1327 @@
     "url": "https://www.wikiwand.com/en/articles/Red_Bull_Stratos"
    }
   ]
+ },
+ {
+  "id": "aimants",
+  "sources": [
+   {
+    "titre": "Aimant (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Aimant"
+   },
+   {
+    "titre": "Aimant (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/aimant/19561"
+   },
+   {
+    "titre": "Aimant (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/matiere-aimant-3883/"
+   },
+   {
+    "titre": "Magnétisme : aimants et électroaimants (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/magnetisme-notions-de-base/4-aimants-et-electroaimants/"
+   },
+   {
+    "titre": "Curie temperature (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Curie_temperature"
+   },
+   {
+    "titre": "Lodestone (Wikiwand, copie de Wikipedia)",
+    "url": "https://wikiwand.com/en/Lodestone"
+   },
+   {
+    "titre": "Neodymium magnet (Wikiwand, copie de Wikipedia)",
+    "url": "https://wikiwand.com/en/articles/Neodymium_magnet"
+   },
+   {
+    "titre": "Masato Sagawa (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Masato_Sagawa"
+   },
+   {
+    "titre": "Boussole (Wikimonde, copie de Wikipédia)",
+    "url": "https://wikimonde.com/article/Boussole"
+   },
+   {
+    "titre": "Boussole chinoise (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Boussole_chinoise"
+   },
+   {
+    "titre": "Magnetic poles (The Canadian Encyclopedia)",
+    "url": "https://thecanadianencyclopedia.ca/en/article/magnetic-poles"
+   },
+   {
+    "titre": "Wandering geomagnetic poles (NOAA NCEI)",
+    "url": "https://www.ncei.noaa.gov/products/wandering-geomagnetic-poles"
+   },
+   {
+    "titre": "Aurore polaire (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/astronomie-aurore-polaire-16642/"
+   },
+   {
+    "titre": "Aurores boréales (L'Encyclopédie canadienne)",
+    "url": "https://www.thecanadianencyclopedia.ca/fr/article/aurore-boreale"
+   },
+   {
+    "titre": "Magnetoreception (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Magnetoreception"
+   },
+   {
+    "titre": "Imagerie par résonance magnétique (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Imagerie_par_r%C3%A9sonance_magn%C3%A9tique"
+   },
+   {
+    "titre": "Imagerie par résonance magnétique (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/imagerie-par-resonance-magnetique"
+   }
+  ]
+ },
+ {
+  "id": "chute-corps",
+  "sources": [
+   {
+    "titre": "Galileo's Leaning Tower of Pisa experiment (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment"
+   },
+   {
+    "titre": "Apollo 15 Hammer-Feather Drop (NASA NSSDCA)",
+    "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_15_feather_drop.html"
+   },
+   {
+    "titre": "55 years ago an Apollo 15 astronaut dropped a hammer on the Moon (Nautilus)",
+    "url": "https://nautil.us/55-years-ago-an-apollo-15-astronaut-dropped-a-hammer-on-the-moon-1283339"
+   },
+   {
+    "titre": "Bowling ball and feather in the world's biggest vacuum chamber (ScienceAlert)",
+    "url": "https://www.sciencealert.com/watch-a-bowling-ball-and-feather-fall-in-world-s-biggest-vacuum-chamber"
+   },
+   {
+    "titre": "Terminal velocity (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Terminal_velocity"
+   },
+   {
+    "titre": "What is the speed of falling raindrops? (Union University)",
+    "url": "https://www.uu.edu/blog/2001/what-is-the-speed-of-falling-raindrops/"
+   },
+   {
+    "titre": "Parachute (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Parachute"
+   },
+   {
+    "titre": "Louis-Sébastien Lenormand (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Louis-S%C3%A9bastien_Lenormand"
+   },
+   {
+    "titre": "The first parachutist (History.com)",
+    "url": "https://www.history.com/this-day-in-history/october-22/the-first-parachutist"
+   },
+   {
+    "titre": "Galilée et le pendule (ENS Lyon)",
+    "url": "https://www.ens-lyon.fr/RELIE/Cadrans/Musee/Pages/GalHuyg.htm"
+   },
+   {
+    "titre": "Pendule pesant (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/pendule-pesant"
+   },
+   {
+    "titre": "Galileo's law of falling bodies (Museo Galileo)",
+    "url": "https://catalogue.museogalileo.it/indepth/GalileosLawFallingBodies.html"
+   },
+   {
+    "titre": "Inclined plane (Museo Galileo)",
+    "url": "https://catalogue.museogalileo.it/multimedia/InclinedPlaneBis.html"
+   },
+   {
+    "titre": "Cathedral of Santa Maria (Museo Galileo)",
+    "url": "https://brunelleschi.imss.fi.it/itineraries/place/CathedralOfSantaMaria.html"
+   },
+   {
+    "titre": "Projectile motion (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/Projectile_motion"
+   },
+   {
+    "titre": "Chute des corps (Accromath, UQAM)",
+    "url": "https://accromath.uqam.ca/wp-content/uploads/2016/10/Chute-des-corps.pdf"
+   }
+  ]
+ },
+ {
+  "id": "circuits-electriques",
+  "sources": [
+   {
+    "titre": "Intensité et tension dans un circuit complexe (SchoolMouv)",
+    "url": "https://www.schoolmouv.fr/cours/intensite-et-tension-dans-un-circuit-complexe/fiche-de-cours"
+   },
+   {
+    "titre": "Utiliser un multimètre (SchoolMouv)",
+    "url": "https://www.schoolmouv.fr/savoir-faire/utiliser-un-multimetre-en-amperemetre-en-voltmetre-ou-en-ohmmetre/fiche-pratique"
+   },
+   {
+    "titre": "Les montages électriques (SchoolMouv)",
+    "url": "https://www.schoolmouv.fr/cours/les-montages-electriques/fiche-de-cours"
+   },
+   {
+    "titre": "Les circuits électriques (Kartable)",
+    "url": "https://kartable.fr/ressources/physique-chimie/cours/les-circuits-electriques/49903"
+   },
+   {
+    "titre": "Le circuit électrique (Kartable)",
+    "url": "https://kartable.fr/ressources/physique-chimie/cours/le-circuit-electrique-2/60312"
+   },
+   {
+    "titre": "Comprendre les circuits électriques (Les Sherpas)",
+    "url": "https://sherpas.com/blog/circuits-electriques/"
+   },
+   {
+    "titre": "Circuits et puissance électrique, fiche de 3e (cours-de-sciences.fr)",
+    "url": "https://cours-de-sciences.fr/enseignement/troisieme/physique_chimie/circuits_puissance_electrique/circuits_puissance_electrique_fiche_cours.pdf"
+   },
+   {
+    "titre": "Cours d'électricité de 4e, chapitre 1 (collège, académie de Normandie)",
+    "url": "https://anne-heurgon-desjardins.college.ac-normandie.fr/IMG/pdf/Cours_Electricite_4eme_Chapitre_1.pdf"
+   },
+   {
+    "titre": "Cours d'électricité de 5e, chapitre 4 (collège, académie de Normandie)",
+    "url": "https://anne-heurgon-desjardins.college.ac-normandie.fr/IMG/pdf/Cours_Electricite_5eme_Chapitre_4.pdf"
+   },
+   {
+    "titre": "Conducteurs et isolants, dangers de l'électricité (collège, académie de Lyon)",
+    "url": "https://college-les-servizieres.etab.ac-lyon.fr/spip/IMG/pdf/chapitre_3_ve_conducteurs_et_isolants_les_dangers_de_l_electricite.pdf"
+   },
+   {
+    "titre": "Faire un schéma électrique (collège, académie de Rennes)",
+    "url": "https://www.collegelouisguilloux-montfort.ac-rennes.fr/sites/collegelouisguilloux-montfort.ac-rennes.fr/IMG/pdf/2_faire_un_schema.pdf"
+   },
+   {
+    "titre": "Disjoncteur (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/definition/3153.html"
+   },
+   {
+    "titre": "Disjoncteur différentiel 30 mA (Legrand)",
+    "url": "https://www.legrand.fr/questions-frequentes/quest-ce-quun-disjoncteur-differentiel-30-ma-et-quand-linstaller"
+   },
+   {
+    "titre": "Court-circuit (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Court-circuit"
+   },
+   {
+    "titre": "Fusible (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Fusible"
+   },
+   {
+    "titre": "Prise de terre (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Prise_de_terre"
+   },
+   {
+    "titre": "Accidents d'origine électrique (INRS)",
+    "url": "https://www.inrs.fr/risques/electriques/accidents-origine-electrique"
+   },
+   {
+    "titre": "Couleurs des fils électriques (IZI by EDF)",
+    "url": "https://izi-by-edf.fr/blog/electricite-couleurs-fils-electriques"
+   },
+   {
+    "titre": "Symboles électriques (Cedreo)",
+    "url": "https://cedreo.com/fr/blog/symbole-electrique/"
+   }
+  ]
+ },
+ {
+  "id": "composants-electroniques",
+  "sources": [
+   {
+    "titre": "1947: Invention of the Point-Contact Transistor (Computer History Museum)",
+    "url": "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/"
+   },
+   {
+    "titre": "This Month in Physics History: the transistor (APS News)",
+    "url": "https://www.aps.org/apsnews/2000/11/this-month-in-physics-history"
+   },
+   {
+    "titre": "1948: The European Transistor Invention (Computer History Museum)",
+    "url": "https://www.computerhistory.org/siliconengine/the-european-transistor-invention/"
+   },
+   {
+    "titre": "Code couleur résistance (dCode)",
+    "url": "https://www.dcode.fr/code-couleur-resistance"
+   },
+   {
+    "titre": "Résistance (composant) (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/resistance-composant"
+   },
+   {
+    "titre": "Transistor bipolaire (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Transistor_bipolaire"
+   },
+   {
+    "titre": "Composant semi-conducteur (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Composant_semi-conducteur"
+   },
+   {
+    "titre": "Diode électroluminescente (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Diode_%C3%A9lectroluminescente"
+   },
+   {
+    "titre": "Condensateur (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Condensateur"
+   },
+   {
+    "titre": "Loi de Moore (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Loi_de_Moore"
+   },
+   {
+    "titre": "Microprocesseur (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Microprocesseurs"
+   },
+   {
+    "titre": "Jack Kilby (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Jack_St._Clair_Kilby"
+   },
+   {
+    "titre": "Gordon Earle Moore (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Gordon_Earle_Moore"
+   },
+   {
+    "titre": "Tube électronique (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Tube_%C3%A9lectronique"
+   },
+   {
+    "titre": "Redresseur (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Redresseur"
+   },
+   {
+    "titre": "Récepteur à cristal (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9cepteur_%C3%A0_cristal"
+   },
+   {
+    "titre": "Laboratoires Bell (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Laboratoires_Bell"
+   },
+   {
+    "titre": "Circuit imprimé (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Circuit_imprim%C3%A9"
+   },
+   {
+    "titre": "Circuit intégré (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Circuit_int%C3%A9gr%C3%A9"
+   },
+   {
+    "titre": "Semi-conducteur (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Semi-conducteur"
+   },
+   {
+    "titre": "Composant électronique (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Composant_%C3%A9lectronique"
+   }
+  ]
+ },
+ {
+  "id": "couleurs-spectre",
+  "sources": [
+   {
+    "titre": "Lumière visible (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/lumiere-visible"
+   },
+   {
+    "titre": "Spectre lumineux (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Spectre_lumineux"
+   },
+   {
+    "titre": "Spectre électromagnétique (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Spectre_%C3%A9lectromagn%C3%A9tique"
+   },
+   {
+    "titre": "Arc-en-ciel (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/arc-en-ciel"
+   },
+   {
+    "titre": "Daltonisme (AREQ, copie de Wikipédia)",
+    "url": "https://areq.net/lang/fr/Daltonisme.html"
+   },
+   {
+    "titre": "John Dalton (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/personnage/John_Dalton/115508"
+   },
+   {
+    "titre": "Couleur du ciel (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/couleur-du-ciel"
+   },
+   {
+    "titre": "Diffusion Rayleigh (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/diffusion-rayleigh"
+   },
+   {
+    "titre": "Synthèse additive et soustractive (Les Sherpas)",
+    "url": "https://sherpas.com/blog/synthese-additive-soustractive"
+   },
+   {
+    "titre": "Les couleurs (Kartable)",
+    "url": "https://kartable.fr/ressources/physique-chimie/cours/les-couleurs-4/51302"
+   },
+   {
+    "titre": "Les pigments et la vision des couleurs (SchoolMouv)",
+    "url": "https://www.schoolmouv.fr/cours/les-pigments-et-la-vision-des-couleurs/fiche-de-cours"
+   },
+   {
+    "titre": "Herschel's Experiment (Caltech IPAC)",
+    "url": "https://coolcosmos.ipac.caltech.edu/page/herschel_experiment"
+   },
+   {
+    "titre": "150 years since the discovery of helium (Science Museum)",
+    "url": "https://blog.sciencemuseum.org.uk/150-years-since-the-discovery-of-helium/"
+   },
+   {
+    "titre": "Prisme (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/prisme-optique"
+   },
+   {
+    "titre": "Dispersion de la lumière (Nomad Education)",
+    "url": "https://www.nomadeducation.fr/revisions/3e-sn-tout-le-programme-lb3eae33/dispersion-de-la-lumiere-cyf0ee46"
+   },
+   {
+    "titre": "Newton's prism experiment (Musée d'histoire des sciences d'Oxford)",
+    "url": "https://www.cabinet.ox.ac.uk/node/4307"
+   },
+   {
+    "titre": "Joseph von Fraunhofer (Britannica)",
+    "url": "https://www.britannica.com/biography/Joseph-von-Fraunhofer"
+   },
+   {
+    "titre": "Joseph von Fraunhofer (High Altitude Observatory)",
+    "url": "https://www2.hao.ucar.edu/index%2Ephp/education/scientists/joseph-von-fraunhofer-1787-1826"
+   }
+  ]
+ },
+ {
+  "id": "electromagnetisme",
+  "sources": [
+   {
+    "titre": "July 1820: Oersted & Electromagnetism (APS News)",
+    "url": "https://aps.org/apsnews/2008/07/1820-oersted-electromagnetism"
+   },
+   {
+    "titre": "André-Marie Ampère et la découverte de l'électrodynamique (Éduscol)",
+    "url": "https://sti.eduscol.education.fr/sites/eduscol.education.fr.sti/files/ressources/pedagogiques/14463/14463-andre-marie-ampere-et-la-decouverte-de-lelectrodynamique-ensps.pdf"
+   },
+   {
+    "titre": "Electromagnet (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Electromagnet"
+   },
+   {
+    "titre": "Magnétisme : aimants et électroaimants (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/magnetisme-notions-de-base/4-aimants-et-electroaimants/"
+   },
+   {
+    "titre": "Electromagnetic induction (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Electromagnetic_induction"
+   },
+   {
+    "titre": "Timeline of the electric motor (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Timeline_of_the_electric_motor"
+   },
+   {
+    "titre": "The History of the Transformer (Edison Tech Center)",
+    "url": "https://edisontechcenter.org/Transformers.html"
+   },
+   {
+    "titre": "Maxwell's equations (Wikipedia, copie Wikispeedia de l'EPFL)",
+    "url": "https://dlab.epfl.ch/wikispeedia/wpcd/wp/m/Maxwell%2527s_equations.htm"
+   },
+   {
+    "titre": "Optics timeline 1867-1899 (Florida State University)",
+    "url": "https://micro.magnet.fsu.edu/optics/timeline/1867-1899.html"
+   },
+   {
+    "titre": "Ondes et spectres électromagnétiques (SchoolMouv)",
+    "url": "https://www.schoolmouv.fr/cours/ondes-et-spectres-electromagnetiques/"
+   },
+   {
+    "titre": "Les ondes électromagnétiques (CNES)",
+    "url": "https://cnes.fr/en/node/2813"
+   },
+   {
+    "titre": "Un train japonais en lévitation à plus de 600 km/h (Connaissance des Énergies)",
+    "url": "https://www.connaissancedesenergies.org/un-train-japonais-en-levitation-plus-de-600-kmh-150422"
+   },
+   {
+    "titre": "Loudspeaker (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Loudspeaker"
+   }
+  ]
+ },
+ {
+  "id": "energie-travail",
+  "sources": [
+   {
+    "titre": "Formes et principes de conservation de l'énergie (SchoolMouv)",
+    "url": "https://www.schoolmouv.fr/cours/formes-et-principes-de-conservation-de-l-energie/fiche-de-cours"
+   },
+   {
+    "titre": "Travail d'une force et énergie mécanique (SchoolMouv)",
+    "url": "https://www.schoolmouv.fr/cours/travail-d-une-force-et-energie-mecanique/fiche-de-revision"
+   },
+   {
+    "titre": "Travail et puissance mécanique (Nomad Education)",
+    "url": "https://www.nomadeducation.fr/revisions/3e-ci-lb52ef90/travail-et-puissance-mecanique-cy97ed90"
+   },
+   {
+    "titre": "Les conversions d'énergie (SchoolMouv)",
+    "url": "https://www.schoolmouv.fr/cours/les-conversions-d-energie/fiche-de-cours"
+   },
+   {
+    "titre": "Unités de l'énergie (Connaissance des Énergies)",
+    "url": "https://www.connaissancedesenergies.org/fiche-pedagogique/unites-de-lenergie"
+   },
+   {
+    "titre": "Qu'est-ce qu'un bon rendement énergétique ? (Connaissance des Énergies)",
+    "url": "https://www.connaissancedesenergies.org/questions-et-reponses-energies/quest-ce-quun-bon-rendement-energetique"
+   },
+   {
+    "titre": "Cheval-vapeur (Futura)",
+    "url": "https://www.futura-sciences.com/planete/definitions/developpement-durable-cheval-vapeur-11311/"
+   },
+   {
+    "titre": "James Watt (SchoolMouv)",
+    "url": "https://www.schoolmouv.fr/personnages/watt/scientifique"
+   },
+   {
+    "titre": "James Prescott Joule (Britannica)",
+    "url": "https://www.britannica.com/biography/James-Prescott-Joule"
+   },
+   {
+    "titre": "Joule and the mechanical equivalent of heat (APS News)",
+    "url": "https://www.aps.org/apsnews/2015/06/joule-mechanical-equivalent-heat"
+   },
+   {
+    "titre": "James Prescott Joule (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/james-prescott-joule/2-l-equivalent-mecanique-de-la-chaleur/"
+   },
+   {
+    "titre": "History of energy (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/History_of_energy"
+   },
+   {
+    "titre": "Ordre de grandeur (énergie) (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/ordre-de-grandeur-energie"
+   },
+   {
+    "titre": "Ordre de grandeur (puissance) (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/ordre-de-grandeur-puissance"
+   },
+   {
+    "titre": "Puissance (physique) (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Puissance_(physique)"
+   },
+   {
+    "titre": "Énergie (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/%C3%89nergie"
+   }
+  ]
+ },
+ {
+  "id": "foudre-statique",
+  "sources": [
+   {
+    "titre": "Foudre (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Foudre"
+   },
+   {
+    "titre": "1752 : Franklin prouve que la foudre est électrique (Nomad Education)",
+    "url": "https://www.nomadeducation.fr/revisions/seconde-generale-tout-le-programme-lb3c5f27/1752-franklin-prouve-que-la-foudre-est-electriqu-cy1bd312"
+   },
+   {
+    "titre": "Bouteille de Leyde (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/bouteille-de-leyde"
+   },
+   {
+    "titre": "Méga éclairs : l'OMM valide un nouveau record (OMM)",
+    "url": "https://wmo.int/fr/news/media-centre/mega-eclairs-lomm-valide-un-nouveau-record-aux-etats-unis"
+   },
+   {
+    "titre": "Etymology of electricity (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Etymology_of_electricity"
+   },
+   {
+    "titre": "Wimshurst machine (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Wimshurst_machine"
+   },
+   {
+    "titre": "Cage de Faraday (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/matiere-cage-faraday-3821/"
+   },
+   {
+    "titre": "Faraday cage (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Faraday_cage"
+   },
+   {
+    "titre": "L'électricité statique (EDF)",
+    "url": "https://www.edf.fr/groupe-edf/comprendre/electricite-au-quotidien/essentiels/electricite-statique"
+   },
+   {
+    "titre": "La foudre (EDF)",
+    "url": "https://www.edf.fr/groupe-edf/comprendre/electricite-au-quotidien/essentiels/foudre"
+   },
+   {
+    "titre": "Paratonnerre (Futura)",
+    "url": "https://www.futura-sciences.com/maison/definitions/maison-paratonnerre-10813/"
+   },
+   {
+    "titre": "Électricité : histoire, les origines (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/electricite-histoire/1-les-origines/"
+   },
+   {
+    "titre": "Triboelectricity (UW–Madison MRSEC)",
+    "url": "https://education.mrsec.wisc.edu/triboelectricity/"
+   },
+   {
+    "titre": "Création de la foudre (Environnement Canada)",
+    "url": "https://www.canada.ca/fr/environnement-changement-climatique/services/foudre/science/creation-foudre.html"
+   },
+   {
+    "titre": "Foudre (L'Encyclopédie canadienne)",
+    "url": "https://www.thecanadianencyclopedia.ca/fr/article/lightning"
+   },
+   {
+    "titre": "Comment se protéger de la foudre ? (IRM, Belgique)",
+    "url": "https://www.meteo.be/fr/infos/actualite/comment-se-proteger-de-la-foudre"
+   },
+   {
+    "titre": "Cumulonimbus (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Cumulonimbus"
+   },
+   {
+    "titre": "L'électricité statique en hiver (MétéoMédia)",
+    "url": "https://www.meteomedia.com/fr/nouvelles/science/trucs-et-astuces/lelectricite-statique-en-hiver-un-phenomene-electrisant-explique"
+   },
+   {
+    "titre": "10 Myths About Lightning (HowStuffWorks)",
+    "url": "https://science.howstuffworks.com/nature/climate-weather/storms/10-lightning-myths.htm"
+   },
+   {
+    "titre": "Can Lightning Strike the Same Place Twice? (Britannica)",
+    "url": "https://www.britannica.com/story/can-lightning-strike-the-same-place-twice"
+   }
+  ]
+ },
+ {
+  "id": "lentilles-optique",
+  "sources": [
+   {
+    "titre": "Les lentilles minces et leurs propriétés (SchoolMouv)",
+    "url": "https://www.schoolmouv.fr/cours/les-lentilles-minces-et-leurs-proprietes/fiche-de-cours"
+   },
+   {
+    "titre": "Lentilles convergentes et divergentes (Les Sherpas)",
+    "url": "https://sherpas.com/blog/lentilles-convergentes-divergentes/"
+   },
+   {
+    "titre": "Vergence d'une lentille (Les Sherpas)",
+    "url": "https://sherpas.com/blog/vergence-lentille/"
+   },
+   {
+    "titre": "La vision et l'image (Kartable)",
+    "url": "https://kartable.fr/ressources/physique-chimie/cours/la-vision-et-limage/20453"
+   },
+   {
+    "titre": "Cours d'optique géométrique, réfraction et réflexion (Observatoire de la Côte d'Azur)",
+    "url": "https://www-n.oca.eu/carbillet/enseignement/L1-Bio/Cours-2.pdf"
+   },
+   {
+    "titre": "Présentation des troubles de la réfraction (Manuel MSD)",
+    "url": "https://www.msdmanuals.com/fr/accueil/troubles-oculaires/troubles-de-la-réfraction/présentation-des-troubles-de-la-réfraction"
+   },
+   {
+    "titre": "Lentilles correctrices (Manuel Merck)",
+    "url": "https://www.merckmanuals.com/fr-ca/accueil/troubles-oculaires/troubles-de-la-r%C3%A9fraction/lentilles-correctrices"
+   },
+   {
+    "titre": "La genèse du télescope (Année mondiale de l'astronomie 2009)",
+    "url": "https://astronomy2009.org/static/archives/presentations/pdf/telescope_genesis_fr.pdf"
+   },
+   {
+    "titre": "Le télescope et la révolution scientifique (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/2-2270/le-telescope-et-la-revolution-scientifique/"
+   },
+   {
+    "titre": "Télescope de Newton (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/telescope-de-newton/"
+   },
+   {
+    "titre": "Microscope et révolution scientifique (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/2-2271/microscope-et-revolution-scientifique/"
+   },
+   {
+    "titre": "Antonie van Leeuwenhoek (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-19505/antonie-van-leeuwenhoek/"
+   },
+   {
+    "titre": "Miroirs concaves et convexes (Les Sherpas)",
+    "url": "https://sherpas.com/blog/miroirs-concaves-convexes/"
+   },
+   {
+    "titre": "Rétroviseurs asphériques (Ornikar)",
+    "url": "https://www.ornikar.com/code/cours/mecanique-vehicule/habitacle/retroviseurs-aspheriques"
+   },
+   {
+    "titre": "Mirage (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Mirage"
+   },
+   {
+    "titre": "History of fibre optics (Telefónica)",
+    "url": "https://www.telefonica.com/en/communication-room/blog/history-fibre-optics/"
+   },
+   {
+    "titre": "Optical fiber pioneer shares physics Nobel (IEEE Spectrum)",
+    "url": "https://spectrum.ieee.org/optical-fiber-pioneer-shares-physics-nobel"
+   }
+  ]
+ },
+ {
+  "id": "machines-simples",
+  "sources": [
+   {
+    "titre": "Machines simples (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/machines-simples/"
+   },
+   {
+    "titre": "Simple machine (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Simple_machine"
+   },
+   {
+    "titre": "Les machines simples, guide Tinybop",
+    "url": "https://tinybop.com/assets/handbooks/simple-machines/Tinybop-EL4-Simple-Machines-Handbook-FR.pdf"
+   },
+   {
+    "titre": "Poulie, fiche matériel (SchoolMouv)",
+    "url": "https://www.schoolmouv.fr/savoir-faire/poulie/fiche-materiel"
+   },
+   {
+    "titre": "Trébuchet (AREQ, copie de Wikipédia)",
+    "url": "https://areq.net/lang/fr/Tr%C3%A9buchet.html"
+   },
+   {
+    "titre": "Trébuchet (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Tr%C3%A9buchet"
+   },
+   {
+    "titre": "Artillerie romaine (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/2-649/artillerie-romaine/"
+   },
+   {
+    "titre": "War comes to Archimedes (Weber State University)",
+    "url": "https://physics.weber.edu/carroll/archimedes/war.htm"
+   },
+   {
+    "titre": "Plutarque, le siège de Syracuse (NYU)",
+    "url": "https://math.nyu.edu/Archimedes/Siege/Plutarch.html"
+   },
+   {
+    "titre": "Who really invented the Archimedes screw? (History Hit)",
+    "url": "https://www.historyhit.com/who-really-invented-the-archimedes-screw/"
+   },
+   {
+    "titre": "Engrenage (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/engrenage/47913"
+   },
+   {
+    "titre": "Inclined plane (Wikiwand, copie de Wikipedia)",
+    "url": "https://www.wikiwand.com/en/articles/Ramp"
+   },
+   {
+    "titre": "Simon Stevin, apports en physique (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/simon-stevin/3-apports-en-physique/"
+   },
+   {
+    "titre": "Treuil (Grand Dictionnaire terminologique, OQLF)",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2069735/treuil"
+   },
+   {
+    "titre": "Cabestan (Grand Dictionnaire terminologique, OQLF)",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8872974/cabestan"
+   },
+   {
+    "titre": "Wheel and axle (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Wheel_and_axle"
+   },
+   {
+    "titre": "Date de l'invention de la roue (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/questions-reponses/histoire-date-invention-roue-6799/"
+   }
+  ]
+ },
+ {
+  "id": "mecanique-fluides",
+  "sources": [
+   {
+    "titre": "The Golden Crown (New York University)",
+    "url": "https://math.nyu.edu/Archimedes/Crown/CrownIntro.html"
+   },
+   {
+    "titre": "Galileo's La Bilancetta (New York University)",
+    "url": "https://math.nyu.edu/Archimedes/Crown/bilancetta.html"
+   },
+   {
+    "titre": "Vitruvius on the crown (New York University)",
+    "url": "https://math.nyu.edu/Archimedes/Crown/Vitruvius.html"
+   },
+   {
+    "titre": "Masse volumique (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/masse-volumique"
+   },
+   {
+    "titre": "Densité (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Densit%C3%A9"
+   },
+   {
+    "titre": "Théorème de Bernoulli (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/theoreme-de-bernoulli"
+   },
+   {
+    "titre": "Hydrodynamica (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Hydrodynamica"
+   },
+   {
+    "titre": "Daniel Bernoulli (EBSCO)",
+    "url": "https://ebsco.com/research-starters/history/daniel-bernoulli"
+   },
+   {
+    "titre": "Effet Venturi (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/effet-venturi"
+   },
+   {
+    "titre": "Portance (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/definitions/physique-portance-446/"
+   },
+   {
+    "titre": "Equal Transit Theory (NASA Glenn Research Center)",
+    "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/foilw1"
+   },
+   {
+    "titre": "Viscosité (Techno-Science)",
+    "url": "https://www.techno-science.net/glossaire-definition/Viscosite.html"
+   },
+   {
+    "titre": "Viscosité (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Viscosit%C3%A9"
+   },
+   {
+    "titre": "Fluide (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Fluide"
+   },
+   {
+    "titre": "Osborne Reynolds (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Osborne_Reynolds"
+   },
+   {
+    "titre": "This Month in Physics History : Reynolds (APS)",
+    "url": "https://www.aps.org/apsnews/2020/03/this-month-in-physics-history"
+   },
+   {
+    "titre": "Nombre de Reynolds (académie de Nancy-Metz)",
+    "url": "https://sites.ac-nancy-metz.fr/physique/SiteAcademiqueOld/ancien_site/Tp-phys/Term/Reynolds/Reynolds3.htm"
+   },
+   {
+    "titre": "Siphon (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Siphon"
+   },
+   {
+    "titre": "Vases communicants (Fondation La main à la pâte)",
+    "url": "https://fondation-lamap.org/sites/default/files/pdf/Comment-se-comportent-deux-vases-communicants-fiche-explication-eleve.pdf"
+   },
+   {
+    "titre": "Heron's fountain (Wikiwand, copie de Wikipédia)",
+    "url": "https://wikiwand.com/en/articles/Heron's_fountain"
+   },
+   {
+    "titre": "Tension superficielle (Techno-Science)",
+    "url": "https://www.techno-science.net/definition/6786.html"
+   },
+   {
+    "titre": "Tension superficielle (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Tension_superficielle"
+   }
+  ]
+ },
+ {
+  "id": "ondes-radio",
+  "sources": [
+   {
+    "titre": "Radio (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Radio"
+   },
+   {
+    "titre": "Onde radio (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Onde_radio"
+   },
+   {
+    "titre": "Onde radio (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/onde-radio"
+   },
+   {
+    "titre": "Guglielmo Marconi (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/guglielmo-marconi"
+   },
+   {
+    "titre": "Heinrich Hertz (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/personnalites/physique-heinrich-hertz-1087/"
+   },
+   {
+    "titre": "Édouard Branly (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/edouard-branly"
+   },
+   {
+    "titre": "Pirate radio broadcasting in the 1960s (Electronics Notes)",
+    "url": "https://www.electronics-notes.com/articles/history/broadcasting/pirate-radio-broadcasting-in-1960s-radio-caroline.php"
+   },
+   {
+    "titre": "La petite histoire de l'appel du 18 juin 1940 (info.gouv.fr)",
+    "url": "https://www.info.gouv.fr/actualite/la-petite-histoire-de-lappel-du-18-juin-1940"
+   },
+   {
+    "titre": "Aux origines de la France libre : l'appel du 18 juin (ministère des Armées)",
+    "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/seconde-guerre-mondiale/resister/france-libre/aux"
+   },
+   {
+    "titre": "Radio telescope (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Radio_telescope"
+   },
+   {
+    "titre": "A brief history of Bluetooth (TÜV Nord)",
+    "url": "https://www.tuev-nord.de/en/knowledge/explore/a-brief-history-of-bluetooth/"
+   },
+   {
+    "titre": "The cool stories behind the Ethernet, Bluetooth and Wi-Fi names (Goodreads)",
+    "url": "https://www.goodreads.com/author_blog_posts/23440253-network-tech-branding-the-cool-stories-behind-the-ethernet-bluetooth?tab=book"
+   },
+   {
+    "titre": "Radar (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/radar/85175"
+   },
+   {
+    "titre": "Nikola Tesla (Connaissance des énergies)",
+    "url": "https://www.connaissancedesenergies.org/fiche-pedagogique/nikola-tesla"
+   }
+  ]
+ },
+ {
+  "id": "piles-batteries",
+  "sources": [
+   {
+    "titre": "Pile électrique (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Pile_%C3%A9lectrique"
+   },
+   {
+    "titre": "Development of batteries (Britannica)",
+    "url": "https://www.britannica.com/technology/battery-electronics/Development-of-batteries"
+   },
+   {
+    "titre": "Évolution des piles (histoire des piles)",
+    "url": "https://www.geocities.ws/profmokeur/chimie/histoirepile.htm"
+   },
+   {
+    "titre": "L'invention de la pile électrique (Sorbonne Université)",
+    "url": "https://www.sorbonne-universite.fr/sites/default/files/media/2021-09/acid_-_invention_de_la_pile_electrique_0.pdf"
+   },
+   {
+    "titre": "Volta et la pile électrique (Fondation Napoléon)",
+    "url": "https://www.napoleon.org/histoire-des-2-empires/articles/volta-et-la-pile-electrique"
+   },
+   {
+    "titre": "Leclanché cell (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Leclanch%C3%A9_cell"
+   },
+   {
+    "titre": "Georges Leclanché (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Georges_Leclanch%C3%A9"
+   },
+   {
+    "titre": "Alkaline battery (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Alkaline_battery"
+   },
+   {
+    "titre": "Lewis Urry (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Lewis_Urry"
+   },
+   {
+    "titre": "Battery sizes (ChemEurope)",
+    "url": "https://www.chemeurope.com/en/encyclopedia/Battery_sizes.html"
+   },
+   {
+    "titre": "Choisir le format de ses piles (Fournisseurs-electricite.com)",
+    "url": "https://www.fournisseurs-electricite.com/actualites/choisir-format-piles-batteries"
+   },
+   {
+    "titre": "Gaston Planté (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Gaston_Plant%C3%A9"
+   },
+   {
+    "titre": "Planté Battery, 1859 (National MagLab)",
+    "url": "https://nationalmaglab.org/magnet-academy/history-of-electricity-magnetism/museum/plante-battery-1859/"
+   },
+   {
+    "titre": "Accumulateurs (ENS de Lyon)",
+    "url": "https://perso.ens-lyon.fr/manon.leconte/pedago/fichiers/electrochimie/accumulateurs.pdf"
+   },
+   {
+    "titre": "Prix Nobel de chimie 2019, communiqué (nobelprize.org)",
+    "url": "https://www.nobelprize.org/prizes/chemistry/2019/press-release/"
+   },
+   {
+    "titre": "Lithium Batteries Win 2019 Nobel Prize in Chemistry (Scientific American)",
+    "url": "https://www.scientificamerican.com/article/wins-nobel-prize-for-chemistry/"
+   },
+   {
+    "titre": "Baghdad Battery (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/articles/Baghdad_Battery"
+   },
+   {
+    "titre": "Pile de Volta (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Pile_de_Volta"
+   },
+   {
+    "titre": "Piles et accumulateurs (ministère de la Transition écologique)",
+    "url": "https://www.ecologie.gouv.fr/politiques-publiques/piles-accumulateurs"
+   }
+  ]
+ },
+ {
+  "id": "pionniers-electricite",
+  "sources": [
+   {
+    "titre": "Histoire de l'électricité (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/histoire-de-l-electricite"
+   },
+   {
+    "titre": "Électricité (AREQ, copie de Wikipédia)",
+    "url": "https://areq.net/lang/fr/%C3%89lectricit%C3%A9.html"
+   },
+   {
+    "titre": "André-Marie Ampère (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Andr%C3%A9-Marie_Amp%C3%A8re"
+   },
+   {
+    "titre": "Ampère (SchoolMouv)",
+    "url": "https://www.schoolmouv.fr/personnages/ampere/scientifique"
+   },
+   {
+    "titre": "Georg Ohm (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Georg_Ohm"
+   },
+   {
+    "titre": "Michael Faraday (Science History Institute)",
+    "url": "https://www.sciencehistory.org/education/scientific-biographies/michael-faraday/"
+   },
+   {
+    "titre": "Michael Faraday (IET Archives)",
+    "url": "https://www.theiet.org/membership/library-archives/the-iet-archives/biographies/michael-faraday/"
+   },
+   {
+    "titre": "Volta et la pile électrique (Fondation Napoléon)",
+    "url": "https://www.napoleon.org/histoire-des-2-empires/articles/volta-et-la-pile-electrique"
+   },
+   {
+    "titre": "Foundations of electrochemistry and electrodynamics (Britannica)",
+    "url": "https://www.britannica.com/science/electromagnetism/Foundations-of-electrochemistry-and-electrodynamics"
+   },
+   {
+    "titre": "The experiment that shocked the world (Helix, Northwestern)",
+    "url": "https://www.helix.northwestern.edu/?p=184"
+   },
+   {
+    "titre": "Nikola Tesla (Connaissance des énergies)",
+    "url": "https://www.connaissancedesenergies.org/fiche-pedagogique/nikola-tesla"
+   },
+   {
+    "titre": "The War of the Currents (U.S. Department of Energy)",
+    "url": "https://www.energy.gov/articles/war-currents-ac-vs-dc-power?xid=PS_smithsonian"
+   },
+   {
+    "titre": "The Westinghouse/Edison rivalry (Scientific American)",
+    "url": "https://www.scientificamerican.com/blog/plugged-in/the-westinghouseedison-rivalry-stray-dogs-circus-elephants-and-getting-westinghoused/"
+   },
+   {
+    "titre": "Tesla and the Columbian Exposition (PBS)",
+    "url": "https://www.pbs.org/wgbh/americanexperience/features/tesla-columbian-exposition"
+   },
+   {
+    "titre": "Werner von Siemens (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Werner_von_Siemens"
+   }
+  ]
+ },
+ {
+  "id": "pression",
+  "sources": [
+   {
+    "titre": "Magdeburg hemispheres (Wikiwand, copie de Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Magdeburg_hemispheres"
+   },
+   {
+    "titre": "Magdeburg Hemispheres (Museo Galileo)",
+    "url": "https://catalogue.museogalileo.it/indepth/MagdeburgHemispheres.html"
+   },
+   {
+    "titre": "Florin Périer (Linda Hall Library)",
+    "url": "https://www.lindahall.org/about/news/scientist-of-the-day/florin-perier"
+   },
+   {
+    "titre": "Blaise Pascal and his Barometer (Wikibooks)",
+    "url": "https://en.wikibooks.org/wiki/Planet_Earth/4e._Blaise_Pascal_and_his_Barometer."
+   },
+   {
+    "titre": "Torricelli Measures Atmospheric Pressure (EBSCO)",
+    "url": "https://ebsco.com/research-starters/earth-and-atmospheric-sciences/torricelli-measures-atmospheric-pressure"
+   },
+   {
+    "titre": "Torricelli's barometric experiment (Museo Galileo)",
+    "url": "https://catalogue.museogalileo.it/multimedia/TorricellisBarometricExperimentBis.html"
+   },
+   {
+    "titre": "Comment mesure-t-on la pression atmosphérique ? (Futura)",
+    "url": "https://www.futura-sciences.com/planete/questions-reponses/meteorologie-mesure-t-on-pression-atmospherique-24976/"
+   },
+   {
+    "titre": "Pression atmosphérique (Techno-Science)",
+    "url": "https://www.techno-science.net/glossaire-definition/Pression-atmospherique.html"
+   },
+   {
+    "titre": "Pression atmosphérique (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Pression_atmosph%C3%A9rique"
+   },
+   {
+    "titre": "Presse hydraulique (AREQ, copie de Wikipédia)",
+    "url": "https://areq.net/lang/fr/Presse_hydraulique.html"
+   },
+   {
+    "titre": "Pascal's law (copie IPFS de Wikipédia)",
+    "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Pascal's_Law.html"
+   },
+   {
+    "titre": "Autocuiseur (AREQ, copie de Wikipédia)",
+    "url": "https://areq.net/lang/fr/Autocuiseur.html"
+   },
+   {
+    "titre": "Sport et pression (Kartable)",
+    "url": "https://kartable.fr/ressources/physique-chimie/cours/sport-et-pression/12966"
+   },
+   {
+    "titre": "Barotraumatisme (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/barotraumatisme"
+   },
+   {
+    "titre": "Pression artérielle (Techno-Science)",
+    "url": "https://www.techno-science.net/glossaire-definition/Pression-arterielle.html"
+   },
+   {
+    "titre": "Le gonflage des pneus (Transports Canada)",
+    "url": "https://tc.canada.ca/fr/transport-routier/securite-vehicules-automobiles/gonflage-pneus"
+   }
+  ]
+ },
+ {
+  "id": "production-electricite",
+  "sources": [
+   {
+    "titre": "Bilan électrique 2024 de RTE (Connaissance des Énergies)",
+    "url": "https://www.connaissancedesenergies.org/electricite-rte-annonce-un-nouveau-record-en-france-en-2024"
+   },
+   {
+    "titre": "Barrage des Trois-Gorges (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Barrage_des_Trois-Gorges"
+   },
+   {
+    "titre": "Usine marémotrice de la Rance (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Usine_mar%C3%A9motrice_de_la_Rance"
+   },
+   {
+    "titre": "Turbine hydraulique (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Turbine_hydraulique"
+   },
+   {
+    "titre": "Barrage de Grand'Maison (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Barrage_de_Grand'Maison"
+   },
+   {
+    "titre": "Énergie hydroélectrique (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89nergie_hydro%C3%A9lectrique"
+   },
+   {
+    "titre": "Liste des plus grandes centrales électriques au monde (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_plus_grandes_centrales_%C3%A9lectriques_au_monde"
+   },
+   {
+    "titre": "Électricité en France (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89lectricit%C3%A9_en_France"
+   },
+   {
+    "titre": "Centrale nucléaire (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Centrale_nucl%C3%A9aire"
+   },
+   {
+    "titre": "Réacteur à eau pressurisée (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9acteur_%C3%A0_eau_pressuris%C3%A9e"
+   },
+   {
+    "titre": "Centrale géothermique (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Centrale_g%C3%A9othermique"
+   },
+   {
+    "titre": "Éolienne (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89olienne"
+   },
+   {
+    "titre": "Cellule photovoltaïque (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Cellule_photovolta%C3%AFque"
+   },
+   {
+    "titre": "Centrale électrique (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Centrale_%C3%A9lectrique"
+   },
+   {
+    "titre": "Générateur électrique (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9rateur_%C3%A9lectrique"
+   },
+   {
+    "titre": "RTE (entreprise) (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/RTE_(entreprise)"
+   },
+   {
+    "titre": "Réseau électrique (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9seau_%C3%A9lectrique"
+   }
+  ]
+ },
+ {
+  "id": "records-vitesse",
+  "sources": [
+   {
+    "titre": "List of world records in athletics (Wikiwand)",
+    "url": "https://wikiwand.com/en/articles/List_of_world_records_in_athletics"
+   },
+   {
+    "titre": "Marathon world record progression (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/articles/Marathon_world_record"
+   },
+   {
+    "titre": "Marathon World Records, men (Topend Sports)",
+    "url": "https://www.topendsports.com/sport/athletics/record-marathon-men.htm"
+   },
+   {
+    "titre": "The evolution of the men's 100m world record (Olympics.com)",
+    "url": "https://olympics.com/en/news/jesse-owens-usain-bolt-evolution-100m-world-record"
+   },
+   {
+    "titre": "Men's 100 metres world record progression (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/Men's_100_metres_world_record_progression"
+   },
+   {
+    "titre": "Pheidippides (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Pheidippides"
+   },
+   {
+    "titre": "Water speed record (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/articles/Water_speed_record"
+   },
+   {
+    "titre": "Vestas Sailrocket (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Vestas_Sailrocket"
+   },
+   {
+    "titre": "Blue Riband (Wikiwand)",
+    "url": "https://www.wikiwand.com/en/articles/Blue_Riband"
+   },
+   {
+    "titre": "List of cycling records (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_cycling_records"
+   },
+   {
+    "titre": "Denise Mueller-Korenek (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Denise_Mueller-Korenek"
+   },
+   {
+    "titre": "The Fastest Spacecraft Ever Launched (AeroCorner)",
+    "url": "https://aerocorner.com/blog/fastest-spacecraft/"
+   },
+   {
+    "titre": "Fastest flight across the Atlantic in a commercial aircraft (Guinness)",
+    "url": "https://www.guinnessworldrecords.com/news/2015/8/60/1996-fastest-flight-across-the-atlantic-in-a-commercial-aircraft-392882"
+   },
+   {
+    "titre": "Ivan Origone and Valentina Greggio break speed records (The Inertia)",
+    "url": "https://www.theinertia.com/mountain/skiers-ivan-origone-and-valentina-greggio-break-world-downhill-speed-records/"
+   }
+  ]
+ },
+ {
+  "id": "unites-electriques",
+  "sources": [
+   {
+    "titre": "Volt, watt, ampère : les unités en électricité (EDF)",
+    "url": "https://www.edf.fr/groupe-edf/comprendre/electricite-au-quotidien/essentiels/volt-watt-ampere-les-unites-en-electricite"
+   },
+   {
+    "titre": "Volt (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Volt"
+   },
+   {
+    "titre": "Ampere (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Ampere"
+   },
+   {
+    "titre": "Ohm (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Ohm"
+   },
+   {
+    "titre": "Farad (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Farad"
+   },
+   {
+    "titre": "Tesla (unit) (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Tesla_(unit)"
+   },
+   {
+    "titre": "Siemens (unit) (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Siemens_(unit)"
+   },
+   {
+    "titre": "Henry (unit) (copie de Wikipedia)",
+    "url": "https://tcs.nju.edu.cn/wiki/index.php/Henry_(unit)"
+   },
+   {
+    "titre": "Coulomb (Wikipedia, archive)",
+    "url": "https://webcf.waybackmachine.org/web/20220331220907/http://en.wikipedia.org/wiki/Coulomb"
+   },
+   {
+    "titre": "Kilowatt-hour (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/Kilowatt-hour"
+   },
+   {
+    "titre": "SI derived units (Four Tables of SI, miroir NASA)",
+    "url": "https://lambda.gsfc.nasa.gov/product/websites/AMI/mrao.cam.ac.uk/~rob/SI/siderived.htm"
+   },
+   {
+    "titre": "Metric units named after people (Colorado State University)",
+    "url": "https://www.engr.colostate.edu/~hillger/metric-names.htm"
+   },
+   {
+    "titre": "Unités et instruments de mesure du courant (Engie)",
+    "url": "https://particuliers.engie.fr/electricite/conseils-electricite/conseils-installation-electrique/unites-instruments-mesure-courant-electrique"
+   },
+   {
+    "titre": "Normes et prises électriques à l'étranger (Engie)",
+    "url": "https://particuliers.engie.fr/electricite/conseils-electricite/conseils-installation-electrique/normes-prises-electriques"
+   },
+   {
+    "titre": "Les unités électriques (Choisir.com)",
+    "url": "https://www.choisir.com/energie/articles/104433/les-unites-electriques-volt-ampere-watt-ohm"
+   },
+   {
+    "titre": "Le réseau électrique (BBEMG, Université de Liège)",
+    "url": "https://www.bbemg.uliege.be/files/FR/ReseauElectrique.pdf"
+   },
+   {
+    "titre": "Compteur électrique (Futura)",
+    "url": "https://www.futura-sciences.com/maison/definitions/maison-compteur-electrique-10598/"
+   }
+  ]
  }
 ]
