@@ -74,6 +74,17 @@ Leur format commun est décrit dans [`outils/FORMAT.md`](outils/FORMAT.md) et le
 `outils/sources.py`. `python3 outils/verifier.py` détecte les champs manquants, les doublons, les
 questions ambiguës et les jeux sans source ; la compilation dans le cloud le lance à chaque envoi.
 
+## Carte de Culturia
+
+Le bouton « Carte » de l'accueil ouvre la carte du monde : les 10 pays autour de l'Agora, reliés par des
+routes, chaque combattant groupé autour de son lieu d'origine (celui de son histoire). On zoome au pincement
+ou avec les loupes ; toucher un combattant ouvre sa fiche, toucher un pays, un lieu ou l'Agora affiche sa
+description et ses combattants. Un combattant pas encore obtenu apparaît en silhouette.
+
+Les positions sont dans `Resources/monde.json` (x, y de 0 à 1 ; rayon des pays). Après avoir ajouté un
+lieu ou un pays, lancer `python3 outils/placer_carte.py` ; `outils/verifier.py` refuse un lieu non placé,
+un lieu hors de son pays, deux pays qui se chevauchent ou un combattant placé hors du pays de son domaine.
+
 ## Ma collection
 
 Tous les combattants jouables y figurent, possédés ou non : ceux qui ne sont pas encore dans la réserve

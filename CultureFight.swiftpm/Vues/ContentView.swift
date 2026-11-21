@@ -22,6 +22,7 @@ struct ContentView: View {
         case collection
         case profil
         case boutique
+        case carte
         case combat(CombatController)
     }
 
@@ -66,6 +67,7 @@ struct ContentView: View {
         case .collection: return "collection"
         case .profil: return "profil"
         case .boutique: return "boutique"
+        case .carte: return "carte"
         case .combat: return "combat"
         }
     }
@@ -89,11 +91,14 @@ struct ContentView: View {
                         combattre: { ecran = .selection },
                         collection: { ecran = .collection },
                         boutique: { ecran = .boutique },
-                        profil: { ecran = .profil })
+                        profil: { ecran = .profil },
+                        carte: { ecran = .carte })
         case .collection:
             CollectionView(retour: { ecran = .accueil })
         case .profil:
             ProfilView(joueur: joueur, retour: { ecran = .accueil })
+        case .carte:
+            CarteCulturiaView(retour: { ecran = .accueil })
         case .boutique:
             BoutiqueView(joueur: joueur, retour: { ecran = .accueil })
         case .selection:
@@ -126,6 +131,7 @@ struct AccueilView: View {
     let collection: () -> Void
     let boutique: () -> Void
     let profil: () -> Void
+    let carte: () -> Void
 
     @State private var apparu = false
     @State private var mentionsOuvertes = false
@@ -231,14 +237,30 @@ struct AccueilView: View {
             .offset(y: apparu ? 0 : 60)
             .opacity(apparu ? 1 : 0)
             .animation(.spring(duration: 0.6, bounce: 0.35).delay(0.62), value: apparu)
-            Button(action: profil) {
-                Label("Profil et statistiques", systemImage: "chart.xyaxis.line")
-                    .font(.titre(18, relativeTo: .headline))
-                    .frame(maxWidth: .infinity)
+            HStack(spacing: 12) {
+                Button(action: profil) {
+                    Label("Profil", systemImage: "chart.xyaxis.line")
+                        .font(.titre(17, relativeTo: .headline))
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.7)
+                        .frame(maxWidth: .infinity)
+                }
+                .buttonStyle(.bordered)
+                .controlSize(.large)
+                .tint(Charte.or)
+                .accessibilityLabel("Profil et statistiques")
+                Button(action: carte) {
+                    Label("Carte", systemImage: "map.fill")
+                        .font(.titre(17, relativeTo: .headline))
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.7)
+                        .frame(maxWidth: .infinity)
+                }
+                .buttonStyle(.bordered)
+                .controlSize(.large)
+                .tint(.teal)
+                .accessibilityLabel("Carte de Culturia")
             }
-            .buttonStyle(.bordered)
-            .controlSize(.large)
-            .tint(Charte.or)
             .opacity(apparu ? 1 : 0)
             .animation(.spring(duration: 0.6, bounce: 0.35).delay(0.7), value: apparu)
             BoutonCoffre(prochain: prochainCoffre, ouvrir: ouvrirCoffre)

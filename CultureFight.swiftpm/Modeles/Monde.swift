@@ -5,6 +5,9 @@ import Foundation
 struct Lieu: Decodable, Sendable, Hashable {
     let nom: String
     let description: String
+    /// Position sur la carte de Culturia, de 0 à 1 (écrite par `outils/placer_carte.py`).
+    let x: Double?
+    let y: Double?
 }
 
 struct PaysDuMonde: Decodable, Sendable, Identifiable {
@@ -14,6 +17,10 @@ struct PaysDuMonde: Decodable, Sendable, Identifiable {
     let capitale: String
     let description: String
     let lieux: [Lieu]
+    /// Centre et rayon du pays sur la carte de Culturia, de 0 à 1.
+    let x: Double?
+    let y: Double?
+    let rayon: Double?
 
     func lieu(_ nom: String) -> Lieu? { lieux.first { $0.nom == nom } }
 }

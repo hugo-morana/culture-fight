@@ -3,7 +3,9 @@
  "description": "Culturia est un continent né des pages de la Grande Encyclopédie, un livre vivant qui contenait tout le savoir du Monde d'en haut, la Terre des humains. Lors du Grand Oubli, ses pages se sont dispersées sur dix pays. Chaque combattant porte une page : sa spécialité. Les champions se défient à l'Agora pour rassembler le savoir perdu.",
  "agora": {
   "nom": "L'Agora",
-  "description": "Cité neutre au centre de Culturia, où se dispute le Tournoi du Savoir. Chaque pays y envoie ses champions ; on y paie en Pièces de savoir."
+  "description": "Cité neutre au centre de Culturia, où se dispute le Tournoi du Savoir. Chaque pays y envoie ses champions ; on y paie en Pièces de savoir.",
+  "x": 0.5,
+  "y": 0.5
  },
  "pays": [
   {
@@ -15,65 +17,98 @@
    "lieux": [
     {
      "nom": "Mendéléia",
-     "description": "Capitale d'Atomie, organisée en quartiers qui suivent les colonnes du Grand Tableau."
+     "description": "Capitale d'Atomie, organisée en quartiers qui suivent les colonnes du Grand Tableau.",
+     "x": 0.5,
+     "y": 0.165
     },
     {
      "nom": "Le Grand Tableau",
-     "description": "Mur de 118 cases au centre de Mendéléia ; chaque case brille quand son élément est nommé."
+     "description": "Mur de 118 cases au centre de Mendéléia ; chaque case brille quand son élément est nommé.",
+     "x": 0.5211,
+     "y": 0.1881
     },
     {
      "nom": "Les Cloches de Néon",
-     "description": "Quartier nocturne de Mendéléia, éclairé par les gaz nobles en rouge, violet et bleu."
+     "description": "Quartier nocturne de Mendéléia, éclairé par les gaz nobles en rouge, violet et bleu.",
+     "x": 0.4559,
+     "y": 0.1611
     },
     {
      "nom": "Les Marais salins d'Halogénie",
-     "description": "Lagunes corrosives au sud d'Atomie, où le chlore et l'iode se récoltent à la pelle."
+     "description": "Lagunes corrosives au sud d'Atomie, où le chlore et l'iode se récoltent à la pelle.",
+     "x": 0.543,
+     "y": 0.132
     },
     {
      "nom": "Les Forges de Cuivrelune",
-     "description": "Mines et ateliers des métaux de transition, sous une lune couleur de cuivre."
+     "description": "Mines et ateliers des métaux de transition, sous une lune couleur de cuivre.",
+     "x": 0.4891,
+     "y": 0.2266
     },
     {
      "nom": "Le Désert irradié de Becquerelle",
-     "description": "Plaine interdite qui crépite sous les compteurs ; on y enterre les momies au plomb."
+     "description": "Plaine interdite qui crépite sous les compteurs ; on y enterre les momies au plomb.",
+     "x": 0.4625,
+     "y": 0.106
     },
     {
      "nom": "La Tour des Étalons",
-     "description": "Tour de Mendéléia qui garde le mètre, le kilogramme et la seconde de tout Culturia."
+     "description": "Tour de Mendéléia qui garde le mètre, le kilogramme et la seconde de tout Culturia.",
+     "x": 0.574,
+     "y": 0.1849
     },
     {
      "nom": "Les Fjords de Fer",
-     "description": "Côte gelée du nord d'Atomie, d'où partent les drakkars de métal."
+     "description": "Côte gelée du nord d'Atomie, d'où partent les drakkars de métal.",
+     "x": 0.4266,
+     "y": 0.2031
     },
     {
      "nom": "Les Alambics de Lavoisierre",
-     "description": "Quartier des chimistes de Mendéléia, où rien ne se perd et tout se transforme."
+     "description": "Quartier des chimistes de Mendéléia, où rien ne se perd et tout se transforme.",
+     "x": 0.5303,
+     "y": 0.0819
     },
     {
      "nom": "Les Ateliers de Newtonne",
-     "description": "Ateliers de catapultes, de poulies et d'horloges, où chaque pomme qui tombe est mesurée."
+     "description": "Ateliers de catapultes, de poulies et d'horloges, où chaque pomme qui tombe est mesurée.",
+     "x": 0.5358,
+     "y": 0.2517
     },
     {
      "nom": "La Centrale d'Ampérage",
-     "description": "Ville de tours à foudre reliées par des câbles, qui éclaire toute l'Atomie."
+     "description": "Ville de tours à foudre reliées par des câbles, qui éclaire toute l'Atomie.",
+     "x": 0.4104,
+     "y": 0.1231
     },
     {
      "nom": "Le Phare des Prismes",
-     "description": "Phare de verre qui décompose la lumière en arc-en-ciel au-dessus de la côte d'Atomie."
+     "description": "Phare de verre qui décompose la lumière en arc-en-ciel au-dessus de la côte d'Atomie.",
+     "x": 0.599,
+     "y": 0.134
     },
     {
      "nom": "Les Fournaises de Kelvinor",
-     "description": "Chaufferies géantes où l'on mesure le chaud et le froid, du zéro absolu au cœur des fours."
+     "description": "Chaufferies géantes où l'on mesure le chaud et le froid, du zéro absolu au cœur des fours.",
+     "x": 0.4457,
+     "y": 0.2587
     },
     {
      "nom": "Le Collisionneur des Profondeurs",
-     "description": "Anneau souterrain sous Mendéléia, où l'on fracasse les atomes pour voir ce qu'ils cachent."
+     "description": "Anneau souterrain sous Mendéléia, où l'on fracasse les atomes pour voir ce qu'ils cachent.",
+     "x": 0.4758,
+     "y": 0.0549
     },
     {
      "nom": "L'Académie de Mendéléia",
-     "description": "Académie des savants d'Atomie, aux couloirs couverts de portraits et d'expériences célèbres."
+     "description": "Académie des savants d'Atomie, aux couloirs couverts de portraits et d'expériences célèbres.",
+     "x": 0.5957,
+     "y": 0.2323
     }
-   ]
+   ],
+   "x": 0.5,
+   "y": 0.165,
+   "rayon": 0.15
   },
   {
    "id": "calculie",
@@ -84,21 +119,32 @@
    "lieux": [
     {
      "nom": "Pythagopolis",
-     "description": "Capitale de Calculie, aux rues numérotées et aux places en forme de triangle rectangle."
+     "description": "Capitale de Calculie, aux rues numérotées et aux places en forme de triangle rectangle.",
+     "x": 0.8285,
+     "y": 0.4343
     },
     {
      "nom": "L'Arène des Tables",
-     "description": "Amphithéâtre de Pythagopolis où l'on récite les tables de multiplication en combattant."
+     "description": "Amphithéâtre de Pythagopolis où l'on récite les tables de multiplication en combattant.",
+     "x": 0.8068,
+     "y": 0.4639
     },
     {
      "nom": "La Bibliothèque infinie",
-     "description": "Bibliothèque dont chaque étage contient deux fois plus de livres que le précédent."
+     "description": "Bibliothèque dont chaque étage contient deux fois plus de livres que le précédent.",
+     "x": 0.8228,
+     "y": 0.3827
     },
     {
      "nom": "Les Portes du Reste",
-     "description": "Frontière de Calculie, refuge de ceux qui ont quitté la capitale."
+     "description": "Frontière de Calculie, refuge de ceux qui ont quitté la capitale.",
+     "x": 0.8763,
+     "y": 0.4762
     }
-   ]
+   ],
+   "x": 0.8285,
+   "y": 0.4343,
+   "rayon": 0.0815
   },
   {
    "id": "astralis",
@@ -109,45 +155,68 @@
    "lieux": [
     {
      "nom": "Orbitopolis",
-     "description": "Capitale circulaire d'Astralis, qui tourne lentement sur elle-même."
+     "description": "Capitale circulaire d'Astralis, qui tourne lentement sur elle-même.",
+     "x": 0.7377,
+     "y": 0.2639
     },
     {
      "nom": "L'Observatoire du Zénith",
-     "description": "Plus haut observatoire de Culturia, au sommet du Mont Comète."
+     "description": "Plus haut observatoire de Culturia, au sommet du Mont Comète.",
+     "x": 0.7366,
+     "y": 0.2876
     },
     {
      "nom": "La Ronde des Planètes",
-     "description": "Jardin d'Orbitopolis où des sphères géantes tournent autour d'un soleil de bronze."
+     "description": "Jardin d'Orbitopolis où des sphères géantes tournent autour d'un soleil de bronze.",
+     "x": 0.7162,
+     "y": 0.2381
     },
     {
      "nom": "Le Mont Comète",
-     "description": "Sommet d'Astralis où tombent les météorites et d'où l'on suit les comètes."
+     "description": "Sommet d'Astralis où tombent les météorites et d'où l'on suit les comètes.",
+     "x": 0.7785,
+     "y": 0.2694
     },
     {
      "nom": "La Forge des Étoiles",
-     "description": "Nébuleuse captive au-dessus d'Astralis, où naissent et meurent les étoiles."
+     "description": "Nébuleuse captive au-dessus d'Astralis, où naissent et meurent les étoiles.",
+     "x": 0.6987,
+     "y": 0.291
     },
     {
      "nom": "Les Plaines des Constellations",
-     "description": "Plaines sans lumière où l'on apprend à lire le ciel nocturne."
+     "description": "Plaines sans lumière où l'on apprend à lire le ciel nocturne.",
+     "x": 0.7494,
+     "y": 0.2121
     },
     {
      "nom": "Le Puits de l'Infini",
-     "description": "Gouffre au bout duquel on voit les galaxies lointaines et la lumière du Big Bang."
+     "description": "Gouffre au bout duquel on voit les galaxies lointaines et la lumière du Big Bang.",
+     "x": 0.7666,
+     "y": 0.3144
     },
     {
      "nom": "Les Terrasses des Éclipses",
-     "description": "Terrasses d'Orbitopolis d'où l'on observe éclipses, aurores et marées."
+     "description": "Terrasses d'Orbitopolis d'où l'on observe éclipses, aurores et marées.",
+     "x": 0.6778,
+     "y": 0.2447
     },
     {
      "nom": "Le Cosmodrome d'Astralis",
-     "description": "Base de lancement des fusées et école des astronautes de Culturia."
+     "description": "Base de lancement des fusées et école des astronautes de Culturia.",
+     "x": 0.7987,
+     "y": 0.2358
     },
     {
      "nom": "L'Académie céleste",
-     "description": "Académie des astronomes d'Astralis, gardienne des grands catalogues du ciel."
+     "description": "Académie des astronomes d'Astralis, gardienne des grands catalogues du ciel.",
+     "x": 0.7101,
+     "y": 0.3296
     }
-   ]
+   ],
+   "x": 0.7377,
+   "y": 0.2639,
+   "rayon": 0.0914
   },
   {
    "id": "geonie",
@@ -158,49 +227,74 @@
    "lieux": [
     {
      "nom": "Tellurville",
-     "description": "Capitale de Géonie, bâtie sur le Delta des Mille Fleuves."
+     "description": "Capitale de Géonie, bâtie sur le Delta des Mille Fleuves.",
+     "x": 0.1921,
+     "y": 0.6319
     },
     {
      "nom": "Le Pic Brasier",
-     "description": "Volcan toujours en éruption qui domine la Géonie ; ses coulées donnent naissance aux golems."
+     "description": "Volcan toujours en éruption qui domine la Géonie ; ses coulées donnent naissance aux golems.",
+     "x": 0.2024,
+     "y": 0.6092
     },
     {
      "nom": "La Faille de Sismonde",
-     "description": "Immense crevasse qui traverse la Géonie et tremble à chaque pas de ses habitants."
+     "description": "Immense crevasse qui traverse la Géonie et tremble à chaque pas de ses habitants.",
+     "x": 0.2031,
+     "y": 0.6654
     },
     {
      "nom": "Le Delta des Mille Fleuves",
-     "description": "Labyrinthe de bras d'eau autour de Tellurville, où chaque fleuve d'Europe a son quai."
+     "description": "Labyrinthe de bras d'eau autour de Tellurville, où chaque fleuve d'Europe a son quai.",
+     "x": 0.1545,
+     "y": 0.6108
     },
     {
      "nom": "Les Rives Lointaines",
-     "description": "Grands fleuves sauvages de l'ouest de la Géonie, larges comme des mers."
+     "description": "Grands fleuves sauvages de l'ouest de la Géonie, larges comme des mers.",
+     "x": 0.2406,
+     "y": 0.6206
     },
     {
      "nom": "Le Grand Lac Miroir",
-     "description": "Lac si calme qu'il reflète tous les lacs du Monde d'en haut."
+     "description": "Lac si calme qu'il reflète tous les lacs du Monde d'en haut.",
+     "x": 0.1607,
+     "y": 0.6779
     },
     {
      "nom": "Port-Abysse",
-     "description": "Port pirate de la Côte des Sept Mers, ouvert sur tous les océans."
+     "description": "Port pirate de la Côte des Sept Mers, ouvert sur tous les océans.",
+     "x": 0.1835,
+     "y": 0.5715
     },
     {
      "nom": "Les Monts Glaciaires",
-     "description": "Chaîne de sommets enneigés du nord de la Géonie, refuge des alpinistes et des yétis."
+     "description": "Chaîne de sommets enneigés du nord de la Géonie, refuge des alpinistes et des yétis.",
+     "x": 0.2431,
+     "y": 0.6737
     },
     {
      "nom": "Le Désert des Dunes Chantantes",
-     "description": "Désert de Géonie dont les dunes chantent quand le vent souffle."
+     "description": "Désert de Géonie dont les dunes chantent quand le vent souffle.",
+     "x": 0.1217,
+     "y": 0.6357
     },
     {
      "nom": "L'Archipel des Illusions",
-     "description": "Îles qui apparaissent et disparaissent au large de la Géonie."
+     "description": "Îles qui apparaissent et disparaissent au large de la Géonie.",
+     "x": 0.2444,
+     "y": 0.5785
     },
     {
      "nom": "Les Grottes de Cristal",
-     "description": "Grottes de minéraux et de pierres précieuses sous les montagnes de Géonie."
+     "description": "Grottes de minéraux et de pierres précieuses sous les montagnes de Géonie.",
+     "x": 0.1895,
+     "y": 0.7107
     }
-   ]
+   ],
+   "x": 0.1921,
+   "y": 0.6319,
+   "rayon": 0.101
   },
   {
    "id": "sylvanie",
@@ -211,41 +305,62 @@
    "lieux": [
     {
      "nom": "Darwinia",
-     "description": "Capitale de Sylvanie, construite dans les branches d'un arbre géant."
+     "description": "Capitale de Sylvanie, construite dans les branches d'un arbre géant.",
+     "x": 0.1756,
+     "y": 0.4165
     },
     {
      "nom": "La Forêt des Druides",
-     "description": "Forêt sacrée au cœur de la Sylvanie, où chaque arbre a un nom."
+     "description": "Forêt sacrée au cœur de la Sylvanie, où chaque arbre a un nom.",
+     "x": 0.199,
+     "y": 0.404
     },
     {
      "nom": "Les Sous-bois de Mycélia",
-     "description": "Sous-bois humides reliés par un réseau de filaments de champignons."
+     "description": "Sous-bois humides reliés par un réseau de filaments de champignons.",
+     "x": 0.1631,
+     "y": 0.4518
     },
     {
      "nom": "La Prairie des Mille Fleurs",
-     "description": "Prairie fleurie de l'est, où l'on se bat à la rapière de rosier."
+     "description": "Prairie fleurie de l'est, où l'on se bat à la rapière de rosier.",
+     "x": 0.1576,
+     "y": 0.3743
     },
     {
      "nom": "La Jungle d'Émeraude",
-     "description": "Jungle chaude du sud, domaine des félins, des singes et des reptiles."
+     "description": "Jungle chaude du sud, domaine des félins, des singes et des reptiles.",
+     "x": 0.2238,
+     "y": 0.4384
     },
     {
      "nom": "Les Falaises aux Rapaces",
-     "description": "Falaises où siège le Conseil des aigles."
+     "description": "Falaises où siège le Conseil des aigles.",
+     "x": 0.1193,
+     "y": 0.4348
     },
     {
      "nom": "La Mer des Chants",
-     "description": "Mer au large de la Sylvanie, où résonnent les chants des baleines."
+     "description": "Mer au large de la Sylvanie, où résonnent les chants des baleines.",
+     "x": 0.2075,
+     "y": 0.36
     },
     {
      "nom": "La Ruche",
-     "description": "Monastère creusé dans une ruche géante, où l'on apprend le kung-fu des insectes."
+     "description": "Monastère creusé dans une ruche géante, où l'on apprend le kung-fu des insectes.",
+     "x": 0.1914,
+     "y": 0.4848
     },
     {
      "nom": "La Vallée Fossile",
-     "description": "Vallée aux falaises pleines d'os de dinosaures, gardée par une garnison."
+     "description": "Vallée aux falaises pleines d'os de dinosaures, gardée par une garnison.",
+     "x": 0.1139,
+     "y": 0.3741
     }
-   ]
+   ],
+   "x": 0.1756,
+   "y": 0.4165,
+   "rayon": 0.096
   },
   {
    "id": "anatomia",
@@ -256,21 +371,32 @@
    "lieux": [
     {
      "nom": "Cardiopolis",
-     "description": "Capitale d'Anatomia, autour d'un cœur de pierre qui bat soixante fois par minute."
+     "description": "Capitale d'Anatomia, autour d'un cœur de pierre qui bat soixante fois par minute.",
+     "x": 0.2741,
+     "y": 0.2526
     },
     {
      "nom": "Le Palais des Organes",
-     "description": "Palais du comte de Cardiopolis, où chaque salle porte le nom d'un organe."
+     "description": "Palais du comte de Cardiopolis, où chaque salle porte le nom d'un organe.",
+     "x": 0.3077,
+     "y": 0.2556
     },
     {
      "nom": "Les Catacombes d'Ossuaria",
-     "description": "Galeries sous Cardiopolis, décorées des 206 os du squelette."
+     "description": "Galeries sous Cardiopolis, décorées des 206 os du squelette.",
+     "x": 0.2361,
+     "y": 0.2816
     },
     {
      "nom": "Le Dojo des Muscles",
-     "description": "Salle d'entraînement d'Anatomia, où l'on nomme chaque muscle qu'on contracte."
+     "description": "Salle d'entraînement d'Anatomia, où l'on nomme chaque muscle qu'on contracte.",
+     "x": 0.2844,
+     "y": 0.195
     }
-   ]
+   ],
+   "x": 0.2741,
+   "y": 0.2526,
+   "rayon": 0.075
   },
   {
    "id": "mappemondie",
@@ -281,33 +407,50 @@
    "lieux": [
     {
      "nom": "Capitalia",
-     "description": "Capitale de Mappemondie, qui contient une maquette de chaque capitale du Monde d'en haut."
+     "description": "Capitale de Mappemondie, qui contient une maquette de chaque capitale du Monde d'en haut.",
+     "x": 0.3346,
+     "y": 0.7913
     },
     {
      "nom": "Le Grand Atlas",
-     "description": "Bibliothèque de cartes vivantes ; chaque continent y a son aile et ses portes."
+     "description": "Bibliothèque de cartes vivantes ; chaque continent y a son aile et ses portes.",
+     "x": 0.3279,
+     "y": 0.7622
     },
     {
      "nom": "La Route des Capitales",
-     "description": "Route qui relie les maquettes de Capitalia, gardée par des bourreaux."
+     "description": "Route qui relie les maquettes de Capitalia, gardée par des bourreaux.",
+     "x": 0.3694,
+     "y": 0.8153
     },
     {
      "nom": "La Place des Drapeaux",
-     "description": "Place de Capitalia où flottent les drapeaux de tous les pays du Monde d'en haut."
+     "description": "Place de Capitalia où flottent les drapeaux de tous les pays du Monde d'en haut.",
+     "x": 0.2834,
+     "y": 0.7984
     },
     {
      "nom": "Le Marché des Monnaies",
-     "description": "Marché de Capitalia où l'on paie en pièces de tous les pays."
+     "description": "Marché de Capitalia où l'on paie en pièces de tous les pays.",
+     "x": 0.3727,
+     "y": 0.7453
     },
     {
      "nom": "La Tour des Langues",
-     "description": "Tour de Capitalia où chaque étage parle une langue différente."
+     "description": "Tour de Capitalia où chaque étage parle une langue différente.",
+     "x": 0.338,
+     "y": 0.858
     },
     {
      "nom": "La Province d'Hexagonie",
-     "description": "Grande maquette de la France, avec ses régions, ses départements et ses préfectures."
+     "description": "Grande maquette de la France, avec ses régions, ses départements et ses préfectures.",
+     "x": 0.2826,
+     "y": 0.7399
     }
-   ]
+   ],
+   "x": 0.3346,
+   "y": 0.7913,
+   "rayon": 0.0938
   },
   {
    "id": "chronie",
@@ -318,25 +461,38 @@
    "lieux": [
     {
      "nom": "Chronopolis",
-     "description": "Capitale de Chronie, dont les rues traversent les siècles."
+     "description": "Capitale de Chronie, dont les rues traversent les siècles.",
+     "x": 0.5325,
+     "y": 0.8334
     },
     {
      "nom": "Le Quartier antique",
-     "description": "Quartier de Chronopolis où vivent pharaons, empereurs et hoplites."
+     "description": "Quartier de Chronopolis où vivent pharaons, empereurs et hoplites.",
+     "x": 0.5067,
+     "y": 0.8102
     },
     {
      "nom": "La Citadelle médiévale",
-     "description": "Forteresse de Chronopolis où se croisent chevaliers, rois et archers."
+     "description": "Forteresse de Chronopolis où se croisent chevaliers, rois et archers.",
+     "x": 0.5815,
+     "y": 0.8329
     },
     {
      "nom": "Le Palais des Temps modernes",
-     "description": "Palais des rois, des explorateurs et des révolutionnaires."
+     "description": "Palais des rois, des explorateurs et des révolutionnaires.",
+     "x": 0.4886,
+     "y": 0.8744
     },
     {
      "nom": "Le Quartier contemporain",
-     "description": "Quartier de Chronopolis des empires, des républiques et des guerres mondiales."
+     "description": "Quartier de Chronopolis des empires, des républiques et des guerres mondiales.",
+     "x": 0.5379,
+     "y": 0.7643
     }
-   ]
+   ],
+   "x": 0.5325,
+   "y": 0.8334,
+   "rayon": 0.0889
   },
   {
    "id": "palettia",
@@ -347,29 +503,44 @@
    "lieux": [
     {
      "nom": "Pinceaurence",
-     "description": "Capitale de Palettia, inspirée des villes de la Renaissance."
+     "description": "Capitale de Palettia, inspirée des villes de la Renaissance.",
+     "x": 0.7121,
+     "y": 0.7593
     },
     {
      "nom": "La Galerie des Maîtres",
-     "description": "Galerie de Pinceaurence couverte de fresques, où s'entraînent les peintres-guerriers."
+     "description": "Galerie de Pinceaurence couverte de fresques, où s'entraînent les peintres-guerriers.",
+     "x": 0.6826,
+     "y": 0.755
     },
     {
      "nom": "Les Jardins impressionnistes",
-     "description": "Jardins de Palettia aux bassins de nénuphars, où la lumière change à chaque heure."
+     "description": "Jardins de Palettia aux bassins de nénuphars, où la lumière change à chaque heure.",
+     "x": 0.7469,
+     "y": 0.7356
     },
     {
      "nom": "Le Grand Musée de Pinceaurence",
-     "description": "Musée qui garde les chefs-d'œuvre de Palettia, sous une pyramide de verre."
+     "description": "Musée qui garde les chefs-d'œuvre de Palettia, sous une pyramide de verre.",
+     "x": 0.7003,
+     "y": 0.8095
     },
     {
      "nom": "L'Opéra de Pinceaurence",
-     "description": "Opéra où se produisent compositeurs, chanteurs et musiciens de Culturia."
+     "description": "Opéra où se produisent compositeurs, chanteurs et musiciens de Culturia.",
+     "x": 0.683,
+     "y": 0.7074
     },
     {
      "nom": "La Vallée des Monuments",
-     "description": "Vallée où se dressent des copies des monuments du Monde d'en haut."
+     "description": "Vallée où se dressent des copies des monuments du Monde d'en haut.",
+     "x": 0.7753,
+     "y": 0.7801
     }
-   ]
+   ],
+   "x": 0.7121,
+   "y": 0.7593,
+   "rayon": 0.0853
   },
   {
    "id": "fabulie",
@@ -380,17 +551,26 @@
    "lieux": [
     {
      "nom": "Homéropolis",
-     "description": "Capitale de Fabulie, où chaque pierre raconte une histoire."
+     "description": "Capitale de Fabulie, où chaque pierre raconte une histoire.",
+     "x": 0.816,
+     "y": 0.6111
     },
     {
      "nom": "La Bibliothèque des Légendes",
-     "description": "Bibliothèque d'Homéropolis où dorment romans, poèmes, pièces et mots anciens."
+     "description": "Bibliothèque d'Homéropolis où dorment romans, poèmes, pièces et mots anciens.",
+     "x": 0.778,
+     "y": 0.6273
     },
     {
      "nom": "Le Mont des Dieux",
-     "description": "Montagne de Fabulie où siègent les dieux des mythologies."
+     "description": "Montagne de Fabulie où siègent les dieux des mythologies.",
+     "x": 0.8402,
+     "y": 0.5578
     }
-   ]
+   ],
+   "x": 0.816,
+   "y": 0.6111,
+   "rayon": 0.075
   }
  ]
 }

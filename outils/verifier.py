@@ -167,6 +167,59 @@ def ids_du_catalogue():
         return re.findall(r'id: "([a-z0-9-]+)", nom: "[^"]*", style:', fh.read())
 
 
+def domaines_du_catalogue():
+    """Domaine de chaque combattant du catalogue : {identifiant: domaine}."""
+    chemin = os.path.join(ICI, "..", "CultureFight.swiftpm", "Moteur", "Catalogue.swift")
+    with open(chemin, encoding="utf-8") as fh:
+        texte = fh.read()
+    specialites = {m.group(1): m.group(2) for m in re.finditer(
+        r'static let (\w+) = Specialite\(id: "[^"]+", nom: "[^"]*",\s*famille: "[^"]*", domaine: "([^"]+)"\)', texte)}
+    debuts = list(re.finditer(r'id: "([a-z0-9-]+)", nom: "[^"]*", style:', texte))
+    domaines = {}
+    for i, m in enumerate(debuts):
+        bloc = texte[m.end():debuts[i + 1].start() if i + 1 < len(debuts) else len(texte)]
+        d = re.search(r'domaine: "([^"]+)"', bloc)
+        s = re.search(r'specialite: (?:Self\.|Catalogue\.)?(\w+)', bloc)
+        if d:
+            domaines[m.group(1)] = d.group(1)
+        elif s and s.group(1) in specialites:
+            domaines[m.group(1)] = specialites[s.group(1)]
+        else:
+            erreur("histoires", f"domaine du combattant « {m.group(1)} » introuvable dans Catalogue.swift")
+    return domaines
+
+
+A_PLACER = "lancer python3 outils/placer_carte.py"
+
+
+def dans_la_carte(v):
+    return isinstance(v, (int, float)) and not isinstance(v, bool) and 0 <= v <= 1
+
+
+def verifier_positions_pays(p, ou):
+    """Position du pays et de ses lieux sur la carte de Culturia (tâche 55)."""
+    if not all(dans_la_carte(p.get(c)) for c in ("x", "y", "rayon")) or not p.get("rayon"):
+        erreur("monde", f"{ou} : position x, y, rayon absente ou hors de la carte ({A_PLACER})")
+        return
+    for l in p.get("lieux", []):
+        if not (dans_la_carte(l.get("x")) and dans_la_carte(l.get("y"))):
+            erreur("monde", f"{ou} : lieu « {l.get('nom')} » pas placé sur la carte ({A_PLACER})")
+        elif ((l["x"] - p["x"]) ** 2 + (l["y"] - p["y"]) ** 2) ** 0.5 > 0.8 * p["rayon"]:
+            erreur("monde", f"{ou} : lieu « {l.get('nom')} » placé hors du pays ({A_PLACER})")
+
+
+def verifier_carte(monde):
+    """L'Agora au centre, et des pays qui ne se chevauchent pas."""
+    agora = monde.get("agora", {})
+    if not (dans_la_carte(agora.get("x")) and dans_la_carte(agora.get("y"))):
+        erreur("monde", f"l'Agora n'est pas placée sur la carte ({A_PLACER})")
+    places = [p for p in monde.get("pays", []) if all(dans_la_carte(p.get(c)) for c in ("x", "y", "rayon"))]
+    for i, a in enumerate(places):
+        for b in places[i + 1:]:
+            if ((a["x"] - b["x"]) ** 2 + (a["y"] - b["y"]) ** 2) ** 0.5 < a["rayon"] + b["rayon"]:
+                erreur("monde", f"les pays « {a['id']} » et « {b['id']} » se chevauchent sur la carte ({A_PLACER})")
+
+
 def verifier_monde_et_histoires():
     monde = charger("monde.json")
     champs("monde", "monde", monde, {"nom": str, "description": str, "pays": list})
@@ -182,8 +235,12 @@ def verifier_monde_et_histoires():
             erreur("monde", f"{ou} : la capitale doit figurer parmi les lieux")
         doublons("monde", f"{ou} : lieu", noms)
         lieux[p.get("id")] = set(noms)
+        verifier_positions_pays(p, ou)
     doublons("monde", "identifiant de pays", [p.get("id") for p in monde.get("pays", [])])
     doublons("monde", "domaine", [p.get("domaine") for p in monde.get("pays", [])])
+    verifier_carte(monde)
+    pays_du_domaine = {p.get("domaine"): p.get("id") for p in monde.get("pays", [])}
+    domaines = domaines_du_catalogue()
 
     histoires = charger("histoires.json")
     ids = ids_du_catalogue()
@@ -197,6 +254,10 @@ def verifier_monde_et_histoires():
             erreur("histoires", f"{ou} : pays inconnu « {h.get('pays')} »")
         elif h.get("lieu") not in lieux[h.get("pays")]:
             erreur("histoires", f"{ou} : lieu « {h.get('lieu')} » absent du pays « {h.get('pays')} »")
+        domaine = domaines.get(h.get("id"))
+        if domaine is not None and pays_du_domaine.get(domaine) != h.get("pays"):
+            erreur("histoires", f"{ou} : vient de « {h.get('pays')} », mais son domaine « {domaine} » "
+                                f"est celui de « {pays_du_domaine.get(domaine)} » sur la carte")
         for lien in h.get("liens", []):
             if lien not in ids or lien == h.get("id"):
                 erreur("histoires", f"{ou} : lien vers « {lien} » invalide")
