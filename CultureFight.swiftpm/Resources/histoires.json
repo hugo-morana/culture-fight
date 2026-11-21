@@ -1760,5 +1760,355 @@
    "planetroll",
    "photonnerre"
   ]
+ },
+ {
+  "id": "uranusurpateur",
+  "pays": "astralis",
+  "lieu": "La Ronde des Planètes",
+  "histoire": "Roi autoproclamé de la Ronde des Planètes, à Orbitopolis, Uranusurpateur règne couché sur le côté, comme sa planète qui tourne presque à l'horizontale. Il rappelle qu'on voulut d'abord la baptiser du nom du roi George III. Neptuniaire lui conteste le titre de planète la plus froide ; Planétroll fait semblant de ne pas voir sa couronne.",
+  "liens": [
+   "neptuniaire",
+   "planetroll"
+  ]
+ },
+ {
+  "id": "neptuniaire",
+  "pays": "astralis",
+  "lieu": "La Ronde des Planètes",
+  "histoire": "Dernier de la Ronde des Planètes, à Orbitopolis, Neptuniaire jette ses filets au bord du jardin, là où le soleil de bronze n'est plus qu'une lampe. Il est fier d'avoir été découvert par le calcul avant d'être vu au télescope, en 1846. Uranusurpateur lui reproche de le tirer par la manche ; Flibustlantique lui emprunte parfois son trident.",
+  "liens": [
+   "uranusurpateur",
+   "flibustlantique"
+  ]
+ },
+ {
+  "id": "lunarcher",
+  "pays": "astralis",
+  "lieu": "Le Mont Comète",
+  "histoire": "Archère du Mont Comète, Lunarcher décoche des lunes au lieu de flèches, et son carquois en compte des centaines. Elle connaît le nom de chacune, de la minuscule Déimos à l'immense Triton. Callistoréador lui emprunte ses lunes joviennes sans les rendre ; Enceladin garde pour elle celles de Saturne.",
+  "liens": [
+   "callistoreador",
+   "enceladin"
+  ]
+ },
+ {
+  "id": "halley-barde",
+  "pays": "astralis",
+  "lieu": "Le Mont Comète",
+  "histoire": "Garde du Mont Comète, Halley-Barde ne quitte son poste qu'environ tous les soixante-seize ans, quand sa comète repasse. Il sait que la queue d'une comète pointe toujours à l'opposé du Soleil. Étoile Filou se moque de ses longues absences ; Météorc garde les cailloux qu'il sème en chemin.",
+  "liens": [
+   "etoile-filou",
+   "meteorc"
+  ]
+ },
+ {
+  "id": "asterogre",
+  "pays": "astralis",
+  "lieu": "Le Mont Comète",
+  "histoire": "Ogre du Mont Comète, Astérogre ramasse les cailloux qui traînent entre Mars et Jupiter, dans la ceinture principale. Il ne digère toujours pas que Cérès, la plus grosse de ses pierres, soit devenue planète naine. Plutonain l'aide à porter ses rochers ; Météorc lui rappelle qu'un seul de ses cousins a suffi pour envoyer les dinosaures au tapis.",
+  "liens": [
+   "plutonain",
+   "meteorc"
+  ]
+ },
+ {
+  "id": "plutonain",
+  "pays": "astralis",
+  "lieu": "Le Mont Comète",
+  "histoire": "Nain du Mont Comète, Plutonain n'a jamais digéré 2006, l'année où Pluton fut rangée parmi les planètes naines. Depuis, il a fondé un club avec Cérès, Éris, Makémaké et Hauméa, et défend leur honneur bouclier au poing. Planétroll s'excuse encore de l'avoir perdu ; Plutonin, son homonyme radioactif, reçoit toutes ses lettres par erreur.",
+  "liens": [
+   "planetroll",
+   "plutonin"
+  ]
+ },
+ {
+  "id": "meteorc",
+  "pays": "astralis",
+  "lieu": "Le Mont Comète",
+  "histoire": "Orc du Mont Comète, Météorc ramasse tout ce qui tombe du ciel et le garde dans une caverne fumante. Il distingue le météoroïde qui voyage, le météore qui brille et la météorite qui touche le sol, et corrige quiconque les confond. Étoile Filou lui vole ses poussières ; Astérogre lui envoie des cousins à réceptionner.",
+  "liens": [
+   "etoile-filou",
+   "asterogre"
+  ]
+ },
+ {
+  "id": "lunagarou",
+  "pays": "astralis",
+  "lieu": "Le Mont Comète",
+  "histoire": "Loup-garou du Mont Comète, Lunagarou change d'humeur avec la Lune : il hurle à la pleine, dort à la nouvelle. Il sait qu'un cycle de phases dure environ vingt-neuf jours et demi, et que la Lune nous montre toujours la même face. Loupe-Garou, son cousin à lunettes, l'observe de loin ; Lunarcher lui dispute la garde du croissant.",
+  "liens": [
+   "loupe-garou",
+   "lunarcher"
+  ]
+ },
+ {
+  "id": "callistoreador",
+  "pays": "astralis",
+  "lieu": "Le Mont Comète",
+  "histoire": "Toréador du Mont Comète, Callistoréador fait tourner Io, Europe, Ganymède et Callisto autour de sa cape comme des banderilles. Il sait que Io est le corps le plus volcanique du système solaire. Galilégionnaire réclame des droits d'auteur sur ses quatre lunes ; Lunarcher l'accuse de les lui avoir empruntées.",
+  "liens": [
+   "galilegionnaire",
+   "lunarcher"
+  ]
+ },
+ {
+  "id": "enceladin",
+  "pays": "astralis",
+  "lieu": "Le Mont Comète",
+  "histoire": "Paladine du Mont Comète, Enceladin protège Encelade, petite lune de Saturne qui crache des geysers d'eau glacée vers l'espace. Elle veille aussi sur Titan, la seule lune dotée d'une atmosphère épaisse et de lacs de méthane. Kuiperserker lui reproche d'avoir trop chaud ; Glaciator lui envie son armure de glace.",
+  "liens": [
+   "kuiperserker",
+   "glaciator"
+  ]
+ },
+ {
+  "id": "kuiperserker",
+  "pays": "astralis",
+  "lieu": "Le Mont Comète",
+  "histoire": "Berserker des confins, Kuiperserker descend rarement du Mont Comète, sauf pour hurler sur ceux qui croient que le système solaire s'arrête à Neptune. Il connaît la ceinture de Kuiper, ses mondes glacés et Arrokoth, survolé par New Horizons. Plutonain est son voisin préféré ; Neptuniaire garde la porte de son domaine.",
+  "liens": [
+   "plutonain",
+   "neptuniaire"
+  ]
+ },
+ {
+  "id": "etoile-filou",
+  "pays": "astralis",
+  "lieu": "Le Mont Comète",
+  "histoire": "Petite voleuse des toits du Mont Comète, Étoile Filou file à travers le ciel et disparaît avant qu'on ait fini un vœu. Elle sait que les Perséides du mois d'août sont surnommées « larmes de saint Laurent ». Météorc lui court après pour récupérer ses poussières ; Halley-Barde l'accuse de piller sa traîne.",
+  "liens": [
+   "meteorc",
+   "halley-barde"
+  ]
+ },
+ {
+  "id": "betelgeuserker",
+  "pays": "astralis",
+  "lieu": "La Forge des Étoiles",
+  "histoire": "Berserker de la Forge des Étoiles, Bételgeuserker gonfle de colère jusqu'à devenir une supergéante rouge, l'épaule d'Orion. Il sait que Sirius est l'étoile la plus brillante du ciel nocturne, et cela le rend fou de jalousie. Ceinture Noire d'Orion le surveille de près ; Supernovice parie à chaque combat qu'il va finir par exploser.",
+  "liens": [
+   "ceinture-noire-d-orion",
+   "supernovice"
+  ]
+ },
+ {
+  "id": "geant-rouge",
+  "pays": "astralis",
+  "lieu": "La Forge des Étoiles",
+  "histoire": "Ancien du fond de la Forge des Étoiles, Géant Rouge range chaque étoile dans sa classe, de la bleue O à la rouge M. Il rappelle que le Soleil n'est qu'une naine jaune, ce qu'il trouve très mignon. Chromatador lui agite sa cape sous le nez ; Supernovice l'écoute en tremblant, car elle deviendra un jour géante rouge à son tour.",
+  "liens": [
+   "chromatador",
+   "supernovice"
+  ]
+ },
+ {
+  "id": "supernovice",
+  "pays": "astralis",
+  "lieu": "La Forge des Étoiles",
+  "histoire": "Apprentie de la Forge des Étoiles, Supernovice rêve de briller, mais elle en est encore à fusionner son hydrogène en hélium. Elle sait que seules les étoiles très massives finissent en supernova. Géant Rouge lui donne des leçons d'avenir ; Singularitaire l'attend patiemment au bout du chemin.",
+  "liens": [
+   "geant-rouge",
+   "singularitaire"
+  ]
+ },
+ {
+  "id": "singularitaire",
+  "pays": "astralis",
+  "lieu": "La Forge des Étoiles",
+  "histoire": "Militaire de la Forge des Étoiles, Singularitaire garde la frontière de l'horizon des événements : passé ce cap, même la lumière ne revient plus. Il connaît Sagittarius A*, le trou noir au centre de la Voie lactée. Photonnerre refuse d'approcher de son poste ; Supernovice évite de croiser son regard.",
+  "liens": [
+   "photonnerre",
+   "supernovice"
+  ]
+ },
+ {
+  "id": "proxima-centaure",
+  "pays": "astralis",
+  "lieu": "La Forge des Étoiles",
+  "histoire": "Plus proche voisin du Soleil, Proxima-Centaure galope au bord de la Forge des Étoiles, à un peu plus de quatre années-lumière de chez nous. Il appartient au système d'Alpha du Centaure, avec deux étoiles sœurs plus brillantes. Parsecuteur mesure chacune de ses foulées ; Centaurolympe, son cousin de l'Olympe, lui rend visite.",
+  "liens": [
+   "parsecuteur",
+   "centaurolympe"
+  ]
+ },
+ {
+  "id": "pulsarrazin",
+  "pays": "astralis",
+  "lieu": "La Forge des Étoiles",
+  "histoire": "Cavalier de la Forge des Étoiles, Pulsarrazin tourne sur lui-même comme un phare et balaie le ciel de ses éclats réguliers. Il raconte que le premier pulsar, repéré en 1967, fut surnommé « LGM », pour « petits hommes verts ». Hertzerker capte chacun de ses signaux ; Lait-gendaire jure que les quasars sont bien plus lointains.",
+  "liens": [
+   "hertzerker",
+   "lait-gendaire"
+  ]
+ },
+ {
+  "id": "chromatador",
+  "pays": "astralis",
+  "lieu": "La Forge des Étoiles",
+  "histoire": "Matador de la Forge des Étoiles, Chromatador agite une cape qui passe du rouge au bleu, comme les étoiles des plus froides aux plus chaudes. Il connaît la règle : plus une étoile est bleue, plus elle est chaude. Bételgeuserker charge dès qu'il voit du rouge ; Spectre Lumineux lui prête ses couleurs.",
+  "liens": [
+   "betelgeuserker",
+   "spectre-lumineux"
+  ]
+ },
+ {
+  "id": "parsecuteur",
+  "pays": "astralis",
+  "lieu": "La Forge des Étoiles",
+  "histoire": "Chasseuse de primes de la Forge des Étoiles, Parsecuteur traque ses cibles en mesurant tout, sauf le temps. Elle rappelle qu'une année-lumière est une distance et non une durée, et qu'un parsec en vaut un peu plus de trois. Proxima-Centaure est sa cible la plus proche ; Mètre d'Armes lui envie son mètre ruban cosmique.",
+  "liens": [
+   "proxima-centaure",
+   "metre-d-armes"
+  ]
+ },
+ {
+  "id": "neb-ulysse",
+  "pays": "astralis",
+  "lieu": "La Forge des Étoiles",
+  "histoire": "Navigateur de la Forge des Étoiles, Néb-Ulysse erre depuis toujours parmi les nébuleuses, ces nuages de gaz et de poussière où naissent les étoiles. Il connaît les Piliers de la Création, dans la nébuleuse de l'Aigle. Supernovice le considère comme sa nounou ; Parsecuteur lui reproche de ne jamais savoir à quelle distance il se trouve.",
+  "liens": [
+   "supernovice",
+   "parsecuteur"
+  ]
+ },
+ {
+  "id": "cassiopirate",
+  "pays": "astralis",
+  "lieu": "Les Plaines des Constellations",
+  "histoire": "Pirate des Plaines des Constellations, Cassiopirate pille le ciel du Nord à bord d'un navire en forme de W. Il sait que Cassiopée, la reine vaniteuse du mythe, tourne autour de l'étoile Polaire sans jamais se coucher sous nos latitudes. Polaviking lui sert de boussole ; Persée-Vérant lui rappelle qu'il a épousé la fille de la reine.",
+  "liens": [
+   "polaviking",
+   "persee-verant"
+  ]
+ },
+ {
+  "id": "croise-du-sud",
+  "pays": "astralis",
+  "lieu": "Les Plaines des Constellations",
+  "histoire": "Croisé des Plaines des Constellations, Croisé du Sud veille sur le ciel austral, invisible depuis Orbitopolis une bonne partie de l'année. Il sait que la Croix du Sud est la plus petite des constellations, et qu'elle orne plusieurs drapeaux. Polaviking le défie sans cesse ; Proxima-Centaure, son voisin, lui prête sa lumière.",
+  "liens": [
+   "polaviking",
+   "proxima-centaure"
+  ]
+ },
+ {
+  "id": "zodiattaque",
+  "pays": "astralis",
+  "lieu": "Les Plaines des Constellations",
+  "histoire": "Moine guerrier des Plaines des Constellations, Zodiattaque médite sur la route du Soleil à travers le ciel. Il aime rappeler que le Soleil traverse aussi le Serpentaire, treizième constellation oubliée des horoscopes, ce qui vexe tout le monde. Dompt'Étoile garde son Lion et son Scorpion en laisse ; Persée-Vérant le trouve trop sérieux.",
+  "liens": [
+   "dompt-etoile",
+   "persee-verant"
+  ]
+ },
+ {
+  "id": "ourson-majeur",
+  "pays": "astralis",
+  "lieu": "Les Plaines des Constellations",
+  "histoire": "Ours des Plaines des Constellations, Ourson Majeur promène la Grande Ourse, dont sept étoiles dessinent la célèbre Casserole. Il sait que la Petite Ourse porte l'étoile Polaire au bout de sa queue. Polaviking s'oriente grâce à lui ; Astérisque-Tout lui rappelle que sa casserole n'est qu'un astérisme.",
+  "liens": [
+   "polaviking",
+   "asterisque-tout"
+  ]
+ },
+ {
+  "id": "polaviking",
+  "pays": "astralis",
+  "lieu": "Les Plaines des Constellations",
+  "histoire": "Navigatrice des Plaines des Constellations, Polaviking ne se perd jamais : l'étoile Polaire, presque immobile, lui indique le nord. Elle sait que sa hauteur au-dessus de l'horizon donne la latitude. Mendéléviking la jalouse de connaître le ciel aussi bien que lui son tableau ; Croisé du Sud se moque d'elle, car dans l'hémisphère austral il n'y a pas d'étoile Polaire.",
+  "liens": [
+   "mendeleviking",
+   "croise-du-sud"
+  ]
+ },
+ {
+  "id": "persee-verant",
+  "pays": "astralis",
+  "lieu": "Les Plaines des Constellations",
+  "histoire": "Héros des Plaines des Constellations, Persée-Vérant ne lâche jamais une histoire avant qu'elle ne soit inscrite dans le ciel. Il raconte comment Persée trancha la tête de Méduse puis délivra Andromède. Pythagorgone évite soigneusement son bouclier-miroir ; Cassiopirate fait semblant de ne pas être de sa famille.",
+  "liens": [
+   "pythagorgone",
+   "cassiopirate"
+  ]
+ },
+ {
+  "id": "asterisque-tout",
+  "pays": "astralis",
+  "lieu": "Les Plaines des Constellations",
+  "histoire": "Casse-cou des Plaines des Constellations, Astérisque-Tout relie les étoiles comme on joue à relier les points, sans demander la permission. Elle sait que le Triangle d'été, formé par Véga, Deneb et Altaïr, n'est pas une constellation officielle. Ourson Majeur boude quand elle traite sa casserole d'astérisme ; Atlas Céleste refuse de l'inscrire sur ses cartes.",
+  "liens": [
+   "ourson-majeur",
+   "atlas-celeste"
+  ]
+ },
+ {
+  "id": "ceinture-noire-d-orion",
+  "pays": "astralis",
+  "lieu": "Les Plaines des Constellations",
+  "histoire": "Judoka des Plaines des Constellations, Ceinture Noire d'Orion a gagné sa ceinture en alignant Alnitak, Alnilam et Mintaka. Il rappelle que son épaule rouge s'appelle Bételgeuse et son pied bleu Rigel. Bételgeuserker lui sert d'épaule capricieuse ; Dompt'Étoile tient le Scorpion à l'autre bout du ciel, loin de lui.",
+  "liens": [
+   "betelgeuserker",
+   "dompt-etoile"
+  ]
+ },
+ {
+  "id": "dompt-etoile",
+  "pays": "astralis",
+  "lieu": "Les Plaines des Constellations",
+  "histoire": "Dompteuse des Plaines des Constellations, Dompt'Étoile fait parader un véritable zoo céleste : Lion, Cygne, Dauphin, Loup et Toucan. Elle raconte que le Scorpion tua Orion, et que les deux ennemis sont placés aux côtés opposés du ciel. Ceinture Noire d'Orion la remercie de tenir sa bête ; Ourson Majeur refuse d'entrer dans sa cage.",
+  "liens": [
+   "ceinture-noire-d-orion",
+   "ourson-majeur"
+  ]
+ },
+ {
+  "id": "atlas-celeste",
+  "pays": "astralis",
+  "lieu": "Les Plaines des Constellations",
+  "histoire": "Titan des Plaines des Constellations, Atlas Céleste porte sur ses épaules toutes les cartes du ciel d'Astralis. Il sait que l'Union astronomique internationale a fixé la liste des quatre-vingt-huit constellations officielles. Astérisque-Tout le supplie d'ajouter ses dessins ; Constantitan, aussi immobile que lui, lui tient compagnie.",
+  "liens": [
+   "asterisque-tout",
+   "constantitan"
+  ]
+ },
+ {
+  "id": "galactaekwondo",
+  "pays": "astralis",
+  "lieu": "Le Puits de l'Infini",
+  "histoire": "Maîtresse du Puits de l'Infini, Galactaekwondo enchaîne les coups de pied tournants en spirale, comme les bras d'une galaxie. Elle connaît la classification de Hubble, qui range les galaxies en spirales, elliptiques et irrégulières. Lait-gendaire lui rappelle qu'elle habite, elle aussi, une galaxie spirale ; Expansionnaire s'éloigne dès qu'elle attaque.",
+  "liens": [
+   "lait-gendaire",
+   "expansionnaire"
+  ]
+ },
+ {
+  "id": "lait-gendaire",
+  "pays": "astralis",
+  "lieu": "Le Puits de l'Infini",
+  "histoire": "Héros du Puits de l'Infini, Lait-gendaire raconte que la Voie lactée doit son nom à du lait renversé par Héra, selon la légende grecque. Il sait que le Soleil se trouve dans l'un de ses bras, loin du centre. Singularitaire garde le cœur de sa maison ; Galactaekwondo vient s'y entraîner chaque nuit.",
+  "liens": [
+   "singularitaire",
+   "galactaekwondo"
+  ]
+ },
+ {
+  "id": "bang-zai",
+  "pays": "astralis",
+  "lieu": "Le Puits de l'Infini",
+  "histoire": "Samouraï du Puits de l'Infini, Bang-Zaï veille sur le début de tout, il y a environ treize milliards huit cents millions d'années. Il rappelle que l'expression « Big Bang » fut lancée par moquerie par Fred Hoyle, qui n'y croyait pas. Big-Bangdit lui conteste ses origines ; Expansionnaire s'éloigne de lui depuis le premier jour.",
+  "liens": [
+   "big-bangdit",
+   "expansionnaire"
+  ]
+ },
+ {
+  "id": "expansionnaire",
+  "pays": "astralis",
+  "lieu": "Le Puits de l'Infini",
+  "histoire": "Mercenaire du Puits de l'Infini, Expansionnaire s'éloigne de tous ses adversaires, et d'autant plus vite qu'ils sont loin. Il sait que l'expansion de l'Univers accélère, une découverte de 1998 récompensée par un prix Nobel. Bang-Zaï lui reproche de n'avoir jamais cessé de partir ; Galactaekwondo n'arrive plus à le rattraper.",
+  "liens": [
+   "bang-zai",
+   "galactaekwondo"
+  ]
  }
 ]

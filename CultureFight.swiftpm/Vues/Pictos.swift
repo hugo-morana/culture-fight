@@ -78,6 +78,10 @@ enum Pictos {
         case "Matériaux": return "🧱"
         case "Savants et laboratoire": return "🧪"
         case "Système solaire": return "🪐"
+        case "Lunes et petits corps": return "☄️"
+        case "Étoiles": return "⭐"
+        case "Constellations": return "✨"
+        case "Galaxies et cosmologie": return "🌀"
         default: return Pictos.domaine(domaine)
         }
     }
@@ -193,6 +197,24 @@ enum Pictos {
         case "Valkyrie": return "🪽"
         case "Cowboy hors-la-loi": return "🤠"
         case "Bandit": return "🦹"
+        case "Roi usurpateur": return "🤴"
+        case "Rétiaire": return "🕸️"
+        case "Hallebardier": return "⚜️"
+        case "Nain guerrier": return "⛏️"
+        case "Toréador": return "🌹"
+        case "Voleur": return "🧤"
+        case "Géant": return "🦶"
+        case "Apprentie guerrière": return "🔰"
+        case "Militaire": return "⭐"
+        case "Guerrier sarrasin": return "🌙"
+        case "Chasseuse de primes": return "💸"
+        case "Héros grec": return "🫒"
+        case "Ours guerrier": return "🐻"
+        case "Casse-cou": return "🎪"
+        case "Dompteuse": return "🎠"
+        case "Taekwondo": return "🦵"
+        case "Héros légendaire": return "🏅"
+        case "Mercenaire": return "💰"
         default: return famille.picto
         }
     }
