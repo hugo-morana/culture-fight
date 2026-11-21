@@ -1470,5 +1470,295 @@
    "metre-d-armes",
    "multiplicator"
   ]
+ },
+ {
+  "id": "lieue-tenant",
+  "pays": "atomie",
+  "lieu": "La Tour des Étalons",
+  "histoire": "Officier cartographe de la Tour des Étalons, Lieue-Tenant compte encore les distances en lieues et les tissus en aunes, au grand désespoir de Mètre d'Armes. Il connaît la valeur de chaque mesure de l'ancien temps. Sir Inchalot est son seul allié dans la résistance.",
+  "liens": [
+   "metre-d-armes",
+   "sir-inchalot"
+  ]
+ },
+ {
+  "id": "sir-inchalot",
+  "pays": "atomie",
+  "lieu": "La Tour des Étalons",
+  "histoire": "Chevalier venu d'outre-Manche, Sir Inchalot mesure sa lance en pieds et son armure en livres. Il refuse obstinément le mètre. Lieue-Tenant le comprend ; Conversorcier passe ses journées à traduire ses mesures pour les autres.",
+  "liens": [
+   "lieue-tenant",
+   "conversorcier"
+  ]
+ },
+ {
+  "id": "constantitan",
+  "pays": "atomie",
+  "lieu": "La Tour des Étalons",
+  "histoire": "Gardien immobile de la Tour des Étalons, Constantitan ne change jamais : ses constantes sont gravées dans la pierre depuis le début de l'Univers. Il avance lentement, mais rien ne l'arrête. Mètre d'Armes s'appuie sur lui pour définir ses unités ; Pythagorgone lui a offert π.",
+  "liens": [
+   "metre-d-armes",
+   "pythagorgone"
+  ]
+ },
+ {
+  "id": "rapporteur-espion",
+  "pays": "atomie",
+  "lieu": "La Tour des Étalons",
+  "histoire": "Agent secret de la Tour des Étalons, Rapporteur Espion mesure tout sans se faire voir : angles, longueurs, vents et secousses. Il rapporte chaque mesure à Mètre d'Armes. Sismogre se méfie de son sismographe ; Rapaladin le surveille du haut des falaises.",
+  "liens": [
+   "metre-d-armes",
+   "sismogre"
+  ]
+ },
+ {
+  "id": "templier-de-grandeur",
+  "pays": "atomie",
+  "lieu": "La Tour des Étalons",
+  "histoire": "Chevalier de la Tour des Étalons, Templier de Grandeur pèse d'une main la Terre et de l'autre une galaxie. Il sait combien d'atomes tiennent dans un grain de sel et combien d'étoiles dans la Voie lactée. Pétatitan lui prête ses préfixes ; Atomoine lui parle du tout petit.",
+  "liens": [
+   "petatitan",
+   "atomoine"
+  ]
+ },
+ {
+  "id": "sablibustier",
+  "pays": "atomie",
+  "lieu": "La Tour des Étalons",
+  "histoire": "Capitaine pressé de la Tour des Étalons, Sablibustier retourne son sablier à chaque abordage pour ne jamais perdre une seconde. Il connaît chaque calendrier et chaque fuseau horaire. Flibustlantique lui demande toujours l'heure ; Constantitan lui a offert une seconde parfaite.",
+  "liens": [
+   "flibustlantique",
+   "constantitan"
+  ]
+ },
+ {
+  "id": "gigaoctopus",
+  "pays": "atomie",
+  "lieu": "La Tour des Étalons",
+  "histoire": "Gardienne des archives englouties de la Tour des Étalons, Gigaoctopus range dans ses huit tentacules des milliards d'octets, des disquettes aux SSD. Elle compte tout en binaire. Transistorc lui fabrique ses mémoires ; Pétatitan lui prête ses giga et ses téra.",
+  "liens": [
+   "transistorc",
+   "petatitan"
+  ]
+ },
+ {
+  "id": "ferrailleur",
+  "pays": "atomie",
+  "lieu": "Les Forges de Cuivrelune",
+  "histoire": "Bretteur des Forges de Cuivrelune, Ferrailleur forge lui-même ses lames et connaît la recette de chaque alliage. Il ferraille contre quiconque confond le bronze et le laiton. Cuivrassier lui fournit son cuivre ; Fonderserker coule ses lingots.",
+  "liens": [
+   "cuivrassier",
+   "fonderserker"
+  ]
+ },
+ {
+  "id": "verre-wolf",
+  "pays": "atomie",
+  "lieu": "Les Forges de Cuivrelune",
+  "histoire": "Créature des fours des Forges de Cuivrelune, Verre-Wolf est né d'une goutte de verre en fusion un soir de pleine lune. Il porte une armure de porcelaine fine. Loupe-Garou est son cousin ; Alu-Minotaure a peur de le casser.",
+  "liens": [
+   "loupe-garou",
+   "alu-minotaure"
+  ]
+ },
+ {
+  "id": "nylonin",
+  "pays": "atomie",
+  "lieu": "Les Forges de Cuivrelune",
+  "histoire": "Ronin des ateliers de tissage de Cuivrelune, Nylonin tisse ses propres kimonos sur un métier ancien et reconnaît chaque fibre au toucher. Son fil ne casse jamais. Polymérobot lui fournit ses fils synthétiques ; Kevlarbare lui commande des tissus résistants.",
+  "liens": [
+   "polymerobot",
+   "kevlarbare"
+  ]
+ },
+ {
+  "id": "kevlarbare",
+  "pays": "atomie",
+  "lieu": "Les Forges de Cuivrelune",
+  "histoire": "Barbare des Forges de Cuivrelune, Kevlarbare a renoncé au bois et au fer : son bouclier tressé est plus léger et plus solide que tout. Il mélange les fibres et les résines comme d'autres les potions. Nylonin tisse ses fibres ; Combustibarbare n'a jamais réussi à le brûler.",
+  "liens": [
+   "nylonin",
+   "combustibarbare"
+  ]
+ },
+ {
+  "id": "beton-arme",
+  "pays": "atomie",
+  "lieu": "Les Forges de Cuivrelune",
+  "histoire": "Soldat bâtisseur des Forges de Cuivrelune, Béton Armé a une armure de béton tenue par des barres d'acier. Il a construit les ponts et les remparts d'Atomie. Pyramidragon admire ses ouvrages ; Sismogre teste leur solidité.",
+  "liens": [
+   "pyramidragon",
+   "sismogre"
+  ]
+ },
+ {
+  "id": "pucassin",
+  "pays": "atomie",
+  "lieu": "Les Forges de Cuivrelune",
+  "histoire": "Assassin des salles blanches des Forges de Cuivrelune, Puçassin grave des milliards de transistors sur une tranche de silicium sans laisser la moindre poussière. Il frappe à l'échelle du nanomètre. Siliconquistador lui fournit le silicium ; Transistorc assemble ses puces.",
+  "liens": [
+   "siliconquistador",
+   "transistorc"
+  ]
+ },
+ {
+  "id": "levitator",
+  "pays": "atomie",
+  "lieu": "Les Forges de Cuivrelune",
+  "histoire": "Gladiateur des arènes glacées de Cuivrelune, Lévitator fait flotter ses adversaires dans les airs dès qu'il refroidit assez son armure. Il ne perd jamais une goutte de courant. Électromage lui a appris la lévitation ; Glaciator lui prête son froid.",
+  "liens": [
+   "electromage",
+   "glaciator"
+  ]
+ },
+ {
+  "id": "alu-minotaure",
+  "pays": "atomie",
+  "lieu": "Les Forges de Cuivrelune",
+  "histoire": "Minotaure du marché de Cuivrelune, Alu-Minotaure s'est fait une armure avec tout ce qu'il a trouvé dans les cuisines. Il sait de quoi est fait chaque objet de la maison. Azotaure est son cousin ; Wattrior lui reproche de laisser son four allumé.",
+  "liens": [
+   "azotaure",
+   "wattrior"
+  ]
+ },
+ {
+  "id": "fonderserker",
+  "pays": "atomie",
+  "lieu": "Les Forges de Cuivrelune",
+  "histoire": "Berserker des fonderies de Cuivrelune, Fonderserker entre en rage à la température exacte où chaque métal fond. Il coule lui-même les lingots de Ferrailleur. Golemagma lui prête sa lave ; Glaciator le calme quand il déborde.",
+  "liens": [
+   "ferrailleur",
+   "golemagma"
+  ]
+ },
+ {
+  "id": "papyrate",
+  "pays": "atomie",
+  "lieu": "Les Forges de Cuivrelune",
+  "histoire": "Pirate des canaux de Cuivrelune, Papyrate a plié lui-même son navire, ses voiles et son chapeau. Il connaît chaque essence de bois et chaque format de papier. Druidérable lui fournit le bois ; Dumasquetaire lui commande du papier pour ses romans.",
+  "liens": [
+   "druiderable",
+   "dumasquetaire"
+  ]
+ },
+ {
+  "id": "lavoisamourai",
+  "pays": "atomie",
+  "lieu": "L'Académie de Mendéléia",
+  "histoire": "Maître de l'Académie de Mendéléia, Lavoisamouraï pèse tout avant et après chaque combat : rien ne se perd, rien ne se crée. Il connaît la vie de chaque grand chimiste. Mendéléviking lui a dédié une case de son bouclier ; Molécowboy est son élève.",
+  "liens": [
+   "mendeleviking",
+   "molecowboy"
+  ]
+ },
+ {
+  "id": "galilegionnaire",
+  "pays": "atomie",
+  "lieu": "L'Académie de Mendéléia",
+  "histoire": "Sentinelle de l'observatoire de l'Académie de Mendéléia, Galilégionnaire scrute le ciel chaque nuit et connaît l'histoire de chaque grand physicien. Il a découvert les lunes de Jupiter en montant la garde. Galiléopard est son cousin ; Newtonfu lui rend visite.",
+  "liens": [
+   "galileopard",
+   "newtonfu"
+  ]
+ },
+ {
+  "id": "nobel-dynamiteur",
+  "pays": "atomie",
+  "lieu": "L'Académie de Mendéléia",
+  "histoire": "Artificier repenti de l'Académie de Mendéléia, Nobel Dynamiteur a fait fortune avec ses explosifs avant de consacrer son trésor aux savants. Chaque année, il tire un feu d'artifice pour les lauréats. Nobelliqueux remet ses médailles ; Valkyrie Curie en a reçu deux.",
+  "liens": [
+   "nobelliqueux",
+   "valkyrie-curie"
+  ]
+ },
+ {
+  "id": "valkyrie-curie",
+  "pays": "atomie",
+  "lieu": "L'Académie de Mendéléia",
+  "histoire": "Valkyrie de l'Académie de Mendéléia, Valkyrie Curie emporte au paradis des savants les découvertes oubliées des femmes de science. Elle note tout dans son carnet de laboratoire. Nobel Dynamiteur lui a remis deux médailles ; Radiomomie lui doit son nom.",
+  "liens": [
+   "nobel-dynamiteur",
+   "radiomomie"
+  ]
+ },
+ {
+  "id": "experimentator",
+  "pays": "atomie",
+  "lieu": "L'Académie de Mendéléia",
+  "histoire": "Champion de l'arène de l'Académie de Mendéléia, Expérimentator ne croit que ce qu'il a vu de ses yeux. Il refait chaque grande expérience de l'histoire, du pendule de Foucault aux fentes de Young. Spectre Lumineux l'aide avec ses prismes ; Galiléopard lui prête ses boulets.",
+  "liens": [
+   "spectre-lumineux",
+   "galileopard"
+  ]
+ },
+ {
+  "id": "hors-la-loi",
+  "pays": "atomie",
+  "lieu": "L'Académie de Mendéléia",
+  "histoire": "Bandit recherché par l'Académie de Mendéléia, Hors-la-Loi vole les lois scientifiques pour les afficher dans tous les saloons d'Atomie. Il connaît l'auteur de chacune. Shérifecture le poursuit ; Molécowboy l'a déjà laissé filer deux fois.",
+  "liens": [
+   "sherifecture",
+   "molecowboy"
+  ]
+ },
+ {
+  "id": "serendipirate",
+  "pays": "atomie",
+  "lieu": "L'Académie de Mendéléia",
+  "histoire": "Pirate distrait de l'Académie de Mendéléia, Sérendipirate cherche toujours un trésor et trouve toujours autre chose, souvent plus précieux. Il a découvert la moitié de ses richesses par accident. Diamanticore lui envie ses géodes ; Eurêkatana lui reproche sa chance.",
+  "liens": [
+   "diamanticore",
+   "eurekatana"
+  ]
+ },
+ {
+  "id": "big-bangdit",
+  "pays": "atomie",
+  "lieu": "L'Académie de Mendéléia",
+  "histoire": "Bandit de l'Académie de Mendéléia, Big-Bangdit a volé la carte de l'origine de l'Univers et la montre à qui veut l'entendre. Il connaît chaque grande théorie et ceux qui l'ont combattue. Planétroll lui sert de complice ; Hors-la-Loi est son associé.",
+  "liens": [
+   "planetroll",
+   "hors-la-loi"
+  ]
+ },
+ {
+  "id": "bunsenturion",
+  "pays": "atomie",
+  "lieu": "L'Académie de Mendéléia",
+  "histoire": "Centurion de garde au laboratoire de l'Académie de Mendéléia, Bunsenturion veille sur chaque fiole et chaque bec Bunsen. Rien ne se passe sans son autorisation. Seinturion est son cousin ; Acidragon ne touche à rien sans lui demander.",
+  "liens": [
+   "seinturion",
+   "acidragon"
+  ]
+ },
+ {
+  "id": "quote-de-mailles",
+  "pays": "atomie",
+  "lieu": "L'Académie de Mendéléia",
+  "histoire": "Chevalier bibliothécaire de l'Académie de Mendéléia, Quote-de-Mailles répond à chaque attaque par une citation de savant. Il sait qui a vraiment dit quoi, et ce qui a été inventé après coup. Latinquisiteur vérifie son latin ; Cyrano de Bretteurac lui envie ses répliques.",
+  "liens": [
+   "latinquisiteur",
+   "cyrano-de-bretteurac"
+  ]
+ },
+ {
+  "id": "planetroll",
+  "pays": "astralis",
+  "lieu": "La Ronde des Planètes",
+  "histoire": "Gardien de la Ronde des Planètes, en Astralis, Planétroll fait tinter les huit planètes accrochées à sa ceinture comme des grelots. Il a perdu Pluton en 2006 et la cherche encore. Sol-Dat le rappelle à l'ordre ; Big-Bangdit lui raconte d'où il vient.",
+  "liens": [
+   "sol-dat",
+   "big-bangdit"
+  ]
+ },
+ {
+  "id": "sol-dat",
+  "pays": "astralis",
+  "lieu": "La Ronde des Planètes",
+  "histoire": "Soldat de la garde du Soleil, au centre de la Ronde des Planètes, Sol-Dat ne quitte jamais son poste depuis quatre milliards et demi d'années. Son bouclier brille plus que tout Astralis. Planétroll tourne autour de lui ; Photonnerre lui doit toute sa lumière.",
+  "liens": [
+   "planetroll",
+   "photonnerre"
+  ]
  }
 ]
