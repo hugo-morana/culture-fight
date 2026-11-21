@@ -72,6 +72,8 @@ enum Pictos {
         case "Inventions": return "💡"
         case "Molécules et réactions": return "⚗️"
         case "Mécanique": return "⚙️"
+        case "Électricité et magnétisme": return "⚡"
+        case "Lumière et ondes": return "🌈"
         default: return Pictos.domaine(domaine)
         }
     }
@@ -154,6 +156,17 @@ enum Pictos {
         case "Minotaure": return "🐃"
         case "Kung-fu": return "🐉"
         case "Raptor": return "🦖"
+        case "Ingénieur de siège": return "🛠️"
+        case "Méduse": return "🪼"
+        case "Guerrier léopard": return "🐆"
+        case "Guerrier antique": return "🏺"
+        case "Jiu-jitsu": return "🥋"
+        case "Voltigeur": return "🤸"
+        case "Catcheur": return "🤼"
+        case "Pirate": return "🏴‍☠️"
+        case "Empereur guerrier": return "👑"
+        case "Fantôme": return "👻"
+        case "Loup-garou": return "🐺"
         default: return famille.picto
         }
     }
