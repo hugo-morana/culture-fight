@@ -69,6 +69,7 @@ final class CombatController {
                  equipements: equipements),
             Camp(nom: "IA \(ia.niveau.rawValue.lowercased())", estIA: true, equipe: equipeIA, niveauParDefaut: Stade.pourIA(ia.niveau).niveauMin),
         ])
+        combat.premier = Int.random(in: 0...1)
     }
 
     var estFini: Bool {
@@ -78,6 +79,9 @@ final class CombatController {
 
     /// Le joueur répond-il à la question en cours ?
     var joueurRepond: Bool { !combat.camps[combat.defenseur].estIA }
+
+    /// Le joueur ouvre-t-il le combat (pile ou face) ?
+    var joueurCommence: Bool { combat.premier == 0 }
 
     func demarrer() {
         guard case .attente = phase else { return }

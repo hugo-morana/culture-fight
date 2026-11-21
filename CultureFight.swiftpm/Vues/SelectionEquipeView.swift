@@ -50,6 +50,7 @@ struct SelectionEquipeView: View {
                 FondAnime().ignoresSafeArea()
                 VStack(spacing: 10) {
                     places
+                    consigne
                     resume
                     filtres
                     ScrollView {
@@ -175,18 +176,52 @@ struct SelectionEquipeView: View {
                     removal: .scale(scale: 0.5).combined(with: .opacity)))
             } else {
                 VStack(spacing: 4) {
-                    Image(systemName: "plus")
-                        .font(.title2)
-                        .foregroundStyle(Charte.ivoire.opacity(0.45))
-                        .symbolEffect(.pulse, isActive: index == equipe.count)
-                    Text("Place libre")
+                    if index == equipe.count {
+                        Image(systemName: "plus")
+                            .font(.title2.bold())
+                            .foregroundStyle(Charte.or)
+                            .phaseAnimator([1.0, 1.25, 1.0, 1.12, 1.0]) { vue, echelle in
+                                vue.scaleEffect(echelle)
+                            } animation: { echelle in
+                                echelle == 1.0 ? .easeIn(duration: 0.35) : .easeOut(duration: 0.14)
+                            }
+                    } else {
+                        Image(systemName: "plus")
+                            .font(.title2)
+                            .foregroundStyle(Charte.ivoire.opacity(0.35))
+                    }
+                    Text(index == equipe.count ? "Touche un combattant" : "Place libre")
                         .font(.caption2)
-                        .foregroundStyle(.secondary)
+                        .foregroundStyle(index == equipe.count ? Charte.ivoire.opacity(0.8) : .secondary)
+                        .multilineTextAlignment(.center)
                 }
             }
         }
         .frame(maxWidth: .infinity)
         .frame(height: 128)
+    }
+
+    // MARK: Consigne
+
+    /// Consigne et compteur sous les places : le joueur sait quoi faire dès l'arrivée.
+    private var consigne: some View {
+        HStack(spacing: 8) {
+            Text(complete ? "Équipe prête ! Lance le combat." : "Touche 3 combattants pour former ton équipe")
+                .font(.subheadline)
+                .foregroundStyle(complete ? Charte.or : Charte.ivoire.opacity(0.85))
+                .contentTransition(.opacity)
+            Spacer(minLength: 4)
+            Text("\(choisis.count)/\(Regles.tailleEquipe)")
+                .font(.nom(15, relativeTo: .subheadline).monospacedDigit())
+                .foregroundStyle(complete ? Charte.marine : Charte.ivoire)
+                .padding(.horizontal, 10)
+                .padding(.vertical, 3)
+                .background(complete ? Charte.or : Charte.marine.opacity(0.8), in: Capsule())
+                .overlay(Capsule().stroke(Charte.or.opacity(0.6), lineWidth: 1))
+                .contentTransition(.numericText(value: Double(choisis.count)))
+        }
+        .padding(.horizontal)
+        .animation(.snappy, value: choisis.count)
     }
 
     // MARK: Résumé de l'équipe

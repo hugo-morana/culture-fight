@@ -16,6 +16,8 @@ struct CombatView: View {
     /// Compteur par camp : le combattant actif prend son élan quand il pose sa question.
     @State private var elans = [0, 0]
     @Environment(\.accessibilityReduceMotion) private var mouvementReduit
+    /// Pile ou face d'ouverture, affiché avant la première question.
+    @State private var pileOuFace = true
 
     /// Identité de ce qui est affiché au centre : change à chaque question, résultat ou fin.
     private var clePhase: String {
@@ -77,7 +79,17 @@ struct CombatView: View {
                 Confettis().ignoresSafeArea()
             }
         }
-        .task { controleur.demarrer() }
+        .overlay {
+            if pileOuFace {
+                PileOuFaceView(joueurCommence: controleur.joueurCommence, reduit: mouvementReduit)
+                    .transition(.opacity.combined(with: .scale(scale: 1.1)))
+            }
+        }
+        .task {
+            try? await Task.sleep(for: .seconds(mouvementReduit ? 1.6 : 2.8))
+            withAnimation(.easeOut(duration: 0.35)) { pileOuFace = false }
+            controleur.demarrer()
+        }
         .onChange(of: controleur.estFini) { _, fini in
             if fini { termine() }
         }
@@ -686,5 +698,54 @@ struct BadgeNiveau: View {
             .phaseAnimator([false, true]) { vue, fort in
                 vue.scaleEffect(fort ? 1.08 : 1).shadow(color: couleur.opacity(fort ? 0.8 : 0.2), radius: fort ? 8 : 2)
             } animation: { _ in .easeInOut(duration: 0.8) }
+    }
+}
+
+/// Pièce lancée en l'air au début du combat : elle tourne, retombe et annonce qui commence.
+struct PileOuFaceView: View {
+    let joueurCommence: Bool
+    var reduit = false
+    @State private var lancee = false
+    @State private var resultat = false
+
+    var body: some View {
+        ZStack {
+            Color.black.opacity(0.55).ignoresSafeArea()
+            VStack(spacing: 22) {
+                Text("Pile ou face")
+                    .font(.titre(18, relativeTo: .headline))
+                    .lettrageLogo()
+                ZStack {
+                    Circle()
+                        .fill(LinearGradient(colors: [Charte.or, Color(red: 0.72, green: 0.52, blue: 0.16)],
+                                             startPoint: .topLeading, endPoint: .bottomTrailing))
+                        .overlay(Circle().stroke(Charte.ivoire.opacity(0.8), lineWidth: 3).padding(6))
+                        .shadow(color: Charte.or.opacity(0.6), radius: resultat ? 24 : 8)
+                    Image(systemName: joueurCommence ? "person.fill" : "cpu")
+                        .font(.system(size: 44, weight: .bold))
+                        .foregroundStyle(Charte.marine)
+                        .opacity(resultat ? 1 : 0)
+                }
+                .frame(width: 120, height: 120)
+                .rotation3DEffect(.degrees(lancee ? 1800 : 0), axis: (x: 1, y: 0, z: 0))
+                .offset(y: lancee && !resultat ? -120 : 0)
+                .scaleEffect(resultat ? 1.15 : 1)
+                Text(joueurCommence ? "Tu commences !" : "L'adversaire commence")
+                    .font(.titre(24, relativeTo: .title))
+                    .foregroundStyle(Charte.ivoire)
+                    .opacity(resultat ? 1 : 0)
+                    .scaleEffect(resultat ? 1 : 0.6)
+            }
+        }
+        .sensoryFeedback(.impact(weight: .heavy), trigger: resultat)
+        .task {
+            if reduit {
+                resultat = true
+                return
+            }
+            withAnimation(.easeOut(duration: 0.6)) { lancee = true }
+            try? await Task.sleep(for: .seconds(0.6))
+            withAnimation(.spring(duration: 0.7, bounce: 0.45)) { resultat = true }
+        }
     }
 }

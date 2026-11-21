@@ -64,7 +64,10 @@ struct Combat: Sendable {
     /// Difficulté de la dernière question tirée, réutilisée par le Changement de question.
     var derniereDifficulte = 1
 
-    var attaquant: Int { tour % 2 }
+    /// Camp qui ouvre le combat (tiré au sort à pile ou face) : il pose la première question.
+    var premier = 0
+
+    var attaquant: Int { (tour + premier) % 2 }
     var defenseur: Int { 1 - attaquant }
 
     var estTermine: Bool {
