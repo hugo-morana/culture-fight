@@ -34,8 +34,55 @@ def arrondi(v):
     return round(v, 4)
 
 
+# Mêmes valeurs que CarteCulturiaView : côté de la carte et pas des avatars autour d'un lieu (points).
+COTE_CARTE = 2400
+PAS_AVATAR = 27
+
+
+def etendue(n):
+    """Rayon (en unités de carte) du groupe de n combattants autour d'un lieu, avec son nom."""
+    anneau, reste = 0, n
+    while reste > 0:
+        anneau += 1
+        reste -= 6 * anneau
+    return (anneau * PAS_AVATAR + 16) / COTE_CARTE
+
+
+def ecarter(p, rayon, habitants):
+    """Écarte les lieux trop proches pour que leurs groupes de combattants ne se touchent pas,
+    sans sortir de 78 % du rayon du pays ; la capitale reste au centre."""
+    lieux = p["lieux"]
+    limite = 0.78 * rayon
+    for _ in range(400):
+        bouge = False
+        for i, a in enumerate(lieux):
+            for b in lieux[i + 1:]:
+                dx, dy = b["x"] - a["x"], b["y"] - a["y"]
+                d = math.hypot(dx, dy) or 1e-6
+                voulu = etendue(habitants[a["nom"]]) + etendue(habitants[b["nom"]])
+                if d >= voulu:
+                    continue
+                bouge = True
+                pousse = (voulu - d) / 2 + 1e-4
+                for l, signe in ((a, -1), (b, 1)):
+                    if l["nom"] == p["capitale"]:
+                        continue
+                    l["x"] += signe * dx / d * pousse
+                    l["y"] += signe * dy / d * pousse
+        for l in lieux:
+            dx, dy = l["x"] - p["x"], l["y"] - p["y"]
+            d = math.hypot(dx, dy)
+            if d > limite:
+                l["x"], l["y"] = p["x"] + dx / d * limite, p["y"] + dy / d * limite
+        if not bouge:
+            return
+
+
 def placer(monde, histoires):
     combattants = Counter(h["pays"] for h in histoires)
+    habitants = Counter()
+    for h in histoires:
+        habitants[(h["pays"], h["lieu"])] += 1
     pays = {p["id"]: p for p in monde["pays"]}
     ordre = [i for i in ORDRE if i in pays] + [i for i in pays if i not in ORDRE]
 
@@ -69,8 +116,11 @@ def placer(monde, histoires):
         for k, l in enumerate(autres, start=1):
             d = 0.78 * rayons[i] * math.sqrt(k / len(autres))
             a = k * math.radians(137.508) + milieu
-            l["x"] = arrondi(p["x"] + d * math.cos(a))
-            l["y"] = arrondi(p["y"] + d * math.sin(a))
+            l["x"] = p["x"] + d * math.cos(a)
+            l["y"] = p["y"] + d * math.sin(a)
+        ecarter(p, rayons[i], {l["nom"]: habitants[(i, l["nom"])] for l in p["lieux"]})
+        for l in p["lieux"]:
+            l["x"], l["y"] = arrondi(l["x"]), arrondi(l["y"])
 
     monde["agora"]["x"], monde["agora"]["y"] = CENTRE
     return monde

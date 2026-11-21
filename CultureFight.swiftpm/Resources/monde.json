@@ -42,8 +42,8 @@
     {
      "nom": "Les Forges de Cuivrelune",
      "description": "Mines et ateliers des métaux de transition, sous une lune couleur de cuivre.",
-     "x": 0.4891,
-     "y": 0.2266
+     "x": 0.4884,
+     "y": 0.2232
     },
     {
      "nom": "Le Désert irradié de Becquerelle",
@@ -54,8 +54,8 @@
     {
      "nom": "La Tour des Étalons",
      "description": "Tour de Mendéléia qui garde le mètre, le kilogramme et la seconde de tout Culturia.",
-     "x": 0.574,
-     "y": 0.1849
+     "x": 0.57,
+     "y": 0.1815
     },
     {
      "nom": "Les Fjords de Fer",
@@ -72,8 +72,8 @@
     {
      "nom": "Les Ateliers de Newtonne",
      "description": "Ateliers de catapultes, de poulies et d'horloges, où chaque pomme qui tombe est mesurée.",
-     "x": 0.5358,
-     "y": 0.2517
+     "x": 0.5385,
+     "y": 0.2533
     },
     {
      "nom": "La Centrale d'Ampérage",
@@ -84,14 +84,14 @@
     {
      "nom": "Le Phare des Prismes",
      "description": "Phare de verre qui décompose la lumière en arc-en-ciel au-dessus de la côte d'Atomie.",
-     "x": 0.599,
-     "y": 0.134
+     "x": 0.6003,
+     "y": 0.1316
     },
     {
      "nom": "Les Fournaises de Kelvinor",
      "description": "Chaufferies géantes où l'on mesure le chaud et le froid, du zéro absolu au cœur des fours.",
-     "x": 0.4457,
-     "y": 0.2587
+     "x": 0.4435,
+     "y": 0.2605
     },
     {
      "nom": "Le Collisionneur des Profondeurs",
@@ -102,8 +102,8 @@
     {
      "nom": "L'Académie de Mendéléia",
      "description": "Académie des savants d'Atomie, aux couloirs couverts de portraits et d'expériences célèbres.",
-     "x": 0.5957,
-     "y": 0.2323
+     "x": 0.594,
+     "y": 0.2347
     }
    ],
    "x": 0.5,
