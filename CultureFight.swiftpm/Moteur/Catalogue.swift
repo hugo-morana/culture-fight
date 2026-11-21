@@ -157,7 +157,7 @@ enum Catalogue {
             id: "radiomomie", nom: "Radiomomie", style: "Momie", familleStyle: .mortsVivants,
             specialite: radioactivite, rarete: .commun,
             pvMax: 100, attaque: 50, defense: 0, difficulte: 2,
-            apparence: "Momie aux bandelettes qui luisent d'un vert radioactif, trèfle de la radioactivité sur le torse, compteur Geiger qui crépite à la ceinture.",
+            apparence: "Momie aux bandelettes usées et coiffe de pharaon bleu et or, ankh sur la poitrine, devant une chambre à brouillard où filent des traces de particules.",
             questions: "Les éléments radioactifs (uranium, plutonium, radium, polonium…) : nom, symbole et numéro atomique.",
             generateur: GenerateurElements(specialite: radioactivite,
                                            selection: elements.filter { numerosRadioactifs.contains($0.numero) },
