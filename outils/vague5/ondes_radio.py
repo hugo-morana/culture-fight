@@ -183,7 +183,7 @@ FICHE = {"id": "ondes-radio", "relations": [
                                 "Pour capter le soleil"],
       "C'est pourquoi la première radio parisienne fut installée au sommet de la tour Eiffel.",
       source=RADIO),
-    q("Quelle fréquence, proche de la résonance de l'eau, utilisent aussi les fours à micro-ondes ?",
+    q("Quelle fréquence, partagée avec les fours à micro-ondes, se trouve dans la bande du Wi-Fi ?",
       "2,45 GHz", ["87,5 MHz", "77,5 kHz", "27 MHz"],
       "Le Wi-Fi utilise une bande voisine, de 2,4 à 2,484 GHz.", source=ONDE),
     q("Combien de temps environ la bande des 11 mètres porte-t-elle très loin, sur chaque cycle de 11 ans ?",

@@ -1180,5 +1180,295 @@
    "spectre-lumineux",
    "pythagorgone"
   ]
+ },
+ {
+  "id": "decibarbare",
+  "pays": "atomie",
+  "lieu": "Le Phare des Prismes",
+  "histoire": "Barbare des falaises du Phare des Prismes, Décibarbare annonce chaque combat d'un coup de gong qui s'entend à des lieues. Il mesure tout en décibels, surtout ses propres cris. Banshee-Sonique lui reproche de ne rien entendre au-delà de vingt mille hertz ; Ténorc lui envie sa voix.",
+  "liens": [
+   "banshee-sonique",
+   "tenorc"
+  ]
+ },
+ {
+  "id": "hertzerker",
+  "pays": "atomie",
+  "lieu": "Le Phare des Prismes",
+  "histoire": "Berserker des glaces du Grand Nord d'Atomie, Hertzerker entre en transe quand l'aurore polaire s'allume et lance des ondes de toutes les longueurs. Elle passe des micro-ondes aux rayons X sans reprendre son souffle. Radiopirate capte ses cris sur sa radio ; Électromage l'a initiée.",
+  "liens": [
+   "radiopirate",
+   "electromage"
+  ]
+ },
+ {
+  "id": "lasabreur",
+  "pays": "atomie",
+  "lieu": "Le Phare des Prismes",
+  "histoire": "Sabreuse du Phare des Prismes, Lasabreur tranche à la vitesse de la lumière avec une lame qui ne s'émousse jamais. Elle fait rebondir ses coups sur les miroirs du phare. Spectre Lumineux lui fournit ses couleurs ; Cyrano de Bretteurac la trouve trop rapide pour placer une réplique.",
+  "liens": [
+   "spectre-lumineux",
+   "cyrano-de-bretteurac"
+  ]
+ },
+ {
+  "id": "periscopirate",
+  "pays": "atomie",
+  "lieu": "Le Phare des Prismes",
+  "histoire": "Capitaine du seul sous-marin pirate d'Atomie, Périscopirate observe les navires sans jamais sortir de l'eau. Sa cabine déborde de longues-vues, de sextants et de jumelles. Loupe-Garou répare ses lentilles ; Radiopirate lui transmet la position des proies.",
+  "liens": [
+   "loupe-garou",
+   "radiopirate"
+  ]
+ },
+ {
+  "id": "photonnerre",
+  "pays": "atomie",
+  "lieu": "Le Phare des Prismes",
+  "histoire": "Dieu du ciel d'Atomie, Photonnerre ne marche jamais : il file à trois cent mille kilomètres par seconde. Il arrive toujours avant son propre tonnerre. Thor-Ticolis le jalouse ; Accéléraptor a renoncé à le défier à la course.",
+  "liens": [
+   "thor-ticolis",
+   "acceleraptor"
+  ]
+ },
+ {
+  "id": "trompe-l-ogre",
+  "pays": "atomie",
+  "lieu": "Le Phare des Prismes",
+  "histoire": "Farceur du Phare des Prismes, Trompe-l'Ogre a construit un escalier qui monte toujours et ne mène nulle part. Il fait douter chacun de ce qu'il voit, puis éclate de rire. Île-Lusionniste est son meilleur ami ; Sismogre, son cousin, n'a jamais compris ses tours.",
+  "liens": [
+   "ile-lusionniste",
+   "sismogre"
+  ]
+ },
+ {
+  "id": "banshee-sonique",
+  "pays": "atomie",
+  "lieu": "Le Phare des Prismes",
+  "histoire": "Esprit du lac du Phare des Prismes, Banshee-Sonique pousse des cris que personne n'entend, sauf les chauves-souris et les chiens. Elle voit dans le noir grâce à l'écho de sa voix. Décibarbare croit qu'elle est muette ; Orquebusier lui répond sous l'eau.",
+  "liens": [
+   "decibarbare",
+   "orquebusier"
+  ]
+ },
+ {
+  "id": "ultraviolent",
+  "pays": "atomie",
+  "lieu": "Le Phare des Prismes",
+  "histoire": "Colosse des grottes violettes sous le Phare des Prismes, Ultraviolent brille dans le noir et donne des coups de soleil en plein hiver. Il ne connaît ni la crème solaire ni la mesure. Radiomomie le surveille au compteur Geiger ; Diamanticore admire ses cristaux.",
+  "liens": [
+   "radiomomie",
+   "diamanticore"
+  ]
+ },
+ {
+  "id": "kelvincible",
+  "pays": "atomie",
+  "lieu": "Les Fournaises de Kelvinor",
+  "histoire": "Champion des Fournaises de Kelvinor, Kelvincible a un bras de glace et un bras de feu, et compte tout en kelvins. Personne n'a jamais réussi à le refroidir jusqu'au zéro absolu. Glaciator lui dispute le froid ; Golemagma lui dispute le chaud.",
+  "liens": [
+   "glaciator",
+   "golemagma"
+  ]
+ },
+ {
+  "id": "sublimatador",
+  "pays": "atomie",
+  "lieu": "Les Fournaises de Kelvinor",
+  "histoire": "Matador des arènes de Kelvinor, Sublimatador affronte un taureau fait de vapeur qui passe de la glace au gaz sans jamais devenir liquide. Il esquive chaque charge à la température exacte. Liquidator est son rival ; Bogotador lui a appris la passe de cape.",
+  "liens": [
+   "liquidator",
+   "bogotador"
+  ]
+ },
+ {
+  "id": "entropirate",
+  "pays": "atomie",
+  "lieu": "Les Fournaises de Kelvinor",
+  "histoire": "Capitaine d'un navire à vapeur des Fournaises de Kelvinor, Entropirate sait qu'aucune machine ne rend tout ce qu'on lui donne, et pille donc ce qui reste. Son bateau laisse derrière lui un désordre toujours plus grand. Pistonero entretient ses chaudières ; Radiopirate la trouve trop sérieuse.",
+  "liens": [
+   "pistonero",
+   "radiopirate"
+  ]
+ },
+ {
+  "id": "don-quicheolien",
+  "pays": "atomie",
+  "lieu": "Les Fournaises de Kelvinor",
+  "histoire": "Chevalier errant des plaines de Kelvinor, Don Quichéolien a longtemps chargé les moulins à vent avant de comprendre qu'ils faisaient de l'électricité. Il les défend désormais. Turbinja lui montre les barrages ; Pétroll est son ennemi juré.",
+  "liens": [
+   "turbinja",
+   "petroll"
+  ]
+ },
+ {
+  "id": "petroll",
+  "pays": "atomie",
+  "lieu": "Les Fournaises de Kelvinor",
+  "histoire": "Troll des gisements de Kelvinor, Pétroll dort depuis des millions d'années sous une couche de fougères devenues charbon. Il vend ses gouttes noires au baril et ne pense jamais au lendemain. Don Quichéolien le combat ; Combustibarbare est son meilleur client.",
+  "liens": [
+   "don-quicheolien",
+   "combustibarbare"
+  ]
+ },
+ {
+  "id": "pistonero",
+  "pays": "atomie",
+  "lieu": "Les Fournaises de Kelvinor",
+  "histoire": "Pistolero des Fournaises de Kelvinor, Pistonero dégaine en quatre temps : admission, compression, explosion, échappement. Ses bras sont des pistons qui ne s'arrêtent jamais. Il entretient les chaudières d'Entropirate ; Molécowboy lui reproche de trop fumer.",
+  "liens": [
+   "entropirate",
+   "molecowboy"
+  ]
+ },
+ {
+  "id": "doudounja",
+  "pays": "atomie",
+  "lieu": "Les Fournaises de Kelvinor",
+  "histoire": "Ninja des cols enneigés au-dessus de Kelvinor, Doudounja ne laisse jamais filer la moindre chaleur. Sa doudoune garde son souffle au chaud même par moins quarante. Glaciator n'a jamais réussi à la geler ; Néonja lui envie sa tenue.",
+  "liens": [
+   "glaciator",
+   "neonja"
+  ]
+ },
+ {
+  "id": "nucleogre",
+  "pays": "atomie",
+  "lieu": "Les Fournaises de Kelvinor",
+  "histoire": "Gardien des réacteurs de Kelvinor, Nucléogre passe ses journées dans une piscine qui brille d'un bleu étrange. Il fournit l'électricité de tout Atomie et compte ses déchets avec soin. Kung-Fusion est son maître ; Plutonin vient parfois le saluer.",
+  "liens": [
+   "kung-fusion",
+   "plutonin"
+  ]
+ },
+ {
+  "id": "wattrior",
+  "pays": "atomie",
+  "lieu": "Les Fournaises de Kelvinor",
+  "histoire": "Guerrière des faubourgs de Kelvinor, Wattrior porte un compteur en guise de bouclier et éteint chaque lampe inutile d'un regard. Elle connaît la consommation de chaque appareil d'Atomie. Turbinja produit, elle économise ; Joulutteur lui demande des conseils de sobriété.",
+  "liens": [
+   "turbinja",
+   "joulutteur"
+  ]
+ },
+ {
+  "id": "glaciator",
+  "pays": "atomie",
+  "lieu": "Les Fournaises de Kelvinor",
+  "histoire": "Gladiateur de l'arène gelée de Kelvinor, Glaciator connaît la température la plus froide et la plus chaude jamais mesurée, et se vante d'avoir survécu aux deux. Son thermomètre lui sert de glaive. Kelvincible conteste ses records ; Doudounja lui résiste.",
+  "liens": [
+   "kelvincible",
+   "doudounja"
+  ]
+ },
+ {
+  "id": "atomoine",
+  "pays": "atomie",
+  "lieu": "Le Collisionneur des Profondeurs",
+  "histoire": "Moine du monastère au-dessus du Collisionneur des Profondeurs, Atomoine médite sur le vide qui remplit presque tout l'atome. Il fait tourner les électrons autour de ses mains sans jamais les toucher. Bohrserker se dispute avec lui sur la forme des orbites ; Quarkatana est son élève.",
+  "liens": [
+   "bohrserker",
+   "quarkatana"
+  ]
+ },
+ {
+  "id": "quarkatana",
+  "pays": "atomie",
+  "lieu": "Le Collisionneur des Profondeurs",
+  "histoire": "Samouraï du Collisionneur des Profondeurs, Quarkatana coupe la matière en morceaux toujours plus petits, jusqu'aux quarks qu'aucune lame ne sépare. Chaque coup laisse une gerbe de particules colorées. Accélérobot lui prête son anneau ; Atomoine lui a appris la patience.",
+  "liens": [
+   "accelerobot",
+   "atomoine"
+  ]
+ },
+ {
+  "id": "isotopaladin",
+  "pays": "atomie",
+  "lieu": "Le Collisionneur des Profondeurs",
+  "histoire": "Paladin du Collisionneur des Profondeurs, Isotopaladin porte un bouclier à deux faces, pareilles en tout sauf en neutrons. Il date les vieilles reliques d'un coup d'œil grâce au carbone 14. Momiephis lui demande son âge exact ; Radiomomie compte ses demi-vies.",
+  "liens": [
+   "momiephis",
+   "radiomomie"
+  ]
+ },
+ {
+  "id": "kung-fusion",
+  "pays": "atomie",
+  "lieu": "Le Collisionneur des Profondeurs",
+  "histoire": "Grand maître du Collisionneur des Profondeurs, Kung-Fusion sait briser un noyau en deux ou en souder deux en un seul, selon l'humeur. Ses mains libèrent l'énergie des étoiles. Nucléogre est son disciple ; Newtonfu le défie chaque année au tournoi d'Atomie.",
+  "liens": [
+   "nucleogre",
+   "newtonfu"
+  ]
+ },
+ {
+  "id": "accelerobot",
+  "pays": "atomie",
+  "lieu": "Le Collisionneur des Profondeurs",
+  "histoire": "Gardien du grand anneau du Collisionneur des Profondeurs, Accélérobot fait tourner les particules des milliers de fois par seconde avant de les lancer les unes contre les autres. Il ne dort jamais. Quarkatana analyse ses collisions ; Polymérobot lui envie ses circuits.",
+  "liens": [
+   "quarkatana",
+   "polymerobot"
+  ]
+ },
+ {
+  "id": "schrodinja",
+  "pays": "atomie",
+  "lieu": "Le Collisionneur des Profondeurs",
+  "histoire": "Ombre du Collisionneur des Profondeurs, Schrödinja est à la fois ici et ailleurs tant que personne ne le regarde. Son chat dort dans une boîte, et nul ne sait s'il est réveillé. Néonja dit qu'il triche ; Ninjalgèbre ne parvient jamais à calculer sa position.",
+  "liens": [
+   "neonja",
+   "ninjalgebre"
+  ]
+ },
+ {
+  "id": "antimatador",
+  "pays": "atomie",
+  "lieu": "Le Collisionneur des Profondeurs",
+  "histoire": "Matador de l'arène souterraine du Collisionneur, Antimatador affronte un taureau d'antimatière : s'ils se touchent, tout disparaît dans un éclair. Il n'a donc jamais le droit à l'erreur. Sublimatador est son frère ; Bogotador refuse de le regarder combattre.",
+  "liens": [
+   "sublimatador",
+   "bogotador"
+  ]
+ },
+ {
+  "id": "bohrserker",
+  "pays": "atomie",
+  "lieu": "Le Collisionneur des Profondeurs",
+  "histoire": "Berserker des montagnes d'Atomie, Bohrserker a gravé sur son bouclier tous les modèles de l'atome, du pudding de Thomson aux orbites de Bohr. Il entre en rage quand on confond électrons et planètes. Atomoine discute avec lui ; Hertzerker est sa sœur d'armes.",
+  "liens": [
+   "atomoine",
+   "hertzerker"
+  ]
+ },
+ {
+  "id": "nobelliqueux",
+  "pays": "atomie",
+  "lieu": "Le Collisionneur des Profondeurs",
+  "histoire": "Championne des cérémonies du Collisionneur des Profondeurs, Nobelliqueux remet chaque année la grande médaille d'or aux savants d'Atomie. Elle connaît tous les lauréats depuis le premier. Eurêkatana rêve d'en recevoir une ; Ampère-Empereur assiste à toutes ses remises.",
+  "liens": [
+   "eurekatana",
+   "ampere-empereur"
+  ]
+ },
+ {
+  "id": "metre-d-armes",
+  "pays": "atomie",
+  "lieu": "La Tour des Étalons",
+  "histoire": "Maître d'armes de la Tour des Étalons, Mètre d'Armes mesure chaque fente au millimètre et chaque riposte à la seconde près. Il garde les sept étalons du royaume. Conversorcier traduit ses mesures en vieilles unités ; Pétatitan lui prête ses préfixes.",
+  "liens": [
+   "conversorcier",
+   "petatitan"
+  ]
+ },
+ {
+  "id": "petatitan",
+  "pays": "atomie",
+  "lieu": "La Tour des Étalons",
+  "histoire": "Géant couché au pied de la Tour des Étalons, Pétatitan mesure aussi bien les montagnes en kilomètres que les cristaux en nanomètres. Il compte en puissances de dix sans jamais se tromper de zéro. Mètre d'Armes lui confie ses étalons ; Multiplicator lui emprunte ses zéros.",
+  "liens": [
+   "metre-d-armes",
+   "multiplicator"
+  ]
  }
 ]
