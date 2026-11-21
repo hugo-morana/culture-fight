@@ -2410,5 +2410,265 @@
    "orbitaire",
    "ariannazone"
   ]
+ },
+ {
+  "id": "apesumo",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Apesumo vit au Cosmodrome d'Astralis dans une salle sans pesanteur, où il ne pèse plus rien malgré son appétit. Il sait qu'en apesanteur la colonne vertébrale s'étire et que les astronautes grandissent de quelques centimètres. Orbitaire l'a enrôlé comme recrue ; Cosmocatch perd tous leurs combats dès qu'il ne peut plus le soulever.",
+  "liens": [
+   "orbitaire",
+   "cosmocatch"
+  ]
+ },
+ {
+  "id": "scaphandrator",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Scaphandrator s'équipe chaque matin dans les vestiaires du Cosmodrome d'Astralis, et il lui faut des heures pour enfiler sa combinaison. Elle sait que la visière des scaphandres est couverte d'une fine couche d'or pour filtrer la lumière brûlante du Soleil. Spatiocommando lui emprunte ses gants ; Apollhoplite lui envie son cimier.",
+  "liens": [
+   "spatiocommando",
+   "apollhoplite"
+  ]
+ },
+ {
+  "id": "centrifujitsu",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Centrifujitsu dirige le dojo du Cosmodrome d'Astralis, où l'on s'entraîne en centrifugeuse, en piscine et en vol parabolique. Elle sait que chaque parabole d'un avion « zéro g » offre une vingtaine de secondes d'apesanteur, juste le temps d'une prise. Apesumo est son élève préféré ; Gagarinja lui demande d'accélérer encore.",
+  "liens": [
+   "apesumo",
+   "gagarinja"
+  ]
+ },
+ {
+  "id": "spatiocommando",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Spatiocommando sort chaque nuit du Cosmodrome d'Astralis, attaché par une simple longe, pour réparer ce que les autres ont cassé. Il raconte que le premier homme sorti dans l'espace, en 1965, dut dégonfler sa combinaison pour rentrer dans son vaisseau. Scaphandrator lui fournit ses gants ; Orbitaire le félicite à chaque retour.",
+  "liens": [
+   "scaphandrator",
+   "orbitaire"
+  ]
+ },
+ {
+  "id": "laikatana",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Laïkatana garde la mémoire du Cosmodrome d'Astralis, où l'on honore tous les animaux partis avant les humains. Elle sait que la chienne Laïka fut en 1957 le premier animal mis en orbite, et que la chatte française Félicette vola en 1963. Spoutnikosaque se sent coupable à son égard ; Gagarinja lui doit le respect, car elle est passée avant lui.",
+  "liens": [
+   "spoutnikosaque",
+   "gagarinja"
+  ]
+ },
+ {
+  "id": "recordsaire",
+  "pays": "astralis",
+  "lieu": "Le Cosmodrome d'Astralis",
+  "histoire": "Recordsaire mouille au Cosmodrome d'Astralis entre deux tentatives de battre les records de tout le monde, montre en main. Il sait que le plus long séjour d'affilée dans l'espace a duré plus de quatorze mois, à bord de la station Mir. Orbitaire lui refuse toujours une couchette ; Cosmocatch tient le registre de ses exploits.",
+  "liens": [
+   "orbitaire",
+   "cosmocatch"
+  ]
+ },
+ {
+  "id": "telesniper",
+  "pays": "astralis",
+  "lieu": "L'Observatoire du Zénith",
+  "histoire": "Télesniper vise depuis les rochers de l'Observatoire du Zénith, et son télescope n'a encore jamais raté une étoile. Il sait que Newton inventa le télescope à miroir pour éviter les franges colorées des lunettes à lentilles. Binoclard le trouve trop sophistiqué ; Webbmestre lui répète que les vrais tireurs d'élite travaillent depuis l'espace.",
+  "liens": [
+   "binoclard",
+   "webbmestre"
+  ]
+ },
+ {
+  "id": "webbmestre",
+  "pays": "astralis",
+  "lieu": "L'Observatoire du Zénith",
+  "histoire": "Webbmestre pirate le ciel depuis l'Observatoire du Zénith, où elle capte des images venues de très loin dans l'infrarouge. Elle sait que le télescope James-Webb observe depuis le point de Lagrange L2, à environ un million et demi de kilomètres de la Terre. Ariannazone lui a offert son voyage ; Télesniper la jalouse en silence.",
+  "liens": [
+   "ariannazone",
+   "telesniper"
+  ]
+ },
+ {
+  "id": "parabolete",
+  "pays": "astralis",
+  "lieu": "L'Observatoire du Zénith",
+  "histoire": "Parabolète monte la garde sur les hauteurs de l'Observatoire du Zénith, l'oreille tendue vers les ondes du cosmos. Il sait que le radiotélescope chinois FAST, avec sa parabole de 500 mètres, est le plus grand du monde à antenne unique. Pulsarrazin lui envoie ses signaux réguliers ; Radiopirate lui emprunte des fréquences.",
+  "liens": [
+   "pulsarrazin",
+   "radiopirate"
+  ]
+ },
+ {
+  "id": "observatour",
+  "pays": "astralis",
+  "lieu": "L'Observatoire du Zénith",
+  "histoire": "Observatour veille au sommet de l'Observatoire du Zénith et connaît tous les observatoires du monde par leur nom. Elle sait que l'Observatoire de Paris, fondé en 1667, est traversé en son milieu par le méridien de Paris. Dômineur se moque de son goût pour les vieilles pierres ; Œil-de-Lynx lui rappelle qu'il y voit très bien sans coupole.",
+  "liens": [
+   "domineur",
+   "oeil-de-lynx"
+  ]
+ },
+ {
+  "id": "binoclard",
+  "pays": "astralis",
+  "lieu": "L'Observatoire du Zénith",
+  "histoire": "Binoclard s'entraîne dans la salle de boxe de l'Observatoire du Zénith, et ne monte jamais sur le ring sans ses jumelles. Il sait que Galilée découvrit en 1610, avec une simple lunette, les quatre grandes lunes de Jupiter. Œil-de-Lynx refuse de lui serrer la main ; Callistoréador lui doit d'avoir été repéré.",
+  "liens": [
+   "oeil-de-lynx",
+   "callistoreador"
+  ]
+ },
+ {
+  "id": "spectrespion",
+  "pays": "astralis",
+  "lieu": "L'Observatoire du Zénith",
+  "histoire": "Spectrespion espionne les étoiles depuis l'Observatoire du Zénith, et une seule raie dans leur lumière lui suffit pour les démasquer. Il sait que l'hélium fut découvert dans le spectre du Soleil, en 1868, avant d'être trouvé sur Terre. Chromatador lui fournit ses couleurs ; Néonja se méfie de lui depuis qu'il a reconnu sa lueur rouge orangé.",
+  "liens": [
+   "chromatador",
+   "neonja"
+  ]
+ },
+ {
+  "id": "domineur",
+  "pays": "astralis",
+  "lieu": "L'Observatoire du Zénith",
+  "histoire": "Dômineur combat sous la grande coupole de l'Observatoire du Zénith, où il fait tourner le ciel au gré de ses coups. Il sait que le premier planétarium moderne, avec son projecteur d'étoiles, a été présenté à Munich en 1923. Observatour lui reproche de montrer un faux ciel ; Planétroll vient y admirer ses planètes sous un ciel artificiel.",
+  "liens": [
+   "observatour",
+   "planetroll"
+  ]
+ },
+ {
+  "id": "astrapprenti",
+  "pays": "astralis",
+  "lieu": "L'Observatoire du Zénith",
+  "histoire": "Astrapprenti campe sur les pentes de l'Observatoire du Zénith, une lampe rouge sur le front pour ne pas éblouir ses yeux de nuit. Elle sait que de nombreuses comètes ont été découvertes par des amateurs, et rêve d'en baptiser une à son nom. Œil-de-Lynx lui apprend à lire le ciel sans instrument ; Halley-Barde lui promet de repasser.",
+  "liens": [
+   "oeil-de-lynx",
+   "halley-barde"
+  ]
+ },
+ {
+  "id": "paparastro",
+  "pays": "astralis",
+  "lieu": "L'Observatoire du Zénith",
+  "histoire": "Paparastro traque les célébrités célestes depuis l'Observatoire du Zénith, en pose longue et sans flash. Il sait que la photo « Lever de Terre », prise en 1968 par l'équipage d'Apollo 8, montra pour la première fois notre planète se levant au-dessus de la Lune. Apollhoplite pose volontiers pour lui ; Éclipse-Toi le fuit dès qu'il sort son objectif.",
+  "liens": [
+   "apollhoplite",
+   "eclipse-toi"
+  ]
+ },
+ {
+  "id": "neutrinja",
+  "pays": "astralis",
+  "lieu": "L'Observatoire du Zénith",
+  "histoire": "Neutrinja traverse l'Observatoire du Zénith comme si de rien n'était, et même la montagne ne la retient pas. Elle sait que des milliards de neutrinos traversent chaque seconde le bout de nos doigts, et que les ondes gravitationnelles ont été détectées pour la première fois en 2015. Singularitaire lui envoie des ondes ; Schrödinja jure l'avoir vue et ne pas l'avoir vue.",
+  "liens": [
+   "singularitaire",
+   "schrodinja"
+  ]
+ },
+ {
+  "id": "ptoleminotaure",
+  "pays": "astralis",
+  "lieu": "L'Académie céleste",
+  "histoire": "Ptoléminotaure garde le labyrinthe de l'Académie céleste, où toutes les allées tournent autour d'une Terre immobile. Il connaît l'Almageste de Ptolémée et sait qu'Ératosthène a mesuré la Terre avec une ombre et un puits. Copernisabre l'a délogé du centre du monde ; Atlas Céleste lui porte encore rancune.",
+  "liens": [
+   "copernisabre",
+   "atlas-celeste"
+  ]
+ },
+ {
+  "id": "copernisabre",
+  "pays": "astralis",
+  "lieu": "L'Académie céleste",
+  "histoire": "Copernisabre enseigne l'escrime à l'Académie céleste, toujours au centre de la salle, comme le Soleil. Il sait que Copernic publia son livre plaçant le Soleil au centre du monde en 1543, l'année même de sa mort. Ptoléminotaure ne lui pardonne pas d'avoir déplacé la Terre ; Keplertagnan a corrigé ses orbites en les étirant un peu.",
+  "liens": [
+   "ptoleminotaure",
+   "keplertagnan"
+  ]
+ },
+ {
+  "id": "keplertagnan",
+  "pays": "astralis",
+  "lieu": "L'Académie céleste",
+  "histoire": "Keplertagnan sert à l'Académie céleste avec panache, mais ses fentes ne décrivent jamais des cercles, toujours des ellipses. Il sait que Kepler montra que les planètes tournent sur des ellipses et accélèrent en se rapprochant du Soleil. Copernisabre est son vieux maître ; Spatiomousquetaire et lui jouent les mousquetaires de l'Académie.",
+  "liens": [
+   "copernisabre",
+   "spatiomousquetaire"
+  ]
+ },
+ {
+  "id": "messiercenaire",
+  "pays": "astralis",
+  "lieu": "L'Académie céleste",
+  "histoire": "Messiercenaire travaille pour l'Académie céleste et a recensé tous les objets flous du ciel, au cas où ils voudraient se faire passer pour des comètes. Il sait que Charles Messier dressa son catalogue pour ne plus confondre les nébuleuses avec les comètes. Néb-Ulysse figure sur sa liste ; Halley-Barde est la seule cible qu'il ait jamais voulue.",
+  "liens": [
+   "neb-ulysse",
+   "halley-barde"
+  ]
+ },
+ {
+  "id": "herschevalier",
+  "pays": "astralis",
+  "lieu": "L'Académie céleste",
+  "histoire": "Herschevalier tient garnison à l'Académie céleste, où elle cherche sans relâche de nouvelles planètes à adouber. Elle sait que William Herschel découvrit Uranus en 1781, aidé par sa sœur Caroline. Uranusurpateur lui doit sa couronne ; Astronomade lui rappelle que Caroline faisait la moitié du travail.",
+  "liens": [
+   "uranusurpateur",
+   "astronomade"
+  ]
+ },
+ {
+  "id": "hubbussard",
+  "pays": "astralis",
+  "lieu": "L'Académie céleste",
+  "histoire": "Hubbussard charge à travers l'Académie céleste, et toutes les galaxies semblent s'enfuir devant lui. Il sait qu'Edwin Hubble montra que les galaxies lointaines s'éloignent d'autant plus vite qu'elles sont loin. Expansionnaire est son plus fidèle allié ; Andromèdecin lui rappelle qu'il a d'abord prouvé que sa galaxie n'était pas une simple nébuleuse.",
+  "liens": [
+   "expansionnaire",
+   "andromedecin"
+  ]
+ },
+ {
+  "id": "astronomade",
+  "pays": "astralis",
+  "lieu": "L'Académie céleste",
+  "histoire": "Astronomade parcourt les couloirs de l'Académie céleste, rendant hommage aux astronomes qu'on a trop longtemps oubliées. Elle sait qu'Henrietta Leavitt découvrit la relation entre la période et l'éclat des céphéides, qui permit de mesurer l'Univers. Herschevalier lui doit beaucoup ; Hubbussard lui doit encore davantage.",
+  "liens": [
+   "herschevalier",
+   "hubbussard"
+  ]
+ },
+ {
+  "id": "verrier-guerrier",
+  "pays": "astralis",
+  "lieu": "L'Académie céleste",
+  "histoire": "Verrier-Guerrier règne sur la salle d'étude de l'Académie céleste, entouré de piles de calculs. Il sait qu'Urbain Le Verrier prédit en 1846 la position de Neptune par le calcul, avant qu'on ne l'observe. Neptuniaire lui en est éternellement reconnaissant ; Herschevalier le trouve trop paresseux pour monter sur un télescope.",
+  "liens": [
+   "neptuniaire",
+   "herschevalier"
+  ]
+ },
+ {
+  "id": "hawk-fu",
+  "pays": "astralis",
+  "lieu": "L'Académie céleste",
+  "histoire": "Hawk-Fu médite dans les jardins de l'Académie céleste, et ses coups sont si rapides qu'ils semblent s'échapper du temps. Il sait que Stephen Hawking a montré que les trous noirs devaient lentement s'évaporer en émettant un rayonnement. Singularitaire est son ennemi juré ; Kung-Fusion admire sa technique explosive.",
+  "liens": [
+   "singularitaire",
+   "kung-fusion"
+  ]
+ },
+ {
+  "id": "decouvrator",
+  "pays": "astralis",
+  "lieu": "L'Académie céleste",
+  "histoire": "Découvrator combat dans l'arène de l'Académie céleste, et chaque victoire lui rapporte une nouvelle découverte. Elle sait qu'en 1930, Clyde Tombaugh découvrit Pluton en comparant des plaques photographiques prises à quelques jours d'écart. Plutonain lui doit sa célébrité ; Bang-Zaï lui rappelle que la plus grande découverte, c'est le début de tout.",
+  "liens": [
+   "plutonain",
+   "bang-zai"
+  ]
  }
 ]

@@ -85,6 +85,8 @@ enum Pictos {
         case "Phénomènes célestes": return "🌗"
         case "Conquête spatiale": return "🚀"
         case "Astronautes": return "🧑‍🚀"
+        case "Instruments d'observation": return "🔭"
+        case "Astronomes": return "📜"
         default: return Pictos.domaine(domaine)
         }
     }
@@ -234,6 +236,15 @@ enum Pictos {
         case "Truand": return "🃏"
         case "Colonel": return "🎖️"
         case "Agent secret": return "🕵️"
+        case "Gladiatrice": return "🔱"
+        case "Commando": return "🪖"
+        case "Sniper": return "🎯"
+        case "Hacker": return "💻"
+        case "Guetteuse": return "👁️"
+        case "Chasseur d'images": return "📷"
+        case "Chevalière": return "🛡️"
+        case "Hussard": return "🐎"
+        case "Guerrière nomade": return "🏜️"
         default: return famille.picto
         }
     }
