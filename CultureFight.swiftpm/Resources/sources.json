@@ -12880,5 +12880,275 @@
     "url": "https://asc-csa.gc.ca/eng/astronauts/living-in-space/personal-hygiene-in-space.asp"
    }
   ]
+ },
+ {
+  "id": "jupiter",
+  "sources": [
+   {
+    "titre": "Jupiter (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "titre": "La planète Jupiter (CNES)",
+    "url": "https://cnes.fr/dossiers/planete-jupiter"
+   },
+   {
+    "titre": "Faits sur Jupiter pour les observateurs du ciel (Star Walk)",
+    "url": "https://starwalk.space/fr/news/jupiter-explained-the-mind-blowing-facts"
+   },
+   {
+    "titre": "What has the Juno spacecraft taught us about Jupiter? (Astronomy)",
+    "url": "https://www.astronomy.com/science/what-has-the-juno-spacecraft-taught-us-about-jupiter/"
+   },
+   {
+    "titre": "Juno : faits étonnants sur la mission (National Geographic)",
+    "url": "https://www.nationalgeographic.com/science/article/nasa-juno-jupiter-fun-facts-planets-moons-lego-galileo-space"
+   },
+   {
+    "titre": "Juno spacecraft to carry three figurines to Jupiter orbit (NASA JPL)",
+    "url": "https://www.jpl.nasa.gov/news/juno-spacecraft-to-carry-three-figurines-to-jupiter-orbit/"
+   },
+   {
+    "titre": "Jupiter's Great Red Spot: everything you need to know (Space.com)",
+    "url": "https://www.space.com/jupiter-great-red-spot.html"
+   },
+   {
+    "titre": "Jupiter (World History Encyclopedia, en français)",
+    "url": "https://www.worldhistory.org/trans/fr/1-653/jupiter/"
+   },
+   {
+    "titre": "The Planets (copie de Wikipédia, SolarSPELL)",
+    "url": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/t/The_Planets.htm"
+   },
+   {
+    "titre": "The Planets, Op. 32 (Britannica)",
+    "url": "https://www.britannica.com/topic/The-Planets"
+   }
+  ]
+ },
+ {
+  "id": "mars",
+  "sources": [
+   {
+    "titre": "Mars (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "titre": "Mars (planète) (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/mars-planete"
+   },
+   {
+    "titre": "Olympus Mons (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Olympus_Mons"
+   },
+   {
+    "titre": "Valles Marineris (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/EN/Valles_Marineris"
+   },
+   {
+    "titre": "Martian canal (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/Martian_canal"
+   },
+   {
+    "titre": "Mars in fiction (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/Mars_in_fiction"
+   },
+   {
+    "titre": "Every mission to Mars, ever (The Planetary Society)",
+    "url": "https://www.planetary.org/space-missions/every-mars-mission"
+   },
+   {
+    "titre": "Face on Mars illusion as seen by Viking 1 (ESA)",
+    "url": "https://www.esa.int/ESA_Multimedia/Images/2006/09/Face_on_Mars_illusion_as_seen_by_Viking_1"
+   },
+   {
+    "titre": "Timeline of first images of Earth from space (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Timeline_of_first_images_of_Earth_from_space"
+   }
+  ]
+ },
+ {
+  "id": "mercure",
+  "sources": [
+   {
+    "titre": "Mercury (planet) (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "titre": "Mercure (planète) (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/mercure-planete"
+   },
+   {
+    "titre": "Caloris Planitia (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Caloris_Planitia"
+   },
+   {
+    "titre": "Mercury's strange hollows (NASA)",
+    "url": "https://science.nasa.gov/solar-system/planets/mercury/mercurys-strange-hollows"
+   },
+   {
+    "titre": "20 Years Later: Carnegie Science looks back on the MESSENGER mission (Carnegie Science)",
+    "url": "https://carnegiescience.edu/news/20-years-later-carnegie-science-looks-back-messenger-mission"
+   },
+   {
+    "titre": "BepiColombo begins Mercury arrival (ESA)",
+    "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success"
+   }
+  ]
+ },
+ {
+  "id": "saturne",
+  "sources": [
+   {
+    "titre": "Saturn (Wikiwand, d'après Wikipédia en anglais)",
+    "url": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "titre": "La planète Saturne (CNES)",
+    "url": "https://cnes.fr/dossiers/planete-saturne"
+   },
+   {
+    "titre": "Les anneaux de Saturne sous l'œil de Cassini (CNES)",
+    "url": "https://cnes.fr/actualites/anneaux-de-saturne-loeil-de-cassini"
+   },
+   {
+    "titre": "Saturn : the ring system (Britannica)",
+    "url": "https://www.britannica.com/place/Saturn-planet/The-ring-system"
+   },
+   {
+    "titre": "Rings of Saturn (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+   },
+   {
+    "titre": "Saturn's hexagon (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Saturn%27s_hexagon"
+   },
+   {
+    "titre": "Cassini documente une tempête sur Saturne (CORDIS)",
+    "url": "https://cordis.europa.eu/article/id/34058-cassini-images-chronicle-massive-saturn-storm/fr"
+   },
+   {
+    "titre": "Countdown to Cassini's Grand Finale (ESA)",
+    "url": "https://www.esa.int/Science_Exploration/Space_Science/Cassini-Huygens/Countdown_to_Cassini_s_Grand_Finale"
+   },
+   {
+    "titre": "Cassini by the numbers : the Grand Finale (NASA)",
+    "url": "https://science.nasa.gov/resource/cassini-by-the-numbers-the-grand-finale/"
+   },
+   {
+    "titre": "25 years ago : Cassini-Huygens launches for Saturn (Astronomy)",
+    "url": "https://www.astronomy.com/science/25-years-ago-cassini-huygens-launches-for-saturn/"
+   },
+   {
+    "titre": "Saturne (World History Encyclopedia, en français)",
+    "url": "https://www.worldhistory.org/trans/fr/1-10551/saturne/"
+   },
+   {
+    "titre": "Saturnales (World History Encyclopedia, en français)",
+    "url": "https://www.worldhistory.org/trans/fr/1-15567/saturnales/"
+   },
+   {
+    "titre": "Temple de Saturne de Rome (World History Encyclopedia, en français)",
+    "url": "https://www.worldhistory.org/trans/fr/2-636/temple-de-saturne-de-rome/"
+   },
+   {
+    "titre": "The Planets (copie de Wikipédia, SolarSPELL)",
+    "url": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/t/The_Planets.htm"
+   }
+  ]
+ },
+ {
+  "id": "terre",
+  "sources": [
+   {
+    "titre": "Structure interne de la Terre (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/structure-interne-de-la-terre"
+   },
+   {
+    "titre": "Terre (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/terre"
+   },
+   {
+    "titre": "Earth (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Earth"
+   },
+   {
+    "titre": "Brunhes–Matuyama reversal (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Brunhes–Matuyama_reversal"
+   },
+   {
+    "titre": "Laschamp event (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Laschamp_event"
+   },
+   {
+    "titre": "Geomagnetic reversal (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/Geomagnetic_reversal"
+   },
+   {
+    "titre": "Van Allen radiation belts (EBSCO Research Starters)",
+    "url": "https://www.ebsco.com/research-starters/history/van-allen-radiation-belts"
+   },
+   {
+    "titre": "Clair Patterson (Linda Hall Library)",
+    "url": "https://www.lindahall.org/about/news/scientist-of-the-day/clair-patterson"
+   },
+   {
+    "titre": "Earth's rotation is speeding up (timeanddate)",
+    "url": "https://www.timeanddate.com/time/earth-faster-rotation.html"
+   },
+   {
+    "titre": "Timeline of first images of Earth from space (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Timeline_of_first_images_of_Earth_from_space"
+   },
+   {
+    "titre": "Great Oxidation Event (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
+   },
+   {
+    "titre": "Earth trojan (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Earth_trojan"
+   }
+  ]
+ },
+ {
+  "id": "venus",
+  "sources": [
+   {
+    "titre": "Venus (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "titre": "Vénus (planète) (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "titre": "Maxwell Montes (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Maxwell_Montes"
+   },
+   {
+    "titre": "Mead (crater) (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Mead_(crater)"
+   },
+   {
+    "titre": "Hints of life on Venus (Université de Manchester)",
+    "url": "https://www.manchester.ac.uk/about/news/hints-of-life-on-venus"
+   },
+   {
+    "titre": "Venera 13 and the mission to reach Venus (Space.com)",
+    "url": "https://www.space.com/18551-venera-13.html"
+   },
+   {
+    "titre": "Akatsuki (spacecraft) (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Akatsuki_(spacecraft)"
+   },
+   {
+    "titre": "NASA's DAVINCI mission to take the plunge through massive atmosphere of Venus (NASA)",
+    "url": "https://www.nasa.gov/centers-and-facilities/goddard/nasas-davinci-mission-to-take-the-plunge-through-massive-atmosphere-of-venus"
+   },
+   {
+    "titre": "We're heading for Venus: ESA approves EnVision (ESA)",
+    "url": "https://www.esa.int/Science_Exploration/Space_Science/We_re_heading_for_Venus_ESA_approves_EnVision"
+   }
+  ]
  }
 ]

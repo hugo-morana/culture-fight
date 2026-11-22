@@ -193531,6 +193531,5481 @@
   ]
  },
  {
+  "id": "jupiter",
+  "relations": [
+   {
+    "modele": "Que signifie « {x} », surnom latin du dieu Jupiter ?",
+    "inverse": "Quel surnom latin de Jupiter signifie « {y} » ?",
+    "explication": "{x} signifie « {y} ».",
+    "paires": [
+     [
+      "Optimus Maximus",
+      "le meilleur et le plus grand",
+      "C'était le plus important de tous les titres du roi des dieux.",
+      "https://www.worldhistory.org/trans/fr/1-653/jupiter/"
+     ],
+     [
+      "Imperator",
+      "le général suprême",
+      "Les généraux vainqueurs lui offraient une part du butin au terme de leur triomphe.",
+      "https://www.worldhistory.org/trans/fr/1-653/jupiter/"
+     ],
+     [
+      "Invictus",
+      "l'invaincu",
+      "Jupiter régnait sur le tonnerre, la foudre et les tempêtes.",
+      "https://www.worldhistory.org/trans/fr/1-653/jupiter/"
+     ],
+     [
+      "Elicius",
+      "celui qui fait jaillir",
+      "Il portait ce nom au sein de la plus ancienne triade des dieux romains.",
+      "https://www.worldhistory.org/trans/fr/1-653/jupiter/"
+     ]
+    ]
+   },
+   {
+    "modele": "À quel nom {x} associaient-ils la planète Jupiter ?",
+    "inverse": "Qui associait la planète Jupiter au nom {y} ?",
+    "explication": "{x} l'associaient au nom {y}.",
+    "paires": [
+     [
+      "les Babyloniens",
+      "Marduk",
+      "Leurs astronomes notaient déjà ses positions aux VIIIe et VIIe siècles av. J.-C.",
+      "https://en.wikipedia.org/wiki/Jupiter"
+     ],
+     [
+      "les Grecs anciens",
+      "Phaéton",
+      "Ce nom veut dire « le brillant » ; la planète fut ensuite vouée à Zeus.",
+      "https://en.wikipedia.org/wiki/Jupiter"
+     ],
+     [
+      "les astrologues hindous",
+      "Guru",
+      "Ce nom renvoie au dieu Brihaspati.",
+      "https://en.wikipedia.org/wiki/Jupiter"
+     ],
+     [
+      "les astronomes chinois",
+      "« étoile de l'année »",
+      "Ils l'appelaient aussi « étoile du bois ».",
+      "https://en.wikipedia.org/wiki/Jupiter"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Quel adjectif savant qualifie ce qui se rapporte à la planète Jupiter ?",
+    "bonne": "Jovien",
+    "faux": [
+     "Zénien",
+     "Olympien",
+     "Capitolin"
+    ],
+    "explication": "Le mot « jovial », venu de l'astrologie, a fini par vouloir dire « joyeux ».",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Avec quelles déesses Jupiter partageait-il son grand temple du Capitole, à Rome ?",
+    "bonne": "Junon et Minerve",
+    "faux": [
+     "Vénus et Diane",
+     "Cérès et Vesta",
+     "Junon et Vénus"
+    ],
+    "explication": "Élevé vers 509 av. J.-C., ce temple gardait aussi les livres sibyllins.",
+    "source": "https://www.worldhistory.org/trans/fr/1-653/jupiter/"
+   },
+   {
+    "enonce": "Quel oiseau trônait au sommet du sceptre de Jupiter ?",
+    "bonne": "L'aigle",
+    "faux": [
+     "Le paon",
+     "La chouette",
+     "Le corbeau"
+    ],
+    "explication": "Junon, sa sœur et épouse, et Minerve, sa fille, formaient avec lui la triade du Capitole.",
+    "source": "https://www.worldhistory.org/trans/fr/1-653/jupiter/"
+   },
+   {
+    "enonce": "En quel mois se tenaient les Jeux romains, donnés en l'honneur de Jupiter ?",
+    "bonne": "Septembre",
+    "faux": [
+     "Mars",
+     "Juin",
+     "Décembre"
+    ],
+    "explication": "Ces Ludi Romani étaient les principaux jeux de la Rome antique.",
+    "source": "https://www.worldhistory.org/trans/fr/1-653/jupiter/"
+   },
+   {
+    "enonce": "Quel célèbre Romain fut un temps flamine de Jupiter, son prêtre attitré ?",
+    "bonne": "Jules César",
+    "faux": [
+     "Cicéron",
+     "Auguste",
+     "Caton l'Ancien"
+    ],
+    "explication": "On appelait ce prêtre personnel du dieu le « flamen Dialis ».",
+    "source": "https://www.worldhistory.org/trans/fr/1-653/jupiter/"
+   },
+   {
+    "enonce": "Où s'achevait le défilé d'un général romain célébrant son triomphe ?",
+    "bonne": "Au temple de Jupiter, sur le Capitole",
+    "faux": [
+     "Au Colisée",
+     "Au temple de Mars",
+     "Au Circus Maximus"
+    ],
+    "explication": "Le vainqueur y sacrifiait au dieu et lui remettait une part du butin.",
+    "source": "https://www.worldhistory.org/trans/fr/1-653/jupiter/"
+   },
+   {
+    "enonce": "Quel sous-titre porte le mouvement « Jupiter » dans « Les Planètes » de Gustav Holst ?",
+    "bonne": "Celui qui apporte la gaieté",
+    "faux": [
+     "Celui qui apporte la guerre",
+     "Celui qui apporte la paix",
+     "Le Magicien"
+    ],
+    "explication": "Avec « Mars », c'est le mouvement le plus joué de la suite.",
+    "source": "https://www.britannica.com/topic/The-Planets"
+   },
+   {
+    "enonce": "Quel hymne patriotique britannique reprend la mélodie centrale de « Jupiter », de Holst ?",
+    "bonne": "« I Vow to Thee, My Country »",
+    "faux": [
+     "« Rule, Britannia! »",
+     "« Jerusalem »",
+     "« God Save the King »"
+    ],
+    "explication": "En 1921, Holst posa cet air, nommé « Thaxted », sur un poème de Cecil Spring-Rice.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/t/The_Planets.htm"
+   },
+   {
+    "enonce": "Sur quoi Gustav Holst disait-il avoir fondé sa suite « Les Planètes » ?",
+    "bonne": "L'astrologie",
+    "faux": [
+     "L'astronomie",
+     "La mythologie grecque",
+     "Les photos des premiers télescopes"
+    ],
+    "explication": "L'écrivain Clifford Bax lui en aurait soufflé l'idée.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/t/The_Planets.htm"
+   },
+   {
+    "enonce": "Combien de mouvements compte la suite « Les Planètes » telle que Holst l'a écrite ?",
+    "bonne": "Sept",
+    "faux": [
+     "Cinq",
+     "Huit",
+     "Neuf"
+    ],
+    "explication": "Composée de 1914 à 1916, elle va de « Mars » à « Neptune », sans la Terre.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/t/The_Planets.htm"
+   },
+   {
+    "enonce": "Combien de Terres pourrait contenir le volume de Jupiter ?",
+    "bonne": "Environ 1 300",
+    "faux": [
+     "Environ 100",
+     "Environ 318",
+     "Environ 13 000"
+    ],
+    "explication": "Son rayon équatorial mesure environ 71 500 km.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Quelle fraction de la masse du Soleil Jupiter représente-t-elle ?",
+    "bonne": "Environ un millième",
+    "faux": [
+     "Environ un dixième",
+     "Environ un centième",
+     "Environ un millionième"
+    ],
+    "explication": "C'est de loin la planète la plus lourde du Système solaire.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Quelle est la masse volumique moyenne de Jupiter ?",
+    "bonne": "Environ 1,33 g/cm³",
+    "faux": [
+     "Environ 0,69 g/cm³",
+     "Environ 5,5 g/cm³",
+     "Environ 13 g/cm³"
+    ],
+    "explication": "C'est moins que chacune des quatre planètes telluriques.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Où se trouve le centre de gravité commun de Jupiter et du Soleil ?",
+    "bonne": "Juste au-dessus de la surface du Soleil",
+    "faux": [
+     "Au centre exact du Soleil",
+     "Au cœur de Jupiter",
+     "À mi-chemin entre les deux astres"
+    ],
+    "explication": "Jupiter est la seule planète dont ce point se situe hors du Soleil.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Quel gaz forme environ un quart de la masse de l'atmosphère de Jupiter ?",
+    "bonne": "L'hélium",
+    "faux": [
+     "Le méthane",
+     "L'ammoniac",
+     "L'azote"
+    ],
+    "explication": "Presque tout le reste, environ 76 %, est de l'hydrogène.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Pourquoi l'atmosphère de Jupiter contient-elle un peu moins d'hélium que le Soleil ?",
+    "bonne": "Des gouttes d'hélium « pleuvent » vers les profondeurs",
+    "faux": [
+     "Le vent solaire l'arrache",
+     "Ses lunes l'absorbent",
+     "Il s'est changé en hydrogène"
+    ],
+    "explication": "Son abondance n'y atteint qu'environ 80 % de celle du Soleil.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Sous quelle forme étonnante l'hydrogène se trouve-t-il dans les profondeurs de Jupiter ?",
+    "bonne": "Un liquide métallique",
+    "faux": [
+     "Une glace solide",
+     "Un gaz rare et froid",
+     "Une poussière de cristaux"
+    ],
+    "explication": "Sa rotation rapide engendrerait le champ magnétique de la planète, selon le CNES.",
+    "source": "https://cnes.fr/dossiers/planete-jupiter"
+   },
+   {
+    "enonce": "Qu'a révélé la sonde Juno sur le cœur de Jupiter ?",
+    "bonne": "Qu'il est diffus, étalé sur près de la moitié du diamètre",
+    "faux": [
+     "Qu'il est fait de diamant pur",
+     "Qu'il n'y a aucun cœur",
+     "Qu'il s'agit d'une petite bille de fer bien nette"
+    ],
+    "explication": "On l'a déduit des variations de vitesse de la sonde dans le champ de gravité.",
+    "source": "https://www.astronomy.com/science/what-has-the-juno-spacecraft-taught-us-about-jupiter/"
+   },
+   {
+    "enonce": "De combien Jupiter rétrécit-elle chaque année en se contractant ?",
+    "bonne": "Environ 1 mm",
+    "faux": [
+     "Environ 1 m",
+     "Environ 1 km",
+     "Environ 10 cm"
+    ],
+    "explication": "Ce lent tassement lui fait émettre plus de chaleur qu'elle n'en reçoit du Soleil.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Quelle planète se serait formée la première autour du Soleil ?",
+    "bonne": "Jupiter",
+    "faux": [
+     "La Terre",
+     "Mercure",
+     "Neptune"
+    ],
+    "explication": "Elle serait née environ un million d'années après le Soleil.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Quel nom porte l'hypothèse d'une Jupiter partie vers le Soleil puis repoussée vers l'extérieur par Saturne ?",
+    "bonne": "Le « Grand Tack »",
+    "faux": [
+     "Le « Grand Bombardement »",
+     "Le « Big Splash »",
+     "La « Grande Dérive »"
+    ],
+    "explication": "Ce va-et-vient aurait façonné les planètes intérieures, dont la Terre.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Quel surnom vaut à Jupiter sa puissante gravité qui attire comètes et astéroïdes ?",
+    "bonne": "L'aspirateur du Système solaire",
+    "faux": [
+     "La lanterne du ciel",
+     "Le phare des géantes",
+     "La forge de Vulcain"
+    ],
+    "explication": "Elle subirait environ 200 fois plus d'impacts que la Terre.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Pourquoi les saisons sont-elles à peine marquées sur Jupiter ?",
+    "bonne": "Son axe n'est incliné que d'environ 3°",
+    "faux": [
+     "Son orbite est un cercle parfait",
+     "Elle tourne trop vite",
+     "Ses anneaux font écran au Soleil"
+    ],
+    "explication": "Le CNES donne une inclinaison de 3,1°.",
+    "source": "https://cnes.fr/dossiers/planete-jupiter"
+   },
+   {
+    "enonce": "Combien de temps l'atmosphère des pôles de Jupiter met-elle de plus que celle de l'équateur pour faire un tour ?",
+    "bonne": "Environ 5 minutes",
+    "faux": [
+     "Environ 5 secondes",
+     "Environ 5 heures",
+     "Environ 5 jours"
+    ],
+    "explication": "À l'équateur, un tour prend 9 h 50 min 30 s.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Sur quoi repose le « système III », durée de rotation officielle de Jupiter ?",
+    "bonne": "La rotation de sa magnétosphère, suivie en radio",
+    "faux": [
+     "Le passage de la Grande Tache rouge",
+     "Les éclipses d'Io",
+     "Les nuages de l'équateur"
+    ],
+    "explication": "Les systèmes I et II suivent les nuages de l'équateur et des hautes latitudes.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Quel astronome remarqua en 1692 que Jupiter ne tourne pas d'un seul bloc ?",
+    "bonne": "Jean-Dominique Cassini",
+    "faux": [
+     "Christiaan Huygens",
+     "Ole Rømer",
+     "Robert Hooke"
+    ],
+    "explication": "Il avait aussi relevé l'aplatissement de la planète dans les années 1660.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Comment appelle-t-on les bandes sombres qui strient Jupiter ?",
+    "bonne": "Des ceintures",
+    "faux": [
+     "Des zones",
+     "Des mers",
+     "Des rifts"
+    ],
+    "explication": "Les bandes plus claires, elles, sont appelées des zones.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "De quoi sont faits les nuages les plus élevés de Jupiter ?",
+    "bonne": "De glace d'ammoniac",
+    "faux": [
+     "De vapeur de soufre",
+     "De gouttes de méthane liquide",
+     "De cristaux de sel"
+    ],
+    "explication": "Une fine couche de nuages d'eau se cacherait plus bas.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Quels éléments pourraient donner aux nuages de Jupiter leurs teintes orange et brunes ?",
+    "bonne": "Le phosphore et le soufre",
+    "faux": [
+     "Le fer et le cuivre",
+     "L'or et l'argent",
+     "Le sodium et le chlore"
+    ],
+    "explication": "Des hydrocarbures pourraient aussi jouer un rôle.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Quels gaz Rupert Wildt a-t-il repérés en 1932 dans la lumière de Jupiter ?",
+    "bonne": "L'ammoniac et le méthane",
+    "faux": [
+     "L'oxygène et l'azote",
+     "Le sodium et le potassium",
+     "L'ozone et le dioxyde de carbone"
+    ],
+    "explication": "Il les a reconnus à leurs bandes d'absorption.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Quelle vitesse atteignent couramment les courants-jets de Jupiter ?",
+    "bonne": "Environ 360 km/h",
+    "faux": [
+     "Environ 36 km/h",
+     "Environ 3 600 km/h",
+     "Environ 36 000 km/h"
+    ],
+    "explication": "La couche nuageuse qu'ils balaient n'a qu'environ 50 km d'épaisseur.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Quelle température règne environ au sommet des nuages de Jupiter ?",
+    "bonne": "−145 °C",
+    "faux": [
+     "0 °C",
+     "−20 °C",
+     "−270 °C"
+    ],
+    "explication": "La planète serait âgée d'environ 4,6 milliards d'années.",
+    "source": "https://starwalk.space/fr/news/jupiter-explained-the-mind-blowing-facts"
+   },
+   {
+    "enonce": "De quoi seraient faits les « mushballs », sortes de grêlons géants de Jupiter ?",
+    "bonne": "D'ammoniac et d'eau gelés",
+    "faux": [
+     "De méthane et d'hélium",
+     "De soufre et de sel",
+     "De fer et de silice"
+    ],
+    "explication": "Ils mêleraient environ une part d'ammoniac pour deux parts d'eau.",
+    "source": "https://www.astronomy.com/science/what-has-the-juno-spacecraft-taught-us-about-jupiter/"
+   },
+   {
+    "enonce": "Combien de fois plus puissants que sur Terre les éclairs de Jupiter peuvent-ils être ?",
+    "bonne": "Jusqu'à mille fois",
+    "faux": [
+     "Deux fois",
+     "Dix fois",
+     "Un million de fois"
+    ],
+    "explication": "Certains éclairs naissent très haut, dans des nuages d'eau et d'ammoniac.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Combien de cyclones entourent le tourbillon central du pôle Nord de Jupiter ?",
+    "bonne": "Huit",
+    "faux": [
+     "Trois",
+     "Cinq",
+     "Douze"
+    ],
+    "explication": "Juno a constaté qu'ils restent en place d'un survol à l'autre.",
+    "source": "https://www.astronomy.com/science/what-has-the-juno-spacecraft-taught-us-about-jupiter/"
+   },
+   {
+    "enonce": "Combien de cyclones encerclent le cyclone central du pôle Sud de Jupiter ?",
+    "bonne": "Cinq",
+    "faux": [
+     "Deux",
+     "Huit",
+     "Dix"
+    ],
+    "explication": "Chacun est plus large que les États-Unis ; un petit nouveau les a rejoints en 2019.",
+    "source": "https://www.astronomy.com/science/what-has-the-juno-spacecraft-taught-us-about-jupiter/"
+   },
+   {
+    "enonce": "Quel genre de tempête est la Grande Tache rouge ?",
+    "bonne": "Un anticyclone",
+    "faux": [
+     "Un cyclone",
+     "Une tornade",
+     "Une tempête de poussière"
+    ],
+    "explication": "Juno a estimé en 2021 sa profondeur à 300 à 500 km.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Dans quel hémisphère de Jupiter se trouve la Grande Tache rouge ?",
+    "bonne": "Sud",
+    "faux": [
+     "Nord",
+     "Sur l'équateur",
+     "Au pôle Nord"
+    ],
+    "explication": "Elle fait un tour sur elle-même en six jours environ.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "De combien la Grande Tache rouge raccourcit-elle environ chaque année ?",
+    "bonne": "Environ 930 km",
+    "faux": [
+     "Environ 9 m",
+     "Environ 9 km",
+     "Environ 93 000 km"
+    ],
+    "explication": "Longue d'environ 39 000 km en 1879, elle ne mesurait plus que 14 000 km en 2024.",
+    "source": "https://starwalk.space/fr/news/jupiter-explained-the-mind-blowing-facts"
+   },
+   {
+    "enonce": "En quelle année a-t-on pris la première photographie de la Grande Tache rouge ?",
+    "bonne": "1879",
+    "faux": [
+     "1839",
+     "1925",
+     "1979"
+    ],
+    "explication": "Elle avait été signalée pour la première fois en 1831.",
+    "source": "https://starwalk.space/fr/news/jupiter-explained-the-mind-blowing-facts"
+   },
+   {
+    "enonce": "Quel astronome américain a redécouvert la Grande Tache rouge en 1878 ?",
+    "bonne": "C. W. Pritchett",
+    "faux": [
+     "Edward Barnard",
+     "Percival Lowell",
+     "Asaph Hall"
+    ],
+    "explication": "Elle est observée sans interruption depuis cette date.",
+    "source": "https://www.space.com/jupiter-great-red-spot.html"
+   },
+   {
+    "enonce": "Quel savant anglais aurait aperçu une tache sur Jupiter dès 1664 ?",
+    "bonne": "Robert Hooke",
+    "faux": [
+     "Isaac Newton",
+     "Edmond Halley",
+     "William Herschel"
+    ],
+    "explication": "Lui comme Cassini, en 1665, ont pu voir une autre tache ou l'ombre d'une lune.",
+    "source": "https://www.space.com/jupiter-great-red-spot.html"
+   },
+   {
+    "enonce": "Combien de fois la largeur de la Terre la Grande Tache rouge mesure-t-elle aujourd'hui, environ ?",
+    "bonne": "1,3 fois",
+    "faux": [
+     "0,1 fois",
+     "5 fois",
+     "10 fois"
+    ],
+    "explication": "À la fin du XIXe siècle, elle dépassait trois largeurs terrestres.",
+    "source": "https://www.space.com/jupiter-great-red-spot.html"
+   },
+   {
+    "enonce": "Qu'est-ce qui chaufferait les gaz situés au-dessus de la Grande Tache rouge ?",
+    "bonne": "Des ondes sonores nées de sa turbulence",
+    "faux": [
+     "Les volcans d'Io",
+     "Un noyau radioactif tout proche",
+     "La lumière renvoyée par les anneaux"
+    ],
+    "explication": "Une étude de 2016 y a trouvé les gaz les plus chauds de toute la planète.",
+    "source": "https://www.space.com/jupiter-great-red-spot.html"
+   },
+   {
+    "enonce": "Comment est née l'Ovale BA, surnommée la « Petite Tache rouge » ?",
+    "bonne": "De la fusion de trois ovales blancs",
+    "faux": [
+     "D'un impact de comète",
+     "D'un morceau détaché de la Grande Tache rouge",
+     "D'une éruption d'Io"
+    ],
+    "explication": "Ces ovales dataient de 1939-1940 ; la fusion s'est achevée en 2000.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Quel diamètre d'instrument peut suffire, par bonne nuit, à montrer la Grande Tache rouge ?",
+    "bonne": "Environ 100 mm",
+    "faux": [
+     "Environ 10 mm",
+     "Environ 1 m",
+     "Environ 10 m"
+    ],
+    "explication": "Avec 150 mm ou plus, elle devient nettement plus facile à repérer.",
+    "source": "https://starwalk.space/fr/news/jupiter-explained-the-mind-blowing-facts"
+   },
+   {
+    "enonce": "Quel angle de phase maximal Jupiter présente-t-elle vue depuis la Terre ?",
+    "bonne": "Environ 11,5°",
+    "faux": [
+     "Environ 45°",
+     "Environ 90°",
+     "Environ 180°"
+    ],
+    "explication": "Elle nous apparaît donc toujours presque entièrement éclairée.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Combien de temps dure environ la marche rétrograde de Jupiter autour de l'opposition ?",
+    "bonne": "Environ 121 jours",
+    "faux": [
+     "Environ 3 jours",
+     "Environ 2 ans",
+     "Environ 12 ans"
+    ],
+    "explication": "Elle recule alors d'environ 10° parmi les étoiles.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Combien de bandes sombres distingue-t-on en général sur Jupiter avec une petite lunette de 80 à 100 mm ?",
+    "bonne": "Deux",
+    "faux": [
+     "Aucune",
+     "Une dizaine",
+     "Une centaine"
+    ],
+    "explication": "Ce sont les deux principales ceintures nuageuses de la planète.",
+    "source": "https://starwalk.space/fr/news/jupiter-explained-the-mind-blowing-facts"
+   },
+   {
+    "enonce": "Combien de fois plus puissant que celui de la Terre est le champ magnétique de Jupiter, selon le CNES ?",
+    "bonne": "14 fois",
+    "faux": [
+     "2 fois",
+     "1 000 fois",
+     "La moitié"
+    ],
+    "explication": "C'est le plus puissant de toutes les planètes du Système solaire.",
+    "source": "https://cnes.fr/dossiers/planete-jupiter"
+   },
+   {
+    "enonce": "Jusqu'où s'étire la magnétosphère de Jupiter, à l'opposé du Soleil ?",
+    "bonne": "Presque jusqu'à l'orbite de Saturne",
+    "faux": [
+     "Jusqu'à la Lune",
+     "Jusqu'à Mars",
+     "Au-delà de Pluton"
+    ],
+    "explication": "Côté Soleil, son onde de choc se dresse à environ 75 rayons joviens.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Quel hémisphère de Jupiter présente un champ magnétique simple, proche de celui de la Terre ?",
+    "bonne": "L'hémisphère sud",
+    "faux": [
+     "L'hémisphère nord",
+     "Aucun des deux",
+     "Les deux"
+    ],
+    "explication": "Au nord, le champ est bien plus tourmenté, plutôt comme Uranus et Neptune.",
+    "source": "https://www.astronomy.com/science/what-has-the-juno-spacecraft-taught-us-about-jupiter/"
+   },
+   {
+    "enonce": "En quelle année a-t-on capté pour la première fois des ondes radio venues de Jupiter ?",
+    "bonne": "1955",
+    "faux": [
+     "1910",
+     "1979",
+     "1995"
+    ],
+    "explication": "Bernard Burke et Kenneth Franklin ont relevé des salves vers 22 MHz.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Avec quel appareil un amateur peut-il capter les salves radio de Jupiter ?",
+    "bonne": "Un récepteur à ondes courtes",
+    "faux": [
+     "Un compteur Geiger",
+     "Un sismographe",
+     "Un détecteur de neutrinos"
+    ],
+    "explication": "Ces émissions se situent entre 0,6 et 30 MHz.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Quelles petites lunes fournissent la poussière de l'anneau principal de Jupiter ?",
+    "bonne": "Adrastée et Métis",
+    "faux": [
+     "Io et Europe",
+     "Thébé et Amalthée",
+     "Himalia et Élara"
+    ],
+    "explication": "Thébé et Amalthée nourrissent, elles, les anneaux ténus dits « gossamer ».",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Quelle teinte présentent les anneaux de Jupiter en lumière visible ?",
+    "bonne": "Rougeâtre",
+    "faux": [
+     "Bleu vif",
+     "Blanc éclatant",
+     "Vert"
+    ],
+    "explication": "Leur âge reste inconnu ; ils dateraient peut-être de la naissance de la planète.",
+    "source": "https://en.wikipedia.org/wiki/Jupiter"
+   },
+   {
+    "enonce": "Pourquoi les anneaux de Jupiter sont-ils bien moins visibles que ceux de Saturne ?",
+    "bonne": "Ils sont faits de fines poussières",
+    "faux": [
+     "Ils sont cachés par la Grande Tache rouge",
+     "Ils tournent trop vite",
+     "Ils sont faits de gaz"
+    ],
+    "explication": "Jupiter retient aussi deux groupes d'astéroïdes troyens, piégés par sa gravité.",
+    "source": "https://cnes.fr/dossiers/planete-jupiter"
+   },
+   {
+    "enonce": "En quelle année la sonde Juno a-t-elle quitté la Terre ?",
+    "bonne": "2011",
+    "faux": [
+     "2003",
+     "2016",
+     "2020"
+    ],
+    "explication": "Elle étudie depuis l'atmosphère, la gravité et la magnétosphère de Jupiter.",
+    "source": "https://cnes.fr/dossiers/planete-jupiter"
+   },
+   {
+    "enonce": "D'où la sonde Juno tire-t-elle son énergie ?",
+    "bonne": "De panneaux solaires",
+    "faux": [
+     "D'un générateur au plutonium",
+     "De piles à combustible",
+     "D'une voile solaire"
+    ],
+    "explication": "Ses trois panneaux mesurent chacun 8,9 m de long.",
+    "source": "https://www.nationalgeographic.com/science/article/nasa-juno-jupiter-fun-facts-planets-moons-lego-galileo-space"
+   },
+   {
+    "enonce": "Que protège le coffre de titane d'environ 180 kg installé dans Juno ?",
+    "bonne": "Son ordinateur, contre les radiations",
+    "faux": [
+     "Ses réservoirs, contre le froid",
+     "Ses figurines Lego",
+     "Ses panneaux solaires, contre les poussières"
+    ],
+    "explication": "L'équipe s'attendait malgré tout à voir l'électronique s'abîmer au fil de la mission.",
+    "source": "https://www.nationalgeographic.com/science/article/nasa-juno-jupiter-fun-facts-planets-moons-lego-galileo-space"
+   },
+   {
+    "enonce": "Combien de jours dure une orbite de Juno autour de Jupiter ?",
+    "bonne": "53 jours",
+    "faux": [
+     "1 jour",
+     "7 jours",
+     "365 jours"
+    ],
+    "explication": "Cette orbite très allongée limite le temps passé dans les ceintures de radiations.",
+    "source": "https://www.astronomy.com/science/what-has-the-juno-spacecraft-taught-us-about-jupiter/"
+   },
+   {
+    "enonce": "Pourquoi la sonde Juno porte-t-elle le nom de l'épouse de Jupiter ?",
+    "bonne": "Junon pouvait voir à travers le voile de nuages de son époux",
+    "faux": [
+     "Junon était la déesse des voyages",
+     "Junon avait découvert la planète",
+     "C'est un sigle anglais"
+    ],
+    "explication": "La sonde doit elle aussi regarder sous les nuages de la planète.",
+    "source": "https://www.nationalgeographic.com/science/article/nasa-juno-jupiter-fun-facts-planets-moons-lego-galileo-space"
+   },
+   {
+    "enonce": "Quel savant accompagne Jupiter et Junon, en figurine Lego, à bord de la sonde Juno ?",
+    "bonne": "Galilée",
+    "faux": [
+     "Kepler",
+     "Newton",
+     "Copernic"
+    ],
+    "explication": "Ces trois figurines sont faites d'aluminium.",
+    "source": "https://www.nationalgeographic.com/science/article/nasa-juno-jupiter-fun-facts-planets-moons-lego-galileo-space"
+   },
+   {
+    "enonce": "Que tient à la main la figurine Lego de Junon embarquée sur la sonde Juno ?",
+    "bonne": "Une loupe",
+    "faux": [
+     "Un éclair",
+     "Une lunette",
+     "Une balance"
+    ],
+    "explication": "La loupe évoque sa quête de vérité ; Jupiter, lui, brandit un éclair.",
+    "source": "https://www.jpl.nasa.gov/news/juno-spacecraft-to-carry-three-figurines-to-jupiter-orbit/"
+   },
+   {
+    "enonce": "Qui pouvait voter pour choisir où pointer la caméra JunoCam ?",
+    "bonne": "Les internautes",
+    "faux": [
+     "Les astronautes de l'ISS",
+     "Le président des États-Unis",
+     "Les écoles italiennes"
+    ],
+    "explication": "Ce vote décidait quelles images reviendraient sur Terre.",
+    "source": "https://www.nationalgeographic.com/science/article/nasa-juno-jupiter-fun-facts-planets-moons-lego-galileo-space"
+   },
+   {
+    "enonce": "Pourquoi Juno doit-elle finir sa mission en plongeant dans Jupiter ?",
+    "bonne": "Pour ne pas risquer de contaminer Europe",
+    "faux": [
+     "Pour mesurer le noyau en direct",
+     "Pour laisser la place à JUICE",
+     "Parce qu'elle aura perdu ses panneaux"
+    ],
+    "explication": "Une sonde hors d'usage pourrait sinon s'écraser sur cette lune et y semer des microbes terrestres.",
+    "source": "https://www.nationalgeographic.com/science/article/nasa-juno-jupiter-fun-facts-planets-moons-lego-galileo-space"
+   }
+  ]
+ },
+ {
+  "id": "mars",
+  "relations": [
+   {
+    "modele": "Quelle sorte de relief martien est {x} ?",
+    "inverse": null,
+    "explication": "{x} : c'est {y}.",
+    "paires": [
+     [
+      "Olympus Mons",
+      "un volcan bouclier",
+      "Depuis les plaines d'Amazonis, son dénivelé approche 26 km.",
+      "https://www.wikiwand.com/en/articles/Olympus_Mons"
+     ],
+     [
+      "Valles Marineris",
+      "un système de canyons",
+      "Il longe l'équateur, à l'est du renflement de Tharsis.",
+      "https://wikiwand.com/EN/Valles_Marineris"
+     ],
+     [
+      "Noctis Labyrinthus",
+      "un système de canyons",
+      "C'est le dédale qui forme l'extrémité ouest de Valles Marineris.",
+      "https://wikiwand.com/EN/Valles_Marineris"
+     ],
+     [
+      "Hellas",
+      "un bassin d'impact",
+      "Il mesure environ 2 300 km de large et 7 km de profondeur.",
+      "https://www.wikiwand.com/en/Mars"
+     ],
+     [
+      "Argyre",
+      "un bassin d'impact",
+      "Il mesure environ 1 800 km de diamètre.",
+      "https://www.wikiwand.com/en/Mars"
+     ],
+     [
+      "Tharsis",
+      "un renflement volcanique",
+      "Il s'étend sur environ 5 500 km et porte une douzaine de grands volcans.",
+      "https://www.techno-science.net/fr/definitions/mars-planete"
+     ],
+     [
+      "Korolev",
+      "un cratère rempli de glace",
+      "Il renferme environ 2 200 km³ de glace d'eau.",
+      "https://www.wikiwand.com/en/Mars"
+     ],
+     [
+      "Utopia Planitia",
+      "une plaine du nord",
+      "Son sous-sol cache à peu près autant de glace que le lac Supérieur contient d'eau.",
+      "https://www.wikiwand.com/en/Mars"
+     ]
+    ]
+   },
+   {
+    "modele": "Qui a écrit {x} ?",
+    "inverse": "Quel livre sur Mars doit-on à {y} ?",
+    "explication": "{x} : c'est {y}.",
+    "paires": [
+     [
+      "« La Guerre des mondes » (1897)",
+      "H. G. Wells",
+      "Les Martiens y exploitent froidement les Terriens comme du bétail.",
+      "https://www.wikiwand.com/en/Mars_in_fiction"
+     ],
+     [
+      "« Une princesse de Mars » (1912)",
+      "Edgar Rice Burroughs",
+      "Le roman fait découvrir Barsoom, le nom martien de la planète.",
+      "https://www.wikiwand.com/en/Mars_in_fiction"
+     ],
+     [
+      "« Chroniques martiennes » (1950)",
+      "Ray Bradbury",
+      "Ces récits liés entre eux racontent la colonisation de Mars.",
+      "https://www.wikiwand.com/en/Mars_in_fiction"
+     ],
+     [
+      "« Mars la rouge » (1992)",
+      "Kim Stanley Robinson",
+      "Une centaine de scientifiques y fondent la première colonie martienne.",
+      "https://www.wikiwand.com/en/Mars_in_fiction"
+     ],
+     [
+      "« Seul sur Mars » (2011)",
+      "Andy Weir",
+      "Le roman a été porté à l'écran en 2015.",
+      "https://www.wikiwand.com/en/Mars_in_fiction"
+     ],
+     [
+      "« Auf zwei Planeten » (1897)",
+      "Kurd Lasswitz",
+      "Ce roman allemand a inspiré le jeune Wernher von Braun.",
+      "https://www.wikiwand.com/en/Mars_in_fiction"
+     ],
+     [
+      "« L'Étoile rouge » (1908)",
+      "Alexandre Bogdanov",
+      "Un bolchevik russe y découvre une société martienne socialiste.",
+      "https://www.wikiwand.com/en/Mars_in_fiction"
+     ],
+     [
+      "« Aelita » (1922)",
+      "Alexis Tolstoï",
+      "Son adaptation de 1924 est le plus ancien film de science-fiction soviétique.",
+      "https://www.wikiwand.com/en/Mars_in_fiction"
+     ],
+     [
+      "« En terre étrangère » (1961)",
+      "Robert A. Heinlein",
+      "Un humain élevé par des Martiens y devient prophète sur Terre.",
+      "https://www.wikiwand.com/en/Mars_in_fiction"
+     ],
+     [
+      "« Out of the Silent Planet » (1938)",
+      "C. S. Lewis",
+      "Une seule des trois espèces intelligentes de sa planète est humanoïde.",
+      "https://www.wikiwand.com/en/Mars_in_fiction"
+     ],
+     [
+      "« Edison's Conquest of Mars » (1898)",
+      "Garrett P. Serviss",
+      "C'était une suite non autorisée de « La Guerre des mondes ».",
+      "https://www.wikiwand.com/en/Mars_in_fiction"
+     ]
+    ]
+   },
+   {
+    "modele": "Quel pays ou quelle agence a envoyé vers Mars la sonde {x} ?",
+    "inverse": "Quelle sonde martienne a été envoyée par {y} ?",
+    "explication": "{x} : c'est {y}.",
+    "paires": [
+     [
+      "Mangalyaan",
+      "l'Inde",
+      "Première mission martienne du pays, elle a observé Mars de 2014 à 2022.",
+      "https://www.planetary.org/space-missions/every-mars-mission"
+     ],
+     [
+      "Hope",
+      "les Émirats arabes unis",
+      "Cet orbiteur étudie le climat martien.",
+      "https://www.planetary.org/space-missions/every-mars-mission"
+     ],
+     [
+      "Nozomi",
+      "le Japon",
+      "Elle avait survolé la Terre le 21 décembre 1998 pour prendre de l'élan.",
+      "https://www.planetary.org/space-missions/every-mars-mission"
+     ],
+     [
+      "Tianwen-1",
+      "la Chine",
+      "Elle a déposé à la surface le rover Zhurong.",
+      "https://www.planetary.org/space-missions/every-mars-mission"
+     ],
+     [
+      "Mars Express",
+      "l'Agence spatiale européenne",
+      "C'était la première mission planétaire de l'ESA.",
+      "https://www.planetary.org/space-missions/every-mars-mission"
+     ],
+     [
+      "Phobos 2",
+      "l'Union soviétique",
+      "Perdue le 27 mars 1989, elle n'a jamais largué ses atterrisseurs.",
+      "https://www.planetary.org/space-missions/every-mars-mission"
+     ],
+     [
+      "Mars 96",
+      "la Russie",
+      "Un allumage trop précoce de son quatrième étage l'a fait tomber dans l'océan.",
+      "https://www.planetary.org/space-missions/every-mars-mission"
+     ],
+     [
+      "Mars Global Surveyor",
+      "les États-Unis",
+      "Arrivée en 1997, elle a fonctionné jusqu'au 5 novembre 2006.",
+      "https://www.planetary.org/space-missions/every-mars-mission"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Quel composé donne à Mars sa couleur rouge ?",
+    "bonne": "L'oxyde de fer",
+    "faux": [
+     "Le soufre",
+     "Le carbonate de cuivre",
+     "Le méthane gelé"
+    ],
+    "explication": "Cette teinte orangée lui vaut le surnom de « planète rouge ».",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Sous le nom de quel dieu les Babyloniens désignaient-ils Mars ?",
+    "bonne": "Nergal",
+    "faux": [
+     "Marduk",
+     "Ishtar",
+     "Shamash"
+    ],
+    "explication": "Les Romains y voyaient leur dieu de la guerre, assimilé à l'Arès grec.",
+    "source": "https://www.techno-science.net/fr/definitions/mars-planete"
+   },
+   {
+    "enonce": "Quelle fraction de la masse terrestre Mars représente-t-elle ?",
+    "bonne": "Environ 11 %",
+    "faux": [
+     "Environ 1 %",
+     "Environ 38 %",
+     "Environ 50 %"
+    ],
+    "explication": "Son volume vaut environ 15 % de celui de la Terre.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Quelle part de la lumière solaire reçue par la Terre parvient jusqu'à Mars ?",
+    "bonne": "Environ 43 %",
+    "faux": [
+     "Environ 4 %",
+     "Environ 90 %",
+     "Le double"
+    ],
+    "explication": "Mars orbite environ 1,52 fois plus loin du Soleil que la Terre.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "De combien l'axe de rotation de Mars est-il incliné sur le plan de son orbite ?",
+    "bonne": "Environ 25°",
+    "faux": [
+     "Environ 3°",
+     "Environ 98°",
+     "Environ 177°"
+    ],
+    "explication": "C'est proche des 23,5° de l'axe terrestre.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Après Mercure, quelle planète a l'orbite la plus excentrique ?",
+    "bonne": "Mars",
+    "faux": [
+     "Vénus",
+     "La Terre",
+     "Neptune"
+    ],
+    "explication": "Son excentricité avoisine 0,09.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Comment appelle-t-on une journée solaire martienne ?",
+    "bonne": "Un sol",
+    "faux": [
+     "Un martien",
+     "Un aréon",
+     "Un cycle rouge"
+    ],
+    "explication": "Elle dure 24 h 39 min 35 s.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Après le gaz carbonique, quel gaz est le plus abondant dans l'air martien ?",
+    "bonne": "L'argon",
+    "faux": [
+     "Le dioxygène",
+     "L'hélium",
+     "La vapeur d'eau"
+    ],
+    "explication": "Il en représente environ 1,93 %, juste devant l'azote.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Où la pression de l'air martien est-elle la plus forte ?",
+    "bonne": "Au fond du bassin d'Hellas",
+    "faux": [
+     "Au sommet d'Olympus Mons",
+     "Au sommet d'Arsia Mons",
+     "Sur le plateau de Tharsis"
+    ],
+    "explication": "Elle y dépasse 1 155 Pa, contre 30 Pa au sommet d'Olympus Mons.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Pourquoi le méthane mesuré sur Mars suggère-t-il une source encore active ?",
+    "bonne": "Les ultraviolets le détruisent en quelques siècles",
+    "faux": [
+     "Il gèle dès qu'il apparaît",
+     "Il est plus lourd que le gaz carbonique",
+     "Il s'échappe vers Phobos"
+    ],
+    "explication": "Mars Express en a mesuré environ 10 ppb début 2004.",
+    "source": "https://www.techno-science.net/fr/definitions/mars-planete"
+   },
+   {
+    "enonce": "De combien le cycle du gaz carbonique fait-il varier la pression de l'air martien ?",
+    "bonne": "D'environ un tiers",
+    "faux": [
+     "D'environ 1 %",
+     "Elle décuple",
+     "Elle ne varie pas"
+    ],
+    "explication": "En hiver, une partie de ce gaz se condense sur les calottes polaires.",
+    "source": "https://www.techno-science.net/fr/definitions/mars-planete"
+   },
+   {
+    "enonce": "Quelle hauteur Olympus Mons atteint-il, d'après l'altimètre laser MOLA ?",
+    "bonne": "Environ 22 km",
+    "faux": [
+     "Environ 4 km",
+     "Environ 8,8 km",
+     "Environ 50 km"
+    ],
+    "explication": "C'est environ deux fois et demie l'altitude de l'Everest.",
+    "source": "https://www.wikiwand.com/en/articles/Olympus_Mons"
+   },
+   {
+    "enonce": "Quel pays Olympus Mons égale-t-il à peu près en superficie ?",
+    "bonne": "L'Italie",
+    "faux": [
+     "La Belgique",
+     "Le Luxembourg",
+     "La Russie"
+    ],
+    "explication": "Sa base couvre environ 300 000 km².",
+    "source": "https://www.wikiwand.com/en/articles/Olympus_Mons"
+   },
+   {
+    "enonce": "Quelle hauteur atteint la falaise qui borde Olympus Mons ?",
+    "bonne": "Jusqu'à 8 km",
+    "faux": [
+     "Environ 8 m",
+     "Environ 80 m",
+     "Environ 80 km"
+    ],
+    "explication": "Aucun autre volcan bouclier de Mars n'a un tel escarpement.",
+    "source": "https://www.wikiwand.com/en/articles/Olympus_Mons"
+   },
+   {
+    "enonce": "Combien de caldeiras emboîtées creusent le sommet d'Olympus Mons ?",
+    "bonne": "Six",
+    "faux": [
+     "Une seule",
+     "Deux",
+     "Vingt"
+    ],
+    "explication": "Ensemble, elles forment une dépression de 60 km sur 80 km.",
+    "source": "https://www.wikiwand.com/en/articles/Olympus_Mons"
+   },
+   {
+    "enonce": "Pourquoi un visiteur au sommet d'Olympus Mons aurait-il du mal à se croire sur une montagne ?",
+    "bonne": "Les pentes douces disparaissent sous l'horizon à quelques kilomètres",
+    "faux": [
+     "Des nuages masquent toujours la vue",
+     "Le sommet est couvert de forêts",
+     "Il y fait nuit en permanence"
+    ],
+    "explication": "Ses flancs n'ont qu'une pente moyenne de 5 %.",
+    "source": "https://www.wikiwand.com/en/articles/Olympus_Mons"
+   },
+   {
+    "enonce": "Pourquoi Olympus Mons a-t-il pu devenir aussi gigantesque ?",
+    "bonne": "Mars n'a pas de plaques tectoniques mobiles",
+    "faux": [
+     "La gravité de Mars est plus forte",
+     "Il est fait de glace",
+     "Il est né d'un impact géant"
+    ],
+    "explication": "La faible gravité martienne y contribue aussi.",
+    "source": "https://www.wikiwand.com/en/articles/Olympus_Mons"
+   },
+   {
+    "enonce": "Sous quel nom les astronomes du XIXe siècle connaissaient-ils Olympus Mons ?",
+    "bonne": "Nix Olympica",
+    "faux": [
+     "Mons Martius",
+     "Olympia Planitia",
+     "Terra Sirenum"
+    ],
+    "explication": "Ce n'était alors qu'une tache claire vue au télescope.",
+    "source": "https://www.wikiwand.com/en/articles/Olympus_Mons"
+   },
+   {
+    "enonce": "Pourquoi Schiaparelli évoquait-il de la « neige » à l'endroit d'Olympus Mons ?",
+    "bonne": "Il prenait des nuages pour de la neige",
+    "faux": [
+     "Il y voyait une calotte polaire",
+     "Il observait une comète",
+     "Il confondait Mars et la Lune"
+    ],
+    "explication": "On sait aujourd'hui que c'est un immense volcan bouclier.",
+    "source": "https://www.techno-science.net/fr/definitions/mars-planete"
+   },
+   {
+    "enonce": "Quelle sonde a confirmé en 1971 qu'Olympus Mons est un volcan ?",
+    "bonne": "Mariner 9",
+    "faux": [
+     "Mariner 4",
+     "Viking 1",
+     "Mars 3"
+    ],
+    "explication": "Elle était arrivée en pleine tempête de poussière planétaire.",
+    "source": "https://www.wikiwand.com/en/articles/Olympus_Mons"
+   },
+   {
+    "enonce": "Quel âge auraient les plus jeunes coulées de lave d'Olympus Mons ?",
+    "bonne": "Environ 2 millions d'années",
+    "faux": [
+     "Environ 20 ans",
+     "Environ 2 000 ans",
+     "Environ 4,5 milliards d'années"
+    ],
+    "explication": "D'autres coulées de son flanc nord-ouest remontent à 115 millions d'années.",
+    "source": "https://www.wikiwand.com/en/articles/Olympus_Mons"
+   },
+   {
+    "enonce": "Quels volcans forment l'alignement des Tharsis Montes ?",
+    "bonne": "Arsia, Pavonis et Ascraeus Mons",
+    "faux": [
+     "Olympus, Alba et Elysium Mons",
+     "Hellas, Argyre et Isidis",
+     "Maxwell, Maat et Sapas Mons"
+    ],
+    "explication": "Ils se dressent à environ 1 200 km d'Olympus Mons.",
+    "source": "https://www.wikiwand.com/en/articles/Olympus_Mons"
+   },
+   {
+    "enonce": "Quelle longueur atteint Valles Marineris ?",
+    "bonne": "Plus de 4 000 km",
+    "faux": [
+     "Environ 40 km",
+     "Environ 400 km",
+     "Plus de 40 000 km"
+    ],
+    "explication": "Le canyon mesure aussi environ 200 km de large.",
+    "source": "https://wikiwand.com/EN/Valles_Marineris"
+   },
+   {
+    "enonce": "Quelle profondeur Valles Marineris atteint-il au maximum ?",
+    "bonne": "Environ 7 km",
+    "faux": [
+     "Environ 70 m",
+     "Environ 700 m",
+     "Environ 70 km"
+    ],
+    "explication": "C'est le plus grand canyon du Système solaire.",
+    "source": "https://wikiwand.com/EN/Valles_Marineris"
+   },
+   {
+    "enonce": "D'où vient le nom de Valles Marineris ?",
+    "bonne": "De la sonde Mariner 9, qui l'a découvert",
+    "faux": [
+     "D'un astronome nommé Marin",
+     "Des marins de Christophe Colomb",
+     "De la mer qu'il aurait contenue"
+    ],
+    "explication": "La sonde l'a révélé lors de sa mission de 1971-1972.",
+    "source": "https://wikiwand.com/EN/Valles_Marineris"
+   },
+   {
+    "enonce": "Quelle part de la circonférence de Mars Valles Marineris couvre-t-il ?",
+    "bonne": "Près d'un quart",
+    "faux": [
+     "Près d'un centième",
+     "La moitié",
+     "Le tour complet"
+    ],
+    "explication": "Il s'étire jusqu'aux chenaux de débâcle qui finissent dans Chryse Planitia.",
+    "source": "https://wikiwand.com/EN/Valles_Marineris"
+   },
+   {
+    "enonce": "Selon les études récentes, qu'est d'abord Valles Marineris ?",
+    "bonne": "Une gigantesque fissure tectonique",
+    "faux": [
+     "Un cratère allongé",
+     "Une tranchée creusée par le vent",
+     "Un canal artificiel"
+    ],
+    "explication": "L'érosion l'a ensuite élargi.",
+    "source": "https://wikiwand.com/EN/Valles_Marineris"
+   },
+   {
+    "enonce": "Combien de cratères de plus de 5 km de diamètre parsèment Mars ?",
+    "bonne": "Environ 43 000",
+    "faux": [
+     "Environ 43",
+     "Environ 430",
+     "Environ 43 millions"
+    ],
+    "explication": "Le bassin d'Argyre, lui, mesure environ 1 800 km.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Qu'appelle-t-on la dichotomie martienne ?",
+    "bonne": "L'opposition entre plaines du nord et hauts plateaux cratérisés du sud",
+    "faux": [
+     "La différence de taille entre ses deux lunes",
+     "L'alternance de ses saisons",
+     "Le contraste entre ses deux calottes"
+    ],
+    "explication": "L'eau aurait jadis pu recouvrir ces plaines du nord.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Combien de séismes et d'événements apparentés l'atterrisseur InSight a-t-il enregistrés sur Mars ?",
+    "bonne": "Plus de 450",
+    "faux": [
+     "Aucun",
+     "Trois",
+     "Plus de 450 000"
+    ],
+    "explication": "La croûte martienne mesure en moyenne 42 à 56 km d'épaisseur.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Quelle épaisseur la croûte martienne atteint-elle sous Tharsis ?",
+    "bonne": "Environ 117 km",
+    "faux": [
+     "Environ 1 km",
+     "Environ 10 km",
+     "Environ 1 170 km"
+    ],
+    "explication": "Mars aurait aussi une graine solide d'environ 613 km de rayon, selon une estimation de 2025.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Quand Mars aurait-elle perdu sa magnétosphère ?",
+    "bonne": "Il y a environ 4 milliards d'années",
+    "faux": [
+     "Il y a environ 10 000 ans",
+     "En 1965",
+     "Elle l'a toujours"
+    ],
+    "explication": "Elle n'a plus aujourd'hui de champ magnétique global structuré.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Quelle sonde a montré dès 1965 que Mars n'a pas de champ magnétique global ?",
+    "bonne": "Mariner 4",
+    "faux": [
+     "Mariner 9",
+     "Viking 1",
+     "Mars Express"
+    ],
+    "explication": "Mariner 9 a ensuite cartographié presque toute la planète.",
+    "source": "https://www.techno-science.net/fr/definitions/mars-planete"
+   },
+   {
+    "enonce": "Comment s'appelle la plus ancienne période géologique de Mars ?",
+    "bonne": "Le Noachien",
+    "faux": [
+     "L'Amazonien",
+     "L'Hespérien",
+     "Le Cambrien"
+    ],
+    "explication": "Elle s'étend d'environ 4,5 à 3,5 milliards d'années.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Dans quelle période géologique martienne vit-on aujourd'hui ?",
+    "bonne": "L'Amazonien",
+    "faux": [
+     "Le Noachien",
+     "L'Hespérien",
+     "L'Holocène"
+    ],
+    "explication": "Elle a commencé il y a 3,3 à 2,9 milliards d'années.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "De quoi est surtout faite la calotte saisonnière qui couvre les pôles martiens en hiver ?",
+    "bonne": "De gaz carbonique gelé",
+    "faux": [
+     "De sel",
+     "De méthane liquide",
+     "De sable blanc"
+    ],
+    "explication": "Cette couche ne dépasse pas quelques mètres d'épaisseur.",
+    "source": "https://www.techno-science.net/fr/definitions/mars-planete"
+   },
+   {
+    "enonce": "Quel diamètre a la calotte résiduelle du pôle Nord martien ?",
+    "bonne": "Environ 1 000 km",
+    "faux": [
+     "Environ 100 m",
+     "Environ 10 km",
+     "Environ 10 000 km"
+    ],
+    "explication": "Contrairement à celle du sud, elle ne garde pas de gaz carbonique.",
+    "source": "https://www.techno-science.net/fr/definitions/mars-planete"
+   },
+   {
+    "enonce": "Quelle épaisseur aurait la couche d'eau si la calotte polaire sud de Mars fondait sur toute la planète ?",
+    "bonne": "Environ 11 m",
+    "faux": [
+     "Environ 1 mm",
+     "Environ 1 km",
+     "Environ 11 km"
+    ],
+    "explication": "Le cratère Korolev, lui, renferme environ 2 200 km³ de glace d'eau.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Quels astronomes ont observé les premiers les calottes polaires de Mars, au milieu du XVIIe siècle ?",
+    "bonne": "Cassini et Huygens",
+    "faux": [
+     "Galilée et Kepler",
+     "Herschel et Messier",
+     "Schiaparelli et Lowell"
+    ],
+    "explication": "En 1783, Herschel attribua d'autres taches blanches à des nuages.",
+    "source": "https://www.techno-science.net/fr/definitions/mars-planete"
+   },
+   {
+    "enonce": "Quel minéral, repéré sur Mars en 2004, ne se forme qu'en présence d'eau acide ?",
+    "bonne": "La jarosite",
+    "faux": [
+     "Le quartz",
+     "Le diamant",
+     "La halite"
+    ],
+    "explication": "Sa présence atteste un passé humide.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Quelle taille aurait eu l'océan qui couvrait peut-être les plaines du nord de Mars ?",
+    "bonne": "Celle de l'océan Arctique",
+    "faux": [
+     "Celle du lac Léman",
+     "Celle de la Méditerranée",
+     "Celle du Pacifique"
+    ],
+    "explication": "Au Noachien, l'eau liquide aurait été abondante.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Au-dessus de quelle température apparaissent les traînées sombres saisonnières des pentes martiennes ?",
+    "bonne": "−23 °C",
+    "faux": [
+     "−123 °C",
+     "0 °C",
+     "+23 °C"
+    ],
+    "explication": "En anglais, on les nomme « recurring slope lineae ».",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Quel atterrisseur a mis au jour de la glace d'eau à faible profondeur dans le nord de Mars, en 2008 ?",
+    "bonne": "Phoenix",
+    "faux": [
+     "Viking 2",
+     "Beagle 2",
+     "Mars Pathfinder"
+    ],
+    "explication": "Il s'était posé dans la grande plaine de Vastitas Borealis.",
+    "source": "https://www.techno-science.net/fr/definitions/mars-planete"
+   },
+   {
+    "enonce": "Selon Techno-Science, quelle eau couvrait probablement Mars au Noachien ?",
+    "bonne": "Une eau abondante, sans doute chargée d'acide sulfurique",
+    "faux": [
+     "Une eau douce et pure",
+     "De l'eau salée identique à nos océans",
+     "Aucune eau liquide"
+    ],
+    "explication": "Cette période remonte à plus de 3,5 milliards d'années.",
+    "source": "https://www.techno-science.net/fr/definitions/mars-planete"
+   },
+   {
+    "enonce": "Quelle vitesse les vents des tempêtes de poussière martiennes peuvent-ils dépasser ?",
+    "bonne": "160 km/h",
+    "faux": [
+     "16 km/h",
+     "1 600 km/h",
+     "16 000 km/h"
+    ],
+    "explication": "Ce sont les plus grandes tempêtes de poussière du Système solaire.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Quelle hauteur ont atteint certains tourbillons de poussière observés sur Mars ?",
+    "bonne": "20 km",
+    "faux": [
+     "20 m",
+     "200 m",
+     "200 km"
+    ],
+    "explication": "Une tempête de poussière a enveloppé Mars de mai à septembre 2018.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Pendant la tempête de poussière planétaire de 2001, comment a évolué la température au sol ?",
+    "bonne": "Elle a baissé d'environ 10 K",
+    "faux": [
+     "Elle a monté de 100 K",
+     "Elle est restée stable",
+     "Elle a baissé de 100 K"
+    ],
+    "explication": "L'atmosphère, elle, s'est réchauffée d'environ 30 K.",
+    "source": "https://www.techno-science.net/fr/definitions/mars-planete"
+   },
+   {
+    "enonce": "Quelle taille moyenne ont les grains de poussière en suspension dans l'air martien ?",
+    "bonne": "Environ 1,5 micromètre",
+    "faux": [
+     "Environ 1,5 nanomètre",
+     "Environ 1,5 mm",
+     "Environ 1,5 cm"
+    ],
+    "explication": "Ils donnent au ciel martien sa teinte ocre.",
+    "source": "https://www.techno-science.net/fr/definitions/mars-planete"
+   },
+   {
+    "enonce": "Quelle altitude a atteint la tempête de poussière planétaire de 2001 ?",
+    "bonne": "Environ 60 km",
+    "faux": [
+     "Environ 60 m",
+     "Environ 600 m",
+     "Environ 6 000 km"
+    ],
+    "explication": "Une autre tempête à l'échelle de la planète s'était produite en 1971.",
+    "source": "https://www.techno-science.net/fr/definitions/mars-planete"
+   },
+   {
+    "enonce": "Combien de jours dure environ le mouvement rétrograde apparent de Mars dans notre ciel ?",
+    "bonne": "Environ 72 jours",
+    "faux": [
+     "Environ 7 jours",
+     "Environ 720 jours",
+     "Environ 7 ans"
+    ],
+    "explication": "Mars passe à l'opposition environ tous les 2,1 ans.",
+    "source": "https://www.wikiwand.com/en/Mars"
+   },
+   {
+    "enonce": "Que signifie le mot italien « canali » employé par Schiaparelli ?",
+    "bonne": "Chenaux",
+    "faux": [
+     "Volcans",
+     "Montagnes",
+     "Océans"
+    ],
+    "explication": "Il a été traduit en anglais par « canals », qui évoque des ouvrages artificiels.",
+    "source": "https://www.wikiwand.com/en/Martian_canal"
+   },
+   {
+    "enonce": "Lors de quelle opposition Schiaparelli a-t-il décrit les « canali » de Mars ?",
+    "bonne": "1877",
+    "faux": [
+     "1610",
+     "1781",
+     "1965"
+    ],
+    "explication": "Ces lignes ont ensuite enflammé l'imagination du public.",
+    "source": "https://www.wikiwand.com/en/Martian_canal"
+   },
+   {
+    "enonce": "Quel astronome a parlé le premier de « canale » à propos de Mars, en 1858 ?",
+    "bonne": "Angelo Secchi",
+    "faux": [
+     "Giovanni Schiaparelli",
+     "Percival Lowell",
+     "Camille Flammarion"
+    ],
+    "explication": "Il ne voyait pourtant pas de lignes droites.",
+    "source": "https://www.wikiwand.com/en/Martian_canal"
+   },
+   {
+    "enonce": "Quel astronome américain voyait dans les canaux de Mars un réseau d'irrigation ?",
+    "bonne": "Percival Lowell",
+    "faux": [
+     "Asaph Hall",
+     "Edwin Hubble",
+     "Carl Sagan"
+    ],
+    "explication": "Il a publié « Mars as the Abode of Life » en 1908.",
+    "source": "https://www.wikiwand.com/en/Martian_canal"
+   },
+   {
+    "enonce": "Comment appelait-on le dédoublement apparent de certains canaux martiens ?",
+    "bonne": "La gémination",
+    "faux": [
+     "La scintillation",
+     "La réfraction",
+     "L'occultation"
+    ],
+    "explication": "Les observateurs voyaient alors deux lignes parallèles.",
+    "source": "https://www.wikiwand.com/en/Martian_canal"
+   },
+   {
+    "enonce": "Quel astronome a scruté Mars en 1909 avec la grande lunette de Meudon sans y voir de canaux ?",
+    "bonne": "Eugène Antoniadi",
+    "faux": [
+     "Camille Flammarion",
+     "Urbain Le Verrier",
+     "Charles Messier"
+    ],
+    "explication": "L'instrument mesurait 83 cm de diamètre.",
+    "source": "https://www.wikiwand.com/en/Martian_canal"
+   },
+   {
+    "enonce": "Quel naturaliste a contesté les idées de Lowell dans « Is Mars Habitable? », en 1907 ?",
+    "bonne": "Alfred Russel Wallace",
+    "faux": [
+     "Charles Darwin",
+     "Thomas Huxley",
+     "Louis Pasteur"
+    ],
+    "explication": "Il jugeait toute vie complexe impossible sur Mars.",
+    "source": "https://www.wikiwand.com/en/Martian_canal"
+   },
+   {
+    "enonce": "Avec qui Maunder et Evans ont-ils montré en 1903 que les canaux pouvaient être une illusion ?",
+    "bonne": "Des écoliers",
+    "faux": [
+     "Des marins",
+     "Des moines",
+     "Des soldats"
+    ],
+    "explication": "Avec un instrument médiocre, des points isolés semblent se relier en lignes.",
+    "source": "https://www.wikiwand.com/en/Martian_canal"
+   },
+   {
+    "enonce": "Quelle pression au sol Percival Lowell attribuait-il à Mars en 1908 ?",
+    "bonne": "87 millibars",
+    "faux": [
+     "6 millibars",
+     "870 millibars",
+     "1 013 millibars"
+    ],
+    "explication": "Il interprétait les lignes de Mars comme des canaux d'irrigation.",
+    "source": "https://www.techno-science.net/fr/definitions/mars-planete"
+   },
+   {
+    "enonce": "Quelle pression au sol Mariner 4 a-t-elle mesurée sur Mars en 1965 ?",
+    "bonne": "Entre 4,1 et 7 millibars",
+    "faux": [
+     "Environ 87 millibars",
+     "Environ 1 000 millibars",
+     "Environ 90 000 millibars"
+    ],
+    "explication": "Ce survol a définitivement enterré l'idée de canaux martiens.",
+    "source": "https://www.wikiwand.com/en/Martian_canal"
+   },
+   {
+    "enonce": "Dans quel roman anonyme de 1883 les canaux de Mars entrent-ils pour la première fois dans la fiction ?",
+    "bonne": "« Politics and Life in Mars »",
+    "faux": [
+     "« La Guerre des mondes »",
+     "« Une princesse de Mars »",
+     "« Aelita »"
+    ],
+    "explication": "Journaux et magazines se passionnaient alors pour les « Martiens ».",
+    "source": "https://www.wikiwand.com/en/Martian_canal"
+   },
+   {
+    "enonce": "Dans quelle région de Mars se trouve le célèbre « visage » photographié par Viking 1 ?",
+    "bonne": "Cydonia",
+    "faux": [
+     "Hellas",
+     "Tharsis",
+     "Elysium"
+    ],
+    "explication": "L'image a été prise le 25 juillet 1976.",
+    "source": "https://www.esa.int/ESA_Multimedia/Images/2006/09/Face_on_Mars_illusion_as_seen_by_Viking_1"
+   },
+   {
+    "enonce": "Qu'est-ce qui donnait au « visage sur Mars » son air humain ?",
+    "bonne": "Les ombres d'un relief sous un éclairage rasant",
+    "faux": [
+     "Une sculpture martienne",
+     "Un défaut de la caméra",
+     "Un nuage de poussière"
+    ],
+    "explication": "Il s'agit en réalité d'un massif résiduel.",
+    "source": "https://www.esa.int/ESA_Multimedia/Images/2006/09/Face_on_Mars_illusion_as_seen_by_Viking_1"
+   },
+   {
+    "enonce": "Que disait le communiqué de la NASA du 31 juillet 1976 au sujet de la formation de Cydonia ?",
+    "bonne": "Qu'elle ressemble à une tête humaine",
+    "faux": [
+     "Qu'elle est artificielle",
+     "Qu'elle abrite de l'eau",
+     "Qu'elle est un volcan actif"
+    ],
+    "explication": "Les scientifiques l'ont aussitôt tenue pour une illusion d'optique.",
+    "source": "https://www.esa.int/ESA_Multimedia/Images/2006/09/Face_on_Mars_illusion_as_seen_by_Viking_1"
+   },
+   {
+    "enonce": "À quelle distance de la Terre la sonde soviétique Mars 1 a-t-elle cessé d'émettre, en 1963 ?",
+    "bonne": "Environ 107 millions de km",
+    "faux": [
+     "Environ 107 km",
+     "Environ 107 000 km",
+     "Environ 1 milliard de km"
+    ],
+    "explication": "Elle tourne depuis autour du Soleil.",
+    "source": "https://www.planetary.org/space-missions/every-mars-mission"
+   },
+   {
+    "enonce": "Quelle mésaventure a frappé la capsule de Mars 7, en 1974 ?",
+    "bonne": "Elle a manqué Mars de 1 300 km",
+    "faux": [
+     "Elle s'est posée sur Phobos",
+     "Elle a explosé au décollage",
+     "Elle est retombée sur la Terre"
+    ],
+    "explication": "Elle s'était séparée trop tôt de la sonde.",
+    "source": "https://www.planetary.org/space-missions/every-mars-mission"
+   },
+   {
+    "enonce": "Quelle est la cause probable de la perte de Mars Observer, en août 1993 ?",
+    "bonne": "La rupture d'une conduite de carburant",
+    "faux": [
+     "Une erreur d'unités",
+     "Une collision avec Phobos",
+     "Une tempête de poussière"
+    ],
+    "explication": "La plupart de ses instruments ont ensuite volé sur d'autres sondes.",
+    "source": "https://www.planetary.org/space-missions/every-mars-mission"
+   },
+   {
+    "enonce": "Qu'a provoqué la commande erronée envoyée à la sonde Phobos 1 en 1988 ?",
+    "bonne": "L'arrêt de ses propulseurs d'orientation",
+    "faux": [
+     "Son explosion immédiate",
+     "Son atterrissage sur Mars",
+     "Son retour vers la Terre"
+    ],
+    "explication": "Ses batteries n'ont alors plus pu se recharger.",
+    "source": "https://www.planetary.org/space-missions/every-mars-mission"
+   },
+   {
+    "enonce": "Pourquoi le carburant de la sonde japonaise Nozomi a-t-il gelé ?",
+    "bonne": "Une éruption solaire avait endommagé son ordinateur",
+    "faux": [
+     "Elle était passée trop près de Pluton",
+     "Elle avait été lancée en hiver",
+     "Une tempête de poussière l'avait couverte"
+    ],
+    "explication": "Elle n'a fait que frôler Mars à environ 1 000 km, en 2003.",
+    "source": "https://www.planetary.org/space-missions/every-mars-mission"
+   },
+   {
+    "enonce": "Quel ennui a prolongé d'environ un an et demi le freinage atmosphérique de Mars Global Surveyor ?",
+    "bonne": "Un panneau solaire défaillant",
+    "faux": [
+     "Une antenne arrachée",
+     "Une fuite d'oxygène",
+     "Une erreur d'unités"
+    ],
+    "explication": "Elle a ensuite livré les images orbitales les plus fines de son époque.",
+    "source": "https://www.planetary.org/space-missions/every-mars-mission"
+   },
+   {
+    "enonce": "Combien de temps la capsule Mars 6 a-t-elle transmis des données sur l'atmosphère martienne ?",
+    "bonne": "224 secondes",
+    "faux": [
+     "2 secondes",
+     "224 jours",
+     "22 ans"
+    ],
+    "explication": "Ces données étaient en grande partie brouillées.",
+    "source": "https://www.planetary.org/space-missions/every-mars-mission"
+   },
+   {
+    "enonce": "Quel orbiteur emporte la caméra à haute résolution la plus puissante jamais envoyée vers Mars ?",
+    "bonne": "Mars Reconnaissance Orbiter",
+    "faux": [
+     "Mars Odyssey",
+     "MAVEN",
+     "Mars Express"
+    ],
+    "explication": "Il étudie la géologie et le climat martiens depuis 2006.",
+    "source": "https://www.planetary.org/space-missions/every-mars-mission"
+   },
+   {
+    "enonce": "Quelle première Curiosity a-t-il réalisée en 2024 en photographiant le ciel depuis le sol de Mars ?",
+    "bonne": "Une image de la Terre avec Phobos",
+    "faux": [
+     "Une éclipse totale de Soleil",
+     "Saturne et ses anneaux",
+     "La comète de Halley"
+    ],
+    "explication": "Spirit avait photographié la Terre depuis Mars dès 2004.",
+    "source": "https://en.wikipedia.org/wiki/Timeline_of_first_images_of_Earth_from_space"
+   },
+   {
+    "enonce": "En quelle année l'adaptation radio de « La Guerre des mondes » par Orson Welles a-t-elle semé la panique ?",
+    "bonne": "1938",
+    "faux": [
+     "1898",
+     "1953",
+     "1969"
+    ],
+    "explication": "Une diffusion à Quito, en 1949, a même tourné à l'émeute.",
+    "source": "https://www.wikiwand.com/en/Mars_in_fiction"
+   },
+   {
+    "enonce": "Selon Ray Bradbury, qu'est Mars dans ses récits ?",
+    "bonne": "« Un miroir, pas une boule de cristal »",
+    "faux": [
+     "« Un désert sans âme »",
+     "« La planète de nos ancêtres »",
+     "« Un jardin à conquérir »"
+    ],
+    "explication": "Il ne prétendait pas prédire l'avenir de la conquête martienne.",
+    "source": "https://www.wikiwand.com/en/Mars_in_fiction"
+   },
+   {
+    "enonce": "Qui est John Carter, le héros martien d'Edgar Rice Burroughs ?",
+    "bonne": "Un ancien soldat confédéré",
+    "faux": [
+     "Un astronaute de la NASA",
+     "Un prince martien",
+     "Un savant anglais"
+    ],
+    "explication": "La faible gravité de Mars le rend surhumainement fort.",
+    "source": "https://www.wikiwand.com/en/Mars_in_fiction"
+   },
+   {
+    "enonce": "Quel nom Mars porte-t-elle dans « Out of the Silent Planet » de C. S. Lewis ?",
+    "bonne": "Malacandra",
+    "faux": [
+     "Barsoom",
+     "Perelandra",
+     "Thulcandra"
+    ],
+    "explication": "Ses habitants y sont dépeints comme des êtres libres du péché originel.",
+    "source": "https://www.wikiwand.com/en/Mars_in_fiction"
+   },
+   {
+    "enonce": "Dans quel dessin animé de 1948 Marvin le Martien a-t-il fait sa première apparition ?",
+    "bonne": "« Haredevil Hare »",
+    "faux": [
+     "« Steamboat Willie »",
+     "« What's Opera, Doc? »",
+     "« Fantasia »"
+    ],
+    "explication": "Il veut détruire la Terre parce qu'elle lui cache la vue sur Vénus.",
+    "source": "https://www.wikiwand.com/en/Mars_in_fiction"
+   },
+   {
+    "enonce": "De quelle nouvelle de Philip K. Dick le film « Total Recall » (1990) s'inspire-t-il ?",
+    "bonne": "« We Can Remember It for You Wholesale »",
+    "faux": [
+     "« Do Androids Dream of Electric Sheep? »",
+     "« The Man in the High Castle »",
+     "« Ubik »"
+    ],
+    "explication": "La nouvelle date de 1966.",
+    "source": "https://www.wikiwand.com/en/Mars_in_fiction"
+   },
+   {
+    "enonce": "Quel film de 1996 pastiche les invasions martiennes des films des années 1950 ?",
+    "bonne": "« Mars Attacks! »",
+    "faux": [
+     "« Total Recall »",
+     "« Seul sur Mars »",
+     "« Aelita »"
+    ],
+    "explication": "« Total Recall », en 1990, imaginait des artefacts extraterrestres capables de terraformer Mars.",
+    "source": "https://www.wikiwand.com/en/Mars_in_fiction"
+   },
+   {
+    "enonce": "Quelle série télévisée américaine diffusée de 1963 à 1966 mettait en scène un Martien comique ?",
+    "bonne": "« Mon Martien favori »",
+    "faux": [
+     "« Ma sorcière bien-aimée »",
+     "« Star Trek »",
+     "« La Quatrième Dimension »"
+    ],
+    "explication": "Elle a été adaptée en dessin animé en 1973 et au cinéma en 1999.",
+    "source": "https://www.wikiwand.com/en/Mars_in_fiction"
+   },
+   {
+    "enonce": "Quel roman de Kim Stanley Robinson fait suite à « Mars la rouge » ?",
+    "bonne": "« Mars la verte »",
+    "faux": [
+     "« Mars la noire »",
+     "« Mars la blanche »",
+     "« Mars la jaune »"
+    ],
+    "explication": "La trilogie s'achève avec « Mars la bleue », en 1996.",
+    "source": "https://www.wikiwand.com/en/Mars_in_fiction"
+   }
+  ]
+ },
+ {
+  "id": "mercure",
+  "relations": [
+   {
+    "modele": "Sous quel nom {x} désignaient-ils la planète Mercure ?",
+    "inverse": "Quel peuple appelait Mercure {y} ?",
+    "explication": "{x} : {y}.",
+    "paires": [
+     [
+      "les Babyloniens",
+      "Nabu",
+      "Les Romains, eux, lui ont donné le nom de leur dieu messager.",
+      "https://en.wikipedia.org/wiki/Mercury_(planet)"
+     ],
+     [
+      "les Grecs, pour son éclat scintillant",
+      "Stilbon",
+      "Ils l'appelaient aussi Hermès, pour sa course rapide.",
+      "https://en.wikipedia.org/wiki/Mercury_(planet)"
+     ],
+     [
+      "la tradition hindoue",
+      "Budha",
+      "Ce nom est lui aussi associé au mercredi.",
+      "https://en.wikipedia.org/wiki/Mercury_(planet)"
+     ],
+     [
+      "les Chinois de l'Antiquité",
+      "l'« étoile des heures »",
+      "Les noms modernes d'Asie orientale signifient « étoile d'eau ».",
+      "https://en.wikipedia.org/wiki/Mercury_(planet)"
+     ]
+    ]
+   },
+   {
+    "modele": "D'après quoi baptise-t-on {x} de Mercure ?",
+    "inverse": "Quels reliefs de Mercure portent les noms {y} ?",
+    "explication": "{x} : d'après {y}.",
+    "paires": [
+     [
+      "les cratères",
+      "des artistes, musiciens et écrivains disparus",
+      "Ils doivent être célèbres depuis plus de cinquante ans.",
+      "https://en.wikipedia.org/wiki/Mercury_(planet)"
+     ],
+     [
+      "les dorsales (dorsa)",
+      "des scientifiques",
+      "Les cratères, eux, rendent hommage aux artistes.",
+      "https://en.wikipedia.org/wiki/Mercury_(planet)"
+     ],
+     [
+      "les grands escarpements (rupes)",
+      "des navires d'expéditions scientifiques",
+      "Ces falaises racontent le refroidissement de la planète.",
+      "https://en.wikipedia.org/wiki/Mercury_(planet)"
+     ],
+     [
+      "les vallées (valles)",
+      "des villes ou villages abandonnés",
+      "Ce sont en quelque sorte des « villes fantômes ».",
+      "https://en.wikipedia.org/wiki/Mercury_(planet)"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Pourquoi les Romains ont-ils donné à cette planète le nom du messager des dieux ?",
+    "bonne": "Parce qu'elle se déplace plus vite que toutes les autres",
+    "faux": [
+     "Parce qu'elle est la plus brillante",
+     "Parce qu'elle a une lune messagère",
+     "Parce qu'elle est rouge comme le feu"
+    ],
+    "explication": "Mercure boucle son orbite en un peu moins de 88 jours.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Comment les tablettes assyriennes MUL.APIN surnommaient-elles Mercure ?",
+    "bonne": "La planète sauteuse",
+    "faux": [
+     "La planète noire",
+     "L'étoile du Berger",
+     "Le grand taureau"
+    ],
+    "explication": "Ces textes remonteraient probablement au XIVe siècle av. J.-C.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quel objet du dieu messager le symbole astronomique ☿ de Mercure représente-t-il ?",
+    "bonne": "Le caducée",
+    "faux": [
+     "Le trident",
+     "La foudre",
+     "La lyre"
+    ],
+    "explication": "Une petite croix chrétienne lui a été ajoutée au XVIe siècle.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quel nom les Grecs donnaient-ils à Mercure lorsqu'elle se montrait le matin ?",
+    "bonne": "Apollon",
+    "faux": [
+     "Arès",
+     "Héphaïstos",
+     "Poséidon"
+    ],
+    "explication": "Jusqu'au IVe siècle av. J.-C., l'astre du soir s'appelait Hermès.",
+    "source": "https://www.techno-science.net/fr/definitions/mercure-planete"
+   },
+   {
+    "enonce": "Sous quelle forme les Mayas auraient-ils représenté Mercure ?",
+    "bonne": "Un hibou, messager du monde souterrain",
+    "faux": [
+     "Un serpent à plumes",
+     "Un jaguar ailé",
+     "Un colibri"
+    ],
+    "explication": "Les Grecs aussi en faisaient un messager, celui de l'Olympe.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quel dieu germanique était, comme Mercure, associé au mercredi ?",
+    "bonne": "Odin",
+    "faux": [
+     "Thor",
+     "Freyja",
+     "Tyr"
+    ],
+    "explication": "Le mercredi anglais, « Wednesday », est lié à Woden, autre nom d'Odin.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Que signifie en maya le nom du petit cratère Hun Kal, qui sert de repère aux longitudes de Mercure ?",
+    "bonne": "Vingt",
+    "faux": [
+     "Soleil",
+     "Messager",
+     "Zéro"
+    ],
+    "explication": "Il marque le méridien situé à 20° de longitude ouest.",
+    "source": "https://www.techno-science.net/fr/definitions/mercure-planete"
+   },
+   {
+    "enonce": "Quel surnom vaut à Mercure son très gros noyau de fer ?",
+    "bonne": "La planète métallique",
+    "faux": [
+     "La planète rouge",
+     "La planète naine",
+     "La planète géante"
+    ],
+    "explication": "On l'attribue souvent à un impact géant qui aurait arraché une partie de son manteau.",
+    "source": "https://www.techno-science.net/fr/definitions/mercure-planete"
+   },
+   {
+    "enonce": "Quels astronomes ont, les premiers, observé Mercure au télescope, à partir de 1610 ?",
+    "bonne": "Thomas Harriot et Galilée",
+    "faux": [
+     "Kepler et Tycho Brahe",
+     "Cassini et Huygens",
+     "Herschel et Messier"
+    ],
+    "explication": "La lunette astronomique venait tout juste d'être pointée vers le ciel.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quel astronome a observé en 1737 la seule occultation de Mercure par Vénus connue dans l'histoire ?",
+    "bonne": "John Bevis",
+    "faux": [
+     "Edmond Halley",
+     "James Bradley",
+     "Charles Messier"
+    ],
+    "explication": "La suivante n'aura lieu que le 3 décembre 2133.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quelle durée de rotation Schiaparelli prêtait-il à tort à Mercure, dans les années 1880 ?",
+    "bonne": "88 jours, comme son année",
+    "faux": [
+     "24 heures, comme la Terre",
+     "10 heures, comme Jupiter",
+     "Un an terrestre"
+    ],
+    "explication": "Il croyait que la planète montrait toujours la même face au Soleil.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quel astronome a publié en 1934 la meilleure carte de Mercure d'avant l'ère spatiale ?",
+    "bonne": "Eugène Antoniadi",
+    "faux": [
+     "Percival Lowell",
+     "Camille Flammarion",
+     "Bernard Lyot"
+    ],
+    "explication": "Il fallut ensuite attendre la sonde Mariner 10 pour faire mieux.",
+    "source": "https://www.techno-science.net/fr/definitions/mercure-planete"
+   },
+   {
+    "enonce": "Qui a obtenu en 1962 le tout premier écho radar renvoyé par Mercure ?",
+    "bonne": "Une équipe soviétique menée par Vladimir Kotelnikov",
+    "faux": [
+     "Gordon Pettengill seul, à Arecibo",
+     "L'équipe de Mariner 2",
+     "Giuseppe Colombo"
+    ],
+    "explication": "Le radar allait bientôt bouleverser ce que l'on savait de sa rotation.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quelle durée de rotation Pettengill et Dyce ont-ils mesurée en 1965 au radar d'Arecibo ?",
+    "bonne": "Environ 59 jours",
+    "faux": [
+     "Environ 88 jours",
+     "Environ 24 heures",
+     "Environ 176 jours"
+    ],
+    "explication": "Cette mesure ruinait l'idée d'une planète tournant au même rythme que son orbite.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quel savant italien a compris en 1965 que Mercure tourne trois fois sur elle-même en deux ans mercuriens ?",
+    "bonne": "Giuseppe Colombo",
+    "faux": [
+     "Giovanni Schiaparelli",
+     "Angelo Secchi",
+     "Giuseppe Piazzi"
+    ],
+    "explication": "Mariner 10 a ensuite confirmé cette résonance 3:2.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Pourquoi le télescope spatial Hubble n'observe-t-il jamais Mercure ?",
+    "bonne": "Il lui est interdit de pointer si près du Soleil",
+    "faux": [
+     "Mercure est trop petite pour son miroir",
+     "Mercure est toujours cachée par la Terre",
+     "Son orbite l'en empêche une fois par siècle"
+    ],
+    "explication": "Mercure reste toujours trop proche du Soleil dans notre ciel.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "De combien de degrés Mercure peut-elle au plus s'écarter du Soleil dans notre ciel ?",
+    "bonne": "Environ 28°",
+    "faux": [
+     "Environ 5°",
+     "Environ 48°",
+     "Environ 90°"
+    ],
+    "explication": "Son diamètre apparent ne dépasse pas 13 secondes d'arc.",
+    "source": "https://www.techno-science.net/fr/definitions/mercure-planete"
+   },
+   {
+    "enonce": "En moyenne dans le temps, quelle planète est la plus proche de la Terre ?",
+    "bonne": "Mercure",
+    "faux": [
+     "Vénus",
+     "Mars",
+     "Jupiter"
+    ],
+    "explication": "Elle est aussi, en moyenne, la plus proche de chacune des autres planètes.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quelle planète voit son éclat varier le plus d'une apparition à l'autre ?",
+    "bonne": "Mercure",
+    "faux": [
+     "Saturne",
+     "Jupiter",
+     "Uranus"
+    ],
+    "explication": "Sa magnitude va d'environ −2,5 à plus de +7.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quelle planète a l'orbite la plus excentrique, c'est-à-dire la plus allongée ?",
+    "bonne": "Mercure",
+    "faux": [
+     "Mars",
+     "Neptune",
+     "La Terre"
+    ],
+    "explication": "Son excentricité vaut environ 0,21.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "À quelle distance du Soleil Mercure passe-t-elle à son périhélie ?",
+    "bonne": "Environ 46 millions de km",
+    "faux": [
+     "Environ 4,6 millions de km",
+     "Environ 108 millions de km",
+     "Environ 150 millions de km"
+    ],
+    "explication": "À l'aphélie, elle s'en éloigne jusqu'à près de 70 millions de km.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "À quelle vitesse moyenne Mercure file-t-elle sur son orbite ?",
+    "bonne": "Environ 47 km/s",
+    "faux": [
+     "Environ 4,7 km/s",
+     "Environ 300 km/s",
+     "Environ 1 km/s"
+    ],
+    "explication": "Elle parcourt son orbite en moins de 88 jours.",
+    "source": "https://www.techno-science.net/fr/definitions/mercure-planete"
+   },
+   {
+    "enonce": "Combien de temps sépare deux levers de Soleil au même endroit de Mercure ?",
+    "bonne": "Environ 176 jours terrestres",
+    "faux": [
+     "Environ 24 heures",
+     "Environ 59 jours",
+     "Environ 88 jours"
+    ],
+    "explication": "Ce jour solaire dure deux années mercuriennes.",
+    "source": "https://www.techno-science.net/fr/definitions/mercure-planete"
+   },
+   {
+    "enonce": "Que semble faire le Soleil dans le ciel de Mercure autour du périhélie ?",
+    "bonne": "Il recule brièvement avant de reprendre sa course",
+    "faux": [
+     "Il disparaît pendant un mois",
+     "Il change de couleur",
+     "Il se dédouble"
+    ],
+    "explication": "En certains points de l'équateur, il passe ainsi trois fois au zénith.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Combien de fois le Soleil paraît-il plus grand vu de Mercure que vu de la Terre ?",
+    "bonne": "De 2 à 3 fois environ",
+    "faux": [
+     "Autant",
+     "Dix fois",
+     "Cent fois"
+    ],
+    "explication": "Le rapport change d'un bout à l'autre de son orbite très allongée.",
+    "source": "https://www.techno-science.net/fr/definitions/mercure-planete"
+   },
+   {
+    "enonce": "Quelle planète a l'axe de rotation le moins incliné du Système solaire ?",
+    "bonne": "Mercure",
+    "faux": [
+     "Jupiter",
+     "Vénus",
+     "Uranus"
+    ],
+    "explication": "Son inclinaison ne dépasse pas quelques centièmes de degré ; Jupiter suit avec 3,1°.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "À quelle distance minimale Mercure peut-elle s'approcher de la Terre ?",
+    "bonne": "Environ 82 millions de km",
+    "faux": [
+     "Environ 380 000 km",
+     "Environ 8 millions de km",
+     "Environ 220 millions de km"
+    ],
+    "explication": "Cette distance minimale diminue très lentement au fil des siècles.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Tous les combien de jours, en moyenne, Mercure passe-t-elle entre la Terre et le Soleil ?",
+    "bonne": "Tous les 116 jours",
+    "faux": [
+     "Tous les 365 jours",
+     "Tous les 29 jours",
+     "Tous les 584 jours"
+    ],
+    "explication": "On parle alors de conjonction inférieure.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quelle part de l'avance observée du périhélie de Mercure la gravitation de Newton explique-t-elle déjà ?",
+    "bonne": "La très grande majorité",
+    "faux": [
+     "Aucune",
+     "Environ la moitié",
+     "Environ un dixième"
+    ],
+    "explication": "Sur environ 574 secondes d'arc par siècle, seul un petit reste échappait aux calculs classiques.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quelle température tombe la nuit à l'équateur de Mercure ?",
+    "bonne": "Environ −170 °C",
+    "faux": [
+     "Environ 0 °C",
+     "Environ −20 °C",
+     "Environ −270 °C"
+    ],
+    "explication": "Le jour, au même endroit, on approche les 420 °C.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quelle température les pôles de Mercure ne dépassent-ils jamais ?",
+    "bonne": "Environ −93 °C",
+    "faux": [
+     "Environ 100 °C",
+     "Environ 400 °C",
+     "Environ 0 °C"
+    ],
+    "explication": "Le Soleil y reste toujours très bas sur l'horizon.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Combien de fois plus de lumière solaire Mercure reçoit-elle que la Terre ?",
+    "bonne": "De 4,6 à 10,6 fois",
+    "faux": [
+     "Autant",
+     "Deux fois moins",
+     "Mille fois plus"
+    ],
+    "explication": "La valeur dépend de sa position, entre périhélie et aphélie.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quelle planète a la masse volumique moyenne la plus élevée après la Terre ?",
+    "bonne": "Mercure",
+    "faux": [
+     "Vénus",
+     "Mars",
+     "Jupiter"
+    ],
+    "explication": "Elle atteint environ 5,4 g/cm³, contre 5,5 pour la Terre.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Mercure est plus petite que Ganymède et Titan : qu'a-t-elle pourtant de plus qu'elles ?",
+    "bonne": "Une masse plus grande",
+    "faux": [
+     "Une atmosphère plus épaisse",
+     "Un océan d'eau liquide",
+     "Des anneaux"
+    ],
+    "explication": "Mercure reste malgré tout la plus petite des huit planètes.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quelle planète est la plus riche en fer du Système solaire ?",
+    "bonne": "Mercure",
+    "faux": [
+     "Mars",
+     "La Terre",
+     "Vénus"
+    ],
+    "explication": "Elle serait faite d'environ 70 % de métal et 30 % de silicates.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quelle sonde a découvert le champ magnétique de Mercure, en 1974 ?",
+    "bonne": "Mariner 10",
+    "faux": [
+     "Mariner 2",
+     "Pioneer 10",
+     "Venera 9"
+    ],
+    "explication": "La sonde l'a mesuré lors de son survol de mars 1974.",
+    "source": "https://www.techno-science.net/fr/definitions/mercure-planete"
+   },
+   {
+    "enonce": "Quelle est l'intensité du champ magnétique de Mercure comparée à celui de la Terre ?",
+    "bonne": "Environ 1 %",
+    "faux": [
+     "Environ la moitié",
+     "Le double",
+     "Dix fois plus"
+    ],
+    "explication": "Son axe magnétique est pourtant incliné d'environ 10°, presque comme le nôtre.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quelle épaisseur atteint en moyenne la croûte de Mercure, d'après les sondes ?",
+    "bonne": "Environ 35 km",
+    "faux": [
+     "Environ 3 km",
+     "Environ 350 km",
+     "Environ 1 000 km"
+    ],
+    "explication": "Manteau et croûte réunis ne dépassent guère 420 km d'épaisseur.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quels éléments dominent la très ténue exosphère de Mercure, d'après Techno-Science ?",
+    "bonne": "Le potassium et le sodium",
+    "faux": [
+     "L'azote et l'oxygène",
+     "Le dioxyde de carbone et l'argon",
+     "L'hydrogène et le méthane"
+    ],
+    "explication": "Ces atomes ne s'y attardent que quelques heures avant de s'échapper.",
+    "source": "https://www.techno-science.net/fr/definitions/mercure-planete"
+   },
+   {
+    "enonce": "Quel métal la sonde MESSENGER a-t-elle détecté pour la première fois dans l'exosphère de Mercure, en 2008 ?",
+    "bonne": "Le magnésium",
+    "faux": [
+     "L'or",
+     "Le plomb",
+     "Le titane"
+    ],
+    "explication": "Le sodium, le potassium et le calcium y avaient été repérés dès les années 1980 et 1990.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quel est le diamètre du bassin Caloris ?",
+    "bonne": "Environ 1 550 km",
+    "faux": [
+     "Environ 15 km",
+     "Environ 150 km",
+     "Environ 15 000 km"
+    ],
+    "explication": "C'est l'un des plus grands bassins d'impact du Système solaire.",
+    "source": "https://en.wikipedia.org/wiki/Caloris_Planitia"
+   },
+   {
+    "enonce": "Que signifie le mot latin « calor », qui a donné son nom au bassin Caloris ?",
+    "bonne": "La chaleur",
+    "faux": [
+     "Le cercle",
+     "La couleur",
+     "Le trou"
+    ],
+    "explication": "Le Soleil y passe presque au zénith une fois sur deux au périhélie.",
+    "source": "https://en.wikipedia.org/wiki/Caloris_Planitia"
+   },
+   {
+    "enonce": "Quel membre de l'équipe d'imagerie de Mariner 10 a proposé le nom de Caloris ?",
+    "bonne": "Brian O'Leary",
+    "faux": [
+     "Carl Sagan",
+     "Bruce Murray",
+     "Gene Shoemaker"
+    ],
+    "explication": "Cet astronaute faisait partie de l'équipe chargée des images.",
+    "source": "https://en.wikipedia.org/wiki/Caloris_Planitia"
+   },
+   {
+    "enonce": "Pourquoi Mariner 10 n'a-t-elle photographié que la moitié du bassin Caloris ?",
+    "bonne": "Il se trouvait à la limite du jour et de la nuit",
+    "faux": [
+     "Sa caméra est tombée en panne",
+     "Un nuage de poussière le cachait",
+     "Le Soleil aveuglait la sonde"
+    ],
+    "explication": "Le bassin entier n'a été vu qu'en janvier 2008, grâce à MESSENGER.",
+    "source": "https://en.wikipedia.org/wiki/Caloris_Planitia"
+   },
+   {
+    "enonce": "Quelle taille minimale prête-t-on au corps qui a creusé le bassin Caloris ?",
+    "bonne": "Environ 100 km",
+    "faux": [
+     "Environ 1 km",
+     "Environ 10 m",
+     "Environ 1 000 km"
+    ],
+    "explication": "L'impact a eu lieu il y a 3,8 à 3,9 milliards d'années.",
+    "source": "https://en.wikipedia.org/wiki/Caloris_Planitia"
+   },
+   {
+    "enonce": "Quel nom porte l'anneau de montagnes qui borde le bassin Caloris ?",
+    "bonne": "Caloris Montes",
+    "faux": [
+     "Maxwell Montes",
+     "Montes Apenninus",
+     "Tharsis Montes"
+    ],
+    "explication": "Ces reliefs culminent à environ 2 km.",
+    "source": "https://en.wikipedia.org/wiki/Caloris_Planitia"
+   },
+   {
+    "enonce": "Que trouve-t-on à l'opposé exact du bassin Caloris, de l'autre côté de Mercure ?",
+    "bonne": "Un « terrain étrange » de collines chaotiques",
+    "faux": [
+     "Un second bassin identique",
+     "Le plus haut volcan de la planète",
+     "Une calotte de glace"
+    ],
+    "explication": "Les ondes sismiques de l'impact s'y seraient rejointes.",
+    "source": "https://en.wikipedia.org/wiki/Caloris_Planitia"
+   },
+   {
+    "enonce": "Quel surnom a reçu le réseau de fractures rayonnantes du centre de Caloris, autour du cratère Apollodorus ?",
+    "bonne": "L'araignée",
+    "faux": [
+     "Le soleil noir",
+     "La toile de Pénélope",
+     "L'œil de Mercure"
+    ],
+    "explication": "Son nom officiel est Pantheon Fossae.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Qu'est-ce qui s'échappe des fractures du bassin Caloris, d'après les sondes ?",
+    "bonne": "Du sodium et du potassium",
+    "faux": [
+     "De la vapeur d'eau",
+     "Du méthane",
+     "De la lave liquide"
+    ],
+    "explication": "Ces gaz alimentent la fine exosphère de la planète.",
+    "source": "https://en.wikipedia.org/wiki/Caloris_Planitia"
+   },
+   {
+    "enonce": "Comment appelle-t-on la concentration de masse repérée sous le bassin Caloris ?",
+    "bonne": "Un mascon",
+    "faux": [
+     "Un geyser",
+     "Un pulsar",
+     "Un panache"
+    ],
+    "explication": "Les grands bassins lunaires, comme Mare Imbrium, en possèdent aussi.",
+    "source": "https://en.wikipedia.org/wiki/Caloris_Planitia"
+   },
+   {
+    "enonce": "Que révèlent les grands escarpements lobés qui balafrent Mercure ?",
+    "bonne": "La planète a rétréci en refroidissant",
+    "faux": [
+     "Elle a été coupée en deux par un impact",
+     "D'anciennes rivières y coulaient",
+     "Des marées les creusent chaque jour"
+    ],
+    "explication": "Certains s'étirent sur 1 000 km et dominent la plaine de 3 km.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "De combien le rayon de Mercure aurait-il diminué en refroidissant ?",
+    "bonne": "De 1 à 7 km environ",
+    "faux": [
+     "D'environ 1 mètre",
+     "D'environ 500 km",
+     "Il n'a pas changé"
+    ],
+    "explication": "Quelques escarpements auraient moins de 50 millions d'années.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Combien de bassins d'impact a-t-on identifiés sur Mercure ?",
+    "bonne": "46",
+    "faux": [
+     "3",
+     "12",
+     "460"
+    ],
+    "explication": "Celui de Beethoven, l'un des plus vastes, a un rebord de 625 km.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Comment appelle-t-on les petites dépressions claires et bleutées découvertes sur Mercure ?",
+    "bonne": "Les « hollows », ou cavités",
+    "faux": [
+     "Les maria",
+     "Les canaux",
+     "Les geysers"
+    ],
+    "explication": "Elles se forment dans la roche, ce qu'on n'a vu sur aucune autre surface rocheuse.",
+    "source": "https://science.nasa.gov/solar-system/planets/mercury/mercurys-strange-hollows"
+   },
+   {
+    "enonce": "Quel âge moyen les scientifiques donnent-ils aux cavités claires de Mercure ?",
+    "bonne": "Environ 100 000 ans",
+    "faux": [
+     "Environ 4 milliards d'années",
+     "Environ 10 ans",
+     "Environ 500 millions d'années"
+    ],
+    "explication": "Ce sont parmi les reliefs les plus jeunes et les plus brillants de la planète.",
+    "source": "https://science.nasa.gov/solar-system/planets/mercury/mercurys-strange-hollows"
+   },
+   {
+    "enonce": "Combien de bouches au moins compte le volcan composite repéré au bord sud-ouest de Caloris ?",
+    "bonne": "Neuf",
+    "faux": [
+     "Une",
+     "Trois",
+     "Cent"
+    ],
+    "explication": "Chacune mesure jusqu'à 8 km de large.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quels instruments ont, les premiers, suggéré la présence de glace aux pôles de Mercure, vers 1991 ?",
+    "bonne": "Des radars terrestres",
+    "faux": [
+     "La sonde Mariner 10",
+     "Le télescope Hubble",
+     "Un atterrisseur soviétique"
+    ],
+    "explication": "Les antennes de Goldstone et le réseau VLA y ont capté de très forts échos.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Combien la glace des pôles de Mercure pèse-t-elle, comparée à celle de l'Antarctique ?",
+    "bonne": "Des milliers de fois moins",
+    "faux": [
+     "Autant",
+     "Dix fois plus",
+     "Un million de fois plus"
+    ],
+    "explication": "On l'estime entre 10¹⁴ et 10¹⁵ kg.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quel cratère du pôle Sud de Mercure est associé à des dépôts de glace ?",
+    "bonne": "Chao Meng-Fu",
+    "faux": [
+     "Caloris",
+     "Hun Kal",
+     "Apollodorus"
+    ],
+    "explication": "Son fond, jamais éclairé, reste extrêmement froid.",
+    "source": "https://www.techno-science.net/fr/definitions/mercure-planete"
+   },
+   {
+    "enonce": "À quelle altitude minimale Mariner 10 est-elle passée au-dessus de Mercure ?",
+    "bonne": "Environ 327 km",
+    "faux": [
+     "Environ 3 km",
+     "Environ 32 000 km",
+     "Environ 3 millions de km"
+    ],
+    "explication": "Elle a cessé de fonctionner le 24 mars 1975, à court de carburant.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Quelle part de la surface de Mercure Mariner 10 a-t-elle cartographiée ?",
+    "bonne": "Moins de la moitié",
+    "faux": [
+     "La totalité",
+     "Les trois quarts",
+     "Un centième"
+    ],
+    "explication": "Elle a survolé la planète à trois reprises, en 1974 et 1975.",
+    "source": "https://www.techno-science.net/fr/definitions/mercure-planete"
+   },
+   {
+    "enonce": "Que signifie l'acronyme de la sonde MESSENGER, qui veut aussi dire « messager » ?",
+    "bonne": "Surface, environnement spatial, géochimie et télémétrie de Mercure",
+    "faux": [
+     "Mission européenne de survol solaire",
+     "Module d'exploration du Soleil et de ses géantes",
+     "Messagerie spatiale du Système solaire"
+    ],
+    "explication": "Le clin d'œil vise le dieu messager qui a donné son nom à la planète.",
+    "source": "https://carnegiescience.edu/news/20-years-later-carnegie-science-looks-back-messenger-mission"
+   },
+   {
+    "enonce": "Quel scientifique a dirigé la mission MESSENGER ?",
+    "bonne": "Sean Solomon",
+    "faux": [
+     "Alan Stern",
+     "Steven Squyres",
+     "Carolyn Porco"
+    ],
+    "explication": "Il a été nommé chercheur principal en 1999.",
+    "source": "https://carnegiescience.edu/news/20-years-later-carnegie-science-looks-back-messenger-mission"
+   },
+   {
+    "enonce": "Combien d'images MESSENGER a-t-elle envoyées, alors qu'on en espérait 2 500 ?",
+    "bonne": "Plus de 250 000",
+    "faux": [
+     "Environ 2 600",
+     "Environ 25",
+     "Plus de 25 millions"
+    ],
+    "explication": "La sonde a tourné quatre ans autour de Mercure.",
+    "source": "https://carnegiescience.edu/news/20-years-later-carnegie-science-looks-back-messenger-mission"
+   },
+   {
+    "enonce": "Combien d'assistances gravitationnelles MESSENGER a-t-elle utilisées pour rejoindre Mercure ?",
+    "bonne": "Six",
+    "faux": [
+     "Aucune",
+     "Une",
+     "Vingt"
+    ],
+    "explication": "Elle a frôlé la Terre, Vénus et Mercure elle-même.",
+    "source": "https://carnegiescience.edu/news/20-years-later-carnegie-science-looks-back-messenger-mission"
+   },
+   {
+    "enonce": "Quelle taille aurait le cratère creusé par MESSENGER en s'écrasant sur Mercure ?",
+    "bonne": "Environ 16 m",
+    "faux": [
+     "Environ 16 cm",
+     "Environ 16 km",
+     "Environ 160 km"
+    ],
+    "explication": "L'impact a eu lieu le 30 avril 2015.",
+    "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+   },
+   {
+    "enonce": "Combien de propositions le concours public pour baptiser des cratères de Mercure a-t-il reçues ?",
+    "bonne": "Environ 3 600",
+    "faux": [
+     "Environ 36",
+     "Environ 360 000",
+     "Une seule"
+    ],
+    "explication": "Cinq noms ont été retenus à l'issue du concours.",
+    "source": "https://carnegiescience.edu/news/20-years-later-carnegie-science-looks-back-messenger-mission"
+   },
+   {
+    "enonce": "Quelle distance BepiColombo a-t-elle parcourue dans le Système solaire intérieur pour rejoindre Mercure ?",
+    "bonne": "Environ 9,9 milliards de km",
+    "faux": [
+     "Environ 92 millions de km",
+     "Environ 1 milliard de km",
+     "Environ 99 milliards de km"
+    ],
+    "explication": "Le voyage a duré huit ans et compté neuf survols de planètes.",
+    "source": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success"
+   },
+   {
+    "enonce": "Quel module de propulsion BepiColombo a-t-elle largué le 3 septembre 2026, avant d'atteindre Mercure ?",
+    "bonne": "Le module de transfert MTM",
+    "faux": [
+     "L'orbiteur Mio",
+     "L'orbiteur MPO",
+     "L'atterrisseur Philae"
+    ],
+    "explication": "La sonde se trouvait alors à environ 3 millions de km de la planète.",
+    "source": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success"
+   }
+  ]
+ },
+ {
+  "id": "saturne",
+  "relations": [
+   {
+    "modele": "Qui a découvert {x} de Saturne ?",
+    "inverse": "Quel anneau de Saturne a été découvert par {y} ?",
+    "explication": "{x} : découvert par {y}.",
+    "paires": [
+     [
+      "l'anneau C",
+      "les astronomes Bond",
+      "Repéré en 1850, il doit sa lettre à l'ordre des découvertes, après A et B.",
+      "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+     ],
+     [
+      "l'anneau D",
+      "Barabachov et Semeïkine",
+      "Ces deux astronomes l'ont signalé en 1933.",
+      "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+     ],
+     [
+      "l'anneau E",
+      "Walter Feibelman",
+      "Signalé en 1967, il n'a été confirmé qu'en 1980.",
+      "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+     ],
+     [
+      "l'anneau F",
+      "la sonde Pioneer 11",
+      "Il est surtout tenu en place par la petite lune Prométhée.",
+      "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+     ],
+     [
+      "l'anneau G",
+      "la sonde Voyager 1",
+      "Voyager 1 l'a repéré lors de son passage de 1980.",
+      "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+     ]
+    ]
+   },
+   {
+    "modele": "Quelle est la largeur approximative de {x}, dans les anneaux de Saturne ?",
+    "inverse": "Quelle partie des anneaux de Saturne mesure environ {y} de large ?",
+    "explication": "{x} : environ {y} de large.",
+    "paires": [
+     [
+      "la division de Cassini",
+      "4 700 km",
+      "C'est le plus grand vide des anneaux, entre l'anneau B et l'anneau A.",
+      "https://www.britannica.com/place/Saturn-planet/The-ring-system"
+     ],
+     [
+      "la division d'Encke",
+      "325 km",
+      "La petite lune Pan, d'environ 10 km, y a été trouvée en 1990.",
+      "https://www.britannica.com/place/Saturn-planet/The-ring-system"
+     ],
+     [
+      "la division de Keeler",
+      "35 km",
+      "Cassini y a découvert la petite lune Daphnis en 2005.",
+      "https://www.britannica.com/place/Saturn-planet/The-ring-system"
+     ],
+     [
+      "l'anneau B",
+      "25 500 km",
+      "C'est l'anneau le plus brillant de Saturne.",
+      "https://www.britannica.com/place/Saturn-planet/The-ring-system"
+     ],
+     [
+      "l'anneau A",
+      "14 600 km",
+      "C'est le plus extérieur des anneaux visibles depuis la Terre.",
+      "https://www.britannica.com/place/Saturn-planet/The-ring-system"
+     ],
+     [
+      "l'anneau C",
+      "17 500 km",
+      "On le surnomme l'« anneau de crêpe ».",
+      "https://www.britannica.com/place/Saturn-planet/The-ring-system"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "De quel domaine Saturne était-il le dieu chez les Romains ?",
+    "bonne": "L'agriculture et les semences",
+    "faux": [
+     "La guerre",
+     "La mer",
+     "Le commerce"
+    ],
+    "explication": "Il aurait régné sur le Latium durant un âge d'or de paix et d'abondance.",
+    "source": "https://www.worldhistory.org/trans/fr/1-10551/saturne/"
+   },
+   {
+    "enonce": "Quelle déesse des moissons était l'épouse de Saturne ?",
+    "bonne": "Ops",
+    "faux": [
+     "Junon",
+     "Vesta",
+     "Cérès"
+    ],
+    "explication": "Saturne fut peu à peu confondu avec Cronos, qui dévorait ses enfants.",
+    "source": "https://www.worldhistory.org/trans/fr/1-10551/saturne/"
+   },
+   {
+    "enonce": "Quel dieu à deux visages aurait accueilli Saturne dans le Latium ?",
+    "bonne": "Janus",
+    "faux": [
+     "Mercure",
+     "Vulcain",
+     "Quirinus"
+    ],
+    "explication": "Saturne y aurait fondé la cité voisine de Saturnia.",
+    "source": "https://www.worldhistory.org/trans/fr/1-10551/saturne/"
+   },
+   {
+    "enonce": "Quel outil le dieu Saturne brandit-il souvent dans ses représentations ?",
+    "bonne": "Une faux",
+    "faux": [
+     "Un trident",
+     "Un caducée",
+     "Une lyre"
+    ],
+    "explication": "Il était surtout lié aux semences de blé.",
+    "source": "https://www.worldhistory.org/trans/fr/1-10551/saturne/"
+   },
+   {
+    "enonce": "À quelles dates se tenaient les Saturnales, la grande fête romaine de Saturne ?",
+    "bonne": "Du 17 au 23 décembre",
+    "faux": [
+     "Du 1er au 7 janvier",
+     "Du 15 au 21 mars",
+     "Du 24 au 30 juin"
+    ],
+    "explication": "Fête d'un jour à l'origine, elle s'étira jusqu'à une semaine sous la République.",
+    "source": "https://www.worldhistory.org/trans/fr/1-15567/saturnales/"
+   },
+   {
+    "enonce": "Quel couvre-chef les maîtres portaient-ils pendant les Saturnales ?",
+    "bonne": "Le pileus, bonnet des esclaves affranchis",
+    "faux": [
+     "La couronne de laurier",
+     "Le casque à cimier",
+     "Le voile des vestales"
+    ],
+    "explication": "Ils allaient jusqu'à servir leurs esclaves à table.",
+    "source": "https://www.worldhistory.org/trans/fr/1-15567/saturnales/"
+   },
+   {
+    "enonce": "Quels petits cadeaux en terre cuite s'offrait-on pendant les Saturnales ?",
+    "bonne": "Des figurines",
+    "faux": [
+     "Des amphores de vin",
+     "Des masques de théâtre",
+     "Des pièces d'or"
+    ],
+    "explication": "On donnait aussi des bougies et des figues en gelée.",
+    "source": "https://www.worldhistory.org/trans/fr/1-15567/saturnales/"
+   },
+   {
+    "enonce": "À combien de jours l'empereur Auguste réduisit-il les Saturnales ?",
+    "bonne": "Trois",
+    "faux": [
+     "Un",
+     "Sept",
+     "Quinze"
+    ],
+    "explication": "Caligula les porta ensuite à cinq jours.",
+    "source": "https://www.worldhistory.org/trans/fr/1-15567/saturnales/"
+   },
+   {
+    "enonce": "Comment appelait-on le « roi » choisi pour mener les Saturnales ?",
+    "bonne": "Le Saturnalicius princeps",
+    "faux": [
+     "Le pontifex maximus",
+     "Le rex sacrorum",
+     "Le princeps senatus"
+    ],
+    "explication": "On le surnommait aussi le « seigneur de l'anarchie ».",
+    "source": "https://www.worldhistory.org/trans/fr/1-15567/saturnales/"
+   },
+   {
+    "enonce": "Quelle institution le temple de Saturne abritait-il sur le Forum romain ?",
+    "bonne": "Le trésor public",
+    "faux": [
+     "La bibliothèque impériale",
+     "Le sanctuaire des vestales",
+     "L'atelier monétaire"
+    ],
+    "explication": "Ce trésor portait le nom d'aerarium ; un premier temple avait été dédié vers 497 av. J.-C.",
+    "source": "https://www.worldhistory.org/trans/fr/2-636/temple-de-saturne-de-rome/"
+   },
+   {
+    "enonce": "Combien de colonnes du temple de Saturne se dressent encore sur le Forum romain ?",
+    "bonne": "Huit",
+    "faux": [
+     "Deux",
+     "Quatre",
+     "Douze"
+    ],
+    "explication": "D'ordre ionique, elles datent d'une reconstruction du IVe siècle.",
+    "source": "https://www.worldhistory.org/trans/fr/2-636/temple-de-saturne-de-rome/"
+   },
+   {
+    "enonce": "Que faisait-on à la statue de Saturne pendant les Saturnales ?",
+    "bonne": "On déliait ses pieds, entravés de laine le reste de l'année",
+    "faux": [
+     "On la promenait dans Rome",
+     "On la plongeait dans le Tibre",
+     "On la couvrait d'or"
+    ],
+    "explication": "Ce geste rattachait le dieu à l'idée de libération.",
+    "source": "https://www.worldhistory.org/trans/fr/2-636/temple-de-saturne-de-rome/"
+   },
+   {
+    "enonce": "D'où vient le symbole astronomique ♄ de Saturne ?",
+    "bonne": "D'une ligature des lettres grecques kappa et rhô",
+    "faux": [
+     "Du chiffre romain VI",
+     "D'un dessin d'anneau fait par Galilée",
+     "D'une lettre hébraïque"
+    ],
+    "explication": "C'était l'abréviation de Kronos ; une petite croix s'y ajouta au XVIe siècle.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Sous quel nom les Grecs d'aujourd'hui désignent-ils toujours la planète Saturne ?",
+    "bonne": "Kronos",
+    "faux": [
+     "Ouranos",
+     "Hélios",
+     "Arès"
+    ],
+    "explication": "Le dieu romain Saturne passait pour le père de Jupiter.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Quel sous-titre porte le mouvement « Saturne » dans « Les Planètes » de Gustav Holst ?",
+    "bonne": "Celui qui apporte la vieillesse",
+    "faux": [
+     "Celui qui apporte la gaieté",
+     "Celui qui apporte la guerre",
+     "Le Mystique"
+    ],
+    "explication": "C'était, de toute la suite, le mouvement que Holst préférait.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/t/The_Planets.htm"
+   },
+   {
+    "enonce": "Combien de Terres pourrait contenir le volume de Saturne ?",
+    "bonne": "Environ 764",
+    "faux": [
+     "Environ 9",
+     "Environ 95",
+     "Environ 1 300"
+    ],
+    "explication": "Sa masse ne vaut pourtant qu'environ 95 Terres.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Combien de fois Saturne est-elle moins dense que la Terre, d'après le CNES ?",
+    "bonne": "Environ 8 fois",
+    "faux": [
+     "Environ 2 fois",
+     "Environ 50 fois",
+     "Elle est plus dense"
+    ],
+    "explication": "Posée dans une piscine géante, elle flotterait, note le CNES.",
+    "source": "https://cnes.fr/dossiers/planete-saturne"
+   },
+   {
+    "enonce": "Quel écart sépare environ le rayon équatorial et le rayon polaire de Saturne ?",
+    "bonne": "Environ 6 000 km",
+    "faux": [
+     "Environ 60 km",
+     "Environ 600 km",
+     "Environ 60 000 km"
+    ],
+    "explication": "Le rayon atteint 60 268 km à l'équateur, contre 54 364 km aux pôles.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Comment a-t-on fini par mesurer la durée du jour de Saturne ?",
+    "bonne": "En étudiant des ondes dans l'anneau C",
+    "faux": [
+     "En suivant la Grande Tache rouge",
+     "En chronométrant les éclipses de Titan",
+     "En posant une sonde au sol"
+    ],
+    "explication": "Cette méthode donne une rotation de 10 h 33 min 38 s.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "À quoi une étude de 2007 a-t-elle rattaché les variations de la période radio de Saturne ?",
+    "bonne": "Aux geysers d'Encelade",
+    "faux": [
+     "Aux impacts de comètes",
+     "Au passage de Jupiter",
+     "Aux saisons de la Terre"
+    ],
+    "explication": "En 2004, Cassini mesurait une période radio d'environ 10 h 45 min.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Quelle température atteindrait le noyau de Saturne, selon le CNES ?",
+    "bonne": "Environ 11 700 °C",
+    "faux": [
+     "Environ 117 °C",
+     "Environ 1 170 °C",
+     "Environ 1 170 000 °C"
+    ],
+    "explication": "Ce noyau de fer et de nickel aurait à peu près la taille de deux Terres.",
+    "source": "https://cnes.fr/dossiers/planete-saturne"
+   },
+   {
+    "enonce": "Combien d'énergie Saturne rayonne-t-elle par rapport à celle qu'elle reçoit du Soleil ?",
+    "bonne": "Environ 2,5 fois plus",
+    "faux": [
+     "Moitié moins",
+     "Exactement autant",
+     "Cent fois plus"
+    ],
+    "explication": "Une « pluie » de gouttes d'hélium vers l'intérieur pourrait fournir une part de cette chaleur.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Quel gaz forme environ 96 % de l'atmosphère de Saturne, en volume ?",
+    "bonne": "L'hydrogène",
+    "faux": [
+     "L'hélium",
+     "Le méthane",
+     "L'azote"
+    ],
+    "explication": "L'hélium n'en représente qu'environ 3,25 %.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Combien de temps dure chaque saison sur Saturne ?",
+    "bonne": "Environ 7 ans",
+    "faux": [
+     "Environ 3 mois",
+     "Environ 1 an",
+     "Environ 29 ans"
+    ],
+    "explication": "Son axe penche d'environ 27° sur son orbite.",
+    "source": "https://cnes.fr/dossiers/planete-saturne"
+   },
+   {
+    "enonce": "Comment les bandes nuageuses de Saturne se comparent-elles à celles de Jupiter ?",
+    "bonne": "Plus pâles, et bien plus larges près de l'équateur",
+    "faux": [
+     "Plus colorées et plus étroites",
+     "Strictement identiques",
+     "Saturne n'a aucune bande"
+    ],
+    "explication": "Ses nuages les plus hauts sont faits de glace d'ammoniac.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Quelle vitesse atteignent les vents les plus rapides de Saturne ?",
+    "bonne": "Environ 1 800 km/h",
+    "faux": [
+     "Environ 18 km/h",
+     "Environ 180 km/h",
+     "Environ 18 000 km/h"
+    ],
+    "explication": "Seule Neptune connaît des vents plus violents.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Tous les combien d'années environ une « Grande Tache blanche » éclate-t-elle sur Saturne ?",
+    "bonne": "Environ 30 ans",
+    "faux": [
+     "Chaque année",
+     "Environ 11 ans",
+     "Environ 300 ans"
+    ],
+    "explication": "Elle surgit vers le solstice d'été de l'hémisphère nord, une fois par année saturnienne.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Quel télescope a suivi la Grande Tache blanche de Saturne en 1990 ?",
+    "bonne": "Hubble",
+    "faux": [
+     "James Webb",
+     "Le Very Large Telescope",
+     "Spitzer"
+    ],
+    "explication": "Les précédentes avaient éclaté en 1876, 1903, 1933 et 1960.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Combien d'éclairs peuvent jaillir dans une Grande Tache blanche de Saturne, selon le CNES ?",
+    "bonne": "Une dizaine par seconde",
+    "faux": [
+     "Un par jour",
+     "Un par an",
+     "Un million par seconde"
+    ],
+    "explication": "Ces tempêtes peuvent dépasser 15 000 km de diamètre.",
+    "source": "https://cnes.fr/dossiers/planete-saturne"
+   },
+   {
+    "enonce": "Combien de temps a duré la saison de la tempête géante suivie par Cassini en 2011 ?",
+    "bonne": "Environ 200 jours",
+    "faux": [
+     "Environ 2 heures",
+     "Environ 2 jours",
+     "Environ 20 ans"
+    ],
+    "explication": "Elle a fini par ceinturer la planète, sur près de 5 milliards de km².",
+    "source": "https://cordis.europa.eu/article/id/34058-cassini-images-chronicle-massive-saturn-storm/fr"
+   },
+   {
+    "enonce": "À quoi le chercheur Andrew Ingersoll a-t-il comparé la tempête géante de Saturne de 2011 ?",
+    "bonne": "À un volcan",
+    "faux": [
+     "À un ouragan terrestre",
+     "À une aurore",
+     "À une marée"
+    ],
+    "explication": "La pression s'accumulerait des années durant avant d'éclater d'un coup.",
+    "source": "https://cordis.europa.eu/article/id/34058-cassini-images-chronicle-massive-saturn-storm/fr"
+   },
+   {
+    "enonce": "Autour de quel pôle de Saturne tourne le fameux hexagone ?",
+    "bonne": "Le pôle Nord",
+    "faux": [
+     "Le pôle Sud",
+     "Les deux pôles",
+     "Aucun : il est sur l'équateur"
+    ],
+    "explication": "Il entoure le tourbillon polaire, vers 78° de latitude nord.",
+    "source": "https://en.wikipedia.org/wiki/Saturn%27s_hexagon"
+   },
+   {
+    "enonce": "Quelle longueur mesure environ chaque côté de l'hexagone de Saturne ?",
+    "bonne": "14 500 km",
+    "faux": [
+     "145 km",
+     "1 450 km",
+     "145 000 km"
+    ],
+    "explication": "C'est environ 2 000 km de plus que le diamètre de la Terre.",
+    "source": "https://en.wikipedia.org/wiki/Saturn%27s_hexagon"
+   },
+   {
+    "enonce": "Grâce aux images de quelles sondes a-t-on repéré l'hexagone de Saturne ?",
+    "bonne": "Les sondes Voyager",
+    "faux": [
+     "Les sondes Pioneer",
+     "La sonde Galileo",
+     "La sonde New Horizons"
+    ],
+    "explication": "David Godfrey l'a mis en évidence dans ces images à la fin des années 1980.",
+    "source": "https://en.wikipedia.org/wiki/Saturn%27s_hexagon"
+   },
+   {
+    "enonce": "Quel changement de couleur l'hexagone de Saturne a-t-il connu entre 2012 et 2016 ?",
+    "bonne": "Il est passé du bleu au doré",
+    "faux": [
+     "Du rouge au vert",
+     "Du blanc au noir",
+     "Du doré au bleu"
+    ],
+    "explication": "L'été arrivant au pôle, la lumière du Soleil y aurait produit une brume.",
+    "source": "https://en.wikipedia.org/wiki/Saturn%27s_hexagon"
+   },
+   {
+    "enonce": "En combien de temps l'hexagone de Saturne fait-il un tour ?",
+    "bonne": "10 h 39 min 24 s",
+    "faux": [
+     "45 minutes",
+     "16 jours",
+     "29 ans"
+    ],
+    "explication": "C'est la période des émissions radio : il ne dérive pas comme les autres nuages.",
+    "source": "https://en.wikipedia.org/wiki/Saturn%27s_hexagon"
+   },
+   {
+    "enonce": "Comment des chercheurs d'Oxford ont-ils obtenu des formes polygonales rappelant l'hexagone ?",
+    "bonne": "Dans une cuve de liquide en rotation",
+    "faux": [
+     "Avec un aimant géant",
+     "Dans une soufflerie",
+     "Avec des bulles de savon"
+    ],
+    "explication": "Six côtés apparaissaient le plus souvent, mais aussi de trois à huit.",
+    "source": "https://en.wikipedia.org/wiki/Saturn%27s_hexagon"
+   },
+   {
+    "enonce": "Qu'observe-t-on au pôle Sud de Saturne, à la place d'un hexagone ?",
+    "bonne": "Une tempête à œil, comme un ouragan",
+    "faux": [
+     "Un pentagone de nuages",
+     "Une calotte de glace d'eau",
+     "Un cratère géant"
+    ],
+    "explication": "Grande comme la Terre, elle est balayée par des vents d'environ 550 km/h.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Combien de fois plus faible que celui de Jupiter est le champ magnétique de Saturne à l'équateur ?",
+    "bonne": "Environ 20 fois",
+    "faux": [
+     "Environ 2 fois",
+     "Environ 2 000 fois",
+     "Il est plus fort"
+    ],
+    "explication": "Il est même un peu plus faible que le champ terrestre.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Quelle surprise Cassini a-t-elle révélée sur le champ magnétique de Saturne ?",
+    "bonne": "Son axe est presque aligné sur l'axe de rotation",
+    "faux": [
+     "Il s'inverse chaque année",
+     "Il n'existe pas",
+     "Il est centré sur Titan"
+    ],
+    "explication": "Ce champ s'est aussi montré plus faible que prévu.",
+    "source": "https://www.esa.int/Science_Exploration/Space_Science/Cassini-Huygens/Countdown_to_Cassini_s_Grand_Finale"
+   },
+   {
+    "enonce": "Tous les combien de jours environ Saturne revient-elle à l'opposition ?",
+    "bonne": "378 jours",
+    "faux": [
+     "100 jours",
+     "584 jours",
+     "730 jours"
+    ],
+    "explication": "C'est à ce moment qu'elle brille le plus dans notre ciel.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Tous les combien d'années environ voit-on les anneaux de Saturne par la tranche ?",
+    "bonne": "Environ 15 ans",
+    "faux": [
+     "Chaque année",
+     "Environ 100 ans",
+     "Jamais"
+    ],
+    "explication": "Ils semblent alors disparaître ; ce fut encore le cas en 2025.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Quelle est l'épaisseur typique des anneaux principaux de Saturne, selon le CNES ?",
+    "bonne": "Quelques dizaines de mètres",
+    "faux": [
+     "Quelques millimètres",
+     "Environ 1 000 km",
+     "Environ 10 000 km"
+    ],
+    "explication": "Rapportés à la taille de la planète, ils sont aussi minces qu'un cheveu.",
+    "source": "https://cnes.fr/dossiers/planete-saturne"
+   },
+   {
+    "enonce": "Quelle taille ont les blocs de glace qui forment les anneaux de Saturne ?",
+    "bonne": "Du centimètre à plusieurs mètres",
+    "faux": [
+     "Du micron au millimètre seulement",
+     "Du kilomètre à 100 km",
+     "Toujours 1 m pile"
+    ],
+    "explication": "Les gros blocs sont bien plus rares que les petits.",
+    "source": "https://www.britannica.com/place/Saturn-planet/The-ring-system"
+   },
+   {
+    "enonce": "Quelle matière sombre se mêle à la glace d'eau des anneaux, à hauteur d'environ 7 % ?",
+    "bonne": "Du carbone amorphe",
+    "faux": [
+     "Du fer",
+     "De l'or",
+     "Du sel"
+    ],
+    "explication": "Les anneaux s'étendent de 6 630 à 120 700 km au-dessus de l'équateur.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Quelle masse Cassini a-t-elle mesurée pour les anneaux de Saturne ?",
+    "bonne": "Environ 0,4 fois celle de Mimas",
+    "faux": [
+     "Environ 10 fois celle de la Lune",
+     "Celle de Titan",
+     "Celle de la Terre"
+    ],
+    "explication": "La mesure a été faite lors des dernières orbites de la sonde, en 2017.",
+    "source": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+   },
+   {
+    "enonce": "Quel âge leur faible masse suggère-t-elle pour les anneaux de Saturne ?",
+    "bonne": "Entre 10 et 100 millions d'années",
+    "faux": [
+     "Environ 4,5 milliards d'années",
+     "Environ 1 000 ans",
+     "Environ 10 milliards d'années"
+    ],
+    "explication": "On les a imaginés nés d'une comète brisée ou de lunes fracassées.",
+    "source": "https://www.britannica.com/place/Saturn-planet/The-ring-system"
+   },
+   {
+    "enonce": "Comment appelle-t-on la chute des grains de glace des anneaux vers Saturne ?",
+    "bonne": "La « pluie d'anneaux »",
+    "faux": [
+     "La « neige de Roche »",
+     "Le « vent saturnien »",
+     "La « grêle de Cassini »"
+    ],
+    "explication": "À ce rythme, les anneaux s'épuiseraient en quelque 300 millions d'années.",
+    "source": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+   },
+   {
+    "enonce": "Comment appelle-t-on les traînées sombres qui rayonnent sur l'anneau B ?",
+    "bonne": "Des « rayons »",
+    "faux": [
+     "Des « tresses »",
+     "Des « hélices »",
+     "Des « vagues »"
+    ],
+    "explication": "Ce seraient des poussières soulevées par l'électricité ; elles varient avec les saisons.",
+    "source": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+   },
+   {
+    "enonce": "Qu'ont trahi les sillages en forme d'hélice repérés par Cassini dans l'anneau A ?",
+    "bonne": "Des lunes miniatures d'environ 100 m",
+    "faux": [
+     "Des comètes en train de fondre",
+     "Des bulles de gaz",
+     "Des débris de sondes"
+    ],
+    "explication": "Plus de 150 de ces petits corps ont été repérés, sur des milliers supposés.",
+    "source": "https://www.britannica.com/place/Saturn-planet/The-ring-system"
+   },
+   {
+    "enonce": "Quelle lune fixe le bord intérieur de la division de Cassini, par une résonance 2:1 ?",
+    "bonne": "Mimas",
+    "faux": [
+     "Titan",
+     "Encelade",
+     "Japet"
+    ],
+    "explication": "Les grains y font deux tours de Saturne quand cette lune en fait un.",
+    "source": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+   },
+   {
+    "enonce": "Quel aspect l'anneau F présentait-il sur les images de Voyager 1 ?",
+    "bonne": "Il semblait tressé",
+    "faux": [
+     "Il paraissait carré",
+     "Il était rouge vif",
+     "Il restait invisible"
+    ],
+    "explication": "Des grumeaux et des plis donnent en fait cette illusion de tresse.",
+    "source": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+   },
+   {
+    "enonce": "Quel télescope a découvert en 2009 l'immense anneau de Phœbé ?",
+    "bonne": "Le télescope spatial Spitzer",
+    "faux": [
+     "Le télescope spatial Hubble",
+     "Le télescope Kepler",
+     "Le Very Large Telescope"
+    ],
+    "explication": "Incliné d'environ 27°, il tourne en sens rétrograde, comme Phœbé.",
+    "source": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+   },
+   {
+    "enonce": "Que marque la limite de Roche, à environ 2,44 rayons de Saturne ?",
+    "bonne": "La distance où les marées déchireraient une grosse lune",
+    "faux": [
+     "Le sommet de l'atmosphère",
+     "Le bord de la magnétosphère",
+     "L'orbite de Titan"
+    ],
+    "explication": "De petits corps soudés par leur cohésion peuvent pourtant y survivre.",
+    "source": "https://www.britannica.com/place/Saturn-planet/The-ring-system"
+   },
+   {
+    "enonce": "Quel nom a-t-on donné en 2022 à la lune disparue dont la destruction aurait formé les anneaux ?",
+    "bonne": "Chrysalis",
+    "faux": [
+     "Papillon",
+     "Némésis",
+     "Phaéton"
+    ],
+    "explication": "Au XIXe siècle, Édouard Roche imaginait déjà une lune brisée par les marées.",
+    "source": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+   },
+   {
+    "enonce": "D'où proviendraient la plupart des lunes de Saturne, selon des simulations ?",
+    "bonne": "De matière issue des anneaux",
+    "faux": [
+     "De la ceinture d'astéroïdes",
+     "Du Soleil",
+     "De Jupiter"
+    ],
+    "explication": "Au-delà de la limite de Roche, des grumeaux s'agrégeraient en petites lunes.",
+    "source": "https://cnes.fr/actualites/anneaux-de-saturne-loeil-de-cassini"
+   },
+   {
+    "enonce": "Que révèlent les ondes qui font vibrer les anneaux de Saturne ?",
+    "bonne": "La structure interne de la planète",
+    "faux": [
+     "L'âge de l'Univers",
+     "La présence d'eau sur Titan",
+     "La vitesse de la lumière"
+    ],
+    "explication": "Les anneaux ondulent comme une membrane sous l'effet de la gravité.",
+    "source": "https://cnes.fr/actualites/anneaux-de-saturne-loeil-de-cassini"
+   },
+   {
+    "enonce": "Comment Galilée décrivit-il Saturne en 1610 ?",
+    "bonne": "Comme un astre triple",
+    "faux": [
+     "Comme une étoile double",
+     "Comme une comète",
+     "Comme un disque percé"
+    ],
+    "explication": "Il parlait des anneaux comme des « oreilles » de la planète.",
+    "source": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+   },
+   {
+    "enonce": "Sous quelle forme Galilée consigna-t-il d'abord sa découverte sur Saturne ?",
+    "bonne": "Une anagramme",
+    "faux": [
+     "Un sonnet",
+     "Une lettre au pape",
+     "Un calendrier"
+    ],
+    "explication": "Il cachait son observation dans une longue suite de lettres brouillées.",
+    "source": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+   },
+   {
+    "enonce": "Qu'arriva-t-il aux « oreilles » de Saturne en 1612, au grand désarroi de Galilée ?",
+    "bonne": "Elles disparurent",
+    "faux": [
+     "Elles changèrent de couleur",
+     "Elles se multiplièrent",
+     "Elles tombèrent sur la planète"
+    ],
+    "explication": "La Terre traversait le plan des anneaux, vus alors par la tranche.",
+    "source": "https://www.britannica.com/place/Saturn-planet/The-ring-system"
+   },
+   {
+    "enonce": "Quelle question Galilée se posa-t-il en voyant disparaître les « oreilles » de Saturne ?",
+    "bonne": "Saturne avait-il avalé ses enfants ?",
+    "faux": [
+     "La Lune les avait-elle éclipsées ?",
+     "Le Soleil les avait-il fondues ?",
+     "Jupiter les avait-il volées ?"
+    ],
+    "explication": "Il avoua ne savoir que dire d'un cas aussi surprenant et inédit.",
+    "source": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+   },
+   {
+    "enonce": "Que signifie « Annulo cingitur », début de la solution latine de Huygens ?",
+    "bonne": "Il est entouré d'un anneau",
+    "faux": [
+     "Il est couvert de nuages",
+     "Il porte trois lunes",
+     "Il tourne en dix heures"
+    ],
+    "explication": "Codée en 1655, cette phrase ne fut dévoilée que trois ans plus tard.",
+    "source": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+   },
+   {
+    "enonce": "Quelle erreur Huygens commettait-il au sujet des anneaux de Saturne ?",
+    "bonne": "Il les croyait formés d'un seul disque solide",
+    "faux": [
+     "Il les plaçait autour de Jupiter",
+     "Il les croyait en feu",
+     "Il niait leur existence"
+    ],
+    "explication": "Il avait pourtant compris leur vraie forme et leur inclinaison.",
+    "source": "https://www.britannica.com/place/Saturn-planet/The-ring-system"
+   },
+   {
+    "enonce": "Dans quel ouvrage de 1659 Huygens exposa-t-il sa théorie de l'anneau ?",
+    "bonne": "Systema Saturnium",
+    "faux": [
+     "Sidereus Nuncius",
+     "Horologium Oscillatorium",
+     "Harmonices Mundi"
+    ],
+    "explication": "Il y annonçait aussi la découverte de Titan.",
+    "source": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+   },
+   {
+    "enonce": "Qu'a remarqué Robert Hooke sur les anneaux de Saturne ?",
+    "bonne": "Des ombres portées",
+    "faux": [
+     "Des aurores",
+     "Des éclairs",
+     "Des cratères"
+    ],
+    "explication": "Cassini y découvrit ensuite, en 1675, une grande division.",
+    "source": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+   },
+   {
+    "enonce": "Qu'a remis en cause la découverte de la division de Cassini, en 1675 ?",
+    "bonne": "L'idée d'un anneau solide",
+    "faux": [
+     "L'existence de Titan",
+     "La rotation de Saturne",
+     "L'orbite de Jupiter"
+    ],
+    "explication": "En 1789, Laplace proposa des anneaux faits de nombreux éléments plus petits.",
+    "source": "https://www.britannica.com/place/Saturn-planet/The-ring-system"
+   },
+   {
+    "enonce": "Comment James Keeler a-t-il confirmé en 1895 que les anneaux sont faits de particules ?",
+    "bonne": "Par la spectroscopie",
+    "faux": [
+     "Grâce à une sonde",
+     "Par un écho radar",
+     "Par une éclipse de Lune"
+    ],
+    "explication": "Il validait ainsi le raisonnement de Maxwell.",
+    "source": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+   },
+   {
+    "enonce": "À quelle distance des nuages de Saturne la sonde Pioneer 11 est-elle passée ?",
+    "bonne": "Environ 20 000 km",
+    "faux": [
+     "Environ 20 km",
+     "Environ 2 millions de km",
+     "Environ 200 millions de km"
+    ],
+    "explication": "Ce survol a eu lieu en septembre 1979.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Vers quelle planète la gravité de Saturne a-t-elle relancé Voyager 2 en 1981 ?",
+    "bonne": "Uranus",
+    "faux": [
+     "Jupiter",
+     "Mars",
+     "Pluton"
+    ],
+    "explication": "Voyager 1 avait livré l'année précédente les premières vues détaillées des anneaux.",
+    "source": "https://wikiwand.com/en/articles/Saturn"
+   },
+   {
+    "enonce": "Quelle fusée a lancé Cassini-Huygens le 15 octobre 1997 ?",
+    "bonne": "Une Titan IVB-Centaur",
+    "faux": [
+     "Une Ariane 5",
+     "Une Saturn V",
+     "Une Soyouz"
+    ],
+    "explication": "La sonde a décollé de Cap Canaveral, en Floride.",
+    "source": "https://www.astronomy.com/science/25-years-ago-cassini-huygens-launches-for-saturn/"
+   },
+   {
+    "enonce": "Quelle masse de plutonium Cassini emportait-elle pour produire son énergie ?",
+    "bonne": "Environ 33 kg",
+    "faux": [
+     "Environ 33 g",
+     "Environ 330 kg",
+     "Environ 3 tonnes"
+    ],
+    "explication": "Des militants antinucléaires redoutaient un accident près de la Terre.",
+    "source": "https://www.astronomy.com/science/25-years-ago-cassini-huygens-launches-for-saturn/"
+   },
+   {
+    "enonce": "Quelles planètes ont donné de l'élan à Cassini sur la route de Saturne ?",
+    "bonne": "Vénus deux fois, puis la Terre et Jupiter",
+    "faux": [
+     "Mars et Jupiter",
+     "Mercure et Vénus",
+     "Uranus et Neptune"
+    ],
+    "explication": "Elle a croisé Jupiter le 30 décembre 2000, à 10 millions de km.",
+    "source": "https://www.astronomy.com/science/25-years-ago-cassini-huygens-launches-for-saturn/"
+   },
+   {
+    "enonce": "Combien a coûté la mission Cassini-Huygens ?",
+    "bonne": "Environ 3,26 milliards de dollars",
+    "faux": [
+     "Environ 32 millions de dollars",
+     "Environ 326 millions de dollars",
+     "Environ 32,6 milliards de dollars"
+    ],
+    "explication": "Au lancement, la sonde pesait 5 712 kg, Huygens comprise.",
+    "source": "https://www.astronomy.com/science/25-years-ago-cassini-huygens-launches-for-saturn/"
+   },
+   {
+    "enonce": "Quelle agence spatiale était le troisième partenaire de Cassini, avec la NASA et l'ESA ?",
+    "bonne": "L'Agence spatiale italienne",
+    "faux": [
+     "Le CNES",
+     "La JAXA",
+     "Roscosmos"
+    ],
+    "explication": "La sonde mesurait 6,8 m de haut pour 4 m de large.",
+    "source": "https://www.astronomy.com/science/25-years-ago-cassini-huygens-launches-for-saturn/"
+   },
+   {
+    "enonce": "Combien de survols rapprochés de Titan Cassini a-t-elle réalisés ?",
+    "bonne": "127",
+    "faux": [
+     "3",
+     "12",
+     "1 270"
+    ],
+    "explication": "Le dernier, le 22 avril 2017, l'a lancée vers son Grand Final.",
+    "source": "https://www.esa.int/Science_Exploration/Space_Science/Cassini-Huygens/Countdown_to_Cassini_s_Grand_Finale"
+   },
+   {
+    "enonce": "Combien d'orbites comptait le Grand Final de Cassini ?",
+    "bonne": "22",
+    "faux": [
+     "2",
+     "7",
+     "220"
+    ],
+    "explication": "Chacune durait environ une semaine.",
+    "source": "https://www.esa.int/Science_Exploration/Space_Science/Cassini-Huygens/Countdown_to_Cassini_s_Grand_Finale"
+   },
+   {
+    "enonce": "Quelle largeur avait l'espace entre Saturne et ses anneaux, franchi par Cassini lors du Grand Final ?",
+    "bonne": "Environ 2 400 km",
+    "faux": [
+     "Environ 24 m",
+     "Environ 240 000 km",
+     "Environ 24 millions de km"
+    ],
+    "explication": "La sonde est passée à environ 1 600 km du sommet des nuages.",
+    "source": "https://science.nasa.gov/resource/cassini-by-the-numbers-the-grand-finale/"
+   },
+   {
+    "enonce": "Quelle vitesse maximale Cassini a-t-elle atteinte par rapport à Saturne pendant le Grand Final ?",
+    "bonne": "Environ 123 600 km/h",
+    "faux": [
+     "Environ 360 km/h",
+     "Environ 1 236 km/h",
+     "Environ 12 millions de km/h"
+    ],
+    "explication": "Elle a aussi traversé quatre fois l'anneau D, le plus proche de la planète.",
+    "source": "https://science.nasa.gov/resource/cassini-by-the-numbers-the-grand-finale/"
+   },
+   {
+    "enonce": "Combien de temps s'est écoulé entre l'entrée de Cassini dans l'atmosphère de Saturne et la perte du contact ?",
+    "bonne": "Environ une minute",
+    "faux": [
+     "Environ une heure",
+     "Environ un jour",
+     "Environ un an"
+    ],
+    "explication": "Ce plongeon final a eu lieu le 15 septembre 2017.",
+    "source": "https://science.nasa.gov/resource/cassini-by-the-numbers-the-grand-finale/"
+   },
+   {
+    "enonce": "Pourquoi a-t-on précipité Cassini dans Saturne ?",
+    "bonne": "Pour protéger les lunes peut-être habitables",
+    "faux": [
+     "Pour en faire un satellite de Titan",
+     "Pour ramener des échantillons",
+     "À cause d'une erreur de pilotage"
+    ],
+    "explication": "Il ne lui restait presque plus de carburant pour corriger sa route.",
+    "source": "https://www.esa.int/Science_Exploration/Space_Science/Cassini-Huygens/Countdown_to_Cassini_s_Grand_Finale"
+   },
+   {
+    "enonce": "Quelle part de son orbite Saturne a-t-elle parcourue pendant les 13 ans de Cassini sur place ?",
+    "bonne": "Environ la moitié",
+    "faux": [
+     "Environ un dixième",
+     "Environ un quart",
+     "Deux tours complets"
+    ],
+    "explication": "La sonde a ainsi pu suivre deux saisons sur Titan.",
+    "source": "https://www.esa.int/Science_Exploration/Space_Science/Cassini-Huygens/Countdown_to_Cassini_s_Grand_Finale"
+   }
+  ]
+ },
+ {
+  "id": "terre",
+  "relations": [
+   {
+    "modele": "Quel scientifique est associé à cette découverte : {x} ?",
+    "inverse": "Quelle découverte doit-on à {y} ?",
+    "explication": "{x} : c'est {y}.",
+    "paires": [
+     [
+      "la limite entre la croûte et le manteau, repérée en 1909 sous la Croatie",
+      "Andrija Mohorovičić",
+      "Cette frontière porte son nom, abrégé en « Moho ».",
+      "https://www.techno-science.net/fr/definitions/structure-interne-de-la-terre"
+     ],
+     [
+      "la frontière entre le manteau et le noyau, placée en 1912 vers 2 900 km de fond",
+      "Beno Gutenberg",
+      "Il s'appuyait sur le trajet des ondes sismiques P.",
+      "https://www.techno-science.net/fr/definitions/structure-interne-de-la-terre"
+     ],
+     [
+      "la graine, c'est-à-dire le noyau interne, en 1936",
+      "Inge Lehmann",
+      "Cette sismologue, née en 1888, est morte en 1993.",
+      "https://www.techno-science.net/fr/definitions/structure-interne-de-la-terre"
+     ],
+     [
+      "la nature fluide du noyau métallique, en 1926",
+      "Harold Jeffreys",
+      "La solidité de la graine n'a été démontrée qu'ensuite.",
+      "https://www.techno-science.net/fr/definitions/structure-interne-de-la-terre"
+     ],
+     [
+      "les premières roches volcaniques aimantées en sens inverse du champ local",
+      "Bernard Brunhes",
+      "Il a fait cette observation au début du XXe siècle.",
+      "https://wikiwand.com/en/Geomagnetic_reversal"
+     ],
+     [
+      "les premières preuves systématiques des inversions magnétiques, à la fin des années 1920",
+      "Motonori Matuyama",
+      "Il a vu que les roches aimantées à l'envers dataient toutes du début du Pléistocène ou d'avant.",
+      "https://wikiwand.com/en/Geomagnetic_reversal"
+     ]
+    ]
+   },
+   {
+    "modele": "Quel engin a réalisé {x} ?",
+    "inverse": "Quelle première image de la Terre doit-on à {y} ?",
+    "explication": "{x} : c'est {y}.",
+    "paires": [
+     [
+      "la première photo de la Terre prise depuis l'espace, le 24 octobre 1946",
+      "une fusée V-2",
+      "Filmées en continu, ces vues n'ont été publiées comme images de la Terre qu'en 1950.",
+      "https://en.wikipedia.org/wiki/Timeline_of_first_images_of_Earth_from_space"
+     ],
+     [
+      "la première image en couleurs prise depuis l'espace, le 5 octobre 1954",
+      "une fusée Aerobee",
+      "Elle faisait partie d'une mosaïque de 117 clichés pris à 160 km d'altitude.",
+      "https://en.wikipedia.org/wiki/Timeline_of_first_images_of_Earth_from_space"
+     ],
+     [
+      "la première image de la Terre prise depuis l'orbite, le 14 août 1959",
+      "le satellite Explorer 6",
+      "On y distinguait des nuages au-dessus du Pacifique central.",
+      "https://en.wikipedia.org/wiki/Timeline_of_first_images_of_Earth_from_space"
+     ],
+     [
+      "la première photo en couleurs du disque terrestre entier, en 1967",
+      "le satellite ATS-3",
+      "Ce cliché du 10 novembre 1967 a illustré le premier Whole Earth Catalog.",
+      "https://en.wikipedia.org/wiki/Timeline_of_first_images_of_Earth_from_space"
+     ],
+     [
+      "la première image de la Terre prise lors d'un survol interplanétaire, en décembre 1990",
+      "la sonde Galileo",
+      "Elle a été prise le 11 décembre 1990, lors d'un passage près de la Terre.",
+      "https://en.wikipedia.org/wiki/Timeline_of_first_images_of_Earth_from_space"
+     ],
+     [
+      "la première image de la Terre et de la Lune prise depuis l'orbite d'une autre planète, en 2003",
+      "la sonde Mars Global Surveyor",
+      "Elle l'a prise le 8 mai 2003, depuis l'orbite de Mars.",
+      "https://en.wikipedia.org/wiki/Timeline_of_first_images_of_Earth_from_space"
+     ],
+     [
+      "la première image de la Terre prise depuis le sol de Mars, en 2004",
+      "le rover Spirit",
+      "C'était aussi la première vue de la Terre depuis un astre autre que la Lune.",
+      "https://en.wikipedia.org/wiki/Timeline_of_first_images_of_Earth_from_space"
+     ],
+     [
+      "la première photo de la Terre prise depuis le voisinage de Saturne, en 2006",
+      "la sonde Cassini",
+      "On a surnommé ce cliché le « Pale Blue Orb », le globe bleu pâle.",
+      "https://en.wikipedia.org/wiki/Timeline_of_first_images_of_Earth_from_space"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Quelle part du volume terrestre le manteau occupe-t-il ?",
+    "bonne": "Environ 84 %",
+    "faux": [
+     "Environ 15 %",
+     "Environ 1 %",
+     "Environ 50 %"
+    ],
+    "explication": "Le noyau en occupe environ 15 % et la croûte à peine 1 %.",
+    "source": "https://www.techno-science.net/fr/definitions/structure-interne-de-la-terre"
+   },
+   {
+    "enonce": "Quelle épaisseur moyenne la croûte océanique a-t-elle ?",
+    "bonne": "Environ 5 km",
+    "faux": [
+     "Environ 50 km",
+     "Environ 500 m",
+     "Environ 300 km"
+    ],
+    "explication": "Faite de basalte, elle est bien plus mince que la croûte continentale.",
+    "source": "https://www.techno-science.net/fr/definitions/structure-interne-de-la-terre"
+   },
+   {
+    "enonce": "Jusqu'à quelle profondeur la croûte continentale descend-elle sous les grands massifs montagneux ?",
+    "bonne": "Environ 100 km",
+    "faux": [
+     "Environ 5 km",
+     "Environ 1 000 km",
+     "Environ 2 900 km"
+    ],
+    "explication": "Ailleurs, elle ne mesure souvent qu'une trentaine de kilomètres.",
+    "source": "https://www.techno-science.net/fr/definitions/structure-interne-de-la-terre"
+   },
+   {
+    "enonce": "Quel métal forme environ 80 % du noyau externe de la Terre ?",
+    "bonne": "Le fer",
+    "faux": [
+     "Le cuivre",
+     "L'aluminium",
+     "Le plomb"
+    ],
+    "explication": "Du nickel complète ce mélange métallique liquide.",
+    "source": "https://www.techno-science.net/fr/definitions/structure-interne-de-la-terre"
+   },
+   {
+    "enonce": "Dans quel état se trouve la graine, au cœur de la Terre ?",
+    "bonne": "Solide",
+    "faux": [
+     "Liquide",
+     "Gazeux",
+     "Pâteux"
+    ],
+    "explication": "Elle dépasse pourtant 5 000 °C, pour une densité d'environ 13.",
+    "source": "https://www.techno-science.net/fr/definitions/structure-interne-de-la-terre"
+   },
+   {
+    "enonce": "Quelle est la densité moyenne du globe terrestre ?",
+    "bonne": "Environ 5,5",
+    "faux": [
+     "Environ 1",
+     "Environ 2,7",
+     "Environ 13"
+    ],
+    "explication": "Aucune autre planète tellurique n'a une masse volumique globale aussi forte.",
+    "source": "https://www.techno-science.net/fr/definitions/terre"
+   },
+   {
+    "enonce": "À quelle profondeur commence le noyau de la Terre ?",
+    "bonne": "Environ 2 900 km",
+    "faux": [
+     "Environ 30 km",
+     "Environ 670 km",
+     "Environ 6 400 km"
+    ],
+    "explication": "Le noyau interne solide débute, lui, vers 5 100 km.",
+    "source": "https://en.wikipedia.org/wiki/Earth"
+   },
+   {
+    "enonce": "Quelle fraction du rayon terrestre le rayon de la graine représente-t-il environ ?",
+    "bonne": "Un cinquième",
+    "faux": [
+     "La moitié",
+     "Un centième",
+     "Les trois quarts"
+    ],
+    "explication": "Le noyau externe liquide s'étend d'environ 2 890 à 5 100 km de profondeur.",
+    "source": "https://en.wikipedia.org/wiki/Earth"
+   },
+   {
+    "enonce": "Quel type d'onde sismique ne se propage pas dans les liquides ?",
+    "bonne": "Les ondes S",
+    "faux": [
+     "Les ondes P",
+     "Toutes les ondes sismiques",
+     "Aucune onde sismique"
+    ],
+    "explication": "Ces ondes de cisaillement sont aussi plus lentes que les ondes P.",
+    "source": "https://www.techno-science.net/fr/definitions/structure-interne-de-la-terre"
+   },
+   {
+    "enonce": "Quelles ondes sismiques traversent aussi bien les solides que les liquides et les gaz ?",
+    "bonne": "Les ondes P",
+    "faux": [
+     "Les ondes S",
+     "Les ondes de Love",
+     "Aucune onde sismique"
+    ],
+    "explication": "Ces ondes de compression sont les plus rapides.",
+    "source": "https://www.techno-science.net/fr/definitions/structure-interne-de-la-terre"
+   },
+   {
+    "enonce": "De combien la température monte-t-elle environ quand on descend dans une mine ?",
+    "bonne": "D'environ 1 °C tous les 25 m",
+    "faux": [
+     "D'environ 1 °C tous les 2 km",
+     "D'environ 10 °C par mètre",
+     "Elle ne change pas"
+    ],
+    "explication": "Vers 10 km de profondeur, les roches atteignent déjà environ 300 °C.",
+    "source": "https://www.techno-science.net/fr/definitions/structure-interne-de-la-terre"
+   },
+   {
+    "enonce": "Quel forage russe a dépassé 12 km de profondeur dans la croûte terrestre ?",
+    "bonne": "Le forage de Kola",
+    "faux": [
+     "Le forage du KTB",
+     "Le puits de Lacq",
+     "Le forage de Larderello"
+    ],
+    "explication": "Le forage allemand KTB s'est arrêté vers 9 800 m.",
+    "source": "https://www.techno-science.net/fr/definitions/structure-interne-de-la-terre"
+   },
+   {
+    "enonce": "Quelle pression peut régner au centre de la Terre ?",
+    "bonne": "Environ 360 gigapascals",
+    "faux": [
+     "Environ 1 bar",
+     "Environ 360 pascals",
+     "Environ 360 mégapascals"
+    ],
+    "explication": "La température y atteindrait jusqu'à 6 000 °C.",
+    "source": "https://en.wikipedia.org/wiki/Earth"
+   },
+   {
+    "enonce": "Quelle puissance la Terre perd-elle sous forme de chaleur interne ?",
+    "bonne": "Environ 44 térawatts",
+    "faux": [
+     "Environ 44 watts",
+     "Environ 44 mégawatts",
+     "Environ 44 000 térawatts"
+    ],
+    "explication": "Cela représente en moyenne 87 milliwatts par mètre carré.",
+    "source": "https://en.wikipedia.org/wiki/Earth"
+   },
+   {
+    "enonce": "De combien le diamètre équatorial de la Terre dépasse-t-il son diamètre polaire ?",
+    "bonne": "D'environ 43 km",
+    "faux": [
+     "D'environ 4 m",
+     "D'environ 430 km",
+     "Ils sont identiques"
+    ],
+    "explication": "La Terre se modélise par un ellipsoïde légèrement aplati aux pôles.",
+    "source": "https://www.techno-science.net/fr/definitions/terre"
+   },
+   {
+    "enonce": "Quel est le rayon polaire de la Terre ?",
+    "bonne": "Environ 6 357 km",
+    "faux": [
+     "Environ 6 378 km",
+     "Environ 3 200 km",
+     "Environ 12 700 km"
+    ],
+    "explication": "Le rayon équatorial, lui, atteint environ 6 378 km.",
+    "source": "https://en.wikipedia.org/wiki/Earth"
+   },
+   {
+    "enonce": "Quelle surface de référence, plus fidèle que l'ellipsoïde, décrit la forme de la Terre ?",
+    "bonne": "Le géoïde",
+    "faux": [
+     "Le paraboloïde",
+     "Le tore",
+     "L'hyperboloïde"
+    ],
+    "explication": "L'ellipsoïde sert de modèle simple, le géoïde de modèle plus précis.",
+    "source": "https://www.techno-science.net/fr/definitions/terre"
+   },
+   {
+    "enonce": "Quelle est la masse de la Terre ?",
+    "bonne": "Environ 6 × 10²⁴ kg",
+    "faux": [
+     "Environ 6 × 10¹⁸ kg",
+     "Environ 6 × 10³⁰ kg",
+     "Environ 6 × 10¹² kg"
+    ],
+    "explication": "C'est la plus massive des quatre planètes telluriques.",
+    "source": "https://www.techno-science.net/fr/definitions/terre"
+   },
+   {
+    "enonce": "Jusqu'à quelle distance s'étend la sphère de Hill de la Terre, où sa gravité l'emporte sur celle du Soleil ?",
+    "bonne": "Environ 1,5 million de km",
+    "faux": [
+     "Environ 36 000 km",
+     "Environ 400 000 km",
+     "Environ 150 millions de km"
+    ],
+    "explication": "Cela fait environ 930 000 milles.",
+    "source": "https://en.wikipedia.org/wiki/Earth"
+   },
+   {
+    "enonce": "Quel nom latin de la Terre s'emploie surtout en poésie ?",
+    "bonne": "Tellus",
+    "faux": [
+     "Terra",
+     "Luna",
+     "Sol"
+    ],
+    "explication": "Terra sert plutôt dans les écrits scientifiques et la science-fiction.",
+    "source": "https://en.wikipedia.org/wiki/Earth"
+   },
+   {
+    "enonce": "Quel nom poétique venu du grec désigne parfois la Terre ?",
+    "bonne": "Gaïa",
+    "faux": [
+     "Séléné",
+     "Hestia",
+     "Éos"
+    ],
+    "explication": "Les Romains, eux, parlaient de Tellus dans leurs poèmes.",
+    "source": "https://en.wikipedia.org/wiki/Earth"
+   },
+   {
+    "enonce": "De combien la durée du jour s'allonge-t-elle en moyenne par siècle ?",
+    "bonne": "D'environ 2 millisecondes",
+    "faux": [
+     "D'environ 2 secondes",
+     "D'environ 2 minutes",
+     "D'environ 2 heures"
+    ],
+    "explication": "Un jour donné peut durer jusqu'à 2 ms de plus que le jour solaire moyen.",
+    "source": "https://en.wikipedia.org/wiki/Earth"
+   },
+   {
+    "enonce": "Quel jour de 2020 a battu le record du jour le plus court mesuré jusque-là ?",
+    "bonne": "Le 19 juillet",
+    "faux": [
+     "Le 1er janvier",
+     "Le 21 juin",
+     "Le 25 décembre"
+    ],
+    "explication": "Il a duré 1,4602 milliseconde de moins que 86 400 secondes.",
+    "source": "https://www.timeanddate.com/time/earth-faster-rotation.html"
+   },
+   {
+    "enonce": "Combien de fois l'année 2020 a-t-elle battu l'ancien record du jour le plus court ?",
+    "bonne": "28 fois",
+    "faux": [
+     "Une seule fois",
+     "3 fois",
+     "365 fois"
+    ],
+    "explication": "L'ancien record datait du 5 juillet 2005.",
+    "source": "https://www.timeanddate.com/time/earth-faster-rotation.html"
+   },
+   {
+    "enonce": "Selon timeanddate, qu'est-ce qui fait varier la vitesse de rotation de la Terre ?",
+    "bonne": "Les mouvements du noyau fondu, des océans et de l'atmosphère",
+    "faux": [
+     "Les éruptions solaires",
+     "Le passage des comètes",
+     "Les phases de Vénus"
+    ],
+    "explication": "Une accélération durable pourrait un jour imposer une seconde intercalaire négative.",
+    "source": "https://www.timeanddate.com/time/earth-faster-rotation.html"
+   },
+   {
+    "enonce": "Quel géochimiste américain a fixé en 1956 l'âge de la Terre à 4,55 milliards d'années ?",
+    "bonne": "Clair Patterson",
+    "faux": [
+     "Arthur Holmes",
+     "Ernest Rutherford",
+     "Harold Urey"
+    ],
+    "explication": "Il travaillait au California Institute of Technology depuis 1952.",
+    "source": "https://www.lindahall.org/about/news/scientist-of-the-day/clair-patterson"
+   },
+   {
+    "enonce": "Quelle météorite Clair Patterson a-t-il analysée pour dater la Terre ?",
+    "bonne": "Canyon Diablo",
+    "faux": [
+     "Allende",
+     "Murchison",
+     "Hoba"
+    ],
+    "explication": "Il jugeait que les plus vieilles météorites étaient nées en même temps que la Terre.",
+    "source": "https://www.lindahall.org/about/news/scientist-of-the-day/clair-patterson"
+   },
+   {
+    "enonce": "Pourquoi Patterson a-t-il daté des météorites plutôt que des roches terrestres ?",
+    "bonne": "Les plus vieilles roches terrestres sont plus jeunes que la Terre",
+    "faux": [
+     "Les roches terrestres ne contiennent pas d'uranium",
+     "Les météorites sont plus faciles à ramasser",
+     "Les géologues lui refusaient l'accès aux roches"
+    ],
+    "explication": "Sa mesure de 1956 avait une marge d'erreur de 70 millions d'années.",
+    "source": "https://www.lindahall.org/about/news/scientist-of-the-day/clair-patterson"
+   },
+   {
+    "enonce": "Quel élément, issu de la désintégration de l'uranium, Patterson mesurait-il pour dater la Terre ?",
+    "bonne": "Le plomb",
+    "faux": [
+     "Le carbone",
+     "Le fer",
+     "Le sodium"
+    ],
+    "explication": "Il a ensuite lutté contre le plomb rejeté par l'essence.",
+    "source": "https://www.lindahall.org/about/news/scientist-of-the-day/clair-patterson"
+   },
+   {
+    "enonce": "Quel âge de la Terre Lord Kelvin proposait-il en 1864 ?",
+    "bonne": "Entre 20 et 400 millions d'années",
+    "faux": [
+     "Environ 6 000 ans",
+     "Environ 4,5 milliards d'années",
+     "Un âge infini"
+    ],
+    "explication": "La datation radioactive a ensuite montré qu'elle a des milliards d'années.",
+    "source": "https://en.wikipedia.org/wiki/Earth"
+   },
+   {
+    "enonce": "Quel âge atteignent les plus vieux grains de zircon trouvés en Australie-Occidentale ?",
+    "bonne": "Environ 4,4 milliards d'années",
+    "faux": [
+     "Environ 440 millions d'années",
+     "Environ 13,8 milliards d'années",
+     "Environ 44 000 ans"
+    ],
+    "explication": "Ces minéraux remontent à l'Hadéen, le premier éon de l'histoire terrestre.",
+    "source": "https://en.wikipedia.org/wiki/Earth"
+   },
+   {
+    "enonce": "Quel âge a le plus vieux fond océanique connu ?",
+    "bonne": "Environ 200 millions d'années",
+    "faux": [
+     "Environ 4 milliards d'années",
+     "Environ 2 000 ans",
+     "Environ 2 milliards d'années"
+    ],
+    "explication": "La plus grande partie du plancher océanique a moins de 100 millions d'années.",
+    "source": "https://en.wikipedia.org/wiki/Earth"
+   },
+   {
+    "enonce": "Quel âge a la plus vieille croûte continentale datée ?",
+    "bonne": "Environ 4 milliards d'années",
+    "faux": [
+     "Environ 400 millions d'années",
+     "Environ 40 millions d'années",
+     "Environ 13 milliards d'années"
+    ],
+    "explication": "Les mesures donnent environ 4 030 millions d'années.",
+    "source": "https://en.wikipedia.org/wiki/Earth"
+   },
+   {
+    "enonce": "Quand la Grande Oxydation de l'atmosphère a-t-elle commencé ?",
+    "bonne": "Il y a environ 2,4 milliards d'années",
+    "faux": [
+     "Il y a environ 66 millions d'années",
+     "Il y a environ 540 millions d'années",
+     "Il y a environ 4,5 milliards d'années"
+    ],
+    "explication": "Elle s'est achevée il y a environ 2,06 milliards d'années.",
+    "source": "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
+   },
+   {
+    "enonce": "Sous quel autre nom connaît-on la Grande Oxydation ?",
+    "bonne": "La catastrophe de l'oxygène",
+    "faux": [
+     "Le grand bombardement tardif",
+     "L'explosion cambrienne",
+     "La grande extinction du Permien"
+    ],
+    "explication": "On parle aussi de révolution ou de crise de l'oxygène.",
+    "source": "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
+   },
+   {
+    "enonce": "Quelles roches, presque toutes plus vieilles que 1,85 milliard d'années, témoignent de la Grande Oxydation ?",
+    "bonne": "Les formations de fer rubané",
+    "faux": [
+     "Les craies",
+     "Les calcaires coralliens",
+     "Les basaltes des dorsales"
+    ],
+    "explication": "Les grès rouges, enrobés d'hématite, en sont un autre indice.",
+    "source": "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
+   },
+   {
+    "enonce": "Quelle glaciation la Grande Oxydation aurait-elle déclenchée en détruisant le méthane de l'air ?",
+    "bonne": "La glaciation huronienne",
+    "faux": [
+     "La glaciation de Würm",
+     "Le petit âge glaciaire",
+     "La glaciation de Riss"
+    ],
+    "explication": "Cette période froide s'étend d'environ 2,45 à 2,22 milliards d'années.",
+    "source": "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
+   },
+   {
+    "enonce": "Quel taux d'oxygène l'air contenait-il avant la Grande Oxydation, comparé à aujourd'hui ?",
+    "bonne": "Environ 0,001 %",
+    "faux": [
+     "Environ 10 %",
+     "Environ 50 %",
+     "Le double"
+    ],
+    "explication": "Les mitochondries sont apparues après cet événement.",
+    "source": "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
+   },
+   {
+    "enonce": "Quel second grand essor de l'oxygène la Terre a-t-elle connu il y a 850 à 540 millions d'années ?",
+    "bonne": "L'oxygénation du Néoprotérozoïque",
+    "faux": [
+     "L'événement de Laschamp",
+     "Le superchron du Crétacé",
+     "L'extinction du Permien"
+    ],
+    "explication": "Le premier essor, la Grande Oxydation, avait eu lieu environ 1,5 milliard d'années plus tôt.",
+    "source": "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
+   },
+   {
+    "enonce": "Quelle hypothèse décrit une Terre presque entièrement gelée au Néoprotérozoïque ?",
+    "bonne": "La Terre boule de neige",
+    "faux": [
+     "La Terre creuse",
+     "La Terre plate",
+     "La Terre de feu"
+    ],
+    "explication": "Ces glaciations se seraient produites entre 750 et 580 millions d'années.",
+    "source": "https://www.techno-science.net/fr/definitions/terre"
+   },
+   {
+    "enonce": "Quel supercontinent a commencé à se disloquer il y a environ 750 millions d'années ?",
+    "bonne": "La Rodinia",
+    "faux": [
+     "La Pangée",
+     "Le Gondwana",
+     "La Laurasia"
+    ],
+    "explication": "La surface terrestre se renouvelle sans cesse au fil des âges.",
+    "source": "https://www.techno-science.net/fr/definitions/terre"
+   },
+   {
+    "enonce": "Comment s'appelle la dernière inversion complète du champ magnétique terrestre ?",
+    "bonne": "Brunhes-Matuyama",
+    "faux": [
+     "Laschamp",
+     "Kiaman",
+     "Gutenberg"
+    ],
+    "explication": "Elle s'est produite il y a environ 781 000 ans.",
+    "source": "https://www.wikiwand.com/en/articles/Brunhes–Matuyama_reversal"
+   },
+   {
+    "enonce": "Quel étage géologique, nommé d'après un site japonais, commence avec l'inversion de Brunhes-Matuyama ?",
+    "bonne": "Le Chibanien",
+    "faux": [
+     "Le Calabrien",
+     "Le Tortonien",
+     "Le Danien"
+    ],
+    "explication": "Son point de référence, à Chiba, a été ratifié en 2020.",
+    "source": "https://www.wikiwand.com/en/articles/Brunhes–Matuyama_reversal"
+   },
+   {
+    "enonce": "Combien de temps aurait duré l'inversion de Brunhes-Matuyama, selon une étude de 2019 ?",
+    "bonne": "Environ 22 000 ans",
+    "faux": [
+     "Environ 22 jours",
+     "Environ 22 ans",
+     "Environ 2,2 millions d'années"
+    ],
+    "explication": "Une étude de 2010 la jugeait bien plus rapide, peut-être le temps d'une vie humaine.",
+    "source": "https://www.wikiwand.com/en/articles/Brunhes–Matuyama_reversal"
+   },
+   {
+    "enonce": "Combien de temps dure le plus souvent la transition d'une inversion magnétique ?",
+    "bonne": "Entre 1 000 et 10 000 ans",
+    "faux": [
+     "Quelques heures",
+     "Environ un an",
+     "Plus de 10 millions d'années"
+    ],
+    "explication": "Les inversions se produisent de façon statistiquement aléatoire.",
+    "source": "https://wikiwand.com/en/Geomagnetic_reversal"
+   },
+   {
+    "enonce": "Combien d'inversions du champ magnétique a-t-on comptées sur les 83 derniers millions d'années ?",
+    "bonne": "Au moins 183",
+    "faux": [
+     "Aucune",
+     "Exactement deux",
+     "Plus de 100 000"
+    ],
+    "explication": "Cela fait en moyenne une inversion tous les 450 000 ans environ.",
+    "source": "https://wikiwand.com/en/Geomagnetic_reversal"
+   },
+   {
+    "enonce": "Combien de temps a duré le superchron du Crétacé, sans aucune inversion magnétique ?",
+    "bonne": "Près de 40 millions d'années",
+    "faux": [
+     "Environ 40 ans",
+     "Environ 4 000 ans",
+     "Environ 400 millions d'années"
+    ],
+    "explication": "Il s'étend d'il y a environ 120 millions d'années à il y a 83 millions d'années.",
+    "source": "https://wikiwand.com/en/Geomagnetic_reversal"
+   },
+   {
+    "enonce": "D'où vient le nom du superchron Kiaman, longue période sans inversion de la fin du Paléozoïque ?",
+    "bonne": "D'une ville d'Australie",
+    "faux": [
+     "D'un volcan islandais",
+     "D'un physicien japonais",
+     "D'une île grecque"
+    ],
+    "explication": "Les premiers indices en ont été trouvés en 1925 à Kiama.",
+    "source": "https://wikiwand.com/en/Geomagnetic_reversal"
+   },
+   {
+    "enonce": "Quels motifs les inversions magnétiques ont-elles inscrits de part et d'autre des dorsales océaniques ?",
+    "bonne": "Des bandes parallèles à la dorsale",
+    "faux": [
+     "Des cercles autour des volcans",
+     "Des spirales",
+     "Aucun motif particulier"
+    ],
+    "explication": "Vine et Matthews y ont vu la trace de l'expansion des fonds océaniques.",
+    "source": "https://wikiwand.com/en/Geomagnetic_reversal"
+   },
+   {
+    "enonce": "Que montrent les statistiques sur un lien entre inversions magnétiques et extinctions ?",
+    "bonne": "Aucune corrélation",
+    "faux": [
+     "Chaque inversion cause une extinction",
+     "Les extinctions annoncent les inversions",
+     "Les dinosaures ont disparu pendant une inversion"
+    ],
+    "explication": "Un champ très affaibli laisserait toutefois passer davantage de rayonnements.",
+    "source": "https://wikiwand.com/en/Geomagnetic_reversal"
+   },
+   {
+    "enonce": "Quels chercheurs ont reproduit par ordinateur une inversion du champ magnétique terrestre ?",
+    "bonne": "Glatzmaier et Roberts",
+    "faux": [
+     "Watson et Crick",
+     "Penzias et Wilson",
+     "Michelson et Morley"
+    ],
+    "explication": "Leur simulation couvrait plus de 40 000 ans.",
+    "source": "https://wikiwand.com/en/Geomagnetic_reversal"
+   },
+   {
+    "enonce": "Près de quelle ville française a-t-on découvert la première excursion géomagnétique connue ?",
+    "bonne": "Clermont-Ferrand",
+    "faux": [
+     "Brest",
+     "Strasbourg",
+     "Nice"
+    ],
+    "explication": "Elle porte le nom du village de Laschamps, à Saint-Genès-Champanelle.",
+    "source": "https://en.wikipedia.org/wiki/Laschamp_event"
+   },
+   {
+    "enonce": "Il y a combien de temps l'événement de Laschamp s'est-il produit ?",
+    "bonne": "Environ 42 000 ans",
+    "faux": [
+     "Environ 420 ans",
+     "Environ 4 200 ans",
+     "Environ 4,2 millions d'années"
+    ],
+    "explication": "C'était pendant la dernière période glaciaire.",
+    "source": "https://en.wikipedia.org/wiki/Laschamp_event"
+   },
+   {
+    "enonce": "Pourquoi surnomme-t-on l'événement de Laschamp « événement Adams » ?",
+    "bonne": "En hommage à Douglas Adams et au nombre 42",
+    "faux": [
+     "En l'honneur de l'astronome John Couch Adams",
+     "D'après un volcan nommé Adams",
+     "D'après le nom de son découvreur"
+    ],
+    "explication": "Dans « Le Guide du voyageur galactique », 42 est la réponse à la grande question.",
+    "source": "https://en.wikipedia.org/wiki/Laschamp_event"
+   },
+   {
+    "enonce": "À quelle part de sa force actuelle le champ magnétique est-il tombé lors de l'événement de Laschamp ?",
+    "bonne": "Environ 5 %",
+    "faux": [
+     "Environ 50 %",
+     "Environ 95 %",
+     "Le double"
+    ],
+    "explication": "Le champ est ensuite resté inversé environ 440 ans.",
+    "source": "https://en.wikipedia.org/wiki/Laschamp_event"
+   },
+   {
+    "enonce": "Quel vestige, trouvé en Nouvelle-Zélande en 2019, a enregistré l'événement de Laschamp ?",
+    "bonne": "Un kauri fossilisé",
+    "faux": [
+     "Une momie",
+     "Un squelette de moa",
+     "Une carotte de glace"
+    ],
+    "explication": "Cet arbre a vécu d'environ 42 500 à 41 000 ans avant nos jours.",
+    "source": "https://en.wikipedia.org/wiki/Laschamp_event"
+   },
+   {
+    "enonce": "Quels isotopes produits par les rayons cosmiques ont augmenté lors de l'événement de Laschamp ?",
+    "bonne": "Le béryllium 10 et le carbone 14",
+    "faux": [
+     "L'uranium 235 et le plutonium 239",
+     "Le deutérium et le tritium",
+     "Le fer 56 et le nickel 58"
+    ],
+    "explication": "Le champ affaibli laissait entrer davantage de rayons cosmiques.",
+    "source": "https://en.wikipedia.org/wiki/Laschamp_event"
+   },
+   {
+    "enonce": "Comment évolue le moment magnétique de la Terre depuis un siècle ?",
+    "bonne": "Il baisse de près de 6 % par siècle",
+    "faux": [
+     "Il double chaque siècle",
+     "Il monte de 6 % par siècle",
+     "Il reste parfaitement stable"
+    ],
+    "explication": "Les inversions surviennent en moyenne quelques fois par million d'années.",
+    "source": "https://en.wikipedia.org/wiki/Earth"
+   },
+   {
+    "enonce": "Jusqu'à quelle distance le vent solaire comprime-t-il la magnétosphère, du côté jour ?",
+    "bonne": "Environ 10 rayons terrestres",
+    "faux": [
+     "Environ 10 km",
+     "Jusqu'à la Lune",
+     "Environ 1 000 rayons terrestres"
+    ],
+    "explication": "À l'équateur magnétique, le champ vaut environ 30 microteslas.",
+    "source": "https://en.wikipedia.org/wiki/Earth"
+   },
+   {
+    "enonce": "Entre quelles altitudes s'étend la ceinture de Van Allen intérieure ?",
+    "bonne": "D'environ 1 000 à plus de 5 000 km",
+    "faux": [
+     "De 10 à 50 km",
+     "De 100 000 à 200 000 km",
+     "De 380 000 à 400 000 km"
+    ],
+    "explication": "Ses particules proviennent surtout des rayons cosmiques.",
+    "source": "https://www.ebsco.com/research-starters/history/van-allen-radiation-belts"
+   },
+   {
+    "enonce": "Entre quelles altitudes se trouve la ceinture de Van Allen extérieure ?",
+    "bonne": "D'environ 15 000 à 25 000 km",
+    "faux": [
+     "De 100 à 200 km",
+     "De 1 à 2 millions de km",
+     "De 400 000 à 500 000 km"
+    ],
+    "explication": "Elle renferme surtout des particules venues du Soleil.",
+    "source": "https://www.ebsco.com/research-starters/history/van-allen-radiation-belts"
+   },
+   {
+    "enonce": "Quels collaborateurs ont aidé James Van Allen à découvrir les ceintures de radiations ?",
+    "bonne": "George Ludwig, Carl McIlwain et Ernest Ray",
+    "faux": [
+     "Wernher von Braun, Hermann Oberth et Robert Goddard",
+     "Neil Armstrong, Buzz Aldrin et Michael Collins",
+     "Carl Sagan, Frank Drake et Philip Morrison"
+    ],
+    "explication": "Ils travaillaient pendant l'Année géophysique internationale de 1957-1958.",
+    "source": "https://www.ebsco.com/research-starters/history/van-allen-radiation-belts"
+   },
+   {
+    "enonce": "Quel essai nucléaire américain de 1962 a créé une ceinture de radiations artificielle ?",
+    "bonne": "Starfish",
+    "faux": [
+     "Trinity",
+     "Castle Bravo",
+     "Ivy Mike"
+    ],
+    "explication": "Cette ceinture était bien plus large que celle des tirs Argus.",
+    "source": "https://www.ebsco.com/research-starters/history/van-allen-radiation-belts"
+   },
+   {
+    "enonce": "À quelle distance s'est formée la ceinture d'électrons née des explosions nucléaires Argus ?",
+    "bonne": "À deux rayons terrestres",
+    "faux": [
+     "À 10 km d'altitude",
+     "Au niveau de la Lune",
+     "À cent rayons terrestres"
+    ],
+    "explication": "Le projet Argus était mené par l'agence américaine ARPA.",
+    "source": "https://www.ebsco.com/research-starters/history/van-allen-radiation-belts"
+   },
+   {
+    "enonce": "Quelle mission de la NASA a étudié les ceintures de radiations de 2012 à 2019 ?",
+    "bonne": "Les sondes Van Allen",
+    "faux": [
+     "Les sondes Voyager",
+     "Les sondes Pioneer",
+     "Les sondes Viking"
+    ],
+    "explication": "On a aussi décrit une troisième ceinture, alimentée par les orages magnétiques.",
+    "source": "https://www.ebsco.com/research-starters/history/van-allen-radiation-belts"
+   },
+   {
+    "enonce": "Pourquoi les ceintures de Van Allen n'ont-elles guère menacé les équipages d'Apollo ?",
+    "bonne": "Ils les ont traversées rapidement",
+    "faux": [
+     "Elles disparaissent la nuit",
+     "Leurs combinaisons étaient en plomb",
+     "Elles n'existent qu'au-dessus des pôles"
+    ],
+    "explication": "Elles perturbent en revanche l'électronique et les liaisons radio des satellites.",
+    "source": "https://www.ebsco.com/research-starters/history/van-allen-radiation-belts"
+   },
+   {
+    "enonce": "Quel astéroïde a été le premier troyen de la Terre découvert ?",
+    "bonne": "2010 TK7",
+    "faux": [
+     "Apophis",
+     "Éros",
+     "Bennu"
+    ],
+    "explication": "Le satellite infrarouge WISE l'a repéré le 1er octobre 2010.",
+    "source": "https://en.wikipedia.org/wiki/Earth_trojan"
+   },
+   {
+    "enonce": "Combien mesure 2020 XL5, deuxième troyen connu de la Terre ?",
+    "bonne": "Environ 1,2 km",
+    "faux": [
+     "Environ 12 m",
+     "Environ 120 km",
+     "Environ 1 200 km"
+    ],
+    "explication": "Le relevé Pan-STARRS l'a découvert le 12 décembre 2020.",
+    "source": "https://en.wikipedia.org/wiki/Earth_trojan"
+   },
+   {
+    "enonce": "Où se trouvent les astéroïdes troyens de la Terre ?",
+    "bonne": "Près des points de Lagrange L4 et L5",
+    "faux": [
+     "Dans la ceinture principale",
+     "Autour de la Lune",
+     "Au-delà de Neptune"
+    ],
+    "explication": "Ces points précèdent ou suivent la Terre de 60° sur son orbite.",
+    "source": "https://en.wikipedia.org/wiki/Earth_trojan"
+   },
+   {
+    "enonce": "Quelle sonde a cherché des troyens de la Terre en 2017, en route vers l'astéroïde Bennu ?",
+    "bonne": "OSIRIS-REx",
+    "faux": [
+     "Rosetta",
+     "Dawn",
+     "New Horizons"
+    ],
+    "explication": "La sonde japonaise Hayabusa2 a fouillé le point L5 en route vers Ryugu.",
+    "source": "https://en.wikipedia.org/wiki/Earth_trojan"
+   },
+   {
+    "enonce": "Quel astéroïde compte parmi les compagnons co-orbitaux de la Terre ?",
+    "bonne": "(3753) Cruithne",
+    "faux": [
+     "Cérès",
+     "Vesta",
+     "Pallas"
+    ],
+    "explication": "La Terre possède aussi des quasi-satellites, comme 2001 GO2.",
+    "source": "https://www.techno-science.net/fr/definitions/terre"
+   },
+   {
+    "enonce": "Quel astronaute d'Artemis II a photographié la Terre entière en avril 2026, cliché baptisé « Hello, World » ?",
+    "bonne": "Reid Wiseman",
+    "faux": [
+     "Victor Glover",
+     "Jeremy Hansen",
+     "Christina Koch"
+    ],
+    "explication": "Aucun humain n'avait publié de photo du disque terrestre entier depuis 1972.",
+    "source": "https://en.wikipedia.org/wiki/Timeline_of_first_images_of_Earth_from_space"
+   },
+   {
+    "enonce": "Quel nom porte la photo de la Terre et de la Lune prise par Christina Koch en avril 2026 ?",
+    "bonne": "« Earthset »",
+    "faux": [
+     "« Earthrise »",
+     "« Blue Marble »",
+     "« Pale Blue Dot »"
+    ],
+    "explication": "Elle a été prise à des milliers de kilomètres au-delà de la Lune.",
+    "source": "https://en.wikipedia.org/wiki/Timeline_of_first_images_of_Earth_from_space"
+   }
+  ]
+ },
+ {
+  "id": "venus",
+  "relations": [
+   {
+    "modele": "Comment {x} appelaient-ils Vénus ?",
+    "inverse": "Qui appelait Vénus {y} ?",
+    "explication": "{x} : {y}.",
+    "paires": [
+     [
+      "les Grecs, quand elle brillait à l'aube",
+      "Phosphoros",
+      "Vénus ne s'écarte jamais beaucoup du Soleil : elle se montre à l'aube ou au soir.",
+      "https://en.wikipedia.org/wiki/Venus"
+     ],
+     [
+      "les Grecs, quand elle brillait au crépuscule",
+      "Hesperos",
+      "Vénus brille alors à l'ouest, après le coucher du Soleil.",
+      "https://en.wikipedia.org/wiki/Venus"
+     ],
+     [
+      "les Romains, quand elle brillait le soir",
+      "Vesper",
+      "C'est l'astre du soir, quand Vénus suit le Soleil.",
+      "https://en.wikipedia.org/wiki/Venus"
+     ],
+     [
+      "les Romains, quand elle brillait le matin",
+      "Lucifer",
+      "C'est l'équivalent latin du nom grec de l'astre du matin.",
+      "https://en.wikipedia.org/wiki/Venus"
+     ],
+     [
+      "les Babyloniens",
+      "Dilbat",
+      "Ils l'associaient à la grande déesse Ishtar.",
+      "https://en.wikipedia.org/wiki/Venus"
+     ],
+     [
+      "les poètes de langue vieil-anglaise",
+      "Ēarendel",
+      "Ce nom appartient au vocabulaire poétique du vieil anglais.",
+      "https://en.wikipedia.org/wiki/Venus"
+     ]
+    ]
+   },
+   {
+    "modele": "Quel nom porte {x} de Vénus ?",
+    "inverse": "Que désigne {y} sur Vénus ?",
+    "explication": "{x} : {y}.",
+    "paires": [
+     [
+      "le plus haut massif montagneux",
+      "Maxwell Montes",
+      "Il s'élève à environ 11 km au-dessus du niveau moyen.",
+      "https://en.wikipedia.org/wiki/Maxwell_Montes"
+     ],
+     [
+      "le haut plateau du nord, grand comme l'Australie",
+      "Ishtar Terra",
+      "Il abrite Maxwell Montes, le point culminant de la planète.",
+      "https://en.wikipedia.org/wiki/Venus"
+     ],
+     [
+      "la grande région élevée du sud, vaste comme l'Amérique du Sud",
+      "Aphrodite Terra",
+      "C'est le plus étendu des deux grands « continents » vénusiens.",
+      "https://en.wikipedia.org/wiki/Venus"
+     ],
+     [
+      "le plateau de 2 500 km de diamètre niché dans Ishtar Terra",
+      "Lakshmi Planum",
+      "Il domine les plaines voisines de 3 000 à 4 000 m.",
+      "https://www.techno-science.net/fr/definitions/venus-planete"
+     ],
+     [
+      "le grand cratère à anneaux multiples d'environ 270 km",
+      "Mead",
+      "Il honore l'anthropologue Margaret Mead.",
+      "https://en.wikipedia.org/wiki/Mead_(crater)"
+     ],
+     [
+      "la région montagneuse visée par la future sonde DAVINCI",
+      "Alpha Regio",
+      "La NASA la dit deux fois plus vaste que le Texas.",
+      "https://www.nasa.gov/centers-and-facilities/goddard/nasas-davinci-mission-to-take-the-plunge-through-massive-atmosphere-of-venus"
+     ]
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "enonce": "Que représenterait le symbole astronomique ♀ de Vénus ?",
+    "bonne": "Le miroir de la déesse",
+    "faux": [
+     "Une pomme d'or",
+     "Une colombe",
+     "Un coquillage"
+    ],
+    "explication": "Vénus est la déesse romaine de l'amour, l'Aphrodite des Grecs.",
+    "source": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "enonce": "À quel métal les alchimistes associaient-ils le symbole de Vénus ?",
+    "bonne": "Le cuivre",
+    "faux": [
+     "Le plomb",
+     "L'or",
+     "Le fer"
+    ],
+    "explication": "Ce signe est un cercle posé sur une petite croix.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "À quelle grande déesse de Mésopotamie Vénus était-elle associée ?",
+    "bonne": "Ishtar, ou Inanna",
+    "faux": [
+     "Tiamat",
+     "Ninhursag",
+     "Ereshkigal"
+    ],
+    "explication": "Les Babyloniens l'observaient déjà à l'âge du bronze.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "À quel dieu nahua, double de Quetzalcoatl, Vénus était-elle assimilée ?",
+    "bonne": "Tlahuizcalpantecuhtli",
+    "faux": [
+     "Tezcatlipoca",
+     "Tlaloc",
+     "Huitzilopochtli"
+    ],
+    "explication": "Les Mayas, eux, connaissaient très bien son cycle dans le ciel.",
+    "source": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "enonce": "Dans le Popol Vuh maya, que deviennent les jumeaux Hun Ahpu et Xbalamque ?",
+    "bonne": "Le Soleil et Vénus",
+    "faux": [
+     "La Lune et Mars",
+     "Deux étoiles d'Orion",
+     "La Voie lactée"
+    ],
+    "explication": "Vénus se trouve ainsi associée au Soleil dans ce récit maya.",
+    "source": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "enonce": "Quel compositeur a consacré un mouvement à Vénus dans sa suite « Les Planètes » ?",
+    "bonne": "Gustav Holst",
+    "faux": [
+     "Maurice Ravel",
+     "Igor Stravinsky",
+     "Edward Elgar"
+    ],
+    "explication": "Le vendredi, lui aussi, est lié à Vénus.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Outre « étoile du Berger », quel surnom donne-t-on parfois à Vénus ?",
+    "bonne": "La planète ardente",
+    "faux": [
+     "La planète bleue",
+     "La planète rouge",
+     "La planète aux anneaux"
+    ],
+    "explication": "Sa surface est la plus chaude du Système solaire.",
+    "source": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "enonce": "Quel est le troisième objet naturel le plus brillant de notre ciel ?",
+    "bonne": "Vénus",
+    "faux": [
+     "Sirius",
+     "Jupiter",
+     "Mars"
+    ],
+    "explication": "Seuls le Soleil et la Lune la surpassent.",
+    "source": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "enonce": "De combien de degrés Vénus peut-elle s'écarter au plus du Soleil, vue de la Terre ?",
+    "bonne": "Environ 47°",
+    "faux": [
+     "Environ 10°",
+     "Environ 28°",
+     "Environ 90°"
+    ],
+    "explication": "Elle est même parfois visible en plein jour.",
+    "source": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "enonce": "Tous les combien de jours Vénus revient-elle à la même position par rapport au Soleil, vue de la Terre ?",
+    "bonne": "Environ 584 jours",
+    "faux": [
+     "Environ 225 jours",
+     "Environ 365 jours",
+     "Environ 1 000 jours"
+    ],
+    "explication": "C'est sa période synodique.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Quelle figure dessinent les positions de Vénus dans le ciel au fil de cinq cycles synodiques ?",
+    "bonne": "Un pentagramme",
+    "faux": [
+     "Un carré",
+     "Un cercle parfait",
+     "Une spirale infinie"
+    ],
+    "explication": "Ce motif se boucle en huit ans environ.",
+    "source": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "enonce": "Combien de tours du Soleil Vénus fait-elle pendant qu'il s'écoule huit années terrestres ?",
+    "bonne": "Treize",
+    "faux": [
+     "Huit",
+     "Cinq",
+     "Vingt"
+    ],
+    "explication": "C'est pourquoi elle retrouve presque la même place dans le ciel tous les huit ans.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "À quelle distance moyenne Vénus passe-t-elle de la Terre au plus près ?",
+    "bonne": "Environ 41 millions de km",
+    "faux": [
+     "Environ 4 millions de km",
+     "Environ 150 millions de km",
+     "Environ 400 000 km"
+    ],
+    "explication": "Cela se produit quand elle passe entre la Terre et le Soleil.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Quel astronome a calculé en 1716 à quel moment Vénus atteint son éclat maximal à l'œil nu ?",
+    "bonne": "Edmond Halley",
+    "faux": [
+     "Isaac Newton",
+     "Jean-Dominique Cassini",
+     "Christiaan Huygens"
+    ],
+    "explication": "Son éclat peut alors approcher la magnitude −4,9.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Lors de quelle cérémonie américaine de 1865 Vénus a-t-elle été vue en plein jour ?",
+    "bonne": "L'investiture d'Abraham Lincoln",
+    "faux": [
+     "Les funérailles de George Washington",
+     "L'ouverture du canal de Suez",
+     "L'inauguration de la statue de la Liberté"
+    ],
+    "explication": "Vénus est assez brillante pour se voir dans un ciel bleu.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Quelle faible lueur de la face nocturne de Vénus intrigue les observateurs depuis des siècles ?",
+    "bonne": "La lumière cendrée",
+    "faux": [
+     "Le rayon vert",
+     "La goutte noire",
+     "Le gegenschein"
+    ],
+    "explication": "En 2022, la sonde Parker a photographié une lueur de la face nocturne.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Comment qualifie-t-on l'astéroïde 2002 VE68, qui accompagne Vénus sans être sa lune ?",
+    "bonne": "Un quasi-satellite",
+    "faux": [
+     "Un troyen de Jupiter",
+     "Une comète",
+     "Un satellite naturel"
+    ],
+    "explication": "Vénus n'a aucune vraie lune connue.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Quelle part de l'atmosphère de Vénus le dioxyde de carbone représente-t-il ?",
+    "bonne": "Environ 96,5 %",
+    "faux": [
+     "Environ 21 %",
+     "Environ 50 %",
+     "Environ 0,04 %"
+    ],
+    "explication": "L'azote fait presque tout le reste, avec environ 3,5 %.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "À quelle profondeur dans les océans terrestres la pression égale-t-elle celle du sol de Vénus ?",
+    "bonne": "Près de 1 km",
+    "faux": [
+     "Environ 10 m",
+     "Environ 100 m",
+     "Environ 11 km"
+    ],
+    "explication": "Elle vaut environ 92 fois la pression au niveau de la mer.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Sous quelle forme le dioxyde de carbone se trouve-t-il au sol de Vénus ?",
+    "bonne": "Un fluide supercritique",
+    "faux": [
+     "De la neige carbonique",
+     "Un liquide qui forme des lacs",
+     "Un gaz très léger"
+    ],
+    "explication": "Sa masse volumique y atteint environ 65 kg/m³.",
+    "source": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "enonce": "Combien de fois l'atmosphère de Vénus est-elle plus massive que celle de la Terre ?",
+    "bonne": "Près de cent fois",
+    "faux": [
+     "Deux fois",
+     "Dix fois",
+     "Dix mille fois"
+    ],
+    "explication": "Elle étouffe la planète sous une couverture brûlante.",
+    "source": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "enonce": "De quoi sont faits principalement les nuages de Vénus ?",
+    "bonne": "D'acide sulfurique",
+    "faux": [
+     "D'eau",
+     "De méthane",
+     "D'ammoniac"
+    ],
+    "explication": "Ils forment une couche épaisse entre 45 et 70 km d'altitude.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Quelle part de la lumière du Soleil atteint le sol de Vénus, sous ses nuages ?",
+    "bonne": "Environ 10 %",
+    "faux": [
+     "La totalité",
+     "La moitié",
+     "Aucune"
+    ],
+    "explication": "Les nuages renvoient une grande partie de la lumière vers l'espace.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "En combien de temps les nuages de Vénus font-ils le tour de la planète ?",
+    "bonne": "Environ 4 jours",
+    "faux": [
+     "Environ 243 jours",
+     "Environ 1 heure",
+     "Environ 1 an"
+    ],
+    "explication": "Cette super-rotation va environ 60 fois plus vite que le sol.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Quelle vitesse les vents atteignent-ils au sommet des nuages de Vénus ?",
+    "bonne": "Environ 300 à 360 km/h",
+    "faux": [
+     "Environ 3 km/h",
+     "Environ 30 km/h",
+     "Environ 3 000 km/h"
+    ],
+    "explication": "Ces vents entraînent les nuages autour de la planète en quatre jours.",
+    "source": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "enonce": "Quelle sonde a détecté des ondes radio évoquant des éclairs dans l'atmosphère de Vénus, en 2006-2007 ?",
+    "bonne": "Venus Express",
+    "faux": [
+     "Magellan",
+     "Mariner 2",
+     "Pioneer 10"
+    ],
+    "explication": "D'autres instruments n'ont pourtant capté aucun éclair.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Qu'a découvert Venus Express dans la haute atmosphère de Vénus, annoncé en 2011 ?",
+    "bonne": "Une couche d'ozone",
+    "faux": [
+     "Un océan suspendu",
+     "Des aurores vertes géantes",
+     "Un anneau de glace"
+    ],
+    "explication": "L'Agence spatiale européenne l'a annoncée en octobre 2011.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Quelle longueur atteint la queue de plasma de Vénus repérée par SOHO en 1997 ?",
+    "bonne": "Environ 45 millions de km",
+    "faux": [
+     "Environ 45 km",
+     "Environ 4 500 km",
+     "Environ 45 milliards de km"
+    ],
+    "explication": "Elle naît du contact entre le vent solaire et l'atmosphère.",
+    "source": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "enonce": "D'où vient le très faible champ magnétique de Vénus ?",
+    "bonne": "Du vent solaire qui frappe son ionosphère",
+    "faux": [
+     "D'un noyau qui tourne très vite",
+     "D'aimants enfouis dans ses montagnes",
+     "Des orages de ses nuages"
+    ],
+    "explication": "La planète n'a pas de dynamo interne, contrairement à la Terre.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "À quelle altitude trouve-t-on sur Vénus les conditions les plus proches de celles de la Terre ?",
+    "bonne": "Vers 50 km, dans les nuages",
+    "faux": [
+     "Au fond des vallées",
+     "Au sommet de Maxwell Montes",
+     "À 500 km"
+    ],
+    "explication": "Il y fait entre 30 et 80 °C environ.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Quel gaz, signe possible de vie, une équipe a-t-elle annoncé avoir détecté dans les nuages de Vénus en 2020 ?",
+    "bonne": "La phosphine",
+    "faux": [
+     "L'oxygène",
+     "Le méthane",
+     "L'hélium"
+    ],
+    "explication": "L'annonce a été faite le 14 septembre 2020.",
+    "source": "https://www.manchester.ac.uk/about/news/hints-of-life-on-venus"
+   },
+   {
+    "enonce": "Quelle astronome a dirigé l'équipe qui a annoncé la phosphine sur Vénus ?",
+    "bonne": "Jane Greaves",
+    "faux": [
+     "Sara Seager",
+     "Jill Tarter",
+     "Carolyn Porco"
+    ],
+    "explication": "Elle enseigne à l'université de Cardiff, au pays de Galles.",
+    "source": "https://www.manchester.ac.uk/about/news/hints-of-life-on-venus"
+   },
+   {
+    "enonce": "Quel télescope a fait la première détection de phosphine sur Vénus ?",
+    "bonne": "Le télescope James Clerk Maxwell, à Hawaï",
+    "faux": [
+     "Le télescope spatial Hubble",
+     "Le Very Large Telescope",
+     "Le radiotélescope d'Arecibo"
+    ],
+    "explication": "Le réseau ALMA, au Chili, a ensuite confirmé le signal.",
+    "source": "https://www.manchester.ac.uk/about/news/hints-of-life-on-venus"
+   },
+   {
+    "enonce": "Quelle concentration de phosphine l'équipe a-t-elle annoncée dans les nuages de Vénus ?",
+    "bonne": "Environ 20 molécules par milliard",
+    "faux": [
+     "Environ 20 %",
+     "Environ une molécule sur deux",
+     "Environ 20 molécules par millier"
+    ],
+    "explication": "Volcans et éclairs n'en produiraient pas le dix-millième.",
+    "source": "https://www.manchester.ac.uk/about/news/hints-of-life-on-venus"
+   },
+   {
+    "enonce": "Sur Terre, qui fabrique naturellement de la phosphine ?",
+    "bonne": "Des microbes vivant sans oxygène",
+    "faux": [
+     "Les arbres",
+     "Les volcans",
+     "Les coraux"
+    ],
+    "explication": "L'industrie en produit aussi.",
+    "source": "https://www.manchester.ac.uk/about/news/hints-of-life-on-venus"
+   },
+   {
+    "enonce": "À quel autre gaz certains chercheurs ont-ils ensuite attribué le signal de « phosphine » sur Vénus ?",
+    "bonne": "Le dioxyde de soufre",
+    "faux": [
+     "La vapeur d'eau",
+     "Le dioxygène",
+     "Le néon"
+    ],
+    "explication": "D'autres études n'ont retrouvé aucune trace de phosphine.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Quelle part de la surface de Vénus est couverte de plaines volcaniques ?",
+    "bonne": "Environ 80 %",
+    "faux": [
+     "Environ 5 %",
+     "Environ 30 %",
+     "La totalité"
+    ],
+    "explication": "On y trouve Atalanta, Guinevere ou Lavinia Planitia.",
+    "source": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "enonce": "Combien de volcans a-t-on recensés sur Vénus, d'après les images radar de Magellan ?",
+    "bonne": "Plus de 85 000",
+    "faux": [
+     "Une douzaine",
+     "Environ 800",
+     "Environ 8 millions"
+    ],
+    "explication": "La plupart font moins de 5 km de diamètre.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Quel âge donne-t-on à la surface actuelle de Vénus ?",
+    "bonne": "300 à 600 millions d'années",
+    "faux": [
+     "4,5 milliards d'années",
+     "10 000 ans",
+     "Quelques siècles"
+    ],
+    "explication": "Ses cratères, peu nombreux, sont presque tous intacts.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Pourquoi le massif Maxwell Montes porte-t-il le nom du physicien James Clerk Maxwell ?",
+    "bonne": "Ses travaux ont prédit les ondes radio, qui ont permis de cartographier Vénus au radar",
+    "faux": [
+     "Il a découvert ce massif au télescope",
+     "Il a dessiné la première carte de Vénus",
+     "Il a lancé la première sonde vers Vénus"
+    ],
+    "explication": "C'est le seul relief vénusien nommé d'après un homme.",
+    "source": "https://en.wikipedia.org/wiki/Maxwell_Montes"
+   },
+   {
+    "enonce": "D'après qui sont baptisés presque tous les reliefs de Vénus ?",
+    "bonne": "Des femmes, réelles ou mythologiques",
+    "faux": [
+     "Des navigateurs",
+     "Des astronomes",
+     "Des villes antiques"
+    ],
+    "explication": "Maxwell Montes, Alpha Regio et Beta Regio font exception.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Avec quel instrument a-t-on découvert le massif Maxwell Montes, en 1967 ?",
+    "bonne": "Le radar d'Arecibo, à Porto Rico",
+    "faux": [
+     "Le télescope du mont Palomar",
+     "La sonde Venera 4",
+     "La lunette de Meudon"
+    ],
+    "explication": "Le radar traverse sans peine les nuages qui cachent le sol.",
+    "source": "https://en.wikipedia.org/wiki/Maxwell_Montes"
+   },
+   {
+    "enonce": "Pourquoi le sommet de Maxwell Montes est-il le lieu le plus « clément » de Vénus ?",
+    "bonne": "Il y fait environ 380 °C, sous 45 bars",
+    "faux": [
+     "Il y neige de l'eau",
+     "Il est à l'ombre en permanence",
+     "Il est au-dessus des nuages"
+    ],
+    "explication": "Partout ailleurs, la chaleur et la pression sont plus fortes encore.",
+    "source": "https://en.wikipedia.org/wiki/Maxwell_Montes"
+   },
+   {
+    "enonce": "Quelle « neige » pourrait expliquer l'éclat radar des sommets de Vénus ?",
+    "bonne": "Une neige métallique, peut-être du sulfure de plomb",
+    "faux": [
+     "Une neige d'eau",
+     "Une neige de gaz carbonique",
+     "Une neige de sel"
+    ],
+    "explication": "On a aussi évoqué la pyrite, le tellure et le sulfure de bismuth.",
+    "source": "https://en.wikipedia.org/wiki/Maxwell_Montes"
+   },
+   {
+    "enonce": "Quel grand volcan d'Aphrodite Terra, haut de plus de 9 000 m, serait peut-être encore actif ?",
+    "bonne": "Maat Mons",
+    "faux": [
+     "Olympus Mons",
+     "Maxwell Montes",
+     "Gula Mons"
+    ],
+    "explication": "Gula Mons, autre volcan vénusien, n'atteint qu'environ 3 000 m.",
+    "source": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "enonce": "Quel surnom culinaire donne-t-on aux dômes volcaniques plats de Seoritsu Farra, sur Vénus ?",
+    "bonne": "Les galettes",
+    "faux": [
+     "Les soufflés",
+     "Les beignets",
+     "Les meringues"
+    ],
+    "explication": "Ces dômes se trouvent à l'est d'Alpha Regio.",
+    "source": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "enonce": "Sur quels lieux de Vénus des chercheurs ont-ils repéré en 2024 des coulées de lave récentes ?",
+    "bonne": "Sif Mons et Niobe Planitia",
+    "faux": [
+     "Maxwell Montes et Lakshmi Planum",
+     "Caloris et Tolstoj",
+     "Olympus Mons et Tharsis"
+    ],
+    "explication": "Ils ont pour cela réexaminé de vieilles images radar de Magellan.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Quel type de tectonique les géologues prêtent-ils à Vénus ?",
+    "bonne": "Un couvercle rigide et immobile",
+    "faux": [
+     "Des plaques nombreuses et mobiles, comme sur Terre",
+     "Une surface liquide en mouvement",
+     "Des continents qui dérivent très vite"
+    ],
+    "explication": "Sa croûte mesure en moyenne une quarantaine de kilomètres d'épaisseur.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Combien de jours terrestres dure un jour solaire sur Vénus ?",
+    "bonne": "Environ 117 jours",
+    "faux": [
+     "Environ 24 heures",
+     "Environ 365 jours",
+     "Environ 584 jours"
+    ],
+    "explication": "Une année vénusienne ne contient donc que deux jours solaires environ.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Quelle est l'inclinaison de l'axe de Vénus, qui traduit sa rotation inversée ?",
+    "bonne": "Environ 177°",
+    "faux": [
+     "Environ 23°",
+     "Environ 0°",
+     "Environ 98°"
+    ],
+    "explication": "Elle tourne pour ainsi dire la tête en bas.",
+    "source": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "enonce": "De combien la durée de rotation de Vénus peut-elle varier ?",
+    "bonne": "Jusqu'à 20 minutes",
+    "faux": [
+     "D'une seconde au plus",
+     "De plusieurs mois",
+     "Elle ne varie jamais"
+    ],
+    "explication": "Les mesures de Magellan et de Venus Express diffèrent d'environ 6,5 minutes.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Quels astronomes ont expliqué la rotation inversée de Vénus par les marées de son atmosphère ?",
+    "bonne": "Jacques Laskar et Alexandre Correia",
+    "faux": [
+     "Jules Janssen et Camille Flammarion",
+     "Le Verrier et Arago",
+     "Cassini et Maraldi"
+    ],
+    "explication": "Une autre hypothèse invoque une collision géante.",
+    "source": "https://www.techno-science.net/fr/definitions/venus-planete"
+   },
+   {
+    "enonce": "Quel est le sort de Venera 1, première sonde lancée vers une autre planète, en 1961 ?",
+    "bonne": "Le contact a été perdu en route",
+    "faux": [
+     "Elle s'est posée sur Vénus",
+     "Elle a heurté la Lune",
+     "Elle est revenue sur Terre"
+    ],
+    "explication": "Mariner 2 a réussi l'année suivante le premier voyage interplanétaire.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "Combien de temps Venera 13 a-t-elle fonctionné au sol de Vénus, en 1982 ?",
+    "bonne": "127 minutes",
+    "faux": [
+     "30 secondes",
+     "12 minutes",
+     "13 jours"
+    ],
+    "explication": "Ses concepteurs n'espéraient qu'une demi-heure.",
+    "source": "https://www.space.com/18551-venera-13.html"
+   },
+   {
+    "enonce": "Quelle première les atterrisseurs Venera 13 et 14 ont-ils réalisée sur Vénus ?",
+    "bonne": "Les premières photos en couleurs du sol",
+    "faux": [
+     "Le premier atterrissage",
+     "La première mesure de température",
+     "Le premier retour d'échantillons"
+    ],
+    "explication": "Venera 9 et 10 n'avaient rapporté que du noir et blanc en 1975.",
+    "source": "https://en.wikipedia.org/wiki/Venus"
+   },
+   {
+    "enonce": "À quoi ressemblait le sol analysé par la foreuse de Venera 13 ?",
+    "bonne": "À une cendre volcanique tassée",
+    "faux": [
+     "À du sable de plage",
+     "À de la glace sale",
+     "À du charbon"
+    ],
+    "explication": "La NASA l'a comparé à un tuf volcanique.",
+    "source": "https://www.space.com/18551-venera-13.html"
+   },
+   {
+    "enonce": "Combien de temps Venera 14, jumelle de Venera 13, a-t-elle survécu au sol de Vénus ?",
+    "bonne": "57 minutes",
+    "faux": [
+     "127 minutes",
+     "5 heures",
+     "3 jours"
+    ],
+    "explication": "Elle avait été lancée cinq jours après sa jumelle.",
+    "source": "https://www.space.com/18551-venera-13.html"
+   },
+   {
+    "enonce": "Avec quelle fusée Venera 13 a-t-elle été lancée, en octobre 1981 ?",
+    "bonne": "Proton",
+    "faux": [
+     "Saturn V",
+     "Ariane 1",
+     "Soyouz"
+    ],
+    "explication": "Le tir a eu lieu depuis Baïkonour, dans l'actuel Kazakhstan.",
+    "source": "https://www.space.com/18551-venera-13.html"
+   },
+   {
+    "enonce": "Que signifie le nom japonais de la sonde vénusienne Akatsuki ?",
+    "bonne": "L'aube",
+    "faux": [
+     "Le tonnerre",
+     "L'étoile du soir",
+     "Le dragon"
+    ],
+    "explication": "Elle était aussi appelée Venus Climate Orbiter, ou PLANET-C.",
+    "source": "https://en.wikipedia.org/wiki/Akatsuki_(spacecraft)"
+   },
+   {
+    "enonce": "Quel engin, une voile solaire, a été lancé avec Akatsuki en mai 2010 ?",
+    "bonne": "IKAROS",
+    "faux": [
+     "Hayabusa",
+     "LightSail",
+     "Kaguya"
+    ],
+    "explication": "Il a survolé Vénus la même année.",
+    "source": "https://en.wikipedia.org/wiki/Akatsuki_(spacecraft)"
+   },
+   {
+    "enonce": "Qu'est-ce qui a fait échouer la mise en orbite d'Akatsuki autour de Vénus, en décembre 2010 ?",
+    "bonne": "Une vanne bloquée par des dépôts de sel",
+    "faux": [
+     "Une collision avec un astéroïde",
+     "Une erreur d'unités dans les calculs",
+     "Une panne de batterie"
+    ],
+    "explication": "Le moteur principal n'a brûlé que moins de trois minutes.",
+    "source": "https://en.wikipedia.org/wiki/Akatsuki_(spacecraft)"
+   },
+   {
+    "enonce": "Comment Akatsuki a-t-elle pu se placer en orbite de Vénus en 2015 ?",
+    "bonne": "Grâce à ses petits propulseurs d'orientation",
+    "faux": [
+     "Grâce au moteur principal réparé",
+     "Grâce à une voile solaire",
+     "Grâce à l'aide d'une autre sonde"
+    ],
+    "explication": "Quatre propulseurs ont tourné pendant 20 minutes.",
+    "source": "https://en.wikipedia.org/wiki/Akatsuki_(spacecraft)"
+   },
+   {
+    "enonce": "Quelle durée d'orbite autour de Vénus Akatsuki a-t-elle obtenue, au lieu des 30 heures prévues ?",
+    "bonne": "Environ 10 jours",
+    "faux": [
+     "Environ 90 minutes",
+     "Environ 1 an",
+     "Exactement 30 heures"
+    ],
+    "explication": "Elle s'éloignait de la planète jusqu'à environ 370 000 km.",
+    "source": "https://en.wikipedia.org/wiki/Akatsuki_(spacecraft)"
+   },
+   {
+    "enonce": "Quelle grande structure Akatsuki a-t-elle repérée dans l'atmosphère de Vénus ?",
+    "bonne": "Une onde de gravité immobile en forme d'arc",
+    "faux": [
+     "Un ouragan à six côtés",
+     "Une tache rouge géante",
+     "Un anneau de poussière"
+    ],
+    "explication": "Les chercheurs l'ont comparée à un sourire de côté.",
+    "source": "https://en.wikipedia.org/wiki/Akatsuki_(spacecraft)"
+   },
+   {
+    "enonce": "En quelle année la JAXA a-t-elle officiellement mis fin à la mission Akatsuki ?",
+    "bonne": "2025",
+    "faux": [
+     "2015",
+     "2010",
+     "2030"
+    ],
+    "explication": "Le contact avec la sonde avait été perdu en 2024.",
+    "source": "https://en.wikipedia.org/wiki/Akatsuki_(spacecraft)"
+   },
+   {
+    "enonce": "Que signifie l'acronyme DAVINCI, nom d'une future mission de la NASA vers Vénus ?",
+    "bonne": "Étude de l'atmosphère profonde de Vénus : gaz nobles, chimie et imagerie",
+    "faux": [
+     "Dispositif automatique de vol interplanétaire",
+     "Drone aérien de Vénus pour l'imagerie",
+     "Détecteur avancé de volcans"
+    ],
+    "explication": "Elle doit aider à retracer l'histoire de l'eau sur Vénus.",
+    "source": "https://www.nasa.gov/centers-and-facilities/goddard/nasas-davinci-mission-to-take-the-plunge-through-massive-atmosphere-of-venus"
+   },
+   {
+    "enonce": "Combien de temps doit durer la descente de la sonde de DAVINCI dans l'atmosphère de Vénus ?",
+    "bonne": "Environ une heure",
+    "faux": [
+     "Environ une minute",
+     "Environ un mois",
+     "Environ un an"
+    ],
+    "explication": "Cette sonde de titane mesure environ un mètre de diamètre.",
+    "source": "https://www.nasa.gov/centers-and-facilities/goddard/nasas-davinci-mission-to-take-the-plunge-through-massive-atmosphere-of-venus"
+   },
+   {
+    "enonce": "Quelle agence spatiale a adopté la mission EnVision vers Vénus, le 25 janvier 2024 ?",
+    "bonne": "L'Agence spatiale européenne",
+    "faux": [
+     "La NASA",
+     "La JAXA",
+     "L'agence spatiale indienne"
+    ],
+    "explication": "La NASA y contribue en fournissant le radar VenSAR.",
+    "source": "https://www.esa.int/Science_Exploration/Space_Science/We_re_heading_for_Venus_ESA_approves_EnVision"
+   },
+   {
+    "enonce": "Quelle fusée doit lancer la sonde européenne EnVision vers Vénus ?",
+    "bonne": "Ariane 6",
+    "faux": [
+     "Vega",
+     "Soyouz",
+     "Falcon Heavy"
+    ],
+    "explication": "Son départ est envisagé pour 2031.",
+    "source": "https://www.esa.int/Science_Exploration/Space_Science/We_re_heading_for_Venus_ESA_approves_EnVision"
+   },
+   {
+    "enonce": "Quel instrument d'EnVision sera le premier à sonder le sous-sol de Vénus ?",
+    "bonne": "Un radar sondeur",
+    "faux": [
+     "Un sismomètre",
+     "Une foreuse",
+     "Un détecteur de neutrinos"
+    ],
+    "explication": "L'agence spatiale italienne est chargée de le fournir.",
+    "source": "https://www.esa.int/Science_Exploration/Space_Science/We_re_heading_for_Venus_ESA_approves_EnVision"
+   },
+   {
+    "enonce": "Quelle mission de la NASA, sélectionnée avec DAVINCI, doit cartographier la surface de Vénus ?",
+    "bonne": "VERITAS",
+    "faux": [
+     "JUNO",
+     "OSIRIS",
+     "LUCY"
+    ],
+    "explication": "Elle doit mesurer le relief et l'émissivité du sol.",
+    "source": "https://www.esa.int/Science_Exploration/Space_Science/We_re_heading_for_Venus_ESA_approves_EnVision"
+   }
+  ]
+ },
+ {
   "id": "gaz-nobles",
   "relations": [
    {

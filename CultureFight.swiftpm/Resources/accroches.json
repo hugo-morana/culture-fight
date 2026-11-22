@@ -1881,5 +1881,47 @@
   "blagues": [
    "Découvrator a découvert une planète, deux comètes et une galaxie : elle cherche toujours ses chaussettes."
   ]
+ },
+ {
+  "id": "mercurion",
+  "accroche": "Il te brûle avec ses questions sur Mercure.",
+  "blagues": [
+   "Mercurion fait le tour du Soleil en trois mois : il fête son anniversaire quatre fois par an."
+  ]
+ },
+ {
+  "id": "venus-de-mille-lames",
+  "accroche": "Elle te transperce avec ses questions sur Vénus.",
+  "blagues": [
+   "Vénus de Mille-Lames tourne à l'envers : chez elle, on se lève le soir et on dîne le matin."
+  ]
+ },
+ {
+  "id": "gladiaterre",
+  "accroche": "Il te défend sa planète avec ses questions sur la Terre.",
+  "blagues": [
+   "Gladiaterre a fait le tour de sa planète en une journée : il n'a pas bougé, c'est elle qui a tourné."
+  ]
+ },
+ {
+  "id": "marshal-martien",
+  "accroche": "Il fait la loi avec ses questions sur Mars.",
+  "blagues": [
+   "Marshal Martien a voulu arrêter une tempête de poussière : elle a duré plus longtemps que son mandat."
+  ]
+ },
+ {
+  "id": "jupititan",
+  "accroche": "Il t'écrase de tout son poids avec ses questions sur Jupiter.",
+  "blagues": [
+   "Jupititan a mis sa Grande Tache rouge au lavage : elle tourne encore, depuis des siècles."
+  ]
+ },
+ {
+  "id": "saturnchakram",
+  "accroche": "Elle te découpe avec ses questions sur Saturne.",
+  "blagues": [
+   "Saturnchakram a perdu un anneau dans sa baignoire : la planète, elle, flottait."
+  ]
  }
 ]
