@@ -409,13 +409,18 @@ struct VueQuestion: View {
                     .foregroundStyle(.secondary)
             }
             if !joueurRepond {
-                HStack(spacing: 6) {
+                HStack(spacing: 8) {
                     Image(systemName: "brain.head.profile")
                         .symbolEffect(.pulse)
-                    Text("L'adversaire réfléchit…")
+                    Text("L'adversaire réfléchit")
+                    PointsDeSuspension()
                 }
-                .font(.footnote)
-                .foregroundStyle(.secondary)
+                .font(.headline)
+                .foregroundStyle(Charte.ivoire)
+                .frame(maxWidth: .infinity, alignment: .center)
+                .padding(.top, 4)
+                .accessibilityElement(children: .combine)
+                .accessibilityLabel("L'adversaire réfléchit")
             }
         }
         .onAppear { apparu = true }
@@ -836,5 +841,26 @@ struct LeSavaisTu: View {
             .background(Charte.or.opacity(0.12), in: RoundedRectangle(cornerRadius: 12))
             .overlay(RoundedRectangle(cornerRadius: 12).stroke(Charte.or.opacity(0.45), lineWidth: 1))
         }
+    }
+}
+
+/// Trois points qui rebondissent l'un après l'autre, tant que la vue est affichée.
+struct PointsDeSuspension: View {
+    @Environment(\.accessibilityReduceMotion) private var mouvementReduit
+
+    var body: some View {
+        TimelineView(.periodic(from: .now, by: 0.15)) { contexte in
+            let pas = Int(contexte.date.timeIntervalSinceReferenceDate / 0.15) % 8
+            HStack(spacing: 4) {
+                ForEach(0..<3, id: \.self) { i in
+                    Circle()
+                        .frame(width: 6, height: 6)
+                        .offset(y: !mouvementReduit && pas == i * 2 ? -5 : 0)
+                        .opacity(mouvementReduit ? 1 : (pas >= i * 2 ? 1 : 0.35))
+                        .animation(.spring(duration: 0.25, bounce: 0.5), value: pas)
+                }
+            }
+        }
+        .accessibilityHidden(true)
     }
 }
