@@ -296,10 +296,12 @@ def verifier_accroches():
 
 
 def verifier_profils():
-    """Note de chaque combattant et stats de base par rareté (outils/simulation.py)."""
+    """Note de chaque combattant et répartition des stats par style (outils/simulation.py)."""
     profils = charger("profils.json")
-    champs("profils", "profils", profils, {"methode": str, "profils": dict, "stats": dict, "notes": dict})
+    champs("profils", "profils", profils, {"methode": str, "budgets": dict, "prix": dict, "parts": dict,
+                                           "repartition": dict, "victoires": dict, "notes": dict})
     notes_valides = {"Facile", "Moyenne", "Pointue"}
+    niveaux = {"Haute", "Moyenne", "Basse"}
     ids = ids_du_catalogue()
     for i, note in profils.get("notes", {}).items():
         if i not in ids:
@@ -308,17 +310,33 @@ def verifier_profils():
             erreur("profils", f"note de « {i} » : « {note} » n'est pas Facile, Moyenne ou Pointue")
     for manquant in sorted(set(ids) - set(profils.get("notes", {}))):
         erreur("profils", f"« {manquant} » n'a pas de note de difficulté")
-    for rarete, table in profils.get("stats", {}).items():
-        if set(table) != notes_valides:
-            erreur("profils", f"{rarete} : il faut les stats des trois notes")
-        for note, s in table.items():
-            champs("profils", f"{rarete} {note}", s, {"pv": int, "attaque": int, "defense": int, "victoires": int})
-            # Budget égal à rareté égale : chaque profil gagne autour de 50 % contre l'Équilibré.
-            if not 45 <= s.get("victoires", 0) <= 55:
-                erreur("profils", f"{rarete} {note} : {s.get('victoires')} % de victoires simulées, hors de 45 à 55 %")
-        if table.get("Facile", {}).get("pv", 0) <= table.get("Moyenne", {}).get("pv", 0) \
-                or table.get("Pointue", {}).get("pv", 0) >= table.get("Moyenne", {}).get("pv", 0):
-            erreur("profils", f"{rarete} : le Tank doit avoir plus de PV que l'Équilibré, le Canon de verre moins")
+    repartition = profils.get("repartition", {})
+    if len(repartition) != 10:
+        erreur("profils", "il faut la répartition des 10 familles de styles")
+    for famille, r in repartition.items():
+        if len(r) != 3 or not set(r) <= niveaux:
+            erreur("profils", f"{famille} : répartition (Attaque, Défense, PV) en Haute, Moyenne ou Basse")
+    if not 0 < profils.get("ecart", 0) <= 0.2:
+        erreur("profils", "écart Haute/Basse hors de 0 à 20 %")
+    for rarete, budgets in profils.get("budgets", {}).items():
+        if set(budgets) != notes_valides:
+            erreur("profils", f"{rarete} : il faut le budget des trois notes")
+        if not budgets.get("Facile", 0) > budgets.get("Moyenne", 0) > budgets.get("Pointue", 0):
+            erreur("profils", f"{rarete} : le budget doit baisser de Facile à Pointue")
+        # Budget égal à rareté et note égales : toutes les familles le dépensent en entier, au prix des stats.
+        import simulation
+        for famille in repartition:
+            for note in notes_valides:
+                s = simulation.stats(profils, famille, rarete, note)
+                cout = s["pv"] * profils["prix"]["pv"] + s["attaque"] * profils["prix"]["attaque"] \
+                    + s["defense"] * profils["prix"]["defense"]
+                if abs(cout - budgets[note]) > 6:
+                    erreur("profils", f"{rarete} {note} {famille} : coût {cout} au lieu du budget {budgets[note]}")
+        for famille, v in profils.get("victoires", {}).get(rarete, {}).items():
+            if not 45 <= v.get("variee", 0) <= 55:
+                erreur("profils", f"{rarete} {famille} : {v.get('variee')} % de victoires simulées, hors de 45 à 55 %")
+            if v.get("seule", 0) > 55:
+                erreur("profils", f"{rarete} {famille} : une équipe de 3 gagne {v.get('seule')} %, plus de 55 %")
     return len(profils.get("notes", {}))
 
 

@@ -231,15 +231,15 @@ struct SelectionEquipeView: View {
         let familles = Dictionary(grouping: equipe, by: \.familleStyle)
         Group {
             if let synergie = Equipe.synergie(equipe) {
-                Label("Synergie \(synergie.rawValue) : bonus de vitesse \(synergie.effetVitesse.nom) ×2",
+                Label("Synergie \(synergie.rawValue) : bonus de vitesse \(synergie.effetVitesse.nom) ×\(Regles.texteSynergie)",
                       systemImage: "sparkles")
                     .foregroundStyle(Charte.or)
                     .symbolEffect(.bounce, value: synergie.rawValue)
             } else if equipe.count == 2, let paire = familles.first(where: { $0.value.count == 2 })?.key {
-                Label("Encore un combattant \(paire.rawValue) \(paire.picto) pour la synergie ×2", systemImage: "link")
+                Label("Encore un combattant \(paire.rawValue) \(paire.picto) pour la synergie ×\(Regles.texteSynergie)", systemImage: "link")
                     .foregroundStyle(Charte.ivoire.opacity(0.85))
             } else if equipe.isEmpty {
-                Label("Choisis \(Regles.tailleEquipe) combattants. Même famille de styles : bonus ×2.",
+                Label("Choisis \(Regles.tailleEquipe) combattants. Même famille de styles : bonus ×\(Regles.texteSynergie).",
                       systemImage: "hand.tap")
                     .foregroundStyle(.secondary)
             } else {

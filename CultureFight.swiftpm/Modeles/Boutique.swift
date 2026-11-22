@@ -79,7 +79,7 @@ enum Boutique {
     static func prix(_ m: ModeleCombattant) -> Int {
         let f = fourchette(m.rarete)
         let milieu = Double(f.lowerBound + f.upperBound) / 2
-        guard let b = bornesPuissance[m.rarete], let ref = ProfilStats.stats(m.rarete, .moyenne) else {
+        guard let b = bornesPuissance[m.rarete], let ref = ProfilStats.reference(m.rarete) else {
             return prix(m.rarete)
         }
         let p = Double(puissance(m))

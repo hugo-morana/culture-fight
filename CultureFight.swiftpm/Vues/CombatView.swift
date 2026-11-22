@@ -343,7 +343,7 @@ struct VueQuestion: View {
                     .foregroundStyle(.yellow)
             }
             if malusTemps > 0 {
-                Text("Pression : \(Int(malusTemps)) s de moins pour répondre")
+                Text("Chrono réduit de \(Int(malusTemps)) s (Pression ou Créature)")
                     .font(.caption2)
                     .foregroundStyle(.red)
             }

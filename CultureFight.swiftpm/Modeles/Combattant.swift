@@ -58,6 +58,15 @@ struct CombattantEnJeu: Identifiable, Sendable {
     var equipement: String?
     /// PV en plus de la famille complète (récompense d'album).
     var bonusPV = 0
+    /// Bouclier des Chevaliers : PV de dégâts absorbés, donné au combattant qui entre après un K.O.
+    var absorption = 0
+
+    /// Retire des dégâts ce que le bouclier des Chevaliers absorbe, et renvoie le reste.
+    mutating func absorber(_ degats: Int) -> Int {
+        let absorbe = min(absorption, degats)
+        absorption -= absorbe
+        return degats - absorbe
+    }
 
     init(modele: ModeleCombattant, profil: ProfilDifficulte = .aleatoire, niveau: Int = 1, equipement: String? = nil,
          bonusPV: Int = 0) {
@@ -120,6 +129,11 @@ struct Camp: Sendable {
     mutating func remplacerSiKO() {
         guard actif.estKO, let suivant = combattants.firstIndex(where: { !$0.estKO }) else { return }
         indexActif = suivant
+        // Chevaliers : le combattant qui entre après un K.O. de son équipe reçoit un bouclier.
+        if combattants[suivant].modele.familleStyle == .chevaliers {
+            let k = synergie == .chevaliers ? ProfilStats.synergie : 1
+            combattants[suivant].absorption += Int((Double(ProfilStats.bouclierChevaliers) * k).rounded())
+        }
     }
 }
 

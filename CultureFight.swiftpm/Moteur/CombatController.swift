@@ -205,8 +205,10 @@ final class CombatController {
             phase = .fin
             return
         }
+        // La question d'abord : la première question d'une Créature ajoute des secondes au malus du défenseur.
+        let tirage = combat.preparerQuestion()
         malusTemps = combat.consommerMalusTemps()
-        lancer(combat.preparerQuestion())
+        lancer(tirage)
     }
 
     /// Affiche une question et lance le chronomètre (et la réponse de l'IA si c'est elle qui répond).

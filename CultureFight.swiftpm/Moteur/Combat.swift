@@ -12,6 +12,12 @@ enum Regles {
     /// (game design, idées n° 10 et 16, valeur fixée par outils/simulation_questionneur.py).
     static let bonusQuestionneur = 0.2
 
+    /// « 1,5 » : multiplicateur de synergie écrit à la française.
+    static var texteSynergie: String {
+        let k = ProfilStats.synergie
+        return k == k.rounded() ? "\(Int(k))" : String(format: "%.1f", k).replacingOccurrences(of: ".", with: ",")
+    }
+
     /// Bonne réponse en moins de 3 s : « Éclair ». En moins de 7 s : « Rapide ».
     static let seuilEclair: Double = 3
     static let seuilRapide: Double = 7
@@ -109,6 +115,11 @@ struct Combat: Sendable {
         dernierEcart = ecart
         let difficulte = min(7, max(1, att.profil.difficulte(base: att.stade.difficulte, rang: att.questionsPosees) + ecart))
         derniereDifficulte = difficulte
+        // Créatures : leur première question du combat retire des secondes au chrono adverse.
+        if att.modele.familleStyle == .creatures && att.questionsPosees == 0 {
+            let k = camps[attaquant].synergie == .creatures ? ProfilStats.synergie : 1
+            malusTemps[defenseur] += ProfilStats.secondesCreatures * k
+        }
         camps[attaquant].combattants[camps[attaquant].indexActif].questionsPosees += 1
         return tirer(difficulte: difficulte)
     }
@@ -164,28 +175,29 @@ struct Combat: Sendable {
             var multiplicateurVitesse = 1.0
             var casesEnPlus = 0
             // Synergie d'équipe : 3 combattants de la même famille de styles doublent le bonus.
-            let k = camps[d].synergie == def.modele.familleStyle ? 2 : 1
-            let mention = k == 2 ? " (synergie ×2)" : ""
+            // Synergie : ×1,5 (outils/simulation.py ; ×2 donnait plus de 55 % aux équipes d'une seule famille).
+            let k = camps[d].synergie == def.modele.familleStyle ? ProfilStats.synergie : 1
+            let mention = k > 1 ? " (synergie ×\(Regles.texteSynergie))" : ""
             if vitesse != .normale {
                 switch def.modele.familleStyle.effetVitesse {
                 case .contreAttaque:
-                    let bonus = (eclair ? 50 : 25) * k
+                    let bonus = Int((Double(eclair ? 50 : 25) * k).rounded())
                     multiplicateurVitesse = 1 + Double(bonus) / 100
                     effetVitesse = "\(vitesse.nom) Contre-attaque +\(bonus) %\(mention)"
                 case .soin:
-                    let soin = (eclair ? 15 : 8) * k
+                    let soin = Int((Double(eclair ? 15 : 8) * k).rounded())
                     let avant = camps[d].combattants[id].pv
                     camps[d].combattants[id].pv = min(def.pvMax, avant + soin)
                     effetVitesse = "\(vitesse.nom) \(def.nom) regagne \(camps[d].combattants[id].pv - avant) PV\(mention)"
                 case .bouclier:
-                    let bouclier = (eclair ? 0.3 : 0.15) * Double(k)
+                    let bouclier = (eclair ? 0.3 : 0.15) * k
                     camps[d].combattants[id].bouclier = max(camps[d].combattants[id].bouclier, bouclier)
                     effetVitesse = "\(vitesse.nom) Bouclier : sa prochaine erreur coûtera \(Int(bouclier * 100)) % de PV en moins\(mention)"
                 case .savoir:
-                    casesEnPlus = (eclair ? 2 : 1) * k
+                    casesEnPlus = Int((Double(eclair ? 2 : 1) * k).rounded())
                     effetVitesse = "\(vitesse.nom) Jauge de Savoir +\(casesEnPlus) case\(casesEnPlus > 1 ? "s" : "") en plus\(mention)"
                 case .pression:
-                    let malus = (eclair ? 4.0 : 2.0) * Double(k)
+                    let malus = (eclair ? 4.0 : 2.0) * k
                     malusTemps[a] = malus
                     effetVitesse = "\(vitesse.nom) Pression : l'adversaire aura \(Int(malus)) s de moins à sa prochaine réponse\(mention)"
                 }
@@ -198,7 +210,7 @@ struct Combat: Sendable {
             degatsContre = max(Regles.degatsMin,
                                Int((Double(base) * 0.5 * affinite.multiplicateurContre * multiplicateurVitesse
                                     * (2 - facteurQuestionneur)).rounded()))
-            camps[a].combattants[ia].pv -= degatsContre
+            camps[a].combattants[ia].pv -= camps[a].combattants[ia].absorber(degatsContre)
 
             camps[d].combattants[id].jauge += 1 + casesEnPlus
             if camps[d].combattants[id].jauge >= camps[d].combattants[id].jaugeMax {
@@ -223,6 +235,9 @@ struct Combat: Sendable {
                 degats -= degatsAbsorbes
                 camps[d].combattants[id].bouclier = 0
             }
+            let parBouclierChevalier = degats - camps[d].combattants[id].absorber(degats)
+            degatsAbsorbes += parBouclierChevalier
+            degats -= parBouclierChevalier
             degatsDefenseur = degats
             camps[d].combattants[id].pv -= degatsDefenseur
         }

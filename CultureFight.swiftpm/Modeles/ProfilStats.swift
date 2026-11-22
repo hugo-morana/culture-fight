@@ -1,19 +1,11 @@
 import Foundation
 
-/// Note de difficulté d'une spécialité, estimée sur toutes ses questions (game design, « Profil de stats »).
+/// Note de difficulté d'une spécialité, estimée sur toutes ses questions (game design, « Stats selon le style
+/// et la spécialité ») : elle fixe la taille du budget de stats.
 enum NoteSpecialite: String, Codable, Sendable, CaseIterable {
     case facile = "Facile"
     case moyenne = "Moyenne"
     case pointue = "Pointue"
-
-    /// Profil de stats qui compense la note : une spécialité facile fait rarement rater l'adversaire.
-    var profil: String {
-        switch self {
-        case .facile: return "Tank"
-        case .moyenne: return "Équilibré"
-        case .pointue: return "Canon de verre"
-        }
-    }
 
     var picto: String {
         switch self {
@@ -26,46 +18,100 @@ enum NoteSpecialite: String, Codable, Sendable, CaseIterable {
     var explication: String {
         switch self {
         case .facile:
-            return "Spécialité facile : l'adversaire répond souvent juste et contre-attaque. Plus de PV, d'Attaque et de Défense pour compenser."
+            return "Spécialité facile : l'adversaire répond souvent juste et contre-attaque, donc un budget de stats plus gros."
         case .moyenne:
-            return "Spécialité de difficulté moyenne : répartition de référence."
+            return "Spécialité de difficulté moyenne : budget de référence."
         case .pointue:
-            return "Spécialité pointue : l'adversaire rate souvent. Moins de PV et d'Attaque, ses questions font le travail."
+            return "Spécialité pointue : l'adversaire rate souvent, donc un budget de stats plus petit."
         }
     }
 }
 
-/// Stats de base par rareté et par note, et note de chaque combattant (`Resources/profils.json`).
-/// Les valeurs viennent de `outils/simulation.py` : à rareté égale, chaque profil gagne autour de 50 %.
-enum ProfilStats {
-    struct Stats: Decodable, Sendable {
-        let pv: Int
-        let attaque: Int
-        let defense: Int
-        /// Taux de victoire simulé contre un Équilibré de même rareté, en %.
-        let victoires: Int
-    }
+/// Niveau d'une stat dans la répartition d'une famille de styles.
+enum NiveauStat: String, Codable, Sendable {
+    case haute = "Haute", moyenne = "Moyenne", basse = "Basse"
 
-    private struct Fichier: Decodable {
-        let stats: [String: [String: Stats]]
+    var valeur: Double {
+        switch self {
+        case .haute: return 1
+        case .moyenne: return 0
+        case .basse: return -1
+        }
+    }
+}
+
+/// Stats de base selon la rareté, la note de la spécialité (budget) et la famille de styles (répartition),
+/// d'après `Resources/profils.json`, dont les valeurs viennent de `outils/simulation.py`.
+/// Même calcul que la fonction `stats` du script.
+enum ProfilStats {
+    struct Prix: Decodable, Sendable { let pv: Double; let attaque: Double; let defense: Double }
+    struct Parts: Decodable, Sendable { let pv: Double; let attaque: Double; let defense: Double }
+
+    struct Fichier: Decodable, Sendable {
+        let budgets: [String: [String: Double]]
+        let prix: Prix
+        let parts: Parts
+        let ecart: Double
+        let plafondDefense: Double
+        let synergie: Double
+        let bouclierChevaliers: Int
+        let secondesCreatures: Double
+        /// Attaque, Défense, PV.
+        let repartition: [String: [NiveauStat]]
         let notes: [String: NoteSpecialite]
     }
 
-    private static let fichier: Fichier? = {
+    struct Stats: Sendable, Equatable { let pv: Int; let attaque: Int; let defense: Int }
+
+    static let fichier: Fichier? = {
         guard let url = Bundle.module.url(forResource: "profils", withExtension: "json"),
               let data = try? Data(contentsOf: url) else { return nil }
         return try? JSONDecoder().decode(Fichier.self, from: data)
     }()
 
+    /// Multiplicateur de la synergie (3 combattants de la même famille) sur le bonus de famille.
+    static var synergie: Double { fichier?.synergie ?? 1.5 }
+    static var bouclierChevaliers: Int { fichier?.bouclierChevaliers ?? 10 }
+    static var secondesCreatures: Double { fichier?.secondesCreatures ?? 2 }
+
     static func note(_ id: String) -> NoteSpecialite { fichier?.notes[id] ?? .moyenne }
 
-    static func stats(_ rarete: Rarete, _ note: NoteSpecialite) -> Stats? {
-        fichier?.stats[rarete.rawValue]?[note.rawValue]
+    static func budget(_ rarete: Rarete, _ note: NoteSpecialite) -> Double? {
+        fichier?.budgets[rarete.rawValue]?[note.rawValue]
     }
 
-    /// Le combattant avec les stats de base de son profil (inchangé si la rareté n'a pas encore de table).
+    static func repartition(_ famille: FamilleStyle) -> [NiveauStat] {
+        fichier?.repartition[famille.rawValue] ?? [.moyenne, .moyenne, .moyenne]
+    }
+
+    private static func arrondi(_ x: Double) -> Int { Int((x + 0.5).rounded(.down)) }
+
+    static func stats(_ rarete: Rarete, _ note: NoteSpecialite, _ famille: FamilleStyle) -> Stats? {
+        guard let f = fichier, let budget = budget(rarete, note) else { return nil }
+        let r = repartition(famille)
+        let niveaux = (attaque: r[0].valeur, defense: r[1].valeur, pv: r[2].valeur)
+        let ref = (pv: budget * f.parts.pv / f.prix.pv,
+                   attaque: budget * f.parts.attaque / f.prix.attaque,
+                   defense: budget * f.parts.defense / f.prix.defense)
+        let poids = (pv: f.parts.pv * (1 + f.ecart * niveaux.pv),
+                     attaque: f.parts.attaque * (1 + f.ecart * niveaux.attaque),
+                     defense: f.parts.defense * (1 + f.ecart * niveaux.defense))
+        let total = poids.pv + poids.attaque + poids.defense
+        func borne(_ v: Double, _ reference: Double) -> Double {
+            min(reference * (1 + f.ecart), max(reference * (1 - f.ecart), v))
+        }
+        let attaque = borne(budget * poids.attaque / total / f.prix.attaque, ref.attaque)
+        let defense = min(f.plafondDefense, borne(budget * poids.defense / total / f.prix.defense, ref.defense))
+        let pv = borne(budget - f.prix.attaque * attaque - f.prix.defense * defense, ref.pv)
+        return Stats(pv: arrondi(pv), attaque: arrondi(attaque), defense: arrondi(defense))
+    }
+
+    /// Stats d'un combattant équilibré (toutes les stats « Moyenne »), pour situer les prix.
+    static func reference(_ rarete: Rarete) -> Stats? { stats(rarete, .moyenne, .artsMartiaux) }
+
+    /// Le combattant avec les stats de base de sa famille et de sa note (inchangé si la rareté n'a pas de budget).
     static func appliquer(_ m: ModeleCombattant) -> ModeleCombattant {
-        guard let s = stats(m.rarete, note(m.id)) else { return m }
+        guard let s = stats(m.rarete, note(m.id), m.familleStyle) else { return m }
         return ModeleCombattant(id: m.id, nom: m.nom, style: m.style, familleStyle: m.familleStyle,
                                 specialite: m.specialite, rarete: m.rarete,
                                 pvMax: s.pv, attaque: s.attaque, defense: s.defense, difficulte: m.difficulte,

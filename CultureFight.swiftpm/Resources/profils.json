@@ -1,49 +1,167 @@
 {
- "methode": "Note estimée d'après la notoriété des entrées de chaque spécialité (pas encore de taux de réussite réels). Stats fixées par outils/simulation.py : 3 contre 3, chance de bonne réponse de l'adversaire 80 % (Facile), 65 % (Moyenne) ou 50 % (Pointue) en difficulté 1, moins 8 points par niveau, difficulté tirée de 1 à 3.",
- "profils": {
-  "Facile": "Tank",
-  "Moyenne": "Équilibré",
-  "Pointue": "Canon de verre"
- },
- "stats": {
+ "methode": "Stats selon le style et la spécialité : la note de la spécialité fixe le budget, la famille de styles le répartit (Attaque, Défense, PV). Valeurs fixées par outils/simulation.py ; hypothèses dans l'en-tête du script.",
+ "budgets": {
   "Commun": {
-   "Facile": {
-    "pv": 128,
-    "attaque": 55,
-    "defense": 5,
-    "victoires": 48
+   "Facile": 240,
+   "Moyenne": 200,
+   "Pointue": 171
+  },
+  "Rare": {
+   "Facile": 274,
+   "Moyenne": 228,
+   "Pointue": 195
+  }
+ },
+ "prix": {
+  "pv": 1,
+  "attaque": 2,
+  "defense": 2.5
+ },
+ "parts": {
+  "pv": 0.5,
+  "attaque": 0.45,
+  "defense": 0.05
+ },
+ "ecart": 0.2,
+ "plafondDefense": 12,
+ "synergie": 1.5,
+ "bouclierChevaliers": 10,
+ "secondesCreatures": 2,
+ "repartition": {
+  "Guerriers lourds": [
+   "Haute",
+   "Basse",
+   "Moyenne"
+  ],
+  "Ombres": [
+   "Haute",
+   "Basse",
+   "Basse"
+  ],
+  "Tireurs": [
+   "Haute",
+   "Basse",
+   "Basse"
+  ],
+  "Bretteurs": [
+   "Haute",
+   "Moyenne",
+   "Basse"
+  ],
+  "Arts martiaux": [
+   "Moyenne",
+   "Moyenne",
+   "Moyenne"
+  ],
+  "Mages": [
+   "Moyenne",
+   "Basse",
+   "Basse"
+  ],
+  "Morts-vivants": [
+   "Moyenne",
+   "Basse",
+   "Moyenne"
+  ],
+  "Chevaliers": [
+   "Basse",
+   "Haute",
+   "Moyenne"
+  ],
+  "Soldats": [
+   "Basse",
+   "Moyenne",
+   "Haute"
+  ],
+  "Créatures": [
+   "Moyenne",
+   "Basse",
+   "Haute"
+  ]
+ },
+ "victoires": {
+  "Commun": {
+   "Guerriers lourds": {
+    "variee": 52,
+    "seule": 55
    },
-   "Moyenne": {
-    "pv": 100,
-    "attaque": 50,
-    "defense": 0,
-    "victoires": 50
+   "Arts martiaux": {
+    "variee": 51,
+    "seule": 54
    },
-   "Pointue": {
-    "pv": 84,
-    "attaque": 43,
-    "defense": 0,
-    "victoires": 52
+   "Tireurs": {
+    "variee": 49,
+    "seule": 53
+   },
+   "Créatures": {
+    "variee": 50,
+    "seule": 54
+   },
+   "Morts-vivants": {
+    "variee": 52,
+    "seule": 52
+   },
+   "Chevaliers": {
+    "variee": 48,
+    "seule": 54
+   },
+   "Soldats": {
+    "variee": 47,
+    "seule": 45
+   },
+   "Mages": {
+    "variee": 51,
+    "seule": 54
+   },
+   "Ombres": {
+    "variee": 50,
+    "seule": 48
+   },
+   "Bretteurs": {
+    "variee": 49,
+    "seule": 49
    }
   },
   "Rare": {
-   "Facile": {
-    "pv": 134,
-    "attaque": 59,
-    "defense": 8,
-    "victoires": 49
+   "Guerriers lourds": {
+    "variee": 52,
+    "seule": 55
    },
-   "Moyenne": {
-    "pv": 110,
-    "attaque": 54,
-    "defense": 4,
-    "victoires": 50
+   "Arts martiaux": {
+    "variee": 51,
+    "seule": 54
    },
-   "Pointue": {
-    "pv": 89,
-    "attaque": 47,
-    "defense": 2,
-    "victoires": 49
+   "Tireurs": {
+    "variee": 53,
+    "seule": 55
+   },
+   "Créatures": {
+    "variee": 51,
+    "seule": 54
+   },
+   "Morts-vivants": {
+    "variee": 51,
+    "seule": 52
+   },
+   "Chevaliers": {
+    "variee": 49,
+    "seule": 53
+   },
+   "Soldats": {
+    "variee": 49,
+    "seule": 46
+   },
+   "Mages": {
+    "variee": 50,
+    "seule": 53
+   },
+   "Ombres": {
+    "variee": 51,
+    "seule": 51
+   },
+   "Bretteurs": {
+    "variee": 49,
+    "seule": 50
    }
   }
  },
@@ -458,5 +576,15 @@
   "dentalion": "Facile",
   "pixelfe": "Moyenne",
   "shivaillant": "Moyenne"
+ },
+ "victoiresNotes": {
+  "Commun": {
+   "Facile": 50,
+   "Pointue": 50
+  },
+  "Rare": {
+   "Facile": 50,
+   "Pointue": 49
+  }
  }
 }
