@@ -54,12 +54,12 @@ struct BoutiqueView: View {
             .confirmationDialog(titreConfirmation, isPresented: Binding(
                 get: { aConfirmer != nil }, set: { if !$0 { aConfirmer = nil } }), titleVisibility: .visible) {
                 if let choix = aConfirmer {
-                    Button("Acheter pour \(choix.article.prix) Pièces") { acheter(choix.article, offre: choix.offre) }
+                    Button("Acheter pour \(Boutique.prixPaye(choix.article, offreDuJour: choix.offre, date: maintenant)) Pièces") { acheter(choix.article, offre: choix.offre) }
                 }
                 Button("Annuler", role: .cancel) {}
             } message: {
                 if let choix = aConfirmer {
-                    Text(Boutique.libelleAchat(choix.article, pour: joueur))
+                    Text(Boutique.libelleAchat(choix.article, offreDuJour: choix.offre, pour: joueur))
                 }
             }
             .alert(titreResultat, isPresented: Binding(
@@ -102,6 +102,7 @@ struct BoutiqueView: View {
                         CarteArticle(article: article,
                                      etat: etat(article, offre: true),
                                      possede: article.modele.map { joueur.possede($0.id) } ?? false,
+                                     remise: Boutique.remise(article, jour: Boutique.cleJour(maintenant)),
                                      voirFiche: { fiche = article.modele }) {
                             aConfirmer = (article, true)
                         }
@@ -129,7 +130,7 @@ struct BoutiqueView: View {
     private var sectionCommuns: some View {
         VStack(alignment: .leading, spacing: 12) {
             titreSection("Combattants Communs", icone: "person.crop.rectangle.stack.fill")
-            Text("Toujours en vente, \(Boutique.prix(.commun)) Pièces chacun.")
+            Text("Toujours en vente, de \(Boutique.fourchette(.commun).lowerBound) à \(Boutique.fourchette(.commun).upperBound) Pièces selon la puissance du combattant.")
                 .font(.caption)
                 .foregroundStyle(.secondary)
             LazyVGrid(columns: colonnes, spacing: 12) {
@@ -189,7 +190,7 @@ struct BoutiqueView: View {
     private func etat(_ article: Boutique.Article, offre: Bool) -> CarteArticle.Etat {
         if offre && dejaAchete(article) { return .achete }
         if !offre, let modele = article.modele, joueur.possede(modele.id) { return .possede }
-        return joueur.pieces >= article.prix ? .disponible : .tropCher
+        return joueur.pieces >= Boutique.prixPaye(article, offreDuJour: offre, date: maintenant) ? .disponible : .tropCher
     }
 
     private var tempsRestant: String {
@@ -254,6 +255,8 @@ struct CarteArticle: View {
     let article: Boutique.Article
     let etat: Etat
     let possede: Bool
+    /// Réduction de l'offre du jour en %, nil au catalogue.
+    var remise: Int? = nil
     /// Ouvre la fiche du combattant (nil pour un objet).
     var voirFiche: (() -> Void)? = nil
     let acheter: () -> Void
@@ -300,7 +303,16 @@ struct CarteArticle: View {
                     switch etat {
                     case .possede: Label("Possédé", systemImage: "checkmark")
                     case .achete: Label("Acheté", systemImage: "checkmark")
-                    default: Label("\(article.prix)", systemImage: "dollarsign.circle.fill")
+                    default:
+                        if let remise {
+                            HStack(spacing: 4) {
+                                Text("\(article.prix)").strikethrough().foregroundStyle(.white.opacity(0.6)).font(.caption)
+                                Label("\(Boutique.prixReduit(article.prix, remise: remise))",
+                                      systemImage: "dollarsign.circle.fill")
+                            }
+                        } else {
+                            Label("\(article.prix)", systemImage: "dollarsign.circle.fill")
+                        }
                     }
                 }
                 .font(.subheadline.monospacedDigit().bold())
@@ -314,6 +326,18 @@ struct CarteArticle: View {
         .background(Charte.marine.opacity(0.8), in: RoundedRectangle(cornerRadius: 16))
         .overlay(RoundedRectangle(cornerRadius: 16).stroke(accent.opacity(0.6), lineWidth: 1.5))
         .opacity(etat == .possede || etat == .achete ? 0.6 : 1)
+        .overlay(alignment: .topLeading) {
+            if let remise, etat != .achete {
+                Text("−\(remise) %")
+                    .font(.caption.bold().monospacedDigit())
+                    .foregroundStyle(.white)
+                    .padding(.horizontal, 7)
+                    .padding(.vertical, 3)
+                    .background(Color.red.gradient, in: Capsule())
+                    .rotationEffect(.degrees(-8))
+                    .offset(x: -4, y: -6)
+            }
+        }
     }
 
     private var sousTitre: String {

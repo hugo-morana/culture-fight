@@ -26,6 +26,15 @@ struct FicheCombattantView: View {
                     TuilesFiche(modele: modele, nombreDeQuestions: Self.compter(tableaux))
                     CartePresentation(modele: modele, accent: accent)
                     CarteExemples(modele: modele, accent: accent)
+                    CarteFiche(titre: "Profil de stats · \(modele.note.profil)", icone: "chart.bar.fill", accent: accent) {
+                        VStack(alignment: .leading, spacing: 6) {
+                            Text("\(modele.note.picto) Spécialité \(modele.note.rawValue.lowercased())")
+                                .font(.nom(14, relativeTo: .subheadline))
+                                .foregroundStyle(Charte.or)
+                            TexteFiche(texte: modele.note.explication)
+                            TexteFiche(texte: "Prix en boutique : \(Boutique.prix(modele)) Pièces (\(modele.rarete.rawValue) : \(Boutique.fourchette(modele.rarete).lowerBound) à \(Boutique.fourchette(modele.rarete).upperBound)).")
+                        }
+                    }
                     carteDeCombat
                     if let histoire = modele.histoire {
                         CarteFiche(titre: "Histoire", icone: "book.closed.fill", accent: accent) {

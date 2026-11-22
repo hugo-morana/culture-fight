@@ -291,6 +291,33 @@ def verifier_accroches():
     return len(accroches)
 
 
+def verifier_profils():
+    """Note de chaque combattant et stats de base par rareté (outils/simulation.py)."""
+    profils = charger("profils.json")
+    champs("profils", "profils", profils, {"methode": str, "profils": dict, "stats": dict, "notes": dict})
+    notes_valides = {"Facile", "Moyenne", "Pointue"}
+    ids = ids_du_catalogue()
+    for i, note in profils.get("notes", {}).items():
+        if i not in ids:
+            erreur("profils", f"note de « {i} » : combattant absent du catalogue")
+        if note not in notes_valides:
+            erreur("profils", f"note de « {i} » : « {note} » n'est pas Facile, Moyenne ou Pointue")
+    for manquant in sorted(set(ids) - set(profils.get("notes", {}))):
+        erreur("profils", f"« {manquant} » n'a pas de note de difficulté")
+    for rarete, table in profils.get("stats", {}).items():
+        if set(table) != notes_valides:
+            erreur("profils", f"{rarete} : il faut les stats des trois notes")
+        for note, s in table.items():
+            champs("profils", f"{rarete} {note}", s, {"pv": int, "attaque": int, "defense": int, "victoires": int})
+            # Budget égal à rareté égale : chaque profil gagne autour de 50 % contre l'Équilibré.
+            if not 45 <= s.get("victoires", 0) <= 55:
+                erreur("profils", f"{rarete} {note} : {s.get('victoires')} % de victoires simulées, hors de 45 à 55 %")
+        if table.get("Facile", {}).get("pv", 0) <= table.get("Moyenne", {}).get("pv", 0) \
+                or table.get("Pointue", {}).get("pv", 0) >= table.get("Moyenne", {}).get("pv", 0):
+            erreur("profils", f"{rarete} : le Tank doit avoir plus de PV que l'Équilibré, le Canon de verre moins")
+    return len(profils.get("notes", {}))
+
+
 if __name__ == "__main__":
     n_elements = verifier_elements()
     n_pays = verifier_pays()
@@ -299,12 +326,14 @@ if __name__ == "__main__":
     verifier_sources_json()
     n_pays_monde, n_histoires, n_combattants = verifier_monde_et_histoires()
     n_accroches = verifier_accroches()
+    n_notes = verifier_profils()
     print(f"elements.json      {n_elements} éléments")
     print(f"pays_afrique.json  {n_pays} pays")
     print(f"fiches.json        {len(fiches)} fiches, {n_questions} questions")
     print(f"{2 + len(fiches)} jeux de données, {len(SOURCES)} avec sources")
     print(f"monde.json         {n_pays_monde} pays ; histoires.json {n_histoires} histoires pour {n_combattants} combattants")
     print(f"accroches.json     {n_accroches} accroches")
+    print(f"profils.json       {n_notes} notes de difficulté")
     if erreurs:
         for e in erreurs:
             print("ERREUR", e)

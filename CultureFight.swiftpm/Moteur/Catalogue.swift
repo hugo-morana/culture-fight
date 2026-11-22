@@ -95,7 +95,10 @@ enum Catalogue {
 
     // MARK: - Combattants du prototype
 
-    static let prototype: [ModeleCombattant] = [
+    /// Les combattants jouables, avec les stats de base de leur profil (Tank, Équilibré, Canon de verre).
+    static let prototype: [ModeleCombattant] = bruts.map(ProfilStats.appliquer)
+
+    private static let bruts: [ModeleCombattant] = [
         ModeleCombattant(
             id: "multiplicator", nom: "Multiplicator", style: "Gladiateur", familleStyle: .guerriersLourds,
             specialite: multiplications, rarete: .rare,

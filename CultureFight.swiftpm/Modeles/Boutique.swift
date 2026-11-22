@@ -40,13 +40,77 @@ enum Boutique {
     static let niveauOffreDuJour = 3
     static let tailleOffre = 4
 
+    /// Prix de référence d'une rareté (milieu de sa fourchette).
     static func prix(_ rarete: Rarete) -> Int {
+        let f = fourchette(rarete)
+        return (f.lowerBound + f.upperBound) / 2
+    }
+
+    /// Fourchette de prix d'une rareté (game design, « Prix de la boutique »).
+    static func fourchette(_ rarete: Rarete) -> ClosedRange<Int> {
         switch rarete {
-        case .commun: return 150
-        case .rare: return 400
-        case .epique: return 1000
-        case .legendaire: return 2500
+        case .commun: return 100...200
+        case .rare: return 300...500
+        case .epique: return 800...1200
+        case .legendaire: return 2000...3000
         }
+    }
+
+    /// Puissance d'un combattant : PV + 2 × Attaque + 5 × Défense + 15 × difficulté de ses questions.
+    static func puissance(_ m: ModeleCombattant) -> Int {
+        m.pvMax + 2 * m.attaque + 5 * m.defense + 15 * m.difficulte
+    }
+
+    private static let bornesPuissance: [Rarete: ClosedRange<Int>] = {
+        var bornes: [Rarete: ClosedRange<Int>] = [:]
+        for m in Catalogue.prototype {
+            let p = puissance(m)
+            if let b = bornes[m.rarete] {
+                bornes[m.rarete] = min(b.lowerBound, p)...max(b.upperBound, p)
+            } else {
+                bornes[m.rarete] = p...p
+            }
+        }
+        return bornes
+    }()
+
+    /// Prix d'un combattant : sa rareté fixe la fourchette, sa puissance la place dedans (arrondi à 10).
+    /// Un Équilibré de difficulté 2 est au milieu ; le plus faible au bas, le plus fort en haut.
+    static func prix(_ m: ModeleCombattant) -> Int {
+        let f = fourchette(m.rarete)
+        let milieu = Double(f.lowerBound + f.upperBound) / 2
+        guard let b = bornesPuissance[m.rarete], let ref = ProfilStats.stats(m.rarete, .moyenne) else {
+            return prix(m.rarete)
+        }
+        let p = Double(puissance(m))
+        let r = Double(ref.pv + 2 * ref.attaque + 5 * ref.defense + 15 * 2)
+        var brut = milieu
+        if p > r, Double(b.upperBound) > r {
+            brut = milieu + (p - r) / (Double(b.upperBound) - r) * (Double(f.upperBound) - milieu)
+        } else if p < r, Double(b.lowerBound) < r {
+            brut = milieu - (r - p) / (r - Double(b.lowerBound)) * (milieu - Double(f.lowerBound))
+        }
+        return min(f.upperBound, max(f.lowerBound, Int((brut / 10).rounded()) * 10))
+    }
+
+    /// Réduction de l'offre du jour, de 20 à 40 % par pas de 5, tirée avec la date et l'article.
+    static func remise(_ article: Article, jour: String) -> Int {
+        var g = GenerateurDuJour(graine: jour + article.id)
+        return 20 + Int(g.next() % 5) * 5
+    }
+
+    /// Prix réduit d'un article de l'offre du jour (arrondi à 5).
+    static func prixOffre(_ article: Article, jour: String) -> Int {
+        prixReduit(article.prix, remise: remise(article, jour: jour))
+    }
+
+    static func prixReduit(_ prix: Int, remise: Int) -> Int {
+        max(5, Int((Double(prix) * Double(100 - remise) / 500).rounded()) * 5)
+    }
+
+    /// Prix payé pour un article, selon qu'il est acheté dans l'offre du jour ou au catalogue.
+    static func prixPaye(_ article: Article, offreDuJour: Bool, date: Date = Date()) -> Int {
+        offreDuJour ? prixOffre(article, jour: cleJour(date)) : article.prix
     }
 
     /// Un doublon (combattant déjà possédé) est converti en XP pour ce combattant : la moitié de son prix.
@@ -108,7 +172,7 @@ enum Boutique {
 
         var prix: Int {
             switch self {
-            case .combattant: return modele.map { Boutique.prix($0.rarete) } ?? 0
+            case .combattant: return modele.map { Boutique.prix($0) } ?? 0
             case .objet(let objet): return objet.prix
             }
         }
@@ -167,9 +231,12 @@ enum Boutique {
     }
 
     /// Ce que l'achat donnerait, pour le bouton et la confirmation.
-    static func libelleAchat(_ article: Article, pour joueur: Joueur) -> String {
+    static func libelleAchat(_ article: Article, offreDuJour: Bool = false, pour joueur: Joueur) -> String {
         if let modele = article.modele, joueur.possede(modele.id) {
             return "Déjà possédé : +\(xpDoublon(modele.rarete)) XP pour \(modele.nom)"
+        }
+        if offreDuJour {
+            return "\(prixPaye(article, offreDuJour: true)) Pièces au lieu de \(article.prix) (−\(remise(article, jour: cleJour())) %)"
         }
         return "\(article.prix) Pièces"
     }
@@ -190,8 +257,9 @@ enum Boutique {
                 return .refuse("Déjà acheté aujourd'hui.")
             }
         }
-        guard joueur.pieces >= article.prix else {
-            return .refuse("Il te manque \(article.prix - joueur.pieces) Pièces.")
+        let prix = prixPaye(article, offreDuJour: offreDuJour, date: maintenant)
+        guard joueur.pieces >= prix else {
+            return .refuse("Il te manque \(prix - joueur.pieces) Pièces.")
         }
 
         let resultat: ResultatAchat
@@ -210,7 +278,7 @@ enum Boutique {
             joueur.inventaire[objet.id, default: 0] += objet.quantite
             resultat = .objet(objet.id, quantite: objet.quantite)
         }
-        joueur.pieces -= article.prix
+        joueur.pieces -= prix
         if offreDuJour { joueur.achatsDuJour.append(article.id) }
         Sauvegarde.enregistrer(contexte)
         return resultat
