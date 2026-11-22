@@ -317,6 +317,12 @@ enum Pictos {
         case "Baron guerrier": return "🖨️"
         case "Ptérodactyle": return "🦅"
         case "Maréchal": return "🌊"
+        case "Yakuza": return "🐉"
+        case "Paladine": return "🐚"
+        case "Hussarde": return "🐎"
+        case "Inquisitrice": return "💉"
+        case "Connétable": return "🛡️"
+        case "Barde": return "🪕"
         default: return famille.picto
         }
     }

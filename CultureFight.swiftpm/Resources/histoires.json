@@ -3570,5 +3570,185 @@
    "flibustlantique",
    "abyssassin"
   ]
+ },
+ {
+  "id": "himalayakuza",
+  "pays": "geonie",
+  "lieu": "Les Monts Glaciaires",
+  "histoire": "Parrain des sommets des Monts Glaciaires, Himalayakuza contrôle chaque col et chaque crête. Il connaît les grandes chaînes de montagnes du monde, leur âge et leur formation. Everyeti lui doit une faveur ; Piolympien grimpe sur son territoire sans payer.",
+  "liens": [
+   "everyeti",
+   "piolympien"
+  ]
+ },
+ {
+  "id": "atolladin",
+  "pays": "geonie",
+  "lieu": "L'Archipel des Illusions",
+  "histoire": "Protectrice des lagons de l'Archipel des Illusions, Atolladin veille sur les anneaux de corail qui entourent les îles. Elle connaît les atolls, les récifs et les îles menacées par la montée des eaux. Archipelerin lui rend visite à pied ; Île-Lusionniste lui fait voir des lagons imaginaires.",
+  "liens": [
+   "archipelerin",
+   "ile-lusionniste"
+  ]
+ },
+ {
+  "id": "lochnessarde",
+  "pays": "geonie",
+  "lieu": "Le Grand Lac Miroir",
+  "histoire": "Cavalière du Grand Lac Miroir, Lochnessarde chevauche une créature que personne n'a jamais réussi à photographier. Elle connaît les lacs d'Europe, du Léman au Loch Ness, et leurs légendes. Krakenlac jure que sa monture n'existe pas ; Titicacatcheur aimerait l'affronter dans l'eau.",
+  "liens": [
+   "krakenlac",
+   "titicacatcheur"
+  ]
+ },
+ {
+  "id": "pingouinjitsu",
+  "pays": "sylvanie",
+  "lieu": "Les Falaises aux Rapaces",
+  "histoire": "Champion de jiu-jitsu des Falaises aux Rapaces, Pingouinjitsu se bat aussi bien sur la banquise que sous l'eau. Il connaît les manchots, les pingouins, les albatros et les macareux. Flamantador le trouve trop pressé ; Rapaladin n'a jamais réussi à l'attraper.",
+  "liens": [
+   "flamantador",
+   "rapaladin"
+  ]
+ },
+ {
+  "id": "papillombre",
+  "pays": "sylvanie",
+  "lieu": "La Prairie des Mille Fleurs",
+  "histoire": "Ombre de la Prairie des Mille Fleurs, Papillombre change de forme d'un battement d'ailes. Elle connaît les papillons, leurs chenilles, leurs migrations et le mystère de la métamorphose. Mante Shaolin la guette ; Orchidéesse lui offre son nectar.",
+  "liens": [
+   "mante-shaolin",
+   "orchideesse"
+  ]
+ },
+ {
+  "id": "mammouthsquetaire",
+  "pays": "sylvanie",
+  "lieu": "La Vallée Fossile",
+  "histoire": "Mousquetaire de la Vallée Fossile, Mammouthsquetaire a traversé l'ère glaciaire sans perdre son panache. Il connaît les mammouths, les tigres à dents de sabre et les grands animaux disparus. Mésozouave lui parle des dinosaures ; Lascauxboy a peint son portrait sur une paroi.",
+  "liens": [
+   "mesozouave",
+   "lascauxboy"
+  ]
+ },
+ {
+  "id": "cameleninja",
+  "pays": "sylvanie",
+  "lieu": "La Jungle d'Émeraude",
+  "histoire": "Ninja de la Jungle d'Émeraude, Caméléninja disparaît dans le feuillage en changeant de couleur. Il connaît les lézards, les caméléons, les geckos et les varans. Crocodojo est son maître ; Batrachevalier ne le voit jamais arriver.",
+  "liens": [
+   "crocodojo",
+   "batrachevalier"
+  ]
+ },
+ {
+  "id": "calamarshal",
+  "pays": "sylvanie",
+  "lieu": "La Mer des Chants",
+  "histoire": "Shérif de la Mer des Chants, Calamarshal fait régner l'ordre avec ses huit bras et ses trois cœurs. Il connaît les pieuvres, les calmars géants, les seiches et les nautiles. Requinquistador évite sa ville ; Hippocampion lui sert d'adjoint.",
+  "liens": [
+   "requinquistador",
+   "hippocampion"
+  ]
+ },
+ {
+  "id": "transfusilier",
+  "pays": "anatomia",
+  "lieu": "Cardiopolis",
+  "histoire": "Fusilier de Cardiopolis, Transfusilier sauve des vies plus souvent qu'il n'en menace. Il connaît les groupes sanguins, le don du sang, les donneurs universels et les plaquettes. Globulancier lui fournit ses munitions ; Vampirein le suit partout en espérant une goutte.",
+  "liens": [
+   "globulancier",
+   "vampirein"
+  ]
+ },
+ {
+  "id": "vaccinquisiteur",
+  "pays": "anatomia",
+  "lieu": "Cardiopolis",
+  "histoire": "Inquisitrice des remparts de Cardiopolis, Vaccinquisiteur traque les virus avant même qu'ils n'attaquent. Elle connaît l'histoire des vaccins, de la variole à la rage, et le fonctionnement de l'immunité. Antibiotitan est son frère d'armes ; Pasteurion l'a formée.",
+  "liens": [
+   "antibiotitan",
+   "pasteurion"
+  ]
+ },
+ {
+  "id": "vitaminotaure",
+  "pays": "anatomia",
+  "lieu": "Le Palais des Organes",
+  "histoire": "Gardien du labyrinthe des cuisines du Palais des Organes, Vitaminotaure ne laisse passer que les repas équilibrés. Il connaît les vitamines, les minéraux et les maladies dues aux carences. Glucidragon lui fournit les plats ; Biceptor lui réclame du fer.",
+  "liens": [
+   "glucidragon",
+   "biceptor"
+  ]
+ },
+ {
+  "id": "clonestable",
+  "pays": "anatomia",
+  "lieu": "Cardiopolis",
+  "histoire": "Connétable des laboratoires de Cardiopolis, Clonestable n'est jamais seul : son double le suit partout. Il connaît l'hérédité, les jumeaux, les caractères dominants et le clonage. Chromosamouraï lui lit son ADN ; Zombos se demande lequel des deux est l'original.",
+  "liens": [
+   "chromosamourai",
+   "zombos"
+  ]
+ },
+ {
+  "id": "chirurgeant",
+  "pays": "anatomia",
+  "lieu": "Cardiopolis",
+  "histoire": "Géant du bloc opératoire de Cardiopolis, Chirurgéant opère avec une précision étonnante pour sa taille. Il connaît l'histoire de la chirurgie, de l'anesthésie et des premières greffes. Pasteurion lui a appris à laver ses instruments ; Vampirein s'évanouit en le voyant.",
+  "liens": [
+   "pasteurion",
+   "vampirein"
+  ]
+ },
+ {
+  "id": "vexillobarde",
+  "pays": "mappemondie",
+  "lieu": "La Place des Drapeaux",
+  "histoire": "Chanteur de la Place des Drapeaux, Vexillobarde compose une ballade pour chaque étendard du monde. Il connaît les drapeaux d'Asie et d'Amérique, leurs couleurs et leurs symboles. Drapeautomate lui fournit les tissus ; Drapolancier les hisse au bout de sa lance.",
+  "liens": [
+   "drapeautomate",
+   "drapolancier"
+  ]
+ },
+ {
+  "id": "bourselame",
+  "pays": "mappemondie",
+  "lieu": "Le Marché des Monnaies",
+  "histoire": "Bretteur du Marché des Monnaies, Bourselame se bat au rythme des cours de la Bourse. Il connaît les banques, les grandes bourses du monde, les krachs et le vocabulaire de l'économie. Dollarbalète est son associé ; Yenissaire garde ses coffres.",
+  "liens": [
+   "dollarbalete",
+   "yenissaire"
+  ]
+ },
+ {
+  "id": "babelgarde",
+  "pays": "mappemondie",
+  "lieu": "La Tour des Langues",
+  "histoire": "Gardien du sommet de la Tour des Langues, Babelgarde comprend chaque visiteur dans sa propre langue. Il connaît les langues les plus parlées, les familles de langues et les langues en danger. Gladialecte est son interprète ; Alphabarbare lui écrit ses rapports.",
+  "liens": [
+   "gladialecte",
+   "alphabarbare"
+  ]
+ },
+ {
+  "id": "gratte-sabre",
+  "pays": "mappemondie",
+  "lieu": "Capitalia",
+  "histoire": "Funambule des toits de Capitalia, Gratte-Sabre se bat au sommet des plus hautes tours du monde. Il connaît les gratte-ciel, leurs hauteurs records et les villes qui les abritent. Cyclopolis lui confie la vue d'en haut ; Métropolicier lui interdit de sauter.",
+  "liens": [
+   "cyclopolis",
+   "metropolicier"
+  ]
+ },
+ {
+  "id": "nomadator",
+  "pays": "mappemondie",
+  "lieu": "Le Grand Atlas",
+  "histoire": "Voyageur éternel du Grand Atlas, Nomadator plante sa tente dans un pays différent chaque soir. Il connaît les peuples nomades, les grandes migrations humaines et la diversité des peuples. Hordemographe essaie de le compter ; Recensabre l'a raté trois fois.",
+  "liens": [
+   "hordemographe",
+   "recensabre"
+  ]
  }
 ]
