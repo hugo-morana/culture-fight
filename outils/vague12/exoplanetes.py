@@ -396,7 +396,7 @@ FICHE = {"id": "exoplanetes", "relations": [
     q("Quelle exoplanète traîne une queue de gaz d'environ 14 millions de km, comme une comète ?", "GJ 436 b",
       ["Kepler-186f", "HD 189733 b", "TRAPPIST-1 e"], "Cette observation a été publiée en juin 2015.", source=EXO),
     q("Quelle lettre reçoit la première planète découverte autour d'une étoile ?", "b",
-      ["a", "A", "z"], "L'étoile elle-même est considérée comme l'objet « a ».", source=EXO),
+      ["a", "c", "z"], "L'étoile elle-même est considérée comme l'objet « a ».", source=EXO),
     q("Quelle limite de masse sépare en général une planète d'une naine brune ?", "Environ 13 masses de Jupiter",
       ["Environ 1 masse terrestre", "Environ 2 masses de Jupiter", "Environ 1 masse solaire"],
       "Au-delà, l'objet peut fusionner du deutérium.", source=EXO),
