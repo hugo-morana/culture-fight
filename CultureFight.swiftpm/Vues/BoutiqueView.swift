@@ -85,6 +85,7 @@ struct BoutiqueView: View {
                 }
                 .padding()
             }
+            .scrollDismissesKeyboard(.immediately)
             .background { FondFiche(accent: .yellow) }
             .overlay {
                 if fete > 0 {
