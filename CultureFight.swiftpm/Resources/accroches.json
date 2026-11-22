@@ -1930,5 +1930,299 @@
   "blagues": [
    "Exosquelette a trouvé une planète habitable : il attend encore la réponse à sa demande de visa, envoyée il y a quarante ans."
   ]
+ },
+ {
+  "id": "anticyclope",
+  "accroche": "Il chasse les nuages et te pose des questions sur la météo.",
+  "blagues": [
+   "Anticyclope n'a qu'un œil, mais pour la météo il voit toujours plus loin que les autres."
+  ]
+ },
+ {
+  "id": "stromboxeur",
+  "accroche": "Il frappe comme une éruption, sur les volcans actifs du monde.",
+  "blagues": [
+   "Stromboxeur ne perd jamais son sang-froid : il n'en a jamais eu, il a de la lave."
+  ]
+ },
+ {
+  "id": "abyssassin",
+  "accroche": "Il frappe depuis les abysses, là où la lumière ne descend pas.",
+  "blagues": [
+   "Abyssassin a voulu remonter à la surface pour un rendez-vous ; il est arrivé avec trois jours de paliers de retard."
+  ]
+ },
+ {
+  "id": "piolympien",
+  "accroche": "Il grimpe les plus hauts sommets et les questions qui vont avec.",
+  "blagues": [
+   "Piolympien a fini premier de l'Everest ; le deuxième, un yéti, conteste toujours la photo d'arrivée."
+  ]
+ },
+ {
+  "id": "archipelerin",
+  "accroche": "Il saute d'île en île et te fait faire le tour des archipels.",
+  "blagues": [
+   "Archipelerin a voulu compter les îles d'Indonésie à pied ; il en est à la 4 000e et ses sandales réclament un congé."
+  ]
+ },
+ {
+  "id": "requinquistador",
+  "accroche": "Il conquiert les mers à coups de questions sur les requins.",
+  "blagues": [
+   "Requinquistador a perdu une dent au combat : pas grave, il lui en reste quelques milliers en réserve."
+  ]
+ },
+ {
+  "id": "ecolosse",
+  "accroche": "Il porte tout un écosystème sur le dos et le défend.",
+  "blagues": [
+   "Écolosse ne fait jamais la sieste : la dernière fois, trois oiseaux ont fait leur nid dans son oreille."
+  ]
+ },
+ {
+  "id": "flamantador",
+  "accroche": "Il esquive les charges sur une patte et pose des questions d'oiseaux.",
+  "blagues": [
+   "Flamantador est rose parce qu'il mange des crevettes ; le taureau, lui, voit rouge pour moins que ça."
+  ]
+ },
+ {
+  "id": "batrachevalier",
+  "accroche": "Il bondit au combat pour défendre les grenouilles et les amphibiens.",
+  "blagues": [
+   "Batrachevalier a été embrassé par une princesse : il est resté grenouille, mais il a été promu chevalier."
+  ]
+ },
+ {
+  "id": "tarentulutteur",
+  "accroche": "Il t'immobilise dans sa toile de questions sur les araignées.",
+  "blagues": [
+   "Tarentulutteur a huit bras : à la fin du combat, il serre la main de tout l'arbitrage en même temps."
+  ]
+ },
+ {
+  "id": "neuronin",
+  "accroche": "Il réagit plus vite que la pensée, sur le cerveau et les nerfs.",
+  "blagues": [
+   "Neuronin a le réflexe le plus rapide du dojo : il a gagné le combat avant d'avoir décidé de le livrer."
+  ]
+ },
+ {
+  "id": "globulancier",
+  "accroche": "Il patrouille dans tes artères avec des questions sur le cœur.",
+  "blagues": [
+   "Globulancier fait le tour du corps en une minute ; il n'a jamais trouvé de parking."
+  ]
+ },
+ {
+  "id": "cinq-sensei",
+  "accroche": "Il combat les yeux bandés et teste tes cinq sens.",
+  "blagues": [
+   "Cinq-Sensei a demandé un sixième sens pour son anniversaire ; il a reçu un parfum."
+  ]
+ },
+ {
+  "id": "antibiotitan",
+  "accroche": "Il repousse les microbes avec des questions sur les maladies et les remèdes.",
+  "blagues": [
+   "Antibiotitan a soigné un rhume en une semaine ; sans lui, ça aurait duré sept jours."
+  ]
+ },
+ {
+  "id": "glucidragon",
+  "accroche": "Il garde le trésor des vitamines et te parle nutrition.",
+  "blagues": [
+   "Glucidragon crache du feu seulement après le dessert : il a toujours une petite flamme pour le sucre."
+  ]
+ },
+ {
+  "id": "chromosamourai",
+  "accroche": "Il lit l'ADN comme un parchemin et teste ta génétique.",
+  "blagues": [
+   "Chromosamouraï a deux katanas : il dit que c'est génétique, son père en avait deux aussi."
+  ]
+ },
+ {
+  "id": "pasteurion",
+  "accroche": "Il commande la légion des grands médecins de l'histoire.",
+  "blagues": [
+   "Pasteurion ne boit jamais de lait cru : il le chauffe d'abord, par principe."
+  ]
+ },
+ {
+  "id": "frontiero",
+  "accroche": "Il garde chaque frontière et connaît chaque pays voisin.",
+  "blagues": [
+   "Frontiero a voulu traverser la frontière entre la France et le Brésil en Guyane ; il l'a trouvée beaucoup plus loin que prévu."
+  ]
+ },
+ {
+  "id": "chefalier",
+  "accroche": "Il défend les plats du monde entier, louche à la main.",
+  "blagues": [
+   "Chefalier a gagné un duel à la louche ; le perdant est reparti avec une bonne soupe."
+  ]
+ },
+ {
+  "id": "carnavaleureux",
+  "accroche": "Il va de fête en fête et te fait découvrir les traditions du monde.",
+  "blagues": [
+   "Carnavaleureux a fêté trois Nouvel An la même année ; son calendrier a demandé une pause."
+  ]
+ },
+ {
+  "id": "yenissaire",
+  "accroche": "Il garde le trésor et raconte l'histoire de l'argent.",
+  "blagues": [
+   "Yenissaire a voulu payer en coquillages ; le marchand lui a rendu la monnaie en sable."
+  ]
+ },
+ {
+  "id": "alphabarbare",
+  "accroche": "Il collectionne les alphabets et les écritures du monde.",
+  "blagues": [
+   "Alphabarbare a écrit son nom en hiéroglyphes ; ça lui a pris trois jours et deux faucons."
+  ]
+ },
+ {
+  "id": "lascauxboy",
+  "accroche": "Il chasse le mammouth au lasso et peint la Préhistoire sur les murs.",
+  "blagues": [
+   "Lascauxboy a peint sa grotte en une nuit ; son propriétaire lui réclame encore la caution."
+  ]
+ },
+ {
+  "id": "belle-epoquetaire",
+  "accroche": "Il te fait revivre le XIXe siècle et la Belle Époque.",
+  "blagues": [
+   "Belle-Époquetaire a pris le premier train de sa vie ; il cherche encore où attacher son cheval."
+  ]
+ },
+ {
+  "id": "cleopatronne",
+  "accroche": "Elle règne sur le Nil et teste ce que tu sais des pharaons.",
+  "blagues": [
+   "Cléopâtronne prend des bains de lait d'ânesse ; les ânesses, elles, attendent toujours leur augmentation."
+  ]
+ },
+ {
+  "id": "parthenombre",
+  "accroche": "Elle glisse entre les colonnes d'Athènes et de Sparte.",
+  "blagues": [
+   "Parthénombre a voté à l'ecclésia sans que personne ne la voie ; on a recompté les voix trois fois."
+  ]
+ },
+ {
+  "id": "magellame",
+  "accroche": "Il fait le tour du monde, rapière à la main, avec les grands explorateurs.",
+  "blagues": [
+   "Magellame a fait le tour du monde pour rentrer chez lui ; il dit que c'était le chemin le plus court."
+  ]
+ },
+ {
+  "id": "ciselator",
+  "accroche": "Il taille ses questions dans le marbre, sur la sculpture.",
+  "blagues": [
+   "Ciselator dit qu'il suffit d'enlever tout ce qui n'est pas la statue ; il a commencé par enlever son adversaire."
+  ]
+ },
+ {
+  "id": "daguerrotireur",
+  "accroche": "Il ne rate jamais son cliché et connaît l'histoire de la photo.",
+  "blagues": [
+   "Daguerrotireur a demandé à son adversaire de ne plus bouger pendant dix minutes ; le combat a été très calme."
+  ]
+ },
+ {
+  "id": "clapocalypse",
+  "accroche": "Il saute à chaque « Action ! » et te parle de cinéma.",
+  "blagues": [
+   "Clapocalypse fait toutes ses cascades lui-même ; même les scènes où il boit un café."
+  ]
+ },
+ {
+  "id": "mosaikido",
+  "accroche": "Elle retourne ta force en motif et te parle d'arts décoratifs.",
+  "blagues": [
+   "Mosaïkido a cassé un vase pendant l'entraînement ; elle en a fait une mosaïque qui vaut dix fois plus cher."
+  ]
+ },
+ {
+  "id": "gargouillard",
+  "accroche": "Il crache la pluie du haut des cathédrales gothiques.",
+  "blagues": [
+   "Gargouillard a un rhume depuis le Moyen Âge : il paraît que c'est à cause des courants d'air sur les toits."
+  ]
+ },
+ {
+  "id": "fablieutenant",
+  "accroche": "Il commande une compagnie d'animaux de fables et de contes.",
+  "blagues": [
+   "Fablieutenant garde un fromage à la ceinture ; chaque fois qu'un renard le flatte, il serre plus fort."
+  ]
+ },
+ {
+  "id": "totemplier",
+  "accroche": "Il protège les dieux de tous les continents et leurs légendes.",
+  "blagues": [
+   "Totemplier invite tous les dieux du monde à la même table ; il ne sait jamais qui doit faire la vaisselle."
+  ]
+ },
+ {
+  "id": "descartouche",
+  "accroche": "Il doute de tout, sauf de ses questions sur les philosophes.",
+  "blagues": [
+   "Descartouche pense, donc il est ; mais le matin, avant son café, il n'en est pas si sûr."
+  ]
+ },
+ {
+  "id": "conjugladiateur",
+  "accroche": "Il conjugue chaque coup à tous les temps et te teste en grammaire.",
+  "blagues": [
+   "Conjugladiateur a gagné au passé simple ; son adversaire a demandé une revanche au futur antérieur."
+  ]
+ },
+ {
+  "id": "cerberserker",
+  "accroche": "Il garde les Enfers à trois têtes et connaît tous les monstres grecs.",
+  "blagues": [
+   "Cerberserker aboie trois fois plus fort que les autres ; il a aussi trois fois plus de puces."
+  ]
+ },
+ {
+  "id": "equerrier",
+  "accroche": "Il ne combat qu'à angle droit et te pose des questions de géométrie.",
+  "blagues": [
+   "Équerrier a perdu un duel à cause d'un angle mort ; il l'a mesuré : 90 degrés."
+  ]
+ },
+ {
+  "id": "aleatoreador",
+  "accroche": "Il lance un dé avant chaque passe et te teste en probabilités.",
+  "blagues": [
+   "Aléatoréador a une chance sur six de gagner au dé ; il a gagné six fois de suite, il cherche toujours l'erreur."
+  ]
+ },
+ {
+  "id": "bitking",
+  "accroche": "Il pille les données et te pose des questions d'informatique.",
+  "blagues": [
+   "Bitking a essayé d'éteindre et de rallumer son drakkar ; ça a marché, mais il a perdu la Norvège de vue."
+  ]
+ },
+ {
+  "id": "locomotaure",
+  "accroche": "Il fonce sur les rails avec l'histoire des trains et des avions.",
+  "blagues": [
+   "Locomotaure ne déraille jamais ; par contre, il a déjà raté sa correspondance à Dijon."
+  ]
+ },
+ {
+  "id": "morsaire",
+  "accroche": "Il envoie ses questions en morse, sur les télécommunications.",
+  "blagues": [
+   "Morsaire a envoyé « SOS » en morse ; on lui a répondu par texto « t ou ? »."
+  ]
  }
 ]

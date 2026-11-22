@@ -2740,5 +2740,425 @@
    "proxima-centaure",
    "gladiaterre"
   ]
+ },
+ {
+  "id": "anticyclope",
+  "pays": "geonie",
+  "lieu": "Tellurville",
+  "histoire": "Gardien du ciel de Tellurville, Anticyclope chasse les nuages d'un seul regard et fait souffler les vents à sa guise. Il connaît chaque nuage par son nom, du cirrus au cumulonimbus. Golemagma lui reproche de refroidir ses volcans ; Flibustlantique ne part jamais en mer sans lui demander la météo.",
+  "liens": [
+   "golemagma",
+   "flibustlantique"
+  ]
+ },
+ {
+  "id": "stromboxeur",
+  "pays": "geonie",
+  "lieu": "Le Pic Brasier",
+  "histoire": "Champion du ring du Pic Brasier, Stromboxeur encaisse les coups comme un volcan encaisse la pression, puis explose sans prévenir. Il connaît les volcans actifs du monde et la date de leur dernière éruption. Golemagma est son entraîneur ; Sismogre fait trembler le ring à chacun de ses combats.",
+  "liens": [
+   "golemagma",
+   "sismogre"
+  ]
+ },
+ {
+  "id": "abyssassin",
+  "pays": "geonie",
+  "lieu": "Port-Abysse",
+  "histoire": "Assassin des profondeurs de Port-Abysse, Abyssassin frappe là où la lumière ne descend jamais. Il connaît les fosses océaniques et les créatures qui vivent sous des tonnes d'eau. Flibustlantique refuse de plonger aussi bas ; Krakenlac le soupçonne d'avoir volé l'un de ses tentacules.",
+  "liens": [
+   "flibustlantique",
+   "krakenlac"
+  ]
+ },
+ {
+  "id": "piolympien",
+  "pays": "geonie",
+  "lieu": "Les Monts Glaciaires",
+  "histoire": "Champion des Monts Glaciaires, Piolympien a gravi tous les sommets de Géonie avant le petit-déjeuner. Il connaît les plus hautes montagnes de chaque continent et l'histoire de leurs premières ascensions. Everyeti le suit en grognant ; Sahamelouk trouve ses montagnes bien trop froides.",
+  "liens": [
+   "everyeti",
+   "sahamelouk"
+  ]
+ },
+ {
+  "id": "archipelerin",
+  "pays": "geonie",
+  "lieu": "L'Archipel des Illusions",
+  "histoire": "Voyageur infatigable de l'Archipel des Illusions, Archipelerin va d'île en île à pied, en sautant d'un rocher à l'autre. Il connaît les archipels du monde et le nombre d'îles de chacun. Île-Lusionniste lui fait apparaître des îles qui n'existent pas ; Flibustlantique le dépose parfois sur la bonne.",
+  "liens": [
+   "ile-lusionniste",
+   "flibustlantique"
+  ]
+ },
+ {
+  "id": "requinquistador",
+  "pays": "sylvanie",
+  "lieu": "La Mer des Chants",
+  "histoire": "Conquérant de la Mer des Chants, Requinquistador revendique chaque récif qu'il croise. Il connaît les requins, les raies et les poissons les plus étonnants des océans. Orquebusier le tient à distance ; Crocodojo prétend que ses dents à lui repoussent aussi vite.",
+  "liens": [
+   "orquebusier",
+   "crocodojo"
+  ]
+ },
+ {
+  "id": "ecolosse",
+  "pays": "sylvanie",
+  "lieu": "Darwinia",
+  "histoire": "Gardien de Darwinia, Écolosse porte sur son dos tout un écosystème et veille à ce que chacun y trouve sa place. Il connaît les chaînes alimentaires, les espèces menacées et les grands équilibres de la nature. Druidérable est son vieil ami ; Mante Shaolin lui rappelle qu'on ne protège pas les fleurs sans les insectes.",
+  "liens": [
+   "druiderable",
+   "mante-shaolin"
+  ]
+ },
+ {
+  "id": "flamantador",
+  "pays": "sylvanie",
+  "lieu": "Les Falaises aux Rapaces",
+  "histoire": "Matador des Falaises aux Rapaces, Flamantador esquive chaque charge en restant planté sur une seule patte. Il connaît les grands oiseaux migrateurs et les records de leurs voyages. Rapaladin le trouve trop rose pour un guerrier ; Jaguerrier n'a jamais réussi à le surprendre.",
+  "liens": [
+   "rapaladin",
+   "jaguerrier"
+  ]
+ },
+ {
+  "id": "batrachevalier",
+  "pays": "sylvanie",
+  "lieu": "La Jungle d'Émeraude",
+  "histoire": "Chevalier des mares de la Jungle d'Émeraude, Batrachevalier bondit au combat d'un seul saut. Il connaît les grenouilles, les salamandres et toutes les métamorphoses du têtard à l'adulte. Crocodojo est son rival de mare ; Escrimarguerite lui prête ses nénuphars pour s'entraîner.",
+  "liens": [
+   "crocodojo",
+   "escrimarguerite"
+  ]
+ },
+ {
+  "id": "tarentulutteur",
+  "pays": "sylvanie",
+  "lieu": "La Ruche",
+  "histoire": "Lutteur des recoins de la Ruche, Tarentulutteur immobilise ses adversaires dans une toile en un clin d'œil. Il connaît les araignées, les scorpions et la solidité record de la soie. Mante Shaolin le défie à chaque tournoi ; Champignomancien lui fournit des coins sombres pour tendre ses pièges.",
+  "liens": [
+   "mante-shaolin",
+   "champignomancien"
+  ]
+ },
+ {
+  "id": "neuronin",
+  "pays": "anatomia",
+  "lieu": "Le Palais des Organes",
+  "histoire": "Samouraï errant du Palais des Organes, Neuronin réagit plus vite que la pensée : ses réflexes partent avant même qu'il ait décidé. Il connaît les lobes du cerveau, les neurones et la vitesse de l'influx nerveux. Vampirein le trouve trop nerveux ; Zombos lui envie sa matière grise.",
+  "liens": [
+   "vampirein",
+   "zombos"
+  ]
+ },
+ {
+  "id": "globulancier",
+  "pays": "anatomia",
+  "lieu": "Cardiopolis",
+  "histoire": "Garde de Cardiopolis, Globulancier patrouille sans relâche dans les artères et ne s'arrête jamais de battre la mesure. Il connaît les groupes sanguins, les cavités du cœur et le long voyage d'un globule rouge. Vampirein le suit de trop près ; Boxeps lui demande de pomper plus fort.",
+  "liens": [
+   "vampirein",
+   "boxeps"
+  ]
+ },
+ {
+  "id": "cinq-sensei",
+  "pays": "anatomia",
+  "lieu": "Le Dojo des Muscles",
+  "histoire": "Maître du Dojo des Muscles, Cinq-Sensei combat les yeux bandés et devine ses adversaires à l'odeur, au bruit et au toucher. Il connaît les secrets de l'œil, de l'oreille, du nez, de la langue et de la peau. Boxeps s'entraîne chez lui ; Neuronin lui transmet tous les messages des sens.",
+  "liens": [
+   "boxeps",
+   "neuronin"
+  ]
+ },
+ {
+  "id": "antibiotitan",
+  "pays": "anatomia",
+  "lieu": "Cardiopolis",
+  "histoire": "Gardien des remparts de Cardiopolis, Antibiotitan repousse microbes et virus comme on repousse une armée. Il connaît les grandes maladies, les vaccins et la découverte de la pénicilline. Champignomancien lui a offert sa première moisissure ; Pasteurion est son mentor.",
+  "liens": [
+   "champignomancien",
+   "pasteurion"
+  ]
+ },
+ {
+  "id": "glucidragon",
+  "pays": "anatomia",
+  "lieu": "Le Palais des Organes",
+  "histoire": "Dragon des cuisines du Palais des Organes, Glucidragon garde le trésor de toutes les vitamines. Il connaît les familles d'aliments, les protéines, les glucides et les lipides. Vampirein refuse ses repas trop équilibrés ; Boxeps vient lui réclamer des protéines après chaque entraînement.",
+  "liens": [
+   "vampirein",
+   "boxeps"
+  ]
+ },
+ {
+  "id": "chromosamourai",
+  "pays": "anatomia",
+  "lieu": "Cardiopolis",
+  "histoire": "Samouraï des laboratoires de Cardiopolis, Chromosamouraï lit l'ADN comme un vieux parchemin. Il connaît les chromosomes, les gènes et les grandes découvertes de la génétique. Pasteurion le trouve trop moderne ; Zombos aimerait savoir de qui il a hérité ses os.",
+  "liens": [
+   "pasteurion",
+   "zombos"
+  ]
+ },
+ {
+  "id": "pasteurion",
+  "pays": "anatomia",
+  "lieu": "Cardiopolis",
+  "histoire": "Doyen de Cardiopolis, Pasteurion commande la légion des grands médecins de l'histoire, d'Hippocrate aux inventeurs des vaccins. Il connaît chaque découverte qui a sauvé des vies. Antibiotitan est son meilleur élève ; Vampirein se méfie de ses flacons.",
+  "liens": [
+   "antibiotitan",
+   "vampirein"
+  ]
+ },
+ {
+  "id": "frontiero",
+  "pays": "mappemondie",
+  "lieu": "Le Grand Atlas",
+  "histoire": "Gardien des confins du Grand Atlas, Frontiero connaît par cœur chaque frontière et chaque pays voisin. Il sait quels pays n'ont pas d'accès à la mer et lesquels touchent le plus de voisins. Drapeautomate lui fournit les drapeaux ; Hordemographe compte ceux qui passent.",
+  "liens": [
+   "drapeautomate",
+   "hordemographe"
+  ]
+ },
+ {
+  "id": "chefalier",
+  "pays": "mappemondie",
+  "lieu": "Capitalia",
+  "histoire": "Chevalier des cuisines de Capitalia, Chefalier connaît le plat emblématique de chaque pays, des sushis à la paella. Il défend les recettes contre ceux qui les maltraitent. Dollarbalète paie ses festins ; Gladialecte lui traduit les menus du monde entier.",
+  "liens": [
+   "dollarbalete",
+   "gladialecte"
+  ]
+ },
+ {
+  "id": "carnavaleureux",
+  "pays": "mappemondie",
+  "lieu": "La Route des Capitales",
+  "histoire": "Fêtard infatigable de la Route des Capitales, Carnavaleureux va de fête en fête : carnaval, Nouvel An lunaire, fête des lumières. Il connaît les grandes traditions du monde et leurs dates. Cyclopolis lui ouvre ses rues ; Région-Air lui apprend les fêtes de chaque région.",
+  "liens": [
+   "cyclopolis",
+   "region-air"
+  ]
+ },
+ {
+  "id": "yenissaire",
+  "pays": "mappemondie",
+  "lieu": "Le Marché des Monnaies",
+  "histoire": "Gardien des coffres du Marché des Monnaies, Yenissaire connaît l'histoire de l'argent, des coquillages aux billets. Il sait qui a frappé les premières pièces et pourquoi certains billets brillent. Dollarbalète est son rival ; Hakapitale lui confie le trésor des capitales.",
+  "liens": [
+   "dollarbalete",
+   "hakapitale"
+  ]
+ },
+ {
+  "id": "alphabarbare",
+  "pays": "mappemondie",
+  "lieu": "La Tour des Langues",
+  "histoire": "Barbare lettré de la Tour des Langues, Alphabarbare collectionne les écritures comme d'autres collectionnent les trophées. Il connaît les alphabets latin, grec, cyrillique, arabe et les idéogrammes. Gladialecte lui traduit ses cris de guerre ; Latinquisiteur vérifie ses racines.",
+  "liens": [
+   "gladialecte",
+   "latinquisiteur"
+  ]
+ },
+ {
+  "id": "lascauxboy",
+  "pays": "chronie",
+  "lieu": "Le Quartier antique",
+  "histoire": "Cowboy des premiers temps du Quartier antique, Lascauxboy chasse le mammouth au lasso et peint ses exploits sur les parois des grottes. Il connaît les premiers humains, les outils de pierre et les grottes ornées. Silexcalibur lui taille ses pointes ; Mésozouave lui dit que les dinosaures, c'était bien avant.",
+  "liens": [
+   "silexcalibur",
+   "mesozouave"
+  ]
+ },
+ {
+  "id": "belle-epoquetaire",
+  "pays": "chronie",
+  "lieu": "Le Palais des Temps modernes",
+  "histoire": "Mousquetaire du Palais des Temps modernes, Belle-Époquetaire a vécu le siècle des machines à vapeur, du télégraphe et des expositions universelles. Il connaît les grandes inventions et les grands événements du XIXe siècle. Waterlooser lui raconte la fin de l'Empire ; Poilutteur sait comment son époque s'est terminée.",
+  "liens": [
+   "waterlooser",
+   "poilutteur"
+  ]
+ },
+ {
+  "id": "cleopatronne",
+  "pays": "chronie",
+  "lieu": "Le Quartier antique",
+  "histoire": "Patronne du Quartier antique, Cléopâtronne règne sur les bords du Nil et connaît tous les pharaons, de Khéops à la dernière reine d'Égypte. Elle sait qui a bâti chaque pyramide et chaque temple. Momiephis lui sert de garde du corps ; Néronin vient de Rome lui faire la cour.",
+  "liens": [
+   "momiephis",
+   "neronin"
+  ]
+ },
+ {
+  "id": "parthenombre",
+  "pays": "chronie",
+  "lieu": "Le Quartier antique",
+  "histoire": "Ombre des colonnades du Quartier antique, Parthénombre glisse d'une cité grecque à l'autre sans se faire voir. Elle connaît la démocratie d'Athènes, les lois de Sparte et les grandes guerres de la Grèce antique. Thermopyl-ou-Face lui doit une fière chandelle ; Centaurolympe lui raconte les légendes.",
+  "liens": [
+   "thermopyl-ou-face",
+   "centaurolympe"
+  ]
+ },
+ {
+  "id": "magellame",
+  "pays": "chronie",
+  "lieu": "Le Palais des Temps modernes",
+  "histoire": "Navigateur du Palais des Temps modernes, Magellame a fait le tour du monde, la rapière à la main. Il connaît les grands explorateurs, leurs navires et leurs routes autour du globe. Boussolat lui montre le nord ; Flibustlantique a navigué dans son sillage.",
+  "liens": [
+   "boussolat",
+   "flibustlantique"
+  ]
+ },
+ {
+  "id": "ciselator",
+  "pays": "palettia",
+  "lieu": "La Galerie des Maîtres",
+  "histoire": "Gladiateur de la Galerie des Maîtres, Ciselator taille ses adversaires comme des blocs de marbre. Il connaît les grandes sculptures, de l'Antiquité à Rodin. Da Vincible lui dispute le titre de génie de la Renaissance ; Louvre-Boîte garde ses statues les plus précieuses.",
+  "liens": [
+   "da-vincible",
+   "louvre-boite"
+  ]
+ },
+ {
+  "id": "daguerrotireur",
+  "pays": "palettia",
+  "lieu": "Le Grand Musée de Pinceaurence",
+  "histoire": "Tireur du Grand Musée de Pinceaurence, Daguerrotireur ne rate jamais son cliché, même en pose longue. Il connaît l'histoire de la photographie et ses grands noms. Chevalier Renoir lui reproche d'avoir fait trembler les peintres ; Louvre-Boîte lui confie l'exposition de ses photos.",
+  "liens": [
+   "chevalier-renoir",
+   "louvre-boite"
+  ]
+ },
+ {
+  "id": "clapocalypse",
+  "pays": "palettia",
+  "lieu": "Pinceaurence",
+  "histoire": "Cascadeur des studios de Pinceaurence, Clapocalypse saute de toits en toits à chaque « Action ! ». Il connaît les grands films, les réalisateurs et l'histoire du cinéma depuis les frères Lumière. Ténorc veut une comédie musicale ; Bach-à-Sable compose ses musiques de film.",
+  "liens": [
+   "tenorc",
+   "bach-a-sable"
+  ]
+ },
+ {
+  "id": "mosaikido",
+  "pays": "palettia",
+  "lieu": "Les Jardins impressionnistes",
+  "histoire": "Maîtresse des pavillons des Jardins impressionnistes, Mosaïkido retourne la force de ses adversaires et les transforme en motif décoratif. Elle connaît la mosaïque, le vitrail, la tapisserie, l'Art nouveau et l'Art déco. Chevalier Renoir lui prête ses couleurs ; Pyramidragon admire ses vitraux.",
+  "liens": [
+   "chevalier-renoir",
+   "pyramidragon"
+  ]
+ },
+ {
+  "id": "gargouillard",
+  "pays": "palettia",
+  "lieu": "La Vallée des Monuments",
+  "histoire": "Gardien des toits de la Vallée des Monuments, Gargouillard crache la pluie sur les intrus depuis les tours des cathédrales. Il connaît les arcs-boutants, les rosaces et les grands édifices gothiques. Pyramidragon le trouve trop sombre ; Ciselator lui a sculpté sa grimace.",
+  "liens": [
+   "pyramidragon",
+   "ciselator"
+  ]
+ },
+ {
+  "id": "fablieutenant",
+  "pays": "fabulie",
+  "lieu": "La Bibliothèque des Légendes",
+  "histoire": "Officier de la Bibliothèque des Légendes, Fablieutenant commande une compagnie de loups, de renards et de cigales. Il connaît les fables et les contes, et la morale de chacun. Dumasquetaire lui envie ses histoires courtes ; Rimbaudxeur lui récite des vers.",
+  "liens": [
+   "dumasquetaire",
+   "rimbaudxeur"
+  ]
+ },
+ {
+  "id": "totemplier",
+  "pays": "fabulie",
+  "lieu": "Le Mont des Dieux",
+  "histoire": "Gardien du Mont des Dieux, Totemplier protège les dieux venus de tous les continents, d'Anubis à Quetzalcóatl. Il connaît les grandes mythologies du monde et leurs légendes. Centaurolympe lui présente les Grecs ; Thor-Ticolis les Nordiques.",
+  "liens": [
+   "centaurolympe",
+   "thor-ticolis"
+  ]
+ },
+ {
+  "id": "descartouche",
+  "pays": "fabulie",
+  "lieu": "Homéropolis",
+  "histoire": "Penseur armé d'Homéropolis, Descartouche doute de tout, sauf de la précision de son tir. Il connaît les grands philosophes, de Socrate à Simone de Beauvoir, et leurs idées. Latinquisiteur vérifie ses citations ; Cyrano de Bretteurac lui préfère les répliques.",
+  "liens": [
+   "latinquisiteur",
+   "cyrano-de-bretteurac"
+  ]
+ },
+ {
+  "id": "conjugladiateur",
+  "pays": "fabulie",
+  "lieu": "Homéropolis",
+  "histoire": "Gladiateur de l'arène d'Homéropolis, Conjugladiateur conjugue chaque coup à tous les temps et à tous les modes. Il connaît les règles de grammaire, l'orthographe et les accords les plus piégeux. Latinquisiteur traque ses fautes ; Rimbaudxeur se moque de ses passés simples.",
+  "liens": [
+   "latinquisiteur",
+   "rimbaudxeur"
+  ]
+ },
+ {
+  "id": "cerberserker",
+  "pays": "fabulie",
+  "lieu": "Le Mont des Dieux",
+  "histoire": "Gardien des portes sous le Mont des Dieux, Cerberserker entre en rage à trois têtes à la fois. Il connaît les monstres de la mythologie grecque, de l'Hydre au Minotaure. Centaurolympe le fait passer pour un gentil chien ; Pythagorgone est la seule qu'il n'ose pas regarder.",
+  "liens": [
+   "centaurolympe",
+   "pythagorgone"
+  ]
+ },
+ {
+  "id": "equerrier",
+  "pays": "calculie",
+  "lieu": "Pythagopolis",
+  "histoire": "Défenseur de Pythagopolis, Équerrier ne combat qu'à angle droit et ne recule jamais d'un degré. Il connaît les figures, les angles, les aires et les solides. Pythagorgone lui a appris son théorème ; Ninjalgèbre lui prête ses inconnues.",
+  "liens": [
+   "pythagorgone",
+   "ninjalgebre"
+  ]
+ },
+ {
+  "id": "aleatoreador",
+  "pays": "calculie",
+  "lieu": "L'Arène des Tables",
+  "histoire": "Toréador de l'Arène des Tables, Aléatoréador lance un dé avant chaque passe et gagne plus souvent qu'il ne le devrait. Il connaît les probabilités, les paradoxes et les énigmes de logique. Premier Dan refuse de jouer avec lui ; Multiplicator calcule ses chances.",
+  "liens": [
+   "premier-dan",
+   "multiplicator"
+  ]
+ },
+ {
+  "id": "bitking",
+  "pays": "calculie",
+  "lieu": "La Bibliothèque infinie",
+  "histoire": "Pillard numérique de la Bibliothèque infinie, Bitking navigue sur des drakkars de données. Il connaît les langages, les algorithmes et l'histoire des ordinateurs. Eurêkatana lui fournit des inventions ; Ninjalgèbre l'aide à résoudre ses équations.",
+  "liens": [
+   "eurekatana",
+   "ninjalgebre"
+  ]
+ },
+ {
+  "id": "locomotaure",
+  "pays": "calculie",
+  "lieu": "Pythagopolis",
+  "histoire": "Gardien de la gare de Pythagopolis, Locomotaure fonce tête baissée sur les rails et ne déraille jamais. Il connaît les records de vitesse des trains, des avions et des bateaux, et l'histoire des transports. Eurêkatana a inventé ses roues ; Boussolat lui indique le chemin.",
+  "liens": [
+   "eurekatana",
+   "boussolat"
+  ]
+ },
+ {
+  "id": "morsaire",
+  "pays": "calculie",
+  "lieu": "Pythagopolis",
+  "histoire": "Corsaire des ondes de Pythagopolis, Morsaire envoie ses messages en points et en traits d'un bout à l'autre de Culturia. Il connaît le télégraphe, le téléphone, la radio et Internet. Bitking lui fournit les réseaux ; Gladialecte lui traduit les messages venus d'ailleurs.",
+  "liens": [
+   "bitking",
+   "gladialecte"
+  ]
  }
 ]

@@ -13251,5 +13251,1851 @@
     "url": "https://wikiwand.com/en/Exoplanets"
    }
   ]
+ },
+ {
+  "id": "abysses",
+  "sources": [
+   {
+    "titre": "Trieste and the first dive to the deepest part of the oceans (US Naval History and Heritage Command)",
+    "url": "https://history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-041/h-041-6.html"
+   },
+   {
+    "titre": "Le bathyscaphe Trieste et la conquête du point le plus profond des océans (Figaro Nautisme)",
+    "url": "https://figaronautisme.meteoconsult.fr/actus-nautisme-lifestyle/2026-10-06/92601-le-bathyscaphe-trieste-et-la-conquete-du-point-le-plus-profond-des-oceans"
+   },
+   {
+    "titre": "The Mariana Trench, an adventure 11,000 metres under the sea (Nausicaá)",
+    "url": "https://nausicaa.fr/en/the-ocean-magazine/mariana-trench-11-000-m-under-sea"
+   },
+   {
+    "titre": "Race to the bottom of the sea (The Conversation)",
+    "url": "https://theconversation.com/race-to-the-bottom-of-the-sea-the-little-known-heroes-of-the-20th-centurys-inner-space-race-130251"
+   },
+   {
+    "titre": "Pelagic zone (Wikipédia, copie EPFL Wikispeedia)",
+    "url": "https://dlab.epfl.ch/wikispeedia/wpcd/wp/p/Pelagic_zone.htm"
+   },
+   {
+    "titre": "Layers of the ocean (NOAA JetStream)",
+    "url": "https://noaa.gov/jetstream/ocean/layers-of-ocean"
+   },
+   {
+    "titre": "The discovery of hydrothermal vents (Woods Hole Oceanographic Institution)",
+    "url": "https://www.whoi.edu/oceanus/feature/the-discovery-of-hydrothermal-vents/"
+   },
+   {
+    "titre": "Au fond des océans, les cheminées hydrothermales (Figaro Nautisme)",
+    "url": "https://figaronautisme.meteoconsult.fr/actus-nautisme-lifestyle/2026-10-27/93572-au-fond-des-oceans-les-cheminees-hydrothermales-abritent-une-vie-sans-soleil"
+   },
+   {
+    "titre": "Monsters of the deep (National Oceanography Centre)",
+    "url": "https://noc.ac.uk/under-the-surface/monsters-deep"
+   },
+   {
+    "titre": "Remarkably bizarre deep-sea creatures (ZME Science)",
+    "url": "https://www.zmescience.com/feature-post/remarkably-bizarre-deep-sea-creatures-freak-show"
+   }
+  ]
+ },
+ {
+  "id": "alphabets-ecritures",
+  "sources": [
+   {
+    "titre": "D'une écriture à l'autre (Hérodote.net)",
+    "url": "https://www.herodote.net/D_une_ecriture_a_l_autre-synthese-4-324.php"
+   },
+   {
+    "titre": "Histoire des systèmes d'écriture, Michel Fagard (université Paris 8)",
+    "url": "https://ufr-langues.univ-paris8.fr/IMG/pdf/histoire_des_syste_mes_d_e_criture._festival_des_langues_de_paris_8__michel_fagard.pdf"
+   },
+   {
+    "titre": "L'alphabet phénicien et ses dérivés (CEFAN, université Laval)",
+    "url": "https://axl.cefan.ulaval.ca/monde/alphabet-phenicien.htm"
+   },
+   {
+    "titre": "Alphabet (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/alphabet/20170"
+   },
+   {
+    "titre": "Alphabet (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-73/alphabet/"
+   },
+   {
+    "titre": "Writing Systems (Psychology of Language, BCcampus)",
+    "url": "https://opentextbc.ca/psyclanguage/chapter/writing-systems"
+   },
+   {
+    "titre": "Hiragana (Encyclopædia Britannica)",
+    "url": "https://www.britannica.com/topic/hiragana"
+   },
+   {
+    "titre": "Night writing (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Night_writing"
+   },
+   {
+    "titre": "Braille (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Braille"
+   }
+  ]
+ },
+ {
+  "id": "alpinisme",
+  "sources": [
+   {
+    "titre": "L'alpinisme, fiche d'inventaire du patrimoine culturel immatériel (ministère de la Culture)",
+    "url": "https://www.culture.gouv.fr/Media/Thematiques/Patrimoine-culturel-immateriel/Files/Fiches-inventaire-du-PCI/L-alpinisme"
+   },
+   {
+    "titre": "Great north faces of the Alps (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Great_north_faces_of_the_Alps"
+   },
+   {
+    "titre": "Eiger-Nordwand (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Eiger-Nordwand"
+   },
+   {
+    "titre": "Anderl Heckmair (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Anderl_Heckmair"
+   },
+   {
+    "titre": "Eiger north face poses ultimate challenge (Swissinfo)",
+    "url": "https://www.swissinfo.ch/eng/eiger-north-face-poses-ultimate-challenge/"
+   },
+   {
+    "titre": "Krzysztof Wielicki (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Krzysztof_Wielicki"
+   },
+   {
+    "titre": "8000ers in winter, a chronological compendium (Dreamwanderlust)",
+    "url": "https://www.dreamwanderlust.com/news/8000ers-in-winter-a-chronological-compendium-of-climbs"
+   },
+   {
+    "titre": "K2 : Nepalese mountaineers claim historic first winter ascent (Planetmountain)",
+    "url": "https://www.planetmountain.com/en/news/alpinism/k2-nepalese-mountaineers-claim-historic-first-winter-ascent.html"
+   },
+   {
+    "titre": "Eight-thousanders (Wikipédia, archive de 2022)",
+    "url": "https://webcf.waybackmachine.org/web/20220321205536/https://en.wikipedia.org/wiki/Eight-thousanders"
+   },
+   {
+    "titre": "Glossaire de l'escalade (theCrag)",
+    "url": "https://www.thecrag.com/fr/article/glossary"
+   },
+   {
+    "titre": "Glossary of climbing terms (Wikipédia, copie en-academic)",
+    "url": "https://en-academic.com/dic.nsf/enwiki/213014"
+   },
+   {
+    "titre": "Les mystères des hauteurs (Parc national des Écrins)",
+    "url": "https://www.ecrins-parcnational.fr/sites/ecrins-parcnational.com/files/fiche_doc/25660/4-lesmysteresdeshauteurs.pdf"
+   }
+  ]
+ },
+ {
+  "id": "amphibiens",
+  "sources": [
+   {
+    "titre": "Amphibian (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Amphibian"
+   },
+   {
+    "titre": "Amphibia (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/amphibia"
+   },
+   {
+    "titre": "Chytridiomycose (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/chytridiomycose"
+   },
+   {
+    "titre": "Chytridiomycosis (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/EN/Chytridiomycosis"
+   },
+   {
+    "titre": "Frog (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Frog"
+   },
+   {
+    "titre": "Goliath frog (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Goliath_frog"
+   },
+   {
+    "titre": "Paedophryne amauensis (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Paedophryne_amauensis"
+   },
+   {
+    "titre": "Axolotl (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Axolotl"
+   },
+   {
+    "titre": "Salamander (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Salamander"
+   },
+   {
+    "titre": "Cane toad (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Cane_toad"
+   },
+   {
+    "titre": "Poisonous amphibian (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Poisonous_amphibian"
+   }
+  ]
+ },
+ {
+  "id": "araignees-scorpions",
+  "sources": [
+   {
+    "titre": "Spider (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Spider"
+   },
+   {
+    "titre": "Arachnid (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Arachnid"
+   },
+   {
+    "titre": "Tarantula (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Tarantula"
+   },
+   {
+    "titre": "Goliath birdeater (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Goliath_birdeater"
+   },
+   {
+    "titre": "Giant huntsman spider (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Giant_huntsman_spider"
+   },
+   {
+    "titre": "Scorpion (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Scorpion"
+   },
+   {
+    "titre": "Emperor scorpion (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Emperor_scorpion"
+   },
+   {
+    "titre": "Leiurus (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Leiurus"
+   },
+   {
+    "titre": "Opiliones (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Opiliones"
+   },
+   {
+    "titre": "List of dangerous spiders (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/List_of_dangerous_spiders"
+   },
+   {
+    "titre": "Pholcidae (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Pholcidae"
+   }
+  ]
+ },
+ {
+  "id": "archipels",
+  "sources": [
+   {
+    "titre": "Atoll (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Atoll"
+   },
+   {
+    "titre": "Azores (Wikiwand, Simple English Wikipedia)",
+    "url": "https://wikiwand.com/simple/Azores"
+   },
+   {
+    "titre": "Archipel des Açores (Encyclopædia Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/archipel-des-acores/"
+   },
+   {
+    "titre": "List of archipelagos by number of islands (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_archipelagos_by_number_of_islands"
+   },
+   {
+    "titre": "Îles Canaries (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/iles-canaries"
+   },
+   {
+    "titre": "Canaries (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Canaries"
+   },
+   {
+    "titre": "Teide (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/teide"
+   },
+   {
+    "titre": "Hawaiian Islands (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/Hawaiian_Islands"
+   },
+   {
+    "titre": "Hawaiian Islands (EBSCO Research Starters)",
+    "url": "https://ebsco.com/research-starters/geology/hawaiian-islands"
+   },
+   {
+    "titre": "How were the Hawaiian Islands formed? (NOAA)",
+    "url": "https://oceanservice.noaa.gov/facts/hawaii.html"
+   },
+   {
+    "titre": "Polynésie française (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/polynesie-francaise"
+   },
+   {
+    "titre": "Galápagos Islands (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Gal%C3%A1pagos_Islands"
+   },
+   {
+    "titre": "Surtsey (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Surtsey"
+   }
+  ]
+ },
+ {
+  "id": "arts-decoratifs",
+  "sources": [
+   {
+    "titre": "Art nouveau (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/art_nouveau/106262"
+   },
+   {
+    "titre": "L'Art nouveau (Metropolitan Museum of Art)",
+    "url": "https://www.metmuseum.org/fr/essays/art-nouveau"
+   },
+   {
+    "titre": "Art déco (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/Art_d%C3%A9co/187186"
+   },
+   {
+    "titre": "La tapisserie de Bayeux (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-16892/la-tapisserie-de-bayeux/"
+   },
+   {
+    "titre": "The Lady and the Unicorn (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/The_Lady_and_the_Unicorn"
+   },
+   {
+    "titre": "Ravenne, la ville de l'or (office de tourisme de Ravenne)",
+    "url": "https://www.turismo.ra.it/wp-content/uploads/2021/02/ravenna_oro_fre.pdf"
+   },
+   {
+    "titre": "Early Christian Monuments of Ravenna (UNESCO)",
+    "url": "https://whc.unesco.org/en/list/788/"
+   }
+  ]
+ },
+ {
+  "id": "athenes-sparte",
+  "sources": [
+   {
+    "titre": "Clisthène (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-1000/clisthene/"
+   },
+   {
+    "titre": "Guerre du Péloponnèse (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/guerre_du_P%C3%A9loponn%C3%A8se/137478"
+   },
+   {
+    "titre": "431 à 404 av. J.-C. : la guerre du Péloponnèse (Hérodote.net)",
+    "url": "https://www.herodote.net/431_a_404_av_J_C-synthese-2868.php"
+   },
+   {
+    "titre": "Nicias (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-14661/nicias/"
+   },
+   {
+    "titre": "Sparte (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/ville/Sparte/145022"
+   },
+   {
+    "titre": "Sparte (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-197/sparte/"
+   },
+   {
+    "titre": "Érechthéion (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-420/erechtheion/"
+   }
+  ]
+ },
+ {
+  "id": "cathedrales-gothiques",
+  "sources": [
+   {
+    "titre": "Architecture gothique (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/architecture-gothique"
+   },
+   {
+    "titre": "Les cathédrales gothiques : architecture et lumière (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/2-1649/les-cathedrales-gothiques--architecture-et-lumiere/"
+   },
+   {
+    "titre": "L'art gothique (Metropolitan Museum of Art)",
+    "url": "https://www.metmuseum.org/fr/essays/gothic-art"
+   },
+   {
+    "titre": "Historical overview of Beauvais Cathedral (site de la cathédrale)",
+    "url": "https://cathedrale-beauvais.fr/en/historical-overview-of-beauvais-cathedral/"
+   },
+   {
+    "titre": "High Gothic (Britannica)",
+    "url": "https://www.britannica.com/art/Western-architecture/High-Gothic"
+   },
+   {
+    "titre": "L'histoire de la flèche de Notre-Dame (Ville de Paris)",
+    "url": "https://www.paris.fr/pages/l-histoire-en-images-de-la-fleche-de-notre-dame-6716"
+   },
+   {
+    "titre": "Viollet-le-Duc et Notre-Dame de Paris (académie de Versailles)",
+    "url": "https://hda.ac-versailles.fr/IMG/pdf/4.-evld-notredamedeparis-5.pdf"
+   },
+   {
+    "titre": "Les statues de la flèche de Notre-Dame (ministère de la Culture)",
+    "url": "https://www.culture.gouv.fr/regions/drac-ile-de-france/actualites/actualite-a-la-une/les-statues-restaurees-de-notre-dame-de-paris2"
+   }
+  ]
+ },
+ {
+  "id": "cerveau-nerfs",
+  "sources": [
+   {
+    "titre": "Human brain (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Human_brain"
+   },
+   {
+    "titre": "Neuron (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Neuron"
+   },
+   {
+    "titre": "Chemical synapse (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Chemical_synapse"
+   },
+   {
+    "titre": "Spinal cord (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Spinal_cord"
+   },
+   {
+    "titre": "Reflex (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Reflex"
+   },
+   {
+    "titre": "Neuroscience of sleep (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Neuroscience_of_sleep"
+   },
+   {
+    "titre": "Paul Broca (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Paul_Broca"
+   },
+   {
+    "titre": "Victor Leborgne (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Victor_Leborgne"
+   },
+   {
+    "titre": "Henry Molaison (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Henry_Molaison"
+   },
+   {
+    "titre": "Limbic system (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Limbic_system"
+   },
+   {
+    "titre": "Brenda Milner (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Brenda_Milner"
+   }
+  ]
+ },
+ {
+  "id": "cinema",
+  "sources": [
+   {
+    "titre": "La naissance de l'usine à rêves (Herodote)",
+    "url": "https://www.herodote.net/La_naissance_de_l_usine_a_reves-synthese-608.php?resume=1"
+   },
+   {
+    "titre": "Palme d'Or (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Palme_d'Or"
+   },
+   {
+    "titre": "Festival de Cannes : les Palmes d'or depuis leur création (Brut)",
+    "url": "https://www.brut.media/fr/articles/culture-lifestyle/festival-de-cannes/festival-de-cannes-les-palmes-dor-depuis-leur-creation"
+   },
+   {
+    "titre": "Oscar du meilleur film (copie de Wikipédia)",
+    "url": "https://areq.net/lang/fr/Oscar_du_meilleur_film.html"
+   },
+   {
+    "titre": "16 mai 1929 : première cérémonie des Oscars (Herodote)",
+    "url": "https://www.herodote.net/16_mai_1929-evenement-19290516.php"
+   },
+   {
+    "titre": "Glossaire du cinéma (Cinéma parlant)",
+    "url": "https://www.cinemaparlant.com/fichesactivites/ft_glossaire.pdf"
+   },
+   {
+    "titre": "6 octobre 1927 : Le Chanteur de jazz (Herodote)",
+    "url": "https://www.herodote.net/6_octobre_1927-evenement-19271006.php"
+   },
+   {
+    "titre": "The Jazz Singer (Britannica)",
+    "url": "https://www.britannica.com/topic/The-Jazz-Singer-film-1927"
+   },
+   {
+    "titre": "History of the motion picture (Britannica)",
+    "url": "https://www.britannica.com/summary/history-of-the-motion-picture"
+   },
+   {
+    "titre": "Georges Méliès (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/personnage/M%C3%A9li%C3%A8s/126671"
+   },
+   {
+    "titre": "Georges Méliès (Herodote)",
+    "url": "https://www.herodote.net/Georges_Melies_1861_1938_-synthese-477.php"
+   },
+   {
+    "titre": "Nouvelle Vague (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/Nouvelle_Vague"
+   },
+   {
+    "titre": "Histoire du cinéma (académie de Toulouse)",
+    "url": "https://pedagogie.ac-toulouse.fr/prim32/histoire-du-cinema"
+   },
+   {
+    "titre": "France, arts et culture : le cinéma (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/france-arts-et-culture-le-cinema/"
+   }
+  ]
+ },
+ {
+  "id": "cinq-sens",
+  "sources": [
+   {
+    "titre": "Goût (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/gout"
+   },
+   {
+    "titre": "Œil humain (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/oeil-humain"
+   },
+   {
+    "titre": "Sens (physiologie) (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/sens-physiologie"
+   },
+   {
+    "titre": "Olfaction (Kenhub)",
+    "url": "https://www.kenhub.com/fr/library/physiologie-fr/olfaction"
+   },
+   {
+    "titre": "Mieux comprendre les troubles de l'odorat (CNRS Le journal)",
+    "url": "https://lejournal.cnrs.fr/print/3794"
+   },
+   {
+    "titre": "Mécanorécepteurs (Kenhub)",
+    "url": "https://www.kenhub.com/fr/library/physiologie-fr/mecanorecepteur"
+   },
+   {
+    "titre": "L'audition (Planet-Vie, ENS)",
+    "url": "https://planet-vie.ens.fr/node/1345/download/pdf"
+   },
+   {
+    "titre": "À la découverte de l'oreille (Futura Santé)",
+    "url": "https://www.futura-sciences.com/sante/photos/corps-humain-decouverte-oreille-1666/"
+   }
+  ]
+ },
+ {
+  "id": "coeur-sang",
+  "sources": [
+   {
+    "titre": "Heart (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Heart"
+   },
+   {
+    "titre": "Sinoatrial node (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Sinoatrial_node"
+   },
+   {
+    "titre": "Red blood cell (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Red_blood_cell"
+   },
+   {
+    "titre": "ABO blood group system (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/ABO_blood_group_system"
+   },
+   {
+    "titre": "Platelet (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Platelet"
+   },
+   {
+    "titre": "Blood type (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Blood_type"
+   },
+   {
+    "titre": "Blood cell (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Blood_cell"
+   },
+   {
+    "titre": "Circulatory system (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Circulatory_system"
+   },
+   {
+    "titre": "William Harvey (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/William_Harvey"
+   },
+   {
+    "titre": "Vein (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Vein"
+   },
+   {
+    "titre": "Capillary (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Capillary"
+   },
+   {
+    "titre": "Blood (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Blood"
+   }
+  ]
+ },
+ {
+  "id": "contes-fables",
+  "sources": [
+   {
+    "titre": "Fables, de La Fontaine (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/oeuvre/Fables/118912"
+   },
+   {
+    "titre": "Jean de La Fontaine (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Jean_de_La_Fontaine"
+   },
+   {
+    "titre": "Les fables de La Fontaine (Eduscol)",
+    "url": "https://eduscol.education.fr/media/1230/download"
+   },
+   {
+    "titre": "La Fontaine, Fables choisies (Herodote)",
+    "url": "https://www.herodote.net/Fables_choisies-article-1763.php"
+   },
+   {
+    "titre": "Contes de l'enfance (Herodote)",
+    "url": "https://www.herodote.net/Contes_de_l_enfance-synthese-660.php"
+   },
+   {
+    "titre": "Charles Perrault (La langue française)",
+    "url": "https://www.lalanguefrancaise.com/litterature/charles-perrault"
+   },
+   {
+    "titre": "Contes, Charles Perrault (Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/contes-charles-perrault/"
+   },
+   {
+    "titre": "Histoires ou contes du temps passé (mémoire, Enssib)",
+    "url": "https://www.enssib.fr/bibliotheque-numerique/documents/66803-histoires-ou-contes-du-temps-passe-charles-perrault.pdf"
+   },
+   {
+    "titre": "Les auteurs de contes de fées (Efteling)",
+    "url": "https://www.efteling.com/fr/a-propos-efteling/contes-de-fees/auteurs"
+   },
+   {
+    "titre": "Frères Grimm (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Fr%C3%A8res_Grimm"
+   },
+   {
+    "titre": "Les frères Grimm (Kartable)",
+    "url": "https://www.kartable.fr/ressources/francais/fiche-auteur/les-freres-grimm-2/35863"
+   },
+   {
+    "titre": "Les contes des Grimm (deutschland.de)",
+    "url": "https://www.deutschland.de/fr/topic/culture/contes-grimm-allemagne-importance-mondiale"
+   }
+  ]
+ },
+ {
+  "id": "ecosystemes",
+  "sources": [
+   {
+    "titre": "Réseau trophique (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9seau_trophique"
+   },
+   {
+    "titre": "Niveau trophique (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Niveau_trophique"
+   },
+   {
+    "titre": "Réseau trophique marin (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/R%C3%A9seau_trophique_marin"
+   },
+   {
+    "titre": "Production primaire (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Productivit%C3%A9_primaire"
+   },
+   {
+    "titre": "Superprédateur (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Superpr%C3%A9dateur"
+   },
+   {
+    "titre": "Extinction des espèces (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Extinction_des_esp%C3%A8ces"
+   },
+   {
+    "titre": "Espèce menacée (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Animaux_en_voie_de_disparition"
+   },
+   {
+    "titre": "Parc national de Yellowstone (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Parc_national_de_Yellowstone"
+   },
+   {
+    "titre": "Renouée du Japon (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Renou%C3%A9e_du_Japon"
+   },
+   {
+    "titre": "Buddleia de David (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Buddleia_de_David"
+   },
+   {
+    "titre": "Bombus (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Bombus"
+   },
+   {
+    "titre": "Pollinisateurs des îles Galápagos (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Pollinisateurs_des_%C3%AEles_Gal%C3%A1pagos"
+   }
+  ]
+ },
+ {
+  "id": "eruptions-volcaniques",
+  "sources": [
+   {
+    "titre": "Types of volcanic eruptions (Geology.com)",
+    "url": "https://geology.com/volcanoes/types-of-volcanic-eruptions"
+   },
+   {
+    "titre": "Types of volcanic eruptions (Physical Geology, OpenText BC)",
+    "url": "https://opentextbc.ca/physicalgeologyh5p/chapter/types-of-volcanic-eruptions/"
+   },
+   {
+    "titre": "Four of the worst eruptions in history (Britannica)",
+    "url": "https://www.britannica.com/science/volcano/Four-of-the-worst-eruptions-in-history"
+   },
+   {
+    "titre": "The most powerful volcanic eruptions in recorded history (BBC Science Focus)",
+    "url": "https://www.sciencefocus.com/planet-earth/biggest-volcanic-eruptions-2"
+   },
+   {
+    "titre": "Biggest volcanic eruptions in history (Live Science)",
+    "url": "https://www.livescience.com/30507-volcanoes-biggest-history.html"
+   },
+   {
+    "titre": "May 8, 1902: the deadly eruption of Mount Pelée (EARTH Magazine)",
+    "url": "https://www.earthmagazine.org/article/benchmarks-may-8-1902-deadly-eruption-mount-pelee"
+   },
+   {
+    "titre": "L'éruption de la montagne Pelée, détonateur de la volcanologie (Espace des sciences)",
+    "url": "https://espace-sciences.org/sciences-ouest/416/dossier/l-eruption-de-la-montagne-pelee-detonateur-de-la-volcanologie?page=1"
+   },
+   {
+    "titre": "Mount St. Helens 1980 cataclysmic eruption (USGS)",
+    "url": "https://usgs.gov/volcanoes/mount-st-helens/1980-cataclysmic-eruption"
+   },
+   {
+    "titre": "How high was Mount St. Helens before and after 1980? (USGS)",
+    "url": "https://usgs.gov/faqs/how-high-was-mount-st-helens-may-18-1980-eruption-how-high-was-it-after"
+   }
+  ]
+ },
+ {
+  "id": "fetes-traditions",
+  "sources": [
+   {
+    "titre": "Carnaval (Encyclopédie Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/carnaval/30984"
+   },
+   {
+    "titre": "Les plus beaux carnavals du monde (Voyageurs du Monde)",
+    "url": "https://www.voyageursdumonde.fr/voyage-sur-mesure/magazine-voyage/les-plus-beaux-carnavals-du-monde"
+   },
+   {
+    "titre": "Les plus beaux carnavals du monde (Le Routard)",
+    "url": "https://www.routard.com/contenu-dossier/cid136907-les-plus-beaux-carnavals-du-monde.html"
+   },
+   {
+    "titre": "Les fêtes autour du monde (FamilySearch)",
+    "url": "https://www.familysearch.org/fr/blog/les-fetes-autour-du-monde-fr"
+   },
+   {
+    "titre": "List of multinational festivals and holidays (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/List_of_multinational_festivals_and_holidays"
+   }
+  ]
+ },
+ {
+  "id": "frontieres",
+  "sources": [
+   {
+    "titre": "List of countries and territories by number of land borders (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_number_of_land_borders"
+   },
+   {
+    "titre": "Landlocked country (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/Landlocked_state"
+   },
+   {
+    "titre": "Enclave and exclave (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Enclave_and_exclave"
+   },
+   {
+    "titre": "European microstates (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/European_microstate"
+   },
+   {
+    "titre": "Natural border (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Natural_border"
+   },
+   {
+    "titre": "Rivers as Borders (Geography Realm)",
+    "url": "https://www.geographyrealm.com/rivers-as-borders/"
+   }
+  ]
+ },
+ {
+  "id": "gastronomie-monde",
+  "sources": [
+   {
+    "titre": "National dish (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/National_dish"
+   },
+   {
+    "titre": "An A-Z of national dishes (South China Morning Post)",
+    "url": "https://amp.scmp.com/magazines/post-magazine/travel/article/2167790/z-national-dishes-poutine-and-pho-pad-thai-how-many"
+   },
+   {
+    "titre": "Les aliments inscrits au patrimoine de l'UNESCO (Le Bonbon)",
+    "url": "https://www.lebonbon.fr/paris/news/top-aliments-patrimoine-mondial-de-l-unesco/"
+   },
+   {
+    "titre": "La baguette de pain inscrite au patrimoine culturel immatériel (ONU Info)",
+    "url": "https://news.un.org/fr/story/2022/11/1130247"
+   },
+   {
+    "titre": "Le repas gastronomique des Français (UNESCO)",
+    "url": "https://ich.unesco.org/fr/RL/le-repas-gastronomique-des-fran-ais-00437"
+   },
+   {
+    "titre": "La route des épices (Hérodote)",
+    "url": "https://www.herodote.net/histoire/synthese.php?ID=1925&get_all=1"
+   }
+  ]
+ },
+ {
+  "id": "genetique-adn",
+  "sources": [
+   {
+    "titre": "Acide désoxyribonucléique (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/acide-desoxyribonucleique"
+   },
+   {
+    "titre": "Acide désoxyribonucléique (Encyclopédie Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/acide_désoxyribonucléique_ADN/42551"
+   },
+   {
+    "titre": "Genetics : DNA and the genetic code (Britannica)",
+    "url": "https://www.britannica.com/science/genetics/DNA-and-the-genetic-code"
+   },
+   {
+    "titre": "History timeline of genetics (Biology Notes Online)",
+    "url": "https://biologynotesonline.com/timeline/history-timeline-of-genetics"
+   },
+   {
+    "titre": "Timeline of scientific discovery : gene editing (Raconteur)",
+    "url": "https://www.raconteur.net/healthcare/timeline-of-scientific-discovery-gene-editing"
+   },
+   {
+    "titre": "A Brief History of Genetics (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/article/2855/a-brief-history-of-genetics/"
+   },
+   {
+    "titre": "Œil humain (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/oeil-humain"
+   },
+   {
+    "titre": "Dolly, cloned sheep (Britannica)",
+    "url": "https://www.britannica.com/topic/Dolly-cloned-sheep"
+   },
+   {
+    "titre": "Cloning of Dolly the Sheep, 1996 (université d'Édimbourg)",
+    "url": "https://ourhistory.is.ed.ac.uk/index.php/Cloning_of_Dolly_the_Sheep,_1996"
+   },
+   {
+    "titre": "Elle est née, la brebis clonée (Larousse, Journal de l'année 1998)",
+    "url": "https://www.larousse.fr/archives/journaux_annee/1998/125/elle_est_nee_la_brebis_clonee"
+   }
+  ]
+ },
+ {
+  "id": "geometrie",
+  "sources": [
+   {
+    "titre": "Solide de Platon (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/solide-de-platon"
+   },
+   {
+    "titre": "Polygone (Areq, d'après Wikipédia)",
+    "url": "https://areq.net/lang/fr/Polygone.html"
+   },
+   {
+    "titre": "Polygone régulier (Areq, d'après Wikipédia)",
+    "url": "https://areq.net/lang/fr/Polygone_r%C3%A9gulier.html"
+   },
+   {
+    "titre": "Polygone (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Polygone"
+   },
+   {
+    "titre": "Théorème de Pythagore (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/theoreme-de-pythagore"
+   },
+   {
+    "titre": "Triplet pythagoricien (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Triplet_pythagoricien"
+   },
+   {
+    "titre": "Le théorème de Thalès (Maths et tiques, Yvan Monka)",
+    "url": "https://maths-et-tiques.fr/telech/19Thales.pdf"
+   },
+   {
+    "titre": "Angle (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Angle"
+   },
+   {
+    "titre": "Triangle (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Triangle"
+   },
+   {
+    "titre": "Formules d'aire et de volume des solides (Alloprof)",
+    "url": "https://cms.alloprof.qc.ca/sites/default/files/2025-02/2025-Formules-daire-et-volume-des-solides.pdf"
+   },
+   {
+    "titre": "Retrouver les formules de volume (Palais de la Découverte, revue n° 355)",
+    "url": "https://www.palais-decouverte.fr/fileadmin/fileadmin_Palais/fichiersContribs/au-programme/expos-permanentes/mathematiques/Bloc_Formes/pdf_revue/355_mar_avr_2k8.pdf"
+   },
+   {
+    "titre": "Histoire de la géométrie (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/histoire-de-la-geometrie"
+   },
+   {
+    "titre": "Géométrie (Encyclopédie Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/géométrie/55135"
+   }
+  ]
+ },
+ {
+  "id": "grammaire-conjugaison",
+  "sources": [
+   {
+    "titre": "Accord du participe passé employé avec l'auxiliaire avoir (OQLF, Vitrine linguistique)",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21546/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-avoir/accord-du-participe-passe-employe-avec-lauxiliaire-avoir"
+   },
+   {
+    "titre": "Synthèse des règles d'accord du participe passé employé avec être (OQLF, Vitrine linguistique)",
+    "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/24222/la-grammaire/le-verbe/accord-du-participe-passe/avec-lauxiliaire-etre/synthese-des-regles-daccord-du-participe-passe-employe-avec-etre"
+   },
+   {
+    "titre": "Les figures de style : définitions (académie de Guyane)",
+    "url": "https://lettres-histoire-geographie.dis.ac-guyane.fr/IMG/pdf/les_figures_de_style_-_definitions.pdf"
+   },
+   {
+    "titre": "Rappel : les verbes (Nomad Education)",
+    "url": "https://www.nomadeducation.fr/revisions/premiere-sthr-tout-le-programme-lbf67a59/rappel-les-verbes-cyccc547"
+   },
+   {
+    "titre": "Maîtriser le verbe (Nomad Education)",
+    "url": "https://www.nomadeducation.fr/revisions/bac-pro-cuisine-premiere-2021-lbdb8999/maitriser-le-verbe-cy53e098"
+   },
+   {
+    "titre": "Fichier mémo de français CE2-CM2 (école de Warlencourt-Eaucourt, académie de Lille)",
+    "url": "https://warlencourt-eaucourt.etab.ac-lille.fr/files/2016/11/fichier-memo-Francais-CE2-CM1-CM2-2023.pdf"
+   },
+   {
+    "titre": "Classe grammaticale : définition et exemples (L'Étudiant)",
+    "url": "https://www.letudiant.fr/college/methodologie-college/article/classe-grammaticale-definition-et-exemples.html"
+   },
+   {
+    "titre": "Règles de grammaire française (Les Sherpas)",
+    "url": "https://sherpas.com/p/francais/regles-grammaire-francaise.html"
+   }
+  ]
+ },
+ {
+  "id": "grands-explorateurs",
+  "sources": [
+   {
+    "titre": "Ibn Battuta (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-17849/ibn-battuta/"
+   },
+   {
+    "titre": "Ibn Battuta, 1304-1368 (Hérodote.net)",
+    "url": "https://www.herodote.net/Ibn_Battuta_1304_1368_-synthese-3649.php"
+   },
+   {
+    "titre": "Les sept voyages de Zheng He (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/2-1334/les-sept-voyages-de-zheng-he"
+   },
+   {
+    "titre": "11 juillet 1405 : la flotte de Zheng He (Hérodote.net)",
+    "url": "https://www.herodote.net/11_juillet_1405-evenement-14050711.php"
+   },
+   {
+    "titre": "10 novembre 1871 : « Dr Livingstone, I presume ? » (Hérodote.net)",
+    "url": "https://www.herodote.net/10_novembre_1871-evenement-18711110.php"
+   },
+   {
+    "titre": "Shackleton's Endurance expedition (History.com)",
+    "url": "https://www.history.com/articles/shackleton-endurance-survival"
+   },
+   {
+    "titre": "240 men started Magellan's voyage, only 18 finished it (National Geographic)",
+    "url": "https://www.nationalgeographic.com/history/history-magazine/article/240-men-started-magellan-voyage-around-world-only-18-finished-it"
+   },
+   {
+    "titre": "Juan Sebastián de Elcano (Real Instituto Elcano)",
+    "url": "https://www.realinstitutoelcano.org/en/about-elcano/juan-sebastian-de-elcano/"
+   }
+  ]
+ },
+ {
+  "id": "grands-medecins",
+  "sources": [
+   {
+    "titre": "Histoire de la médecine (Encyclopédie Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/histoire_de_la_m%c3%a9decine/187065"
+   },
+   {
+    "titre": "Timeline of medicine and medical technology (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Timeline_of_medicine_and_medical_technology"
+   },
+   {
+    "titre": "Ambroise Paré (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Ambroise_Par%C3%A9"
+   },
+   {
+    "titre": "André Vésale (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-22192/andre-vesale/"
+   },
+   {
+    "titre": "3 décembre 1967 : première greffe du cœur (Hérodote)",
+    "url": "https://www.herodote.net/3_decembre_1967-evenement-19671203.php"
+   },
+   {
+    "titre": "Il y a 50 ans, le Pr Christiaan Barnard osait la première greffe de cœur (Le Quotidien du médecin)",
+    "url": "https://www.lequotidiendumedecin.fr/archives/il-y-50-ans-le-pr-christiaan-barnard-osait-la-premiere-greffe-de-coeur"
+   }
+  ]
+ },
+ {
+  "id": "histoire-monnaie",
+  "sources": [
+   {
+    "titre": "Une brève histoire de la monnaie (BNP Paribas)",
+    "url": "https://group.bnpparibas/actualite/une-breve-histoire-de-la-monnaie"
+   },
+   {
+    "titre": "Brève histoire de la monnaie (Hérodote.net)",
+    "url": "https://www.herodote.net/Breve_histoire_de_la_monnaie-synthese-22.php"
+   },
+   {
+    "titre": "Systèmes monétaires chinois (Encyclopædia Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/systemes-monetaires-chinois/"
+   },
+   {
+    "titre": "Les premiers billets ou papier-monnaie (Citéco)",
+    "url": "https://citeco.fr/10000-years-history-economics/antiquity-to-middle-ages/the-first-banknotes-or-paper-money"
+   },
+   {
+    "titre": "Stockholms Banco (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Stockholms_Banco"
+   },
+   {
+    "titre": "Euro banknotes (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Euro_notes"
+   },
+   {
+    "titre": "Hyperinflation (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/Hyperinflation"
+   },
+   {
+    "titre": "Operation Bernhard (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Operation_Bernhard"
+   },
+   {
+    "titre": "Les pièces en euros (Banque centrale européenne)",
+    "url": "https://ecb.europa.eu/euro/coins/html/index.fr.html"
+   },
+   {
+    "titre": "Pièces en euros de la France (Banque centrale européenne)",
+    "url": "https://ecb.europa.eu/euro/coins/html/fr.fr.html"
+   },
+   {
+    "titre": "French franc (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/en/French_franc"
+   }
+  ]
+ },
+ {
+  "id": "informatique-algorithmes",
+  "sources": [
+   {
+    "titre": "Chronologie de l'informatique (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/chronologie-de-l-informatique"
+   },
+   {
+    "titre": "Informatique (Encyclopédie Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/informatique/61302"
+   },
+   {
+    "titre": "Timeline of Computing History (IEEE Computer Society)",
+    "url": "https://history.computer.org/pubs/timeline.pdf"
+   },
+   {
+    "titre": "History of computing, cours (EPITA, LRDE)",
+    "url": "https://www.lrde.epita.fr/~tiger/lecture-notes/slides/tyla/old/01-history.pdf"
+   },
+   {
+    "titre": "Algorithme de tri (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/algorithme-de-tri"
+   },
+   {
+    "titre": "Tri rapide (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/tri-rapide"
+   },
+   {
+    "titre": "Histoire d'Internet et du Web (F. Gandon, Carnegie Mellon University)",
+    "url": "https://www.cs.cmu.edu/~fgandon/lecture/mass1_internet2000/history/"
+   }
+  ]
+ },
+ {
+  "id": "maladies-medicaments",
+  "sources": [
+   {
+    "titre": "List of epidemics (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/List_of_epidemics"
+   },
+   {
+    "titre": "Les sept pandémies les plus meurtrières de l'histoire (Gavi)",
+    "url": "https://www.gavi.org/fr/vaccineswork/sept-pandemies-meurtrieres-histoire"
+   },
+   {
+    "titre": "History of Smallpox (CDC)",
+    "url": "https://www.cdc.gov/smallpox/about/history.html"
+   },
+   {
+    "titre": "A brief history of vaccination (OMS)",
+    "url": "https://www.who.int/news-room/spotlight/history-of-vaccination/a-brief-history-of-vaccination"
+   },
+   {
+    "titre": "Peste, fiche maladie (Institut Pasteur)",
+    "url": "https://www.pasteur.fr/fr/centre-medical/fiches-maladies/peste"
+   },
+   {
+    "titre": "Peste : les trois pandémies pesteuses (Encyclopædia Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/peste/1-les-trois-pandemies-pesteuses/"
+   },
+   {
+    "titre": "Histoire des antibiotiques (Vidal)",
+    "url": "https://www.vidal.fr/medicaments/utilisation/antibiotiques/antibiotiques-c-est-quoi/histoire.html"
+   },
+   {
+    "titre": "Antibiotique (Larousse médical)",
+    "url": "https://www.larousse.fr/encyclopedie/medical/antibiotique/11230"
+   },
+   {
+    "titre": "Aspirin, brands with history (Office allemand des brevets et des marques)",
+    "url": "https://www.dpma.de/en/explore/milestones/brands-with-history/aspirin"
+   }
+  ]
+ },
+ {
+  "id": "meteo-climat",
+  "sources": [
+   {
+    "titre": "Les nuages : classification et formation (notre-planete.info)",
+    "url": "https://www.notre-planete.info/terre/climatologie_meteo/nuages.php"
+   },
+   {
+    "titre": "Saffir-Simpson hurricane scale (Britannica)",
+    "url": "https://www.britannica.com/topic/Saffir-Simpson-hurricane-scale"
+   },
+   {
+    "titre": "Hurricane intensity scales (Britannica)",
+    "url": "https://britannica.com:443/science/hurricane-intensity-scales"
+   },
+   {
+    "titre": "Liste des vents (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/liste-des-vents"
+   },
+   {
+    "titre": "Mistral, tramontane, sirocco… les vents de France (Futura)",
+    "url": "https://www.futura-sciences.com/planete/questions-reponses/meteorologie-mistral-tramontane-sirocco-connaissez-vous-vraiment-vents-soufflent-france-25546/"
+   },
+   {
+    "titre": "Échelle de Fujita améliorée (Techno-Science)",
+    "url": "https://www.techno-science.net/fr/definitions/echelle-de-fujita-amelioree"
+   },
+   {
+    "titre": "Les instruments de la météorologie (INSPE de La Réunion)",
+    "url": "https://inspe.univ-reunion.fr/fileadmin/Fichiers/ESPE/disciplines/Sciences/Les_instruments_de_la_météorologie.pdf"
+   },
+   {
+    "titre": "Le parc météo (Musée d'histoire des sciences de Genève)",
+    "url": "https://institutions.ville-geneve.ch/fileadmin/user_upload/mhn/documents/Musee_histoire_des_sciences/parc_meteo.pdf"
+   },
+   {
+    "titre": "Köppen climate classification (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/Koppen_Classification"
+   },
+   {
+    "titre": "Tableau des records météorologiques et climatiques (OMM, 2025)",
+    "url": "https://public.wmo.int/sites/default/files/2025-07/Table_Records_25Jul2025.pdf"
+   },
+   {
+    "titre": "Freddy, cyclone tropical le plus long jamais observé (OMM)",
+    "url": "https://wmo.int/fr/media/news/omm-avec-36-jours-dexistence-le-cyclone-tropical-freddy-est-le-plus-long-jamais-observe"
+   }
+  ]
+ },
+ {
+  "id": "monstres-grecs",
+  "sources": [
+   {
+    "titre": "Echidna (mythology) (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Echidna_(mythology)"
+   },
+   {
+    "titre": "You Gotta Know These Greek Mythological Monsters (NAQT)",
+    "url": "https://www.naqt.com/you-gotta-know/greek-mythological-monsters.html"
+   },
+   {
+    "titre": "List of Greek legendary creatures (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/List_of_Greek_legendary_creatures"
+   },
+   {
+    "titre": "Personnages de la mythologie grecque (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/2-1002/personnages-de-la-mythologie-grecque"
+   },
+   {
+    "titre": "Les monstres de la mythologie grecque (lycée Senghor, académie de Normandie)",
+    "url": "https://senghor.lycee.ac-normandie.fr/IMG/pdf/les_monstres_de_la_mythologie_grecque_compressed.pdf"
+   },
+   {
+    "titre": "Les monstres de la mythologie : l'essentiel (Comdewouf)",
+    "url": "https://comdewouf.fr/monstres-mythologie-grecque"
+   }
+  ]
+ },
+ {
+  "id": "mythologies-monde",
+  "sources": [
+   {
+    "titre": "Dieux égyptiens : une liste complète (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/2-885/dieux-egyptiens---une-liste-complete/"
+   },
+   {
+    "titre": "Panthéon aztèque (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/2-1034/pantheon-azteque/"
+   },
+   {
+    "titre": "Maya Hero Twins: Hunahpu and Xbalanque (EBSCO Research Starters)",
+    "url": "https://www.ebsco.com/research-starters/literature-and-writing/maya-hero-twins-hunahpu-and-xbalanque"
+   },
+   {
+    "titre": "The Hero Twins, d'après le Popol Vuh (Mesoweb)",
+    "url": "https://mesoweb.com/features/twins/twins_text.html"
+   },
+   {
+    "titre": "Inca mythology (Wikipédia en anglais)",
+    "url": "https://en.wikipedia.org/wiki/Inca_mythology"
+   },
+   {
+    "titre": "Viracocha (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-12477/viracocha/"
+   },
+   {
+    "titre": "Mythologie indienne (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/mythologie_indienne/185866"
+   },
+   {
+    "titre": "The Who's Who of Hindu Gods (Western Michigan University)",
+    "url": "https://pressbooks.wmich.edu/seeingtheworldthroughreligionandculture/?p=72"
+   },
+   {
+    "titre": "Shiva (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-10216/shiva/"
+   },
+   {
+    "titre": "Les récits venus du Kojiki (Nippon.com)",
+    "url": "https://www.nippon.com/fr/japan-topics/b11203/"
+   },
+   {
+    "titre": "Japanese mythology (Britannica)",
+    "url": "https://www.britannica.com/print/article/1323803"
+   },
+   {
+    "titre": "Chinese mythology (New World Encyclopedia)",
+    "url": "https://www.newworldencyclopedia.org/entry/chinese_mythology"
+   },
+   {
+    "titre": "Les mythes chinois les plus fascinants (Le Petit Journal)",
+    "url": "https://lepetitjournal.com/shanghai/les-mythes-chinois-les-plus-fascinants-266362"
+   },
+   {
+    "titre": "Mythologie celtique (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/mythologie_celtique/185868"
+   },
+   {
+    "titre": "11 Celtic Gods and Goddesses You Should Know (TheCollector)",
+    "url": "https://www.thecollector.com/celtic-gods-goddesses/"
+   },
+   {
+    "titre": "Épopée de Gilgamesh (Areq, d'après Wikipédia)",
+    "url": "https://areq.net/lang/fr/%C3%89pop%C3%A9e_de_Gilgamesh.html"
+   }
+  ]
+ },
+ {
+  "id": "nutrition",
+  "sources": [
+   {
+    "titre": "Vitamine (Encyclopédie Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/vitamine/101953"
+   },
+   {
+    "titre": "Why are vitamins named after letters? (National Geographic)",
+    "url": "https://www.nationalgeographic.com/science/article/vitamin-names-vitamine-beriberi-nutrition"
+   },
+   {
+    "titre": "The discovery of vitamins (Office for Science and Society, université McGill)",
+    "url": "https://www.mcgill.ca/oss/node/10233"
+   },
+   {
+    "titre": "Glucides, protéines et lipides (Manuel MSD, grand public)",
+    "url": "https://www.msdmanuals.com/fr/accueil/troubles-de-la-nutrition/présentation-de-la-nutrition/glucides-protéines-et-lipides"
+   },
+   {
+    "titre": "Revue générale de la nutrition (Manuel MSD, professionnels)",
+    "url": "https://www.msdmanuals.com/fr/professional/nutrition/nutrition-considérations-générales/revue-générale-de-la-nutrition"
+   },
+   {
+    "titre": "Columbian exchange (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Columbian_exchange"
+   }
+  ]
+ },
+ {
+  "id": "oiseaux-migrateurs",
+  "sources": [
+   {
+    "titre": "Migration des oiseaux (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Migration_des_oiseaux"
+   },
+   {
+    "titre": "Sterne arctique (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Sterne_arctique"
+   },
+   {
+    "titre": "Barge rousse (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Barge_rousse"
+   },
+   {
+    "titre": "Puffin (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Puffin"
+   },
+   {
+    "titre": "Oiseau (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Aves"
+   },
+   {
+    "titre": "Migration animale longue distance (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Migration_animale_longue_distance"
+   },
+   {
+    "titre": "Le Peuple migrateur (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Le_Peuple_migrateur"
+   },
+   {
+    "titre": "Flamant rose (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Flamant_rose"
+   },
+   {
+    "titre": "Phoenicopteriformes (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Phoenicopteridae"
+   },
+   {
+    "titre": "Flamant des Caraïbes (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Flamant_des_Cara%C3%AFbes"
+   },
+   {
+    "titre": "Flamant des Andes (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Flamant_des_Andes"
+   },
+   {
+    "titre": "Perroquet (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Perroquet"
+   },
+   {
+    "titre": "Plume (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Plume"
+   }
+  ]
+ },
+ {
+  "id": "pharaons-reines",
+  "sources": [
+   {
+    "titre": "Tiyi (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-10349/tiyi/"
+   },
+   {
+    "titre": "Hatchepsout (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-743/hatchepsout/"
+   },
+   {
+    "titre": "Reine Hatchepsout, fille d'Amon (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/2-118/reine-hatchepsout-fille-damon-pharaonne-degypte"
+   },
+   {
+    "titre": "Femmes dans l'Égypte antique (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/2-623/femmes-dans-legypte-antique/"
+   },
+   {
+    "titre": "Dynastie des Lagides (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-15258/dynastie-des-lagides/"
+   },
+   {
+    "titre": "Cléopâtre (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-866/cleopatre/"
+   },
+   {
+    "titre": "Regalia of the Pharaoh (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Regalia_of_the_Pharaoh"
+   },
+   {
+    "titre": "Attributs du pharaon (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Attributs_du_pharaon"
+   },
+   {
+    "titre": "Tomb of Nefertari (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Tomb_of_Nefertari"
+   },
+   {
+    "titre": "The Valley of the Queens (History Skills)",
+    "url": "https://www.historyskills.com/classroom/ancient-history/valley-of-the-queens/"
+   }
+  ]
+ },
+ {
+  "id": "philosophes",
+  "sources": [
+   {
+    "titre": "Quelques grands philosophes (Nomad Education)",
+    "url": "https://www.nomadeducation.fr/revisions/atsem-categorie-c-lb46fc03/quelques-grands-philosophes-cy53f251"
+   },
+   {
+    "titre": "Auteurs : la liberté, le bonheur, la vérité, l'art, la raison (Kartable)",
+    "url": "https://kartable.fr/ressources/philosophie/auteurs/la-liberte-9/55340"
+   },
+   {
+    "titre": "Auteurs : le bonheur (Kartable)",
+    "url": "https://www.kartable.fr/ressources/philosophie/auteurs/le-bonheur-5/55333"
+   },
+   {
+    "titre": "Auteurs : la vérité (Kartable)",
+    "url": "https://kartable.fr/ressources/philosophie/auteurs/la-verite-5/55348"
+   },
+   {
+    "titre": "Auteurs : l'art (Kartable)",
+    "url": "https://kartable.fr/ressources/philosophie/auteurs/lart-5/55332"
+   },
+   {
+    "titre": "Auteurs : la raison (Kartable)",
+    "url": "https://kartable.fr/ressources/philosophie/auteurs/la-raison-5/55342"
+   },
+   {
+    "titre": "16 citations philosophiques expliquées (Les Sherpas)",
+    "url": "https://sherpas.com/blog/liste-de-citations-philosophiques-expliquees/"
+   },
+   {
+    "titre": "Les citations de philo à mettre dans ta copie (Les Sherpas)",
+    "url": "https://sherpas.com/blog/citation-philosophique/"
+   },
+   {
+    "titre": "Philosophie (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-340/philosophie/"
+   },
+   {
+    "titre": "Philosophie antique (Areq, d'après Wikipédia)",
+    "url": "https://areq.net/lang/fr/Philosophie_antique.html"
+   },
+   {
+    "titre": "100 idées et concepts de philosophie (La culture générale)",
+    "url": "https://www.laculturegenerale.com/philosophie-idees-concepts/"
+   }
+  ]
+ },
+ {
+  "id": "photographie",
+  "sources": [
+   {
+    "titre": "Photographie : un nouveau regard (Hérodote.net)",
+    "url": "https://www.herodote.net/Un_nouveau_regard-synthese-335-607.php"
+   },
+   {
+    "titre": "Photography, history (Britannica)",
+    "url": "https://www.britannica.com/technology/photography"
+   },
+   {
+    "titre": "After Niépce and Daguerre (Bicentennial of Photography)",
+    "url": "https://bicentennial-of-photography.org/after-niepce-and-daguerre/"
+   },
+   {
+    "titre": "Magnum Photos (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Magnum_Photos"
+   },
+   {
+    "titre": "Magnum Photos, histoire par Fred Ritchin (Magnum Photos)",
+    "url": "https://magnumphotos.com/?p=20881"
+   },
+   {
+    "titre": "Photography in Europe, 1945-60 (Metropolitan Museum of Art)",
+    "url": "https://www.metmuseum.org/en/essays/photography-in-europe-1945-60"
+   },
+   {
+    "titre": "Magnum Photos (Tate)",
+    "url": "https://www.tate.org.uk/art/art-terms/m/magnum-photos"
+   },
+   {
+    "titre": "Magnum Photos (Britannica)",
+    "url": "https://www.britannica.com/topic/Magnum-Photos"
+   }
+  ]
+ },
+ {
+  "id": "prehistoire-art",
+  "sources": [
+   {
+    "titre": "Lascaux et l'art pariétal (Hérodote.net)",
+    "url": "https://www.herodote.net/La_chevauchee_fantastique-synthese-1900-585.php"
+   },
+   {
+    "titre": "Art pariétal (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/art_pariétal/77042"
+   },
+   {
+    "titre": "Les plus belles grottes ornées du monde (Futura Sciences)",
+    "url": "https://www.futura-sciences.com/sciences/actualites/archeologie-decouvrez-plus-belles-grottes-ornees-monde-65160/"
+   },
+   {
+    "titre": "Vénus paléolithique (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-16176/venus-paleolithique/"
+   },
+   {
+    "titre": "Les Vénus préhistoriques (Hominidés.com)",
+    "url": "https://hominides.com/?p=1658"
+   },
+   {
+    "titre": "Paléolithique (Larousse)",
+    "url": "https://www.larousse.fr/encyclopedie/divers/paléolithique/76201"
+   },
+   {
+    "titre": "Préhistoire (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Pr%C3%A9histoire"
+   },
+   {
+    "titre": "Carnac (World History Encyclopedia)",
+    "url": "https://www.worldhistory.org/trans/fr/1-13167/carnac/"
+   }
+  ]
+ },
+ {
+  "id": "probabilites-logique",
+  "sources": [
+   {
+    "titre": "Monty Hall problem (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Monty_Hall_problem"
+   },
+   {
+    "titre": "Birthday problem (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Birthday_problem"
+   },
+   {
+    "titre": "Paradoxe des anniversaires (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/paradoxe-des-anniversaires"
+   },
+   {
+    "titre": "Paradoxes of Zeno (Encyclopædia Britannica)",
+    "url": "https://www.britannica.com/topic/paradoxes-of-Zeno?oasmId=321"
+   },
+   {
+    "titre": "Paradoxe du menteur (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/paradoxe-du-menteur"
+   },
+   {
+    "titre": "Pascal, Fermat et la géométrie du hasard (N. Trotignon, arXiv)",
+    "url": "https://ar5iv.labs.arxiv.org/html/1309.2824"
+   },
+   {
+    "titre": "Classical definition of probability (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Classical_definition_of_probability"
+   },
+   {
+    "titre": "Syllogisme (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Syllogisme"
+   },
+   {
+    "titre": "Syllogisme (Encyclopédie Larousse de la philosophie)",
+    "url": "https://www.larousse.fr/encyclopedie/philosophie/syllogisme/192245"
+   },
+   {
+    "titre": "Le syllogisme (Les Sherpas)",
+    "url": "https://sherpas.com/blog/syllogisme/"
+   },
+   {
+    "titre": "Syllogismes, fiche de seconde (Académie de Rennes)",
+    "url": "https://pedagogie.ac-rennes.fr/sites/pedagogie.ac-rennes.fr/IMG/pdf/syllogismes.pdf"
+   },
+   {
+    "titre": "Probabilités, cours de seconde (R. Cessac)",
+    "url": "https://romaincessac.github.io/maths/seconde/cours/2gt-ch9-probabilites.pdf"
+   },
+   {
+    "titre": "Probabilités : définitions et formules (Les Sherpas)",
+    "url": "https://sherpas.com/blog/probabilites-maths/"
+   }
+  ]
+ },
+ {
+  "id": "requins-poissons",
+  "sources": [
+   {
+    "titre": "Requin (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Requin"
+   },
+   {
+    "titre": "Grand requin blanc (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Grand_requin_blanc"
+   },
+   {
+    "titre": "Requin-tigre (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Requin-tigre"
+   },
+   {
+    "titre": "Requin pèlerin (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Requin_p%C3%A8lerin"
+   },
+   {
+    "titre": "Chondrichthyes (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Poissons_cartilagineux"
+   },
+   {
+    "titre": "Ampoules de Lorenzini (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Ampoules_de_Lorenzini"
+   },
+   {
+    "titre": "Requin à pointes noires (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Requin_%C3%A0_pointes_noires"
+   },
+   {
+    "titre": "Requin-lutin (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Requin-lutin"
+   },
+   {
+    "titre": "Anatomie des poissons (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Anatomie_des_poissons"
+   },
+   {
+    "titre": "Liste des poissons les plus gros (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Liste_des_poissons_les_plus_gros"
+   },
+   {
+    "titre": "Poisson (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Poisson"
+   },
+   {
+    "titre": "Manta (genre) (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/Manta_(genre)"
+   },
+   {
+    "titre": "Môle (poisson) (Wikipédia)",
+    "url": "https://fr.wikipedia.org/wiki/M%C3%B4le_(poisson)"
+   },
+   {
+    "titre": "Shark (Encyclopædia Britannica)",
+    "url": "https://www.britannica.com/animal/shark"
+   },
+   {
+    "titre": "FAQ about sharks (IFAW)",
+    "url": "https://www.ifaw.org/international/journal/faq-about-sharks"
+   },
+   {
+    "titre": "Shark fact sheet (PBS Nature)",
+    "url": "https://www.pbs.org/wnet/nature/blog/shark-fact-sheet"
+   },
+   {
+    "titre": "Fish anatomy (Wikiwand, d'après Wikipédia)",
+    "url": "https://wikiwand.com/EN/Fish_anatomy"
+   }
+  ]
+ },
+ {
+  "id": "sculpture",
+  "sources": [
+   {
+    "titre": "Sculpture (Larousse)",
+    "url": "https://larousse.fr/encyclopedie/divers/sculpture/90787"
+   },
+   {
+    "titre": "Sculpture techniques (Victoria and Albert Museum)",
+    "url": "https://vam.ac.uk/articles/sculpture-techniques"
+   },
+   {
+    "titre": "Techniques de sculpture : taille, modelage, moulage, assemblage (Nomad Education)",
+    "url": "https://www.nomadeducation.fr/revisions/histoire-et-pratique-des-arts-toute-la-bibliothequ-lb5db930/techniques-de-sculptures-taille-modelage-moula-cyf1cd10"
+   },
+   {
+    "titre": "Rodin's life, 1840-2015 (musée Rodin)",
+    "url": "https://www.musee-rodin.fr/en/resources/rodin-life/1840-2015"
+   },
+   {
+    "titre": "Must-see masterpieces (musée Rodin)",
+    "url": "https://www.musee-rodin.fr/en/musee/collections/galerie-des-themes/must-see-masterpieces"
+   }
+  ]
+ },
+ {
+  "id": "telecommunications",
+  "sources": [
+   {
+    "titre": "Télécommunications, histoire : le télégraphe optique (Encyclopædia Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/telecommunications-histoire/2-le-telegraphe-optique/"
+   },
+   {
+    "titre": "Télécommunications, histoire (Encyclopædia Universalis)",
+    "url": "https://www.universalis.fr/encyclopedie/telecommunications-histoire/"
+   },
+   {
+    "titre": "Histoire d'Internet (F. Gandon, Carnegie Mellon University)",
+    "url": "https://www.cs.cmu.edu/~fgandon/lecture/mass1_internet2000/history/"
+   },
+   {
+    "titre": "The history of communications (Council on Foreign Relations)",
+    "url": "https://www.cfr.org/education/learn/resource-collections/globalization-case-studies/history-communications"
+   },
+   {
+    "titre": "Telecommunications history (Telefónica)",
+    "url": "https://www.telefonica.com/en/communication-room/blog/telecommunications-history/"
+   },
+   {
+    "titre": "History of telecommunication (Mitel)",
+    "url": "https://www.mitel.com/en-ca/articles/history-telecommunication"
+   },
+   {
+    "titre": "A brief history of the telephone (Gulf News)",
+    "url": "https://gulfnews.com/world/a-brief-history-of-the-telephone-1.1603713110135"
+   },
+   {
+    "titre": "Histoire de l'invention du téléphone en cinq dates (Futura)",
+    "url": "https://www.futura-sciences.com/sciences/questions-reponses/histoire-invention-telephone-cinq-dates-cles-6771/"
+   },
+   {
+    "titre": "How telecommunications work (CNES)",
+    "url": "https://cct-mission.cnes.fr/en/node/11337"
+   }
+  ]
+ },
+ {
+  "id": "transports",
+  "sources": [
+   {
+    "titre": "Chronologie des chemins de fer (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/chronologie-des-chemins-de-fer"
+   },
+   {
+    "titre": "Chronologie de l'aéronautique (Techno-Science, d'après Wikipédia)",
+    "url": "https://www.techno-science.net/fr/definitions/chronologie-de-l-aeronautique"
+   },
+   {
+    "titre": "Timeline of transportation technology (Wikiwand, d'après Wikipédia)",
+    "url": "https://www.wikiwand.com/en/articles/Timeline_of_transportation_technology"
+   },
+   {
+    "titre": "History of transport (European Route of Industrial Heritage)",
+    "url": "https://erih.net/how-it-started/history-of-industries/transport"
+   },
+   {
+    "titre": "History of transportation (Alloprof)",
+    "url": "https://www.alloprof.qc.ca/en/students/vl/history/transportation-h1124"
+   },
+   {
+    "titre": "Significant moments that changed the way we travel (Culture Trip)",
+    "url": "https://theculturetrip.com/articles/significant-moments-that-changed-the-way-we-travel-a-timeline-2"
+   },
+   {
+    "titre": "L'épopée ferroviaire (Hérodote.net)",
+    "url": "https://www.herodote.net/L_epopee_ferroviaire-synthese-2379.php"
+   },
+   {
+    "titre": "Les pionniers de l'aviation (Hérodote.net)",
+    "url": "https://www.herodote.net/histoire/synthese.php?ID=472&ID_dossier=88"
+   }
+  ]
+ },
+ {
+  "id": "xixe-belle-epoque",
+  "sources": [
+   {
+    "titre": "Expositions universelles de Paris (Vikidia)",
+    "url": "https://fr.vikidia.org/wiki/Expositions_universelles_de_Paris"
+   },
+   {
+    "titre": "Sur les traces des expositions universelles de Paris (Ville de Paris)",
+    "url": "https://www.paris.fr/pages/sur-les-traces-des-expositions-universelles-de-paris-18705"
+   },
+   {
+    "titre": "The World Fairs in Paris (Brown University Library)",
+    "url": "https://library.brown.edu/cds/paris/worldfairs.html"
+   },
+   {
+    "titre": "Exposition Universelle (1900) (Wikipédia)",
+    "url": "https://en.wikipedia.org/wiki/Exposition_Universelle_(1900)"
+   },
+   {
+    "titre": "Exposition universelle de Paris en 1900 (Paris ZigZag)",
+    "url": "https://www.pariszigzag.fr/insolite/histoire-insolite-paris/exposition-universelle-de-paris-en-1900/"
+   },
+   {
+    "titre": "Expositions universelles (ministère de la Culture)",
+    "url": "https://www.culture.gouv.fr/Thematiques/Musees/Les-musees-en-France/Les-collections-des-musees-de-France/Decouvrir-les-collections/Expositions-universelles"
+   },
+   {
+    "titre": "Les grandes expositions à Paris (Paris je t'aime, office du tourisme)",
+    "url": "https://parisjetaime.com/article/expositions-universelles-paris-a253"
+   },
+   {
+    "titre": "L'évolution politique de la France, 1815-1914 (Kartable)",
+    "url": "https://kartable.fr/ressources/histoire/cours/levolution-politique-de-la-france-1815-1914/5336"
+   },
+   {
+    "titre": "La France de 1814 à 1914 (Hérodote.net)",
+    "url": "https://www.herodote.net/articles/article.php?ID=1379"
+   },
+   {
+    "titre": "La IIIe République, textes du manuel d'histoire de 1re (Nathan)",
+    "url": "https://lyceen.nathan.fr/hist1re-2025/assets/textes-dys-chapitre-6-p-170/download"
+   },
+   {
+    "titre": "La IIIe République avant 1914, textes du manuel (Nathan)",
+    "url": "https://cote.nathan.fr/9782091728575/download/premiere_ch06_p164_textes.pdf"
+   },
+   {
+    "titre": "1848 : la IIe République et le suffrage universel masculin (Assemblée nationale)",
+    "url": "https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/histoire/le-suffrage-universel/la-republique-et-le-suffrage-universel/1848-la-deuxieme-republique-met-en-place-le-suffrage-universel-masculin"
+   },
+   {
+    "titre": "La France de 1789 à 1914, cours (université Sétif 2)",
+    "url": "https://cte.univ-setif2.dz/moodle/mod/resource/view.php?id=119108"
+   }
+  ]
  }
 ]
