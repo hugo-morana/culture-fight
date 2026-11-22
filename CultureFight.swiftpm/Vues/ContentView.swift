@@ -337,21 +337,8 @@ struct AccueilView: View {
 // MARK: - Éléments communs
 
 extension Specialite {
-    /// Une couleur par domaine.
-    var couleur: Color {
-        switch domaine {
-        case "Matière": return .orange
-        case "Univers": return .indigo
-        case "Terre": return .brown
-        case "Vivant": return .green
-        case "Corps humain": return .pink
-        case "Monde": return .teal
-        case "Histoire": return .red
-        case "Arts": return .purple
-        case "Lettres et mythes": return .yellow
-        default: return .blue
-        }
-    }
+    /// Une couleur par domaine, celle de sa vignette (`IdentiteDomaine`).
+    var couleur: Color { IdentiteDomaine.couleur(domaine) }
 }
 
 /// Illustrations des combattants (`Resources/combattant-<id>.jpg`), chargées une fois.

@@ -74,6 +74,14 @@ Leur format commun est décrit dans [`outils/FORMAT.md`](outils/FORMAT.md) et le
 `outils/sources.py`. `python3 outils/verifier.py` détecte les champs manquants, les doublons, les
 questions ambiguës et les jeux sans source ; la compilation dans le cloud le lance à chaque envoi.
 
+## Identité des domaines
+
+Chaque domaine a une couleur et une vignette illustrée (emblème du parchemin enluminé :
+`Resources/domaine-<slug>.png`, 320 px, fond transparent), dans `Vues/IdentiteDomaines.swift`.
+Elles s'affichent là où l'on choisit : filtres de la composition d'équipe et de la boutique (pastilles
+avec vignette, teintées de la couleur du domaine), blocs de domaine de l'album, et badge du domaine sur
+chaque combattant en vente. La couleur d'un domaine (`Specialite.couleur`) vient de la même table.
+
 ## Carte de Culturia
 
 Le bouton « Carte » de l'accueil ouvre la carte du monde : les 10 pays autour de l'Agora, reliés par des

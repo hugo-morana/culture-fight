@@ -13,6 +13,8 @@ struct BoutiqueView: View {
     @State private var fete = 0
     @State private var maintenant = Date()
     @State private var fiche: ModeleCombattant?
+    /// Domaine filtré dans le catalogue des Communs ; nil = tous.
+    @State private var filtreDomaine: String?
 
     private let colonnes = [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)]
     private let horloge = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
@@ -133,8 +135,21 @@ struct BoutiqueView: View {
             Text("Toujours en vente, de \(Boutique.fourchette(.commun).lowerBound) à \(Boutique.fourchette(.commun).upperBound) Pièces selon la puissance du combattant.")
                 .font(.caption)
                 .foregroundStyle(.secondary)
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 8) {
+                    PastilleDomaine(domaine: nil, actif: filtreDomaine == nil) {
+                        withAnimation(.spring(duration: 0.35)) { filtreDomaine = nil }
+                    }
+                    ForEach(domainesCommuns, id: \.self) { d in
+                        PastilleDomaine(domaine: d, actif: filtreDomaine == d) {
+                            withAnimation(.spring(duration: 0.35)) { filtreDomaine = d }
+                        }
+                    }
+                }
+                .padding(.vertical, 2)
+            }
             LazyVGrid(columns: colonnes, spacing: 12) {
-                ForEach(Boutique.communs) { modele in
+                ForEach(Boutique.communs.filter { filtreDomaine == nil || $0.specialite.domaine == filtreDomaine }) { modele in
                     let article = Boutique.Article.combattant(modele.id)
                     CarteArticle(article: article,
                                  etat: etat(article, offre: false),
@@ -145,6 +160,15 @@ struct BoutiqueView: View {
                 }
             }
         }
+    }
+
+    /// Domaines des Communs en vente, dans l'ordre du catalogue.
+    private var domainesCommuns: [String] {
+        var vus: [String] = []
+        for modele in Boutique.communs where !vus.contains(modele.specialite.domaine) {
+            vus.append(modele.specialite.domaine)
+        }
+        return vus
     }
 
     private var sectionInventaire: some View {
@@ -363,6 +387,11 @@ struct CarteArticle: View {
                         .padding(.vertical, 2)
                         .background(modele.rarete.couleur, in: Capsule())
                         .offset(x: 8, y: -6)
+                }
+                .overlay(alignment: .bottomLeading) {
+                    VignetteDomaine(domaine: modele.specialite.domaine, taille: 30)
+                        .offset(x: -10, y: 6)
+                        .accessibilityLabel(modele.specialite.domaine)
                 }
         } else if case .objet(let objet) = article {
             Image(systemName: objet.symbole)

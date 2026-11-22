@@ -261,30 +261,17 @@ struct SelectionEquipeView: View {
     private var filtres: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 8) {
-                pastille(nil, "Tous")
+                PastilleDomaine(domaine: nil, actif: filtre == nil) {
+                    withAnimation(.spring(duration: 0.35)) { filtre = nil }
+                }
                 ForEach(domaines, id: \.self) { d in
-                    pastille(d, "\(Pictos.domaine(d)) \(d)")
+                    PastilleDomaine(domaine: d, actif: filtre == d) {
+                        withAnimation(.spring(duration: 0.35)) { filtre = d }
+                    }
                 }
             }
             .padding(.horizontal)
         }
-    }
-
-    private func pastille(_ domaine: String?, _ texte: String) -> some View {
-        let actif = filtre == domaine
-        return Button {
-            withAnimation(.spring(duration: 0.35)) { filtre = domaine }
-        } label: {
-            Text(texte)
-                .font(.nom(13, relativeTo: .caption))
-                .padding(.horizontal, 12)
-                .padding(.vertical, 7)
-                .background(actif ? Charte.or : Charte.marine.opacity(0.7), in: Capsule())
-                .foregroundStyle(actif ? Charte.marine : Charte.ivoire)
-                .overlay(Capsule().stroke(Charte.or.opacity(actif ? 0 : 0.4), lineWidth: 1))
-        }
-        .buttonStyle(.plain)
-        .sensoryFeedback(.selection, trigger: actif)
     }
 
     // MARK: Lancement

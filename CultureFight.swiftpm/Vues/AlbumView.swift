@@ -350,6 +350,7 @@ struct AlbumView: View {
             let modeles = catalogue.filter { $0.specialite.domaine == domaine }
             BlocAlbum(cle: "d-" + domaine,
                       picto: Pictos.domaine(domaine),
+                      domaine: domaine,
                       titre: domaine,
                       completion: Completion(modeles, possedes: possedes),
                       ouverts: $ouverts) {
@@ -399,12 +400,16 @@ struct AlbumView: View {
 private struct BlocAlbum<Contenu: View>: View {
     let cle: String
     let picto: String
+    /// Domaine affiché avec sa vignette et sa couleur (nil pour une famille de styles).
+    var domaine: String? = nil
     let titre: String
     let completion: Completion
     @Binding var ouverts: Set<String>
     @ViewBuilder let contenu: () -> Contenu
 
     private var ouvert: Bool { ouverts.contains(cle) }
+    /// Couleur du domaine, ou le bleu de l'app pour une famille de styles.
+    private var teinte: Color { domaine.map(IdentiteDomaine.couleur) ?? .blue }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
@@ -414,7 +419,13 @@ private struct BlocAlbum<Contenu: View>: View {
                 }
             } label: {
                 HStack(spacing: 10) {
-                    Text(picto).font(.title2)
+                    if let domaine {
+                        VignetteDomaine(domaine: domaine, taille: 46)
+                            .rotationEffect(.degrees(ouvert ? -6 : 0))
+                            .scaleEffect(ouvert ? 1.08 : 1)
+                    } else {
+                        Text(picto).font(.title2)
+                    }
                     VStack(alignment: .leading, spacing: 5) {
                         HStack {
                             Text(titre)
@@ -445,14 +456,14 @@ private struct BlocAlbum<Contenu: View>: View {
             .accessibilityHint(ouvert ? "Replie" : "Déplie")
             if ouvert {
                 VStack(spacing: 10) { contenu() }
-                    .padding(.leading, 38)
+                    .padding(.leading, domaine == nil ? 38 : 56)
                     .transition(.opacity.combined(with: .move(edge: .top)))
             }
         }
         .padding(12)
-        .background(RoundedRectangle(cornerRadius: 14).fill(Color.white.opacity(completion.complete ? 0.09 : 0.05)))
+        .background(RoundedRectangle(cornerRadius: 14).fill(teinte.opacity(completion.complete ? 0.16 : 0.08)))
         .overlay(RoundedRectangle(cornerRadius: 14)
-            .stroke(completion.complete ? Charte.or.opacity(0.7) : Color.blue.opacity(0.3), lineWidth: 1))
+            .stroke(completion.complete ? Charte.or.opacity(0.7) : teinte.opacity(0.45), lineWidth: 1))
     }
 }
 
