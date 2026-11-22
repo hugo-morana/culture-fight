@@ -656,7 +656,7 @@ AJOUTS = {
           "Le sel de cuisine est du chlorure de sodium, NaCl."),
         q("Quel est l'élément le plus électronégatif ?", "Le fluor",
           ["Le chlore", "L'oxygène", "L'iode"],
-          "Il attire les électrons plus fort que tout autre élément."),
+          "Le fluor a la plus forte électronégativité : 3,98 sur l'échelle de Pauling, devant l'oxygène (3,44). C'est sa capacité à attirer les électrons d'une liaison."),
         q("Quelle est la couleur du chlore gazeux ?", "Jaune-vert",
           ["Violet", "Incolore", "Rouge"],
           "Son nom vient du grec chlôros, « vert-jaune pâle »."),

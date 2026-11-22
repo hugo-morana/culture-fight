@@ -5,6 +5,7 @@ Lit CultureFight.swiftpm/Resources/*.json, contrôle le format commun décrit da
 outils/FORMAT.md et s'arrête avec le code 1 à la première série d'erreurs :
 champs manquants ou vides, types incorrects, doublons, questions ambiguës, source absente.
 """
+import csv
 import json
 import os
 import re
@@ -340,6 +341,45 @@ def verifier_profils():
     return len(profils.get("notes", {}))
 
 
+# Règle d'écriture des explications (retour bêta n° 8) : chaque explication apporte au moins un fait
+# de plus que la question (un chiffre, une définition, une comparaison), sans la reformuler.
+EXPLICATION_MIN = 50
+MOTS_VIDES = set("le la les l un une des de du d et à au aux en est sont qui que quel quelle quels quelles "
+                 "a ce cette ces son sa ses il elle ils elles on par pour sur dans ne pas plus avec".split())
+
+
+def mots_pleins(texte):
+    return {m for m in re.findall(r"[a-zàâäéèêëîïôöùûüçœæ0-9]+", texte.lower()) if m not in MOTS_VIDES and len(m) > 2}
+
+
+def controler_explications(fiches):
+    """Signale les explications trop courtes ou qui ne font que redire l'énoncé et la réponse.
+
+    Ce n'est pas une erreur (les fiches existantes sont réécrites peu à peu, tâche 175), sauf avec --strict.
+    La liste complète est écrite dans verification/explications_a_enrichir.csv, des plus courtes aux plus longues.
+    """
+    lignes = []
+    for f in fiches:
+        for qq in f.get("questions", []):
+            e = qq.get("explication", "")
+            pleins = mots_pleins(e)
+            repete = bool(pleins) and not (pleins - mots_pleins(qq.get("enonce", "")) - mots_pleins(qq.get("bonne", "")))
+            if len(e) < EXPLICATION_MIN or repete:
+                motif = "répète l'énoncé" if repete else f"moins de {EXPLICATION_MIN} caractères"
+                lignes.append((f.get("id", "?"), qq.get("enonce", ""), qq.get("bonne", ""), e, len(e), motif))
+    chemin = os.path.join(ICI, "..", "verification", "explications_a_enrichir.csv")
+    with open(chemin, "w", encoding="utf-8", newline="") as fh:
+        w = csv.writer(fh)
+        w.writerow(["fiche", "enonce", "bonne", "explication", "caracteres", "motif"])
+        w.writerows(sorted(lignes, key=lambda l: (l[4], l[0])))
+    if "--strict" in sys.argv:
+        for l in lignes:
+            erreur(l[0], f"explication à enrichir ({l[5]}) : « {l[3]} »")
+    courtes40 = sum(1 for l in lignes if l[4] < 40)
+    repetees = sum(1 for l in lignes if l[5] == "répète l'énoncé")
+    return len(lignes), courtes40, repetees
+
+
 if __name__ == "__main__":
     n_elements = verifier_elements()
     n_pays = verifier_pays()
@@ -349,6 +389,7 @@ if __name__ == "__main__":
     n_pays_monde, n_histoires, n_combattants = verifier_monde_et_histoires()
     n_accroches = verifier_accroches()
     n_notes = verifier_profils()
+    n_expl, n_expl40, n_expl_rep = controler_explications(fiches)
     print(f"elements.json      {n_elements} éléments")
     print(f"pays_afrique.json  {n_pays} pays")
     print(f"fiches.json        {len(fiches)} fiches, {n_questions} questions")
@@ -356,6 +397,8 @@ if __name__ == "__main__":
     print(f"monde.json         {n_pays_monde} pays ; histoires.json {n_histoires} histoires pour {n_combattants} combattants")
     print(f"accroches.json     {n_accroches} accroches")
     print(f"profils.json       {n_notes} notes de difficulté")
+    print(f"explications       {n_expl} à enrichir ({n_expl40} de moins de 40 caractères, {n_expl_rep} qui répètent l'énoncé) :"
+          " verification/explications_a_enrichir.csv")
     if erreurs:
         for e in erreurs:
             print("ERREUR", e)
