@@ -27,6 +27,16 @@ final class CombatController {
     /// Secondes retirées par l'effet « Pression » pour la question en cours.
     private(set) var malusTemps: Double = 0
 
+    /// Le questionneur répond aussi à sa question (désactivé en duel local à deux sur un téléphone).
+    let questionneurRepond: Bool
+    /// Réponse du joueur à sa propre question quand il attaque (nil tant qu'il n'a pas répondu, ou s'il a passé).
+    private(set) var reponseAttaque: Int?
+    /// Le joueur a répondu à sa question ou a passé.
+    private(set) var attaqueFinie = false
+    /// Bonnes réponses du joueur à ses propres questions, par combattant (+5 XP chacune).
+    private(set) var bonnesReponsesAttaqueParCombattant: [String: Int] = [:]
+    @ObservationIgnored private var reponseQuestionneurIA: Int?
+
     let ia: IAAdverse
     /// Réponses du joueur, sauvegardées pour les statistiques du profil.
     private(set) var reponsesJoueur: [ReponseJouee] = []
@@ -59,8 +69,10 @@ final class CombatController {
 
     init(equipeJoueur: [ModeleCombattant], equipeIA: [ModeleCombattant], ia: IAAdverse,
          profils: [String: ProfilDifficulte] = [:], niveaux: [String: Int] = [:],
-         equipements: [String: String] = [:], consommables: [String: Int] = [:], bonusPV: [String: Int] = [:]) {
+         equipements: [String: String] = [:], consommables: [String: Int] = [:], bonusPV: [String: Int] = [:],
+         questionneurRepond: Bool = true) {
         self.ia = ia
+        self.questionneurRepond = questionneurRepond
         self.consommables = consommables.filter { id, n in
             n > 0 && Boutique.objet(id)?.genre == .consommable
         }
@@ -79,6 +91,24 @@ final class CombatController {
 
     /// Le joueur répond-il à la question en cours ?
     var joueurRepond: Bool { !combat.camps[combat.defenseur].estIA }
+
+    /// Le joueur attaque et peut répondre à sa propre question (ou passer).
+    var joueurAttaque: Bool { questionneurRepond && !combat.camps[combat.attaquant].estIA }
+
+    /// Réponse du joueur à sa propre question : une fois choisie, elle ne change plus.
+    func repondreAttaque(_ index: Int) {
+        guard joueurAttaque, case .question = phase, !attaqueFinie else { return }
+        reponseAttaque = index
+        attaqueFinie = true
+        ServiceSons.partage.jouer(.selection)
+    }
+
+    /// Le joueur ne répond pas à sa propre question : dégâts et contre-attaque normaux.
+    func passerAttaque() {
+        guard joueurAttaque, case .question = phase, !attaqueFinie else { return }
+        reponseAttaque = nil
+        attaqueFinie = true
+    }
 
     /// Le joueur ouvre-t-il le combat (pile ou face) ?
     var joueurCommence: Bool { combat.premier == 0 }
@@ -188,9 +218,15 @@ final class CombatController {
         let bonusEquipement = combat.camps[combat.defenseur].actif.bonusTemps
         tempsTotal = max(Regles.tempsMin, Regles.tempsReponse + tirage.affinite.bonusTemps + bonusEquipement - malusTemps)
         tempsRestant = tempsTotal
+        reponseAttaque = nil
+        attaqueFinie = false
+        // L'IA répond aussi à ses propres questions (affinité de spécialité), et ne passe jamais.
+        reponseQuestionneurIA = questionneurRepond && combat.camps[combat.attaquant].estIA
+            ? ia.repondre(question: tirage.question, affinite: .specialite, retires: [])
+            : nil
         phase = .question
         ServiceSons.partage.jouer(.question)
-        let joueurReponds = !combat.camps[combat.defenseur].estIA
+        let joueurReponds = !combat.camps[combat.defenseur].estIA || joueurAttaque
         let secondesInitiales = Int(tempsTotal.rounded(.up))
 
         let reponseIA: Int? = combat.camps[combat.defenseur].estIA
@@ -209,11 +245,13 @@ final class CombatController {
                 self.tempsRestant = max(0, self.tempsTotal - ecoule)
                 // Tic du chrono sur les 5 dernières secondes, quand c'est le joueur qui répond.
                 let seconde = Int(self.tempsRestant.rounded(.up))
-                if joueurReponds, seconde < dernierTic, seconde <= 5, seconde > 0 {
+                if joueurReponds, !(self.joueurAttaque && self.attaqueFinie),
+                   seconde < dernierTic, seconde <= 5, seconde > 0 {
                     ServiceSons.partage.jouer(.tic)
                 }
                 dernierTic = seconde
-                if let reponseIA, ecoule >= delaiIA {
+                // Les deux réponses sont révélées ensemble : on attend aussi celle du joueur qui attaque.
+                if let reponseIA, ecoule >= delaiIA, !self.joueurAttaque || self.attaqueFinie {
                     self.valider(reponseIA)
                     return
                 }
@@ -233,8 +271,19 @@ final class CombatController {
         let campDefenseur = combat.camps[combat.defenseur]
         let joueurDefend = !campDefenseur.estIA
         let defenseurID = campDefenseur.actif.modele.id
+        let attaquantID = combat.camps[combat.attaquant].actif.modele.id
+        let joueurAttaquait = joueurAttaque
+        var reponseQ: Int? = nil
+        if questionneurRepond {
+            reponseQ = combat.camps[combat.attaquant].estIA ? reponseQuestionneurIA : reponseAttaque
+        }
+        let aRepondu = reponseQ != nil
         let resultat = combat.resoudre(question: question, affinite: affinite,
-                                       reponse: reponse, secondes: secondes)
+                                       reponse: reponse, secondes: secondes,
+                                       reponseQuestionneur: reponseQ, questionneurARepondu: aRepondu)
+        if joueurAttaquait, resultat.questionneurCorrect == true {
+            bonnesReponsesAttaqueParCombattant[attaquantID, default: 0] += 1
+        }
         historique.append(resultat)
         if joueurDefend {
             let s = question.specialite
@@ -324,8 +373,10 @@ final class CombatController {
         let victoire = combat.vainqueur == 0
         let combattants = combat.camps[0].combattants.map { c -> GainCombattant in
             let bonnes = bonnesReponsesParCombattant[c.modele.id, default: 0]
+            let enAttaque = bonnesReponsesAttaqueParCombattant[c.modele.id, default: 0]
             let xp = Gains.xpCombattantCombat + (victoire ? Gains.xpCombattantVictoire : 0)
                 + Gains.xpCombattantBonneReponse * bonnes
+                + Gains.xpCombattantBonneReponseAttaque * enAttaque
             return GainCombattant(modele: c.modele, bonnesReponses: bonnes, xp: xp)
         }
         return BilanCombat(lignes: lignes, xpCompte: xpCompteGagnee, combattants: combattants)

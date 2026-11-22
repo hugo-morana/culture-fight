@@ -175,7 +175,12 @@ struct CombatView: View {
                             tempsTotal: controleur.tempsTotal,
                             malusTemps: controleur.malusTemps,
                             joueurRepond: controleur.joueurRepond,
-                            repondre: { controleur.repondre($0) })
+                            joueurAttaque: controleur.joueurAttaque,
+                            reponseAttaque: controleur.reponseAttaque,
+                            attaqueFinie: controleur.attaqueFinie,
+                            repondre: { controleur.repondre($0) },
+                            repondreAttaque: { controleur.repondreAttaque($0) },
+                            passer: { controleur.passerAttaque() })
             }
         case .resultat(let resultat):
             VueResultat(resultat: resultat, continuer: { controleur.continuer() })
@@ -312,11 +317,19 @@ struct VueQuestion: View {
     let tempsTotal: Double
     let malusTemps: Double
     let joueurRepond: Bool
+    /// Le joueur attaque : il peut répondre en secret à sa propre question, ou passer.
+    var joueurAttaque = false
+    var reponseAttaque: Int? = nil
+    var attaqueFinie = false
     let repondre: (Int) -> Void
+    var repondreAttaque: (Int) -> Void = { _ in }
+    var passer: () -> Void = {}
 
     @State private var apparu = false
 
     private var urgence: Bool { tempsRestant < 5 }
+
+    private var bonusTexte: String { "\(Int(Regles.bonusQuestionneur * 100)) %" }
     private var secondes: Int { Int(tempsRestant.rounded(.up)) }
 
     var body: some View {
@@ -353,19 +366,47 @@ struct VueQuestion: View {
                 .scaleEffect(apparu ? 1 : 0.92, anchor: .leading)
                 .opacity(apparu ? 1 : 0)
                 .animation(.spring(duration: 0.4, bounce: 0.3), value: apparu)
+            if joueurAttaque && !attaqueFinie {
+                Label("Réponds aussi, en secret : juste, +\(bonusTexte) de dégâts ou −\(bonusTexte) sur la contre-attaque ; faux, l'inverse. Passe si tu n'es pas sûr.",
+                      systemImage: "person.fill.questionmark")
+                    .font(.caption)
+                    .foregroundStyle(Charte.or)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
             ForEach(question.choix.indices, id: \.self) { i in
+                // En attaque, le joueur voit les 4 choix : les choix retirés ne concernent que le défenseur.
+                let retire = !joueurAttaque && retires.contains(i)
+                let choisi = joueurAttaque && reponseAttaque == i
                 Button {
-                    repondre(i)
+                    if joueurAttaque { repondreAttaque(i) } else { repondre(i) }
                 } label: {
-                    Text(question.choix[i])
-                        .font(.body.weight(.semibold))
-                        .frame(maxWidth: .infinity, minHeight: 44)
+                    HStack {
+                        Text(question.choix[i])
+                            .font(.body.weight(.semibold))
+                        if choisi { Image(systemName: "lock.fill").font(.caption) }
+                    }
+                    .frame(maxWidth: .infinity, minHeight: 44)
                 }
                 .buttonStyle(.bordered)
-                .disabled(!joueurRepond || retires.contains(i))
-                .opacity(apparu ? (retires.contains(i) ? 0.25 : 1) : 0)
+                .tint(choisi ? Charte.or : nil)
+                .disabled(joueurAttaque ? attaqueFinie : (!joueurRepond || retire))
+                .opacity(apparu ? (retire ? 0.25 : (joueurAttaque && attaqueFinie && !choisi ? 0.5 : 1)) : 0)
                 .offset(y: apparu ? 0 : 24)
                 .animation(.spring(duration: 0.45, bounce: 0.35).delay(0.08 + Double(i) * 0.07), value: apparu)
+            }
+            if joueurAttaque && !attaqueFinie {
+                Button(action: passer) {
+                    Label("Passer", systemImage: "forward.fill")
+                        .font(.subheadline.weight(.semibold))
+                        .frame(maxWidth: .infinity, minHeight: 36)
+                }
+                .buttonStyle(.borderless)
+                .foregroundStyle(.secondary)
+            }
+            if joueurAttaque && attaqueFinie {
+                Text(reponseAttaque == nil ? "Tu as passé : dégâts et contre-attaque normaux." : "Réponse enregistrée, révélée avec celle de l'adversaire.")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
             }
             if !joueurRepond {
                 HStack(spacing: 6) {
@@ -445,6 +486,10 @@ struct VueResultat: View {
             Divider()
 
             VStack(alignment: .leading, spacing: 8) {
+                if let ligneQ = ligneQuestionneur {
+                    ligne(ligneQ.texte, ligneQ.icone)
+                        .foregroundStyle(ligneQ.bonne ? Color.green : Color.orange)
+                }
                 if resultat.correct {
                     if let effet = resultat.effetVitesse {
                         ligne(effet, "bolt.horizontal.fill")
@@ -485,6 +530,26 @@ struct VueResultat: View {
         }
         .sensoryFeedback(resultat.correct ? .success : .error, trigger: apparu)
         .onAppear { apparu = true }
+    }
+
+    /// Ce qu'a changé la réponse du questionneur à sa propre question.
+    private var ligneQuestionneur: (texte: String, icone: String, bonne: Bool)? {
+        guard let juste = resultat.questionneurCorrect else {
+            return resultat.defenseurEstJoueur ? nil : ("Tu as passé ta question : effet normal", "forward.fill", true)
+        }
+        let p = "\(Int(Regles.bonusQuestionneur * 100)) %"
+        let effet: String
+        if resultat.correct {
+            effet = juste ? "contre-attaque −\(p)" : "contre-attaque +\(p)"
+        } else {
+            effet = juste ? "dégâts +\(p)" : "dégâts −\(p)"
+        }
+        let phrase = resultat.defenseurEstJoueur
+            ? "\(resultat.attaquantNom) \(juste ? "a bien répondu" : "s'est trompé") à sa propre question"
+            : "Tu \(juste ? "as bien répondu" : "t'es trompé") à ta propre question"
+        let xp = !resultat.defenseurEstJoueur && juste ? " · +\(Gains.xpCombattantBonneReponseAttaque) XP" : ""
+        let bonnePourJoueur = resultat.defenseurEstJoueur ? !juste : juste
+        return ("\(phrase) : \(effet)\(xp)", juste ? "person.fill.checkmark" : "person.fill.xmark", bonnePourJoueur)
     }
 
     private func ligne(_ texte: String, _ icone: String) -> some View {

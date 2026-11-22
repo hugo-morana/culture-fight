@@ -14,6 +14,8 @@ enum Gains {
     static let xpCombattantCombat = 10
     static let xpCombattantVictoire = 20
     static let xpCombattantBonneReponse = 5
+    /// Bonne réponse du questionneur à sa propre question.
+    static let xpCombattantBonneReponseAttaque = 5
     static let niveauMaxCombattant = 20
 
     /// Coffre gratuit : 20 à 60 Pièces, toutes les 4 heures.

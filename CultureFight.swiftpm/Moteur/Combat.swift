@@ -8,6 +8,9 @@ enum Regles {
     static let toursMax = 30
     static let degatsMin = 5
     static let jaugeMax = 3
+    /// Le questionneur répond aussi : ±20 % sur ses dégâts ou sur la contre-attaque reçue
+    /// (game design, idées n° 10 et 16, valeur fixée par outils/simulation_questionneur.py).
+    static let bonusQuestionneur = 0.2
 
     /// Bonne réponse en moins de 3 s : « Éclair ». En moins de 7 s : « Rapide ».
     static let seuilEclair: Double = 3
@@ -43,6 +46,15 @@ struct ResultatTour: Sendable {
     let jaugeRemplie: Bool
     let koDefenseur: Bool
     let koAttaquant: Bool
+    /// Réponse du questionneur à sa propre question (nil s'il a passé ou n'a pas répondu).
+    var reponseQuestionneur: Int? = nil
+    /// Le questionneur a-t-il répondu (faux s'il a passé, ou si la règle est désactivée) ?
+    var questionneurARepondu = false
+
+    /// Juste, faux, ou nil si le questionneur n'a pas répondu.
+    var questionneurCorrect: Bool? {
+        questionneurARepondu ? reponseQuestionneur == question.bonneReponse : nil
+    }
 }
 
 /// L'état d'un combat et ses règles, sans interface ni chronomètre.
@@ -127,7 +139,12 @@ struct Combat: Sendable {
 
     /// Applique la réponse du défenseur (nil = temps écoulé) et passe au tour suivant.
     /// - Parameter secondes: temps mis pour répondre.
-    mutating func resoudre(question: Question, affinite: Affinite, reponse: Int?, secondes: Double) -> ResultatTour {
+    mutating func resoudre(question: Question, affinite: Affinite, reponse: Int?, secondes: Double,
+                           reponseQuestionneur: Int? = nil, questionneurARepondu: Bool = false) -> ResultatTour {
+        // Le questionneur a répondu juste : +20 % de dégâts ou −20 % sur la contre-attaque ; faux : l'inverse.
+        let facteurQuestionneur: Double = questionneurARepondu
+            ? (reponseQuestionneur == question.bonneReponse ? 1 + Regles.bonusQuestionneur : 1 - Regles.bonusQuestionneur)
+            : 1
         let a = attaquant, d = defenseur
         let ia = camps[a].indexActif, id = camps[d].indexActif
         let att = camps[a].actif, def = camps[d].actif
@@ -179,7 +196,8 @@ struct Combat: Sendable {
                                      difficulte: question.difficulte,
                                      defense: att.defense)
             degatsContre = max(Regles.degatsMin,
-                               Int((Double(base) * 0.5 * affinite.multiplicateurContre * multiplicateurVitesse).rounded()))
+                               Int((Double(base) * 0.5 * affinite.multiplicateurContre * multiplicateurVitesse
+                                    * (2 - facteurQuestionneur)).rounded()))
             camps[a].combattants[ia].pv -= degatsContre
 
             camps[d].combattants[id].jauge += 1 + casesEnPlus
@@ -197,7 +215,8 @@ struct Combat: Sendable {
                 camps[a].combattants[ia].capacitePrete = false
                 capaciteUtilisee = true
             }
-            degats = max(Regles.degatsMin, Int((Double(degats) * affinite.multiplicateurDegatsRecus).rounded()))
+            degats = max(Regles.degatsMin,
+                         Int((Double(degats) * affinite.multiplicateurDegatsRecus * facteurQuestionneur).rounded()))
             let bouclier = camps[d].combattants[id].bouclier
             if bouclier > 0 {
                 degatsAbsorbes = Int((Double(degats) * bouclier).rounded())
@@ -218,7 +237,7 @@ struct Combat: Sendable {
         }
         tour += 1
 
-        return ResultatTour(question: question,
+        var resultat = ResultatTour(question: question,
                             reponse: reponse,
                             correct: correct,
                             affinite: affinite,
@@ -234,6 +253,9 @@ struct Combat: Sendable {
                             jaugeRemplie: jaugeRemplie,
                             koDefenseur: koDefenseur,
                             koAttaquant: koAttaquant)
+        resultat.reponseQuestionneur = reponseQuestionneur
+        resultat.questionneurARepondu = questionneurARepondu
+        return resultat
     }
 
     // MARK: - Objets
