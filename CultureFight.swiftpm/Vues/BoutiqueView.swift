@@ -2,7 +2,34 @@ import SwiftUI
 import SwiftData
 import Combine
 
+/// Ordre du catalogue des Communs. Le choix est mémorisé.
+enum TriBoutique: String, CaseIterable, Identifiable {
+    case catalogue, prixCroissant, prixDecroissant, nom
+
+    var id: String { rawValue }
+
+    var titre: String {
+        switch self {
+        case .catalogue: "Par domaine"
+        case .prixCroissant: "Prix croissant"
+        case .prixDecroissant: "Prix décroissant"
+        case .nom: "Nom (A → Z)"
+        }
+    }
+
+    var icone: String {
+        switch self {
+        case .catalogue: "square.grid.2x2"
+        case .prixCroissant: "arrow.up"
+        case .prixDecroissant: "arrow.down"
+        case .nom: "textformat"
+        }
+    }
+}
+
 /// La boutique : l'offre du jour (4 articles, à partir du niveau 3), le catalogue des Communs et l'inventaire.
+/// Le catalogue se cherche comme la collection (même recherche sans accents), se filtre par domaine,
+/// se trie et peut masquer les combattants déjà possédés.
 struct BoutiqueView: View {
     let joueur: Joueur
     let retour: () -> Void
@@ -15,6 +42,26 @@ struct BoutiqueView: View {
     @State private var fiche: ModeleCombattant?
     /// Domaine filtré dans le catalogue des Communs ; nil = tous.
     @State private var filtreDomaine: String?
+    @State private var recherche = ""
+    @AppStorage("boutique.tri") private var tri: TriBoutique = .catalogue
+    @AppStorage("boutique.masquerPossedes") private var masquerPossedes = false
+
+    /// Communs retenus par la recherche, le domaine et le filtre « possédés », dans l'ordre choisi.
+    private var communsAffiches: [ModeleCombattant] {
+        let texte = recherche.trimmingCharacters(in: .whitespaces)
+        let retenus = Boutique.communs.filter { modele in
+            (filtreDomaine == nil || modele.specialite.domaine == filtreDomaine)
+                && (texte.isEmpty || modele.correspond(a: texte))
+                && !(masquerPossedes && joueur.possede(modele.id))
+        }
+        let prix = { (m: ModeleCombattant) in Boutique.prix(m) }
+        switch tri {
+        case .catalogue: return retenus
+        case .prixCroissant: return retenus.sorted { prix($0) < prix($1) }
+        case .prixDecroissant: return retenus.sorted { prix($0) > prix($1) }
+        case .nom: return retenus.sorted { $0.nom.localizedStandardCompare($1.nom) == .orderedAscending }
+        }
+    }
 
     private let colonnes = [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)]
     private let horloge = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
@@ -31,9 +78,10 @@ struct BoutiqueView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 22) {
                     soldePieces
-                    sectionOffre
+                    // Pendant une recherche, seul le catalogue reste, pour voir les résultats tout de suite.
+                    if recherche.isEmpty { sectionOffre }
                     sectionCommuns
-                    sectionInventaire
+                    if recherche.isEmpty { sectionInventaire }
                 }
                 .padding()
             }
@@ -45,9 +93,27 @@ struct BoutiqueView: View {
             }
             .navigationTitle("Boutique")
             .navigationBarTitleDisplayMode(.inline)
+            .searchable(text: $recherche, placement: .navigationBarDrawer(displayMode: .always),
+                        prompt: "Chercher un combattant à acheter")
+            .autocorrectionDisabled()
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Button("Retour", action: retour)
+                }
+                ToolbarItem(placement: .topBarTrailing) {
+                    Menu {
+                        Picker("Trier", selection: $tri) {
+                            ForEach(TriBoutique.allCases) { choix in
+                                Label(choix.titre, systemImage: choix.icone).tag(choix)
+                            }
+                        }
+                        Toggle(isOn: $masquerPossedes) {
+                            Label("Masquer les possédés", systemImage: "eye.slash")
+                        }
+                    } label: {
+                        Label("Trier et filtrer", systemImage: "line.3.horizontal.decrease.circle")
+                    }
+                    .sensoryFeedback(.selection, trigger: tri)
                 }
             }
             .onReceive(horloge) { maintenant = $0 }
@@ -149,7 +215,7 @@ struct BoutiqueView: View {
                 .padding(.vertical, 2)
             }
             LazyVGrid(columns: colonnes, spacing: 12) {
-                ForEach(Boutique.communs.filter { filtreDomaine == nil || $0.specialite.domaine == filtreDomaine }) { modele in
+                ForEach(communsAffiches) { modele in
                     let article = Boutique.Article.combattant(modele.id)
                     CarteArticle(article: article,
                                  etat: etat(article, offre: false),
@@ -158,6 +224,19 @@ struct BoutiqueView: View {
                         aConfirmer = (article, false)
                     }
                 }
+            }
+            .animation(.snappy, value: communsAffiches.map(\.id))
+            if communsAffiches.isEmpty {
+                ContentUnavailableView(recherche.isEmpty ? "Aucun combattant" : "Aucun résultat",
+                                       systemImage: recherche.isEmpty ? "checkmark.seal" : "magnifyingglass",
+                                       description: Text(recherche.isEmpty
+                                                         ? "Tu possèdes déjà tous les Communs de ce choix."
+                                                         : "Aucun Commun en vente ne correspond à « \(recherche) »."))
+            } else if !recherche.isEmpty || filtreDomaine != nil || masquerPossedes {
+                Text("\(communsAffiches.count) combattant\(communsAffiches.count > 1 ? "s" : "") sur \(Boutique.communs.count)")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .frame(maxWidth: .infinity)
             }
         }
     }
