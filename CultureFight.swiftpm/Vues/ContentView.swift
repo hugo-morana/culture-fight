@@ -30,6 +30,9 @@ struct ContentView: View {
     @State private var joueur: Joueur?
     /// Légendaires qui viennent de rejoindre la réserve (domaine complet), à annoncer.
     @State private var nouveauxLegendaires: [ModeleCombattant] = []
+    /// Paquet de départ à ouvrir (nouveau joueur, premier lancement).
+    @State private var paquetVisible = false
+    @AppStorage("paquetDepartOuvert") private var paquetDepartOuvert = false
     @Environment(\.modelContext) private var contexte
     @Environment(\.scenePhase) private var scenePhase
 
@@ -45,8 +48,15 @@ struct ContentView: View {
             if joueur == nil { joueur = Sauvegarde.joueur(dans: contexte) }
             ServiceSons.partage.precharger()
             verifierLegendaires()
+            if Sauvegarde.nouveauJoueur && !paquetDepartOuvert { paquetVisible = true }
         }
         .onChange(of: joueur?.reserve.count ?? 0) { _, _ in verifierLegendaires() }
+        .fullScreenCover(isPresented: $paquetVisible) {
+            PaquetDepartView(modeles: joueur?.modelesReserve ?? []) {
+                paquetDepartOuvert = true
+                paquetVisible = false
+            }
+        }
         .alert(titreLegendaire, isPresented: Binding(
             get: { !nouveauxLegendaires.isEmpty }, set: { if !$0 { nouveauxLegendaires = [] } })) {
             Button("Génial !") { nouveauxLegendaires = [] }
@@ -116,7 +126,12 @@ struct ContentView: View {
                         collection: { ecran = .collection },
                         boutique: { ecran = .boutique },
                         profil: { ecran = .profil },
-                        carte: { ecran = .carte })
+                        carte: { ecran = .carte },
+                        remettreAZero: {
+                            self.joueur = Sauvegarde.remettreAZero(dans: contexte)
+                            paquetDepartOuvert = false
+                            paquetVisible = true
+                        })
         case .collection:
             CollectionView(retour: { ecran = .accueil })
         case .profil:
@@ -157,9 +172,12 @@ struct AccueilView: View {
     let boutique: () -> Void
     let profil: () -> Void
     let carte: () -> Void
+    /// Bouton caché des testeurs (appui long de 3 s sur la ligne de version).
+    var remettreAZero: () -> Void = {}
 
     @State private var apparu = false
     @State private var mentionsOuvertes = false
+    @State private var confirmerRemiseAZero = false
 
     var body: some View {
         ZStack {
@@ -294,6 +312,14 @@ struct AccueilView: View {
             Text("Prototype · \(Catalogue.prototype.count) combattants · combat contre l'IA")
                 .font(.footnote)
                 .foregroundStyle(.secondary)
+                .onLongPressGesture(minimumDuration: 3) { confirmerRemiseAZero = true }
+                .confirmationDialog("Remettre la sauvegarde à zéro ?", isPresented: $confirmerRemiseAZero,
+                                    titleVisibility: .visible) {
+                    Button("Tout effacer et recommencer", role: .destructive, action: remettreAZero)
+                    Button("Annuler", role: .cancel) {}
+                } message: {
+                    Text("Réservé aux testeurs : Pièces, combattants, parties et réglages de jeu seront effacés. Un nouveau paquet de départ sera tiré.")
+                }
             Button { mentionsOuvertes = true } label: {
                 Text("© \(MentionsLegalesView.annees) Hugo Morana · Tous droits réservés")
                     .font(.caption2)

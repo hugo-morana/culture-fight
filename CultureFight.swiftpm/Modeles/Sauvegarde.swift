@@ -102,8 +102,33 @@ enum Sauvegarde {
     /// `reserveDeDepart` et achète les autres. Les joueurs existants gardent ce qu'ils ont.
     static let toutOffertPendantLePrototype = false
 
-    /// Les 3 combattants Communs offerts au niveau de compte 1.
-    static let reserveDeDepart = ["neonja", "druiderable", "seinturion"]
+    /// Réserve de départ (retour bêta n° 10) : 6 Communs tirés au sort à la création du joueur,
+    /// de 6 domaines différents, dont au moins 2 de la même famille de styles (une synergie à viser),
+    /// aux questions faciles (spécialité Facile ou Moyenne, difficulté 2 au plus).
+    static let tailleReserveDeDepart = 6
+
+    /// Vrai si le joueur vient d'être créé pendant ce lancement : le paquet de départ s'ouvre alors.
+    private(set) static var nouveauJoueur = false
+
+    static func tirerReserveDeDepart() -> [String] {
+        let eligibles = Catalogue.prototype.filter {
+            $0.rarete == .commun && $0.note != .pointue && $0.difficulte <= 2
+        }
+        for _ in 0..<200 {
+            // Une famille de styles qui a au moins 2 combattants dans des domaines différents.
+            guard let paire = eligibles.shuffled().first(where: { m in
+                eligibles.contains { $0.familleStyle == m.familleStyle && $0.specialite.domaine != m.specialite.domaine }
+            }), let second = eligibles.shuffled().first(where: {
+                $0.familleStyle == paire.familleStyle && $0.specialite.domaine != paire.specialite.domaine
+            }) else { break }
+            var choisis = [paire, second]
+            for m in eligibles.shuffled() where choisis.count < tailleReserveDeDepart {
+                if !choisis.contains(where: { $0.specialite.domaine == m.specialite.domaine }) { choisis.append(m) }
+            }
+            if choisis.count == tailleReserveDeDepart { return choisis.map(\.id) }
+        }
+        return Array(eligibles.shuffled().prefix(tailleReserveDeDepart)).map(\.id)
+    }
 
     /// Le conteneur SwiftData de l'app. Si la sauvegarde ne peut pas être ouverte, l'app démarre
     /// quand même avec une sauvegarde en mémoire (perdue à la fermeture) plutôt que de planter.
@@ -128,7 +153,8 @@ enum Sauvegarde {
         } else {
             joueur = Joueur()
             contexte.insert(joueur)
-            reserveDeDepart.forEach { joueur.ajouter($0) }
+            tirerReserveDeDepart().forEach { joueur.ajouter($0) }
+            nouveauJoueur = true
         }
         if toutOffertPendantLePrototype {
             Catalogue.prototype.forEach { joueur.ajouter($0.id) }
@@ -206,6 +232,19 @@ enum Sauvegarde {
         for id in controleur.objetsUtilises {
             joueur.inventaire[id] = max(0, (joueur.inventaire[id] ?? 0) - 1)
         }
+    }
+
+    /// Bouton caché des testeurs : efface toute la sauvegarde et les réglages de jeu de l'appareil,
+    /// puis recrée un joueur neuf (avec un nouveau paquet de départ).
+    static func remettreAZero(dans contexte: ModelContext) -> Joueur {
+        try? contexte.delete(model: PartieJouee.self)
+        try? contexte.delete(model: CombattantPossede.self)
+        try? contexte.delete(model: Joueur.self)
+        try? contexte.save()
+        for cle in ["tenuesPortees", "tenuesVersion", "titrePorte", "derniereEquipe", "paquetDepartOuvert"] {
+            UserDefaults.standard.removeObject(forKey: cle)
+        }
+        return joueur(dans: contexte)
     }
 
     static func enregistrer(_ contexte: ModelContext) {
