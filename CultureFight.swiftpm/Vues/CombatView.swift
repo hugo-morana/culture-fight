@@ -479,9 +479,10 @@ struct VueResultat: View {
                 .animation(.spring(duration: 0.5, bounce: 0.5).delay(0.15), value: apparu)
             }
 
-            Text(resultat.question.explication)
-                .font(.callout)
-                .fixedSize(horizontal: false, vertical: true)
+            LeSavaisTu(texte: resultat.question.explication)
+                .opacity(apparu ? 1 : 0)
+                .offset(y: apparu ? 0 : 8)
+                .animation(.easeOut(duration: 0.35).delay(0.2), value: apparu)
 
             Divider()
 
@@ -811,6 +812,29 @@ struct PileOuFaceView: View {
             withAnimation(.easeOut(duration: 0.6)) { lancee = true }
             try? await Task.sleep(for: .seconds(0.6))
             withAnimation(.spring(duration: 0.7, bounce: 0.45)) { resultat = true }
+        }
+    }
+}
+
+/// Encadré « Le savais-tu ? » sous les choix : l'explication de la question, mise à part (retour bêta n° 5).
+struct LeSavaisTu: View {
+    let texte: String
+
+    var body: some View {
+        if !texte.isEmpty {
+            VStack(alignment: .leading, spacing: 6) {
+                Label("Le savais-tu ?", systemImage: "lightbulb.fill")
+                    .font(.titre(15, relativeTo: .headline))
+                    .foregroundStyle(Charte.or)
+                Text(texte)
+                    .font(.system(.body, design: .serif))
+                    .foregroundStyle(Charte.ivoire)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            .padding(12)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(Charte.or.opacity(0.12), in: RoundedRectangle(cornerRadius: 12))
+            .overlay(RoundedRectangle(cornerRadius: 12).stroke(Charte.or.opacity(0.45), lineWidth: 1))
         }
     }
 }

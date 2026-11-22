@@ -342,11 +342,7 @@ struct EntrainementView: View {
                         }
                     }
                     if choisie != nil {
-                        Text(question.explication)
-                            .font(.system(.subheadline, design: .serif))
-                            .foregroundStyle(Charte.ivoire.opacity(0.9))
-                            .multilineTextAlignment(.center)
-                            .fixedSize(horizontal: false, vertical: true)
+                        LeSavaisTu(texte: question.explication)
                             .transition(.opacity)
                         Button(index + 1 < file.count ? "Suivante" : "Voir le score") { suivante() }
                             .font(.titre(18, relativeTo: .headline))
