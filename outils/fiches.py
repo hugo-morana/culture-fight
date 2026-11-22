@@ -748,7 +748,8 @@ def fusionner_ajouts():
     import vague13
     import vague14
     import vague15
-    for vague in (vague2, vague3, vague4, vague5, vague6, vague7, vague8, vague9, vague10, vague11, vague12, vague13, vague14, vague15):
+    import vague16
+    for vague in (vague2, vague3, vague4, vague5, vague6, vague7, vague8, vague9, vague10, vague11, vague12, vague13, vague14, vague15, vague16):
         for module in vague.modules():
             FICHES.append(module.FICHE)
     for ajouts in (AJOUTS_VIVANT, AJOUTS_CORPS_TERRE_ARTS):

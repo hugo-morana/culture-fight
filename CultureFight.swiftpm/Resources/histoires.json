@@ -3840,5 +3840,235 @@
   "liens": [
    "centaurolympe"
   ]
+ },
+ {
+  "id": "menhircule",
+  "pays": "chronie",
+  "lieu": "Le Quartier antique",
+  "histoire": "Bâtisseur du Quartier antique, Menhircule dresse les pierres géantes à mains nues. Il connaît les menhirs, les dolmens, Stonehenge et les débuts de l'agriculture au Néolithique. Néandertalion le trouve bien trop moderne ; Lascauxboy lui préfère ses grottes.",
+  "liens": [
+   "neandertalion",
+   "lascauxboy"
+  ]
+ },
+ {
+  "id": "scarabattant",
+  "pays": "chronie",
+  "lieu": "Le Quartier antique",
+  "histoire": "Guerrier du Quartier antique, Scarabattant protège les temples des bords du Nil. Il connaît les dieux égyptiens, la vie des scribes, des paysans et des artisans de l'Égypte ancienne. Cléopâtronne est sa reine ; Momiephis lui raconte l'au-delà.",
+  "liens": [
+   "cleopatronne",
+   "momiephis"
+  ]
+ },
+ {
+  "id": "discobolosse",
+  "pays": "chronie",
+  "lieu": "Le Quartier antique",
+  "histoire": "Champion du stade du Quartier antique, Discobolosse a remporté toutes les épreuves des Jeux d'Olympie. Il connaît les jeux antiques, leurs épreuves, leurs champions et leurs règles. Thermopyl-ou-Face s'entraîne avec lui ; Parthénombre l'observe depuis les gradins.",
+  "liens": [
+   "thermopyl-ou-face",
+   "parthenombre"
+  ]
+ },
+ {
+  "id": "aqueductor",
+  "pays": "chronie",
+  "lieu": "Le Quartier antique",
+  "histoire": "Ingénieur du Quartier antique, Aquéductor bâtit routes, thermes et aqueducs entre deux batailles. Il connaît les techniques des Romains et la vie quotidienne dans la Rome antique. Sénatorc lui commande des monuments ; Néronin lui reproche de ne pas avoir sauvé Rome des flammes.",
+  "liens": [
+   "senatorc",
+   "neronin"
+  ]
+ },
+ {
+  "id": "medicisaire",
+  "pays": "chronie",
+  "lieu": "Le Palais des Temps modernes",
+  "histoire": "Mécène armé du Palais des Temps modernes, Médicisaire finance les artistes avec l'or qu'il ramène de ses voyages. Il connaît les Médicis, Florence, Venise et les grandes figures de la Renaissance italienne. Da Vincible lui doit ses commandes ; Boussolat lui trace ses routes.",
+  "liens": [
+   "da-vincible",
+   "boussolat"
+  ]
+ },
+ {
+  "id": "reporterreur",
+  "pays": "palettia",
+  "lieu": "Le Grand Musée de Pinceaurence",
+  "histoire": "Reporter de choc du Grand Musée de Pinceaurence, Reporterreur ramène des photos là où personne n'ose aller. Il connaît le photojournalisme, les grands photographes et les clichés qui ont marqué l'histoire. Daguerrotireur lui a appris le métier ; Louvre-Boîte expose ses tirages.",
+  "liens": [
+   "daguerrotireur",
+   "louvre-boite"
+  ]
+ },
+ {
+  "id": "animatorc",
+  "pays": "palettia",
+  "lieu": "Pinceaurence",
+  "histoire": "Animateur des studios de Pinceaurence, Animatorc dessine ses adversaires avant de les effacer. Il connaît l'histoire du dessin animé, de la pâte à modeler et de l'animation par ordinateur. Clapocalypse fait ses cascades à sa place ; Bach-à-Sable compose ses musiques.",
+  "liens": [
+   "clapocalypse",
+   "bach-a-sable"
+  ]
+ },
+ {
+  "id": "ceraminja",
+  "pays": "palettia",
+  "lieu": "Les Jardins impressionnistes",
+  "histoire": "Ninja des ateliers des Jardins impressionnistes, Céraminja façonne la terre et la cuit à très haute température. Il connaît la céramique, la porcelaine de Chine, de Sèvres et de Limoges. Mosaïkido lui achète ses carreaux ; Muséomage expose ses vases.",
+  "liens": [
+   "mosaikido",
+   "museomage"
+  ]
+ },
+ {
+  "id": "picassassin",
+  "pays": "palettia",
+  "lieu": "La Galerie des Maîtres",
+  "histoire": "Assassin de la Galerie des Maîtres, Picassassin attaque sous tous les angles à la fois. Il connaît le cubisme, le surréalisme, l'abstraction et les grands peintres du XXe siècle. Chevalier Renoir ne comprend pas ses tableaux ; Da Vincible le trouve prometteur.",
+  "liens": [
+   "chevalier-renoir",
+   "da-vincible"
+  ]
+ },
+ {
+  "id": "corbuserker",
+  "pays": "palettia",
+  "lieu": "La Vallée des Monuments",
+  "histoire": "Bâtisseur furieux de la Vallée des Monuments, Corbuserker bâtit en béton aussi vite qu'il se bat. Il connaît l'architecture moderne, ses architectes célèbres et leurs bâtiments emblématiques. Pyramidragon le trouve trop carré ; Gargouillard regrette les arcs-boutants.",
+  "liens": [
+   "pyramidragon",
+   "gargouillard"
+  ]
+ },
+ {
+  "id": "ogrimm",
+  "pays": "fabulie",
+  "lieu": "La Bibliothèque des Légendes",
+  "histoire": "Ogre de la Bibliothèque des Légendes, Ogrimm a croisé tous les héros des contes, de Hansel à la Petite Sirène. Il connaît les contes des frères Grimm, d'Andersen et leurs versions. Fablieutenant le garde à l'œil ; Dumasquetaire lui conseille des romans plus longs.",
+  "liens": [
+   "fablieutenant",
+   "dumasquetaire"
+  ]
+ },
+ {
+  "id": "platonnerre",
+  "pays": "fabulie",
+  "lieu": "Homéropolis",
+  "histoire": "Penseur foudroyant d'Homéropolis, Platonnerre sort ses adversaires de la caverne à coups d'éclairs. Il connaît Socrate, Platon, Aristote, les stoïciens et les écoles de l'Antiquité. Descartouche le cite sans arrêt ; Latinquisiteur traduit ses dialogues.",
+  "liens": [
+   "descartouche",
+   "latinquisiteur"
+  ]
+ },
+ {
+  "id": "accentaure",
+  "pays": "fabulie",
+  "lieu": "Homéropolis",
+  "histoire": "Archer d'Homéropolis, Accentaure ne laisse passer aucune faute d'orthographe. Il connaît les accents, les homophones, les pluriels piégeux et les règles d'orthographe. Conjugladiateur s'occupe des verbes ; Hugolem lui soumet ses manuscrits.",
+  "liens": [
+   "conjugladiateur",
+   "hugolem"
+  ]
+ },
+ {
+  "id": "ulyssamourai",
+  "pays": "fabulie",
+  "lieu": "Le Mont des Dieux",
+  "histoire": "Héros voyageur du Mont des Dieux, Ulyssamouraï a mis dix ans à rentrer chez lui après la guerre. Il connaît Ulysse, Achille, Héraclès, Persée et les grands héros grecs. Cerberserker lui garde un mauvais souvenir ; Centaurolympe lui a appris le tir à l'arc.",
+  "liens": [
+   "cerberserker",
+   "centaurolympe"
+  ]
+ },
+ {
+  "id": "origamourai",
+  "pays": "calculie",
+  "lieu": "Pythagopolis",
+  "histoire": "Samouraï de Pythagopolis, Origamouraï plie et déplie l'espace à chaque coup de sabre. Il connaît les solides, les volumes, les patrons et les polyèdres. Équerrier lui trace les plans ; Euclidator vérifie ses démonstrations.",
+  "liens": [
+   "equerrier",
+   "euclidator"
+  ]
+ },
+ {
+  "id": "echecavalier",
+  "pays": "calculie",
+  "lieu": "L'Arène des Tables",
+  "histoire": "Stratège de l'Arène des Tables, Échecavalier prévoit chaque coup dix tours à l'avance. Il connaît les échecs, leurs champions, leurs règles et les grands jeux de stratégie. Aléatoréador lui préfère le hasard ; Premier Dan compte ses victoires.",
+  "liens": [
+   "aleatoreador",
+   "premier-dan"
+  ]
+ },
+ {
+  "id": "radiomage",
+  "pays": "calculie",
+  "lieu": "Pythagopolis",
+  "histoire": "Sorcier des ondes de Pythagopolis, Radiomage fait apparaître des voix et des images venues de loin. Il connaît l'histoire de la radio, de la télévision et des grandes émissions. Morsaire envoie ses messages en morse ; Bitking lui parle d'Internet.",
+  "liens": [
+   "morsaire",
+   "bitking"
+  ]
+ },
+ {
+  "id": "infinitor",
+  "pays": "calculie",
+  "lieu": "La Bibliothèque infinie",
+  "histoire": "Gardien des rayons sans fin de la Bibliothèque infinie, Infinitor n'a jamais fini de compter. Il connaît les grands nombres, l'infini, le gogol et les paradoxes du dénombrement. Premier Dan lui confie les nombres premiers ; Multiplicator renonce à le suivre.",
+  "liens": [
+   "premier-dan",
+   "multiplicator"
+  ]
+ },
+ {
+  "id": "breveteran",
+  "pays": "calculie",
+  "lieu": "Pythagopolis",
+  "histoire": "Vétéran des ateliers de Pythagopolis, Brevetéran a déposé un brevet pour chaque objet de la maison. Il connaît les inventions du quotidien, de la fermeture éclair au trombone, et leurs inventeurs. Eurêkatana est son rival ; Gutenbaron imprime ses brevets.",
+  "liens": [
+   "eurekatana",
+   "gutenbaron"
+  ]
+ },
+ {
+  "id": "truffaldin",
+  "pays": "sylvanie",
+  "lieu": "Les Sous-bois de Mycélia",
+  "histoire": "Cueilleur armé des Sous-bois de Mycélia, Truffaldin sait reconnaître d'un coup d'œil le cèpe du champignon mortel. Il connaît les champignons comestibles, les vénéneux et les secrets de la truffe. Champignomancien lui indique les bons coins ; Microbandit essaie de lui voler sa récolte.",
+  "liens": [
+   "champignomancien",
+   "microbandit"
+  ]
+ },
+ {
+  "id": "dentalion",
+  "pays": "anatomia",
+  "lieu": "Les Catacombes d'Ossuaria",
+  "histoire": "Gardien des Catacombes d'Ossuaria, Dentalion rugit pour montrer les dents les plus saines de tout Anatomia. Il connaît les incisives, les canines, les molaires, les dents de lait et les secrets de l'émail. Zombos lui envie son sourire ; Glucidragon lui donne des caries rien qu'en passant.",
+  "liens": [
+   "zombos",
+   "glucidragon"
+  ]
+ },
+ {
+  "id": "pixelfe",
+  "pays": "calculie",
+  "lieu": "La Bibliothèque infinie",
+  "histoire": "Elfe de la Bibliothèque infinie, Pixelfe vit dans les écrans et passe d'un jeu à l'autre en un clic. Elle connaît l'histoire des jeux vidéo, des consoles et du graphisme numérique. Bitking est son complice de réseau ; Aléatoréador lui calcule ses chances de victoire.",
+  "liens": [
+   "bitking",
+   "aleatoreador"
+  ]
+ },
+ {
+  "id": "shivaillant",
+  "pays": "fabulie",
+  "lieu": "Le Mont des Dieux",
+  "histoire": "Danseur guerrier du Mont des Dieux, Shivaillant combat en dansant sur un rythme cosmique. Il connaît les dieux hindous, les grandes épopées et leurs héros. Totemplier lui présente les dieux des autres continents ; Thor-Ticolis rivalise avec lui de puissance.",
+  "liens": [
+   "totemplier",
+   "thor-ticolis"
+  ]
  }
 ]

@@ -323,6 +323,9 @@ enum Pictos {
         case "Inquisitrice": return "💉"
         case "Connétable": return "🛡️"
         case "Barde": return "🪕"
+        case "Vétéran": return "🎖️"
+        case "Lion guerrier": return "🦁"
+        case "Elfe archère": return "🏹"
         default: return famille.picto
         }
     }
