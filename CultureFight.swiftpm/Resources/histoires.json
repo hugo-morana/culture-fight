@@ -2730,5 +2730,15 @@
    "jupititan",
    "enceladin"
   ]
+ },
+ {
+  "id": "exosquelette",
+  "pays": "astralis",
+  "lieu": "La Forge des Étoiles",
+  "histoire": "Mécha de la Forge des Étoiles, Exosquelette part explorer les planètes qui tournent autour d'autres soleils, et colle un autocollant sur sa carlingue à chaque nouvelle découverte. Il cherche surtout celles de la zone habitable, ni trop chaudes ni trop froides. Proxima-Centaure lui garde une place chez elle ; Gladiaterre lui demande s'il a trouvé des voisins.",
+  "liens": [
+   "proxima-centaure",
+   "gladiaterre"
+  ]
  }
 ]

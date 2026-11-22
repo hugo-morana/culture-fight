@@ -236,6 +236,7 @@ enum Pictos {
         case "Truand": return "🃏"
         case "Colonel": return "🎖️"
         case "Agent secret": return "🕵️"
+        case "Mécha": return "🤖"
         case "Bretteuse": return "🤺"
         case "Marshal": return "⭐"
         case "Guerrière au chakram": return "💫"

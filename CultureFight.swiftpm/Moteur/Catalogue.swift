@@ -1257,5 +1257,10 @@ enum Catalogue {
                specialite: "Saturne", famille: "Système solaire", domaine: "Univers", fiche: "saturne",
                apparence: "Guerrière au chignon noir et au diadème orné d'une gemme, cape violette étoilée au vent, qui lance un chakram doré tournoyant comme un anneau devant Saturne.",
                questions: "Saturne : densité, anneaux et divisions, hexagone polaire, tempêtes, découverte des anneaux et Grand Final de Cassini.", rarete: .rare),
+        // Vague 12 (outils/vague12)
+        aFiche(id: "exosquelette", nom: "Exosquelette", style: "Mécha", familleStyle: .creatures,
+               specialite: "Exoplanètes", famille: "Étoiles", domaine: "Univers", fiche: "exoplanetes",
+               apparence: "Petit pilote extraterrestre bleu aux yeux jaunes perchés sur des antennes, aux commandes d'un mécha gris couvert d'autocollants de planètes, une antenne parabolique sur l'épaule.",
+               questions: "Les exoplanètes : types, zone habitable, exoplanètes célèbres, missions de recherche et biosignatures."),
     ]
 }
