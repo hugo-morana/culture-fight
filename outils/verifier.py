@@ -162,9 +162,13 @@ def verifier_sources_json():
 
 
 def ids_du_catalogue():
-    chemin = os.path.join(ICI, "..", "CultureFight.swiftpm", "Moteur", "Catalogue.swift")
-    with open(chemin, encoding="utf-8") as fh:
-        return re.findall(r'id: "([a-z0-9-]+)", nom: "[^"]*", style:', fh.read())
+    """Combattants jouables (Catalogue.swift) et Légendaires de domaine (Legendaires.swift)."""
+    ids = []
+    for fichier in ("Catalogue.swift", "Legendaires.swift"):
+        chemin = os.path.join(ICI, "..", "CultureFight.swiftpm", "Moteur", fichier)
+        with open(chemin, encoding="utf-8") as fh:
+            ids += re.findall(r'id: "([a-z0-9-]+)", nom: "[^"]*", style:', fh.read())
+    return ids
 
 
 def domaines_du_catalogue():

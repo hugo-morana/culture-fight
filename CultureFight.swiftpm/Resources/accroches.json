@@ -2637,5 +2637,75 @@
   "blagues": [
    "Nomadator a acheté une maison une fois ; il l'a démontée le lendemain pour l'emmener avec lui."
   ]
+ },
+ {
+  "id": "elementor",
+  "accroche": "Il te transmute avec toutes les questions de la Matière.",
+  "blagues": [
+   "Élémentor a voulu changer le plomb en or : il a obtenu du plomb doré."
+  ]
+ },
+ {
+  "id": "omniscientor",
+  "accroche": "Il sait tout et te pose toutes les questions des Savoirs.",
+  "blagues": [
+   "Omniscientor ne perd jamais au quiz : il connaît même les réponses aux questions qu'on ne lui a pas posées."
+  ]
+ },
+ {
+  "id": "galactarque",
+  "accroche": "Il te met en orbite avec toutes les questions de l'Univers.",
+  "blagues": [
+   "Galactarque n'a jamais de retard : il fait tourner les planètes autour de son emploi du temps."
+  ]
+ },
+ {
+  "id": "tellurion",
+  "accroche": "Il fait trembler la Terre avec toutes ses questions.",
+  "blagues": [
+   "Tellurion n'aime pas qu'on le réveille : la dernière fois, ça a fait un continent."
+  ]
+ },
+ {
+  "id": "gaiasaure",
+  "accroche": "Il fait pousser toutes les questions du Vivant.",
+  "blagues": [
+   "Gaïasaure n'a jamais faim : il fait la photosynthèse entre deux combats."
+  ]
+ },
+ {
+  "id": "vitruvion",
+  "accroche": "Il te dissèque avec toutes les questions du Corps humain.",
+  "blagues": [
+   "Vitruvion a quatre bras : c'est pratique pour compter jusqu'à 206 os."
+  ]
+ },
+ {
+  "id": "mappemonarque",
+  "accroche": "Il règne sur toutes les questions du Monde.",
+  "blagues": [
+   "Mappemonarque ne se perd jamais : il a la carte du monde sur le dos."
+  ]
+ },
+ {
+  "id": "chronarque",
+  "accroche": "Il te fait voyager dans toutes les questions de l'Histoire.",
+  "blagues": [
+   "Chronarque arrive toujours à l'heure : il a un sablier, une clepsydre et une horloge atomique."
+  ]
+ },
+ {
+  "id": "musagete",
+  "accroche": "Il t'inspire toutes les questions des Arts.",
+  "blagues": [
+   "Musagète a posé pour tous les peintres : c'est pour ça qu'on le reconnaît dans chaque musée."
+  ]
+ },
+ {
+  "id": "homerion",
+  "accroche": "Il te raconte toutes les questions des Lettres et des mythes.",
+  "blagues": [
+   "Homérion ne finit jamais une histoire : il y a toujours une suite, en 24 chants."
+  ]
  }
 ]

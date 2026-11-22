@@ -28,6 +28,8 @@ struct ContentView: View {
 
     @State private var ecran: Ecran = .accueil
     @State private var joueur: Joueur?
+    /// Légendaires qui viennent de rejoindre la réserve (domaine complet), à annoncer.
+    @State private var nouveauxLegendaires: [ModeleCombattant] = []
     @Environment(\.modelContext) private var contexte
     @Environment(\.scenePhase) private var scenePhase
 
@@ -42,6 +44,15 @@ struct ContentView: View {
         .onAppear {
             if joueur == nil { joueur = Sauvegarde.joueur(dans: contexte) }
             ServiceSons.partage.precharger()
+            verifierLegendaires()
+        }
+        .onChange(of: joueur?.reserve.count ?? 0) { _, _ in verifierLegendaires() }
+        .alert(titreLegendaire, isPresented: Binding(
+            get: { !nouveauxLegendaires.isEmpty }, set: { if !$0 { nouveauxLegendaires = [] } })) {
+            Button("Génial !") { nouveauxLegendaires = [] }
+        } message: {
+            Text(nouveauxLegendaires.map { "\($0.nom), Légendaire du domaine \($0.specialite.domaine), rejoint ta réserve. Il pose des questions de tout le domaine." }
+                .joined(separator: "\n"))
         }
         .onChange(of: scenePhase) { _, phase in
             if phase != .active { Sauvegarde.enregistrer(contexte) }
@@ -57,6 +68,19 @@ struct ContentView: View {
             case "combat": break
             default: ServiceSons.partage.jouer(.tap)
             }
+        }
+    }
+
+    private var titreLegendaire: String {
+        nouveauxLegendaires.count > 1 ? "Domaines complets !" : "Domaine complet !"
+    }
+
+    private func verifierLegendaires() {
+        guard let joueur else { return }
+        let arrives = joueur.attribuerLegendaires()
+        if !arrives.isEmpty {
+            Sauvegarde.enregistrer(contexte)
+            nouveauxLegendaires = arrives
         }
     }
 
@@ -107,7 +131,8 @@ struct ContentView: View {
                 let adverse = ia.choisirEquipe(parmi: Catalogue.prototype)
                 ecran = .combat(CombatController(equipeJoueur: equipe, equipeIA: adverse, ia: ia,
                                                  profils: joueur.profils, niveaux: joueur.niveaux,
-                                                 equipements: joueur.equipements, consommables: joueur.inventaire))
+                                                 equipements: joueur.equipements, consommables: joueur.inventaire,
+                                                 bonusPV: joueur.bonusPV))
             }
         case .combat(let controleur):
             CombatView(controleur: controleur,

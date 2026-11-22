@@ -209,6 +209,8 @@ struct AlbumView: View {
     @Environment(\.dismiss) private var fermer
     @State private var onglet = 0
     @State private var ouverts: Set<String> = []
+    /// Titre de famille complète porté dans le profil.
+    @AppStorage("titrePorte") private var titrePorte = ""
 
     private var catalogue: [ModeleCombattant] { Catalogue.prototype }
 
@@ -226,6 +228,7 @@ struct AlbumView: View {
             ScrollView {
                 VStack(spacing: 18) {
                     resume
+                    recompenses
                     Picker("Album", selection: $onglet.animation(.snappy)) {
                         Text("Domaines").tag(0)
                         Text("Styles").tag(1)
@@ -280,6 +283,66 @@ struct AlbumView: View {
         .background(RoundedRectangle(cornerRadius: 18).fill(Color.white.opacity(0.06)))
     }
 
+    // MARK: Récompenses
+
+    @ViewBuilder
+    private var recompenses: some View {
+        let familles = Recompenses.famillesCompletes(possedes)
+        let legendaires = Legendaires.liste.filter { possedes.contains($0.id) }
+        VStack(alignment: .leading, spacing: 10) {
+            Label("Récompenses", systemImage: "gift.fill")
+                .font(.titre(18, relativeTo: .headline))
+                .foregroundStyle(Charte.or)
+            Text("Famille complète : un titre et +\(Recompenses.bonusPVFamille) PV pour ses combattants. Domaine complet : son Légendaire exclusif. Style complet : une tenue alternative.")
+                .font(.caption)
+                .foregroundStyle(.secondary)
+            if familles.isEmpty && legendaires.isEmpty {
+                Text("Aucune récompense pour l'instant : complète une famille pour gagner ton premier titre.")
+                    .font(.caption)
+                    .foregroundStyle(Charte.ivoire.opacity(0.8))
+            }
+            if !familles.isEmpty {
+                Text("Titres (touche pour l'afficher dans ton profil)")
+                    .font(.caption2.bold())
+                    .foregroundStyle(.secondary)
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 8) {
+                        ForEach(familles, id: \.famille) { f in
+                            let titre = Recompenses.titre(famille: f.famille)
+                            let porte = titrePorte == titre
+                            Button {
+                                withAnimation(.snappy) { titrePorte = porte ? "" : titre }
+                            } label: {
+                                Text("\(Pictos.famille(f.famille, domaine: f.domaine)) \(titre)")
+                                    .font(.nom(12, relativeTo: .caption))
+                                    .padding(.horizontal, 10)
+                                    .padding(.vertical, 6)
+                                    .foregroundStyle(porte ? Charte.marine : Charte.ivoire)
+                                    .background(porte ? Charte.or : Color.white.opacity(0.08), in: Capsule())
+                                    .overlay(Capsule().stroke(Charte.or.opacity(0.6), lineWidth: 1))
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
+                }
+                .sensoryFeedback(.selection, trigger: titrePorte)
+            }
+            if !legendaires.isEmpty {
+                HStack(spacing: 10) {
+                    ForEach(legendaires) { m in
+                        VStack(spacing: 4) {
+                            Avatar(modele: m, taille: 44)
+                            Text(m.nom).font(.caption2).foregroundStyle(Charte.or).lineLimit(1)
+                        }
+                    }
+                }
+            }
+        }
+        .padding()
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(RoundedRectangle(cornerRadius: 18).fill(Color.white.opacity(0.06)))
+    }
+
     // MARK: Domaines → familles
 
     private var domaines: some View {
@@ -290,11 +353,17 @@ struct AlbumView: View {
                       titre: domaine,
                       completion: Completion(modeles, possedes: possedes),
                       ouverts: $ouverts) {
+                if let legendaire = Legendaires.duDomaine(domaine) {
+                    LigneRecompense(modele: legendaire, obtenu: possedes.contains(legendaire.id),
+                                    texte: "Légendaire exclusif du domaine complet")
+                }
                 ForEach(cles(modeles) { $0.specialite.famille }, id: \.self) { famille in
                     let membres = modeles.filter { $0.specialite.famille == famille }
+                    let completion = Completion(membres, possedes: possedes)
                     LigneAlbum(picto: Pictos.famille(famille, domaine: domaine), titre: famille,
-                               completion: Completion(membres, possedes: possedes),
-                               membres: membres, possedes: possedes)
+                               completion: completion,
+                               membres: membres, possedes: possedes,
+                               recompense: "Titre « \(Recompenses.titre(famille: famille)) » et +\(Recompenses.bonusPVFamille) PV")
                 }
             }
         }
@@ -315,7 +384,10 @@ struct AlbumView: View {
                         let membres = modeles.filter { $0.style == style }
                         LigneAlbum(picto: Pictos.style(style, famille: famille), titre: style,
                                    completion: Completion(membres, possedes: possedes),
-                                   membres: membres, possedes: possedes)
+                                   membres: membres, possedes: possedes,
+                                   recompense: membres.contains { Tenues.existe(pour: $0.id) }
+                                       ? "Tenue alternative pour \(membres.filter { Tenues.existe(pour: $0.id) }.map(\.nom).joined(separator: ", "))"
+                                       : nil)
                     }
                 }
             }
@@ -391,6 +463,8 @@ private struct LigneAlbum: View {
     let completion: Completion
     let membres: [ModeleCombattant]
     let possedes: Set<String>
+    /// Ce que rapporte la complétion du groupe, nil s'il n'y a rien.
+    var recompense: String? = nil
 
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
@@ -410,6 +484,12 @@ private struct LigneAlbum: View {
                     .foregroundStyle(.secondary)
             }
             BarreCompletion(completion: completion, hauteur: 4)
+            if let recompense {
+                Label(recompense, systemImage: completion.complete ? "gift.fill" : "lock.fill")
+                    .font(.caption2)
+                    .foregroundStyle(completion.complete ? Charte.or : Color.secondary)
+                    .lineLimit(2)
+            }
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 6) {
                     ForEach(membres) { modele in
@@ -420,5 +500,31 @@ private struct LigneAlbum: View {
                 }
             }
         }
+    }
+}
+
+/// La récompense d'un domaine : son Légendaire, grisé tant que le domaine n'est pas complet.
+private struct LigneRecompense: View {
+    let modele: ModeleCombattant
+    let obtenu: Bool
+    let texte: String
+
+    var body: some View {
+        HStack(spacing: 10) {
+            Avatar(modele: modele, taille: 40)
+                .modifier(VoileNonPossede(possede: obtenu, cadenas: true))
+                .shadow(color: obtenu ? Charte.or : .clear, radius: 8)
+            VStack(alignment: .leading, spacing: 2) {
+                Text("👑 \(modele.nom)")
+                    .font(.nom(14, relativeTo: .subheadline))
+                    .foregroundStyle(obtenu ? Charte.or : Charte.ivoire)
+                Text(obtenu ? "Obtenu · \(texte.lowercased())" : texte)
+                    .font(.caption2)
+                    .foregroundStyle(.secondary)
+            }
+            Spacer(minLength: 0)
+        }
+        .padding(8)
+        .background(RoundedRectangle(cornerRadius: 10).fill(Charte.or.opacity(obtenu ? 0.15 : 0.05)))
     }
 }

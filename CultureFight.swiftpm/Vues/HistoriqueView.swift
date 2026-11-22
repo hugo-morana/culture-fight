@@ -36,7 +36,7 @@ extension PartieJouee {
     var bonnesReponses: Int { reponses.filter(\.correct).count }
 
     static func modeles(_ ids: [String]) -> [ModeleCombattant] {
-        ids.compactMap { id in Catalogue.prototype.first { $0.id == id } }
+        ids.compactMap { id in Catalogue.modele(id) }
     }
 }
 

@@ -104,12 +104,16 @@ struct CollectionView: View {
         var parCle: [String: [ModeleCombattant]] = [:]
         var pictos: [String: String] = [:]
         var completions: [String: Completion] = [:]
-        for modele in Catalogue.prototype {
+        // Les Légendaires de domaine s'affichent une fois gagnés, sans compter dans la complétion.
+        let gagnes = Legendaires.liste.filter { possedes.contains($0.id) }
+        for modele in Catalogue.prototype + gagnes {
             let (cle, picto) = Self.cle(modele, groupement)
-            var completion = completions[cle, default: Completion()]
-            completion.total += 1
-            if possedes.contains(modele.id) { completion.possedes += 1 }
-            completions[cle] = completion
+            if !modele.estLegendaireDeDomaine {
+                var completion = completions[cle, default: Completion()]
+                completion.total += 1
+                if possedes.contains(modele.id) { completion.possedes += 1 }
+                completions[cle] = completion
+            }
             guard texte.isEmpty || modele.correspond(a: texte),
                   filtre.garde(modele, possedes: possedes) else { continue }
             if parCle[cle] == nil {

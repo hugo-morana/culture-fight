@@ -59,14 +59,14 @@ final class CombatController {
 
     init(equipeJoueur: [ModeleCombattant], equipeIA: [ModeleCombattant], ia: IAAdverse,
          profils: [String: ProfilDifficulte] = [:], niveaux: [String: Int] = [:],
-         equipements: [String: String] = [:], consommables: [String: Int] = [:]) {
+         equipements: [String: String] = [:], consommables: [String: Int] = [:], bonusPV: [String: Int] = [:]) {
         self.ia = ia
         self.consommables = consommables.filter { id, n in
             n > 0 && Boutique.objet(id)?.genre == .consommable
         }
         self.combat = Combat(camps: [
             Camp(nom: "Toi", estIA: false, equipe: equipeJoueur, profils: profils, niveaux: niveaux,
-                 equipements: equipements),
+                 equipements: equipements, bonusPV: bonusPV),
             Camp(nom: "IA \(ia.niveau.rawValue.lowercased())", estIA: true, equipe: equipeIA, niveauParDefaut: Stade.pourIA(ia.niveau).niveauMin),
         ])
         combat.premier = Int.random(in: 0...1)

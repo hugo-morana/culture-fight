@@ -56,9 +56,13 @@ struct CombattantEnJeu: Identifiable, Sendable {
     var niveau: Int = 1
     /// Équipement permanent porté (identifiant d'objet de la boutique), ou nil.
     var equipement: String?
+    /// PV en plus de la famille complète (récompense d'album).
+    var bonusPV = 0
 
-    init(modele: ModeleCombattant, profil: ProfilDifficulte = .aleatoire, niveau: Int = 1, equipement: String? = nil) {
+    init(modele: ModeleCombattant, profil: ProfilDifficulte = .aleatoire, niveau: Int = 1, equipement: String? = nil,
+         bonusPV: Int = 0) {
         self.modele = modele
+        self.bonusPV = bonusPV
         self.niveau = max(1, niveau)
         self.profil = profil
         self.equipement = equipement
@@ -68,7 +72,7 @@ struct CombattantEnJeu: Identifiable, Sendable {
 
     var stade: Stade { Stade(niveau: niveau) }
     var pvMax: Int {
-        var pv = Progression.pv(modele, niveau: niveau)
+        var pv = Progression.pv(modele, niveau: niveau) + bonusPV
         if equipement == "amulette-de-vie" { pv += 20 }
         if equipement == "couronne-du-savant" { pv -= 10 }
         return pv
@@ -93,12 +97,14 @@ struct Camp: Sendable {
     var indexActif: Int = 0
 
     init(nom: String, estIA: Bool, equipe: [ModeleCombattant], profils: [String: ProfilDifficulte] = [:],
-         niveaux: [String: Int] = [:], niveauParDefaut: Int = 1, equipements: [String: String] = [:]) {
+         niveaux: [String: Int] = [:], niveauParDefaut: Int = 1, equipements: [String: String] = [:],
+         bonusPV: [String: Int] = [:]) {
         self.nom = nom
         self.estIA = estIA
         self.combattants = equipe.map {
             CombattantEnJeu(modele: $0, profil: profils[$0.id] ?? .aleatoire,
-                            niveau: niveaux[$0.id] ?? niveauParDefaut, equipement: equipements[$0.id])
+                            niveau: niveaux[$0.id] ?? niveauParDefaut, equipement: equipements[$0.id],
+                            bonusPV: bonusPV[$0.id] ?? 0)
         }
     }
 

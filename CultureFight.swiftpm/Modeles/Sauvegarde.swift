@@ -41,7 +41,7 @@ final class Joueur {
     /// Les combattants de la réserve, dans l'ordre du catalogue.
     var modelesReserve: [ModeleCombattant] {
         let ids = Set(reserve.map(\.modeleID))
-        return Catalogue.prototype.filter { ids.contains($0.id) }
+        return Catalogue.tous.filter { ids.contains($0.id) }
     }
 
     func possede(_ modeleID: String) -> Bool {
@@ -54,6 +54,19 @@ final class Joueur {
         guard !possede(modeleID) else { return false }
         reserve.append(CombattantPossede(modeleID: modeleID))
         return true
+    }
+
+    var idsPossedes: Set<String> { Set(reserve.map(\.modeleID)) }
+
+    /// Bonus de PV des familles complètes, par combattant.
+    var bonusPV: [String: Int] { Recompenses.bonusPV(idsPossedes) }
+
+    /// Ajoute à la réserve les Légendaires des domaines complets ; renvoie ceux qui viennent d'arriver.
+    @discardableResult
+    func attribuerLegendaires() -> [ModeleCombattant] {
+        let dus = Recompenses.legendairesDus(idsPossedes)
+        for m in dus { _ = ajouter(m.id) }
+        return dus
     }
 }
 
@@ -76,7 +89,7 @@ final class CombattantPossede {
     }
 
     var modele: ModeleCombattant? {
-        Catalogue.prototype.first { $0.id == modeleID }
+        Catalogue.modele(modeleID)
     }
 }
 

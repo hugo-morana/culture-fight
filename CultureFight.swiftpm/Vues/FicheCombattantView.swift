@@ -369,7 +369,7 @@ struct CarteOrigine: View {
     let accent: Color
 
     private var allies: [ModeleCombattant] {
-        histoire.liens.compactMap { id in Catalogue.prototype.first { $0.id == id } }
+        histoire.liens.compactMap { id in Catalogue.modele(id) }
     }
 
     var body: some View {

@@ -3750,5 +3750,95 @@
    "hordemographe",
    "recensabre"
   ]
+ },
+ {
+  "id": "elementor",
+  "pays": "atomie",
+  "lieu": "Le Grand Tableau",
+  "histoire": "Élémentor est né le jour où les 118 cases du Grand Tableau se sont allumées ensemble. Gardien de Mendéléia, il ne se montre qu'au champion qui a réuni tous les combattants d'Atomie. Il connaît chaque élément, chaque force et chaque particule, et change de matière à volonté.",
+  "liens": [
+   "mendeleviking"
+  ]
+ },
+ {
+  "id": "omniscientor",
+  "pays": "calculie",
+  "lieu": "La Bibliothèque infinie",
+  "histoire": "Omniscientor a lu tous les livres de la Bibliothèque infinie, même ceux qui ne sont pas encore écrits. Il compte, invente et démontre en même temps. Il ne rejoint que le champion qui a rassemblé tous les savants de Calculie.",
+  "liens": [
+   "pythagorgone"
+  ]
+ },
+ {
+  "id": "galactarque",
+  "pays": "astralis",
+  "lieu": "L'Académie céleste",
+  "histoire": "Galactarque règne sur Astralis depuis l'Académie céleste. Sa cape est une galaxie entière, et chaque étoile y porte le nom d'un combattant du ciel. Il ne descend de son trône que pour le champion qui a réuni tout le peuple d'Astralis.",
+  "liens": [
+   "planetroll"
+  ]
+ },
+ {
+  "id": "tellurion",
+  "pays": "geonie",
+  "lieu": "Tellurville",
+  "histoire": "Tellurion dort sous Tellurville depuis la naissance des montagnes. Quand il se réveille, les volcans grondent et les fleuves changent de lit. Il ne se lève que pour le champion qui a réuni tous les combattants de Géonie.",
+  "liens": [
+   "everyeti"
+  ]
+ },
+ {
+  "id": "gaiasaure",
+  "pays": "sylvanie",
+  "lieu": "La Forêt des Druides",
+  "histoire": "Gaïasaure est l'âme de la Forêt des Druides : sur son dos vivent mille espèces, des champignons aux rapaces. Il ne s'éveille que pour le champion qui a réuni tous les combattants de Sylvanie.",
+  "liens": [
+   "druiderable"
+  ]
+ },
+ {
+  "id": "vitruvion",
+  "pays": "anatomia",
+  "lieu": "Le Palais des Organes",
+  "histoire": "Vitruvion a servi de modèle à toutes les planches d'anatomie de Cardiopolis. Il connaît chaque os, chaque muscle et chaque organe. Il ne rejoint que le champion qui a réuni tous les combattants d'Anatomia.",
+  "liens": [
+   "zombos"
+  ]
+ },
+ {
+  "id": "mappemonarque",
+  "pays": "mappemondie",
+  "lieu": "Le Grand Atlas",
+  "histoire": "Mappemonarque a dessiné le Grand Atlas de sa main. Sa cape porte tous les drapeaux et son orbe tourne comme la Terre. Il ne prête allégeance qu'au champion qui a réuni tous les combattants de Mappemondie.",
+  "liens": [
+   "cyclopolis"
+  ]
+ },
+ {
+  "id": "chronarque",
+  "pays": "chronie",
+  "lieu": "Chronopolis",
+  "histoire": "Chronarque a vécu toutes les époques de Chronopolis, des pharaons aux présidents. Son armure garde une pièce de chaque siècle. Il ne rejoint que le champion qui a réuni tous les combattants de Chronie.",
+  "liens": [
+   "momiephis"
+  ]
+ },
+ {
+  "id": "musagete",
+  "pays": "palettia",
+  "lieu": "Le Grand Musée de Pinceaurence",
+  "histoire": "Musagète veille sur le Grand Musée de Pinceaurence, où chaque tableau, chaque air et chaque monument lui doit un peu de son éclat. Il ne descend de son socle que pour le champion qui a réuni tous les artistes de Palettia.",
+  "liens": [
+   "da-vincible"
+  ]
+ },
+ {
+  "id": "homerion",
+  "pays": "fabulie",
+  "lieu": "La Bibliothèque des Légendes",
+  "histoire": "Homérion a chanté tous les récits de la Bibliothèque des Légendes avant qu'ils ne soient écrits. Aveugle, il voit pourtant chaque héros et chaque monstre. Il ne rejoint que le champion qui a réuni tous les combattants de Fabulie.",
+  "liens": [
+   "centaurolympe"
+  ]
  }
 ]

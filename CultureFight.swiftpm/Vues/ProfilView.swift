@@ -71,6 +71,7 @@ struct ProfilView: View {
 struct EnTeteProfil: View {
     let joueur: Joueur
     @State private var apparu = false
+    @AppStorage("titrePorte") private var titrePorte = ""
 
     private var ligue: Ligue { joueur.ligue }
     private var part: Double {
@@ -105,6 +106,12 @@ struct EnTeteProfil: View {
             Text("Ligue \(ligue.nom)")
                 .font(.titre(26, relativeTo: .title))
                 .lettrageLogo()
+            if !titrePorte.isEmpty, Recompenses.famillesCompletes(joueur.idsPossedes)
+                .contains(where: { Recompenses.titre(famille: $0.famille) == titrePorte }) {
+                Label(titrePorte, systemImage: "rosette")
+                    .font(.nom(14, relativeTo: .subheadline))
+                    .foregroundStyle(Charte.or)
+            }
             Text("Niveau \(joueur.niveauCompte) · \(joueur.xpCompte) / \(joueur.seuilNiveauSuivant) XP")
                 .font(.nom(14, relativeTo: .subheadline))
                 .foregroundStyle(Charte.ivoire.opacity(0.85))
