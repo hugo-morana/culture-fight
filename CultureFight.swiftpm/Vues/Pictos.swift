@@ -14,7 +14,7 @@ enum Pictos {
         case "Histoire": return "🏛️"
         case "Arts": return "🎨"
         case "Lettres et mythes": return "📜"
-        case "Savoirs": return "🧠"
+        case "Maths et techniques": return "🧠"
         default: return "❓"
         }
     }

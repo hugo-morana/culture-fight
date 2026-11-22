@@ -75,3 +75,9 @@ extension CombatController {
         return partie
     }
 }
+
+/// Noms des domaines renommés depuis la sortie des premières bêtas, pour reprendre les anciennes sauvegardes.
+enum Domaines {
+    static let anciensNoms = ["Savoirs": "Maths et techniques"]
+    static func nomActuel(_ nom: String) -> String { anciensNoms[nom] ?? nom }
+}

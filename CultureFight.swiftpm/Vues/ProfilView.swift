@@ -12,7 +12,7 @@ struct ProfilView: View {
 
     /// Les 10 domaines du game design, dans l'ordre du radar.
     static let domaines = ["Matière", "Univers", "Terre", "Vivant", "Corps humain",
-                           "Monde", "Histoire", "Arts", "Lettres et mythes", "Savoirs"]
+                           "Monde", "Histoire", "Arts", "Lettres et mythes", "Maths et techniques"]
     /// Objectif du catalogue complet (10 domaines × 100 combattants).
     static let objectifCatalogue = 1000
 
@@ -202,8 +202,8 @@ struct CarteRadarCulture: View {
                  "Instruments de musique", "Photographie", "Cinéma", "Musées et chefs-d'œuvre", "Arts décoratifs"],
         "Lettres et mythes": ["Romans", "Poésie", "Théâtre", "Contes et fables", "Mythologie grecque",
                               "Mythologie nordique", "Mythologies du monde", "Philosophie", "Langue française", "Étymologie"],
-        "Savoirs": ["Calcul mental", "Algèbre", "Géométrie", "Nombres", "Probabilités et logique", "Mathématiciens",
-                    "Inventions", "Informatique", "Transports", "Télécommunications"],
+        "Maths et techniques": ["Calcul mental", "Algèbre", "Géométrie", "Nombres", "Probabilités et logique", "Mathématiciens",
+                                "Inventions", "Informatique", "Transports", "Télécommunications"],
     ]
 
     private var axes: [AxeRadar] {

@@ -19,7 +19,7 @@ enum Legendaires {
     static let liste: [ModeleCombattant] = [
         legendaire(id: "elementor", nom: "Élémentor", style: "Archimage", familleStyle: .mages, domaine: "Matière",
                    apparence: "Archimage en robe tissée des cases du tableau périodique, couronne d'atomes en orbite, bâton-alambic où bouillonnent toutes les couleurs de la matière."),
-        legendaire(id: "omniscientor", nom: "Omniscientor", style: "Sage", familleStyle: .mages, domaine: "Savoirs",
+        legendaire(id: "omniscientor", nom: "Omniscientor", style: "Sage", familleStyle: .mages, domaine: "Maths et techniques",
                    apparence: "Sage aux mille yeux, toge couverte d'équations et de plans d'inventions, une plume dans chaque main, la Bibliothèque infinie dans son dos."),
         legendaire(id: "galactarque", nom: "Galactarque", style: "Empereur", familleStyle: .chevaliers, domaine: "Univers",
                    apparence: "Empereur cosmique en armure d'étoiles, cape faite d'une galaxie spirale, sceptre surmonté d'un soleil miniature."),
