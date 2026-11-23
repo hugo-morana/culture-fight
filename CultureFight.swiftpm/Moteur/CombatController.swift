@@ -321,6 +321,10 @@ final class CombatController {
             if resultat.reponse == nil { sons.jouer(.tempsEcoule) }
             else if resultat.correct { sons.jouer(.bonneReponse) }
             else { sons.jouer(.mauvaiseReponse) }
+            // Défense réussie : esquive si la réponse est rapide (Éclair ou Rapide), sinon bouclier.
+            if resultat.correct {
+                sons.jouer(resultat.vitesse == .normale ? .blocage : .esquive, apres: 0.08)
+            }
             if resultat.correct, resultat.vitesse == .eclair { sons.jouer(.eclair, apres: 0.25) }
             if resultat.jaugeRemplie { sons.jouer(.jauge, apres: 0.5) }
         }

@@ -17,6 +17,8 @@ final class ServiceSons {
         case tempsEcoule = "temps-ecoule"
         case jauge, impact, bouclier, ko, soin, objet, pieces, achat, evolution
         case tap, retour, erreur, changement
+        // Défense réussie du joueur (ElevenLabs) : bouclier, ou esquive si la réponse est rapide.
+        case blocage, esquive
         // Jingles (ElevenLabs).
         case victoire, defaite, nul, niveau
         case nouveauCombattant = "nouveau-combattant"

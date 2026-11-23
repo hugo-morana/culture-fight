@@ -288,6 +288,10 @@ et est normalisé à −1 dB crête. Avec « Réduire les animations », seul l'
 | `son-erreur.wav` | Achat refusé | Interface Sounds, `error_004` |
 | `son-changement.wav` | Un combattant entre en jeu (après un K.O.) | RPG Audio, `cloth_2` |
 
+Sons de défense (ElevenLabs, flux « Culture Fight — Sons d'attaque », tâche 194), joués quand le joueur défend
+et répond bien : `son-blocage.wav` (coup paré par un bouclier, réponse en 7 s ou plus) et `son-esquive.wav`
+(esquive, réponse Éclair ou Rapide, moins de 7 s).
+
 Jingles (ElevenLabs, même flux que les sons d'attaque), joués à l'écran de fin et en boutique ; la musique de
 combat baisse pendant le jingle (`ServiceAudio.attenuer`) :
 
