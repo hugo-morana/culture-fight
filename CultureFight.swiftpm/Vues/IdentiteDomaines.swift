@@ -1,9 +1,10 @@
 import SwiftUI
 import UIKit
 
-/// Identité visuelle des 10 domaines (tâche 173, retour bêta n° 7) : une couleur et une vignette illustrée
-/// par domaine (`Resources/domaine-<slug>.png`, emblèmes du parchemin enluminé), affichées là où l'on choisit :
-/// composition d'équipe, album et boutique.
+/// Identité visuelle des 10 domaines (tâche 173, retour bêta n° 7) et de leurs familles (tâche 166) :
+/// une couleur et une vignette par domaine (`Resources/domaine-<slug>.png`) et un logo par famille
+/// (`Resources/famille-<slug>.png`, table `ImagesFamilles`), dans le style « émail et or ».
+/// Affichés là où l'on choisit (composition d'équipe, album, boutique) et dans les en-têtes de la collection.
 enum IdentiteDomaine {
     /// Nom de fichier de la vignette. Les anciens et futurs noms d'un domaine renommé pointent vers la même.
     static func slug(_ domaine: String) -> String {
@@ -28,8 +29,8 @@ enum IdentiteDomaine {
         case "matiere": return Color(red: 0.88, green: 0.40, blue: 0.10)
         case "univers": return Color(red: 0.29, green: 0.36, blue: 0.77)
         case "terre": return Color(red: 0.63, green: 0.38, blue: 0.18)
-        case "vivant": return Color(red: 0.43, green: 0.56, blue: 0.18)
-        case "corps-humain": return Color(red: 0.85, green: 0.44, blue: 0.48)
+        case "vivant": return Color(red: 0.16, green: 0.55, blue: 0.22)
+        case "corps-humain": return Color(red: 0.78, green: 0.17, blue: 0.45)
         case "monde": return Color(red: 0.18, green: 0.55, blue: 0.55)
         case "histoire": return Color(red: 0.72, green: 0.20, blue: 0.17)
         case "arts": return Color(red: 0.48, green: 0.31, blue: 0.65)
@@ -43,7 +44,15 @@ enum IdentiteDomaine {
 
     /// Vignette illustrée du domaine, ou nil si elle manque.
     static func image(_ domaine: String) -> UIImage? {
-        let nom = "domaine-" + slug(domaine)
+        charger("domaine-" + slug(domaine))
+    }
+
+    /// Logo de la famille, ou nil si elle n'en a pas encore.
+    static func imageFamille(_ famille: String) -> UIImage? {
+        ImagesFamilles.fichiers[famille].flatMap(charger)
+    }
+
+    private static func charger(_ nom: String) -> UIImage? {
         if let image = cache.object(forKey: nom as NSString) { return image }
         guard let url = Bundle.module.url(forResource: nom, withExtension: "png")
                 ?? Bundle.main.url(forResource: nom, withExtension: "png"),
@@ -68,6 +77,28 @@ struct VignetteDomaine: View {
                     .shadow(color: .black.opacity(0.35), radius: taille * 0.06, y: taille * 0.03)
             } else {
                 Text(Pictos.domaine(domaine)).font(.system(size: taille * 0.7))
+            }
+        }
+        .frame(width: taille, height: taille)
+        .accessibilityHidden(true)
+    }
+}
+
+/// Logo d'une famille ; à défaut, son pictogramme.
+struct VignetteFamille: View {
+    let famille: String
+    let domaine: String
+    var taille: CGFloat = 28
+
+    var body: some View {
+        Group {
+            if let image = IdentiteDomaine.imageFamille(famille) {
+                Image(uiImage: image)
+                    .resizable()
+                    .interpolation(.high)
+                    .scaledToFit()
+            } else {
+                Text(Pictos.famille(famille, domaine: domaine)).font(.system(size: taille * 0.7))
             }
         }
         .frame(width: taille, height: taille)

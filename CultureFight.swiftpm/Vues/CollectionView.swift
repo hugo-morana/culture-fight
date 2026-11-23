@@ -54,6 +54,10 @@ struct GroupeCollection: Identifiable {
     let modeles: [ModeleCombattant]
     /// Complétion du groupe entier (sans tenir compte de la recherche ni du filtre).
     var completion = Completion()
+    /// Domaine du groupe : sa vignette remplace le pictogramme quand on groupe par domaine ou par famille.
+    var domaine: String? = nil
+    /// Famille du groupe, quand on groupe par famille : son logo remplace le pictogramme.
+    var famille: String? = nil
     var id: String { titre }
 }
 
@@ -124,7 +128,9 @@ struct CollectionView: View {
         }
         return ordre.map {
             GroupeCollection(titre: $0, picto: pictos[$0] ?? "", modeles: parCle[$0] ?? [],
-                             completion: completions[$0] ?? Completion())
+                             completion: completions[$0] ?? Completion(),
+                             domaine: groupement == .style ? nil : parCle[$0]?.first?.specialite.domaine,
+                             famille: groupement == .famille ? $0 : nil)
         }
     }
 

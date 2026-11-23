@@ -74,10 +74,14 @@ Leur format commun est décrit dans [`outils/FORMAT.md`](outils/FORMAT.md) et le
 `outils/sources.py`. `python3 outils/verifier.py` détecte les champs manquants, les doublons, les
 questions ambiguës et les jeux sans source ; la compilation dans le cloud le lance à chaque envoi.
 
-## Identité des domaines
+## Identité des domaines et logos des familles
 
-Chaque domaine a une couleur et une vignette illustrée (emblème du parchemin enluminé :
-`Resources/domaine-<slug>.png`, 320 px, fond transparent), dans `Vues/IdentiteDomaines.swift`.
+Chaque domaine a une couleur et une vignette, et chaque famille un logo, dans le style « émail et or »
+(`Resources/domaine-<slug>.png` en 256 px, `Resources/famille-<slug>.png` en 160 px, fond transparent,
+palette de 256 couleurs), dans `Vues/IdentiteDomaines.swift`. La table nom de famille → fichier est
+`Vues/ImagesFamilles.swift` (générée depuis les planches) ; une famille sans logo garde son emoji.
+Les logos de famille s'affichent dans l'Album (onglet Domaines) et en tête de groupe de la collection
+groupée par famille ; les vignettes de domaine en tête de groupe quand elle est groupée par domaine.
 Elles s'affichent là où l'on choisit : filtres de la composition d'équipe et de la boutique (pastilles
 avec vignette, teintées de la couleur du domaine), blocs de domaine de l'album, et badge du domaine sur
 chaque combattant en vente. La couleur d'un domaine (`Specialite.couleur`) vient de la même table.

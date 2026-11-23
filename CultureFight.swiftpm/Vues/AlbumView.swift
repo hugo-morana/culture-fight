@@ -125,8 +125,13 @@ struct EnteteGroupe: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
-            HStack(alignment: .firstTextBaseline) {
-                Text("\(groupe.picto) \(groupe.titre)")
+            HStack(alignment: .center) {
+                if let famille = groupe.famille, let domaine = groupe.domaine {
+                    VignetteFamille(famille: famille, domaine: domaine, taille: taille * 1.7)
+                } else if let domaine = groupe.domaine {
+                    VignetteDomaine(domaine: domaine, taille: taille * 1.7)
+                }
+                Text(groupe.domaine == nil ? "\(groupe.picto) \(groupe.titre)" : groupe.titre)
                     .font(.titre(taille, relativeTo: .title3))
                     .lettrageLogo()
                     .lineLimit(1)
@@ -362,6 +367,7 @@ struct AlbumView: View {
                     let membres = modeles.filter { $0.specialite.famille == famille }
                     let completion = Completion(membres, possedes: possedes)
                     LigneAlbum(picto: Pictos.famille(famille, domaine: domaine), titre: famille,
+                               famille: famille, domaine: domaine,
                                completion: completion,
                                membres: membres, possedes: possedes,
                                recompense: "Titre « \(Recompenses.titre(famille: famille)) » et +\(Recompenses.bonusPVFamille) PV")
@@ -471,6 +477,9 @@ private struct BlocAlbum<Contenu: View>: View {
 private struct LigneAlbum: View {
     let picto: String
     let titre: String
+    /// Famille et domaine de la ligne : son logo remplace le pictogramme (nil pour un style).
+    var famille: String? = nil
+    var domaine: String? = nil
     let completion: Completion
     let membres: [ModeleCombattant]
     let possedes: Set<String>
@@ -480,7 +489,10 @@ private struct LigneAlbum: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
             HStack {
-                Text("\(picto) \(titre)")
+                if let famille, let domaine {
+                    VignetteFamille(famille: famille, domaine: domaine, taille: 30)
+                }
+                Text(famille == nil ? "\(picto) \(titre)" : titre)
                     .font(.nom(14, relativeTo: .subheadline))
                     .foregroundStyle(Charte.ivoire)
                     .lineLimit(1)
