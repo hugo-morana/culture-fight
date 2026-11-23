@@ -1,6 +1,7 @@
 import SwiftUI
 
-/// Composition de l'équipe : 3 places en haut, grille filtrable au milieu, lancement en bas.
+/// Composition de l'équipe : 3 places ; toucher le « + » d'une place (ou une place prise, pour la changer)
+/// ouvre la fenêtre de choix d'un combattant, avec recherche et filtres par domaine. Lancement en bas.
 struct SelectionEquipeView: View {
     /// Les combattants de la réserve du joueur, parmi lesquels il compose son équipe.
     let reserve: [ModeleCombattant]
@@ -11,35 +12,16 @@ struct SelectionEquipeView: View {
 
     @State private var choisis: [String] = []
     @State private var niveau: IAAdverse.Niveau = .moyen
-    @State private var filtre: String?
-    @State private var recherche = ""
     @State private var fiche: ModeleCombattant?
+    /// Place pour laquelle la fenêtre de choix est ouverte.
+    @State private var selecteur: PlaceAChoisir?
     @State private var depart = false
     @State private var flash: [String: Int] = [:]
     /// Dernière équipe lancée, identifiants séparés par des virgules.
     @AppStorage("derniereEquipe") private var derniereEquipe = ""
 
-    private let colonnes = [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)]
-
-    private var domaines: [String] {
-        var vus: [String] = []
-        for modele in reserve where !vus.contains(modele.specialite.domaine) {
-            vus.append(modele.specialite.domaine)
-        }
-        return vus
-    }
-
     private var equipe: [ModeleCombattant] {
         choisis.compactMap { id in reserve.first { $0.id == id } }
-    }
-
-    private var visibles: [ModeleCombattant] {
-        let q = recherche.trimmingCharacters(in: .whitespaces).lowercased()
-        return reserve.filter { m in
-            (filtre == nil || m.specialite.domaine == filtre)
-                && (q.isEmpty || m.nom.lowercased().contains(q) || m.specialite.nom.lowercased().contains(q)
-                    || m.style.lowercased().contains(q))
-        }
     }
 
     private var complete: Bool { choisis.count == Regles.tailleEquipe }
@@ -48,40 +30,17 @@ struct SelectionEquipeView: View {
         NavigationStack {
             ZStack {
                 FondAnime().ignoresSafeArea()
-                VStack(spacing: 10) {
-                    places
-                    consigne
-                    resume
-                    filtres
-                    ScrollView {
-                        LazyVGrid(columns: colonnes, spacing: 10) {
-                            ForEach(visibles) { modele in
-                                CarteChoix(modele: modele,
-                                           niveau: niveaux[modele.id] ?? 1,
-                                           choisi: choisis.contains(modele.id),
-                                           toucher: { basculer(modele.id) },
-                                           voirFiche: { fiche = modele })
-                                    .scrollTransition(.interactive, axis: .vertical) { carte, phase in
-                                        carte
-                                            .scaleEffect(phase.isIdentity ? 1 : 0.9)
-                                            .opacity(phase.isIdentity ? 1 : 0.6)
-                                            .rotation3DEffect(.degrees(phase.value * -14), axis: (x: 1, y: 0, z: 0))
-                                    }
-                            }
-                        }
-                        .padding(.horizontal)
-                        .padding(.bottom, 12)
-                        .animation(.spring(duration: 0.45, bounce: 0.25), value: filtre)
-                        .animation(.spring(duration: 0.45, bounce: 0.25), value: recherche)
+                ScrollView {
+                    VStack(spacing: 14) {
+                        places
+                        consigne
+                        resume
                     }
+                    .padding(.bottom, 12)
                 }
             }
             .navigationTitle("Ton équipe")
             .navigationBarTitleDisplayMode(.inline)
-            .searchable(text: $recherche, placement: .navigationBarDrawer(displayMode: .automatic),
-                        prompt: "Nom, spécialité ou style")
-            .onSubmit(of: .search) { Clavier.fermer() }
-            .scrollDismissesKeyboard(.immediately)
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Button("Retour", action: retour)
@@ -107,6 +66,12 @@ struct SelectionEquipeView: View {
             .onChange(of: choisis) { _, _ in ServiceSons.partage.jouer(.selection) }
             .sensoryFeedback(.success, trigger: complete) { _, nouveau in nouveau }
             .sheet(item: $fiche) { modele in FicheCombattantView(modele: modele) }
+            .sheet(item: $selecteur) { place in
+                SelecteurCombattant(reserve: reserve, niveaux: niveaux, equipe: choisis,
+                                    remplace: place.index < equipe.count ? equipe[place.index] : nil) { modele in
+                    choisir(modele, place: place.index)
+                }
+            }
         }
     }
 
@@ -147,12 +112,12 @@ struct SelectionEquipeView: View {
                 .background(RoundedRectangle(cornerRadius: 14).fill(Charte.marine.opacity(0.75)))
             if let modele {
                 Button {
-                    basculer(modele.id)
+                    selecteur = PlaceAChoisir(index: index)
                 } label: {
                     VStack(spacing: 4) {
                         Color.clear
-                            .frame(height: 78)
-                            .overlay(alignment: .top) { IllustrationCombattant(modele: modele, taille: 30) }
+                            .frame(height: 118)
+                            .overlay(alignment: .top) { IllustrationCombattant(modele: modele, taille: 38) }
                             .clipShape(RoundedRectangle(cornerRadius: 10))
                         Text(Stade(niveau: niveaux[modele.id] ?? 1).nom(de: modele.nom))
                             .font(.nom(12, relativeTo: .caption))
@@ -165,6 +130,22 @@ struct SelectionEquipeView: View {
                     .padding(6)
                 }
                 .buttonStyle(.plain)
+                .accessibilityHint("Change ce combattant")
+                .contextMenu {
+                    Button("Voir la fiche", systemImage: "info.circle") { fiche = modele }
+                    Button("Retirer de l'équipe", systemImage: "xmark.circle", role: .destructive) { basculer(modele.id) }
+                }
+                .overlay(alignment: .topTrailing) {
+                    Button { basculer(modele.id) } label: {
+                        Image(systemName: "xmark.circle.fill")
+                            .font(.title3)
+                            .symbolRenderingMode(.palette)
+                            .foregroundStyle(Charte.ivoire, Charte.marine.opacity(0.9))
+                    }
+                    .buttonStyle(.plain)
+                    .offset(x: 7, y: -7)
+                    .accessibilityLabel("Retirer \(modele.nom)")
+                }
                 .keyframeAnimator(initialValue: 0.0, trigger: flash[modele.id, default: 0]) { vue, eclat in
                     vue.overlay(RoundedRectangle(cornerRadius: 14).fill(Charte.or.opacity(eclat)).allowsHitTesting(false))
                 } keyframes: { _ in
@@ -177,7 +158,8 @@ struct SelectionEquipeView: View {
                     insertion: .scale(scale: 0.3).combined(with: .offset(y: 220)).combined(with: .opacity),
                     removal: .scale(scale: 0.5).combined(with: .opacity)))
             } else {
-                VStack(spacing: 4) {
+                Button { selecteur = PlaceAChoisir(index: equipe.count) } label: {
+                VStack(spacing: 6) {
                     if index == equipe.count {
                         Image(systemName: "plus")
                             .font(.title2.bold())
@@ -192,15 +174,20 @@ struct SelectionEquipeView: View {
                             .font(.title2)
                             .foregroundStyle(Charte.ivoire.opacity(0.35))
                     }
-                    Text(index == equipe.count ? "Touche un combattant" : "Place libre")
+                    Text(index == equipe.count ? "Choisir" : "Place libre")
                         .font(.caption2)
                         .foregroundStyle(index == equipe.count ? Charte.ivoire.opacity(0.8) : .secondary)
                         .multilineTextAlignment(.center)
                 }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .contentShape(Rectangle())
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel("Choisir un combattant")
             }
         }
         .frame(maxWidth: .infinity)
-        .frame(height: 128)
+        .frame(height: 172)
     }
 
     // MARK: Consigne
@@ -208,7 +195,7 @@ struct SelectionEquipeView: View {
     /// Consigne et compteur sous les places : le joueur sait quoi faire dès l'arrivée.
     private var consigne: some View {
         HStack(spacing: 8) {
-            Text(complete ? "Équipe prête ! Lance le combat." : "Touche 3 combattants pour former ton équipe")
+            Text(complete ? "Équipe prête ! Lance le combat." : "Touche « + » pour choisir tes 3 combattants")
                 .font(.subheadline)
                 .foregroundStyle(complete ? Charte.or : Charte.ivoire.opacity(0.85))
                 .contentTransition(.opacity)
@@ -256,24 +243,6 @@ struct SelectionEquipeView: View {
         .padding(.horizontal)
         .contentTransition(.opacity)
         .animation(.snappy, value: equipe.map(\.id))
-    }
-
-    // MARK: Filtres
-
-    private var filtres: some View {
-        ScrollView(.horizontal, showsIndicators: false) {
-            HStack(spacing: 8) {
-                PastilleDomaine(domaine: nil, actif: filtre == nil) {
-                    withAnimation(.spring(duration: 0.35)) { filtre = nil }
-                }
-                ForEach(domaines, id: \.self) { d in
-                    PastilleDomaine(domaine: d, actif: filtre == d) {
-                        withAnimation(.spring(duration: 0.35)) { filtre = d }
-                    }
-                }
-            }
-            .padding(.horizontal)
-        }
     }
 
     // MARK: Lancement
@@ -324,6 +293,21 @@ struct SelectionEquipeView: View {
         }
     }
 
+    /// Place le combattant choisi : à la place visée (échange s'il est déjà ailleurs dans l'équipe), sinon à la suite.
+    private func choisir(_ modele: ModeleCombattant, place index: Int) {
+        withAnimation(.spring(duration: 0.5, bounce: 0.35)) {
+            if let deja = choisis.firstIndex(of: modele.id) {
+                if index < choisis.count { choisis.swapAt(deja, index) }
+            } else if index < choisis.count {
+                choisis[index] = modele.id
+                flash[modele.id, default: 0] += 1
+            } else if choisis.count < Regles.tailleEquipe {
+                choisis.append(modele.id)
+                flash[modele.id, default: 0] += 1
+            }
+        }
+    }
+
     private func aleatoire() {
         let tirage = Array(reserve.shuffled().prefix(Regles.tailleEquipe)).map(\.id)
         withAnimation(.spring(duration: 0.5, bounce: 0.35)) {
@@ -351,6 +335,107 @@ struct SelectionEquipeView: View {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.45) {
             lancer(equipeLancee, niveauLance)
         }
+    }
+}
+
+/// La place dont on choisit le combattant.
+struct PlaceAChoisir: Identifiable {
+    let index: Int
+    var id: Int { index }
+}
+
+/// Fenêtre de choix d'un combattant pour une place de l'équipe : recherche (comme la collection),
+/// filtres par domaine, grille de la réserve. Toucher une carte la place et ferme la fenêtre.
+struct SelecteurCombattant: View {
+    let reserve: [ModeleCombattant]
+    let niveaux: [String: Int]
+    /// Identifiants déjà dans l'équipe.
+    let equipe: [String]
+    /// Combattant de la place qu'on change, nil pour une place vide.
+    let remplace: ModeleCombattant?
+    let choisir: (ModeleCombattant) -> Void
+
+    @Environment(\.dismiss) private var fermer
+    @State private var filtre: String?
+    @State private var recherche = ""
+    @State private var fiche: ModeleCombattant?
+
+    private let colonnes = [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)]
+
+    private var domaines: [String] {
+        var vus: [String] = []
+        for modele in reserve where !vus.contains(modele.specialite.domaine) { vus.append(modele.specialite.domaine) }
+        return vus
+    }
+
+    private var visibles: [ModeleCombattant] {
+        let texte = recherche.trimmingCharacters(in: .whitespaces)
+        return reserve.filter { m in
+            (filtre == nil || m.specialite.domaine == filtre) && (texte.isEmpty || m.correspond(a: texte))
+        }
+    }
+
+    var body: some View {
+        NavigationStack {
+            ZStack {
+                FondAnime().ignoresSafeArea()
+                ScrollView {
+                    VStack(spacing: 10) {
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(spacing: 8) {
+                                PastilleDomaine(domaine: nil, actif: filtre == nil) {
+                                    withAnimation(.spring(duration: 0.35)) { filtre = nil }
+                                }
+                                ForEach(domaines, id: \.self) { d in
+                                    PastilleDomaine(domaine: d, actif: filtre == d) {
+                                        withAnimation(.spring(duration: 0.35)) { filtre = d }
+                                    }
+                                }
+                            }
+                            .padding(.horizontal)
+                            .padding(.vertical, 2)
+                        }
+                        if visibles.isEmpty {
+                            ContentUnavailableView.search(text: recherche)
+                        }
+                        LazyVGrid(columns: colonnes, spacing: 10) {
+                            ForEach(visibles) { modele in
+                                CarteChoix(modele: modele,
+                                           niveau: niveaux[modele.id] ?? 1,
+                                           choisi: equipe.contains(modele.id),
+                                           toucher: {
+                                               choisir(modele)
+                                               fermer()
+                                           },
+                                           voirFiche: { fiche = modele })
+                                    .scrollTransition(.interactive, axis: .vertical) { carte, phase in
+                                        carte
+                                            .scaleEffect(phase.isIdentity ? 1 : 0.9)
+                                            .opacity(phase.isIdentity ? 1 : 0.6)
+                                    }
+                            }
+                        }
+                        .padding(.horizontal)
+                        .animation(.spring(duration: 0.45, bounce: 0.25), value: filtre)
+                        .animation(.spring(duration: 0.45, bounce: 0.25), value: recherche)
+                    }
+                    .padding(.bottom, 16)
+                }
+                .scrollDismissesKeyboard(.immediately)
+            }
+            .navigationTitle(remplace.map { "Remplacer \($0.nom)" } ?? "Choisis un combattant")
+            .navigationBarTitleDisplayMode(.inline)
+            .searchable(text: $recherche, placement: .navigationBarDrawer(displayMode: .always),
+                        prompt: "Nom, spécialité ou style")
+            .onSubmit(of: .search) { Clavier.fermer() }
+            .toolbar {
+                ToolbarItem(placement: .cancellationAction) {
+                    Button("Annuler") { fermer() }
+                }
+            }
+            .sheet(item: $fiche) { modele in FicheCombattantView(modele: modele) }
+        }
+        .presentationDragIndicator(.visible)
     }
 }
 
