@@ -82,7 +82,7 @@ def combat(A, B, p):
             v = vitesse(m); cases = 0
             if v != "normale":
                 e = v == "eclair"; eff = EFFET[de["fam"]]
-                if eff == "riposte": de["rip"] = max(de["rip"], 1 + p["riposte"][0 if e else 1] * kd)
+                if eff == "riposte": de["rip"] = max(de["rip"], 1 + p["riposte"][0 if e else 1] * (p["synergieRiposte"] if kd > 1 else 1))
                 elif eff == "contre":
                     # Contre des Arts martiaux : coup immédiat sur le questionneur (25 % ou 12 % d'une attaque,
                     # +20 % de bonus de famille). Sans synergie et sans K.O. (il laisse au moins 1 PV) : avec,

@@ -214,8 +214,12 @@ struct Combat: Sendable {
                 switch def.modele.familleStyle.effetVitesse {
                 case .riposte:
                     let r = ProfilStats.riposte
-                    riposteGagnee = 1 + (eclair ? r.eclair : r.rapide) * k
-                    effetVitesse = "\(vitesse.nom) Riposte : la prochaine attaque de \(def.nom) fera +\(Int(((riposteGagnee - 1) * 100).rounded())) %\(mention)"
+                    // En synergie, la Riposte n'est multipliée que par 1,25 (à 1,5, une équipe de
+                    // 3 Guerriers lourds gagnait 55 à 56 % : simulation du 23/11).
+                    let kr = k > 1 ? ProfilStats.synergieRiposte : 1
+                    riposteGagnee = 1 + (eclair ? r.eclair : r.rapide) * kr
+                    let mentionR = kr > 1 ? " (synergie ×1,25)" : ""
+                    effetVitesse = "\(vitesse.nom) Riposte : la prochaine attaque de \(def.nom) fera +\(Int(((riposteGagnee - 1) * 100).rounded())) %\(mentionR)"
                 case .contre:
                     // Contre (validé le 23/11) : 25 % (Éclair) ou 12 % (Rapide) des dégâts d'une attaque du défenseur,
                     // +20 % de bonus de famille. Ni synergie ni K.O. (le questionneur garde au moins 1 PV) :

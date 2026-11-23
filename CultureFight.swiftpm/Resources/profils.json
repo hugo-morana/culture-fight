@@ -1,5 +1,5 @@
 {
- "methode": "Stats selon le style et la spécialité, règle « seul l'attaquant fait mal » (23/11) : la note de la spécialité fixe le budget, la famille de styles le répartit (Attaque, Défense, PV). Attaque de base 60 pour 100 PV, combats d'environ 19 tours. Contre des Arts martiaux (23/11) : 25 % ou 12 % d'une attaque, +20 % de bonus de famille, sans synergie ni K.O. Valeurs fixées par outils/simulation.py ; hypothèses dans l'en-tête du script.",
+ "methode": "Stats selon le style et la spécialité, règle « seul l'attaquant fait mal » (23/11) : la note de la spécialité fixe le budget, la famille de styles le répartit (Attaque, Défense, PV). Attaque de base 60 pour 100 PV, combats d'environ 19 tours. Contre des Arts martiaux (23/11) : 25 % ou 12 % d'une attaque, +20 % de bonus de famille, sans synergie ni K.O. Valeurs fixées par outils/simulation.py ; hypothèses dans l'en-tête du script. Riposte en synergie ×1,25 (23/11 : à ×1,5, une équipe de 3 Guerriers lourds gagnait 55 à 56 %).",
  "budgets": {
   "Commun": {
    "Facile": 294,
@@ -83,7 +83,7 @@
   "Commun": {
    "Guerriers lourds": {
     "variee": 50,
-    "seule": 55
+    "seule": 54
    },
    "Arts martiaux": {
     "variee": 52,
@@ -91,7 +91,7 @@
    },
    "Tireurs": {
     "variee": 49,
-    "seule": 49
+    "seule": 50
    },
    "Créatures": {
     "variee": 49,
@@ -133,7 +133,7 @@
    },
    "Tireurs": {
     "variee": 48,
-    "seule": 51
+    "seule": 50
    },
    "Créatures": {
     "variee": 48,
@@ -599,5 +599,6 @@
  "bouclierVitesse": [
   0.2,
   0.1
- ]
+ ],
+ "synergieRiposte": 1.25
 }

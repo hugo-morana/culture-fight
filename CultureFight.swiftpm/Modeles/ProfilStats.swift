@@ -58,6 +58,8 @@ enum ProfilStats {
         let secondesCreatures: Double
         /// Riposte : bonus de la prochaine attaque après une bonne réponse Éclair, puis Rapide.
         let riposte: [Double]?
+        /// Multiplicateur de la Riposte en synergie (plus faible que celui des autres bonus).
+        let synergieRiposte: Double?
         /// Contre des Arts martiaux : part des dégâts d'une attaque infligée tout de suite au questionneur, Éclair puis Rapide.
         let contre: [Double]?
         /// Bonus de famille des Arts martiaux sur le Contre (+20 %).
@@ -81,6 +83,8 @@ enum ProfilStats {
     static var synergie: Double { fichier?.synergie ?? 1.5 }
     static var bouclierChevaliers: Int { fichier?.bouclierChevaliers ?? 10 }
     static var secondesCreatures: Double { fichier?.secondesCreatures ?? 2 }
+
+    static var synergieRiposte: Double { fichier?.synergieRiposte ?? 1.25 }
 
     static var riposte: (eclair: Double, rapide: Double) {
         let r = fichier?.riposte ?? [0.5, 0.25]
