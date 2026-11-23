@@ -80,6 +80,8 @@ struct SelectionEquipeView: View {
             .navigationBarTitleDisplayMode(.inline)
             .searchable(text: $recherche, placement: .navigationBarDrawer(displayMode: .automatic),
                         prompt: "Nom, spécialité ou style")
+            .onSubmit(of: .search) { Clavier.fermer() }
+            .scrollDismissesKeyboard(.immediately)
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Button("Retour", action: retour)
@@ -311,6 +313,7 @@ struct SelectionEquipeView: View {
     // MARK: Actions
 
     private func basculer(_ id: String) {
+        Clavier.fermer()
         withAnimation(.spring(duration: 0.5, bounce: 0.35)) {
             if let i = choisis.firstIndex(of: id) {
                 choisis.remove(at: i)

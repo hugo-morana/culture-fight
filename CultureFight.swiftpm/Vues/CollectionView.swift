@@ -162,6 +162,9 @@ struct CollectionView: View {
             .animation(.snappy, value: filtre)
             .searchable(text: $recherche, placement: .navigationBarDrawer(displayMode: .always),
                         prompt: "Nom, spécialité, style…")
+            .onSubmit(of: .search) { Clavier.fermer() }
+            .scrollDismissesKeyboard(.immediately)
+            .onChange(of: detail?.id) { _, nouveau in if nouveau != nil { Clavier.fermer() } }
             .autocorrectionDisabled()
             .safeAreaInset(edge: .top, spacing: 0) {
                 Picker("Affichage", selection: $mode.animation(.snappy)) {

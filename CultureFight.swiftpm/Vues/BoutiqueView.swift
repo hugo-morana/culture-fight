@@ -96,6 +96,8 @@ struct BoutiqueView: View {
             .navigationBarTitleDisplayMode(.inline)
             .searchable(text: $recherche, placement: .navigationBarDrawer(displayMode: .always),
                         prompt: "Chercher un combattant à acheter")
+            .onSubmit(of: .search) { Clavier.fermer() }
+            .onChange(of: fiche?.id) { _, nouveau in if nouveau != nil { Clavier.fermer() } }
             .autocorrectionDisabled()
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {

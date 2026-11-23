@@ -56,3 +56,11 @@ struct LettrageLogo: ViewModifier {
 extension View {
     func lettrageLogo() -> some View { modifier(LettrageLogo()) }
 }
+
+/// Ferme le clavier, où qu'il soit (champ de recherche compris).
+@MainActor
+enum Clavier {
+    static func fermer() {
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+    }
+}
