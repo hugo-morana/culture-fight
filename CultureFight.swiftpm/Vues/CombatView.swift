@@ -245,7 +245,10 @@ struct CombatView: View {
                             passer: { controleur.passerAttaque() })
             }
         case .resultat(let resultat):
-            VueResultat(resultat: resultat, continuer: { controleur.continuer() })
+            VueResultat(resultat: resultat,
+                        campChangeable: controleur.campQuiPeutChanger.map { controleur.combat.camps[$0] },
+                        changer: { controleur.changerCombattant($0) },
+                        continuer: { controleur.continuer() })
         case .fin:
             VueFin(titre: controleur.titreFin,
                    victoire: controleur.estVictoire,
@@ -555,6 +558,9 @@ struct AjusteSansDefilement<Contenu: View>: View {
 
 struct VueResultat: View {
     let resultat: ResultatTour
+    /// Le camp du joueur s'il peut changer de combattant avant son tour (nil sinon).
+    var campChangeable: Camp? = nil
+    var changer: (Int) -> Void = { _ in }
     let continuer: () -> Void
 
     @State private var apparu = false
@@ -669,6 +675,10 @@ struct VueResultat: View {
             .offset(y: apparu ? 0 : 12)
             .animation(.easeOut(duration: 0.4).delay(0.25), value: apparu)
 
+            if let camp = campChangeable {
+                choixCombattant(camp)
+            }
+
             Button(action: continuer) {
                 Text("Suivant")
                     .font(.titre(19, relativeTo: .headline))
@@ -681,6 +691,44 @@ struct VueResultat: View {
         }
         .sensoryFeedback(bonPourJoueur ? .success : .error, trigger: apparu)
         .onAppear { apparu = true }
+    }
+
+    /// Qui pose la prochaine question : le combattant actif reste par défaut ; toucher un autre
+    /// combattant debout le fait entrer (pour sauver un combattant presque K.O., par exemple).
+    private func choixCombattant(_ camp: Camp) -> some View {
+        VStack(alignment: .leading, spacing: 6) {
+            Label("Ton prochain combattant", systemImage: "arrow.left.arrow.right")
+                .font(.footnote.bold())
+                .foregroundStyle(Charte.or)
+            HStack(spacing: 6) {
+                ForEach(camp.combattants.indices, id: \.self) { i in
+                    let c = camp.combattants[i]
+                    let actif = i == camp.indexActif
+                    Button { changer(i) } label: {
+                        VStack(spacing: 2) {
+                            Text(c.nom)
+                                .font(.caption.bold())
+                                .lineLimit(1)
+                                .minimumScaleFactor(0.7)
+                            Text(c.estKO ? "K.O." : "\(max(0, c.pv))/\(c.pvMax) PV")
+                                .font(.caption2.monospacedDigit())
+                                .foregroundStyle(c.estKO ? Color.secondary
+                                                 : (Double(c.pv) < Double(c.pvMax) * 0.3 ? Color.red : Charte.ivoire))
+                        }
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 6)
+                        .background(RoundedRectangle(cornerRadius: 8)
+                            .fill(actif ? Charte.or.opacity(0.3) : Color.white.opacity(0.06)))
+                        .overlay(RoundedRectangle(cornerRadius: 8)
+                            .stroke(actif ? Charte.or : Color.clear, lineWidth: 1.5))
+                    }
+                    .buttonStyle(.plain)
+                    .disabled(c.estKO || actif)
+                    .accessibilityLabel("\(c.nom), \(c.estKO ? "K.O." : "\(max(0, c.pv)) PV sur \(c.pvMax)")\(actif ? ", en jeu" : "")")
+                }
+            }
+        }
+        .animation(.snappy, value: camp.indexActif)
     }
 
     private func etiquette(_ texte: String, couleur: Color) -> some View {

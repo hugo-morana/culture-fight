@@ -117,6 +117,17 @@ struct Combat: Sendable {
         return camps.map(\.indexActif) != avant
     }
 
+    /// Changement de combattant (game design, « Changer de combattant ») : avant son tour, un camp
+    /// remplace son combattant actif par un autre encore debout, par exemple pour sauver un combattant
+    /// presque K.O. Sans coût ; ce n'est pas une entrée après un K.O. (pas de bouclier des Chevaliers).
+    @discardableResult
+    mutating func changerActif(camp: Int, vers index: Int) -> Bool {
+        guard camps[camp].combattants.indices.contains(index), index != camps[camp].indexActif,
+              !camps[camp].combattants[index].estKO else { return false }
+        camps[camp].indexActif = index
+        return true
+    }
+
     /// Le combattant actif de l'attaquant tire une question de sa spécialité.
     mutating func preparerQuestion() -> (question: Question, affinite: Affinite, retires: Set<Int>) {
         let att = camps[attaquant].actif

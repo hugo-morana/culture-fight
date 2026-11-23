@@ -132,6 +132,22 @@ final class CombatController {
         nouveauTour()
     }
 
+    /// Camp du joueur qui peut changer de combattant maintenant : sur l'écran du résultat,
+    /// juste avant son tour d'attaque (nil sinon, ou s'il ne lui reste qu'un combattant debout).
+    var campQuiPeutChanger: Int? {
+        guard case .resultat = phase, !combat.estTermine else { return nil }
+        let camp = combat.attaquant
+        guard !combat.camps[camp].estIA,
+              combat.camps[camp].combattants.filter({ !$0.estKO }).count > 1 else { return nil }
+        return camp
+    }
+
+    /// Le joueur choisit qui posera sa prochaine question (et défendra ensuite).
+    func changerCombattant(_ index: Int) {
+        guard let camp = campQuiPeutChanger, combat.changerActif(camp: camp, vers: index) else { return }
+        ServiceSons.partage.jouer(.changement)
+    }
+
     func abandonner() {
         tache?.cancel()
     }
