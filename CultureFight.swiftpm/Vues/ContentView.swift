@@ -32,6 +32,8 @@ struct ContentView: View {
     @State private var nouveauxLegendaires: [ModeleCombattant] = []
     /// Paquet de départ à ouvrir (nouveau joueur, premier lancement).
     @State private var paquetVisible = false
+    /// Choix du combattant à entraîner, ouvert depuis l'accueil.
+    @State private var choixEntrainement = false
     @AppStorage("paquetDepartOuvert") private var paquetDepartOuvert = false
     @Environment(\.modelContext) private var contexte
     @Environment(\.scenePhase) private var scenePhase
@@ -51,6 +53,9 @@ struct ContentView: View {
             if Sauvegarde.nouveauJoueur && !paquetDepartOuvert { paquetVisible = true }
         }
         .onChange(of: joueur?.reserve.count ?? 0) { _, _ in verifierLegendaires() }
+        .sheet(isPresented: $choixEntrainement) {
+            if let joueur { ChoixEntrainementView(modeles: joueur.modelesReserve) }
+        }
         .fullScreenCover(isPresented: $paquetVisible) {
             PaquetDepartView(modeles: joueur?.modelesReserve ?? []) {
                 paquetDepartOuvert = true
@@ -123,6 +128,7 @@ struct ContentView: View {
                         prochainCoffre: Gains.prochainCoffre(apres: joueur.dernierCoffre),
                         ouvrirCoffre: { Sauvegarde.ouvrirCoffre(joueur, dans: contexte) },
                         combattre: { ecran = .selection },
+                        entrainement: { choixEntrainement = true },
                         collection: { ecran = .collection },
                         boutique: { ecran = .boutique },
                         profil: { ecran = .profil },
@@ -172,6 +178,8 @@ struct AccueilView: View {
     let boutique: () -> Void
     let profil: () -> Void
     let carte: () -> Void
+    /// Entraînement en solo : choix d'un combattant possédé.
+    var entrainement: () -> Void = {}
     /// Bouton caché des testeurs (appui long de 3 s sur la ligne de version).
     var remettreAZero: () -> Void = {}
 
@@ -245,14 +253,26 @@ struct AccueilView: View {
                 .opacity(apparu ? 1 : 0)
                 .animation(.easeOut(duration: 0.8).delay(0.4), value: apparu)
             Spacer()
-            Button(action: combattre) {
-                Text("Combattre")
-                    .font(.titre(22, relativeTo: .title3))
-                    .frame(maxWidth: .infinity)
+            HStack(spacing: 10) {
+                Button(action: combattre) {
+                    Text("Combattre")
+                        .font(.titre(22, relativeTo: .title3))
+                        .frame(maxWidth: .infinity)
+                }
+                .buttonStyle(.borderedProminent)
+                .controlSize(.large)
+                .tint(.orange)
+                Button(action: entrainement) {
+                    Label("Entraînement", systemImage: "figure.mind.and.body")
+                        .font(.titre(15, relativeTo: .headline))
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.6)
+                }
+                .buttonStyle(.bordered)
+                .controlSize(.large)
+                .tint(Charte.or)
+                .accessibilityHint("Choisis un combattant pour t'entraîner seul sur sa spécialité")
             }
-            .buttonStyle(.borderedProminent)
-            .controlSize(.large)
-            .tint(.orange)
             .offset(y: apparu ? 0 : 60)
             .opacity(apparu ? 1 : 0)
             .animation(.spring(duration: 0.6, bounce: 0.35).delay(0.5), value: apparu)

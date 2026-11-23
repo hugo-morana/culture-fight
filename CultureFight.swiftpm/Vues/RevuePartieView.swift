@@ -329,6 +329,12 @@ struct EntrainementView: View {
     @State private var ratees: [Question] = []
     @State private var finTraitee = false
     @State private var recompense: String?
+    /// Entraînement en solo : chrono comme en combat, sauf si le joueur choisit « Sans chrono ».
+    @AppStorage("entrainementSansChrono") private var sansChrono = false
+    @State private var tempsRestant: Double = 0
+    @State private var tempsTotal: Double = 1
+
+    private var avecChrono: Bool { questions != nil && !sansChrono }
 
     private var question: Question? { index < file.count ? file[index] : nil }
 
@@ -341,6 +347,23 @@ struct EntrainementView: View {
                     Text("Question \(index + 1) sur \(file.count)")
                         .font(.nom(13, relativeTo: .caption))
                         .foregroundStyle(.secondary)
+                    if questions != nil {
+                        Toggle("Sans chrono", isOn: $sansChrono)
+                            .font(.caption)
+                            .tint(Charte.or)
+                            .fixedSize()
+                    }
+                    if avecChrono {
+                        HStack(spacing: 8) {
+                            Image(systemName: "timer").foregroundStyle(tempsRestant < 5 ? Color.red : Color.orange)
+                            ProgressView(value: max(0, tempsRestant), total: tempsTotal)
+                                .tint(tempsRestant < 5 ? Color.red : Color.orange)
+                            Text("\(Int(tempsRestant.rounded(.up)))")
+                                .font(.subheadline.monospacedDigit().bold())
+                                .frame(width: 26, alignment: .trailing)
+                        }
+                        .opacity(choisie == nil ? 1 : 0.4)
+                    }
                     Text(question.enonce)
                         .font(.title3.bold())
                         .foregroundStyle(Charte.ivoire)
@@ -379,6 +402,7 @@ struct EntrainementView: View {
                 }
             }
             .onAppear { if file.isEmpty { demarrer(questions ?? tours.map(\.question)) } }
+            .task(id: "\(index)-\(file.count)-\(avecChrono)") { await chrono() }
             .onChange(of: question == nil) { _, fini in
                 guard fini, !finTraitee, let surFin else { return }
                 finTraitee = true
@@ -387,6 +411,24 @@ struct EntrainementView: View {
             .sensoryFeedback(trigger: choisie) { _, nouvelle in
                 guard let nouvelle, let question else { return nil }
                 return nouvelle == question.bonneReponse ? .success : .error
+            }
+        }
+    }
+
+    /// Chrono de la question en cours ; le temps écoulé compte comme une erreur.
+    private func chrono() async {
+        guard avecChrono, let question, choisie == nil else { return }
+        tempsTotal = Regles.tempsDeBase(question)
+        tempsRestant = tempsTotal
+        let debut = Date()
+        while !Task.isCancelled, choisie == nil {
+            try? await Task.sleep(for: .milliseconds(100))
+            tempsRestant = max(0, tempsTotal - Date().timeIntervalSince(debut))
+            if tempsRestant <= 0, choisie == nil, let q = self.question {
+                choisie = -1
+                ratees.append(q)
+                surReponse?(q, false)
+                return
             }
         }
     }
