@@ -58,6 +58,8 @@ struct GroupeCollection: Identifiable {
     var domaine: String? = nil
     /// Famille du groupe, quand on groupe par famille : son logo remplace le pictogramme.
     var famille: String? = nil
+    /// Famille de styles du groupe, quand on groupe par style de combat : son logo remplace le pictogramme.
+    var familleStyle: FamilleStyle? = nil
     var id: String { titre }
 }
 
@@ -130,7 +132,8 @@ struct CollectionView: View {
             GroupeCollection(titre: $0, picto: pictos[$0] ?? "", modeles: parCle[$0] ?? [],
                              completion: completions[$0] ?? Completion(),
                              domaine: groupement == .style ? nil : parCle[$0]?.first?.specialite.domaine,
-                             famille: groupement == .famille ? $0 : nil)
+                             famille: groupement == .famille ? $0 : nil,
+                             familleStyle: groupement == .style ? parCle[$0]?.first?.familleStyle : nil)
         }
     }
 

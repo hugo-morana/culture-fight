@@ -52,6 +52,9 @@ enum IdentiteDomaine {
         ImagesFamilles.fichiers[famille].flatMap(charger)
     }
 
+    /// Image de `Resources` par son nom (sans extension), mise en cache.
+    static func imageNommee(_ nom: String) -> UIImage? { charger(nom) }
+
     private static func charger(_ nom: String) -> UIImage? {
         if let image = cache.object(forKey: nom as NSString) { return image }
         guard let url = Bundle.module.url(forResource: nom, withExtension: "png")
@@ -99,6 +102,45 @@ struct VignetteFamille: View {
                     .scaledToFit()
             } else {
                 Text(Pictos.famille(famille, domaine: domaine)).font(.system(size: taille * 0.7))
+            }
+        }
+        .frame(width: taille, height: taille)
+        .accessibilityHidden(true)
+    }
+}
+
+extension FamilleStyle {
+    /// Image du logo « émail et or » de la famille de styles (`Resources/style-<cas>.png`).
+    var nomImage: String {
+        switch self {
+        case .guerriersLourds: return "style-guerriersLourds"
+        case .artsMartiaux: return "style-artsMartiaux"
+        case .tireurs: return "style-tireurs"
+        case .creatures: return "style-creatures"
+        case .mortsVivants: return "style-mortsVivants"
+        case .chevaliers: return "style-chevaliers"
+        case .soldats: return "style-soldats"
+        case .mages: return "style-mages"
+        case .ombres: return "style-ombres"
+        case .bretteurs: return "style-bretteurs"
+        }
+    }
+}
+
+/// Logo d'une famille de styles ; à défaut, son pictogramme.
+struct VignetteStyle: View {
+    let famille: FamilleStyle
+    var taille: CGFloat = 28
+
+    var body: some View {
+        Group {
+            if let image = IdentiteDomaine.imageNommee(famille.nomImage) {
+                Image(uiImage: image)
+                    .resizable()
+                    .interpolation(.high)
+                    .scaledToFit()
+            } else {
+                Text(famille.picto).font(.system(size: taille * 0.7))
             }
         }
         .frame(width: taille, height: taille)

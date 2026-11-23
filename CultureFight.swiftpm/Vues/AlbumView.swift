@@ -130,8 +130,10 @@ struct EnteteGroupe: View {
                     VignetteFamille(famille: famille, domaine: domaine, taille: taille * 1.7)
                 } else if let domaine = groupe.domaine {
                     VignetteDomaine(domaine: domaine, taille: taille * 1.7)
+                } else if let style = groupe.familleStyle {
+                    VignetteStyle(famille: style, taille: taille * 1.7)
                 }
-                Text(groupe.domaine == nil ? "\(groupe.picto) \(groupe.titre)" : groupe.titre)
+                Text(groupe.domaine == nil && groupe.familleStyle == nil ? "\(groupe.picto) \(groupe.titre)" : groupe.titre)
                     .font(.titre(taille, relativeTo: .title3))
                     .lettrageLogo()
                     .lineLimit(1)
@@ -384,6 +386,7 @@ struct AlbumView: View {
             if let famille = modeles.first?.familleStyle {
                 BlocAlbum(cle: "s-" + famille.rawValue,
                           picto: famille.picto,
+                          familleStyle: famille,
                           titre: famille.rawValue,
                           completion: Completion(modeles, possedes: possedes),
                           ouverts: $ouverts) {
@@ -408,6 +411,8 @@ private struct BlocAlbum<Contenu: View>: View {
     let picto: String
     /// Domaine affiché avec sa vignette et sa couleur (nil pour une famille de styles).
     var domaine: String? = nil
+    /// Famille de styles affichée avec son logo (nil pour un domaine).
+    var familleStyle: FamilleStyle? = nil
     let titre: String
     let completion: Completion
     @Binding var ouverts: Set<String>
@@ -427,6 +432,10 @@ private struct BlocAlbum<Contenu: View>: View {
                 HStack(spacing: 10) {
                     if let domaine {
                         VignetteDomaine(domaine: domaine, taille: 46)
+                            .rotationEffect(.degrees(ouvert ? -6 : 0))
+                            .scaleEffect(ouvert ? 1.08 : 1)
+                    } else if let familleStyle {
+                        VignetteStyle(famille: familleStyle, taille: 46)
                             .rotationEffect(.degrees(ouvert ? -6 : 0))
                             .scaleEffect(ouvert ? 1.08 : 1)
                     } else {
@@ -462,7 +471,7 @@ private struct BlocAlbum<Contenu: View>: View {
             .accessibilityHint(ouvert ? "Replie" : "Déplie")
             if ouvert {
                 VStack(spacing: 10) { contenu() }
-                    .padding(.leading, domaine == nil ? 38 : 56)
+                    .padding(.leading, domaine == nil && familleStyle == nil ? 38 : 56)
                     .transition(.opacity.combined(with: .move(edge: .top)))
             }
         }
