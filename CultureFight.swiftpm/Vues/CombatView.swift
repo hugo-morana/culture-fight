@@ -47,7 +47,8 @@ struct CombatView: View {
                       reduit: mouvementReduit)
                 .zIndex(role(camp: 1) == .attaque ? 1 : 0)
                 .anchorPreference(key: CadresCamps.self, value: .bounds) { [1: $0] }
-            ScrollView {
+            // Question et résultat toujours lisibles sans défiler : la zone se réduit si elle déborde.
+            AjusteSansDefilement {
                 ZStack {
                     zoneCentrale
                         .id(clePhase)
@@ -517,6 +518,37 @@ struct VueQuestion: View {
     }
 }
 
+// MARK: - Ajustement sans défilement
+
+/// Hauteur naturelle du contenu de `AjusteSansDefilement`.
+private struct HauteurContenu: PreferenceKey {
+    static var defaultValue: CGFloat = 0
+    static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) { value = max(value, nextValue()) }
+}
+
+/// Affiche son contenu en entier dans la place disponible, sans défilement :
+/// s'il est trop haut, il est réduit (jusqu'à 60 %), aligné en haut.
+struct AjusteSansDefilement<Contenu: View>: View {
+    @ViewBuilder let contenu: Contenu
+    @State private var hauteur: CGFloat = 0
+
+    var body: some View {
+        GeometryReader { geo in
+            let dispo = geo.size.height
+            let echelle = hauteur > dispo && hauteur > 0 ? max(0.6, dispo / hauteur) : 1
+            contenu
+                .fixedSize(horizontal: false, vertical: true)
+                .background(GeometryReader { g in
+                    Color.clear.preference(key: HauteurContenu.self, value: g.size.height)
+                })
+                .frame(width: geo.size.width, alignment: .top)
+                .scaleEffect(echelle, anchor: .top)
+                .frame(width: geo.size.width, height: dispo, alignment: .top)
+        }
+        .onPreferenceChange(HauteurContenu.self) { hauteur = $0 }
+    }
+}
+
 // MARK: - Résultat
 
 struct VueResultat: View {
@@ -524,8 +556,6 @@ struct VueResultat: View {
     let continuer: () -> Void
 
     @State private var apparu = false
-    /// Bulle d'aide montrée au premier combat, puis plus jamais.
-    @AppStorage("aideResultatVue") private var aideVue = false
 
     private var joueurDefend: Bool { resultat.defenseurEstJoueur }
 
@@ -636,25 +666,6 @@ struct VueResultat: View {
             .opacity(apparu ? 1 : 0)
             .offset(y: apparu ? 0 : 12)
             .animation(.easeOut(duration: 0.4).delay(0.25), value: apparu)
-
-            if !aideVue {
-                VStack(alignment: .leading, spacing: 6) {
-                    Label("Comment ça marche ?", systemImage: "questionmark.bubble.fill")
-                        .font(.nom(14, relativeTo: .subheadline))
-                        .foregroundStyle(Charte.or)
-                    Text("Seul celui qui pose la question fait mal. Si le défenseur trouve, il esquive : personne ne perd de PV. S'il se trompe, il prend les dégâts. Quand tu attaques, réponds aussi à ta question : juste, tes dégâts montent de \(Int(Regles.bonusQuestionneur * 100)) %.")
-                        .font(.footnote)
-                        .foregroundStyle(Charte.ivoire)
-                        .fixedSize(horizontal: false, vertical: true)
-                    Button("Compris") { withAnimation { aideVue = true } }
-                        .font(.footnote.bold())
-                        .tint(Charte.or)
-                }
-                .padding(10)
-                .background(Charte.marine.opacity(0.85), in: RoundedRectangle(cornerRadius: 12))
-                .overlay(RoundedRectangle(cornerRadius: 12).stroke(Charte.or.opacity(0.5), lineWidth: 1))
-                .transition(.opacity)
-            }
 
             Button(action: continuer) {
                 Text("Suivant")
