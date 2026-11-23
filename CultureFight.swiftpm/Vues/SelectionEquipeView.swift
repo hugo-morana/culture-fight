@@ -124,7 +124,7 @@ struct SelectionEquipeView: View {
                             .foregroundStyle(Charte.ivoire)
                             .lineLimit(1)
                             .minimumScaleFactor(0.6)
-                        Text("\(modele.familleStyle.picto) \(modele.specialite.pictoDomaine)")
+                        (modele.iconeFamilleStyle(11) + Text(" ") + modele.iconeDomaine(11))
                             .font(.caption2)
                     }
                     .padding(6)
@@ -469,7 +469,7 @@ struct CarteChoix: View {
                     .foregroundStyle(Charte.ivoire)
                     .lineLimit(1)
                     .minimumScaleFactor(0.6)
-                Text(modele.sousTitre)
+                modele.sousTitreIllustre(11)
                     .font(.caption2)
                     .foregroundStyle(.secondary)
                     .lineLimit(1)

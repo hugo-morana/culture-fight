@@ -190,11 +190,21 @@ struct TexteFiche: View {
 }
 
 struct BadgeFiche: View {
-    let texte: String
+    let contenu: Text
     var couleur: Color = .white.opacity(0.12)
 
+    init(texte: String, couleur: Color = .white.opacity(0.12)) {
+        self.contenu = Text(texte)
+        self.couleur = couleur
+    }
+
+    init(contenu: Text, couleur: Color = .white.opacity(0.12)) {
+        self.contenu = contenu
+        self.couleur = couleur
+    }
+
     var body: some View {
-        Text(texte)
+        contenu
             .font(.nom(11, relativeTo: .caption2))
             .padding(.horizontal, 8)
             .padding(.vertical, 3)
@@ -228,12 +238,12 @@ struct EnTeteFiche: View {
                     .minimumScaleFactor(0.6)
                     .opacity(apparu ? 1 : 0)
                     .offset(x: apparu ? 0 : -16)
-                Text(modele.sousTitre)
+                modele.sousTitreIllustre(14)
                     .font(.nom(14, relativeTo: .subheadline))
                     .foregroundStyle(Charte.ivoire.opacity(0.8))
                     .lineLimit(2)
                     .minimumScaleFactor(0.8)
-                Text(modele.classement)
+                modele.classementIllustre(12)
                     .font(.nom(12, relativeTo: .caption))
                     .foregroundStyle(accent)
                     .lineLimit(2)
@@ -241,7 +251,7 @@ struct EnTeteFiche: View {
                 HStack(spacing: 6) {
                     BadgeFiche(texte: modele.rarete.rawValue, couleur: accent.opacity(0.35))
                     BadgeFiche(texte: "Difficulté \(modele.difficulte)")
-                    BadgeFiche(texte: modele.familleStyle.picto + " " + modele.familleStyle.rawValue)
+                    BadgeFiche(contenu: modele.typeIllustre(11))
                 }
                 .lineLimit(1)
                 .minimumScaleFactor(0.7)

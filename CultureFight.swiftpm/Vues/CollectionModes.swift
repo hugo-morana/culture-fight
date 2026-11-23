@@ -63,7 +63,7 @@ struct LigneCollection: View {
                         .padding(.vertical, 2)
                         .background(Capsule().fill(modele.specialite.couleur.opacity(0.35)))
                 }
-                Text(possede ? modele.sousTitre : "🔒 À découvrir · \(modele.sousTitre)")
+                (possede ? modele.sousTitreIllustre(12) : Text("🔒 À découvrir · ") + modele.sousTitreIllustre(12))
                     .font(.nom(12, relativeTo: .caption))
                     .foregroundStyle(.secondary)
                     .lineLimit(1)
@@ -72,7 +72,7 @@ struct LigneCollection: View {
                     stat("heart.fill", modele.pvMax, .green)
                     stat("bolt.fill", modele.attaque, .orange)
                     stat("shield.fill", modele.defense, .cyan)
-                    Text(modele.familleStyle.picto)
+                    modele.iconeFamilleStyle(13)
                     Spacer(minLength: 0)
                 }
                 .font(.caption2.bold())

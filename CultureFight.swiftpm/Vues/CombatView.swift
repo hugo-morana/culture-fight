@@ -316,7 +316,7 @@ struct CarteCamp: View {
                         }
                         BarrePV(pv: actif.pv, pvMax: actif.pvMax)
                         HStack(spacing: 6) {
-                            Text(actif.modele.sousTitre)
+                            actif.modele.sousTitreIllustre(12)
                                 .font(.nom(12, relativeTo: .caption))
                                 .lineLimit(1)
                                 .minimumScaleFactor(0.7)
