@@ -13,7 +13,9 @@ Culturia est un continent né des pages de la Grande Encyclopédie, un livre viv
 
 ## Chronologie
 
-_Aucune aventure pour l'instant : la chronologie se remplit avec `aventures.json`._
+1. **La ronde des huit grelots** (La Ronde des Planètes) : Retenir l'ordre des huit planètes, de Mercure à Neptune, avec la phrase « Me Voici Toute Mouillée, J'ai Suivi Un Nuage » et un fait par planète
+2. **Les six cloches de Néonja** (Les Cloches de Néon) : Retenir les six gaz nobles naturels dans l'ordre de leur numéro atomique (2, 10, 18, 36, 54, 86), le sens de leur nom et un fait sur chacun
+3. **Le duel du centre du monde** (L'Académie céleste) : Comprendre comment on est passé de la Terre au centre (Ptolémée) au Soleil au centre (Copernic), puis aux ellipses (Kepler) et aux preuves du télescope (Galilée)
 
 ## Atomie — domaine Matière
 

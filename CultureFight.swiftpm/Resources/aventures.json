@@ -1,1 +1,640 @@
-[]
+[
+ {
+  "id": "ronde-des-huit-grelots",
+  "titre": "La ronde des huit grelots",
+  "type": "chaine",
+  "objectif": "Retenir l'ordre des huit planètes, de Mercure à Neptune, avec la phrase « Me Voici Toute Mouillée, J'ai Suivi Un Nuage » et un fait par planète",
+  "pays": "astralis",
+  "lieu": "La Ronde des Planètes",
+  "ordre": 1,
+  "combattants": [
+   "planetroll",
+   "sol-dat",
+   "mercurion",
+   "venus-de-mille-lames",
+   "gladiaterre",
+   "marshal-martien",
+   "jupititan",
+   "saturnchakram",
+   "uranusurpateur",
+   "neptuniaire"
+  ],
+  "deblocage": {
+   "victoires": 3
+  },
+  "cases": [
+   {
+    "lieu": "La Ronde des Planètes",
+    "narration": "Matin du Tournoi du Savoir. Au centre du jardin d'Orbitopolis, Sol-Dat astique son bouclier. Planétroll arrive en courant, les huit grelots de sa ceinture tintant à chaque pas.",
+    "bulles": [
+     {
+      "combattant": "sol-dat",
+      "texte": "Planétroll ! Inspection à midi. Je veux tes huit planètes dans l'ordre, de la plus proche à la plus lointaine."
+     },
+     {
+      "combattant": "planetroll",
+      "texte": "Comptez sur moi, chef ! Je ne me suis jamais tromp… ouille !"
+     }
+    ]
+   },
+   {
+    "lieu": "La Ronde des Planètes",
+    "narration": "Le troll trébuche sur le bouclier. Sa ceinture craque et les huit grelots roulent dans toutes les allées de la Ronde.",
+    "bulles": [
+     {
+      "combattant": "planetroll",
+      "texte": "Catastrophe ! Il faut que je les raccroche dans l'ordre. Il me faudrait une phrase, une lettre par planète…"
+     },
+     {
+      "combattant": "mercurion",
+      "texte": "Commence par moi, gros maladroit : je suis toujours le premier de la file."
+     }
+    ]
+   },
+   {
+    "lieu": "La Ronde des Planètes",
+    "narration": "Mercurion rend le premier grelot, brûlant d'un côté, glacé de l'autre.",
+    "bulles": [
+     {
+      "combattant": "mercurion",
+      "texte": "Sur Mercure, d'un lever de soleil au suivant, il s'écoule environ 176 jours terrestres. Ma journée dure deux de mes années. Alors ne me presse pas !"
+     },
+     {
+      "combattant": "planetroll",
+      "texte": "Mercure… « Me ». Me…"
+     }
+    ]
+   },
+   {
+    "lieu": "La Ronde des Planètes",
+    "narration": "Un nuage étouffant s'avance : Vénus de Mille-Lames fait tournoyer son épée, le grelot au bout de la lame.",
+    "bulles": [
+     {
+      "combattant": "venus-de-mille-lames",
+      "texte": "Deuxième, et la plus chaude, n'en déplaise à Mercurion : mon gaz carbonique garde la chaleur, près de 470 °C au sol. Et chez moi, le soleil se lève à l'ouest."
+     },
+     {
+      "combattant": "planetroll",
+      "texte": "Vénus… « Voici ». Me Voici…"
+     }
+    ]
+   },
+   {
+    "lieu": "La Ronde des Planètes",
+    "narration": "Gladiaterre arrive, arrosoir à la main, le grelot bleu accroché à son casque.",
+    "bulles": [
+     {
+      "combattant": "gladiaterre",
+      "texte": "Troisième ! Je suis le seul endroit connu où vivent des êtres vivants. L'océan couvre environ 71 % de ma surface : de quoi être trempé."
+     },
+     {
+      "combattant": "planetroll",
+      "texte": "La Terre… « Toute ». Me Voici Toute… Toute mouillée, comme lui !"
+     }
+    ]
+   },
+   {
+    "lieu": "La Ronde des Planètes",
+    "narration": "Un grelot rouge rouille traîne dans la poussière. Marshal Martien le ramasse en fronçant les sourcils.",
+    "bulles": [
+     {
+      "combattant": "marshal-martien",
+      "texte": "Quatrième. Rouge parce que le fer de mes roches rouille. Et je garde l'Olympus Mons, le plus grand volcan du système solaire, trois fois plus haut que l'Everest."
+     },
+     {
+      "combattant": "planetroll",
+      "texte": "Mars… « Mouillée ». Me Voici Toute Mouillée !"
+     }
+    ]
+   },
+   {
+    "lieu": "La Ronde des Planètes",
+    "narration": "Le sol tremble. Jupititan tend un grelot plus gros que tous les autres réunis.",
+    "bulles": [
+     {
+      "combattant": "jupititan",
+      "texte": "Cinquième, et le plus massif : plus de deux fois la masse de toutes les autres planètes ensemble. Ma Grande Tache rouge, une tempête deux fois plus large que la Terre, souffle depuis plus de 300 ans."
+     },
+     {
+      "combattant": "planetroll",
+      "texte": "Jupiter… « J'ai ». J'ai…"
+     }
+    ]
+   },
+   {
+    "lieu": "La Ronde des Planètes",
+    "narration": "Un anneau siffle au-dessus des allées et revient dans la main de Saturnchakram, le grelot accroché dedans.",
+    "bulles": [
+     {
+      "combattant": "saturnchakram",
+      "texte": "Sixième. Mes anneaux sont faits de glace et de poussière. Et je suis si peu dense que je flotterais dans une baignoire géante."
+     },
+     {
+      "combattant": "planetroll",
+      "texte": "Saturne… « Suivi ». J'ai Suivi…"
+     }
+    ]
+   },
+   {
+    "lieu": "La Ronde des Planètes",
+    "narration": "Allongé sur le côté, Uranusurpateur fait rouler le septième grelot du bout de sa couronne.",
+    "bulles": [
+     {
+      "combattant": "uranusurpateur",
+      "texte": "Septième, et je règne couché : mon axe penche de près de 98°. Herschel voulait m'appeler Georgium Sidus, l'étoile de George, pour flatter le roi George III."
+     },
+     {
+      "combattant": "planetroll",
+      "texte": "Uranus… « Un ». J'ai Suivi Un…"
+     }
+    ]
+   },
+   {
+    "lieu": "La Ronde des Planètes",
+    "narration": "Tout au bout du jardin, là où le soleil de bronze n'est plus qu'une lampe, Neptuniaire remonte le dernier grelot dans son filet.",
+    "bulles": [
+     {
+      "combattant": "neptuniaire",
+      "texte": "Huitième et dernier. On m'a trouvé par le calcul : Le Verrier a prédit ma position et Galle m'a vu à Berlin en septembre 1846, presque à l'endroit annoncé."
+     },
+     {
+      "combattant": "planetroll",
+      "texte": "Neptune… « Nuage » ! Me Voici Toute Mouillée, J'ai Suivi Un Nuage !"
+     }
+    ]
+   },
+   {
+    "lieu": "La Ronde des Planètes",
+    "narration": "Midi sonne. Les huit grelots tintent en bon ordre à la ceinture du troll. Sol-Dat passe la ceinture en revue.",
+    "bulles": [
+     {
+      "combattant": "sol-dat",
+      "texte": "Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus, Neptune. Parfait, soldat."
+     },
+     {
+      "combattant": "planetroll",
+      "texte": "Et… Pluton ? Il reste un crochet vide."
+     },
+     {
+      "combattant": "sol-dat",
+      "texte": "Planète naine depuis 2006, tu le sais très bien. Garde ton crochet pour une autre aventure."
+     }
+    ]
+   }
+  ],
+  "faits": [
+   {
+    "texte": "Un jour solaire sur Mercure dure environ 176 jours terrestres, soit deux années de Mercure (88 jours chacune).",
+    "source": "https://coolcosmos.ipac.caltech.edu/ask/23-How-long-is-a-day-on-Mercury-"
+   },
+   {
+    "texte": "Vénus est la planète la plus chaude du système solaire (environ 467 °C au sol) et tourne à l'envers : le Soleil s'y lève à l'ouest.",
+    "source": "https://science.nasa.gov/venus/facts/"
+   },
+   {
+    "texte": "La Terre est le seul endroit connu habité par des êtres vivants ; l'océan couvre environ 71 % de sa surface.",
+    "source": "https://science.nasa.gov/earth/facts/"
+   },
+   {
+    "texte": "Mars est rouge parce que les minéraux de fer de son sol rouillent ; l'Olympus Mons est le plus grand volcan du système solaire.",
+    "source": "https://science.nasa.gov/mars/facts/"
+   },
+   {
+    "texte": "Jupiter est plus de deux fois plus massive que toutes les autres planètes réunies ; sa Grande Tache rouge, deux fois plus large que la Terre, est observée depuis plus de 300 ans.",
+    "source": "https://science.nasa.gov/jupiter/facts/"
+   },
+   {
+    "texte": "Saturne est la seule planète dont la densité moyenne est inférieure à celle de l'eau ; ses anneaux sont faits de glace et de poussière.",
+    "source": "https://science.nasa.gov/saturn/facts/"
+   },
+   {
+    "texte": "L'axe d'Uranus est incliné de 97,77° ; Herschel, qui la découvrit en 1781, voulait la nommer Georgium Sidus en l'honneur du roi George III.",
+    "source": "https://science.nasa.gov/uranus/facts/"
+   },
+   {
+    "texte": "Neptune a été observée par Galle à Berlin dans la nuit du 23 au 24 septembre 1846, d'après les calculs d'Urbain Le Verrier.",
+    "source": "https://www.nasa.gov/history/175-years-ago-astronomers-discover-neptune-the-eighth-planet"
+   },
+   {
+    "texte": "En 2006, l'Union astronomique internationale a reclassé Pluton parmi les planètes naines.",
+    "source": "https://www.britannica.com/story/why-is-pluto-no-longer-a-planet"
+   }
+  ],
+  "quiz": [
+   {
+    "enonce": "Quelle planète se trouve entre Mars et Saturne ?",
+    "bonne": "Jupiter",
+    "faux": [
+     "Uranus",
+     "Vénus",
+     "Neptune"
+    ],
+    "explication": "Cinquième planète à partir du Soleil, c'est le « J'ai » de la phrase. Elle a aussi la journée la plus courte : environ 10 heures.",
+    "source": "https://science.nasa.gov/jupiter/"
+   },
+   {
+    "enonce": "Quelle planète a été trouvée grâce au calcul avant d'être vue au télescope ?",
+    "bonne": "Neptune",
+    "faux": [
+     "Uranus",
+     "Saturne",
+     "Mars"
+    ],
+    "explication": "Le Verrier a déduit sa position des écarts de l'orbite d'Uranus ; Galle l'a observée à Berlin en septembre 1846, presque à l'endroit prévu.",
+    "source": "https://www.nasa.gov/history/175-years-ago-astronomers-discover-neptune-the-eighth-planet"
+   },
+   {
+    "enonce": "Quelle est la planète la plus chaude du système solaire ?",
+    "bonne": "Vénus",
+    "faux": [
+     "Mercure",
+     "Mars",
+     "Jupiter"
+    ],
+    "explication": "Son épaisse atmosphère de gaz carbonique piège la chaleur par effet de serre : environ 467 °C au sol, assez pour faire fondre le plomb.",
+    "source": "https://science.nasa.gov/venus/facts/"
+   }
+  ]
+ },
+ {
+  "id": "six-cloches-de-neon",
+  "titre": "Les six cloches de Néonja",
+  "type": "palais",
+  "objectif": "Retenir les six gaz nobles naturels dans l'ordre de leur numéro atomique (2, 10, 18, 36, 54, 86), le sens de leur nom et un fait sur chacun",
+  "pays": "atomie",
+  "lieu": "Les Cloches de Néon",
+  "ordre": 2,
+  "combattants": [
+   "neonja",
+   "mendeleviking",
+   "iodiateur"
+  ],
+  "deblocage": {
+   "victoires": 6
+  },
+  "cases": [
+   {
+    "lieu": "Le Grand Tableau",
+    "narration": "Nuit noire sur Mendéléia. Au Grand Tableau, 117 cases brillent. La case 10 reste éteinte. Mendéléviking frappe son bouclier de sa hache.",
+    "bulles": [
+     {
+      "combattant": "mendeleviking",
+      "texte": "Ne ! Où est Ne ? Néonja, voleur, rends-moi ma case 10 !"
+     },
+     {
+      "combattant": "neonja",
+      "texte": "Je ne vole rien. Je ne réagis même pas. Suis-moi aux Cloches de Néon : tu verras que chacun est à sa place."
+     }
+    ]
+   },
+   {
+    "lieu": "Les Cloches de Néon",
+    "narration": "Le quartier compte six clochers, rangés du plus léger au plus lourd. Chaque cloche garde un gaz noble et son secret. Première cloche : un ballon jaune flotte au-dessus, retenu par une ficelle.",
+    "bulles": [
+     {
+      "combattant": "neonja",
+      "texte": "Cloche 2, l'hélium. On l'a vu dans la lumière du Soleil, pendant une éclipse en 1868, avant de le trouver sur Terre. Son nom vient d'Hélios, le Soleil."
+     },
+     {
+      "combattant": "mendeleviking",
+      "texte": "Un gaz trouvé dans le ciel avant la terre ? Bon. Mais ce n'est pas lui qui a mon 10."
+     }
+    ]
+   },
+   {
+    "lieu": "Les Cloches de Néon",
+    "narration": "Deuxième cloche, baignée d'une lueur rouge orangé. C'est la maison de Néonja.",
+    "bulles": [
+     {
+      "combattant": "neonja",
+      "texte": "Cloche 10, le néon : « le nouveau » en grec. Ramsay et Travers l'ont tiré de l'air en 1898. Sous le courant, il brille rouge orangé, comme moi."
+     },
+     {
+      "combattant": "mendeleviking",
+      "texte": "Donc tu avoues : c'est ta case."
+     }
+    ]
+   },
+   {
+    "lieu": "Les Cloches de Néon",
+    "narration": "Troisième cloche, la plus grosse. Son sonneur dort à moitié contre le battant.",
+    "bulles": [
+     {
+      "combattant": "neonja",
+      "texte": "Cloche 18, l'argon : « le paresseux ». Il fait près de 1 % de l'air que tu respires, et pendant plus d'un siècle personne n'a réussi à le faire réagir."
+     },
+     {
+      "combattant": "iodiateur",
+      "texte": "Je confirme. J'ai essayé de lui arracher un électron. Il a bâillé."
+     }
+    ]
+   },
+   {
+    "lieu": "Les Cloches de Néon",
+    "narration": "Quatrième cloche, si bien cachée derrière un mur qu'il faut la chercher à tâtons.",
+    "bulles": [
+     {
+      "combattant": "neonja",
+      "texte": "Cloche 36, le krypton : « le caché ». Découvert la même année que moi, en refroidissant de l'air jusqu'à le rendre liquide."
+     },
+     {
+      "combattant": "mendeleviking",
+      "texte": "Caché… comme ma case 10 ?"
+     }
+    ]
+   },
+   {
+    "lieu": "Les Cloches de Néon",
+    "narration": "Cinquième cloche, couverte de drapeaux de pays lointains. Personne ne la reconnaît.",
+    "bulles": [
+     {
+      "combattant": "neonja",
+      "texte": "Cloche 54, le xénon : « l'étranger ». Il est si rare qu'il en faut des montagnes d'air pour en récolter un peu."
+     },
+     {
+      "combattant": "iodiateur",
+      "texte": "Même moi, je ne l'ai jamais croisé dans les Marais."
+     }
+    ]
+   },
+   {
+    "lieu": "Les Cloches de Néon",
+    "narration": "Sixième et dernière cloche, au bout d'une ruelle qui descend vers les caves. Un compteur y crépite.",
+    "bulles": [
+     {
+      "combattant": "neonja",
+      "texte": "Cloche 86, le radon. Il naît du radium qui se désintègre dans les roches. Il est radioactif et plus lourd que l'air : il s'accumule dans les sous-sols. On ne s'y attarde pas."
+     },
+     {
+      "combattant": "mendeleviking",
+      "texte": "2, 10, 18, 36, 54, 86. Six cloches, six cases. Et toujours pas de 10 qui brille !"
+     }
+    ]
+   },
+   {
+    "lieu": "Le Grand Tableau",
+    "narration": "Retour au Grand Tableau. Néonja montre l'inscription au pied du mur : chaque case brille quand son élément est nommé.",
+    "bulles": [
+     {
+      "combattant": "neonja",
+      "texte": "Tu hurles le symbole de ton adversaire avant de charger. Mais tu ne m'as jamais affronté. Ce soir, personne n'avait prononcé mon nom."
+     },
+     {
+      "combattant": "mendeleviking",
+      "texte": "… NÉON !"
+     }
+    ]
+   },
+   {
+    "lieu": "Le Grand Tableau",
+    "narration": "La case 10 s'allume, rouge orangé. Tout le quartier en profite.",
+    "bulles": [
+     {
+      "combattant": "iodiateur",
+      "texte": "Six gaz nobles, et pas un seul pour réagir à une accusation. Respect."
+     },
+     {
+      "combattant": "mendeleviking",
+      "texte": "Je grave les six sur mon bouclier ce soir. Dans l'ordre."
+     }
+    ]
+   }
+  ],
+  "faits": [
+   {
+    "texte": "L'hélium a été repéré en 1868 dans le spectre du Soleil, avant d'être trouvé sur Terre ; son nom vient du dieu grec du Soleil, Hélios.",
+    "source": "https://blog.sciencemuseum.org.uk/150-years-since-the-discovery-of-helium/"
+   },
+   {
+    "texte": "William Ramsay et Morris Travers ont isolé le néon (« le nouveau »), le krypton (« le caché ») et le xénon (« l'étranger ») en 1898, à partir de l'air liquéfié.",
+    "source": "https://www.chem.ucl.ac.uk/resources/history/chemhistucl/hist15.html"
+   },
+   {
+    "texte": "Le néon émet une lueur rouge orangé sous un fort courant électrique, d'où son usage dans les enseignes.",
+    "source": "https://www.antidote.info/en/blog/reports/noble-family"
+   },
+   {
+    "texte": "L'argon, du grec argos (« paresseux »), forme environ 1 % de l'air ; il a été découvert en 1894 par Lord Rayleigh et William Ramsay.",
+    "source": "https://edu.rsc.org/elements/argon/2020002.article"
+   },
+   {
+    "texte": "Le xénon est très rare dans l'atmosphère : il a fallu traiter d'énormes volumes d'air pour en obtenir un peu.",
+    "source": "https://www.webelements.com/xenon/history.html"
+   },
+   {
+    "texte": "Le radon, gaz radioactif né de la désintégration du radium, est plus lourd que l'air et peut entrer dans les bâtiments par les sous-sols.",
+    "source": "https://www.britannica.com/science/radon"
+   }
+  ],
+  "quiz": [
+   {
+    "enonce": "Quel gaz noble a été repéré dans la lumière du Soleil avant d'être trouvé sur Terre ?",
+    "bonne": "L'hélium",
+    "faux": [
+     "Le néon",
+     "L'argon",
+     "Le radon"
+    ],
+    "explication": "En 1868, une raie jaune inconnue est apparue dans le spectre solaire. Lockyer a nommé l'élément d'après Hélios, le dieu grec du Soleil.",
+    "source": "https://blog.sciencemuseum.org.uk/150-years-since-the-discovery-of-helium/"
+   },
+   {
+    "enonce": "Que signifie le nom grec du krypton ?",
+    "bonne": "Caché",
+    "faux": [
+     "Nouveau",
+     "Étranger",
+     "Paresseux"
+    ],
+    "explication": "Ramsay et Travers l'ont isolé en 1898, la même année que le néon (« nouveau ») et le xénon (« étranger ») ; « paresseux », c'est l'argon.",
+    "source": "https://www.chem.ucl.ac.uk/resources/history/chemhistucl/hist15.html"
+   },
+   {
+    "enonce": "Quel gaz noble est radioactif et peut s'accumuler dans les caves ?",
+    "bonne": "Le radon",
+    "faux": [
+     "Le xénon",
+     "Le krypton",
+     "L'argon"
+    ],
+    "explication": "Il naît de la désintégration du radium contenu dans des roches comme le granite ; plus lourd que l'air, il entre par les sous-sols.",
+    "source": "https://www.britannica.com/science/radon"
+   }
+  ]
+ },
+ {
+  "id": "duel-du-centre-du-monde",
+  "titre": "Le duel du centre du monde",
+  "type": "points",
+  "objectif": "Comprendre comment on est passé de la Terre au centre (Ptolémée) au Soleil au centre (Copernic), puis aux ellipses (Kepler) et aux preuves du télescope (Galilée)",
+  "pays": "astralis",
+  "lieu": "L'Académie céleste",
+  "ordre": 3,
+  "combattants": [
+   "ptoleminotaure",
+   "copernisabre",
+   "keplertagnan",
+   "galilegionnaire"
+  ],
+  "deblocage": {
+   "victoires": 10
+  },
+  "cases": [
+   {
+    "lieu": "L'Académie céleste",
+    "narration": "Salle d'escrime de l'Académie céleste. Une seule dalle dorée, au centre exact de la salle. Copernisabre y est installé, comme chaque matin. Ptoléminotaure surgit du labyrinthe, les cornes en avant.",
+    "bulles": [
+     {
+      "combattant": "ptoleminotaure",
+      "texte": "Descends de là, Copernisabre. Le centre, c'est la place de la Terre. Et la Terre, c'est moi qui la garde !"
+     },
+     {
+      "combattant": "copernisabre",
+      "texte": "Le centre revient au Soleil. On le règle en duel ?"
+     }
+    ]
+   },
+   {
+    "lieu": "L'Académie céleste",
+    "narration": "Ptoléminotaure déroule un énorme rouleau couvert de cercles dessinés sur d'autres cercles.",
+    "bulles": [
+     {
+      "combattant": "ptoleminotaure",
+      "texte": "Mon Almageste, vers l'an 150 : la Terre immobile au centre, et autour, les planètes qui tournent sur des petits cercles posés sur de grands cercles. Ça a tenu 1 400 ans, petit !"
+     },
+     {
+      "combattant": "copernisabre",
+      "texte": "Joli. Mais tes cercles sur des cercles, c'est une pelote de laine."
+     }
+    ]
+   },
+   {
+    "lieu": "L'Académie céleste",
+    "narration": "Copernisabre trace un cercle d'un coup de sabre, avec le Soleil au milieu.",
+    "bulles": [
+     {
+      "combattant": "copernisabre",
+      "texte": "En 1543, mon livre De revolutionibus place le Soleil au centre et fait tourner la Terre autour. Il est sorti l'année même de ma mort : je n'ai pas eu le temps de lire les critiques."
+     },
+     {
+      "combattant": "ptoleminotaure",
+      "texte": "Pratique, pour éviter les débats."
+     }
+    ]
+   },
+   {
+    "lieu": "L'Académie céleste",
+    "narration": "Une rapière se glisse entre les deux lames. Keplertagnan salue, d'un geste qui dessine… une forme allongée.",
+    "bulles": [
+     {
+      "combattant": "keplertagnan",
+      "texte": "Pardon, maître, mais vos deux cercles sont faux. En 1609, avec les mesures de Tycho Brahe sur Mars, j'ai montré que les planètes tournent sur des ellipses, le Soleil sur l'un des foyers."
+     },
+     {
+      "combattant": "copernisabre",
+      "texte": "Mon propre élève me corrige devant le Minotaure. Magnifique."
+     }
+    ]
+   },
+   {
+    "lieu": "L'Académie céleste",
+    "narration": "Bruit de pas lourds. Galilégionnaire arrive de Mendéléia, une longue-vue sous le bras.",
+    "bulles": [
+     {
+      "combattant": "galilegionnaire",
+      "texte": "J'ai monté la garde avec ça. En janvier 1610, j'ai vu quatre lunes tourner autour de Jupiter. Preuve que tout ne tourne pas autour de la Terre !"
+     },
+     {
+      "combattant": "ptoleminotaure",
+      "texte": "Quatre lunes ? Jupiter fait le malin."
+     }
+    ]
+   },
+   {
+    "lieu": "L'Académie céleste",
+    "narration": "Galilégionnaire tend la longue-vue vers Vénus, qui brille dans le ciel du matin.",
+    "bulles": [
+     {
+      "combattant": "galilegionnaire",
+      "texte": "Et Vénus a des phases, comme la Lune : croissant, quartier, pleine. Ça n'a de sens que si elle tourne autour du Soleil."
+     },
+     {
+      "combattant": "keplertagnan",
+      "texte": "Sur une ellipse. Je tiens à le préciser."
+     }
+    ]
+   },
+   {
+    "lieu": "L'Académie céleste",
+    "narration": "Ptoléminotaure regarde longtemps dans la longue-vue. Puis il quitte la dalle dorée sans un mot de plus.",
+    "bulles": [
+     {
+      "combattant": "ptoleminotaure",
+      "texte": "Soit. Je vous laisse le centre. Mais n'oubliez pas qui a mis le ciel en équations pendant quatorze siècles."
+     },
+     {
+      "combattant": "copernisabre",
+      "texte": "Jamais. D'ailleurs, ton rouleau ira à la bibliothèque. Bien rangé. Au centre."
+     }
+    ]
+   }
+  ],
+  "faits": [
+   {
+    "texte": "Le système de Ptolémée, exposé vers l'an 150 dans l'Almageste, place la Terre immobile au centre de l'Univers et explique le mouvement des planètes par des épicycles.",
+    "source": "https://www.britannica.com/science/Ptolemaic-system"
+   },
+   {
+    "texte": "Le modèle géocentrique de Ptolémée a dominé pendant environ 1 400 ans.",
+    "source": "https://mathshistory.st-andrews.ac.uk/Biographies/Ptolemy/"
+   },
+   {
+    "texte": "De revolutionibus orbium coelestium, le livre de Copernic qui place le Soleil au centre, a été imprimé à Nuremberg en 1543, l'année de sa mort.",
+    "source": "https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium"
+   },
+   {
+    "texte": "Grâce aux mesures de Tycho Brahe, Kepler a montré que Mars suit une ellipse ; il l'a publié en 1609 dans Astronomia nova, avec ses deux premières lois.",
+    "source": "https://www.britannica.com/biography/Johannes-Kepler/Astronomical-work"
+   },
+   {
+    "texte": "En janvier 1610, Galilée découvre quatre lunes autour de Jupiter ; il observe ensuite les phases de Vénus, qui montrent qu'elle tourne autour du Soleil.",
+    "source": "https://www.britannica.com/biography/Galileo-Galilei/Telescopic-discoveries"
+   }
+  ],
+  "quiz": [
+   {
+    "enonce": "En quelle année paraît le livre de Copernic qui place le Soleil au centre ?",
+    "bonne": "1543",
+    "faux": [
+     "1492",
+     "1610",
+     "1687"
+    ],
+    "explication": "« De revolutionibus orbium coelestium » a été imprimé à Nuremberg l'année même de la mort de son auteur, face au modèle de Ptolémée.",
+    "source": "https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium"
+   },
+   {
+    "enonce": "Quelle forme Kepler a-t-il donnée aux orbites des planètes ?",
+    "bonne": "Une ellipse",
+    "faux": [
+     "Un cercle parfait",
+     "Une spirale",
+     "Des cercles posés sur des cercles"
+    ],
+    "explication": "Il l'a établi pour Mars à partir des mesures très précises de Tycho Brahe et l'a publié en 1609 ; le Soleil occupe l'un des deux foyers.",
+    "source": "https://www.britannica.com/biography/Johannes-Kepler/Astronomical-work"
+   },
+   {
+    "enonce": "Qu'a découvert Galilée autour de Jupiter en janvier 1610 ?",
+    "bonne": "Quatre lunes",
+    "faux": [
+     "Des anneaux",
+     "Une grande tache rouge",
+     "Une comète"
+    ],
+    "explication": "Il les décrit dans Sidereus Nuncius : un astre autre que la Terre pouvait donc être un centre de mouvement. Les phases de Vénus ont suivi.",
+    "source": "https://www.britannica.com/biography/Galileo-Galilei/Telescopic-discoveries"
+   }
+  ]
+ }
+]

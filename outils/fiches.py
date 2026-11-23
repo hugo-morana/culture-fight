@@ -11,6 +11,7 @@ import os
 import sys
 
 from ajouts_corps_terre_arts import AJOUTS as AJOUTS_CORPS_TERRE_ARTS
+from ajouts_aventures import AJOUTS as AJOUTS_AVENTURES
 from ajouts_vivant import AJOUTS as AJOUTS_VIVANT
 from contextes import CONTEXTES
 from sources import FICHES_ANTERIEURES
@@ -752,7 +753,8 @@ def fusionner_ajouts():
     for vague in (vague2, vague3, vague4, vague5, vague6, vague7, vague8, vague9, vague10, vague11, vague12, vague13, vague14, vague15, vague16):
         for module in vague.modules():
             FICHES.append(module.FICHE)
-    for ajouts in (AJOUTS_VIVANT, AJOUTS_CORPS_TERRE_ARTS):
+    par_id = {f["id"]: f for f in FICHES}  # les fiches des vagues peuvent aussi recevoir des ajouts
+    for ajouts in (AJOUTS_VIVANT, AJOUTS_CORPS_TERRE_ARTS, AJOUTS_AVENTURES):
         for id_fiche, contenu in ajouts.items():
             if id_fiche not in par_id:
                 par_id[id_fiche] = {"id": id_fiche, "relations": [], "questions": []}

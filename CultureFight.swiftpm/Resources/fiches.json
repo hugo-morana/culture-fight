@@ -115513,6 +115513,17 @@
     ],
     "explication": "Ses travaux ont ouvert la voie aux écrans à cristaux liquides.",
     "source": "https://www.universite-paris-saclay.fr/pierre-gilles-de-gennes"
+   },
+   {
+    "enonce": "Quelle observation de Galilée montre que Vénus tourne autour du Soleil ?",
+    "bonne": "Ses phases, comme celles de la Lune",
+    "faux": [
+     "Ses anneaux",
+     "Ses quatre lunes",
+     "Sa grande tache rouge"
+    ],
+    "explication": "Vénus passe du fin croissant au disque plein en rapetissant à l'œil, ce que le modèle de Ptolémée ne permet pas.",
+    "source": "https://www.cabinet.ox.ac.uk/node/6093"
    }
   ]
  },
@@ -174714,6 +174725,17 @@
     ],
     "explication": "Sédillot en a donné une traduction française complète en 1839.",
     "source": "https://fr.wikipedia.org/wiki/Tables_sultaniennes"
+   },
+   {
+    "enonce": "Pendant combien de temps environ le système de Ptolémée, avec la Terre au centre, a-t-il dominé ?",
+    "bonne": "Environ 1 400 ans",
+    "faux": [
+     "Environ 140 ans",
+     "Environ 400 ans",
+     "Environ 3 000 ans"
+    ],
+    "explication": "Exposé dans l'Almageste vers l'an 150, il n'a été remplacé qu'après le livre de Copernic, paru en 1543.",
+    "source": "https://mathshistory.st-andrews.ac.uk/Biographies/Ptolemy/"
    }
   ]
  },
@@ -180343,6 +180365,17 @@
     ],
     "explication": "Tycho avait publié cet ouvrage sur ses instruments en 1598.",
     "source": "https://www.worldhistory.org/trans/fr/1-19615/tycho-brahe/"
+   },
+   {
+    "enonce": "Dans quelle ville a été imprimé « De revolutionibus », le grand livre de Copernic ?",
+    "bonne": "Nuremberg",
+    "faux": [
+     "Cracovie",
+     "Rome",
+     "Venise"
+    ],
+    "explication": "L'imprimeur Johannes Petreius l'a publié en 1543, l'année de la mort de l'astronome ; l'ouvrage compte environ 400 pages.",
+    "source": "https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium"
    }
   ]
  },
@@ -194322,6 +194355,17 @@
     ],
     "explication": "Une sonde hors d'usage pourrait sinon s'écraser sur cette lune et y semer des microbes terrestres.",
     "source": "https://www.nationalgeographic.com/science/article/nasa-juno-jupiter-fun-facts-planets-moons-lego-galileo-space"
+   },
+   {
+    "enonce": "Comment la masse de Jupiter se compare-t-elle à celle de toutes les autres planètes réunies ?",
+    "bonne": "Plus du double",
+    "faux": [
+     "La moitié",
+     "À peu près autant",
+     "Cent fois plus"
+    ],
+    "explication": "Elle a pris l'essentiel de la matière restée après la naissance du Soleil, sans devenir assez lourde pour s'allumer comme une étoile.",
+    "source": "https://science.nasa.gov/jupiter/facts/"
    }
   ]
  },
@@ -198128,6 +198172,17 @@
     ],
     "explication": "Elle a été prise à des milliers de kilomètres au-delà de la Lune.",
     "source": "https://en.wikipedia.org/wiki/Timeline_of_first_images_of_Earth_from_space"
+   },
+   {
+    "enonce": "Quelle part de la surface de la Terre l'océan couvre-t-il ?",
+    "bonne": "Environ 71 %",
+    "faux": [
+     "Environ 50 %",
+     "Environ 90 %",
+     "Environ 30 %"
+    ],
+    "explication": "Profond en moyenne de 3,6 km, l'océan mondial contient 97 % de l'eau de la planète et cache presque tous ses volcans.",
+    "source": "https://science.nasa.gov/earth/facts/"
    }
   ]
  },
@@ -323352,6 +323407,28 @@
     ],
     "explication": "Ils l'ont trouvé en remarquant que l'azote tiré de l'air était un peu trop lourd.",
     "source": "https://en.wikipedia.org/wiki/Timeline_of_chemical_element_discoveries"
+   },
+   {
+    "enonce": "Par où le radon entre-t-il surtout dans les maisons ?",
+    "bonne": "Par les sous-sols",
+    "faux": [
+     "Par les cheminées",
+     "Par les fenêtres",
+     "Par la toiture"
+    ],
+    "explication": "Né de l'uranium et du radium de roches comme le granite, ce gaz radioactif plus lourd que l'air remonte à travers le sol.",
+    "source": "https://www.britannica.com/science/radon"
+   },
+   {
+    "enonce": "Quels chimistes ont isolé le néon, le krypton et le xénon en 1898 ?",
+    "bonne": "William Ramsay et Morris Travers",
+    "faux": [
+     "Marie et Pierre Curie",
+     "Lavoisier et Berthollet",
+     "Rayleigh et Cavendish"
+    ],
+    "explication": "Au University College de Londres, ils les ont séparés en refroidissant de l'argon et de l'air jusqu'à les liquéfier.",
+    "source": "https://www.chem.ucl.ac.uk/resources/history/chemhistucl/hist15.html"
    }
   ]
  },
