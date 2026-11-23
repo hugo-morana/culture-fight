@@ -16,8 +16,9 @@ struct CombatView: View {
     /// Compteur par camp : le combattant actif prend son élan quand il pose sa question.
     @State private var elans = [0, 0]
     @Environment(\.accessibilityReduceMotion) private var mouvementReduit
-    /// Pile ou face d'ouverture, affiché avant la première question.
-    @State private var pileOuFace = true
+    /// Présentation des deux équipes avec le « VS », puis pile ou face, avant la première question.
+    @State private var presentation = true
+    @State private var pileOuFace = false
 
     /// Identité de ce qui est affiché au centre : change à chaque question, résultat ou fin.
     private var clePhase: String {
@@ -85,7 +86,25 @@ struct CombatView: View {
                     .transition(.opacity.combined(with: .scale(scale: 1.1)))
             }
         }
+        .overlay {
+            if presentation {
+                PresentationEquipesView(joueur: controleur.combat.camps[0], adversaire: controleur.combat.camps[1],
+                                        reduit: mouvementReduit)
+                    .contentShape(Rectangle())
+                    .onTapGesture { withAnimation(.easeOut(duration: 0.3)) { presentation = false } }
+                    .transition(.opacity.combined(with: .scale(scale: 0.96)))
+            }
+        }
         .task {
+            // Présentation des équipes (un toucher la passe), puis pile ou face, puis la première question.
+            let fin = Date().addingTimeInterval(PresentationEquipesView.duree(reduit: mouvementReduit))
+            while presentation && Date() < fin {
+                try? await Task.sleep(for: .seconds(0.1))
+            }
+            withAnimation(.easeOut(duration: 0.35)) {
+                presentation = false
+                pileOuFace = true
+            }
             try? await Task.sleep(for: .seconds(mouvementReduit ? 1.6 : 2.8))
             withAnimation(.easeOut(duration: 0.35)) { pileOuFace = false }
             controleur.demarrer()
