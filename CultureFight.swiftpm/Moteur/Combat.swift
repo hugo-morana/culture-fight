@@ -4,6 +4,17 @@ import Foundation
 enum Regles {
     static let tailleEquipe = 3
     static let tempsReponse: Double = 15
+    /// Chrono selon la longueur (retour bêta n° 14) : 15 s + 1 s par tranche de 40 caractères
+    /// (énoncé + choix), 25 s au plus, avant les bonus et malus de chrono.
+    static let tempsMaxLongueur: Double = 25
+    static func tempsDeBase(_ q: Question) -> Double {
+        let longueur = q.enonce.count + q.choix.reduce(0) { $0 + $1.count }
+        return min(tempsMaxLongueur, tempsReponse + Double(longueur / 40))
+    }
+    /// Temps de lecture : la question s'affiche seule de 1,5 à 2 s avant les choix et le chrono.
+    static func tempsLecture(_ q: Question) -> Double {
+        min(2, 1.5 + Double(q.enonce.count) / 200)
+    }
     static let tempsMin: Double = 5
     static let toursMax = 30
     static let degatsMin = 5
@@ -178,7 +189,8 @@ struct Combat: Sendable {
     /// Applique la réponse du défenseur (nil = temps écoulé) et passe au tour suivant.
     /// - Parameter secondes: temps mis pour répondre.
     mutating func resoudre(question: Question, affinite: Affinite, reponse: Int?, secondes: Double,
-                           reponseQuestionneur: Int? = nil, questionneurARepondu: Bool = false) -> ResultatTour {
+                           reponseQuestionneur: Int? = nil, questionneurARepondu: Bool = false,
+                           dureeBase: Double = Regles.tempsReponse) -> ResultatTour {
         // Le questionneur a répondu juste : +20 % de dégâts ; faux : −20 %. Sans effet si le défenseur esquive.
         let facteurQuestionneur: Double = questionneurARepondu
             ? (reponseQuestionneur == question.bonneReponse ? 1 + Regles.bonusQuestionneur : 1 - Regles.bonusQuestionneur)
@@ -187,7 +199,7 @@ struct Combat: Sendable {
         let ia = camps[a].indexActif, id = camps[d].indexActif
         let att = camps[a].actif, def = camps[d].actif
         let correct = reponse == question.bonneReponse
-        let vitesse = correct ? Vitesse(secondes: secondes) : .normale
+        let vitesse = correct ? Vitesse(secondes: secondes, dureeBase: dureeBase) : .normale
         let eclair = vitesse == .eclair
 
         var degatsDefenseur = 0

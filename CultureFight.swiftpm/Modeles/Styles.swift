@@ -70,9 +70,12 @@ enum FamilleStyle: String, Sendable {
 enum Vitesse: Sendable {
     case eclair, rapide, normale
 
-    init(secondes: Double) {
-        if secondes < Regles.seuilEclair { self = .eclair }
-        else if secondes < Regles.seuilRapide { self = .rapide }
+    /// Les seuils Éclair (3 s) et Rapide (7 s) suivent la durée du chrono : une question longue
+    /// laisse proportionnellement plus de temps (3 s sur 15 s, 5 s sur 25 s).
+    init(secondes: Double, dureeBase: Double = Regles.tempsReponse) {
+        let echelle = max(1, dureeBase / Regles.tempsReponse)
+        if secondes < Regles.seuilEclair * echelle { self = .eclair }
+        else if secondes < Regles.seuilRapide * echelle { self = .rapide }
         else { self = .normale }
     }
 

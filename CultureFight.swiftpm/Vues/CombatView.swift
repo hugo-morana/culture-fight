@@ -240,6 +240,7 @@ struct CombatView: View {
                             joueurAttaque: controleur.joueurAttaque,
                             reponseAttaque: controleur.reponseAttaque,
                             attaqueFinie: controleur.attaqueFinie,
+                            enLecture: controleur.enLecture,
                             repondre: { controleur.repondre($0) },
                             repondreAttaque: { controleur.repondreAttaque($0) },
                             passer: { controleur.passerAttaque() })
@@ -417,6 +418,8 @@ struct VueQuestion: View {
     var joueurAttaque = false
     var reponseAttaque: Int? = nil
     var attaqueFinie = false
+    /// Temps de lecture : la question est seule à l'écran, choix et chrono arrivent ensuite.
+    var enLecture = false
     let repondre: (Int) -> Void
     var repondreAttaque: (Int) -> Void = { _ in }
     var passer: () -> Void = {}
@@ -456,13 +459,20 @@ struct VueQuestion: View {
                     .animation(.snappy, value: secondes)
                     .frame(width: 26, alignment: .trailing)
             }
+            .opacity(enLecture ? 0.3 : 1)
             Text(question.enonce)
                 .font(.title3.bold())
                 .fixedSize(horizontal: false, vertical: true)
                 .scaleEffect(apparu ? 1 : 0.92, anchor: .leading)
                 .opacity(apparu ? 1 : 0)
                 .animation(.spring(duration: 0.4, bounce: 0.3), value: apparu)
-            if joueurAttaque && !attaqueFinie {
+            if enLecture {
+                Label("Lis bien la question…", systemImage: "eye.fill")
+                    .font(.subheadline)
+                    .foregroundStyle(Charte.ivoire.opacity(0.8))
+                    .transition(.opacity)
+            }
+            if joueurAttaque && !attaqueFinie && !enLecture {
                 Label("Réponds aussi, en secret : juste, +\(bonusTexte) de dégâts si l'adversaire se trompe ; faux, −\(bonusTexte). Passe si tu n'es pas sûr.",
                       systemImage: "person.fill.questionmark")
                     .font(.caption)
@@ -485,12 +495,13 @@ struct VueQuestion: View {
                 }
                 .buttonStyle(.bordered)
                 .tint(choisi ? Charte.or : nil)
-                .disabled(joueurAttaque ? attaqueFinie : (!joueurRepond || retire))
-                .opacity(apparu ? (retire ? 0.25 : (joueurAttaque && attaqueFinie && !choisi ? 0.5 : 1)) : 0)
-                .offset(y: apparu ? 0 : 24)
+                .disabled(enLecture || (joueurAttaque ? attaqueFinie : (!joueurRepond || retire)))
+                .opacity(apparu && !enLecture ? (retire ? 0.25 : (joueurAttaque && attaqueFinie && !choisi ? 0.5 : 1)) : 0)
+                .offset(y: apparu && !enLecture ? 0 : 24)
                 .animation(.spring(duration: 0.45, bounce: 0.35).delay(0.08 + Double(i) * 0.07), value: apparu)
+                .animation(.spring(duration: 0.45, bounce: 0.35).delay(Double(i) * 0.07), value: enLecture)
             }
-            if joueurAttaque && !attaqueFinie {
+            if joueurAttaque && !attaqueFinie && !enLecture {
                 Button(action: passer) {
                     Label("Passer", systemImage: "forward.fill")
                         .font(.subheadline.weight(.semibold))

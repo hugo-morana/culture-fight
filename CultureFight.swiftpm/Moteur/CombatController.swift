@@ -19,6 +19,9 @@ final class CombatController {
     private(set) var retires: Set<Int> = []
     private(set) var tempsTotal: Double = Regles.tempsReponse
     private(set) var tempsRestant: Double = Regles.tempsReponse
+    /// La question s'affiche seule quelques instants avant les choix et le chrono.
+    private(set) var enLecture = false
+    @ObservationIgnored private var dureeBase: Double = Regles.tempsReponse
     /// Compteur par camp, augmenté à chaque fois que ses PV changent (déclenche les animations).
     private(set) var impacts: [Int] = [0, 0]
     /// Dernière variation de PV de chaque camp : négative pour des dégâts, positive pour un soin.
@@ -100,7 +103,7 @@ final class CombatController {
 
     /// Réponse du joueur à sa propre question : une fois choisie, elle ne change plus.
     func repondreAttaque(_ index: Int) {
-        guard joueurAttaque, case .question = phase, !attaqueFinie else { return }
+        guard joueurAttaque, case .question = phase, !attaqueFinie, !enLecture else { return }
         reponseAttaque = index
         attaqueFinie = true
         ServiceSons.partage.jouer(.selection)
@@ -122,7 +125,7 @@ final class CombatController {
     }
 
     func repondre(_ index: Int) {
-        guard joueurRepond, case .question = phase, !retires.contains(index) else { return }
+        guard joueurRepond, case .question = phase, !retires.contains(index), !enLecture else { return }
         tache?.cancel()
         valider(index)
     }
@@ -239,7 +242,10 @@ final class CombatController {
         affinite = tirage.affinite
         retires = tirage.retires
         let bonusEquipement = combat.camps[combat.defenseur].actif.bonusTemps
-        tempsTotal = max(Regles.tempsMin, Regles.tempsReponse + tirage.affinite.bonusTemps + bonusEquipement - malusTemps)
+        dureeBase = Regles.tempsDeBase(tirage.question)
+        tempsTotal = max(Regles.tempsMin, dureeBase + tirage.affinite.bonusTemps + bonusEquipement - malusTemps)
+        let lecture = Regles.tempsLecture(tirage.question)
+        enLecture = true
         tempsRestant = tempsTotal
         reponseAttaque = nil
         attaqueFinie = false
@@ -256,14 +262,19 @@ final class CombatController {
             ? ia.repondre(question: tirage.question, affinite: tirage.affinite, retires: tirage.retires)
             : nil
         let delaiIA = min(ia.delaiReponse(), tempsTotal - 0.5)
-        let debut = Date()
-        debutQuestion = debut
+        debutQuestion = Date()
 
         tache = Task { [weak self] in
+            // Temps de lecture : ni choix ni chrono, ni réponse de l'IA.
+            try? await Task.sleep(for: .seconds(lecture))
+            guard let self, !Task.isCancelled else { return }
+            self.enLecture = false
+            let debut = Date()
+            self.debutQuestion = debut
             var dernierTic = secondesInitiales
             while !Task.isCancelled {
                 try? await Task.sleep(for: .milliseconds(100))
-                guard let self, !Task.isCancelled else { return }
+                guard !Task.isCancelled else { return }
                 let ecoule = Date().timeIntervalSince(debut)
                 self.tempsRestant = max(0, self.tempsTotal - ecoule)
                 // Tic du chrono sur les 5 dernières secondes, quand c'est le joueur qui répond.
@@ -302,7 +313,8 @@ final class CombatController {
         let aRepondu = reponseQ != nil
         let resultat = combat.resoudre(question: question, affinite: affinite,
                                        reponse: reponse, secondes: secondes,
-                                       reponseQuestionneur: reponseQ, questionneurARepondu: aRepondu)
+                                       reponseQuestionneur: reponseQ, questionneurARepondu: aRepondu,
+                                       dureeBase: dureeBase)
         if joueurAttaquait, resultat.questionneurCorrect == true {
             bonnesReponsesAttaqueParCombattant[attaquantID, default: 0] += 1
         }
