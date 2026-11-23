@@ -80,3 +80,40 @@ reprennent les sources trouvées dans `verification/faits.csv` ; leurs faits res
 1. Écrire les données (nouveau fichier JSON + générateur Swift), avec une source par entrée.
 2. Ajouter ses sources dans `outils/sources.py`.
 3. Lancer `python3 outils/fiches.py` puis `python3 outils/verifier.py`.
+
+## Aventures de Culturia (`aventures.json`)
+
+Petites histoires entre les habitants de Culturia (idée n° 13, tâches 147 à 150). Chaque aventure a un objectif
+d'apprentissage et s'écrit avec la bible (`aventures/bible-culturia.md`, générée par `outils/bible.py`).
+
+```json
+{
+  "id": "chaine-des-planetes",
+  "titre": "La course des huit planètes",
+  "type": "chaine",
+  "objectif": "Retenir l'ordre des planètes du Soleil à Neptune",
+  "pays": "cosmie",
+  "lieu": "Le Belvédère des Orbites",
+  "ordre": 1,
+  "combattants": ["mercurion", "venus-de-mille-lames"],
+  "deblocage": {"victoires": 5},
+  "cases": [
+    {"lieu": "Le Belvédère des Orbites", "narration": "…", "bulles": [{"combattant": "mercurion", "texte": "…"}]}
+  ],
+  "faits": [{"texte": "…", "source": "https://…"}],
+  "quiz": [
+    {"enonce": "…", "bonne": "…", "faux": ["…", "…", "…"], "explication": "…", "source": "https://…"}
+  ]
+}
+```
+
+- `type` : `chaine` (chaîne mémotechnique d'un combattant à l'autre), `palais` (palais mental : un lieu visité pièce
+  par pièce) ou `points` (points culturels glissés dans le récit).
+- `pays` et `lieu` viennent de `monde.json` ; chaque case peut changer de `lieu`, toujours un lieu de la carte.
+- `combattants` : au moins 2 habitants du catalogue ; chaque bulle est dite par l'un d'eux.
+- `ordre` : place de l'aventure dans la chronologie de Culturia, unique (la bible la reprend).
+- `deblocage.victoires` : nombre de victoires qui débloque le chapitre (1 ou plus).
+- `faits` : au moins 1 fait réel par aventure, chacun avec une source https.
+- `quiz` : exactement 3 questions de fin, au format des questions de fiche (3 mauvaises réponses différentes,
+  source https, explication qui apporte un fait de plus que la question).
+- `outils/verifier.py` contrôle tout cela ; le fichier peut rester vide (`[]`) tant qu'aucune aventure n'est prête.

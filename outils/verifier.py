@@ -380,6 +380,74 @@ def controler_explications(fiches):
     return len(lignes), courtes40, repetees
 
 
+AVENTURES_TYPES = {"chaine", "palais", "points"}
+
+
+def verifier_aventures():
+    """Aventures de Culturia (tâche 148) : combattants, lieux, sources, quiz et chronologie."""
+    try:
+        aventures = charger("aventures.json")
+    except FileNotFoundError:
+        return 0
+    if not isinstance(aventures, list):
+        erreur("aventures", "aventures.json doit être une liste")
+        return 0
+    monde = charger("monde.json")
+    lieux = {p.get("id"): {l.get("nom") for l in p.get("lieux", [])} for p in monde.get("pays", [])}
+    tous_lieux = set().union(*lieux.values()) if lieux else set()
+    ids = set(ids_du_catalogue())
+    doublons("aventures", "identifiant d'aventure", [a.get("id") for a in aventures])
+    doublons("aventures", "ordre dans la chronologie", [a.get("ordre") for a in aventures])
+    for a in aventures:
+        jeu = f"aventure « {a.get('id', '?')} »"
+        champs("aventures", jeu, a, {"id": str, "titre": str, "type": str, "objectif": str, "pays": str, "lieu": str,
+                                     "ordre": int, "combattants": list, "deblocage": dict, "cases": list,
+                                     "faits": list, "quiz": list})
+        if a.get("type") not in AVENTURES_TYPES:
+            erreur("aventures", f"{jeu} : type « {a.get('type')} » inconnu (chaine, palais ou points)")
+        if a.get("pays") not in lieux:
+            erreur("aventures", f"{jeu} : pays inconnu « {a.get('pays')} »")
+        elif a.get("lieu") not in lieux[a.get("pays")]:
+            erreur("aventures", f"{jeu} : lieu « {a.get('lieu')} » absent du pays « {a.get('pays')} »")
+        membres = a.get("combattants", [])
+        if len(set(membres)) < 2:
+            erreur("aventures", f"{jeu} : il faut au moins 2 combattants")
+        for c in membres:
+            if c not in ids:
+                erreur("aventures", f"{jeu} : combattant « {c} » absent du catalogue")
+        if not isinstance(a.get("deblocage", {}).get("victoires"), int) or a.get("deblocage", {}).get("victoires", 0) < 1:
+            erreur("aventures", f"{jeu} : deblocage.victoires doit être un entier d'au moins 1")
+        if not a.get("cases"):
+            erreur("aventures", f"{jeu} : aucune case")
+        for n, case in enumerate(a.get("cases", [])):
+            if case.get("lieu") is not None and case.get("lieu") not in tous_lieux:
+                erreur("aventures", f"{jeu}, case {n + 1} : lieu « {case.get('lieu')} » absent de la carte")
+            for b in case.get("bulles", []):
+                if b.get("combattant") not in membres:
+                    erreur("aventures", f"{jeu}, case {n + 1} : bulle de « {b.get('combattant')} », absent de l'aventure")
+                if not str(b.get("texte", "")).strip():
+                    erreur("aventures", f"{jeu}, case {n + 1} : bulle vide")
+        if not a.get("faits"):
+            erreur("aventures", f"{jeu} : au moins un fait sourcé est attendu")
+        for fait in a.get("faits", []):
+            if not str(fait.get("texte", "")).strip() or not str(fait.get("source", "")).startswith("https://"):
+                erreur("aventures", f"{jeu} : fait sans texte ou sans source https")
+        quiz = a.get("quiz", [])
+        if len(quiz) != 3:
+            erreur("aventures", f"{jeu} : il faut exactement 3 questions de fin ({len(quiz)} trouvées)")
+        for qq in quiz:
+            ou = f"{jeu}, question « {str(qq.get('enonce', '?'))[:40]} »"
+            champs("aventures", ou, qq, {"enonce": str, "bonne": str, "faux": list, "explication": str, "source": str})
+            faux = {normaliser(t) for t in qq.get("faux", [])}
+            if len(faux) < 3 or normaliser(qq.get("bonne", "")) in faux:
+                erreur("aventures", f"{ou} : 3 mauvaises réponses différentes de la bonne sont attendues")
+            if not str(qq.get("source", "")).startswith("https://"):
+                erreur("aventures", f"{ou} : source https attendue")
+            if len(qq.get("explication", "")) < EXPLICATION_MIN:
+                erreur("aventures", f"{ou} : explication trop courte (règle des explications)")
+    return len(aventures)
+
+
 if __name__ == "__main__":
     n_elements = verifier_elements()
     n_pays = verifier_pays()
@@ -390,6 +458,7 @@ if __name__ == "__main__":
     n_accroches = verifier_accroches()
     n_notes = verifier_profils()
     n_expl, n_expl40, n_expl_rep = controler_explications(fiches)
+    n_aventures = verifier_aventures()
     print(f"elements.json      {n_elements} éléments")
     print(f"pays_afrique.json  {n_pays} pays")
     print(f"fiches.json        {len(fiches)} fiches, {n_questions} questions")
@@ -397,6 +466,7 @@ if __name__ == "__main__":
     print(f"monde.json         {n_pays_monde} pays ; histoires.json {n_histoires} histoires pour {n_combattants} combattants")
     print(f"accroches.json     {n_accroches} accroches")
     print(f"profils.json       {n_notes} notes de difficulté")
+    print(f"aventures.json     {n_aventures} aventures")
     print(f"explications       {n_expl} à enrichir ({n_expl40} de moins de 40 caractères, {n_expl_rep} qui répètent l'énoncé) :"
           " verification/explications_a_enrichir.csv")
     if erreurs:
