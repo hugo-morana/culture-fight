@@ -128,11 +128,11 @@ struct ContentView: View {
                         prochainCoffre: Gains.prochainCoffre(apres: joueur.dernierCoffre),
                         ouvrirCoffre: { Sauvegarde.ouvrirCoffre(joueur, dans: contexte) },
                         combattre: { ecran = .selection },
-                        entrainement: { choixEntrainement = true },
                         collection: { ecran = .collection },
                         boutique: { ecran = .boutique },
                         profil: { ecran = .profil },
                         carte: { ecran = .carte },
+                        entrainement: { choixEntrainement = true },
                         remettreAZero: {
                             self.joueur = Sauvegarde.remettreAZero(dans: contexte)
                             paquetDepartOuvert = false
