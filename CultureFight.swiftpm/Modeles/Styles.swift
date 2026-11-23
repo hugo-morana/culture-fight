@@ -4,6 +4,8 @@ import Foundation
 enum EffetVitesse: Sendable {
     /// Riposte : la prochaine attaque du combattant fait plus de dégâts.
     case riposte
+    /// Contre (Arts martiaux) : le combattant frappe tout de suite celui qui a posé la question.
+    case contre
     /// Le combattant regagne des PV.
     case soin
     /// La prochaine erreur du combattant coûte moins de PV.
@@ -16,6 +18,7 @@ enum EffetVitesse: Sendable {
     var nom: String {
         switch self {
         case .riposte: return "Riposte"
+        case .contre: return "Contre"
         case .soin: return "Soin"
         case .bouclier: return "Bouclier"
         case .savoir: return "Inspiration"
@@ -27,6 +30,9 @@ enum EffetVitesse: Sendable {
     var description: String {
         switch self {
         case .riposte: return "sa prochaine attaque fait +50 % (Éclair) ou +25 % (Rapide) de dégâts"
+        case .contre:
+            let c = ProfilStats.contrePart(eclair: true), r = ProfilStats.contrePart(eclair: false)
+            return "frappe tout de suite celui qui a posé la question : \(Int((c * 100).rounded())) % (Éclair) ou \(Int((r * 100).rounded())) % (Rapide) des dégâts d'une attaque"
         case .soin: return "regagne 15 PV (Éclair) ou 8 PV (Rapide)"
         case .bouclier: return "sa prochaine erreur coûte 20 % (Éclair) ou 10 % (Rapide) de PV en moins"
         case .savoir: return "jauge d'Inspiration +2 cases (Éclair) ou +1 case (Rapide) en plus"
@@ -50,7 +56,8 @@ enum FamilleStyle: String, Sendable {
 
     var effetVitesse: EffetVitesse {
         switch self {
-        case .guerriersLourds, .artsMartiaux, .tireurs: return .riposte
+        case .guerriersLourds, .tireurs: return .riposte
+        case .artsMartiaux: return .contre
         case .creatures, .mortsVivants: return .soin
         case .chevaliers, .soldats: return .bouclier
         case .mages: return .savoir

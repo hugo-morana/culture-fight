@@ -484,6 +484,9 @@ struct VueResultat: View {
     private var bonPourJoueur: Bool { resultat.correct == joueurDefend }
 
     private var titre: String {
+        if resultat.correct && resultat.degatsContre > 0 {
+            return joueurDefend ? "Esquive et Contre !" : "L'adversaire esquive et contre !"
+        }
         if resultat.correct { return joueurDefend ? "Esquive !" : "L'adversaire a trouvé : esquive" }
         if resultat.reponse == nil { return joueurDefend ? "Temps écoulé : touché !" : "Temps écoulé : touché !" }
         return joueurDefend ? "Touché !" : "L'adversaire s'est trompé : touché !"
@@ -550,7 +553,9 @@ struct VueResultat: View {
 
             VStack(alignment: .leading, spacing: 8) {
                 if resultat.correct {
-                    ligne("\(resultat.defenseurNom) esquive : personne ne perd de PV", "figure.run")
+                    ligne(resultat.degatsContre > 0
+                          ? "\(resultat.defenseurNom) esquive et contre \(resultat.attaquantNom)"
+                          : "\(resultat.defenseurNom) esquive : personne ne perd de PV", "figure.run")
                     if let effet = resultat.effetVitesse {
                         ligne(effet, "bolt.horizontal.fill")
                     } else if let r = resultat.riposteGagnee {

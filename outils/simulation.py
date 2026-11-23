@@ -4,7 +4,7 @@
 Le budget de stats dépend de la rareté et de la note de la spécialité (Facile, Moyenne, Pointue) ;
 la famille de styles le répartit entre Attaque, Défense et PV (Haute +20 %, Moyenne, Basse −20 %).
 Combats 3 contre 3 selon les règles de Combat.swift : seul l'attaquant fait mal (une bonne réponse
-est une esquive totale), jauge d'Inspiration, effets de vitesse des familles (dont la Riposte), bonus des Chevaliers (bouclier après un K.O.) et des Créatures
+est une esquive totale), jauge d'Inspiration, effets de vitesse des familles (dont la Riposte et le Contre des Arts martiaux), bonus des Chevaliers (bouclier après un K.O.) et des Créatures
 (secondes retirées sur leur première question), synergie, questionneur qui répond aussi (±20 %).
 Hypothèses : l'adversaire répond juste à 80 % (Facile), 65 % (Moyenne) ou 50 % (Pointue) en difficulté 1,
 8 points de moins par niveau ; difficulté tirée de 1 à 3 ; le questionneur connaît sa propre question
@@ -17,7 +17,7 @@ import json, math, os, random
 ICI = os.path.dirname(os.path.abspath(__file__))
 PROFILS = os.path.join(ICI, "..", "CultureFight.swiftpm", "Resources", "profils.json")
 REUSSITE = {"Facile": 0.80, "Moyenne": 0.65, "Pointue": 0.50}
-EFFET = {"Guerriers lourds": "riposte", "Arts martiaux": "riposte", "Tireurs": "riposte", "Créatures": "soin",
+EFFET = {"Guerriers lourds": "riposte", "Arts martiaux": "contre", "Tireurs": "riposte", "Créatures": "soin",
          "Morts-vivants": "soin", "Chevaliers": "bouclier", "Soldats": "bouclier", "Mages": "savoir",
          "Ombres": "pression", "Bretteurs": "pression"}
 FAMILLES = list(EFFET)
@@ -83,6 +83,14 @@ def combat(A, B, p):
             if v != "normale":
                 e = v == "eclair"; eff = EFFET[de["fam"]]
                 if eff == "riposte": de["rip"] = max(de["rip"], 1 + p["riposte"][0 if e else 1] * kd)
+                elif eff == "contre":
+                    # Contre des Arts martiaux : coup immédiat sur le questionneur (25 % ou 12 % d'une attaque,
+                    # +20 % de bonus de famille). Sans synergie et sans K.O. (il laisse au moins 1 PV) : avec,
+                    # une équipe de 3 Arts martiaux gagnait 57 à 63 % (simulation du 23/11).
+                    part = p["contre"][0 if e else 1] * (1 + p["bonusFamilleContre"])
+                    y = max(1, round(degats(de["attaque"], at["defense"], diff) * part))
+                    if at["abs"] > 0: z = min(at["abs"], y); at["abs"] -= z; y -= z
+                    at["pv"] = max(min(at["pv"], 1), at["pv"] - y)
                 elif eff == "soin": de["pv"] = min(de["pvmax"], de["pv"] + round((15 if e else 8) * kd))
                 elif eff == "bouclier": de["bou"] = max(de["bou"], p.get("bouclierVitesse", [0.3, 0.15])[0 if e else 1] * kd)
                 elif eff == "savoir": cases = int((2 if e else 1) * kd)  # arrondi vers le bas

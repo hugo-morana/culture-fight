@@ -58,6 +58,10 @@ enum ProfilStats {
         let secondesCreatures: Double
         /// Riposte : bonus de la prochaine attaque après une bonne réponse Éclair, puis Rapide.
         let riposte: [Double]?
+        /// Contre des Arts martiaux : part des dégâts d'une attaque infligée tout de suite au questionneur, Éclair puis Rapide.
+        let contre: [Double]?
+        /// Bonus de famille des Arts martiaux sur le Contre (+20 %).
+        let bonusFamilleContre: Double?
         /// Bouclier de vitesse : part des dégâts de la prochaine erreur retirée, Éclair puis Rapide.
         let bouclierVitesse: [Double]?
         /// Attaque, Défense, PV.
@@ -81,6 +85,18 @@ enum ProfilStats {
     static var riposte: (eclair: Double, rapide: Double) {
         let r = fichier?.riposte ?? [0.5, 0.25]
         return (r.first ?? 0.5, r.count > 1 ? r[1] : 0.25)
+    }
+
+    static var contre: (eclair: Double, rapide: Double) {
+        let c = fichier?.contre ?? [0.25, 0.12]
+        return (c.first ?? 0.25, c.count > 1 ? c[1] : 0.12)
+    }
+
+    static var bonusFamilleContre: Double { fichier?.bonusFamilleContre ?? 0.2 }
+
+    /// Part des dégâts d'une attaque du Contre, bonus de famille compris, avant la synergie (30 % ou 14 %).
+    static func contrePart(eclair: Bool) -> Double {
+        (eclair ? contre.eclair : contre.rapide) * (1 + bonusFamilleContre)
     }
 
     static var bouclierVitesse: (eclair: Double, rapide: Double) {

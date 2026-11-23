@@ -46,7 +46,8 @@ struct ResultatTour: Sendable {
     let degatsDefenseur: Int
     /// Part des dégâts absorbée par un bouclier.
     let degatsAbsorbes: Int
-    /// Toujours 0 depuis la règle « seul l'attaquant fait mal » (gardé pour la revue des anciennes parties).
+    /// PV perdus par le questionneur sur un Contre des Arts martiaux (bonne réponse rapide), 0 sinon.
+    /// Seule exception à la règle « seul l'attaquant fait mal ».
     let degatsContre: Int
     let capaciteUtilisee: Bool
     let jaugeRemplie: Bool
@@ -180,7 +181,7 @@ struct Combat: Sendable {
 
         var degatsDefenseur = 0
         var degatsAbsorbes = 0
-        let degatsContre = 0
+        var degatsContre = 0
         var degatsSansQuestionneur = 0
         var riposteUtilisee = false
         var capaciteUtilisee = false
@@ -204,6 +205,19 @@ struct Combat: Sendable {
                     let r = ProfilStats.riposte
                     riposteGagnee = 1 + (eclair ? r.eclair : r.rapide) * k
                     effetVitesse = "\(vitesse.nom) Riposte : la prochaine attaque de \(def.nom) fera +\(Int(((riposteGagnee - 1) * 100).rounded())) %\(mention)"
+                case .contre:
+                    // Contre (validé le 23/11) : 25 % (Éclair) ou 12 % (Rapide) des dégâts d'une attaque du défenseur,
+                    // +20 % de bonus de famille. Ni synergie ni K.O. (le questionneur garde au moins 1 PV) :
+                    // sinon une équipe de 3 Arts martiaux gagnait 57 à 63 % (outils/simulation.py).
+                    let part = ProfilStats.contrePart(eclair: eclair)
+                    let attaque = Regles.degats(attaque: def.attaque, difficulte: question.difficulte, defense: att.defense)
+                    var coup = max(1, Int((Double(attaque) * part).rounded()))
+                    coup = camps[a].combattants[ia].absorber(coup)
+                    let pvAvant = camps[a].combattants[ia].pv
+                    coup = min(coup, max(0, pvAvant - 1))
+                    degatsContre = coup
+                    camps[a].combattants[ia].pv -= coup
+                    effetVitesse = coup > 0 ? "\(vitesse.nom) Contre : \(att.nom) perd \(coup) PV" : nil
                 case .soin:
                     let soin = Int((Double(eclair ? 15 : 8) * k).rounded())
                     let avant = camps[d].combattants[id].pv

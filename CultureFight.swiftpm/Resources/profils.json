@@ -1,5 +1,5 @@
 {
- "methode": "Stats selon le style et la spécialité, règle « seul l'attaquant fait mal » (23/11) : la note de la spécialité fixe le budget, la famille de styles le répartit (Attaque, Défense, PV). Attaque de base 60 pour 100 PV, combats d'environ 19 tours. Valeurs fixées par outils/simulation.py ; hypothèses dans l'en-tête du script.",
+ "methode": "Stats selon le style et la spécialité, règle « seul l'attaquant fait mal » (23/11) : la note de la spécialité fixe le budget, la famille de styles le répartit (Attaque, Défense, PV). Attaque de base 60 pour 100 PV, combats d'environ 19 tours. Contre des Arts martiaux (23/11) : 25 % ou 12 % d'une attaque, +20 % de bonus de famille, sans synergie ni K.O. Valeurs fixées par outils/simulation.py ; hypothèses dans l'en-tête du script.",
  "budgets": {
   "Commun": {
    "Facile": 294,
@@ -129,7 +129,7 @@
    },
    "Arts martiaux": {
     "variee": 51,
-    "seule": 55
+    "seule": 54
    },
    "Tireurs": {
     "variee": 48,
@@ -591,6 +591,11 @@
   0.5,
   0.25
  ],
+ "contre": [
+  0.25,
+  0.12
+ ],
+ "bonusFamilleContre": 0.2,
  "bouclierVitesse": [
   0.2,
   0.1

@@ -220,7 +220,10 @@ struct SelectionEquipeView: View {
         let familles = Dictionary(grouping: equipe, by: \.familleStyle)
         Group {
             if let synergie = Equipe.synergie(equipe) {
-                Label("Synergie \(synergie.rawValue) : bonus de vitesse \(synergie.effetVitesse.nom) ×\(Regles.texteSynergie)",
+                // Le Contre des Arts martiaux n'est pas multiplié par la synergie (outils/simulation.py).
+                Label(synergie.effetVitesse == .contre
+                      ? "Synergie \(synergie.rawValue) : 3 combattants qui contrent (le Contre reste à son niveau)"
+                      : "Synergie \(synergie.rawValue) : bonus de vitesse \(synergie.effetVitesse.nom) ×\(Regles.texteSynergie)",
                       systemImage: "sparkles")
                     .foregroundStyle(Charte.or)
                     .symbolEffect(.bounce, value: synergie.rawValue)

@@ -1,7 +1,7 @@
 # Culture Fight
 
 Jeu iPhone et iPad de combats de culture générale : chaque combattant pose des questions de sa spécialité,
-une mauvaise réponse coûte des PV, une bonne réponse déclenche une contre-attaque.
+une mauvaise réponse coûte des PV, une bonne réponse est une esquive (et un Contre pour les Arts martiaux).
 
 Ce dépôt contient le **prototype du combat** (phase 1 de la feuille de route) : combat à 3 contre 3
 contre une IA, avec la sauvegarde du joueur (Pièces, réserve, bilan), sans boutique pour l'instant.
