@@ -12,7 +12,7 @@ struct ProfilView: View {
 
     /// Les 10 domaines du game design, dans l'ordre du radar.
     static let domaines = ["Matière", "Univers", "Terre", "Vivant", "Corps humain",
-                           "Monde", "Histoire", "Arts", "Lettres et mythes", "Maths et techniques"]
+                           "Pays et cultures", "Histoire", "Arts", "Lettres et mythes", "Maths et techniques"]
     /// Objectif du catalogue complet (10 domaines × 100 combattants).
     static let objectifCatalogue = 1000
 
@@ -194,7 +194,7 @@ struct CarteRadarCulture: View {
                    "Animaux préhistoriques", "Arbres", "Fleurs et plantes", "Champignons et microbes", "Écologie"],
         "Corps humain": ["Squelette", "Muscles", "Organes", "Cerveau et nerfs", "Cœur et sang", "Les sens",
                          "Maladies et médecine", "Nutrition", "Génétique", "Grands médecins"],
-        "Monde": ["Capitales", "Drapeaux", "Monnaies", "Langues", "Grandes villes", "Populations",
+        "Pays et cultures": ["Capitales", "Drapeaux", "Monnaies", "Langues", "Grandes villes", "Populations",
                   "France : régions et départements", "Pays et frontières", "Gastronomie du monde", "Fêtes et traditions"],
         "Histoire": ["Préhistoire", "Égypte ancienne", "Grèce antique", "Rome antique", "Moyen Âge",
                      "Renaissance et grandes découvertes", "Ancien Régime", "Révolution et Empire", "XIXe siècle", "XXe siècle"],

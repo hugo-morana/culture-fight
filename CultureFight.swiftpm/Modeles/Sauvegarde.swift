@@ -164,7 +164,7 @@ enum Sauvegarde {
         for partie in parties where partie.joueur == nil {
             partie.joueur = joueur
         }
-        // Domaines renommés (« Savoirs » devient « Maths et techniques ») : l'historique suit le nouveau nom.
+        // Domaines renommés (« Savoirs » devient « Maths et techniques », « Monde » devient « Pays et cultures ») : l'historique suit le nouveau nom.
         for partie in parties where partie.reponses.contains(where: { Domaines.anciensNoms[$0.domaine] != nil }) {
             partie.reponses = partie.reponses.map { r in
                 var r = r

@@ -10,7 +10,7 @@ enum Pictos {
         case "Terre": return "🌍"
         case "Vivant": return "🌿"
         case "Corps humain": return "🫀"
-        case "Monde": return "🗺️"
+        case "Pays et cultures": return "🗺️"
         case "Histoire": return "🏛️"
         case "Arts": return "🎨"
         case "Lettres et mythes": return "📜"

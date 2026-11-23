@@ -29,7 +29,7 @@ enum Legendaires {
                    apparence: "Dragon végétal couvert de mousse et de fleurs, ailes de feuilles géantes, animaux de toutes sortes nichés sur son dos."),
         legendaire(id: "vitruvion", nom: "Vitruvion", style: "Colosse", familleStyle: .artsMartiaux, domaine: "Corps humain",
                    apparence: "Colosse à quatre bras inscrit dans un cercle et un carré d'or, os et muscles visibles comme une planche d'anatomie."),
-        legendaire(id: "mappemonarque", nom: "Mappemonarque", style: "Monarque", familleStyle: .soldats, domaine: "Monde",
+        legendaire(id: "mappemonarque", nom: "Mappemonarque", style: "Monarque", familleStyle: .soldats, domaine: "Pays et cultures",
                    apparence: "Monarque à la cape cousue de tous les drapeaux, globe terrestre en guise d'orbe, couronne en rose des vents."),
         legendaire(id: "chronarque", nom: "Chronarque", style: "Empereur", familleStyle: .guerriersLourds, domaine: "Histoire",
                    apparence: "Empereur du temps à l'armure faite de toutes les époques (hoplite, chevalier, grognard), sablier géant en guise de bouclier."),
