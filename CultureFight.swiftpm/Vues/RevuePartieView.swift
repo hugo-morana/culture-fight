@@ -240,6 +240,7 @@ struct CarteTourRevue: View {
     let tour: ResultatTour
 
     @State private var ouverte = false
+    @State private var pageOuverte: PageAOuvrir?
 
     private var appreciation: Appreciation { Appreciation(tour) }
 
@@ -292,11 +293,15 @@ struct CarteTourRevue: View {
                             .fixedSize(horizontal: false, vertical: true)
                             .padding(.top, 4)
                     }
+                    if let source = tour.question.source, let url = URL(string: source) {
+                        BoutonSource(url: url, ouverte: $pageOuverte)
+                    }
                 }
                 .padding(.leading, 36)
                 .transition(.opacity.combined(with: .move(edge: .top)))
             }
         }
+        .sheet(item: $pageOuverte) { page in PageWeb(url: page.url).ignoresSafeArea() }
         .padding(12)
         .background(Charte.marine.opacity(0.75), in: RoundedRectangle(cornerRadius: 14))
         .overlay(RoundedRectangle(cornerRadius: 14).stroke(appreciation.couleur.opacity(0.5), lineWidth: 1))
@@ -350,7 +355,7 @@ struct EntrainementView: View {
                         }
                     }
                     if choisie != nil {
-                        LeSavaisTu(texte: question.explication)
+                        LeSavaisTu(texte: question.explication, source: question.source)
                             .transition(.opacity)
                         Button(index + 1 < file.count ? "Suivante" : "Voir le score") { suivante() }
                             .font(.titre(18, relativeTo: .headline))

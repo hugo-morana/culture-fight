@@ -13,6 +13,7 @@ struct EtatEntrainement: Codable, Sendable {
         let bonneReponse: Int
         let explication: String
         let difficulte: Int
+        var source: String? = nil
         /// Boîte de Leitner : 1 (revient à la séance suivante), 2 (dans 2 séances), 3 (dans 4 séances).
         var boite: Int
         /// Numéro de la séance où elle revient.
@@ -75,7 +76,7 @@ enum Entrainement {
             .prefix(EtatEntrainement.questionsParSeance)
             .map { r in
                 Question(id: r.id, specialite: modele.specialite, enonce: r.enonce, choix: r.choix.shuffled(),
-                         bonneReponse: 0, difficulte: r.difficulte, explication: r.explication)
+                         bonneReponse: 0, difficulte: r.difficulte, explication: r.explication, source: r.source)
                     .avecBonneReponse(r.choix[r.bonneReponse])
             }
         var exclues = Set(e.sues).union(e.aRevoir.map(\.id))
@@ -113,7 +114,8 @@ enum Entrainement {
             e.sues.removeAll { $0 == question.id }
             e.aRevoir.append(.init(id: question.id, enonce: question.enonce, choix: question.choix,
                                    bonneReponse: question.bonneReponse, explication: question.explication,
-                                   difficulte: question.difficulte, boite: 1, prochaineSeance: e.seances + 1))
+                                   difficulte: question.difficulte, source: question.source,
+                                   boite: 1, prochaineSeance: e.seances + 1))
         }
         ecrire(e, dans: possede)
     }
@@ -148,6 +150,7 @@ extension Question {
     /// La même question, avec l'index de la bonne réponse retrouvé après mélange des choix.
     func avecBonneReponse(_ texte: String) -> Question {
         Question(id: id, specialite: specialite, enonce: enonce, choix: choix,
-                 bonneReponse: choix.firstIndex(of: texte) ?? 0, difficulte: difficulte, explication: explication)
+                 bonneReponse: choix.firstIndex(of: texte) ?? 0, difficulte: difficulte, explication: explication,
+                 source: source)
     }
 }

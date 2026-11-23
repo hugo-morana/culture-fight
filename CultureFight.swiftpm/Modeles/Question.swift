@@ -19,6 +19,8 @@ struct Question: Identifiable, Sendable {
     let difficulte: Int
     /// Une ligne de contexte affichée après la réponse.
     let explication: String
+    /// Page source du fait (« En savoir plus »), nil pour les questions générées sans source.
+    var source: String? = nil
 
     var texteBonneReponse: String { choix[bonneReponse] }
 }
@@ -31,7 +33,8 @@ extension Question {
                     bonne: String,
                     distracteurs: [String],
                     difficulte: Int,
-                    explication: String) -> Question {
+                    explication: String,
+                    source: String? = nil) -> Question {
         var autres: [String] = []
         for d in distracteurs where d != bonne && !autres.contains(d) {
             autres.append(d)
@@ -46,7 +49,8 @@ extension Question {
                         choix: choix,
                         bonneReponse: index,
                         difficulte: difficulte,
-                        explication: explication)
+                        explication: explication,
+                        source: source)
     }
 }
 

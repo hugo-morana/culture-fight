@@ -30,6 +30,7 @@ struct FicheSpecialite: Decodable, Sendable {
         let bonne: String
         let faux: [String]
         let explication: String
+        let source: String?
     }
 
     let id: String
@@ -61,7 +62,8 @@ struct GenerateurFiche: GenerateurQuestions {
                         bonne: q.bonne,
                         distracteurs: q.faux.shuffled(),
                         difficulte: difficulte,
-                        explication: q.explication)
+                        explication: q.explication,
+                        source: q.source)
         }
         reste -= fiche.questions.count
         for (r, relation) in fiche.relations.enumerated() {
@@ -85,6 +87,8 @@ struct GenerateurFiche: GenerateurQuestions {
     private func question(_ relation: FicheSpecialite.Relation, numero: Int, paire i: Int,
                           inverse: Bool, difficulte: Int) -> Question {
         let x = relation.paires[i][0], y = relation.paires[i][1]
+        // 4e élément de la paire : la page source du fait.
+        let source = relation.paires[i].count > 3 && relation.paires[i][3].hasPrefix("http") ? relation.paires[i][3] : nil
         var explication = relation.explication
             .replacingOccurrences(of: "{x}", with: x)
             .replacingOccurrences(of: "{y}", with: y)
@@ -101,7 +105,8 @@ struct GenerateurFiche: GenerateurQuestions {
                         bonne: x,
                         distracteurs: faux,
                         difficulte: difficulte,
-                        explication: explication)
+                        explication: explication,
+                        source: source)
         }
         let faux = relation.paires.map { $0[1] }.filter { !relation.recouvrent($0, y) }.shuffled()
         return .qcm(id: "\(fiche.id)-r\(numero)-\(i)",
@@ -110,6 +115,7 @@ struct GenerateurFiche: GenerateurQuestions {
                     bonne: y,
                     distracteurs: faux,
                     difficulte: difficulte,
-                    explication: explication)
+                    explication: explication,
+                    source: source)
     }
 }

@@ -642,7 +642,7 @@ struct VueResultat: View {
                 .animation(.spring(duration: 0.5, bounce: 0.5).delay(0.15), value: apparu)
             }
 
-            LeSavaisTu(texte: resultat.question.explication)
+            LeSavaisTu(texte: resultat.question.explication, source: resultat.question.source)
                 .opacity(apparu ? 1 : 0)
                 .offset(y: apparu ? 0 : 8)
                 .animation(.easeOut(duration: 0.35).delay(0.2), value: apparu)
@@ -1043,6 +1043,9 @@ struct PileOuFaceView: View {
 /// Encadré « Le savais-tu ? » sous les choix : l'explication de la question, mise à part (retour bêta n° 5).
 struct LeSavaisTu: View {
     let texte: String
+    /// Page source du fait : bouton « En savoir plus » qui l'ouvre dans un navigateur intégré.
+    var source: String? = nil
+    @State private var pageOuverte: PageAOuvrir?
 
     var body: some View {
         if !texte.isEmpty {
@@ -1054,12 +1057,32 @@ struct LeSavaisTu: View {
                     .font(.system(.body, design: .serif))
                     .foregroundStyle(Charte.ivoire)
                     .fixedSize(horizontal: false, vertical: true)
+                if let source, let url = URL(string: source) {
+                    BoutonSource(url: url, ouverte: $pageOuverte)
+                }
             }
             .padding(12)
             .frame(maxWidth: .infinity, alignment: .leading)
             .background(Charte.or.opacity(0.12), in: RoundedRectangle(cornerRadius: 12))
             .overlay(RoundedRectangle(cornerRadius: 12).stroke(Charte.or.opacity(0.45), lineWidth: 1))
+            .sheet(item: $pageOuverte) { page in PageWeb(url: page.url).ignoresSafeArea() }
         }
+    }
+}
+
+/// « En savoir plus » : ouvre la source de la question.
+struct BoutonSource: View {
+    let url: URL
+    @Binding var ouverte: PageAOuvrir?
+
+    var body: some View {
+        Button { ouverte = PageAOuvrir(url: url) } label: {
+            Label("En savoir plus", systemImage: "safari.fill")
+                .font(.footnote.weight(.semibold))
+        }
+        .buttonStyle(.bordered)
+        .tint(Charte.or)
+        .accessibilityHint("Ouvre la source de cette question : \(url.host() ?? "")")
     }
 }
 
