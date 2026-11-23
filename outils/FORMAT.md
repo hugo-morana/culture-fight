@@ -116,4 +116,9 @@ d'apprentissage et s'écrit avec la bible (`aventures/bible-culturia.md`, géné
 - `faits` : au moins 1 fait réel par aventure, chacun avec une source https.
 - `quiz` : exactement 3 questions de fin, au format des questions de fiche (3 mauvaises réponses différentes,
   source https, explication qui apporte un fait de plus que la question).
+- Dates : chaque date citée dans une case est encodée avec le système MemoHugoDate et mise en scène, l'objet jouant un
+  rôle dans la case : matière = siècle (18xx acier clouté, 16xx miroir…), objet = 2 derniers chiffres de l'année
+  (46 coussin, 98 tournevis…), couleur = mois (janvier rouge… décembre bleu ciel), motifs = objet du numéro du jour.
+  Le combattant donne le décodage dans sa bulle (ex. « acier clouté pour les années 1800, coussin pour 46, gris pour
+  septembre, ballons de basket pour le 23 »).
 - `outils/verifier.py` contrôle tout cela ; le fichier peut rester vide (`[]`) tant qu'aucune aventure n'est prête.

@@ -151,11 +151,15 @@
    },
    {
     "lieu": "La Ronde des Planètes",
-    "narration": "Tout au bout du jardin, là où le soleil de bronze n'est plus qu'une lampe, Neptuniaire remonte le dernier grelot dans son filet.",
+    "narration": "Tout au bout du jardin, là où le soleil de bronze n'est plus qu'une lampe, Neptuniaire remonte le dernier grelot dans son filet. Le grelot est cousu sur un coussin d'acier clouté, gris à motifs de ballons de basket.",
     "bulles": [
      {
       "combattant": "neptuniaire",
-      "texte": "Huitième et dernier. On m'a trouvé par le calcul : Le Verrier a prédit ma position et Galle m'a vu à Berlin en septembre 1846, presque à l'endroit annoncé."
+      "texte": "Huitième et dernier. On m'a trouvé par le calcul : Le Verrier a prédit ma position et Galle m'a vu à Berlin le 23 septembre 1846, presque à l'endroit annoncé."
+     },
+     {
+      "combattant": "neptuniaire",
+      "texte": "D'où mon coussin : acier clouté pour les années 1800, coussin pour 46, gris pour septembre, ballons de basket pour le 23."
      },
      {
       "combattant": "planetroll",
@@ -177,7 +181,11 @@
      },
      {
       "combattant": "sol-dat",
-      "texte": "Planète naine depuis 2006, tu le sais très bien. Garde ton crochet pour une autre aventure."
+      "texte": "Planète naine depuis le 24 août 2006, tu le sais très bien."
+     },
+     {
+      "combattant": "sol-dat",
+      "texte": "Accroche plutôt ceci : une rose en circuit électronique, peinte en rose à motifs de cartons. Circuit pour les années 2000, rose pour 06, rose pour août, cartons pour le 24."
      }
     ]
    }
@@ -216,8 +224,8 @@
     "source": "https://www.nasa.gov/history/175-years-ago-astronomers-discover-neptune-the-eighth-planet"
    },
    {
-    "texte": "En 2006, l'Union astronomique internationale a reclassé Pluton parmi les planètes naines.",
-    "source": "https://www.britannica.com/story/why-is-pluto-no-longer-a-planet"
+    "texte": "Le 24 août 2006, l'Union astronomique internationale a reclassé Pluton parmi les planètes naines.",
+    "source": "https://space.com/astronomy/pluto/on-this-day-in-space-aug-24-2006-pluto-loses-its-planet-status"
    }
   ],
   "quiz": [
@@ -289,11 +297,15 @@
    },
    {
     "lieu": "Les Cloches de Néon",
-    "narration": "Le quartier compte six clochers, rangés du plus léger au plus lourd. Chaque cloche garde un gaz noble et son secret. Première cloche : un ballon jaune flotte au-dessus, retenu par une ficelle.",
+    "narration": "Le quartier compte six clochers, rangés du plus léger au plus lourd. Chaque cloche garde un gaz noble et son secret. Première cloche : un ballon jaune flotte au-dessus, sa ficelle nouée à un savon d'acier clouté, rose à motifs de moufles.",
     "bulles": [
      {
       "combattant": "neonja",
-      "texte": "Cloche 2, l'hélium. On l'a vu dans la lumière du Soleil, pendant une éclipse en 1868, avant de le trouver sur Terre. Son nom vient d'Hélios, le Soleil."
+      "texte": "Cloche 2, l'hélium. Janssen l'a vu dans la lumière du Soleil pendant l'éclipse du 18 août 1868, avant qu'on le trouve sur Terre. Son nom vient d'Hélios, le Soleil."
+     },
+     {
+      "combattant": "neonja",
+      "texte": "Le savon garde la date : acier clouté pour les années 1800, savon pour 68, rose pour août, moufles pour le 18."
      },
      {
       "combattant": "mendeleviking",
@@ -303,11 +315,11 @@
    },
    {
     "lieu": "Les Cloches de Néon",
-    "narration": "Deuxième cloche, baignée d'une lueur rouge orangé. C'est la maison de Néonja.",
+    "narration": "Deuxième cloche, baignée d'une lueur rouge orangé. C'est la maison de Néonja. Le battant de la cloche est un énorme tournevis d'acier clouté.",
     "bulles": [
      {
       "combattant": "neonja",
-      "texte": "Cloche 10, le néon : « le nouveau » en grec. Ramsay et Travers l'ont tiré de l'air en 1898. Sous le courant, il brille rouge orangé, comme moi."
+      "texte": "Cloche 10, le néon : « le nouveau » en grec. Ramsay et Travers l'ont tiré de l'air en 1898 : acier clouté pour les années 1800, tournevis pour 98. Sous le courant, il brille rouge orangé, comme moi."
      },
      {
       "combattant": "mendeleviking",
@@ -335,7 +347,7 @@
     "bulles": [
      {
       "combattant": "neonja",
-      "texte": "Cloche 36, le krypton : « le caché ». Découvert la même année que moi, en refroidissant de l'air jusqu'à le rendre liquide."
+      "texte": "Cloche 36, le krypton : « le caché ». Découvert la même année que moi, en refroidissant de l'air jusqu'à le rendre liquide. Regarde : derrière le mur, le même tournevis d'acier clouté."
      },
      {
       "combattant": "mendeleviking",
@@ -404,6 +416,10 @@
    {
     "texte": "L'hélium a été repéré en 1868 dans le spectre du Soleil, avant d'être trouvé sur Terre ; son nom vient du dieu grec du Soleil, Hélios.",
     "source": "https://blog.sciencemuseum.org.uk/150-years-since-the-discovery-of-helium/"
+   },
+   {
+    "texte": "Pierre Janssen a observé la raie jaune de l'hélium pendant l'éclipse totale de Soleil du 18 août 1868, en Inde.",
+    "source": "https://space.com/astronomy/on-this-day-in-space-aug-18-1868-total-solar-eclipse-leads-to-discovery-of-helium"
    },
    {
     "texte": "William Ramsay et Morris Travers ont isolé le néon (« le nouveau »), le krypton (« le caché ») et le xénon (« l'étranger ») en 1898, à partir de l'air liquéfié.",
@@ -496,11 +512,11 @@
    },
    {
     "lieu": "L'Académie céleste",
-    "narration": "Ptoléminotaure déroule un énorme rouleau couvert de cercles dessinés sur d'autres cercles.",
+    "narration": "Ptoléminotaure tire une charrue de marbre chargée d'un énorme rouleau couvert de cercles dessinés sur d'autres cercles.",
     "bulles": [
      {
       "combattant": "ptoleminotaure",
-      "texte": "Mon Almageste, vers l'an 150 : la Terre immobile au centre, et autour, les planètes qui tournent sur des petits cercles posés sur de grands cercles. Ça a tenu 1 400 ans, petit !"
+      "texte": "Mon Almageste, vers l'an 150, marbre pour les années 100, charrue pour 50 : la Terre immobile au centre, et autour, les planètes qui tournent sur des petits cercles posés sur de grands cercles. Ça a tenu 1 400 ans, petit !"
      },
      {
       "combattant": "copernisabre",
@@ -510,11 +526,11 @@
    },
    {
     "lieu": "L'Académie céleste",
-    "narration": "Copernisabre trace un cercle d'un coup de sabre, avec le Soleil au milieu.",
+    "narration": "Copernisabre trace un cercle d'un coup de sabre, avec le Soleil au milieu, puis croque un cookie fait de pages de livres.",
     "bulles": [
      {
       "combattant": "copernisabre",
-      "texte": "En 1543, mon livre De revolutionibus place le Soleil au centre et fait tourner la Terre autour. Il est sorti l'année même de ma mort : je n'ai pas eu le temps de lire les critiques."
+      "texte": "En 1543, mon livre De revolutionibus place le Soleil au centre et fait tourner la Terre autour. Il est sorti l'année même de ma mort : je n'ai pas eu le temps de lire les critiques. Livres pour les années 1500, cookie pour 43."
      },
      {
       "combattant": "ptoleminotaure",
@@ -524,11 +540,11 @@
    },
    {
     "lieu": "L'Académie céleste",
-    "narration": "Une rapière se glisse entre les deux lames. Keplertagnan salue, d'un geste qui dessine… une forme allongée.",
+    "narration": "Une rapière se glisse entre les deux lames. Keplertagnan salue, d'un geste qui dessine… une forme allongée. Sur son chapeau, un nid de miroir renvoie la lumière.",
     "bulles": [
      {
       "combattant": "keplertagnan",
-      "texte": "Pardon, maître, mais vos deux cercles sont faux. En 1609, avec les mesures de Tycho Brahe sur Mars, j'ai montré que les planètes tournent sur des ellipses, le Soleil sur l'un des foyers."
+      "texte": "Pardon, maître, mais vos deux cercles sont faux. En 1609, avec les mesures de Tycho Brahe sur Mars, j'ai montré que les planètes tournent sur des ellipses, le Soleil sur l'un des foyers. Miroir pour les années 1600, nid pour 09."
      },
      {
       "combattant": "copernisabre",
@@ -538,11 +554,15 @@
    },
    {
     "lieu": "L'Académie céleste",
-    "narration": "Bruit de pas lourds. Galilégionnaire arrive de Mendéléia, une longue-vue sous le bras.",
+    "narration": "Bruit de pas lourds. Galilégionnaire arrive de Mendéléia, une longue-vue sous le bras. Au bout de la lunette brille une tête de mort en miroir, rouge à motifs d'épées.",
     "bulles": [
      {
       "combattant": "galilegionnaire",
-      "texte": "J'ai monté la garde avec ça. En janvier 1610, j'ai vu quatre lunes tourner autour de Jupiter. Preuve que tout ne tourne pas autour de la Terre !"
+      "texte": "J'ai monté la garde avec ça. Le 7 janvier 1610, j'ai vu des lunes autour de Jupiter, quatre en tout quelques nuits plus tard. Preuve que tout ne tourne pas autour de la Terre !"
+     },
+     {
+      "combattant": "galilegionnaire",
+      "texte": "Miroir pour les années 1600, tête de mort pour 10, rouge pour janvier, épées pour le 7."
      },
      {
       "combattant": "ptoleminotaure",
@@ -599,6 +619,10 @@
    {
     "texte": "En janvier 1610, Galilée découvre quatre lunes autour de Jupiter ; il observe ensuite les phases de Vénus, qui montrent qu'elle tourne autour du Soleil.",
     "source": "https://www.britannica.com/biography/Galileo-Galilei/Telescopic-discoveries"
+   },
+   {
+    "texte": "Galilée a observé Jupiter et les premières de ses lunes le soir du 7 janvier 1610, à Padoue.",
+    "source": "https://chapin.williams.edu/pasachoff/galileo.html"
    }
   ],
   "quiz": [

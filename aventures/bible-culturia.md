@@ -3,7 +3,7 @@
 _Document généré par `outils/bible.py` à partir de `monde.json`, `histoires.json` et du catalogue. Ne pas modifier à la main : corriger les données, puis relancer le script._
 _10 pays, 74 lieux, 410 habitants._
 
-Règles d'écriture des aventures : rester fidèle au lieu, au caractère et aux liens de chaque combattant ; chaque fait appris est réel et sourcé ; une touche d'humour, jamais aux dépens d'une personne réelle.
+Règles d'écriture des aventures : rester fidèle au lieu, au caractère et aux liens de chaque combattant ; chaque fait appris est réel et sourcé ; une touche d'humour, jamais aux dépens d'une personne réelle ; chaque date est encodée en MemoHugoDate (matière = siècle, objet = année, couleur = mois, motifs = jour) et l'objet joue un rôle dans la case.
 
 ## Culturia
 
