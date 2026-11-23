@@ -132,7 +132,7 @@ struct CombatView: View {
                 accueil()
             }
         } message: {
-            Text("Un abandon compte comme une défaite : aucune Pièce, et tu perds du Savoir de compte.")
+            Text("Un abandon compte comme une défaite : aucune Pièce, et tu perds du Savoir.")
         }
     }
 
@@ -252,6 +252,8 @@ struct CombatView: View {
                    bilan: controleur.bilan,
                    niveauxGagnes: controleur.niveauxGagnes,
                    niveauxCompteGagnes: controleur.niveauxCompteGagnes,
+                   savoirAvant: controleur.savoirAvant,
+                   savoirApres: controleur.savoirApres,
                    evolutions: controleur.evolutions,
                    historique: controleur.historique,
                    rejouer: rejouer,
@@ -738,6 +740,9 @@ struct VueFin: View {
     let bilan: BilanCombat
     let niveauxGagnes: [String: Int]
     let niveauxCompteGagnes: Int
+    /// Savoir total avant et après le combat (nil tant que la sauvegarde ne l'a pas versé).
+    var savoirAvant: Int? = nil
+    var savoirApres: Int? = nil
     var evolutions: [EvolutionCombattant] = []
     let historique: [ResultatTour]
     let rejouer: () -> Void
@@ -860,11 +865,14 @@ struct VueFin: View {
     private var experience: some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack {
-                Label("\(bilan.xpCompte >= 0 ? "+" : "−")\(abs(bilan.xpCompte)) Savoir de compte",
+                Label("\(bilan.xpCompte >= 0 ? "+" : "−")\(abs(bilan.xpCompte)) Savoir",
                       systemImage: bilan.xpCompte >= 0 ? "star.circle.fill" : "arrow.down.circle.fill")
                     .font(.nom(15, relativeTo: .headline))
                     .foregroundStyle(bilan.xpCompte >= 0 ? Charte.ivoire : Color.red)
                 Spacer()
+                if let avant = savoirAvant, let apres = savoirApres {
+                    CompteurSavoir(avant: avant, apres: apres)
+                }
                 if niveauxCompteGagnes > 0 {
                     BadgeNiveau(texte: "Niveau +\(niveauxCompteGagnes)")
                 } else if niveauxCompteGagnes < 0 {
@@ -1014,5 +1022,40 @@ struct PointsDeSuspension: View {
             }
         }
         .accessibilityHidden(true)
+    }
+}
+
+/// Savoir total qui défile chiffre par chiffre de sa valeur d'avant le combat à la nouvelle.
+struct CompteurSavoir: View {
+    let avant: Int
+    let apres: Int
+    @State private var affiche: Int?
+    @Environment(\.accessibilityReduceMotion) private var mouvementReduit
+
+    var body: some View {
+        let valeur = affiche ?? avant
+        HStack(spacing: 4) {
+            Image(systemName: "book.closed.fill")
+            Text("\(valeur)")
+                .monospacedDigit()
+                .contentTransition(.numericText(value: Double(valeur)))
+        }
+        .font(.nom(15, relativeTo: .headline))
+        .foregroundStyle(apres >= avant ? Charte.or : Color.red)
+        .accessibilityLabel("Savoir : \(apres)")
+        .task(id: apres) {
+            affiche = avant
+            guard !mouvementReduit, avant != apres else { affiche = apres; return }
+            try? await Task.sleep(for: .seconds(0.8))
+            let ecart = apres - avant
+            let pas = 24
+            for i in 1...pas {
+                try? await Task.sleep(for: .milliseconds(45))
+                // Ralentit à l'approche de la valeur finale.
+                let t = 1 - pow(1 - Double(i) / Double(pas), 2)
+                withAnimation(.snappy(duration: 0.12)) { affiche = avant + Int((Double(ecart) * t).rounded()) }
+            }
+            withAnimation(.snappy) { affiche = apres }
+        }
     }
 }

@@ -48,6 +48,9 @@ final class CombatController {
     /// Niveaux gagnés à la fin du combat, remplis par la sauvegarde (identifiant → niveaux).
     var niveauxGagnes: [String: Int] = [:]
     var niveauxCompteGagnes = 0
+    /// Savoir total avant et après le combat, remplis par la sauvegarde pour l'animation du bilan.
+    var savoirAvant: Int?
+    var savoirApres: Int?
 
     /// Vrai une fois le résultat du combat enregistré dans la sauvegarde.
     @ObservationIgnored private var gainsVerses = false

@@ -26,6 +26,11 @@ enum NiveauCompte {
 
     /// XP à réunir pour passer du niveau `niveau` au suivant : 100 × niveau actuel.
     static func seuil(_ niveau: Int) -> Int { 100 * max(1, niveau) }
+
+    /// Savoir total du joueur : tout le Savoir des niveaux passés plus celui du niveau en cours.
+    static func savoirTotal(niveau: Int, xp: Int) -> Int {
+        (1..<max(1, niveau)).reduce(0) { $0 + seuil($1) } + xp
+    }
 }
 
 /// Ligue affichée sur le badge. En attendant le classement Glicko-2 (tâche 30), elle suit le niveau de compte.

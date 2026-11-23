@@ -189,7 +189,9 @@ enum Sauvegarde {
         }
         let bilan = controleur.bilan
         joueur.pieces += bilan.pieces
+        controleur.savoirAvant = NiveauCompte.savoirTotal(niveau: joueur.niveauCompte, xp: joueur.xpCompte)
         controleur.niveauxCompteGagnes = joueur.gagnerXPCompte(bilan.xpCompte)
+        controleur.savoirApres = NiveauCompte.savoirTotal(niveau: joueur.niveauCompte, xp: joueur.xpCompte)
         var niveaux: [String: Int] = [:]
         var evolutions: [EvolutionCombattant] = []
         for gain in bilan.combattants {
@@ -228,7 +230,9 @@ enum Sauvegarde {
         joueur.combatsJoues += 1
         joueur.defaites += 1
         let xp = NiveauCompte.xpDefaite(contre: controleur.ia.niveau)
+        controleur.savoirAvant = NiveauCompte.savoirTotal(niveau: joueur.niveauCompte, xp: joueur.xpCompte)
         controleur.niveauxCompteGagnes = joueur.gagnerXPCompte(xp)
+        controleur.savoirApres = NiveauCompte.savoirTotal(niveau: joueur.niveauCompte, xp: joueur.xpCompte)
         partie.xpCompte = xp
         partie.niveauCompteApres = joueur.niveauCompte
         joueur.parties.append(partie)

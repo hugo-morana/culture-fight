@@ -246,7 +246,7 @@ struct DetailPartieView: View {
                 HStack(spacing: 8) {
                     TuileFiche(icone: "dollarsign.circle.fill", titre: "Pièces", valeur: "+\(partie.pieces)",
                                accent: .yellow, index: 0)
-                    TuileFiche(icone: "star.circle.fill", titre: "Savoir de compte", valeur: signe(partie.xpCompte),
+                    TuileFiche(icone: "star.circle.fill", titre: "Savoir", valeur: signe(partie.xpCompte),
                                accent: partie.xpCompte >= 0 ? Charte.or : BarreResultats.rouge, index: 1)
                     TuileFiche(icone: "shield.fill", titre: "Niveau après", valeur: "\(partie.niveauCompteApres)",
                                accent: Ligue(niveau: partie.niveauCompteApres).couleurs.0, index: 2)
