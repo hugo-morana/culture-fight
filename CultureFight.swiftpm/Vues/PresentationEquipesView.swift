@@ -119,31 +119,45 @@ struct PresentationEquipesView: View {
     // MARK: Équipes
 
     private func equipe(_ camp: Camp, enHaut: Bool, largeur: CGFloat) -> some View {
-        let taille = CGSize(width: min(104, (largeur - 64) / 3), height: min(104, (largeur - 64) / 3) * 1.36)
-        let titre = Text(camp.nom)
+        let cote: CGFloat = min(104, (largeur - 64) / 3)
+        let taille = CGSize(width: cote, height: cote * 1.36)
+        return VStack(spacing: 10) {
+            if enHaut { titre(camp.nom, enHaut: true) }
+            HStack(spacing: 12) {
+                ForEach(Array(camp.combattants.enumerated()), id: \.element.modele.id) { i, enJeu in
+                    carte(enJeu.modele, index: i, nombre: camp.combattants.count, enHaut: enHaut,
+                          taille: taille, largeur: largeur)
+                }
+            }
+            if !enHaut { titre(camp.nom, enHaut: false) }
+        }
+    }
+
+    private func titre(_ nom: String, enHaut: Bool) -> some View {
+        let decalage: CGFloat = bandeaux ? 0 : (enHaut ? 60 : -60)
+        return Text(nom)
             .font(.titre(22, relativeTo: .title2))
             .lettrageLogo()
             .lineLimit(1)
             .minimumScaleFactor(0.6)
             .opacity(bandeaux ? 1 : 0)
-            .offset(x: bandeaux ? 0 : (enHaut ? 60 : -60))
-        return VStack(spacing: 10) {
-            if enHaut { titre }
-            HStack(spacing: 12) {
-                ForEach(Array(camp.combattants.enumerated()), id: \.element.modele.id) { i, enJeu in
-                    // L'adversaire entre par la droite, le joueur par la gauche, en décalé.
-                    let rang = Double(enHaut ? camp.combattants.count - 1 - i : i)
-                    CartePresentation(modele: enJeu.modele, taille: taille, balayage: balayage,
-                                      delaiBalayage: rang * 0.08)
-                        .rotationEffect(.degrees(cartes ? Double(i - 1) * (enHaut ? -4 : 4) : (enHaut ? 25 : -25)))
-                        .offset(x: cartes ? 0 : (enHaut ? largeur : -largeur), y: cartes ? 0 : (enHaut ? -40 : 40))
-                        .opacity(cartes ? 1 : 0)
-                        .animation(reduit ? .easeOut(duration: 0.4)
-                                   : .spring(duration: 0.6, bounce: 0.35).delay(rang * 0.12), value: cartes)
-                }
-            }
-            if !enHaut { titre }
-        }
+            .offset(x: decalage)
+    }
+
+    /// Une carte de l'équipe : l'adversaire entre par la droite, le joueur par la gauche, en décalé.
+    private func carte(_ modele: ModeleCombattant, index i: Int, nombre: Int, enHaut: Bool,
+                       taille: CGSize, largeur: CGFloat) -> some View {
+        let rang: Double = Double(enHaut ? nombre - 1 - i : i)
+        let inclinaison: Double = Double(i - 1) * (enHaut ? -4 : 4)
+        let angle: Double = cartes ? inclinaison : (enHaut ? 25 : -25)
+        let dx: CGFloat = cartes ? 0 : (enHaut ? largeur : -largeur)
+        let dy: CGFloat = cartes ? 0 : (enHaut ? -40 : 40)
+        let animation: Animation = reduit ? .easeOut(duration: 0.4) : .spring(duration: 0.6, bounce: 0.35).delay(rang * 0.12)
+        return CarteVS(modele: modele, taille: taille, balayage: balayage, delaiBalayage: rang * 0.08)
+            .rotationEffect(.degrees(angle))
+            .offset(x: dx, y: dy)
+            .opacity(cartes ? 1 : 0)
+            .animation(animation, value: cartes)
     }
 
     private var texteVS: some View {
@@ -161,7 +175,7 @@ struct PresentationEquipesView: View {
 
 /// Une carte de la présentation : illustration, bord de la couleur de rareté, nom, vignette du domaine,
 /// et un reflet qui la traverse une fois toutes les cartes posées.
-private struct CartePresentation: View {
+private struct CarteVS: View {
     let modele: ModeleCombattant
     let taille: CGSize
     let balayage: Bool
