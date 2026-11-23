@@ -121,4 +121,5 @@ d'apprentissage et s'écrit avec la bible (`aventures/bible-culturia.md`, géné
   (46 coussin, 98 tournevis…), couleur = mois (janvier rouge… décembre bleu ciel), motifs = objet du numéro du jour.
   Le combattant donne le décodage dans sa bulle (ex. « acier clouté pour les années 1800, coussin pour 46, gris pour
   septembre, ballons de basket pour le 23 »).
+  Exception pour l'app (classification d'âge, sans tabac) : 81 = fumée, à la place de la cigarette.
 - `outils/verifier.py` contrôle tout cela ; le fichier peut rester vide (`[]`) tant qu'aucune aventure n'est prête.
