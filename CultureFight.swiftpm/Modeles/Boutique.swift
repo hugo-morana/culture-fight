@@ -126,7 +126,7 @@ enum Boutique {
         Objet(id: "amulette-de-vie", nom: "Amulette de vie", genre: .permanent, effet: "+20 PV max",
               prix: 200, symbole: "heart.circle.fill"),
         Objet(id: "lunettes-de-savant", nom: "Lunettes de savant", genre: .permanent,
-              effet: "Jauge de Savoir remplie en 2 bonnes réponses", prix: 180, symbole: "eyeglasses"),
+              effet: "Jauge d'Inspiration remplie en 2 bonnes réponses", prix: 180, symbole: "eyeglasses"),
         Objet(id: "joker", nom: "Joker 50/50", genre: .consommable, effet: "Retire 2 mauvaises réponses",
               prix: 60, symbole: "circle.lefthalf.filled"),
         Objet(id: "potion", nom: "Potion", genre: .consommable, effet: "Rend 30 PV au combattant actif",
@@ -233,7 +233,7 @@ enum Boutique {
     /// Ce que l'achat donnerait, pour le bouton et la confirmation.
     static func libelleAchat(_ article: Article, offreDuJour: Bool = false, pour joueur: Joueur) -> String {
         if let modele = article.modele, joueur.possede(modele.id) {
-            return "Déjà possédé : +\(xpDoublon(modele.rarete)) XP pour \(modele.nom)"
+            return "Déjà possédé : +\(xpDoublon(modele.rarete)) Savoir pour \(modele.nom)"
         }
         if offreDuJour {
             return "\(prixPaye(article, offreDuJour: true)) Pièces au lieu de \(article.prix) (−\(remise(article, jour: cleJour())) %)"

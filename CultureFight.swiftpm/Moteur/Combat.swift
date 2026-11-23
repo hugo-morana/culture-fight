@@ -195,7 +195,7 @@ struct Combat: Sendable {
                     effetVitesse = "\(vitesse.nom) Bouclier : sa prochaine erreur coûtera \(Int(bouclier * 100)) % de PV en moins\(mention)"
                 case .savoir:
                     casesEnPlus = Int((Double(eclair ? 2 : 1) * k).rounded())
-                    effetVitesse = "\(vitesse.nom) Jauge de Savoir +\(casesEnPlus) case\(casesEnPlus > 1 ? "s" : "") en plus\(mention)"
+                    effetVitesse = "\(vitesse.nom) Inspiration +\(casesEnPlus) case\(casesEnPlus > 1 ? "s" : "") en plus\(mention)"
                 case .pression:
                     let malus = (eclair ? 4.0 : 2.0) * k
                     malusTemps[a] = malus

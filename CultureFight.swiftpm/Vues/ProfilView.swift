@@ -112,7 +112,7 @@ struct EnTeteProfil: View {
                     .font(.nom(14, relativeTo: .subheadline))
                     .foregroundStyle(Charte.or)
             }
-            Text("Niveau \(joueur.niveauCompte) · \(joueur.xpCompte) / \(joueur.seuilNiveauSuivant) XP")
+            Text("Niveau \(joueur.niveauCompte) · \(joueur.xpCompte) / \(joueur.seuilNiveauSuivant) Savoir")
                 .font(.nom(14, relativeTo: .subheadline))
                 .foregroundStyle(Charte.ivoire.opacity(0.85))
             if let suivante = ligue.niveauSuivante {

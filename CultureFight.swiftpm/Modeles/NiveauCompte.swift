@@ -133,7 +133,7 @@ struct JaugeNiveau: View {
                 }
                 .frame(width: 96, height: 7)
                 .animation(.easeOut(duration: 0.8), value: part)
-                Text("\(xp)/\(seuil) XP")
+                Text("\(xp)/\(seuil) Savoir")
                     .font(.caption2.monospacedDigit())
                     .foregroundStyle(.secondary)
             }
@@ -143,7 +143,7 @@ struct JaugeNiveau: View {
         .padding(.vertical, 6)
         .background(.ultraThinMaterial, in: Capsule())
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Niveau \(niveau), ligue \(ligue.nom), \(xp) XP sur \(seuil) pour le niveau suivant")
+        .accessibilityLabel("Niveau \(niveau), ligue \(ligue.nom), \(xp) points de Savoir sur \(seuil) pour le niveau suivant")
     }
 }
 

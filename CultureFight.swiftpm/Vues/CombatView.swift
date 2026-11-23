@@ -100,7 +100,7 @@ struct CombatView: View {
                 accueil()
             }
         } message: {
-            Text("Un abandon compte comme une défaite : aucune Pièce, et tu perds de l'XP de compte.")
+            Text("Un abandon compte comme une défaite : aucune Pièce, et tu perds du Savoir de compte.")
         }
     }
 
@@ -502,7 +502,7 @@ struct VueResultat: View {
                     }
                     ligne("Contre-attaque : \(resultat.attaquantNom) perd \(resultat.degatsContre) PV", "arrow.uturn.backward")
                     if resultat.jaugeRemplie {
-                        ligne("Jauge de Savoir pleine : \(resultat.defenseurNom) fera double dégâts à sa prochaine attaque", "bolt.fill")
+                        ligne("Inspiration pleine : \(resultat.defenseurNom) fera double dégâts à sa prochaine attaque", "bolt.fill")
                     }
                 } else {
                     ligne("\(resultat.defenseurNom) perd \(resultat.degatsDefenseur) PV", "burst.fill")
@@ -553,7 +553,7 @@ struct VueResultat: View {
         let phrase = resultat.defenseurEstJoueur
             ? "\(resultat.attaquantNom) \(juste ? "a bien répondu" : "s'est trompé") à sa propre question"
             : "Tu \(juste ? "as bien répondu" : "t'es trompé") à ta propre question"
-        let xp = !resultat.defenseurEstJoueur && juste ? " · +\(Gains.xpCombattantBonneReponseAttaque) XP" : ""
+        let xp = !resultat.defenseurEstJoueur && juste ? " · +\(Gains.xpCombattantBonneReponseAttaque) Savoir" : ""
         let bonnePourJoueur = resultat.defenseurEstJoueur ? !juste : juste
         return ("\(phrase) : \(effet)\(xp)", juste ? "person.fill.checkmark" : "person.fill.xmark", bonnePourJoueur)
     }
@@ -708,7 +708,7 @@ struct VueFin: View {
     private var experience: some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack {
-                Label("\(bilan.xpCompte >= 0 ? "+" : "−")\(abs(bilan.xpCompte)) XP de compte",
+                Label("\(bilan.xpCompte >= 0 ? "+" : "−")\(abs(bilan.xpCompte)) Savoir de compte",
                       systemImage: bilan.xpCompte >= 0 ? "star.circle.fill" : "arrow.down.circle.fill")
                     .font(.nom(15, relativeTo: .headline))
                     .foregroundStyle(bilan.xpCompte >= 0 ? Charte.ivoire : Color.red)
@@ -736,7 +736,7 @@ struct VueFin: View {
                     if let n = niveauxGagnes[gain.modele.id] {
                         BadgeNiveau(texte: n > 1 ? "+\(n) niveaux" : "Niveau +1")
                     }
-                    Text("+\(gain.xp) XP")
+                    Text("+\(gain.xp) Savoir")
                         .font(.subheadline.monospacedDigit().bold())
                         .foregroundStyle(gain.modele.specialite.couleur)
                 }

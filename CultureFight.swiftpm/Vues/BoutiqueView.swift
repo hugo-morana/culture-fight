@@ -325,7 +325,7 @@ struct BoutiqueView: View {
     private var titreResultat: String {
         switch dernierAchat {
         case .nouveauCombattant?: return "Nouveau combattant !"
-        case .doublon?: return "Doublon converti en XP"
+        case .doublon?: return "Doublon converti en Savoir"
         case .objet?: return "Objet acheté"
         case .refuse?: return "Achat impossible"
         case nil: return ""
@@ -339,7 +339,7 @@ struct BoutiqueView: View {
             return "\(nom) rejoint ta réserve. Tu peux l'aligner dès le prochain combat."
         case .doublon(let id, let xp, let niveaux)?:
             let nom = Catalogue.prototype.first { $0.id == id }?.nom ?? id
-            return "Tu avais déjà \(nom) : il gagne \(xp) XP" + (niveaux > 0 ? " et monte de \(niveaux) niveau\(niveaux > 1 ? "x" : "")." : ".")
+            return "Tu avais déjà \(nom) : il gagne \(xp) Savoir" + (niveaux > 0 ? " et monte de \(niveaux) niveau\(niveaux > 1 ? "x" : "")." : ".")
         case .objet(let id, let quantite)?:
             let nom = Boutique.objet(id)?.nom ?? id
             return "\(nom) × \(quantite) ajouté à ton inventaire."
@@ -449,7 +449,7 @@ struct CarteArticle: View {
         case .combattant:
             guard let modele = article.modele else { return "" }
             let base = "\(modele.rarete.rawValue) · \(modele.specialite.nom)"
-            return possede && etat != .possede ? "\(base) · doublon → \(Boutique.xpDoublon(modele.rarete)) XP" : base
+            return possede && etat != .possede ? "\(base) · doublon → \(Boutique.xpDoublon(modele.rarete)) Savoir" : base
         case .objet(let objet):
             return "\(objet.genre.rawValue) · \(objet.effet)"
         }

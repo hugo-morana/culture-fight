@@ -18,7 +18,7 @@ enum EffetVitesse: Sendable {
         case .contreAttaque: return "Contre-attaque"
         case .soin: return "Soin"
         case .bouclier: return "Bouclier"
-        case .savoir: return "Savoir"
+        case .savoir: return "Inspiration"
         case .pression: return "Pression"
         }
     }
@@ -29,7 +29,7 @@ enum EffetVitesse: Sendable {
         case .contreAttaque: return "contre-attaque +50 % (Éclair) ou +25 % (Rapide)"
         case .soin: return "regagne 15 PV (Éclair) ou 8 PV (Rapide)"
         case .bouclier: return "sa prochaine erreur coûte 30 % (Éclair) ou 15 % (Rapide) de PV en moins"
-        case .savoir: return "jauge de Savoir +2 cases (Éclair) ou +1 case (Rapide) en plus"
+        case .savoir: return "jauge d'Inspiration +2 cases (Éclair) ou +1 case (Rapide) en plus"
         case .pression: return "l'adversaire aura 4 s (Éclair) ou 2 s (Rapide) de moins à sa prochaine réponse"
         }
     }

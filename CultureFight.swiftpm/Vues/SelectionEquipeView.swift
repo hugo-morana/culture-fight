@@ -284,7 +284,7 @@ struct SelectionEquipeView: View {
                 }
             }
             .pickerStyle(.segmented)
-            Text("Enjeu : victoire +\(NiveauCompte.xpVictoire(contre: niveau)) XP · défaite −\(abs(NiveauCompte.xpDefaite(contre: niveau))) XP de compte")
+            Text("Enjeu : victoire +\(NiveauCompte.xpVictoire(contre: niveau)) Savoir · défaite −\(abs(NiveauCompte.xpDefaite(contre: niveau))) Savoir de compte")
                 .font(.caption.monospacedDigit())
                 .foregroundStyle(.secondary)
             Button {
