@@ -83,6 +83,8 @@ final class CombattantPossede {
     var tactique: String = "aleatoire"
     var dateObtention: Date = Date()
     var joueur: Joueur?
+    /// Entraînement en solo (`EtatEntrainement` encodé) : questions sues, questions à revoir, séances.
+    var entrainementData: Data?
 
     init(modeleID: String) {
         self.modeleID = modeleID

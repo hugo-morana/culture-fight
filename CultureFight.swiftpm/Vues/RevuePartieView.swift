@@ -307,7 +307,13 @@ struct CarteTourRevue: View {
 // MARK: - Entraînement sur les questions ratées
 
 struct EntrainementView: View {
-    let tours: [ResultatTour]
+    var tours: [ResultatTour] = []
+    /// Entraînement en solo d'un combattant : ses questions, et ce qu'il faut faire de chaque réponse et de la fin.
+    var questions: [Question]? = nil
+    var titre = "Entraînement"
+    var surReponse: ((Question, Bool) -> Void)? = nil
+    /// Appelé une seule fois, à la fin de la première série : renvoie la récompense à afficher.
+    var surFin: ((_ reussies: Int, _ total: Int) -> String?)? = nil
 
     @Environment(\.dismiss) private var fermer
     @State private var file: [Question] = []
@@ -316,6 +322,8 @@ struct EntrainementView: View {
     @State private var choisie: Int?
     @State private var reussies = 0
     @State private var ratees: [Question] = []
+    @State private var finTraitee = false
+    @State private var recompense: String?
 
     private var question: Question? { index < file.count ? file[index] : nil }
 
@@ -358,14 +366,19 @@ struct EntrainementView: View {
             .animation(.spring(duration: 0.4), value: index)
             .animation(.snappy, value: choisie)
             .background { FondFiche(accent: Charte.or) }
-            .navigationTitle("Entraînement")
+            .navigationTitle(titre)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Fermer") { fermer() }
                 }
             }
-            .onAppear { demarrer(tours.map(\.question)) }
+            .onAppear { if file.isEmpty { demarrer(questions ?? tours.map(\.question)) } }
+            .onChange(of: question == nil) { _, fini in
+                guard fini, !finTraitee, let surFin else { return }
+                finTraitee = true
+                recompense = surFin(reussies, file.count)
+            }
             .sensoryFeedback(trigger: choisie) { _, nouvelle in
                 guard let nouvelle, let question else { return nil }
                 return nouvelle == question.bonneReponse ? .success : .error
@@ -382,6 +395,7 @@ struct EntrainementView: View {
             guard choisie == nil else { return }
             choisie = i
             if bonne { reussies += 1 } else { ratees.append(question) }
+            surReponse?(question, bonne)
         } label: {
             Text(question.choix[i])
                 .font(.body.weight(.semibold))
@@ -408,6 +422,12 @@ struct EntrainementView: View {
             Text(ratees.isEmpty ? "Toutes les questions sont acquises !" : "Encore \(ratees.count) à revoir.")
                 .font(.nom(16, relativeTo: .body))
                 .foregroundStyle(Charte.ivoire)
+            if let recompense {
+                Label(recompense, systemImage: "book.closed.fill")
+                    .font(.nom(15, relativeTo: .body))
+                    .foregroundStyle(Charte.or)
+                    .multilineTextAlignment(.center)
+            }
             if !ratees.isEmpty {
                 Button("Refaire les ratées") { demarrer(ratees) }
                     .font(.titre(18, relativeTo: .headline))

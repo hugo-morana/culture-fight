@@ -56,6 +56,7 @@ struct FicheCombattantView: View {
                     CarteEvolution(modele: modele)
                     CarteTactique(modele: modele)
                     CarteEquipement(modele: modele)
+                    CarteEntrainement(modele: modele)
                     CarteTenue(modele: modele)
                     CarteFiche(titre: "Bonus de vitesse · \(modele.familleStyle.effetVitesse.nom)",
                                icone: "hare.fill", accent: accent) {
