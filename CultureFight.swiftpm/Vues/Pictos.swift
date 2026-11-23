@@ -370,12 +370,23 @@ extension ModeleCombattant {
 struct PastillePicto: View {
     let picto: String
     var taille: CGFloat = 26
+    /// Logo « émail et or » qui remplace l'emoji quand il existe (il a son propre anneau).
+    var image: UIImage? = nil
 
     var body: some View {
-        Text(picto)
-            .font(.system(size: taille * 0.55))
-            .frame(width: taille, height: taille)
-            .background(Circle().fill(Charte.marine.opacity(0.85)))
-            .overlay(Circle().stroke(Charte.or.opacity(0.9), lineWidth: 1.5))
+        if let image {
+            Image(uiImage: image)
+                .resizable()
+                .interpolation(.high)
+                .scaledToFit()
+                .frame(width: taille * 1.2, height: taille * 1.2)
+                .shadow(color: .black.opacity(0.5), radius: 2, y: 1)
+        } else {
+            Text(picto)
+                .font(.system(size: taille * 0.55))
+                .frame(width: taille, height: taille)
+                .background(Circle().fill(Charte.marine.opacity(0.85)))
+                .overlay(Circle().stroke(Charte.or.opacity(0.9), lineWidth: 1.5))
+        }
     }
 }

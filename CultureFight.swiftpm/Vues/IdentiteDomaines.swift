@@ -52,6 +52,11 @@ enum IdentiteDomaine {
         ImagesFamilles.fichiers[famille].flatMap(charger)
     }
 
+    /// Emblème d'un style de combattant (Ninja, Viking…), ou nil s'il n'en a pas encore.
+    static func imageStyle(_ style: String) -> UIImage? {
+        ImagesStyles.fichiers[style].flatMap(charger)
+    }
+
     /// Image de `Resources` par son nom (sans extension), mise en cache.
     static func imageNommee(_ nom: String) -> UIImage? { charger(nom) }
 

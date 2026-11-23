@@ -258,7 +258,8 @@ struct EnTeteFiche: View {
             .clipShape(RoundedRectangle(cornerRadius: 16))
             .overlay(RoundedRectangle(cornerRadius: 16).stroke(accent, lineWidth: 2))
             .overlay(alignment: .bottomLeading) {
-                PastillePicto(picto: modele.pictoStyle, taille: 28).padding(6)
+                PastillePicto(picto: modele.pictoStyle, taille: 28,
+                              image: IdentiteDomaine.imageStyle(modele.style)).padding(6)
             }
             .keyframeAnimator(initialValue: MouvementTuile(), trigger: declencheur) { vue, v in
                 vue

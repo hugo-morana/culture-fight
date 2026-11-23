@@ -370,7 +370,8 @@ struct CarteChoix: View {
                     .overlay(alignment: .top) { IllustrationCombattant(modele: modele, taille: 34) }
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                     .overlay(alignment: .topLeading) {
-                        PastillePicto(picto: modele.familleStyle.picto, taille: 24).padding(5)
+                        PastillePicto(picto: modele.familleStyle.picto, taille: 24,
+                                      image: IdentiteDomaine.imageStyle(modele.style)).padding(5)
                     }
                     .overlay(alignment: .bottomLeading) {
                         BadgeStade(stade: Stade(niveau: niveau)).padding(5)

@@ -80,6 +80,7 @@ Chaque domaine a une couleur et une vignette, et chaque famille un logo, dans le
 (`Resources/domaine-<slug>.png` en 256 px, `Resources/famille-<slug>.png` en 160 px, fond transparent,
 palette de 256 couleurs), dans `Vues/IdentiteDomaines.swift`. La table nom de famille → fichier est
 `Vues/ImagesFamilles.swift` (générée depuis les planches) ; une famille sans logo garde son emoji.
+Les 200 styles ont aussi leur emblème (`Resources/embleme-<slug>.png`, table `Vues/ImagesStyles.swift`), affiché sur les cartes de la collection, de la composition d'équipe, la fiche du combattant et l'onglet Styles de l'Album.
 Les logos de famille s'affichent dans l'Album (onglet Domaines) et en tête de groupe de la collection
 groupée par famille ; les vignettes de domaine en tête de groupe quand elle est groupée par domaine.
 Elles s'affichent là où l'on choisit : filtres de la composition d'équipe et de la boutique (pastilles

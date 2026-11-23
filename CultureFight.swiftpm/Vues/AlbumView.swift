@@ -393,6 +393,7 @@ struct AlbumView: View {
                     ForEach(cles(modeles) { $0.style }, id: \.self) { style in
                         let membres = modeles.filter { $0.style == style }
                         LigneAlbum(picto: Pictos.style(style, famille: famille), titre: style,
+                                   style: style,
                                    completion: Completion(membres, possedes: possedes),
                                    membres: membres, possedes: possedes,
                                    recompense: membres.contains { Tenues.existe(pour: $0.id) }
@@ -489,6 +490,8 @@ private struct LigneAlbum: View {
     /// Famille et domaine de la ligne : son logo remplace le pictogramme (nil pour un style).
     var famille: String? = nil
     var domaine: String? = nil
+    /// Style de la ligne (onglet Styles) : son emblème remplace le pictogramme.
+    var style: String? = nil
     let completion: Completion
     let membres: [ModeleCombattant]
     let possedes: Set<String>
@@ -500,8 +503,11 @@ private struct LigneAlbum: View {
             HStack {
                 if let famille, let domaine {
                     VignetteFamille(famille: famille, domaine: domaine, taille: 30)
+                } else if let style, let image = IdentiteDomaine.imageStyle(style) {
+                    Image(uiImage: image).resizable().interpolation(.high).scaledToFit()
+                        .frame(width: 30, height: 30)
                 }
-                Text(famille == nil ? "\(picto) \(titre)" : titre)
+                Text(famille == nil && (style.flatMap(IdentiteDomaine.imageStyle) == nil) ? "\(picto) \(titre)" : titre)
                     .font(.nom(14, relativeTo: .subheadline))
                     .foregroundStyle(Charte.ivoire)
                     .lineLimit(1)

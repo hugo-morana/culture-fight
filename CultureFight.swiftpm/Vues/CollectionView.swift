@@ -309,10 +309,12 @@ struct CarteCollection: View {
                 .overlay(alignment: .top) { IllustrationCombattant(modele: modele) }
                 .clipped()
                 .overlay(alignment: .topLeading) {
-                    PastillePicto(picto: modele.familleStyle.picto).padding(6)
+                    PastillePicto(picto: modele.familleStyle.picto,
+                                  image: IdentiteDomaine.imageStyle(modele.style)).padding(6)
                 }
                 .overlay(alignment: .topTrailing) {
-                    PastillePicto(picto: modele.specialite.pictoDomaine).padding(6)
+                    PastillePicto(picto: modele.specialite.pictoDomaine,
+                                  image: IdentiteDomaine.image(modele.specialite.domaine)).padding(6)
                 }
             VStack(spacing: 2) {
                 // Place réservée : le nom est dessiné par CarteAnimee pour pouvoir pivoter.
