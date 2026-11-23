@@ -83,8 +83,8 @@ enum Affinite: Sendable {
         }
     }
 
-    /// Multiplicateur de la contre-attaque en cas de bonne réponse.
-    var multiplicateurContre: Double {
+    /// Riposte d'affinité : multiplicateur de la prochaine attaque du défenseur après une bonne réponse.
+    var multiplicateurRiposte: Double {
         switch self {
         case .specialite: return 2
         case .famille: return 1.25
@@ -94,8 +94,8 @@ enum Affinite: Sendable {
 
     var libelle: String? {
         switch self {
-        case .specialite: return "Sa spécialité : 2 réponses retirées, dégâts ÷ 2, contre-attaque × 2"
-        case .famille: return "Même famille : +5 s, dégâts −25 %, contre-attaque +25 %"
+        case .specialite: return "Sa spécialité : 2 réponses retirées, dégâts ÷ 2, prochaine attaque × 2 s'il trouve"
+        case .famille: return "Même famille : +5 s, dégâts −25 %, prochaine attaque +25 % s'il trouve"
         case .domaine: return "Même domaine : +3 s"
         case .aucune: return nil
         }

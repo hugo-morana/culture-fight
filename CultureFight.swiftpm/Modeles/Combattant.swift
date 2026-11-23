@@ -60,6 +60,8 @@ struct CombattantEnJeu: Identifiable, Sendable {
     var bonusPV = 0
     /// Bouclier des Chevaliers : PV de dégâts absorbés, donné au combattant qui entre après un K.O.
     var absorption = 0
+    /// Riposte : multiplicateur de la prochaine attaque (1 = aucune), gagné par une bonne réponse rapide.
+    var riposte: Double = 1
 
     /// Retire des dégâts ce que le bouclier des Chevaliers absorbe, et renvoie le reste.
     mutating func absorber(_ degats: Int) -> Int {

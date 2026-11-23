@@ -141,7 +141,7 @@ struct CombatView: View {
         return TempsAttaque.arrivee
     }
 
-    /// Élan à la question ; au résultat, l'attaque (mauvaise réponse) ou la contre-attaque (bonne réponse).
+    /// Élan à la question ; au résultat, l'attaque sur une mauvaise réponse (une bonne réponse est une esquive).
     private func reagirALaPhase() {
         switch controleur.phase {
         case .question:
@@ -253,6 +253,14 @@ struct CarteCamp: View {
                                 .minimumScaleFactor(0.7)
                                 .foregroundStyle(.secondary)
                             Spacer()
+                            if actif.riposte > 1 {
+                                Label("+\(Int(((actif.riposte - 1) * 100).rounded())) %", systemImage: "arrow.uturn.forward.circle.fill")
+                                    .font(.caption2.bold())
+                                    .foregroundStyle(.orange)
+                                    .symbolEffect(.pulse)
+                                    .accessibilityLabel("Riposte prête : prochaine attaque renforcée")
+                                    .transition(.scale.combined(with: .opacity))
+                            }
                             if actif.bouclier > 0 {
                                 Image(systemName: "shield.fill")
                                     .font(.caption)
@@ -386,7 +394,7 @@ struct VueQuestion: View {
                 .opacity(apparu ? 1 : 0)
                 .animation(.spring(duration: 0.4, bounce: 0.3), value: apparu)
             if joueurAttaque && !attaqueFinie {
-                Label("Réponds aussi, en secret : juste, +\(bonusTexte) de dégâts ou −\(bonusTexte) sur la contre-attaque ; faux, l'inverse. Passe si tu n'es pas sûr.",
+                Label("Réponds aussi, en secret : juste, +\(bonusTexte) de dégâts si l'adversaire se trompe ; faux, −\(bonusTexte). Passe si tu n'es pas sûr.",
                       systemImage: "person.fill.questionmark")
                     .font(.caption)
                     .foregroundStyle(Charte.or)
@@ -423,7 +431,7 @@ struct VueQuestion: View {
                 .foregroundStyle(.secondary)
             }
             if joueurAttaque && attaqueFinie {
-                Text(reponseAttaque == nil ? "Tu as passé : dégâts et contre-attaque normaux." : "Réponse enregistrée, révélée avec celle de l'adversaire.")
+                Text(reponseAttaque == nil ? "Tu as passé : dégâts normaux." : "Réponse enregistrée, révélée avec celle de l'adversaire.")
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
@@ -453,15 +461,24 @@ struct VueResultat: View {
     let continuer: () -> Void
 
     @State private var apparu = false
+    /// Bulle d'aide montrée au premier combat, puis plus jamais.
+    @AppStorage("aideResultatVue") private var aideVue = false
+
+    private var joueurDefend: Bool { resultat.defenseurEstJoueur }
+
+    /// Bon pour le joueur : il a esquivé, ou l'adversaire a été touché.
+    private var bonPourJoueur: Bool { resultat.correct == joueurDefend }
 
     private var titre: String {
-        if resultat.reponse == nil { return "Temps écoulé !" }
-        return resultat.correct ? "Bonne réponse !" : "Mauvaise réponse"
+        if resultat.correct { return joueurDefend ? "Esquive !" : "L'adversaire a trouvé : esquive" }
+        if resultat.reponse == nil { return joueurDefend ? "Temps écoulé : touché !" : "Temps écoulé : touché !" }
+        return joueurDefend ? "Touché !" : "L'adversaire s'est trompé : touché !"
     }
 
     private var icone: String {
+        if resultat.correct { return "figure.run" }
         if resultat.reponse == nil { return "timer" }
-        return resultat.correct ? "checkmark.seal.fill" : "xmark.octagon.fill"
+        return "burst.fill"
     }
 
     var body: some View {
@@ -471,9 +488,10 @@ struct VueResultat: View {
                     .font(.title)
                     .symbolEffect(.bounce, value: apparu)
                 Text(titre)
-                    .font(.titre(24, relativeTo: .title2))
+                    .font(.titre(22, relativeTo: .title2))
+                    .fixedSize(horizontal: false, vertical: true)
             }
-            .foregroundStyle(resultat.correct ? Color.green : Color.red)
+            .foregroundStyle(bonPourJoueur ? Color.green : Color.red)
             .overlay {
                 if resultat.vitesse == .eclair {
                     Etincelles(couleur: .yellow)
@@ -494,6 +512,12 @@ struct VueResultat: View {
                     Text(resultat.question.choix[i])
                         .font(.subheadline.weight(bonne ? .bold : .regular))
                     Spacer()
+                    if choisie {
+                        etiquette(joueurDefend ? "Toi" : "Adversaire", couleur: bonne ? .green : .red)
+                    }
+                    if resultat.questionneurARepondu && i == resultat.reponseQuestionneur {
+                        etiquette(joueurDefend ? "Adversaire" : "Toi", couleur: Charte.or)
+                    }
                 }
                 .padding(.vertical, 6)
                 .padding(.horizontal, 10)
@@ -511,37 +535,58 @@ struct VueResultat: View {
             Divider()
 
             VStack(alignment: .leading, spacing: 8) {
-                if let ligneQ = ligneQuestionneur {
-                    ligne(ligneQ.texte, ligneQ.icone)
-                        .foregroundStyle(ligneQ.bonne ? Color.green : Color.orange)
-                }
                 if resultat.correct {
+                    ligne("\(resultat.defenseurNom) esquive : personne ne perd de PV", "figure.run")
                     if let effet = resultat.effetVitesse {
                         ligne(effet, "bolt.horizontal.fill")
+                    } else if let r = resultat.riposteGagnee {
+                        ligne("Riposte : la prochaine attaque de \(resultat.defenseurNom) fera +\(Int(((r - 1) * 100).rounded())) %", "arrow.uturn.forward")
                     }
-                    ligne("Contre-attaque : \(resultat.attaquantNom) perd \(resultat.degatsContre) PV", "arrow.uturn.backward")
                     if resultat.jaugeRemplie {
                         ligne("Inspiration pleine : \(resultat.defenseurNom) fera double dégâts à sa prochaine attaque", "bolt.fill")
                     }
                 } else {
                     ligne("\(resultat.defenseurNom) perd \(resultat.degatsDefenseur) PV", "burst.fill")
+                    if resultat.riposteUtilisee {
+                        ligne("Riposte : \(resultat.attaquantNom) frappe plus fort", "arrow.uturn.forward")
+                    }
                     if resultat.degatsAbsorbes > 0 {
                         ligne("Bouclier : \(resultat.degatsAbsorbes) PV absorbés", "shield.fill")
                     }
                     if resultat.capaciteUtilisee {
-                        ligne("Capacité spéciale : dégâts doublés", "bolt.fill")
+                        ligne("Coup de maître : dégâts doublés", "bolt.fill")
                     }
+                }
+                if let ligneQ = ligneQuestionneur {
+                    ligne(ligneQ.texte, ligneQ.icone)
+                        .foregroundStyle(ligneQ.bonne ? Color.green : Color.orange)
                 }
                 if resultat.koDefenseur {
                     ligne("\(resultat.defenseurNom) est K.O. !", "xmark.octagon.fill")
-                }
-                if resultat.koAttaquant {
-                    ligne("\(resultat.attaquantNom) est K.O. !", "xmark.octagon.fill")
                 }
             }
             .opacity(apparu ? 1 : 0)
             .offset(y: apparu ? 0 : 12)
             .animation(.easeOut(duration: 0.4).delay(0.25), value: apparu)
+
+            if !aideVue {
+                VStack(alignment: .leading, spacing: 6) {
+                    Label("Comment ça marche ?", systemImage: "questionmark.bubble.fill")
+                        .font(.nom(14, relativeTo: .subheadline))
+                        .foregroundStyle(Charte.or)
+                    Text("Seul celui qui pose la question fait mal. Si le défenseur trouve, il esquive : personne ne perd de PV. S'il se trompe, il prend les dégâts. Quand tu attaques, réponds aussi à ta question : juste, tes dégâts montent de \(Int(Regles.bonusQuestionneur * 100)) %.")
+                        .font(.footnote)
+                        .foregroundStyle(Charte.ivoire)
+                        .fixedSize(horizontal: false, vertical: true)
+                    Button("Compris") { withAnimation { aideVue = true } }
+                        .font(.footnote.bold())
+                        .tint(Charte.or)
+                }
+                .padding(10)
+                .background(Charte.marine.opacity(0.85), in: RoundedRectangle(cornerRadius: 12))
+                .overlay(RoundedRectangle(cornerRadius: 12).stroke(Charte.or.opacity(0.5), lineWidth: 1))
+                .transition(.opacity)
+            }
 
             Button(action: continuer) {
                 Text("Suivant")
@@ -553,28 +598,37 @@ struct VueResultat: View {
             .tint(.orange)
             .padding(.top, 6)
         }
-        .sensoryFeedback(resultat.correct ? .success : .error, trigger: apparu)
+        .sensoryFeedback(bonPourJoueur ? .success : .error, trigger: apparu)
         .onAppear { apparu = true }
     }
 
-    /// Ce qu'a changé la réponse du questionneur à sa propre question.
+    private func etiquette(_ texte: String, couleur: Color) -> some View {
+        Text(texte)
+            .font(.caption2.bold())
+            .padding(.horizontal, 6)
+            .padding(.vertical, 2)
+            .background(couleur.opacity(0.25), in: Capsule())
+            .foregroundStyle(couleur)
+    }
+
+    /// Ce qu'a changé la réponse du questionneur à sa propre question, chiffré.
     private var ligneQuestionneur: (texte: String, icone: String, bonne: Bool)? {
         guard let juste = resultat.questionneurCorrect else {
-            return resultat.defenseurEstJoueur ? nil : ("Tu as passé ta question : effet normal", "forward.fill", true)
+            return joueurDefend ? nil : ("Tu as passé ta question : dégâts normaux", "forward.fill", true)
         }
-        let p = "\(Int(Regles.bonusQuestionneur * 100)) %"
-        let effet: String
-        if resultat.correct {
-            effet = juste ? "contre-attaque −\(p)" : "contre-attaque +\(p)"
-        } else {
-            effet = juste ? "dégâts +\(p)" : "dégâts −\(p)"
-        }
-        let phrase = resultat.defenseurEstJoueur
+        let qui = joueurDefend
             ? "\(resultat.attaquantNom) \(juste ? "a bien répondu" : "s'est trompé") à sa propre question"
             : "Tu \(juste ? "as bien répondu" : "t'es trompé") à ta propre question"
-        let xp = !resultat.defenseurEstJoueur && juste ? " · +\(Gains.xpCombattantBonneReponseAttaque) Savoir" : ""
-        let bonnePourJoueur = resultat.defenseurEstJoueur ? !juste : juste
-        return ("\(phrase) : \(effet)\(xp)", juste ? "person.fill.checkmark" : "person.fill.xmark", bonnePourJoueur)
+        let effet: String
+        if resultat.correct {
+            effet = "sans effet, l'adversaire a esquivé"
+        } else {
+            let p = Int(Regles.bonusQuestionneur * 100)
+            effet = "\(juste ? "+" : "−")\(p) % (\(resultat.degatsDefenseur + resultat.degatsAbsorbes) PV au lieu de \(resultat.degatsSansQuestionneur))"
+        }
+        let xp = !joueurDefend && juste ? " · +\(Gains.xpCombattantBonneReponseAttaque) Savoir" : ""
+        let bonnePourJoueur = joueurDefend ? !juste : juste
+        return ("\(qui) : \(effet)\(xp)", juste ? "person.fill.checkmark" : "person.fill.xmark", bonnePourJoueur)
     }
 
     private func ligne(_ texte: String, _ icone: String) -> some View {

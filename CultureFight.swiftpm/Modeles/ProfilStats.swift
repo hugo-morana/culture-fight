@@ -18,7 +18,7 @@ enum NoteSpecialite: String, Codable, Sendable, CaseIterable {
     var explication: String {
         switch self {
         case .facile:
-            return "Spécialité facile : l'adversaire répond souvent juste et contre-attaque, donc un budget de stats plus gros."
+            return "Spécialité facile : l'adversaire répond souvent juste et esquive, donc un budget de stats plus gros."
         case .moyenne:
             return "Spécialité de difficulté moyenne : budget de référence."
         case .pointue:
@@ -56,6 +56,10 @@ enum ProfilStats {
         let synergie: Double
         let bouclierChevaliers: Int
         let secondesCreatures: Double
+        /// Riposte : bonus de la prochaine attaque après une bonne réponse Éclair, puis Rapide.
+        let riposte: [Double]?
+        /// Bouclier de vitesse : part des dégâts de la prochaine erreur retirée, Éclair puis Rapide.
+        let bouclierVitesse: [Double]?
         /// Attaque, Défense, PV.
         let repartition: [String: [NiveauStat]]
         let notes: [String: NoteSpecialite]
@@ -73,6 +77,16 @@ enum ProfilStats {
     static var synergie: Double { fichier?.synergie ?? 1.5 }
     static var bouclierChevaliers: Int { fichier?.bouclierChevaliers ?? 10 }
     static var secondesCreatures: Double { fichier?.secondesCreatures ?? 2 }
+
+    static var riposte: (eclair: Double, rapide: Double) {
+        let r = fichier?.riposte ?? [0.5, 0.25]
+        return (r.first ?? 0.5, r.count > 1 ? r[1] : 0.25)
+    }
+
+    static var bouclierVitesse: (eclair: Double, rapide: Double) {
+        let b = fichier?.bouclierVitesse ?? [0.2, 0.1]
+        return (b.first ?? 0.2, b.count > 1 ? b[1] : 0.1)
+    }
 
     static func note(_ id: String) -> NoteSpecialite { fichier?.notes[id] ?? .moyenne }
 

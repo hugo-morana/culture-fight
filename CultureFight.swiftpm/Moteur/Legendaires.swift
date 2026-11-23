@@ -10,7 +10,7 @@ enum Legendaires {
                               famille: "Légendaires", domaine: domaine)
         return ModeleCombattant(id: id, nom: nom, style: style, familleStyle: familleStyle,
                                 specialite: spec, rarete: .legendaire,
-                                pvMax: 130, attaque: 62, defense: 8, difficulte: 2,
+                                pvMax: 130, attaque: 75, defense: 8, difficulte: 2,
                                 apparence: apparence,
                                 questions: "Toutes les spécialités du domaine \(domaine), tirées au hasard.",
                                 generateur: GenerateurDomaine(domaine: domaine))

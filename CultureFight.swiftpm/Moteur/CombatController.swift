@@ -103,7 +103,7 @@ final class CombatController {
         ServiceSons.partage.jouer(.selection)
     }
 
-    /// Le joueur ne répond pas à sa propre question : dégâts et contre-attaque normaux.
+    /// Le joueur ne répond pas à sa propre question : dégâts normaux.
     func passerAttaque() {
         guard joueurAttaque, case .question = phase, !attaqueFinie else { return }
         reponseAttaque = nil

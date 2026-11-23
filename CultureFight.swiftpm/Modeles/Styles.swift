@@ -2,20 +2,20 @@ import Foundation
 
 /// Ce que rapporte une bonne réponse rapide, selon la famille de styles du combattant qui répond.
 enum EffetVitesse: Sendable {
-    /// La contre-attaque fait plus de dégâts.
-    case contreAttaque
+    /// Riposte : la prochaine attaque du combattant fait plus de dégâts.
+    case riposte
     /// Le combattant regagne des PV.
     case soin
     /// La prochaine erreur du combattant coûte moins de PV.
     case bouclier
-    /// La jauge de Savoir se remplit plus vite.
+    /// La jauge d'Inspiration se remplit plus vite.
     case savoir
     /// L'adversaire aura moins de temps à sa prochaine réponse.
     case pression
 
     var nom: String {
         switch self {
-        case .contreAttaque: return "Contre-attaque"
+        case .riposte: return "Riposte"
         case .soin: return "Soin"
         case .bouclier: return "Bouclier"
         case .savoir: return "Inspiration"
@@ -26,9 +26,9 @@ enum EffetVitesse: Sendable {
     /// Effet en clair, pour l'écran de choix de l'équipe.
     var description: String {
         switch self {
-        case .contreAttaque: return "contre-attaque +50 % (Éclair) ou +25 % (Rapide)"
+        case .riposte: return "sa prochaine attaque fait +50 % (Éclair) ou +25 % (Rapide) de dégâts"
         case .soin: return "regagne 15 PV (Éclair) ou 8 PV (Rapide)"
-        case .bouclier: return "sa prochaine erreur coûte 30 % (Éclair) ou 15 % (Rapide) de PV en moins"
+        case .bouclier: return "sa prochaine erreur coûte 20 % (Éclair) ou 10 % (Rapide) de PV en moins"
         case .savoir: return "jauge d'Inspiration +2 cases (Éclair) ou +1 case (Rapide) en plus"
         case .pression: return "l'adversaire aura 4 s (Éclair) ou 2 s (Rapide) de moins à sa prochaine réponse"
         }
@@ -50,7 +50,7 @@ enum FamilleStyle: String, Sendable {
 
     var effetVitesse: EffetVitesse {
         switch self {
-        case .guerriersLourds, .artsMartiaux, .tireurs: return .contreAttaque
+        case .guerriersLourds, .artsMartiaux, .tireurs: return .riposte
         case .creatures, .mortsVivants: return .soin
         case .chevaliers, .soldats: return .bouclier
         case .mages: return .savoir

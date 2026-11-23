@@ -8,7 +8,7 @@ enum Regles {
     static let toursMax = 30
     static let degatsMin = 5
     static let jaugeMax = 3
-    /// Le questionneur répond aussi : ±20 % sur ses dégâts ou sur la contre-attaque reçue
+    /// Le questionneur répond aussi : ±20 % sur ses dégâts
     /// (game design, idées n° 10 et 16, valeur fixée par outils/simulation_questionneur.py).
     static let bonusQuestionneur = 0.2
 
@@ -46,12 +46,18 @@ struct ResultatTour: Sendable {
     let degatsDefenseur: Int
     /// Part des dégâts absorbée par un bouclier.
     let degatsAbsorbes: Int
-    /// PV perdus par l'attaquant (contre-attaque après une bonne réponse).
+    /// Toujours 0 depuis la règle « seul l'attaquant fait mal » (gardé pour la revue des anciennes parties).
     let degatsContre: Int
     let capaciteUtilisee: Bool
     let jaugeRemplie: Bool
     let koDefenseur: Bool
     let koAttaquant: Bool
+    /// Dégâts avant le bonus ou le malus du questionneur, pour l'afficher (« 18 PV au lieu de 15 »).
+    var degatsSansQuestionneur = 0
+    /// La Riposte de l'attaquant a renforcé ce coup.
+    var riposteUtilisee = false
+    /// Riposte préparée par le défenseur après sa bonne réponse (multiplicateur), nil s'il n'y en a pas.
+    var riposteGagnee: Double? = nil
     /// Réponse du questionneur à sa propre question (nil s'il a passé ou n'a pas répondu).
     var reponseQuestionneur: Int? = nil
     /// Le questionneur a-t-il répondu (faux s'il a passé, ou si la règle est désactivée) ?
@@ -152,7 +158,7 @@ struct Combat: Sendable {
     /// - Parameter secondes: temps mis pour répondre.
     mutating func resoudre(question: Question, affinite: Affinite, reponse: Int?, secondes: Double,
                            reponseQuestionneur: Int? = nil, questionneurARepondu: Bool = false) -> ResultatTour {
-        // Le questionneur a répondu juste : +20 % de dégâts ou −20 % sur la contre-attaque ; faux : l'inverse.
+        // Le questionneur a répondu juste : +20 % de dégâts ; faux : −20 %. Sans effet si le défenseur esquive.
         let facteurQuestionneur: Double = questionneurARepondu
             ? (reponseQuestionneur == question.bonneReponse ? 1 + Regles.bonusQuestionneur : 1 - Regles.bonusQuestionneur)
             : 1
@@ -165,36 +171,45 @@ struct Combat: Sendable {
 
         var degatsDefenseur = 0
         var degatsAbsorbes = 0
-        var degatsContre = 0
+        let degatsContre = 0
+        var degatsSansQuestionneur = 0
+        var riposteUtilisee = false
         var capaciteUtilisee = false
         var jaugeRemplie = false
         var effetVitesse: String?
 
+        // La Riposte se dépense à la prochaine question posée par le combattant, qu'elle touche ou non.
+        let riposte = camps[a].combattants[ia].riposte
+        camps[a].combattants[ia].riposte = 1
+        var riposteGagnee = 1.0
+
         if correct {
-            // Bonus de vitesse : son effet dépend de la famille de styles de celui qui a répondu.
-            var multiplicateurVitesse = 1.0
+            // Seul l'attaquant fait mal : une bonne réponse est une esquive totale, personne ne perd de PV.
             var casesEnPlus = 0
-            // Synergie d'équipe : 3 combattants de la même famille de styles doublent le bonus.
             // Synergie : ×1,5 (outils/simulation.py ; ×2 donnait plus de 55 % aux équipes d'une seule famille).
             let k = camps[d].synergie == def.modele.familleStyle ? ProfilStats.synergie : 1
             let mention = k > 1 ? " (synergie ×\(Regles.texteSynergie))" : ""
             if vitesse != .normale {
                 switch def.modele.familleStyle.effetVitesse {
-                case .contreAttaque:
-                    let bonus = Int((Double(eclair ? 50 : 25) * k).rounded())
-                    multiplicateurVitesse = 1 + Double(bonus) / 100
-                    effetVitesse = "\(vitesse.nom) Contre-attaque +\(bonus) %\(mention)"
+                case .riposte:
+                    let r = ProfilStats.riposte
+                    riposteGagnee = 1 + (eclair ? r.eclair : r.rapide) * k
+                    effetVitesse = "\(vitesse.nom) Riposte : la prochaine attaque de \(def.nom) fera +\(Int(((riposteGagnee - 1) * 100).rounded())) %\(mention)"
                 case .soin:
                     let soin = Int((Double(eclair ? 15 : 8) * k).rounded())
                     let avant = camps[d].combattants[id].pv
                     camps[d].combattants[id].pv = min(def.pvMax, avant + soin)
-                    effetVitesse = "\(vitesse.nom) \(def.nom) regagne \(camps[d].combattants[id].pv - avant) PV\(mention)"
+                    let gagne = camps[d].combattants[id].pv - avant
+                    // Pas de « regagne 0 PV » quand le combattant a déjà tous ses PV.
+                    effetVitesse = gagne > 0 ? "\(vitesse.nom) \(def.nom) regagne \(gagne) PV\(mention)" : nil
                 case .bouclier:
-                    let bouclier = (eclair ? 0.3 : 0.15) * k
+                    let b = ProfilStats.bouclierVitesse
+                    let bouclier = (eclair ? b.eclair : b.rapide) * k
                     camps[d].combattants[id].bouclier = max(camps[d].combattants[id].bouclier, bouclier)
-                    effetVitesse = "\(vitesse.nom) Bouclier : sa prochaine erreur coûtera \(Int(bouclier * 100)) % de PV en moins\(mention)"
+                    effetVitesse = "\(vitesse.nom) Bouclier : sa prochaine erreur coûtera \(Int((bouclier * 100).rounded())) % de PV en moins\(mention)"
                 case .savoir:
-                    casesEnPlus = Int((Double(eclair ? 2 : 1) * k).rounded())
+                    // Arrondi vers le bas : 3 cases en Éclair, 1 en Rapide avec la synergie.
+                    casesEnPlus = Int((Double(eclair ? 2 : 1) * k).rounded(.down))
                     effetVitesse = "\(vitesse.nom) Inspiration +\(casesEnPlus) case\(casesEnPlus > 1 ? "s" : "") en plus\(mention)"
                 case .pression:
                     let malus = (eclair ? 4.0 : 2.0) * k
@@ -202,15 +217,11 @@ struct Combat: Sendable {
                     effetVitesse = "\(vitesse.nom) Pression : l'adversaire aura \(Int(malus)) s de moins à sa prochaine réponse\(mention)"
                 }
             }
-
-            // Contre-attaque : moitié des dégâts, avec l'Attaque du défenseur.
-            let base = Regles.degats(attaque: def.attaque,
-                                     difficulte: question.difficulte,
-                                     defense: att.defense)
-            degatsContre = max(Regles.degatsMin,
-                               Int((Double(base) * 0.5 * affinite.multiplicateurContre * multiplicateurVitesse
-                                    * (2 - facteurQuestionneur)).rounded()))
-            camps[a].combattants[ia].pv -= camps[a].combattants[ia].absorber(degatsContre)
+            // Affinité : le spécialiste qui trouve prépare une attaque plus forte.
+            riposteGagnee = max(riposteGagnee, affinite.multiplicateurRiposte)
+            if riposteGagnee > 1 {
+                camps[d].combattants[id].riposte = max(camps[d].combattants[id].riposte, riposteGagnee)
+            }
 
             camps[d].combattants[id].jauge += 1 + casesEnPlus
             if camps[d].combattants[id].jauge >= camps[d].combattants[id].jaugeMax {
@@ -227,8 +238,12 @@ struct Combat: Sendable {
                 camps[a].combattants[ia].capacitePrete = false
                 capaciteUtilisee = true
             }
+            let avantQuestionneur = max(Regles.degatsMin,
+                                        Int((Double(degats) * affinite.multiplicateurDegatsRecus * riposte).rounded()))
             degats = max(Regles.degatsMin,
-                         Int((Double(degats) * affinite.multiplicateurDegatsRecus * facteurQuestionneur).rounded()))
+                         Int((Double(degats) * affinite.multiplicateurDegatsRecus * riposte * facteurQuestionneur).rounded()))
+            degatsSansQuestionneur = avantQuestionneur
+            riposteUtilisee = riposte > 1
             let bouclier = camps[d].combattants[id].bouclier
             if bouclier > 0 {
                 degatsAbsorbes = Int((Double(degats) * bouclier).rounded())
@@ -268,6 +283,9 @@ struct Combat: Sendable {
                             jaugeRemplie: jaugeRemplie,
                             koDefenseur: koDefenseur,
                             koAttaquant: koAttaquant)
+        resultat.degatsSansQuestionneur = degatsSansQuestionneur
+        resultat.riposteUtilisee = riposteUtilisee
+        resultat.riposteGagnee = correct && riposteGagnee > 1 ? riposteGagnee : nil
         resultat.reponseQuestionneur = reponseQuestionneur
         resultat.questionneurARepondu = questionneurARepondu
         return resultat

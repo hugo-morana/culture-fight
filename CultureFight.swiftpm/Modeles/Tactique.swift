@@ -33,7 +33,7 @@ enum ProfilDifficulte: String, CaseIterable, Identifiable, Sendable {
         switch self {
         case .aleatoire: return "Difficulté tirée au hasard autour de celle du combattant (−1 à +1). Imprévisible."
         case .montee: return "Commence facile puis monte d'un cran à chaque question : l'adversaire se fait piéger en fin de combat."
-        case .frappe: return "Commence très difficile pour viser le K.O. rapide, puis redescend. Attention aux contre-attaques."
+        case .frappe: return "Commence très difficile pour viser le K.O. rapide, puis redescend. Ses questions difficiles sont aussi plus dures à réussir soi-même."
         case .constant: return "Toujours la difficulté du combattant : régulier et prévisible."
         }
     }
