@@ -1,15 +1,15 @@
 {
- "methode": "Stats selon le style et la spécialité : la note de la spécialité fixe le budget, la famille de styles le répartit (Attaque, Défense, PV). Valeurs fixées par outils/simulation.py ; hypothèses dans l'en-tête du script.",
+ "methode": "Stats selon le style et la spécialité, règle « seul l'attaquant fait mal » (23/11) : la note de la spécialité fixe le budget, la famille de styles le répartit (Attaque, Défense, PV). Attaque de base 60 pour 100 PV, combats d'environ 19 tours. Valeurs fixées par outils/simulation.py ; hypothèses dans l'en-tête du script.",
  "budgets": {
   "Commun": {
-   "Facile": 240,
-   "Moyenne": 200,
-   "Pointue": 171
+   "Facile": 294,
+   "Moyenne": 230,
+   "Pointue": 195
   },
   "Rare": {
-   "Facile": 274,
-   "Moyenne": 228,
-   "Pointue": 195
+   "Facile": 335,
+   "Moyenne": 262,
+   "Pointue": 222
   }
  },
  "prix": {
@@ -18,14 +18,14 @@
   "defense": 2.5
  },
  "parts": {
-  "pv": 0.5,
-  "attaque": 0.45,
-  "defense": 0.05
+  "pv": 0.4348,
+  "attaque": 0.5217,
+  "defense": 0.0435
  },
  "ecart": 0.2,
  "plafondDefense": 12,
  "synergie": 1.5,
- "bouclierChevaliers": 10,
+ "bouclierChevaliers": 5,
  "secondesCreatures": 2,
  "repartition": {
   "Guerriers lourds": [
@@ -82,86 +82,86 @@
  "victoires": {
   "Commun": {
    "Guerriers lourds": {
+    "variee": 50,
+    "seule": 55
+   },
+   "Arts martiaux": {
     "variee": 52,
+    "seule": 55
+   },
+   "Tireurs": {
+    "variee": 49,
+    "seule": 49
+   },
+   "Créatures": {
+    "variee": 49,
+    "seule": 49
+   },
+   "Morts-vivants": {
+    "variee": 51,
+    "seule": 51
+   },
+   "Chevaliers": {
+    "variee": 50,
+    "seule": 54
+   },
+   "Soldats": {
+    "variee": 49,
+    "seule": 52
+   },
+   "Mages": {
+    "variee": 50,
+    "seule": 54
+   },
+   "Ombres": {
+    "variee": 48,
+    "seule": 46
+   },
+   "Bretteurs": {
+    "variee": 51,
+    "seule": 49
+   }
+  },
+  "Rare": {
+   "Guerriers lourds": {
+    "variee": 51,
     "seule": 55
    },
    "Arts martiaux": {
     "variee": 51,
-    "seule": 54
+    "seule": 55
    },
    "Tireurs": {
-    "variee": 49,
-    "seule": 53
+    "variee": 48,
+    "seule": 51
    },
    "Créatures": {
-    "variee": 50,
-    "seule": 54
+    "variee": 48,
+    "seule": 50
    },
    "Morts-vivants": {
-    "variee": 52,
-    "seule": 52
+    "variee": 50,
+    "seule": 51
    },
    "Chevaliers": {
-    "variee": 48,
-    "seule": 54
+    "variee": 51,
+    "seule": 52
    },
    "Soldats": {
-    "variee": 47,
-    "seule": 45
+    "variee": 49,
+    "seule": 51
    },
    "Mages": {
-    "variee": 51,
-    "seule": 54
+    "variee": 53,
+    "seule": 53
    },
    "Ombres": {
     "variee": 50,
     "seule": 48
    },
    "Bretteurs": {
-    "variee": 49,
+    "variee": 48,
     "seule": 49
-   }
-  },
-  "Rare": {
-   "Guerriers lourds": {
-    "variee": 52,
-    "seule": 55
-   },
-   "Arts martiaux": {
-    "variee": 51,
-    "seule": 54
-   },
-   "Tireurs": {
-    "variee": 53,
-    "seule": 55
-   },
-   "Créatures": {
-    "variee": 51,
-    "seule": 54
-   },
-   "Morts-vivants": {
-    "variee": 51,
-    "seule": 52
-   },
-   "Chevaliers": {
-    "variee": 49,
-    "seule": 53
-   },
-   "Soldats": {
-    "variee": 49,
-    "seule": 46
-   },
-   "Mages": {
-    "variee": 50,
-    "seule": 53
-   },
-   "Ombres": {
-    "variee": 51,
-    "seule": 51
-   },
-   "Bretteurs": {
-    "variee": 49,
-    "seule": 50
    }
   }
  },
@@ -579,12 +579,20 @@
  },
  "victoiresNotes": {
   "Commun": {
-   "Facile": 50,
-   "Pointue": 50
+   "Facile": 49,
+   "Pointue": 52
   },
   "Rare": {
-   "Facile": 50,
-   "Pointue": 49
+   "Facile": 51,
+   "Pointue": 52
   }
- }
+ },
+ "riposte": [
+  0.5,
+  0.25
+ ],
+ "bouclierVitesse": [
+  0.2,
+  0.1
+ ]
 }

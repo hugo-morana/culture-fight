@@ -3,8 +3,8 @@
 
 Le budget de stats dépend de la rareté et de la note de la spécialité (Facile, Moyenne, Pointue) ;
 la famille de styles le répartit entre Attaque, Défense et PV (Haute +20 %, Moyenne, Basse −20 %).
-Combats 3 contre 3 selon les règles de Combat.swift : contre-attaque à 50 %, jauge de Savoir,
-effets de vitesse des familles, bonus des Chevaliers (bouclier après un K.O.) et des Créatures
+Combats 3 contre 3 selon les règles de Combat.swift : seul l'attaquant fait mal (une bonne réponse
+est une esquive totale), jauge d'Inspiration, effets de vitesse des familles (dont la Riposte), bonus des Chevaliers (bouclier après un K.O.) et des Créatures
 (secondes retirées sur leur première question), synergie, questionneur qui répond aussi (±20 %).
 Hypothèses : l'adversaire répond juste à 80 % (Facile), 65 % (Moyenne) ou 50 % (Pointue) en difficulté 1,
 8 points de moins par niveau ; difficulté tirée de 1 à 3 ; le questionneur connaît sa propre question
@@ -17,7 +17,7 @@ import json, math, os, random
 ICI = os.path.dirname(os.path.abspath(__file__))
 PROFILS = os.path.join(ICI, "..", "CultureFight.swiftpm", "Resources", "profils.json")
 REUSSITE = {"Facile": 0.80, "Moyenne": 0.65, "Pointue": 0.50}
-EFFET = {"Guerriers lourds": "contre", "Arts martiaux": "contre", "Tireurs": "contre", "Créatures": "soin",
+EFFET = {"Guerriers lourds": "riposte", "Arts martiaux": "riposte", "Tireurs": "riposte", "Créatures": "soin",
          "Morts-vivants": "soin", "Chevaliers": "bouclier", "Soldats": "bouclier", "Mages": "savoir",
          "Ombres": "pression", "Bretteurs": "pression"}
 FAMILLES = list(EFFET)
@@ -58,7 +58,7 @@ def vitesse(malus):
 
 def combat(A, B, p):
     K, chev, crea, bq = p["synergie"], p["bouclierChevaliers"], p["secondesCreatures"], 0.2
-    camps = [[dict(c, pvmax=c["pv"], j=0, cap=False, bou=0, abs=0, posee=False) for c in X] for X in (A, B)]
+    camps = [[dict(c, pvmax=c["pv"], j=0, cap=False, bou=0, abs=0, posee=False, rip=1) for c in X] for X in (A, B)]
     syn = [X[0]["fam"] if all(c["fam"] == X[0]["fam"] for c in X) else None for X in (A, B)]
     act, malus, prem, n = [0, 0], [0, 0], random.randint(0, 1), 3
     tours = 0
@@ -76,24 +76,23 @@ def combat(A, B, p):
         reussite = REUSSITE[at["note"]] - 0.08 * (diff - 1) - 0.0125 * m
         q = min(0.95, REUSSITE[at["note"]] + 0.15 - 0.08 * (diff - 1))
         fq = 1 + bq if random.random() < q else 1 - bq
+        riposte = at["rip"]; at["rip"] = 1  # la Riposte se dépense à la prochaine question posée
         if random.random() < reussite:
-            v = vitesse(m); mult = 1; cases = 0
+            # Bonne réponse : esquive totale, personne ne perd de PV (« seul l'attaquant fait mal »).
+            v = vitesse(m); cases = 0
             if v != "normale":
                 e = v == "eclair"; eff = EFFET[de["fam"]]
-                if eff == "contre": mult = 1 + (0.5 if e else 0.25) * kd
+                if eff == "riposte": de["rip"] = max(de["rip"], 1 + p["riposte"][0 if e else 1] * kd)
                 elif eff == "soin": de["pv"] = min(de["pvmax"], de["pv"] + round((15 if e else 8) * kd))
-                elif eff == "bouclier": de["bou"] = max(de["bou"], (0.3 if e else 0.15) * kd)
-                elif eff == "savoir": cases = round((2 if e else 1) * kd)
+                elif eff == "bouclier": de["bou"] = max(de["bou"], p.get("bouclierVitesse", [0.3, 0.15])[0 if e else 1] * kd)
+                elif eff == "savoir": cases = int((2 if e else 1) * kd)  # arrondi vers le bas
                 elif eff == "pression": malus[a] = (4 if e else 2) * kd
-            x = max(5, round(degats(de["attaque"], at["defense"], diff) * 0.5 * mult * (2 - fq)))
-            if at["abs"] > 0: y = min(at["abs"], x); at["abs"] -= y; x -= y
-            at["pv"] -= x
             de["j"] += 1 + cases
             if de["j"] >= 3: de["j"] = 0; de["cap"] = True
         else:
             x = degats(at["attaque"], de["defense"], diff)
             if at["cap"]: x *= 2; at["cap"] = False
-            x = max(5, round(x * fq))
+            x = max(5, round(x * fq * riposte))
             if de["bou"] > 0: x -= round(x * de["bou"]); de["bou"] = 0
             if de["abs"] > 0: y = min(de["abs"], x); de["abs"] -= y; x -= y
             de["pv"] -= x
