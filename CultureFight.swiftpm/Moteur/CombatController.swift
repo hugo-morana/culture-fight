@@ -205,6 +205,8 @@ final class CombatController {
             phase = .fin
             return
         }
+        // Le combattant K.O. au tour précédent laisse maintenant la place à son remplaçant.
+        if combat.remplacerLesKO() { ServiceSons.partage.jouer(.changement) }
         // La question d'abord : la première question d'une Créature ajoute des secondes au malus du défenseur.
         let tirage = combat.preparerQuestion()
         malusTemps = combat.consommerMalusTemps()
@@ -269,7 +271,6 @@ final class CombatController {
         guard case .question = phase, let question else { return }
         let secondes = Date().timeIntervalSince(debutQuestion)
         let avant = combat.camps.map { pvActifs($0) }
-        let actifsAvant = combat.camps.map(\.indexActif)
         let campDefenseur = combat.camps[combat.defenseur]
         let joueurDefend = !campDefenseur.estIA
         let defenseurID = campDefenseur.actif.modele.id
@@ -308,9 +309,7 @@ final class CombatController {
         }
         phase = .resultat(resultat)
         jouerSons(resultat, joueurDefend: joueurDefend)
-        if combat.camps.map(\.indexActif) != actifsAvant, !combat.estTermine {
-            ServiceSons.partage.jouer(.changement, apres: 1.0)
-        }
+
     }
 
     /// Bruitages d'un tour : la réponse du joueur tout de suite, puis l'impact au moment où

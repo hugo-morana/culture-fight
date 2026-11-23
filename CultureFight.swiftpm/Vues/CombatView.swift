@@ -236,6 +236,20 @@ struct CarteCamp: View {
             ZStack {
                 HStack(spacing: 12) {
                     Avatar(modele: actif.modele, taille: 64)
+                        .saturation(actif.estKO ? 0 : 1)
+                        .overlay {
+                            if actif.estKO {
+                                Text("K.O.")
+                                    .font(.titre(18, relativeTo: .headline))
+                                    .foregroundStyle(.white)
+                                    .padding(.horizontal, 6)
+                                    .padding(.vertical, 2)
+                                    .background(Color.red, in: RoundedRectangle(cornerRadius: 4))
+                                    .rotationEffect(.degrees(-14))
+                                    .transition(.scale(scale: 2.2).combined(with: .opacity))
+                            }
+                        }
+                        .animation(.spring(duration: 0.35, bounce: 0.5).delay(0.4), value: actif.estKO)
                     VStack(alignment: .leading, spacing: 4) {
                         HStack {
                             Text(actif.nom).font(.nom(18)).lineLimit(1).minimumScaleFactor(0.7)

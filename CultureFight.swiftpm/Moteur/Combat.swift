@@ -107,6 +107,15 @@ struct Combat: Sendable {
         return camps[0].pvTotal > camps[1].pvTotal ? 0 : 1
     }
 
+    /// Fait entrer un remplaçant à la place de chaque combattant actif K.O. (début du tour suivant).
+    /// Renvoie vrai si un combattant a été remplacé.
+    @discardableResult
+    mutating func remplacerLesKO() -> Bool {
+        let avant = camps.map(\.indexActif)
+        for camp in camps.indices { camps[camp].remplacerSiKO() }
+        return camps.map(\.indexActif) != avant
+    }
+
     /// Le combattant actif de l'attaquant tire une question de sa spécialité.
     mutating func preparerQuestion() -> (question: Question, affinite: Affinite, retires: Set<Int>) {
         let att = camps[attaquant].actif
@@ -263,8 +272,9 @@ struct Combat: Sendable {
             for i in camps[camp].combattants.indices where camps[camp].combattants[i].pv < 0 {
                 camps[camp].combattants[i].pv = 0
             }
-            camps[camp].remplacerSiKO()
         }
+        // Le combattant K.O. reste à l'écran jusqu'au bouton Suivant : il n'est remplacé
+        // qu'au début du tour suivant (`remplacerLesKO`, retour bêta n° 13).
         tour += 1
 
         var resultat = ResultatTour(question: question,
@@ -300,6 +310,7 @@ struct Combat: Sendable {
         let nom = camps[camp].actif.nom
         switch objet {
         case "potion":
+            guard !camps[camp].combattants[i].estKO else { return nil }
             let avant = camps[camp].combattants[i].pv
             camps[camp].combattants[i].pv = min(camps[camp].combattants[i].pvMax, avant + 30)
             return "Potion : \(nom) regagne \(camps[camp].combattants[i].pv - avant) PV"
