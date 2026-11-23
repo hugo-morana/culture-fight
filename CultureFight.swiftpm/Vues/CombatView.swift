@@ -15,6 +15,10 @@ struct CombatView: View {
     @State private var attaquesJouees = 0
     /// Compteur par camp : le combattant actif prend son élan quand il pose sa question.
     @State private var elans = [0, 0]
+    /// Gestes des illustrations par camp : coup donné, esquive, coup encaissé.
+    @State private var coups = [0, 0]
+    @State private var esquives = [0, 0]
+    @State private var touches = [0, 0]
     @Environment(\.accessibilityReduceMotion) private var mouvementReduit
     /// Présentation des deux équipes avec le « VS », puis pile ou face, avant la première question.
     @State private var presentation = true
@@ -37,7 +41,11 @@ struct CombatView: View {
                       impacts: controleur.impacts[1],
                       variation: controleur.variations[1],
                       elan: elans[1],
-                      delaiImpact: delaiImpact(camp: 1))
+                      delaiImpact: delaiImpact(camp: 1),
+                      role: role(camp: 1), enBas: false,
+                      coups: coups[1], esquives: esquives[1], touches: touches[1],
+                      reduit: mouvementReduit)
+                .zIndex(role(camp: 1) == .attaque ? 1 : 0)
                 .anchorPreference(key: CadresCamps.self, value: .bounds) { [1: $0] }
             ScrollView {
                 ZStack {
@@ -55,7 +63,11 @@ struct CombatView: View {
                       impacts: controleur.impacts[0],
                       variation: controleur.variations[0],
                       elan: elans[0],
-                      delaiImpact: delaiImpact(camp: 0))
+                      delaiImpact: delaiImpact(camp: 0),
+                      role: role(camp: 0), enBas: true,
+                      coups: coups[0], esquives: esquives[0], touches: touches[0],
+                      reduit: mouvementReduit)
+                .zIndex(role(camp: 0) == .attaque ? 1 : 0)
                 .anchorPreference(key: CadresCamps.self, value: .bounds) { [0: $0] }
         }
         .padding()
@@ -123,9 +135,9 @@ struct CombatView: View {
         }
     }
 
-    /// Centre de l'avatar d'une carte de camp (l'avatar est à gauche, 64 points de côté, 12 de marge).
+    /// Centre de l'illustration d'une carte de camp (à gauche, `PortraitCombat.taille`, 12 de marge).
     private static func avatar(_ cadre: CGRect) -> CGPoint {
-        CGPoint(x: cadre.minX + 44, y: cadre.minY + 44)
+        CGPoint(x: cadre.minX + 12 + PortraitCombat.taille.width / 2, y: cadre.minY + 12 + PortraitCombat.taille.height / 2)
     }
 
     /// Le camp que vise l'attaque du résultat affiché : il tremble à l'arrivée du coup, pas avant.
@@ -142,11 +154,41 @@ struct CombatView: View {
     }
 
     /// Élan à la question ; au résultat, l'attaque sur une mauvaise réponse (une bonne réponse est une esquive).
+    /// Rôle d'un camp pendant le tour : attaque pour celui qui pose la question, défense pour l'autre.
+    private func role(camp: Int) -> RoleCombat? {
+        switch controleur.phase {
+        case .question:
+            return camp == controleur.combat.attaquant ? .attaque : .defense
+        case .resultat(let resultat):
+            let defenseur = resultat.defenseurEstJoueur ? 0 : 1
+            return camp == defenseur ? .defense : .attaque
+        default:
+            return nil
+        }
+    }
+
+    /// Gestes des illustrations au résultat : l'attaquant s'élance ; le défenseur esquive (bonne réponse)
+    /// ou encaisse (mauvaise réponse) ; s'il riposte aussitôt, il s'élance à son tour.
+    private func animerLesIllustrations(_ resultat: ResultatTour) {
+        let defenseur = resultat.defenseurEstJoueur ? 0 : 1
+        let attaquant = 1 - defenseur
+        coups[attaquant] += 1
+        if resultat.correct {
+            esquives[defenseur] += 1
+            if resultat.degatsContre > 0 {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.55) { coups[defenseur] += 1 }
+            }
+        } else if resultat.degatsDefenseur > 0 || resultat.degatsAbsorbes > 0 {
+            touches[defenseur] += 1
+        }
+    }
+
     private func reagirALaPhase() {
         switch controleur.phase {
         case .question:
             elans[controleur.combat.attaquant] += 1
         case .resultat(let resultat):
+            animerLesIllustrations(resultat)
             guard let vise = campVise(resultat) else { return }
             let tireur = 1 - vise
             let famille = controleur.combat.camps[tireur].actif.modele.familleStyle
@@ -229,14 +271,21 @@ struct CarteCamp: View {
     var elan: Int = 0
     /// Attente avant de trembler, le temps que l'attaque arrive.
     var delaiImpact: Double = 0
+    /// Rôle du camp pendant le tour, et gestes de son illustration.
+    var role: RoleCombat? = nil
+    var enBas = false
+    var coups = 0
+    var esquives = 0
+    var touches = 0
+    var reduit = false
 
     var body: some View {
         let actif = camp.actif
         VStack(alignment: .leading, spacing: 8) {
             ZStack {
                 HStack(spacing: 12) {
-                    Avatar(modele: actif.modele, taille: 64)
-                        .saturation(actif.estKO ? 0 : 1)
+                    PortraitCombat(modele: actif.modele, estKO: actif.estKO, role: role, enBas: enBas,
+                                   coups: coups, esquives: esquives, touches: touches, reduit: reduit)
                         .overlay {
                             if actif.estKO {
                                 Text("K.O.")
@@ -311,8 +360,8 @@ struct CarteCamp: View {
         .modifier(EffetImpact(declencheur: impacts, variation: variation, delai: delaiImpact))
         .overlay(alignment: .topLeading) {
             ElanAttaque(declencheur: elan, picto: actif.modele.familleStyle.picto)
-                .padding(.leading, 30)
-                .padding(.top, 20)
+                .padding(.leading, 12 + PortraitCombat.taille.width / 2 - 17)
+                .padding(.top, 12 + PortraitCombat.taille.height / 2 - 30)
         }
         .overlay(alignment: .topTrailing) {
             ChiffreEnvole(declencheur: impacts, variation: variation, delai: delaiImpact)
