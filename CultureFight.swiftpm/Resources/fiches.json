@@ -308585,6 +308585,358 @@
     ],
     "explication": "Avec 萬 (10⁴), c'est l'un des deux seuls grands ordres d'usage courant.",
     "source": "https://areq.net/lang/fr/Noms_des_grands_nombres.html"
+   },
+   {
+    "enonce": "Dans quelle ville Georg Cantor est-il né en 1845 ?",
+    "bonne": "Saint-Pétersbourg",
+    "faux": [
+     "Berlin",
+     "Halle",
+     "Vienne"
+    ],
+    "explication": "Il est né dans la colonie de marchands de Saint-Pétersbourg, puis a fait toute sa carrière à Halle, en Allemagne.",
+    "source": "https://mathshistory.st-andrews.ac.uk/DSB/Cantor.pdf"
+   },
+   {
+    "enonce": "Dans quelle ville universitaire allemande Georg Cantor est-il mort en 1918 ?",
+    "bonne": "Halle",
+    "faux": [
+     "Göttingen",
+     "Berlin",
+     "Leipzig"
+    ],
+    "explication": "Il y est mort le 6 janvier 1918, à 72 ans, après avoir enseigné à l'université de Halle presque toute sa vie.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/g/Georg_Cantor.htm"
+   },
+   {
+    "enonce": "Quelle théorie mathématique Georg Cantor a-t-il fondée ?",
+    "bonne": "La théorie des ensembles",
+    "faux": [
+     "La théorie des groupes",
+     "Le calcul différentiel",
+     "La théorie des probabilités"
+    ],
+    "explication": "Elle permet de comparer la taille d'ensembles infinis, ce que personne n'osait faire sérieusement avant lui.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/g/Georg_Cantor.htm"
+   },
+   {
+    "enonce": "Quel mathématicien berlinois a traité Cantor de « charlatan scientifique » et de « corrupteur de la jeunesse » ?",
+    "bonne": "Leopold Kronecker",
+    "faux": [
+     "Karl Weierstrass",
+     "David Hilbert",
+     "Bernhard Riemann"
+    ],
+    "explication": "Kronecker refusait l'infini achevé ; il a dirigé les mathématiques à Berlin jusqu'à sa mort, en 1891.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/g/Georg_Cantor.htm"
+   },
+   {
+    "enonce": "Quel savant français a qualifié les idées de Cantor de « maladie grave » des mathématiques ?",
+    "bonne": "Henri Poincaré",
+    "faux": [
+     "Évariste Galois",
+     "Joseph Fourier",
+     "Pierre-Simon de Laplace"
+    ],
+    "explication": "Poincaré faisait partie des nombreux opposants : la théorie des ensembles a mis des décennies à être acceptée.",
+    "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/wp/g/Georg_Cantor.htm"
+   },
+   {
+    "enonce": "En quelle année Cantor a-t-il publié son célèbre argument de la diagonale ?",
+    "bonne": "1891",
+    "faux": [
+     "1874",
+     "1905",
+     "1850"
+    ],
+    "explication": "Ce n'était pas sa première preuve que les réels ne sont pas dénombrables : une autre était parue dès 1874.",
+    "source": "https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument"
+   },
+   {
+    "enonce": "Que montre l'argument de la diagonale de Cantor ?",
+    "bonne": "Les nombres réels ne sont pas dénombrables",
+    "faux": [
+     "Les fractions ne sont pas dénombrables",
+     "Il y a autant de réels que d'entiers",
+     "Pi est un nombre irrationnel"
+    ],
+    "explication": "On ne peut pas numéroter tous les réels : il y a donc des infinis plus grands que celui des entiers.",
+    "source": "https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument"
+   },
+   {
+    "enonce": "Dans quels célèbres résultats du XXe siècle la méthode de la diagonale a-t-elle resservi ?",
+    "bonne": "Les théorèmes d'incomplétude de Gödel",
+    "faux": [
+     "La relativité d'Einstein",
+     "Le théorème de Fermat",
+     "La conjecture de Poincaré"
+    ],
+    "explication": "La même astuce a aussi servi à Turing pour montrer qu'un programme ne peut pas décider de tout.",
+    "source": "https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument"
+   },
+   {
+    "enonce": "Quel ensemble Cantor a-t-il montré dénombrable dès 1873, à la surprise générale ?",
+    "bonne": "Les nombres rationnels",
+    "faux": [
+     "Les nombres réels",
+     "Les points d'un segment",
+     "Les nombres transcendants"
+    ],
+    "explication": "Les fractions peuvent être rangées une à une à côté des entiers 1, 2, 3… : il y en a donc « autant ».",
+    "source": "https://mathshistory.st-andrews.ac.uk/SH/cantor_sh.pdf"
+   },
+   {
+    "enonce": "De quel alphabet vient la lettre aleph (ℵ) que Cantor utilise pour les tailles d'infinis ?",
+    "bonne": "L'alphabet hébreu",
+    "faux": [
+     "L'alphabet grec",
+     "L'alphabet arabe",
+     "L'alphabet cyrillique"
+    ],
+    "explication": "Aleph est la première lettre de l'alphabet hébreu ; ℵ₀ est la taille de l'ensemble des entiers naturels.",
+    "source": "https://www-users.york.ac.uk/~ss44/cyc/c/cont.htm"
+   },
+   {
+    "enonce": "Comment appelle-t-on ℵ₀, la taille de l'ensemble des entiers naturels ?",
+    "bonne": "Aleph zéro",
+    "faux": [
+     "Oméga un",
+     "Infini réel",
+     "Puissance du continu"
+    ],
+    "explication": "C'est le plus petit des nombres infinis ; les ensembles de cette taille sont dits dénombrables.",
+    "source": "https://www-users.york.ac.uk/~ss44/cyc/c/cont.htm"
+   },
+   {
+    "enonce": "Quelle conjecture affirme qu'il n'existe aucun infini entre celui des entiers et celui des réels ?",
+    "bonne": "L'hypothèse du continu",
+    "faux": [
+     "La conjecture de Goldbach",
+     "L'hypothèse de Riemann",
+     "Le paradoxe de Russell"
+    ],
+    "explication": "Cantor l'a énoncée en 1878 et a cru toute sa vie pouvoir la démontrer, sans jamais y parvenir.",
+    "source": "https://en.wikipedia.org/wiki/Continuum_hypothesis"
+   },
+   {
+    "enonce": "Quel mathématicien a montré en 1963 qu'on ne peut pas démontrer l'hypothèse du continu ?",
+    "bonne": "Paul Cohen",
+    "faux": [
+     "Kurt Gödel",
+     "Alan Turing",
+     "John von Neumann"
+    ],
+    "explication": "Avec Gödel (1940), qui avait montré qu'on ne peut pas la réfuter, il prouve qu'elle est indécidable.",
+    "source": "https://en.wikipedia.org/wiki/Continuum_hypothesis"
+   },
+   {
+    "enonce": "Quelle récompense Paul Cohen a-t-il reçue en 1966 pour son travail sur l'hypothèse du continu ?",
+    "bonne": "La médaille Fields",
+    "faux": [
+     "Le prix Nobel",
+     "Le prix Abel",
+     "Le prix Turing"
+    ],
+    "explication": "Il l'a reçue à Moscou ; le problème était le premier de la célèbre liste de Hilbert de 1900.",
+    "source": "https://www.britannica.com/biography/Paul-Joseph-Cohen"
+   },
+   {
+    "enonce": "Quel « paradis » David Hilbert refusait-il qu'on chasse les mathématiciens ?",
+    "bonne": "Le paradis de Cantor",
+    "faux": [
+     "Le paradis d'Euclide",
+     "Le paradis de Newton",
+     "Le paradis des nombres premiers"
+    ],
+    "explication": "Il l'a dit lors d'une conférence à Münster le 4 juin 1925, pour défendre la théorie des ensembles.",
+    "source": "https://en.wikipedia.org/wiki/Cantor%27s_paradise"
+   },
+   {
+    "enonce": "Comment s'appelle l'ensemble obtenu en retirant sans fin le tiers du milieu de chaque segment ?",
+    "bonne": "L'ensemble de Cantor",
+    "faux": [
+     "Le flocon de Koch",
+     "Le tapis de Sierpiński",
+     "L'ensemble de Mandelbrot"
+    ],
+    "explication": "Cantor l'a décrit en 1883, mais l'Irlandais Henry Smith l'avait trouvé avant lui.",
+    "source": "https://en.wikipedia.org/wiki/Cantor_set"
+   },
+   {
+    "enonce": "Quelle longueur totale garde l'ensemble de Cantor, bien qu'il contienne une infinité non dénombrable de points ?",
+    "bonne": "Zéro",
+    "faux": [
+     "Un tiers",
+     "La moitié",
+     "Deux tiers"
+    ],
+    "explication": "Les morceaux retirés finissent par mesurer toute la longueur du segment, et pourtant il reste autant de points qu'au départ.",
+    "source": "https://en.wikipedia.org/wiki/Cantor_set"
+   },
+   {
+    "enonce": "Quel savant a remarqué en 1638 qu'il y a « autant » de carrés que de nombres entiers ?",
+    "bonne": "Galilée",
+    "faux": [
+     "Descartes",
+     "Pascal",
+     "Kepler"
+    ],
+    "explication": "Dans son dernier livre, « Discours sur deux sciences nouvelles », il en conclut qu'on ne peut pas comparer des infinis.",
+    "source": "https://en.wikipedia.org/wiki/Galileo%27s_paradox"
+   },
+   {
+    "enonce": "Qu'a conclu Galilée en voyant qu'on peut apparier chaque entier avec son carré ?",
+    "bonne": "Que « plus grand » et « plus petit » n'ont pas de sens pour l'infini",
+    "faux": [
+     "Qu'il y a plus de carrés que d'entiers",
+     "Que l'infini n'existe pas",
+     "Que les carrés sont en nombre fini"
+    ],
+    "explication": "Plus de deux siècles plus tard, Cantor montrera au contraire que certains infinis sont bien plus grands que d'autres.",
+    "source": "https://en.wikipedia.org/wiki/Galileo%27s_paradox"
+   },
+   {
+    "enonce": "En quelle année David Hilbert a-t-il raconté pour la première fois l'histoire de son hôtel infini ?",
+    "bonne": "1924",
+    "faux": [
+     "1900",
+     "1947",
+     "1874"
+    ],
+    "explication": "C'était dans un cours de janvier 1924, resté inédit jusqu'en 2013 : on a longtemps cru l'histoire inventée par d'autres.",
+    "source": "https://arxiv.org/abs/1403.0059"
+   },
+   {
+    "enonce": "Quel livre de George Gamow a rendu célèbre l'hôtel de Hilbert en 1947 ?",
+    "bonne": "« Un, deux, trois… l'infini »",
+    "faux": [
+     "« Une brève histoire du temps »",
+     "« Cosmos »",
+     "« Le Hasard et la Nécessité »"
+    ],
+    "explication": "Le physicien, connu pour le Big Bang, y raconte l'hôtel ; il faudra encore trente ans pour que l'idée devienne populaire.",
+    "source": "https://arxiv.org/abs/1403.0059"
+   },
+   {
+    "enonce": "Dans l'hôtel de Hilbert, plein, comment loger un nouveau client ?",
+    "bonne": "Chaque client passe de la chambre n à la chambre n + 1",
+    "faux": [
+     "On ajoute une chambre au bout",
+     "On le met dans le hall",
+     "On met deux clients par chambre"
+    ],
+    "explication": "La chambre 1 se libère : dire que toutes les chambres sont prises ne veut pas dire qu'il n'y a plus de place.",
+    "source": "https://sites.pitt.edu/~jdnorton/teaching/paradox/chapters/infinity_paradox/infinity_paradox.html"
+   },
+   {
+    "enonce": "Dans l'hôtel de Hilbert, comment loger une infinité de nouveaux clients ?",
+    "bonne": "Chaque client passe de la chambre n à la chambre 2n",
+    "faux": [
+     "Chaque client recule d'une chambre",
+     "On construit un second hôtel",
+     "C'est impossible"
+    ],
+    "explication": "Toutes les chambres impaires (1, 3, 5…) se libèrent, et il y en a une infinité.",
+    "source": "https://sites.pitt.edu/~jdnorton/teaching/paradox/chapters/infinity_paradox/infinity_paradox.html"
+   },
+   {
+    "enonce": "De quelle branche des mathématiques vient le nombre de Graham ?",
+    "bonne": "La théorie de Ramsey",
+    "faux": [
+     "La théorie des nœuds",
+     "La géométrie non euclidienne",
+     "Les probabilités"
+    ],
+    "explication": "C'est une borne supérieure à un problème de coloriage des arêtes d'un hypercube, étudié avec Bruce Rothschild.",
+    "source": "https://neugierde.github.io/cantors-attic/Graham's_number"
+   },
+   {
+    "enonce": "Quel journaliste scientifique a fait connaître le nombre de Graham dans Scientific American en 1977 ?",
+    "bonne": "Martin Gardner",
+    "faux": [
+     "Carl Sagan",
+     "Isaac Asimov",
+     "Stephen Jay Gould"
+    ],
+    "explication": "Il l'a présenté dans sa rubrique « Mathematical Games » de novembre 1977 ; Graham l'avait imaginé en discutant avec lui.",
+    "source": "https://en.wikipedia.org/wiki/Graham%27s_number"
+   },
+   {
+    "enonce": "Quel livre de records a cité le nombre de Graham dans son édition de 1980 ?",
+    "bonne": "Le Livre Guinness des records",
+    "faux": [
+     "L'Almanach Vermot",
+     "Le Quid",
+     "L'Encyclopædia Britannica"
+    ],
+    "explication": "Il y figurait comme le plus grand nombre jamais utilisé dans une démonstration mathématique sérieuse.",
+    "source": "https://en.wikipedia.org/wiki/Graham%27s_number"
+   },
+   {
+    "enonce": "Par quel chiffre se termine le nombre de Graham ?",
+    "bonne": "7",
+    "faux": [
+     "1",
+     "3",
+     "9"
+    ],
+    "explication": "Ses derniers chiffres se calculent sans connaître le nombre : ils finissent par …262464195387.",
+    "source": "https://en.wikipedia.org/wiki/Graham%27s_number"
+   },
+   {
+    "enonce": "Quelle notation inventée par Donald Knuth sert à écrire le nombre de Graham ?",
+    "bonne": "Les flèches de Knuth (↑)",
+    "faux": [
+     "Les factorielles (!)",
+     "Les intégrales (∫)",
+     "Les racines (√)"
+    ],
+    "explication": "Une flèche est une puissance, deux flèches une tour de puissances ; Graham empile 64 étapes de ce genre.",
+    "source": "https://en.wikipedia.org/wiki/Graham%27s_number"
+   },
+   {
+    "enonce": "Pourquoi ne pourrait-on pas écrire tous les chiffres du nombre de Graham ?",
+    "bonne": "L'Univers observable n'a pas assez de place",
+    "faux": [
+     "Il est infini",
+     "Il est irrationnel",
+     "Il n'a qu'un seul chiffre"
+    ],
+    "explication": "Même le nombre de ses chiffres serait trop long à écrire, et ainsi de suite un nombre de fois gigantesque.",
+    "source": "https://en.wikipedia.org/wiki/Graham%27s_number"
+   },
+   {
+    "enonce": "Quel mathématicien anglais a introduit le symbole ∞ pour l'infini ?",
+    "bonne": "John Wallis",
+    "faux": [
+     "Isaac Newton",
+     "Leonhard Euler",
+     "René Descartes"
+    ],
+    "explication": "Il l'emploie en 1655 dans « De sectionibus conicis », puis en 1656 dans « Arithmetica infinitorum ».",
+    "source": "https://mathshistory.st-andrews.ac.uk/HistTopics/Infinity/"
+   },
+   {
+    "enonce": "En quelle année le symbole ∞ apparaît-il pour la première fois dans un texte mathématique ?",
+    "bonne": "1655",
+    "faux": [
+     "1492",
+     "1789",
+     "1905"
+    ],
+    "explication": "John Wallis l'utilise dans un traité sur les coniques, sans jamais expliquer pourquoi il a choisi ce signe.",
+    "source": "https://en.wikipedia.org/wiki/Infinity_symbol"
+   },
+   {
+    "enonce": "Quel autre nom donne-t-on au symbole ∞, d'après une courbe de même forme ?",
+    "bonne": "Lemniscate",
+    "faux": [
+     "Spirale",
+     "Hélice",
+     "Cardioïde"
+    ],
+    "explication": "Les éleveurs, qui le marquent sur le bétail, l'appellent aussi le « huit couché ».",
+    "source": "https://en.wikipedia.org/wiki/Infinity_symbol"
    }
   ]
  },
